@@ -629,6 +629,8 @@ if (!Imported.CommonPopupCore) {
     };
 
     CommonPopupManager.showInfo = function (object, value, type, actor, c) {
+        let _judgeForReplace = false;//Added code
+
         var text1 = null;
         if (value === 0) { return }
         var se = { name: '', volume: 90, pitch: 100, pan: 0 };
@@ -671,6 +673,7 @@ if (!Imported.CommonPopupCore) {
                 text1 = object.value === 'max' ? fLvMaxText : fLvUpText;
                 break;
             default:
+                _judgeForReplace = true;//Added code
                 text1 = value;
         }
         if (text1 === '') return;
@@ -695,6 +698,13 @@ if (!Imported.CommonPopupCore) {
         text1 = text1.replace(/_num/g, Math.abs(value));
         text1 = descs[0] ? text1.replace(/_desc1/g, descs[0]) : text1.replace(/_desc1/g, '');
         text1 = descs[1] ? text1.replace(/_desc2/g, descs[1]) : text1.replace(/_desc2/g, '');
+
+        //---Added code---
+        if (_judgeForReplace) {
+            text1 = text1.replace(/_/g, " ");
+        }
+        //----------------
+
         var texts = text1.split(/\n|\\n/);
         for (var i = 0; i < texts.length; i++) {
             var text = texts[i].replace(/\\C\[\d+\]/g, '');
