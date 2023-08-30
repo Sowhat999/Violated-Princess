@@ -5161,14 +5161,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "What!? A group of slimes!? Are you trying to get"
+                                "\\n< Serena >What!? A swarm of slimes!? Are they trying to kill\nus!?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "killed!? \\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -5414,7 +5414,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "What did you say...!? \\n< Serena >"
+                                "\\n< Serena >What...!?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5438,7 +5445,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Heheheheheh... \\n< ??? >"
+                                "\\n< ？？？ >Hehehehe...!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5455,14 +5469,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "What's wrong, what's wrong? Are my Slime scared"
+                                "\\n< ？？？ >What's wrong? Are you scared of my little slime\nfriends and trying to run away?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "you and you're running away? \\n< ??? >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5479,14 +5500,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "If that's the case, then get out of here! You brat!"
+                                "\\n< ？？？ >Then go home, you brat! This is my kingdom! No one\ncan capture me!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "This is my kingdom! No one can catch me! \\n< ??? >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5528,7 +5556,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "...ugh... \\n< Serena >"
+                                "\\n< Serena >......Ugh......."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5552,7 +5587,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "...Oh...scary...indeed scary. Slimes are...yeah. \\n< Serena >"
+                                "\\n< Serena >......Ah......Scary....Indeed, slimes are\nscary...yes."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5621,21 +5670,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "Heh heh heh? Then what are you going to do? Besides"
+                                "\\n< Ghee >Hehehe...? Well then, what are you going to do?\nBesides running away with your tail between your\nlegs, do you have anything else you can do, huh?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "running away with your tail between your legs, do you"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "have any other options, huh? \\n< Guy >"
+                                ""
                             ]
                         },
                         {
@@ -5697,7 +5746,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "Well...I do feel like running away. \\n< Serena >"
+                                "\\n< Serena >Yeah... I do feel like running away."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5766,7 +5822,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "It took considerable courage to come this far. \\n< Serena >"
+                                "\\n< Serena >...It took a lot of courage to come this far."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5783,7 +5846,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "But to be truthful, all of this is your fault. \\n< Serena >"
+                                "\\n< Serena >But if we're being honest, all of this is your\nfault."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5807,7 +5884,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "Hmm...? \\n< Guy >"
+                                "\\n< Ghee >Hmmm...?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5869,14 +5953,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "If we weigh anger and fear on a scale, anger is"
+                                "\\n< Serena >If I were to weigh anger and fear on a scale,\nright now anger slightly outweighs."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "currently slightly winning. \\n< Serena >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5938,14 +6029,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "That's why I can take a step forward. I can move"
+                                "\\n< Serena >That's why I can step forward. I can move forward.\nIf I don't give you a blow, I won't be satisfied."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "forward. I won't be satisfied until I strike you down. \\n< Serena >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5969,7 +6067,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "Hey kid, can you see my slime? \\n< Guy >"
+                                "\\n< Ghee >Hey brat, can't you see my slime-chan?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -6080,7 +6185,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "I can see it. But I'll make it disappear quickly. \\n< Serena >"
+                                "\\n< Serena >I can see it. But I'll make it disappear soon."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -6152,7 +6264,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "...Are you Guy? \\n< Serena >"
+                                "\\n< Serena >......Are you Ghee?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -6221,21 +6340,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "Heh heh heh? Then what are you going to do? Besides"
+                                "\\n< Ghee >Hehehe...? Well then, what are you going to do?\nBesides running away with your tail between your\nlegs, do you have anything else you can do, huh?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "running away with your tail between your legs, do you"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "have any other options, huh? \\n< Guy >"
+                                ""
                             ]
                         },
                         {
@@ -6304,7 +6423,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "Hmm. \\n< Serena >"
+                                "\\n< Serena >...Hmmm."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -6321,14 +6447,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "The world is a vast place. Since coming to"
+                                "\\n< Serena >Makoto, the world is truly vast. Since coming to\nthis town, it has been a series of surprises."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "this town, I've been constantly amazed. \\n< Serena >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -6352,7 +6485,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "Hey...? \\n< Guy >"
+                                "\\n< Ghee >Hey...?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -6414,21 +6554,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "I never imagined there would be humans who can"
+                                "\\n< Serena >I never thought there would be a human who could\ncommunicate with slimes. No wonder they can make\nthe sewer their hideout."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "communicate with slimes. No wonder they can nest in"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "the sewers. \\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -6452,7 +6592,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "Hey kid, can you see my slime? \\n< Guy >"
+                                "\\n< Ghee >Hey brat, can't you see my slime-chan?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -6591,7 +6738,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "It's certainly visible, but it disappears quickly. \\n< Serena >"
+                                "\\n< Serena >I can see it, of course. But it will disappear\nsoon."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -6684,7 +6838,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "No, I still can't see you! \\n< Guy >"
+                                "\\n< Ghee >No, after all, you still can't see it!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -7053,7 +7214,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Hm?! \\n< Serena >"
+                                "\\n< Serena >Hmph!?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -7144,7 +7312,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Huh?! \\n< Guy >"
+                                "\\n< Ghee >Ahh...!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -7168,21 +7343,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "I can't believe they were hiding something this huge."
+                                "\\n< Serena >...So you were hiding something this huge. But\neven though it was a surprise attack, it was a\nfailure."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "But even with this surprise attack, it seems like we"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "failed. \\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -7248,14 +7423,28 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "Hehehe! Damn it! Despite clutching that huge belly,"
+                                "\\n< Ghee >Kukuu! Dammit! Even though you're laughing your\nass off, you're surprisingly agile, aren't you?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "you're surprisingly nimble, huh? \\n< Guy >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -7282,14 +7471,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "Kukuh! Dammit! You're not just a kid after all, you"
+                                "\\n< Ghee >Kukuu! Dammit! You're not just a brat after all,\nyou bastard!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "bastard! \\n< Guy >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -7323,7 +7519,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "My name is Serena F... \\n< Serena >"
+                                "\\n< Serena >My name is Serena..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -7368,7 +7571,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "...Serena. My name is Serena. \\n< Serena >"
+                                "\\n< Serena >......Serena. My name is Serena."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -7385,14 +7595,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Criminal Guy. You will tell me every detail about the"
+                                "\\n< Serena >Criminal Ghee. I'm going to make you spill all the\ndetails about the source of the poison."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "origin of the poison. \\n< Serena >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -7416,14 +7633,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Goddammit... There's no way I'm getting caught, no"
+                                "\\n< Ghee >Shit... There's no way I'm getting caught, no\nway...!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "way! \\n< Guy >"
+                                ""
                             ]
                         },
                         {
@@ -7493,7 +7710,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Slimes, protect me! Kill that brat! \\n< Guy >"
+                                "\\n< Ghee >Slimes, protect me! Kill that brat!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -7510,14 +7734,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "I'll melt and eat you alive, until your insides are"
+                                "\\n< Ghee >I'm gonna melt you from the inside out, turning\nyour organs into mush like jam! I'll dissolve you\nand devour you!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "mushy like jam, entering from your ass, yeeah! \\n< Guy >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -7554,7 +7785,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "......! \\n< Giant slime >"
+                                "\\n<Giant Slime>......゛！"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -7599,14 +7837,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Bring it on!"
+                                "\\n< Serena >Bring it on!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -8185,7 +8423,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Ugh...to be defeated by a slime like this...! \\n< Serena >"
+                                "\\n< Serena >Ngh... how could I be defeated by a mere slime...!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8209,7 +8454,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Grrr...Let go of me! \\n< Serena >"
+                                "\\n< Serena >Ugh... L-let go!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8233,14 +8485,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Gyahahaha! Look at it, you little brat! This is my"
+                                "\\n< Ghee >Gyahaha! Take a good look, you little shit! This\nis my power! The military might of my kingdom!!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "power! The military strength of my kingdom!!! \\n< Guy >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8264,7 +8523,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Huff, huff...! You...! \\n< Serena >"
+                                "\\n< Serena >Haa, haa... Kuh, you...!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8319,38 +8585,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Alright, good job! You're a good kid! That's enough!"
+                                "\\n< Ghee >Alright, good job! That's enough! Hand over that\nbrat to me!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "Hand that brat over to me! \\n< Guy >"
+                                ""
                             ]
                         },
                         {
-                            "code": 101,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "",
-                                0,
-                                2,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "With my adult penis! Guhuhu! Adults and children! Men"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "and women! \\n< Guy >"
+                                ""
                             ]
                         },
                         {
@@ -8367,14 +8616,52 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "The difference in position! I'll engrave it deeply in"
+                                "\\n< Ghee >With my adult cock, you know! Ghehehe! Adults and\nchildren! Men and women!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                2,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "you!! \\n< Guy >"
+                                "\\n< Ghee >I'll engrave the difference in our positions into\nyou thoroughly!! Oooohhh!!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8421,7 +8708,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Ugh...!? \\n< Serena >"
+                                "\\n< Serena >Ugh...!?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8445,7 +8739,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "...Hey? \\n< Guy >"
+                                "\\n< Ghee >...Hey?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8510,7 +8811,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "What?! \\n< Serena >"
+                                "\\n< Serena >Nwawaa!?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8567,7 +8875,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Ngh...! My, behind...! Th-This guy...!? \\n< Serena >"
+                                "\\n< Serena >Ngh...! My, my ass...! Th-this person...!?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8591,7 +8913,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Hey, you! Listen to me! You low-intelligence monster! \\n< Guy >"
+                                "\\n< Ghee >Hey!? Shit, listen to me! This low-intelligence\nmonster!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8654,7 +8990,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "A-are you unable to control it...!? \\n< Serena >"
+                                "\\n< Serena >C-Could it be that you can't control it...!?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8729,7 +9072,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Nggh! \\n< Serena >"
+                                "\\n< Serena >Ngh!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8786,7 +9136,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "So, then, here it is...! \\n< Serena >"
+                                "\\n< Serena >S-So, then, this person is...!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8861,7 +9218,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Nngh!? ... Ah! It's going in... slowly, bit by bit...! \\n< Serena >"
+                                "\\n< Serena >Nnku!?... Ahh!? It's entering... little by\nlittle...!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8918,7 +9289,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "No...! It's like this...! Ughh...!! \\n< Serena >"
+                                "\\n< Serena >No...! Like this...! Uuuuuhhh!!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9022,7 +9400,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "What the heck!? \\n< Serena >"
+                                "\\n< Serena >Nguuuaaa!?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9119,14 +9504,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Ah, ah... Can't stop...! Keep going...! To the"
+                                "\\n< Serena >Ah, aaah... I-it's going... deeper...! Deeper...!\nInside...!?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "back...!? \\n< Serena >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9223,7 +9615,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "I- no... ah-! What is this feeling...?! \\n< Serena >"
+                                "\\n< Serena >N-No... Ahh! This sensation... so intense...!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9298,14 +9704,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Ugh... my insides... it hurts...! Like this... it's"
+                                "\\n< Serena >Uuuh... Inside my body... It's... like this...\nUghh...!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "making me feel sick...! \\n< Serena >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9420,7 +9833,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Nguuuu!? \\n< Serena >"
+                                "\\n< Serena >Nguuuu!?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9477,7 +9897,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Ah, this is bad, bad! I can't stop...! \\n< Serena >"
+                                "\\n< Serena >Ahh, no, no! It won't stop...!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9545,7 +9979,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "H-How far in...?! \\n< Serena >"
+                                "\\n< Serena >H-How far is it going...!?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9613,7 +10054,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "My body... It's wriggling inside...! \\n< Serena >"
+                                "\\n< Serena >Inside my... body...! It's... squirming...!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9670,7 +10118,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "No, no...! \\n< Serena >"
+                                "\\n< Serena >No, no...!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9727,7 +10182,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Ungh...! \\n< Serena >"
+                                "\\n< Serena >Nngh... ugh...!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9831,7 +10293,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Kuha...! Ha...haaa...! \\n< Serena >"
+                                "\\n< Serena >Kuh...! Ha... haaa...!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9888,7 +10357,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Hmm... Hmm... Hmm...! \\n< Serena >"
+                                "\\n< Serena >Nngh... Nngh... Nngh...!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9945,14 +10421,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "W-What... do you want to do...?! Not kill me...! Not"
+                                "\\n< Serena >Wh-When... What is it...! You want... to do...!\nNot kill...! Not devour...!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "eat me...! \\n< Serena >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -10009,7 +10492,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "It's disgusting, it's disgusting, it's disgusting...! \\n< Serena >"
+                                "\\n< Serena >It's disgusting, it's disgusting, it's\ndisgusting...!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -10077,7 +10567,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Mmm... Hm?! \\n< Serena >"
+                                "\\n< Serena >Nngh... N...?!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -10134,7 +10631,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "What...something...? \\n< Serena >"
+                                "\\n< Serena >What... is... it...?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -10151,14 +10655,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Are you searching for something...groping around...?"
+                                "\\n< Serena >Are you searching for something... touching...\nme... in that way...?!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "How strange...! \\n< Serena >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -10233,7 +10744,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Hmph... Nngh...! \\n< Serena >"
+                                "\\n< Serena >Huh... Nngh...!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -10257,7 +10775,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Damn it! You're just enjoying it all by yourself!!! \\n< Guy >"
+                                "\\n< Ghee >Dammit! You're only enjoying yourself!!!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -10274,7 +10799,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "I am the king! The orders of the king are absolute! \\n< Guy >"
+                                "\\n< Ghee >I'm the king! The king's orders are absolute, you\nknow!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -10330,21 +10862,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "I said to kill them earlier, but that was just a slip"
+                                "\\n< Ghee >No, earlier I said to kill her! That was just a\nslip of the tongue! Cancel that! I'm the one who's\ngoing to enjoy it, you know! Hey!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "of the tongue! Cancel that order! I want to have some"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "fun! Hey! \\n< Guy >"
+                                ""
                             ]
                         },
                         {
@@ -10400,7 +10932,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Don't mess with me, you bastard...! Hey! \\n< Guy >"
+                                "\\n< Ghee >Don't mess around, you bastard...! Hey!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -10429,7 +10968,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Huh?! \\n< Guy >"
+                                "\\n< Ghee >Gah!?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -10828,14 +11374,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "...! ?"
+                                "\\n< Serena >...！？"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -10892,7 +11438,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "What...? The movement has stopped...? \\n< Serena >"
+                                "\\n< Serena >What...?... The movement stopped...?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -10949,7 +11502,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "This one, if...! \\n< Serena >"
+                                "\\n< Serena >If it's this...!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -11037,7 +11597,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Aaaaahhhhhhhhhhh!! \\n< Serena >"
+                                "\\n< Serena >Ahhhhhhhh!!!!!!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -11404,7 +11971,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Pu-geeee?! \\n< Guy >"
+                                "\\n< Ghee >Pugi!?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -11428,7 +12002,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "*Panting heavily* \\n< Serena >"
+                                "\\n< Serena >*Haa...* *Haa...*"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -11477,7 +12065,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Ugh...! \\n< Serena >"
+                                "\\n< Serena >Ugh...!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -11607,14 +12202,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "...Huh, the slime got away too. I suppose I should"
+                                "\\n< Serena >......Hah... The slime escaped too. Should I say I\ngot lucky...?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "count myself lucky... \\n< Serena >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -11676,14 +12278,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Or was it thanks to this man fainting? For an instant,"
+                                "\\n< Serena >Or is it thanks to this man fainting? For a\nmoment, the slime's movement clearly stopped..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "the movement of the slime clearly stopped... \\n< Serena >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -11745,7 +12354,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Ouch, that hurts. \\n< Serena >"
+                                "\\n< Serena >Nngh, it hurts."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -11769,7 +12385,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "It hurts when I remember it... \\n< Serena >"
+                                "\\n< Serena >It started hurting when I remembered..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -11793,21 +12416,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Pain throbs deep within my body... it's an unfamiliar"
+                                "\\n< Serena >The pain... it's coming from inside my body...\nIt's an unfamiliar pain. Even though it was for a\nshort time, I was treated as they pleased..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "pain. Even though it was only for a short time, I was"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "taken advantage of without restraint... \\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -11831,14 +12454,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "The sensation of being stirred around inside my belly"
+                                "\\n< Serena >The sensation of being moved around inside my\nstomach was incredibly disgusting..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "was incredibly unpleasant... \\n< Serena >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -11862,14 +12492,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "It's terrifying just to imagine what would have"
+                                "\\n< Serena >Just imagining what would have happened if I had\nbeen completely engulfed is terrifying..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "happened if we had been taken in just like that... \\n< Serena >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -11893,7 +12530,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "*Sigh*... \\n< Serena >"
+                                "\\n< Serena >*Haa...*"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -11917,7 +12561,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "However... Well. \\n< Serena >"
+                                "\\n< Serena >However... well."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -11965,21 +12616,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "With this stamina. There was a towering man in front"
+                                "\\n< Serena >With this stamina... There's a big man in front of\nme. In the end, I achieved my goal, so it's\nfine..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "of me. In the end, I was able to achieve my goal,"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "but... \\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -12041,7 +12692,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "How to carry this up there is the challenge... \\n< Serena >"
+                                "\\n< Serena >How to carry this person up. That's the difficult\npart..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -12406,7 +13071,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Whew \\n< Serena >"
+                                "\\n< Serena >*sighs*"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -12430,14 +13102,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "...Hiiyii... My slime friends... Ahh... My invincible"
+                                "\\n< Ghee >......Hehehe...... My slime-chan... my invincible\nkingdom... aaaaah......!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "kingdom...! \\n< Guy >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -12468,7 +13147,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Well, it's your turn now. \\n< Serena >"
+                                "\\n< Serena >...Well, it's your turn now."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -12492,7 +13178,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Ugh...hehe. \\n< Guy >"
+                                "\\n< Ghee >Ugh... H-heheh."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -12624,14 +13317,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Wow, you're so strong despite being young! Really"
+                                "\\n< Ghee >Oh my, you're so strong even though you're young!\nYou're really strong! I-I'm impressed!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "strong! Oh, I've witnessed it! \\n< Guy >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -12662,7 +13362,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "What an upbeat guy... \\n< Serena >"
+                                "\\n< Serena >You're quite cocky, aren't you..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -12686,7 +13393,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Hehehe... That's just my only strong point... \\n< Guy >"
+                                "\\n< Ghee >Uwehehe... That's the only thing I'm good at..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -12710,14 +13424,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "*Sigh*... I used to think that adult men were"
+                                "\\n< Serena >*sigh* I used to think that adult men were more\nrespectable..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "something worthy of more respect... \\n< Serena >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -12741,21 +13462,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Since coming to this town, I've only been increasingly"
+                                "\\n< Serena >Since coming to this town, my disappointment has\nonly grown. Or perhaps the people in this town are\njust special?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "disappointed. Or is it that the people in this town"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "are just special? \\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -12786,14 +13507,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "...Speaking of something special. How did you manage"
+                                "\\n< Serena >...Speaking of special. How exactly were you\ncontrolling the slime?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "to control the slime? \\n< Serena >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -12810,7 +13538,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "I've never heard of such a skill. \\n< Serena >"
+                                "\\n< Serena >I've never heard of such a special skill."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -12834,14 +13569,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Huh?... Oh, no... Hehe, to control like that... I'm"
+                                "\\n< Ghee >Huh?... Ah, well... hehe, to control it like\nthat... I'm nothing special..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "not capable of anything... \\n< Guy >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -12865,7 +13607,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "??? \\n< Serena >"
+                                "\\n< Serena >？？？"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -12889,14 +13638,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Hehehe... Well, just between you and me, Sister, shall"
+                                "\\n< Ghee >Ehehe... Then, just between us, sister, shall I\ntell you my trade secret?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "I tell you my trade secret? \\n< Guy >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -12920,7 +13676,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Sis... \\n< Serena >"
+                                "\\n< Serena >Sister..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -13011,14 +13774,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "There's a little secret packed inside this bottle, you"
+                                "\\n< Ghee >Inside this bottle... there's a little secret\npacked in there."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "know. \\n< Guy >"
+                                ""
                             ]
                         },
                         {
@@ -13035,21 +13798,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "If you have this, slimes won't attack me... I mean,"
+                                "\\n< Ghee >If I have this, the slime won't attack me... or\nrather, the owner... no, more accurately, as long\nas I have this bottle, it won't attack."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "the owner... Well, to be precise, they won't attack"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "this bottle. \\n< Guy >"
+                                ""
                             ]
                         },
                         {
@@ -13073,7 +13836,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Hmm... *sigh*...? \\n< Serena >"
+                                "\\n< Serena >*sigh*... Hm...?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -13097,14 +13867,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Black liquid...? I wonder what it is? Some kind of"
+                                "\\n< Serena >Black liquid...? I wonder what it is? Some kind of\nchemical?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "chemical? \\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -13128,7 +13898,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Oh, I see. That's how it is then. \\n< Guy >"
+                                "\\n< Ghee >Oh, really? It's just something like that."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -13152,21 +13929,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "*Sigh*... However, this is not a major discovery. This"
+                                "\\n< Serena >Sigh... But is this really such a groundbreaking\ndiscovery? This town must have struggled a lot\nwith controlling slimes too."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "town should also be struggling with controlling the"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "slimes. \\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -13183,14 +13960,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "How much easier would our struggles be with this"
+                                "\\n< Serena >With this liquid, I wonder how much those\nstruggles would be alleviated. No, there are\ncountless ways to utilize it..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "liquid? No, the ways to use it are endless... \\n< Serena >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -13214,14 +13998,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "If there was something like this, I wouldn't have had"
+                                "\\n< Serena >...If there was something like this, wouldn't\nthere have been no need to participate in the\ndistribution of poison?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "to be involved in the distribution of poison. \\n< Serena >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -13238,7 +14029,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "We could have easily made a fortune worth millions. \\n< Serena >"
+                                "\\n< Serena >We could have made an enormous fortune no matter\nhow much."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -13262,38 +14060,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Oh no, this was something I picked up. I didn't make"
+                                "\\n< Ghee >Oh, well. This is just something I picked up. It's\nnot like I made it or anything."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "it myself or anything. \\n< Guy >"
+                                ""
                             ]
                         },
                         {
-                            "code": 101,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "“Why only sell one bottle like this? Even if it sells,"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "it won't make much money, right?” \\n< Guy >"
+                                ""
                             ]
                         },
                         {
@@ -13310,14 +14091,45 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Even if I were to use it for something, my head"
+                                "\\n< Ghee >Why would selling just this one bottle be worth\nonly a small amount of money?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "wouldn't be able to handle it... \\n< Guy >"
+                                "\\n< Ghee >Even if I were to use it for something, it's\nbeyond my capabilities..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -13341,7 +14153,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "So, did they decide to use the sewers to sell poison? \\n< Serena >"
+                                "\\n< Serena >So, did you decide to use it to engage in poison\ndistribution by lurking in the sewers?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -13365,21 +14184,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "This is an irredeemable foolishness. A discovery that"
+                                "\\n< Serena >It's an unfathomable foolishness. A discovery that\ncould change the world... packed into such a cheap\nbottle..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "could change the world, being confined in such a cheap"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "bottle... \\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -13403,14 +14222,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "No, no, here's the thing. The fact that this bottle is"
+                                "\\n< Ghee >Oh no, that's not it. The fact that this bottle is\ncheap is what's gross about it, you know?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "cheap is just gross, you know? \\n< Guy >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -13434,7 +14260,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Hmm. \\n< Serena >"
+                                "\\n< Serena >Hmmm."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -13458,14 +14291,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "This already looks shoddy and fragile just by looking"
+                                "\\n< Ghee >Doesn't this look unfinished and fragile just by\nlooking at it? That's why I'm doing this."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "at it, doesn't it? That's why I'm doing it like this. \\n< Guy >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -13482,7 +14322,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "I could throw it and make it a distraction! \\n< Guy >"
+                                "\\n< Ghee >I could use it to blindside and confuse them by\nthrowing it!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -13650,7 +14497,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Huh!? \\n< Serena >"
+                                "\\n< Serena >Huh?!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -14196,7 +15050,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Oge...pwo...why heh...? \\n< Guy >"
+                                "\\n< Ghee >Oh...puh...why is it so...amazing...?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -14446,14 +15307,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "I just thought it would be something like that,"
+                                "\\n< Serena >I just thought it would be something like that\nanyway."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "anyway. \\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -14477,21 +15338,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "If you are prepared, it's easy to strike a sound fist"
+                                "\\n< Serena >If you're prepared, it's no big deal to throw a\npunch in the direction where you hear the sound,\neven if you can't see it."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "towards the direction of the sound, even if you cannot"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "see it. \\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -14515,7 +15376,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "D...Damn it...ugh! \\n< Guy >"
+                                "\\n< Ghee >D...damn it...guh!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -14539,7 +15407,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Hmph... \\n< Serena >"
+                                "\\n< Serena >Hmph..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -14563,14 +15438,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "However, the contents of the bottle that was just"
+                                "\\n< Serena >...However, the contents of the bottle that was\njust thrown at me..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "splashed on me... \\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -14587,21 +15462,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "So, you're saying that it escaped on its own? Could it"
+                                "\\n< Serena >So you're saying it escaped on its own, meaning it\nwas a slime? It had the power to control other\nslimes..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "have been a slime? One that has the power to control"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "other slimes... \\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -14625,14 +15500,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "... Shouldn't we have let them go? But it's too late"
+                                "\\n< Serena >...Shouldn't we have not let it escape? But even\nif we were to chase after it now..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "to chase them now... \\n< Serena >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -14656,14 +15538,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "......"
+                                "\\n< Serena >......."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {

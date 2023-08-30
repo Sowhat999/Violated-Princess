@@ -3878,14 +3878,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "I'm going to remove your blindfold and handcuffs now."
+                                "\\n< Male >...I'm going to remove the blindfold and handcuffs\nnow. Don't struggle. You'll only end up hurting\nyourself."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "Don't resist. You'll just be in pain if you do. \\n< Man >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -3961,7 +3968,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "...Mmm... \\n< Serena >"
+                                "\\n< Serena >...Mmm..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -3985,7 +3999,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Where is this...? \\n< Serena >"
+                                "\\n< Serena >This place..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -4009,21 +4030,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Oh, I see. This is like a waiting room for the"
+                                "\\n< Male >Oh, if you put it that way, it's like the\nbackstage of a product. The items to be exhibited\nare placed here just before being displayed."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "products. The items to be exhibited are placed here"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "just before the exhibition. \\n< Man >"
+                                ""
                             ]
                         },
                         {
@@ -4040,7 +4061,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "So, it's your turn next. \\n< Man >"
+                                "\\n< Male >In other words, it's your turn next."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -4064,14 +4092,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "I heard that a Unicorn is being auctioned off in this"
+                                "\\n< Serena >...In this auction, it seems that even unicorns\nare being listed for sale. Have they already been\nsold?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "auction. Has it already been sold? \\n< Serena >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -4095,7 +4130,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Huh? \\n< Man >"
+                                "\\n< Male >Huh?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -4112,45 +4154,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Why bother asking about things like that? It's none of"
+                                "\\n< Male >What's the point of asking such a thing? It's none\nof your business. You should worry about your own\nfuture."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "your business. You should worry more about your own"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "future. \\n< Man >"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "I just hope I can at least be kept by a somewhat"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "decent rich person and live until I grow up, you know? \\n< Man >"
+                                ""
                             ]
                         },
                         {
@@ -4167,7 +4185,45 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Gyahahaha! \\n< Man >"
+                                "\\n< Male >I hope you at least get to be owned by a decent\nrich person and live until you become an adult,\nokay?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n< Male >Gyahahaha!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -4584,14 +4640,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "......"
+                                "\\n< Serena >......."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -4615,7 +4671,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "*Sigh*...Splendor...Are you here? \\n< Serena >"
+                                "\\n< Serena >Haa... Splendore... Are you here...?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -4646,14 +4716,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "If only I had brought the ring... Then I could easily"
+                                "\\n< Serena >If only I had brought the ring with me... I could\nquickly get out of this cage and search for that\nchild..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "escape this cage and search for that child. \\n< Serena >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -4670,28 +4747,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Lady Cecilia's plan is currently progressing towards"
+                                "\\n< Serena >Cecilia's plan is currently progressing in the\nworst-case scenario. Even if I could equip the\nring on the altar, I wonder if it would really..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "the worst-case scenario. Even if we were able to equip"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "the ring atop the altar, I wonder if it would make any"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "difference... \\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -4772,14 +4842,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Applause and cheers... That must mean the item was"
+                                "\\n< Serena >Applause and cheers... Does that mean the item has\nbeen sold? In other words, is it my turn next...?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "sold. In other words, what's next... \\n< Serena >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -4803,14 +4880,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Ugh... My mouth is so dry... And my nose feels like"
+                                "\\n< Serena >Ugh... My mouth is dry... My nose feels tingly..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "it's burning... \\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -4834,7 +4911,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "The plan... It's not going well... \\n< Serena >"
+                                "\\n< Serena >The plan... isn't going well..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -4851,7 +4935,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "I, on the other hand... \\n< Serena >"
+                                "\\n< Serena >I..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5391,7 +5482,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Ugh... \\n< Serena >"
+                                "\\n< Serena >Ugh..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5415,14 +5513,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "It's your turn, kid. Transform your body for the last"
+                                "\\n< Male >It's your turn, brat. Change your body at the end."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "time. \\n< Man >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5765,7 +5870,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "...! \\n< Serena >"
+                                "\\n< Serena >...！"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5789,7 +5901,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Open your mouth. Move your tongue. Up, right, left. \\n< Man >"
+                                "\\n< Male >Open your mouth. Move your tongue. Up, right,\nleft."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5864,14 +5990,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Show me your ears. Open your fingers. Your armpit. No"
+                                "\\n< Male >Show me your ears. Open your fingers. Armpits. No\nproblem."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "problem. \\n< Man >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5902,7 +6035,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Hey. \\n< Man >"
+                                "\\n< Male >Hey."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5919,7 +6059,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Understood. \\n< Man >"
+                                "\\n< Male >Understood."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -6046,7 +6193,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Hey there! What's up!? \\n< Serena >"
+                                "\\n< Serena >Yaaahh!?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -6077,7 +6231,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "What... What is it!? \\n< Serena >"
+                                "\\n< Serena >Wha...what is it!?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -6101,38 +6262,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Bidding will begin for you. Our customers will need to"
+                                "\\n< Male >The bidding will begin for you. The customers need\nto see every inch of your body."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "inspect you thoroughly. \\n< Man >"
+                                ""
                             ]
                         },
                         {
-                            "code": 101,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "And besides, you don't need clothes anymore. From now"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "on, being naked is your dress code. \\n< Man >"
+                                ""
                             ]
                         },
                         {
@@ -6149,7 +6293,45 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Well, it depends on the master's hobbies. \\n< Man >"
+                                "\\n< Male >Besides, you don't need clothes anymore. From now\non, being naked is your formal attire."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n< Male >Well, it depends on the preferences of Master\nthough."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -6184,7 +6366,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Ugh... \\n< Serena >"
+                                "\\n< Serena >Ugh...ahh..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -6252,7 +6441,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Ah... ah... \\n< Serena >"
+                                "\\n< Serena >Ahh... Ah..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -6269,14 +6465,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "The situation... What should I do... What"
+                                "\\n< Serena >Th-the...situation...what should I do...what\nshould I do, what should I do."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "should I do, what should I do. \\n< Serena >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -6293,7 +6496,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "*heavy breathing* \\n< Serena >"
+                                "\\n< Serena >*Haa... Haa...*"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -6541,7 +6751,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "...! \\n< Serena >"
+                                "\\n< Serena >......！"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -6596,7 +6813,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "... *silence* ... \\n< Man >"
+                                "\\n< Male >.........."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -6613,7 +6837,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "......?.... \\n< Man >"
+                                "\\n< Male >.........？...."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -6939,7 +7170,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Ah... \\n< Serena >"
+                                "\\n< Serena >Ah......."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -6956,7 +7194,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Splendor... \\n< Serena >"
+                                "\\n< Serena >Su...Purendo...ru..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -7224,7 +7469,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Now... \\n< Serena >"
+                                "\\n< Serena >N...Now..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -7248,7 +7500,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Hmm? \\n< Man >"
+                                "\\n< Male >Hm?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -7941,14 +8200,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Oh, the Unicorn has been brought in. Its turn is after"
+                                "\\n< Male >Ah, a unicorn has been brought in. Its turn is\nnext for you. In other words, you are the opening\nact."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "yours, which means you're the opening act. \\n< Man >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -7965,21 +8238,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "I'll let you have one last look before you leave. This"
+                                "\\n< Male >Let me give you a glimpse before you leave. This\nwill be the last stroke of luck in your life,\nafter all."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "will probably be the luckiest thing that happens to"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "you in your entire life. \\n< Man >"
+                                ""
                             ]
                         },
                         {
@@ -8003,7 +8276,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ".......... \\n< Serena >"
+                                "\\n< Serena >............."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8051,7 +8331,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "(Luck... Is this my last stroke of luck in life?) \\n< Serena >"
+                                "\\n< Serena >(Luck... Is this the last stroke of luck in my\nlife?)"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8075,45 +8362,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "(Oh, no thanks, if it's as lucky as this, I don't care"
+                                "\\n< Serena >(Ah, it's fine. If it's such good luck, I don't\ncare if it's the last thing in my life...!)"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "if it's the last one in my life...!　I don't care if"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "it's the last one of my life...!) \\n< Serena >"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "Oh, Splendor! You, whom I have been searching for so"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "long, are now so close...! \\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -8130,28 +8393,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "(At last...I know where he is!"
+                                "\\n< Serena >(Oh, Splendour! You, whom I have been searching\nfor so long, are now so close...!)"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "All I have to do now is go out on the platform,"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "get the ring from Lady Cicilia, and come back here"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "again!) \\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -8168,14 +8424,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "(There is no more hesitation or fear from before."
+                                "\\n< Serena >(Finally... I found the location! I found where it\nis! All that's left is to go up on stage, receive\nthe ring from Lady Cecilia, and come back here!)"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "Courage wells up from the depths of my heart.) \\n< Serena >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8192,21 +8462,59 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "(Just a little more... I just need to hold on a little"
+                                "\\n< Serena >(There is no longer any hesitation or fear.\nCourage wells up from the depths of my heart.)"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "longer. Splendor, I will definitely come to your"
+                                "\\n< Serena >(...Just a little more. Just a little more\npatience. I will definitely come to rescue you,\nSplendour...! I will hold you in my arms once\nagain...!)"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "rescue! I will hold you in my arms once again!) \\n< Serena >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8368,7 +8676,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "... \\n< Man >"
+                                "\\n< Male >...."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8385,14 +8700,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Hmm. Ah, I hear you. I understand that preparations"
+                                "\\n< Male >...Hmm. Ah, I hear you. I understand the\npreparations."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "are necessary. \\n< Man >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8440,7 +8762,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Hey kid, it's finally your turn. \\n< Man >"
+                                "\\n< Male >Hey kid, it's finally your turn."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8457,7 +8786,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Be happy. Your bid is a special order. \\n< Man >"
+                                "\\n< Male >Rejoice. Your bid is a special order."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8474,14 +8810,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Can you please liven things up and warm up the"
+                                "\\n< Male >Please do your best to liven up the atmosphere and\nwarm up the place, okay?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "atmosphere? \\n< Man >"
+                                ""
                             ]
                         },
                         {
@@ -8505,14 +8841,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Hmph. I don't know nor do I care what it could be. Do"
+                                "\\n< Serena >...Hmph. I don't care what it is. You can do\nwhatever you want."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "whatever you want. \\n< Serena >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8529,14 +8872,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "I will endure any humiliation. I am not afraid of"
+                                "\\n< Serena >I will endure any humiliation. Right now, I am not\nafraid of anything."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "anything right now. \\n< Serena >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8796,7 +9146,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "!? \\n< Serena >"
+                                "\\n< Serena >！？"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8834,7 +9191,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "What a hellish scene... \\n< Cecilia >"
+                                "\\n< Cecilia >What a hellish scene..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8889,14 +9253,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Just to confirm, do you know the structure of the"
+                                "\\n< Cecilia >Just to make sure, do you understand the structure\nof the fortress? And the directions to get\noutside..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "fortress and the way to get outside? \\n< Cecilia >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8951,7 +9322,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "I apologize for being brought here almost blindfolded. \\n< Serena >"
+                                "\\n< Serena >I apologize, I was brought here blindfolded..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8975,14 +9353,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "I guess so... darn it...! Looks like I have to take"
+                                "\\n< Cecilia >Damn it... Argh...! I guess I have no choice but\nto lead the way...!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "the lead...! \\n< Cecilia >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9006,21 +9391,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "I'm going to run off now, but since I'm more than half"
+                                "\\n< Cecilia >Alright, I'll dash ahead, but more than half of it\nis a maze, so don't complain if we hit a dead end!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "Yamakan (an inexperienced person), don't complain even"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "if I hit a dead end, okay? \\n< Cecilia >"
+                                ""
                             ]
                         },
                         {
@@ -9044,7 +9429,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Understood, I'll follow and trust Lady Cecilia. \\n< Serena >"
+                                "\\n< Serena >Understood, I will trust you, Cecilia, and follow\nalong."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9828,21 +10220,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Hurry up and go to the auction venue on the south"
+                                "\\n< Male >Hurry up and go to the auction venue on the south\nside. If you're scared, I can give you some time\nto pray to the goddess statue."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "side. If you're scared, I can even give you time to"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "pray to the goddess statue. \\n< Man >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -10078,7 +10477,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Going back there now is like going to your death. \\n< Serena >"
+                                "\\n< Serena >...Going back there now is like going to die."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -10429,7 +10835,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Where are you going---!!! Hurry up! This way!! \\n< Cecilia >"
+                                "\\n< Cecilia >Where are you going?! Hurry up! Over here!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {

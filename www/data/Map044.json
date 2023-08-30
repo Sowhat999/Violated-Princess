@@ -2898,14 +2898,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "......"
+                                "\\n< Serena >......."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -2929,7 +2929,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Now, adventurer. I'd like to ask you something. \\n< Man >"
+                                "\\n< Male >Well, adventurer. I have a question for you."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -2946,7 +2960,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Do you understand what you have done? \\n< Man >"
+                                "\\n< Male >Do you understand what you have done...?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -2978,7 +2999,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "I did the right thing. \\n< Serena >"
+                                "\\n< Serena >I did the right thing."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -3003,7 +3031,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "I see. \\n< Man >"
+                                "\\n< Male >I see."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -3021,14 +3056,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "An unsuitable job has been assigned to an unsuitable"
+                                "\\n< Male >An unsuitable task has been assigned to an\nunsuitable person."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "person. \\n< Man >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -3046,7 +3088,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Accidents do happen, just like that. \\n< Man >"
+                                "\\n< Male >Accidents are exactly what happen like that."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -3064,7 +3113,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Big damage. It's a big loss. \\n< Man >"
+                                "\\n< Male >It's a big loss. A significant loss."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -3081,38 +3144,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "The total debt held by the women who ran away amounts"
+                                "\\n< Male >The total debt held by the women who ran away is\n58,000 S."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "to 58,000 S. \\n< Man >"
+                                ""
                             ]
                         },
                         {
-                            "code": 101,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "The opportunity loss caused by the recent incident"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "amounts to about 300,000 S. \\n< Man >"
+                                ""
                             ]
                         },
                         {
@@ -3129,21 +3175,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "In addition, you have an obligation to pay a penalty"
+                                "\\n< Male >The opportunity loss caused by this incident is\napproximately 300,000 S."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "of 800,000 S as a breach of the first, third, and"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "fourth provisions. \\n< Man >"
+                                ""
                             ]
                         },
                         {
@@ -3160,28 +3206,59 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "The total is 1,103,800 S. Taking into account the"
+                                "\\n< Male >Furthermore, you have an obligation to pay a\npenalty of 800,000 S for violations of the first,\nthird, and fourth provisions."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "future losses that this matter will bring to the"
+                                "\\n< Male >The total is 1,103,800 S. Taking into account the\nfuture losses that this case will bring to the\nguild, your debt to the guild has now reached\n2,000,000 S."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "guild, your debt to the guild has now increased to"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "2,000,000 S. \\n< Man >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -3199,7 +3276,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Any objections? \\n< Man >"
+                                "\\n< Male >Any objections?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -3224,7 +3308,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Not there. \\n< Serena >"
+                                "\\n< Serena >No."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -3248,7 +3339,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Oh? \\n< Man >"
+                                "\\n< Male >Oh?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -3273,14 +3371,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "I did what I was supposed to do. I have nothing to be"
+                                "\\n< Serena >I did what I had to do. There's nothing to be\nashamed of."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "ashamed of. \\n< Serena >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -3305,14 +3410,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "You should do what you must do. That's what fairness"
+                                "\\n< Serena >You should do what you should do. That's what\nfairness is, right?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "is about. \\n< Serena >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -3337,14 +3449,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Do you have a plan to repay such a large amount of"
+                                "\\n< Male >...Do you have any intention of repaying such a\nlarge amount of money on your own?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "money on your own? \\n< Man >"
+                                ""
                             ]
                         },
                         {
@@ -3369,7 +3481,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Not at the moment. Unfortunately, no. \\n< Serena >"
+                                "\\n< Serena >Not at the moment. Unfortunately not."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -3394,21 +3513,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Of course, if I am allowed to continue being an"
+                                "\\n< Serena >Of course, if I can continue being an adventurer,\nI have confidence that I will eventually be able\nto repay it."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "adventurer, I have confidence that I will eventually"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "be able to repay it. \\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -3433,7 +3552,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Of course, that choice is impossible. \\n< Man >"
+                                "\\n< Male >Of course, that choice is impossible."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -3451,14 +3577,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "However, if that's the case, we have no choice but to"
+                                "\\n< Male >However, if that's the case, we will have no\nchoice but to lay our hands on your only capital,\nwhich is your body."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "lay our hands on your only asset - your body. \\n< Man >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -3476,7 +3609,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "The problem is how to convert it into cash. \\n< Man >"
+                                "\\n< Male >The problem is how to convert it into cash."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -3539,7 +3679,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Boss. \\n< Subordinate >"
+                                "\\n< Subordinate >Boss."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -3557,7 +3704,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "I understand. \\n< Man >"
+                                "\\n< Male >I understand."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -3574,21 +3728,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "... Adventurer Serena. As a measure against the"
+                                "\\n< Male >...Adventurer Serena. As a measure against the\nlosses this time, we will strip you of your status\nas your own master."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "losses incurred during this mission, we will strip you"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "of your status as your own master. \\n< Man >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -3606,21 +3767,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "From today onwards, you shall be identified as a"
+                                "\\n< Male >From today onwards, you will be classified as an\nurban slave, and your qualification as a master\nwill be put up for auction to compensate for the\nlosses."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "urban slave, and your status as a master shall be"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "auctioned off to compensate for the losses. \\n< Man >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -3644,14 +3812,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Am I a slave? Owning slaves is supposed to be"
+                                "\\n< Serena >Me, a slave? According to the church law, owning\nslaves within the kingdom is supposed to be\nprohibited."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "forbidden within the kingdom under church law. \\n< Serena >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -3675,21 +3850,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "You become a city slave. As long as you are in the"
+                                "\\n< Male >You will become an urban slave. As long as you are\nin the city, your freedom to move, act, and own\nproperty will be restricted."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "city, your freedom of movement, action, and property"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "ownership will be restricted. \\n< Man >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -3707,21 +3889,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "This is not a forbidden slave of the church. The"
+                                "\\n< Male >This is not a forbidden slave according to the\nchurch. The words are similar... Oh, I just\nrealized. This is not good... It's a misleading\nexpression."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "similarity in words... oh, now I see. This is not"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "good... it's a misleading expression. \\n< Man >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -3738,14 +3927,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "It may be corrected eventually. But for now, you have"
+                                "\\n< Male >There may be corrections in the future. But for\nnow, you have become a status called an urban\nslave."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "become a city slave. \\n< Man >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -3770,7 +3966,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "They are such an unbearable bunch. \\n< Serena >"
+                                "\\n< Serena >...They are a bunch of unbearable idiots."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -3794,14 +3997,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Okay. You can do whatever you want, whether it's"
+                                "\\n< Serena >Fine. Do as you please, whether it's slavery or\nauctioning me off."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "selling slaves or auctions. \\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -3818,21 +4021,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "But no matter what title I may hold, I am who I am."
+                                "\\n< Serena >However, no matter what happens to my title, I am\nstill myself. I will not be treated like a wolf on\na leash with a dog collar."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "Let us not be like those who keep wolves on a dog's"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "leash. \\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -3856,14 +4059,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "A smart wolf would be satisfied with a dog collar. If"
+                                "\\n< Male >If you're a smart wolf, you should be satisfied\nwith a dog collar. If you know that it can get\neven worse."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "they know that things could get worse. \\n< Man >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -3881,7 +4091,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Take me with you. \\n< Man >"
+                                "\\n< Male >Take me with you."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -3899,7 +4116,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Hah! \\n< Subordinate >"
+                                "\\n< Subordinate >Hah!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {

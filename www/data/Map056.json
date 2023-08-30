@@ -2439,7 +2439,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "Excuse me, is it okay if I speak with you? \\n< Serena >"
+                                "\\n< Serena >Excuse me, is it alright?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -2464,7 +2471,21 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "W-Welcome. How may I assist you? \\n< Toolmaker >"
+                                "\\n<Item Shop>W-Welcome. How can I assist you?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -2489,7 +2510,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "I have something I want to get appraised! But...! \\n< Serena >"
+                                "\\n< Serena >I have something I want to get appraised!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -2514,7 +2542,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "Are you here to pick up your merchandise? \\n< Toolmaker >"
+                                "\\n<Item Shop>Are you here to pick up an item?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -2539,14 +2574,21 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "I have underwear. I want to sell it. It's not made of"
+                                "\\n< Serena >Underwear. I want to sell underwear. Not made of\nsilk. It's a luxury item."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "silk, but it's a luxury item. \\n< Serena >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -2571,7 +2613,21 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "Oh? Silk underwear, is it? That's quite exquisite. \\n< Toolmaker >"
+                                "\\n<Item Shop>Oh? Silk underwear, is it? That's quite fancy,\nisn't it?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -2589,7 +2645,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "May I take a look? \\n< Toolmaker >"
+                                "\\n<Item Shop>May I take a look?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -2614,14 +2677,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "Yes."
+                                "\\n< Serena >Hmm."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -2646,14 +2709,21 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "Hmm, the weaving of this fabric is definitely solid."
+                                "\\n<Item Shop>Hmmm. The fabric weave is certainly impressive. It\nhas a unique sheen and texture..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "It has a unique luster and texture... \\n< Toolmaker >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -2671,14 +2741,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "Indeed, silk. And it's high quality... What do you"
+                                "\\n<Item Shop>Indeed, silk. And a high-quality one at that...\nWhat would you like to do with it?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "need it for? \\n< Toolmaker >"
+                                ""
                             ]
                         },
                         {
@@ -2714,7 +2784,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "If you pet them too much in front of you... \\n< Serena >"
+                                "\\n< Serena >...If you keep stroking it in front of me like\nthat..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -2739,7 +2816,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "? \\n< Toolmaker >"
+                                "\\n<Item Shop>？"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -2771,7 +2855,21 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "No, it's nothing. Excuse me. Please continue. \\n< Serena >"
+                                "\\n< Serena >No, it's nothing. I apologize. Please continue."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -2796,7 +2894,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "*Sigh.* \\n< Toolmaker >"
+                                "\\n<Item Shop>Sigh."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -2814,14 +2919,21 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "Anyway, this is quite a valuable item. If you were to"
+                                "\\n<Item Shop>Anyway, this is quite a good item. If you sell it\nto our store... well, let me think."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "sell it to our store... let me see. \\n< Toolmaker >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -2839,7 +2951,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "I think it's around 1000S. \\n< Toolmaker >"
+                                "\\n<Item Shop>It would be around 1000S, I suppose."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -2875,7 +2994,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "1000!? \\n< Serena >"
+                                "\\n< Serena >１０００！？"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -2900,7 +3026,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "Why! \\n< Serena >"
+                                "\\n< Serena >Why!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -2925,7 +3058,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "Regardless of the reason why you're saying that. \\n< Toolmaker >"
+                                "\\n<Item Shop>Even if you ask why..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -2950,21 +3090,21 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "The purchase price for this is 100G! It cost 10,000S!"
+                                "\\n< Serena >The purchase price for this is 100G! It costs\n10,000S! No matter how you look at it, the price\nwon't be reduced to one-tenth!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "No matter how you look at it, the price won't decrease"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "to one-tenth of that! \\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -2989,14 +3129,21 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "I do not know the purchase price, but we also have a"
+                                "\\n<Item Shop>I don't know about the purchase price... but as\nfor us, we are in the business."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "business to run on our end. \\n< Toolmaker >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -3013,14 +3160,21 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "When considering profits, the amount of coins that can"
+                                "\\n<Item Shop>When considering profits, the amount of coins we\ncan offer right now would be around that much."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "be paid now becomes limited, doesn't it? \\n< Toolmaker >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -3045,7 +3199,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "However... 1000 is... \\n< Serena >"
+                                "\\n< Serena >However... 1000..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -3069,38 +3230,21 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "As for small underwear for children like this, there"
+                                "\\n<Item Shop>Since it's such small, children's underwear, there\nisn't much demand for it."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "isn't much demand for them. \\n< Toolmaker >"
+                                ""
                             ]
                         },
                         {
-                            "code": 101,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "There is no point in selling high-priced and high-"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "quality items if they do not sell. \\n< Toolmaker >"
+                                ""
                             ]
                         },
                         {
@@ -3117,21 +3261,45 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "Even considering it as fabric, it's difficult to"
+                                "\\n<Item Shop>There's no point in having expensive and high-\nquality items if they don't sell."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 2,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "refashion it into something else when it's this"
+                                "\\n<Item Shop>Even if we consider it as fabric, it's difficult\nto remake it into something else when it's this\nsmall..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "small... \\n< Toolmaker >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -3155,7 +3323,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "So it's 1000S... \\n< Serena >"
+                                "\\n< Serena >So it's 1000S..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -3172,14 +3347,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "I believe I'm offering a fairly reasonable suggestion"
+                                "\\n<Item Shop>I believe we have made a fairly reasonable offer."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "even with this. \\n< Toolmaker >"
+                                ""
                             ]
                         },
                         {
@@ -3204,7 +3379,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "......That is...... \\n< Serena >"
+                                "\\n< Serena >.......That is......."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -3229,7 +3411,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "Maybe...I don't know. \\n< Serena >"
+                                "\\n< Serena >Maybe... I don't know."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -3253,7 +3442,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "What can I help you with? \\n< Toolmaker >"
+                                "\\n<Item Shop>How may I assist you?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -3261,8 +3457,8 @@
                             "indent": 2,
                             "parameters": [
                                 [
-                                    "Sell it to someone else.",
-                                    "Cancel"
+                                    "I would like to sell it",
+                                    "Stop"
                                 ],
                                 1,
                                 -1,
@@ -3300,7 +3496,14 @@
                             "code": 401,
                             "indent": 3,
                             "parameters": [
-                                "No...I understand. I want to sell it. \\n< Serena >"
+                                "\\n< Serena >No... I understand. I want you to buy it from me."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 3,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -3324,7 +3527,14 @@
                             "code": 401,
                             "indent": 3,
                             "parameters": [
-                                "Even though it's just 1000S, it's appreciated now. \\n< Serena >"
+                                "\\n< Serena >Even though it's 1000S, I'm grateful for it now."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 3,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -3348,14 +3558,21 @@
                             "code": 401,
                             "indent": 3,
                             "parameters": [
-                                "Understood. I will take it from here and handle the"
+                                "\\n<Item Shop>Understood. I will take it here."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 3,
                             "parameters": [
-                                "pick-up. \\n< Toolmaker >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 3,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -3373,7 +3590,21 @@
                             "code": 401,
                             "indent": 3,
                             "parameters": [
-                                "The price is 1000S. Please confirm. \\n< Toolmaker >"
+                                "\\n<Item Shop>The payment is 1000S. Please confirm."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 3,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 3,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -3426,7 +3657,14 @@
                             "code": 401,
                             "indent": 3,
                             "parameters": [
-                                "Hmm. \\n< Serena >"
+                                "\\n< Serena >......Hmm."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 3,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -3451,14 +3689,21 @@
                             "code": 401,
                             "indent": 3,
                             "parameters": [
-                                "Thank you very much for your visit. We look forward to"
+                                "\\n<Item Shop>Thank you very much. We look forward to your next\nvisit."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 3,
                             "parameters": [
-                                "seeing you again. \\n< Toolmaker >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 3,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -3534,14 +3779,21 @@
                             "code": 401,
                             "indent": 3,
                             "parameters": [
-                                "I'm sorry. I can't make a hasty decision. I need some"
+                                "\\n< Serena >I apologize. I can't make a decision so easily. I\nwould like some time to think."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 3,
                             "parameters": [
-                                "time to think. \\n< Serena >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 3,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -3566,7 +3818,21 @@
                             "code": 401,
                             "indent": 3,
                             "parameters": [
-                                "Understood. Here is your underwear. \\n< Toolmaker >"
+                                "\\n<Item Shop>Understood. We will return this underwear to you."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 3,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 3,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -3584,7 +3850,14 @@
                             "code": 401,
                             "indent": 3,
                             "parameters": [
-                                "Please feel free to change your mind anytime. \\n< Toolmaker >"
+                                "\\n<Item Shop>Please feel free to come back anytime if your\nthoughts change."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 3,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -3609,14 +3882,14 @@
                             "code": 401,
                             "indent": 3,
                             "parameters": [
-                                "......"
+                                "\\n< Serena >......."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 3,
                             "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -3673,8 +3946,8 @@
                             "indent": 2,
                             "parameters": [
                                 [
-                                    "I came to buy items.",
-                                    "I came to sell underwear."
+                                    "I came to buy items",
+                                    "I came to sell underwear"
                                 ],
                                 0,
                                 -1,
@@ -3732,14 +4005,28 @@
                             "code": 401,
                             "indent": 3,
                             "parameters": [
-                                "Excuse me, is everything all right? The amount will be"
+                                "\\n<Item Shop>Is that acceptable? The amount is 1000S. Is that\nalright with you?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 3,
                             "parameters": [
-                                "1000S. Is that alright with you? \\n< Toolmaker >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 3,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 3,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -3747,8 +4034,8 @@
                             "indent": 3,
                             "parameters": [
                                 [
-                                    "Sell underwear.",
-                                    "Cancel"
+                                    "Selling underwear",
+                                    "Stop"
                                 ],
                                 1,
                                 -1,
@@ -3785,7 +4072,14 @@
                             "code": 401,
                             "indent": 4,
                             "parameters": [
-                                "...I understand. I would like to sell it. \\n< Serena >"
+                                "\\n< Serena >...Understood. I want you to buy it from me."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 4,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -3803,7 +4097,14 @@
                             "code": 401,
                             "indent": 4,
                             "parameters": [
-                                "Even though it's just 1000S, it's appreciated now. \\n< Serena >"
+                                "\\n< Serena >Even though it's 1000S, I'm grateful for it now."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 4,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -3827,14 +4128,21 @@
                             "code": 401,
                             "indent": 4,
                             "parameters": [
-                                "Understood. I will take it from here and handle the"
+                                "\\n<Item Shop>Understood. We will take it here."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 4,
                             "parameters": [
-                                "pick-up. \\n< Toolmaker >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 4,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -3852,7 +4160,21 @@
                             "code": 401,
                             "indent": 4,
                             "parameters": [
-                                "The price is 1000S. Please confirm. \\n< Toolmaker >"
+                                "\\n<Item Shop>The payment is 1000S. Please confirm."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 4,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 4,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -3905,7 +4227,14 @@
                             "code": 401,
                             "indent": 4,
                             "parameters": [
-                                "Hmm. \\n< Serena >"
+                                "\\n< Serena >......Hmm."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 4,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -3930,14 +4259,21 @@
                             "code": 401,
                             "indent": 4,
                             "parameters": [
-                                "Thank you very much for your visit. We look forward to"
+                                "\\n<Item Shop>Thank you very much. We look forward to your next\nvisit."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 4,
                             "parameters": [
-                                "seeing you again. \\n< Toolmaker >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 4,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -4012,14 +4348,21 @@
                             "code": 401,
                             "indent": 4,
                             "parameters": [
-                                "I'm sorry. I can't make a hasty decision. I need some"
+                                "\\n< Serena >I apologize. I can't make a decision so easily. I\nwould like some time to think."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 4,
                             "parameters": [
-                                "time to think. \\n< Serena >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 4,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -4044,7 +4387,21 @@
                             "code": 401,
                             "indent": 4,
                             "parameters": [
-                                "Understood. Here is your underwear. \\n< Toolmaker >"
+                                "\\n<Item Shop>Understood. We will return this underwear to you."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 4,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 4,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -4062,7 +4419,14 @@
                             "code": 401,
                             "indent": 4,
                             "parameters": [
-                                "Please feel free to change your mind anytime. \\n< Toolmaker >"
+                                "\\n<Item Shop>Please feel free to come back anytime if your\nthoughts change."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 4,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -4087,14 +4451,14 @@
                             "code": 401,
                             "indent": 4,
                             "parameters": [
-                                "......"
+                                "\\n< Serena >......."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 4,
                             "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -4194,7 +4558,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "I'm sorry. Can we meet again...? \\n< Serena >"
+                                "\\n< Serena >I apologize. Can I come back again...?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -4218,7 +4589,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "Oh my, and who might you be? \\n< Toolmaker >"
+                                "\\n<Item Shop>Oh, it's you..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -4235,7 +4613,21 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "Welcome. Can I help you sell something again? \\n< Toolmaker >"
+                                "\\n<Item Shop>Welcome. Can I help you with anything else?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -4259,7 +4651,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "I would like to have this appraised next time. \\n< Serena >"
+                                "\\n< Serena >This time, I would like to have this appraised."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -4283,21 +4682,28 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "Is this a nightdress... a negligee? The design and"
+                                "\\n<Item Shop>Nightwear... Is it a negligee? The design and\nmaterial of this one are more sophisticated than\nthe underwear you received last time."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "material are even more sophisticated than the"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "underwear I received last time. \\n< Toolmaker >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -4328,7 +4734,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "I wonder, with this, maybe around 2000 S... \\n< Serena >"
+                                "\\n< Serena >I wonder, with this, maybe around 2000S..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -4352,14 +4765,21 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "This is also a rather good item but... unfortunately,"
+                                "\\n<Item Shop>This is also quite a good item... but the size\nissue still remains."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "the issue of size persists. \\n< Toolmaker >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -4376,14 +4796,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "If you sell it at our store, it would still be 1000S,"
+                                "\\n<Item Shop>If we were to buy it from you, it would still be\naround 1000S."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "right? \\n< Toolmaker >"
+                                ""
                             ]
                         },
                         {
@@ -4407,14 +4827,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "......"
+                                "\\n< Serena >......."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -4438,14 +4858,21 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "I believe this is a high-end, custom-made item, but as"
+                                "\\n<Item Shop>I believe this is a high-quality, custom-made\nitem, but as a second-hand item, that aspect is\nactually a problem."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "a second-hand product, that is actually the issue. \\n< Toolmaker >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -4462,14 +4889,21 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "If you're looking to buy sleepwear in this size, it"
+                                "\\n<Item Shop>Those who want to buy this size of nightwear...\nare quite..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "can be quite difficult... \\n< Toolmaker >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -4493,7 +4927,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "I see... That would certainly be the case... \\n< Serena >"
+                                "\\n< Serena >I see... That's probably true..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -4517,7 +4958,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "What can I help you with? \\n< Toolmaker >"
+                                "\\n<Item Shop>Can I help you with anything?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -4525,8 +4973,8 @@
                             "indent": 2,
                             "parameters": [
                                 [
-                                    "Sell it to someone else.",
-                                    "Cancel"
+                                    "I want to sell it",
+                                    "Stop"
                                 ],
                                 1,
                                 -1,
@@ -4563,7 +5011,14 @@
                             "code": 401,
                             "indent": 3,
                             "parameters": [
-                                "...So please, I'm counting on you. \\n< Serena >"
+                                "\\n< Serena >...I'll go with that."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 3,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -4587,14 +5042,21 @@
                             "code": 401,
                             "indent": 3,
                             "parameters": [
-                                "Understood. I will take it from here and handle the"
+                                "\\n<Item Shop>Understood. I will take it here for you."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 3,
                             "parameters": [
-                                "pick-up. \\n< Toolmaker >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 3,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -4612,7 +5074,21 @@
                             "code": 401,
                             "indent": 3,
                             "parameters": [
-                                "The price is 1000S. Please confirm. \\n< Toolmaker >"
+                                "\\n<Item Shop>The price is 1000S. Please confirm."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 3,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 3,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -4665,7 +5141,14 @@
                             "code": 401,
                             "indent": 3,
                             "parameters": [
-                                "Hmm. \\n< Serena >"
+                                "\\n< Serena >......Hmm."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 3,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -4690,14 +5173,21 @@
                             "code": 401,
                             "indent": 3,
                             "parameters": [
-                                "Thank you very much for your visit. We look forward to"
+                                "\\n<Item Shop>Thank you very much. We look forward to your next\nvisit."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 3,
                             "parameters": [
-                                "seeing you again. \\n< Toolmaker >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 3,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -4762,14 +5252,21 @@
                             "code": 401,
                             "indent": 3,
                             "parameters": [
-                                "I'm sorry. I can't make a hasty decision. I need some"
+                                "\\n< Serena >I apologize. I can't make a decision so easily. I\nwould like some time to think."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 3,
                             "parameters": [
-                                "time to think. \\n< Serena >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 3,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -4794,7 +5291,21 @@
                             "code": 401,
                             "indent": 3,
                             "parameters": [
-                                "Understood. Here is your underwear. \\n< Toolmaker >"
+                                "\\n<Item Shop>Understood. Then, I will return this underwear to\nyou."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 3,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 3,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -4812,7 +5323,14 @@
                             "code": 401,
                             "indent": 3,
                             "parameters": [
-                                "Please feel free to change your mind anytime. \\n< Toolmaker >"
+                                "\\n<Item Shop>Please feel free to come back anytime if you\nchange your mind."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 3,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -4837,14 +5355,14 @@
                             "code": 401,
                             "indent": 3,
                             "parameters": [
-                                "......"
+                                "\\n< Serena >......."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 3,
                             "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -4901,8 +5419,8 @@
                             "indent": 2,
                             "parameters": [
                                 [
-                                    "I came to buy items.",
-                                    "I came to sell negligee."
+                                    "I came to buy items",
+                                    "Came to sell negligee"
                                 ],
                                 0,
                                 -1,
@@ -4960,14 +5478,28 @@
                             "code": 401,
                             "indent": 3,
                             "parameters": [
-                                "Excuse me, is everything all right? The amount will be"
+                                "\\n<Item Shop>Is that acceptable? The price is 1000S. Is that\nalright with you?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 3,
                             "parameters": [
-                                "1000S. Is that alright with you? \\n< Toolmaker >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 3,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 3,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -4975,8 +5507,8 @@
                             "indent": 3,
                             "parameters": [
                                 [
-                                    "Sell underwear.",
-                                    "Cancel"
+                                    "Selling underwear",
+                                    "Stop"
                                 ],
                                 1,
                                 -1,
@@ -5013,7 +5545,14 @@
                             "code": 401,
                             "indent": 4,
                             "parameters": [
-                                "...So please, I'm counting on you. \\n< Serena >"
+                                "\\n< Serena >...I'll go with that."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 4,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5037,14 +5576,21 @@
                             "code": 401,
                             "indent": 4,
                             "parameters": [
-                                "Understood. I will take it from here and handle the"
+                                "\\n<Item Shop>Understood. I will take it here for you."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 4,
                             "parameters": [
-                                "pick-up. \\n< Toolmaker >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 4,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5062,7 +5608,21 @@
                             "code": 401,
                             "indent": 4,
                             "parameters": [
-                                "The price is 1000S. Please confirm. \\n< Toolmaker >"
+                                "\\n<Item Shop>The price is 1000S. Please confirm."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 4,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 4,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5115,7 +5675,14 @@
                             "code": 401,
                             "indent": 4,
                             "parameters": [
-                                "Hmm. \\n< Serena >"
+                                "\\n< Serena >......Hmm."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 4,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5140,14 +5707,21 @@
                             "code": 401,
                             "indent": 4,
                             "parameters": [
-                                "Thank you very much for your visit. We look forward to"
+                                "\\n<Item Shop>Thank you very much. We look forward to your next\nvisit."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 4,
                             "parameters": [
-                                "seeing you again. \\n< Toolmaker >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 4,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5211,14 +5785,21 @@
                             "code": 401,
                             "indent": 4,
                             "parameters": [
-                                "I'm sorry. I can't make a hasty decision. I need some"
+                                "\\n< Serena >I apologize. I can't make a decision so easily. I\nwould like some time to think."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 4,
                             "parameters": [
-                                "time to think. \\n< Serena >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 4,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5243,7 +5824,21 @@
                             "code": 401,
                             "indent": 4,
                             "parameters": [
-                                "Understood. Here is your underwear. \\n< Toolmaker >"
+                                "\\n<Item Shop>Understood. Then, I will return this underwear to\nyou."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 4,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 4,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5261,7 +5856,14 @@
                             "code": 401,
                             "indent": 4,
                             "parameters": [
-                                "Please feel free to change your mind anytime. \\n< Toolmaker >"
+                                "\\n<Item Shop>Please feel free to come back anytime if your\nthoughts change."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 4,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5286,14 +5888,14 @@
                             "code": 401,
                             "indent": 4,
                             "parameters": [
-                                "......"
+                                "\\n< Serena >......."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 4,
                             "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -5449,7 +6051,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "Welcome, customer. \\n< Toolmaker >"
+                                "\\n<Item Shop>Welcome, customer."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5487,14 +6096,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "No matter how much of a pervert someone may be, they"
+                                "\\n<Item Shop>No matter what kind of pervert you may be, you are\nstill a customer."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "are still a customer. \\n< Toolmaker >"
+                                ""
                             ]
                         },
                         {
@@ -5549,7 +6158,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "Madam... Your visit in that outfit... \\n< Toolmaker >"
+                                "\\n<Item Shop>Customer... coming to the store dressed like\nthat..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5587,14 +6210,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "I think there are things that should be purchased"
+                                "\\n<Item Shop>I think there are things that should be purchased\nbefore the items."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "before tools. \\n< Toolmaker >"
+                                ""
                             ]
                         },
                         {
@@ -5660,14 +6283,21 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "Well, well, if it isn't a customer. That certainly is"
+                                "\\n<Item Shop>Well, well, well. This is quite a splendid outfit\nyou have there, customer."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "a very nice outfit you're wearing. \\n< Toolmaker >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5705,14 +6335,21 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "We also have sewing needles and threads, so please"
+                                "\\n<Item Shop>We also have sewing needles and thread for sewing.\nPlease take a look if you're interested."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "take a look if you're interested. \\n< Toolmaker >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5788,7 +6425,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "Welcome. Are you getting ready to welcome your child? \\n< Toolmaker >"
+                                "\\n<Item Shop>Welcome. Are you here to prepare for welcoming a\nchild?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5826,14 +6477,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "If you need anything, we can also prepare baby clothes"
+                                "\\n<Item Shop>If you have any requests, we can also prepare baby\nclothes for you."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "and such. \\n< Toolmaker >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5867,7 +6525,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Welcome. What can I help you with? \\n< Toolmaker >"
+                                "\\n<Item Shop>Welcome. What do you need?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5912,7 +6584,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "We look forward to your next visit. \\n< Toolmaker >"
+                                "\\n<Item Shop>We look forward to your next visit."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -6128,7 +6807,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "Welcome, customer. \\n< Toolmaker >"
+                                "\\n<Item Shop>Welcome, valued customer."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -6166,14 +6852,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "No matter how much of a pervert someone may be, they"
+                                "\\n<Item Shop>No matter what kind of pervert you may be, you are\nstill a valued customer."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "are still a customer. \\n< Toolmaker >"
+                                ""
                             ]
                         },
                         {
@@ -6228,7 +6914,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "Madam... Your visit in that outfit... \\n< Toolmaker >"
+                                "\\n<Item Shop>Customer... coming to the store dressed like\nthat..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -6266,14 +6966,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "I think there are things that should be purchased"
+                                "\\n<Item Shop>I believe there are things that should be\npurchased before the items."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "before tools. \\n< Toolmaker >"
+                                ""
                             ]
                         },
                         {
@@ -6339,14 +7039,21 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "Well, well, if it isn't a customer. That certainly is"
+                                "\\n<Item Shop>Well, well, well. This is quite a splendid outfit\nyou have there, valued customer."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "a very nice outfit you're wearing. \\n< Toolmaker >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -6384,14 +7091,21 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "We also have sewing needles and threads, so please"
+                                "\\n<Item Shop>We also have sewing needles and thread for sewing,\nso please take a look if you're interested."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "take a look if you're interested. \\n< Toolmaker >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -6467,7 +7181,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "Welcome. Are you getting ready to welcome your child? \\n< Toolmaker >"
+                                "\\n<Item Shop>Welcome. Are you here to prepare for welcoming a\nchild?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -6505,14 +7233,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "If you need anything, we can also prepare baby clothes"
+                                "\\n<Item Shop>If you have any requests, we can also prepare baby\nclothes and such for you."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "and such. \\n< Toolmaker >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -6546,7 +7281,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Welcome. What can I help you with? \\n< Toolmaker >"
+                                "\\n<Item Shop>Welcome. What do you need?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -6591,7 +7340,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "We look forward to your next visit. \\n< Toolmaker >"
+                                "\\n<Item Shop>We look forward to your next visit."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -6710,14 +7466,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Aperion?...That's quite a name. Could it be some kind"
+                                "\\n< Serena >Apelon?... That's quite a name. It must be some\nkind of medicine."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "of medicine? \\n< Serena >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -6829,14 +7592,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "It's a balance."
+                                "\\n< Serena >It's a balance."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -6853,14 +7616,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "It seems like it's going to be used for selling by"
+                                "\\n< Serena >It seems like it's used for measuring."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "weight. \\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -6972,7 +7735,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "It's a leather bag. \\n< Serena >"
+                                "\\n< Serena >It's a leather bag."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -6989,21 +7759,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "This seems convenient for carrying the merchandise"
+                                "\\n< Serena >It looks convenient for carrying merchandise. It\nseems like it's arranged with that kind of demand\nin mind."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "home. It must have been arranged with such demand in"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "mind. \\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -7115,7 +7885,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "It's cloth. \\n< Serena >"
+                                "\\n< Serena >It's fabric."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -7132,14 +7909,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "The fabric is thick. It doesn't seem suitable for use"
+                                "\\n< Serena >The fabric is thick. It doesn't seem suitable for\ncurtains."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "as a curtain. \\n< Serena >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -7251,7 +8035,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "It's cloth. \\n< Serena >"
+                                "\\n< Serena >It's cloth."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -7268,14 +8059,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Linen? The feel isn't that great. I wish I had some"
+                                "\\n< Serena >Linen, huh? The texture isn't very good. I was\nhoping for some Grazia wool..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "Grazia wool instead... \\n< Serena >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -7387,14 +8185,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "It's a scroll."
+                                "\\n< Serena >It's a scroll."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -7411,21 +8209,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Brain transfer system. Is it really okay for"
+                                "\\n< Serena >Neural Transfer Scroll. Are adventurers really\nokay using something like this on a regular basis?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "adventurers to use something like this on a regular"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "basis? \\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -7537,14 +8335,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "It's a book."
+                                "\\n< Serena >Here's a book."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -7561,14 +8359,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "The Mirror Owl?... Is it a comedy book? I'm not"
+                                "\\n< Serena >A mirror owl?... Is it a comedy book? I'm not\nreally interested."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "really interested. \\n< Serena >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -7680,14 +8485,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "It's a shelf."
+                                "\\n< Serena >It's the shelf."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -7704,21 +8509,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "The inside is empty. I wonder if they're selling the"
+                                "\\n< Serena >It's empty inside. Is this shelf itself for sale?\nIt's not useful to buy it now, just becomes\nluggage."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "shelf itself. It wouldn't be anything more than just"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "baggage if I were to buy it now. \\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -7830,7 +8635,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "This is a cloth... no, a scroll made of papyrus. \\n< Serena >"
+                                "\\n< Serena >This is cloth... no, a scroll made of papyrus."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -7847,21 +8659,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "It looks deteriorated just by looking at it. I'm a"
+                                "\\n< Serena >It looks deteriorated just by looking at it. I'm a\nlittle scared to open it. It's probably something\nbeing sold as interior decoration."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "little scared to open it. It's probably being sold as"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "an interior decoration. \\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -7973,14 +8785,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "It's a bag."
+                                "\\n< Serena >It's a bag."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -7997,14 +8809,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Is the content biscuits? It's okay to buy them for"
+                                "\\n< Serena >Is it filled with biscuits? I could buy it for\nemergencies, but I'm concerned about the\nquality..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "emergencies, but I'm worried about the quality... \\n< Serena >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8116,7 +8935,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "It's a hat. \\n< Serena >"
+                                "\\n< Serena >Here's the hat."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8133,14 +8959,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "For some reason, Splendor gets angry when I wear a"
+                                "\\n< Serena >I don't know why, but Splendore gets angry when I\nwear the hat. Is it because of the silhouette?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "hat. I wonder if my silhouette looks scary to him? \\n< Serena >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8252,14 +9085,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "It's a box."
+                                "\\n< Serena >It's a box."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -8276,14 +9109,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "This box is not for sale. I wonder what kind of"
+                                "\\n< Serena >This box is not for sale. I wonder what kind of\nproduct was inside?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "merchandise was inside? \\n< Serena >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8395,7 +9235,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Small items are lined up inside the box. \\n< Serena >"
+                                "\\n< Serena >There are small items lined up inside the box."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8412,14 +9259,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Everything here is a daily necessity. I don't need"
+                                "\\n< Serena >These are all daily necessities. They are all\nthings that I don't need right now."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "any of them at the moment. \\n< Serena >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8531,7 +9385,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "There are small bottles and bags contained within. \\n< Serena >"
+                                "\\n< Serena >The small bottles and bags are stored."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8548,14 +9409,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "I don't understand the purpose of these things. Horse"
+                                "\\n< Serena >I don't understand the purpose of these things.\nHorse pepper...?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "pepper...? \\n< Serena >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8667,14 +9535,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "This is a recovery potion."
+                                "\\n< Serena >Here's the healing potion."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -8691,7 +9559,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "It would be good to purchase it in advance. \\n< Serena >"
+                                "\\n< Serena >It would be fine to purchase it."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8794,14 +9669,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "This is a recovery potion."
+                                "\\n< Serena >Here's the healing potion."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -8818,14 +9693,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "There's no need for money anymore. We should buy as"
+                                "\\n< Serena >There's no longer any need for money. We should\nbuy as much as possible."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "much as possible. \\n< Serena >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8937,14 +9819,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "It's a box."
+                                "\\n< Serena >It's a box."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -8961,28 +9843,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "The box is in the way and my hand cannot reach the"
+                                "\\n< Serena >The box is in the way, making it impossible to\nreach the bottle at the back perfectly. Of course,\nit would be easy to solve by either getting on the\nbox or calling a store clerk, but I don't really\nhave a strong desire to check the bottle to that\nextent..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "bottle in the back. It would be easy to solve by either"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "standing on the box or calling the shop assistant, but"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "I don't really want to go that far to check the bottle. \\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -9094,14 +9976,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "It's a box."
+                                "\\n< Serena >It's a box."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -9118,14 +10000,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "...It's in the way. I can't reach the bottle in the"
+                                "\\n< Serena >...It's in the way. Because of this box, I can't\nreach the bottle in the back..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "back because of this box... \\n< Serena >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9237,14 +10126,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "This is a bookshelf."
+                                "\\n< Serena >It's the bookshelf."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -9261,14 +10150,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Free will theory... Song of Solomon peace"
+                                "\\n< Serena >Free will theory... Song of Songs... These are all\nbooks I've read before."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "agreement... It's all books I've read before. \\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -9380,14 +10269,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "This is a bookshelf."
+                                "\\n< Serena >It's the bookshelf."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -9404,14 +10293,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "It looks like a shelf of comic books. I suppose these"
+                                "\\n< Serena >It seems like a shelf for erotic books. I suppose\nthese kinds of books are more popular among the\ngeneral public."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "books are more popular among the common people. \\n< Serena >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9523,14 +10419,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Flower."
+                                "\\n< Serena >Flowers."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -9642,7 +10538,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "I wonder what's going on. \\n< Serena >"
+                                "\\n< Serena >What's going on?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9659,21 +10562,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Are they just arranging the things brought in"
+                                "\\n< Serena >Are you just randomly arranging the things that\nwere brought in? Hand mirrors, foreign copper\ncoins, unfinished embroidery..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "haphazardly? A hand mirror, foreign copper coins, and"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "an unfinished embroidery... \\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -9785,7 +10688,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "I wonder what's going on. \\n< Serena >"
+                                "\\n< Serena >What's going on?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9802,21 +10712,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Are you just arranging random things that have been"
+                                "\\n< Serena >Are you just randomly arranging the things that\nwere brought in? A key with no known purpose?\nWhat's the point of buying something like this?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "brought in? A key with no known purpose? What's the"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "point of buying something like this? \\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -9928,7 +10838,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "The seasoning is placed there. \\n< Serena >"
+                                "\\n< Serena >The seasoning is placed here."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9945,14 +10862,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "There's jam, preserves, and even blueberry sauce."
+                                "\\n< Serena >There's jam, preserves... and even blueberry\nsauce. Maybe I should buy them..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "Maybe I should buy some... \\n< Serena >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -10064,7 +10988,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "The seasoning is placed there. \\n< Serena >"
+                                "\\n< Serena >The seasoning is placed here."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -10081,14 +11012,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "It seems that alcohol has been used for the items on"
+                                "\\n< Serena >It seems that alcohol is used for the items on\nthis shelf. Doing such unnecessary things..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "this shelf. They really do unnecessary things... \\n< Serena >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -10200,7 +11138,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "It's a notice posted. \\n< Serena >"
+                                "\\n< Serena >It's a notice."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -10217,21 +11162,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Help wanted for shop assistant...Live-in"
+                                "\\n< Serena >Job opening for store staff... Live-in position...\nMonthly salary of 200S. Work for one month and get\n2G..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "position...Monthly salary of 200S. Work for one month"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "and receive 2G. \\n< Serena >"
+                                ""
                             ]
                         },
                         {

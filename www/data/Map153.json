@@ -7376,7 +7376,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "I cannot leave my post. \\n< Serena >"
+                                "\\n< Serena >I can't leave my post."
                             ]
                         },
                         {
@@ -7536,7 +7536,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "The prepared maid uniform is..."
+                                "The prepared maid uniforms..."
                             ]
                         },
                         {
@@ -7544,8 +7544,8 @@
                             "indent": 1,
                             "parameters": [
                                 [
-                                    "Proper maid uniform.",
-                                    "Short frilly maid outfit."
+                                    "Proper maid uniforms",
+                                    "Short, frilly maid uniforms"
                                 ],
                                 -2,
                                 -1,
@@ -7973,7 +7973,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Is Virginia here? \\n< Head maid >"
+                                "\\n<Head Maid>Virginia-san?"
                             ]
                         },
                         {
@@ -8035,7 +8035,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Hmm. Ah... \\n< Serena >"
+                                "\\n< Serena >Yes..."
                             ]
                         },
                         {
@@ -8060,7 +8060,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Yes, what is it, Head Maid? \\n< Serena >"
+                                "\\n< Serena >...Yes, what is it, Head Maid?"
                             ]
                         },
                         {
@@ -8084,14 +8084,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "The cleaning here is already sufficient. Please move"
+                                "\\n<Head Maid>The cleaning here is already sufficient. Please\nmove on to the next area."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "on to the next location. \\n< Head maid >"
+                                ""
                             ]
                         },
                         {
@@ -8108,21 +8108,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "You must clean thoroughly the entire second floor. It"
+                                "\\n<Head Maid>You must thoroughly clean the entire second floor.\nIt may be tough for a newcomer like you, but\nplease do it efficiently."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "may be tough for you as a new member, but please do it"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "efficiently. \\n< Head maid >"
+                                ""
                             ]
                         },
                         {
@@ -8147,7 +8147,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Understood. I will start right away. \\n< Serena >"
+                                "\\n< Serena >Understood. I will start right away."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8172,7 +8179,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Please. \\n< Head maid >"
+                                "\\n<Head Maid>Please."
                             ]
                         },
                         {
@@ -8286,21 +8293,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Cleaning the entire second floor? Perfect timing. I'll"
+                                "\\n< Serena >Cleaning the entire second floor, huh? That works\nout well. While I work, I'll search for the\nbathroom and unlock the window."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "search for the bathroom while I work and open the"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "window lock. \\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -8324,14 +8331,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "If I take too long, they might suspect something."
+                                "\\n< Serena >If I take too long, it might raise suspicion. I'll\nfinish quickly."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "Let's finish quickly. \\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -8724,14 +8731,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Hmm, the window frame here. There's a little bit of"
+                                "\\n< Serena >Hm, there's a bit of dust left on this window\nframe. I can't believe I overlooked something like\nthis..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "dust left. I overlooked something as simple as this. \\n< Serena >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8755,21 +8769,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "This is where one's mindset shows, in the details."
+                                "\\n< Serena >It is in these small details that one's attitude\nis revealed. It's not about whether someone sees\nit or not..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "It's not about whether someone is watching or not, but"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "rather... \\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -8786,7 +8800,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "...whisk...whisk... \\n< Serena >"
+                                "\\n< Serena >......Dust, dust......dust, dust......."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8875,7 +8896,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Miss Virginia. Are you still here? \\n< Head maid >"
+                                "\\n<Head Maid>Virginia-san. Are you still here?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8930,7 +8958,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Oh, Head Maid!? \\n< Serena >"
+                                "\\n< Serena >Ah, Head Maid!?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9013,7 +9048,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "I'm sorry. I got carried away with cleaning... \\n< Serena >"
+                                "\\n< Serena >I'm sorry. I got completely absorbed in\ncleaning..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9037,38 +9086,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Since it's your first day, it would be good if you"
+                                "\\n<Head Maid>Since it's your first day, it would be good for\nyou to gradually get used to managing your work\nschedule."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "can gradually get used to the time allocation for your"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "tasks. \\n< Head maid >"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "Lunch is now ready. Please come to the dining hall. \\n< Head maid >"
+                                ""
                             ]
                         },
                         {
@@ -9085,7 +9117,45 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Let's all eat together. \\n< Head maid >"
+                                "\\n<Head Maid>Besides that, the preparations for lunch are\ncomplete. Please come to the dining hall."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n<Head Maid>Let's all eat together."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9109,7 +9179,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Understood. \\n< Serena >"
+                                "\\n< Serena >Understood."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9411,7 +9488,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Virginia. \\n< Head maid >"
+                                "\\n<Head Maid>Virginia-san."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9435,7 +9519,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Head maid, I have finished cleaning. It is perfect. \\n< Serena >"
+                                "\\n< Serena >Head Maid, I have finished cleaning. It's perfect."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9459,21 +9557,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "I see. That's quite early. I'll check everything to"
+                                "\\n<Head Maid>...I see. You're quite fast. I will check if there\nare any issues myself, so Serena, please rest on\nthe first floor until mealtime."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "make sure there are no issues, so please rest on the"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "first floor until the meal begins, Serena. \\n< Head maid >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9497,7 +9602,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Understood. Well then, excuse me. \\n< Serena >"
+                                "\\n< Serena >Understood. Well then, excuse me."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9650,14 +9762,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Well, even if I'm told to rest...I should gather some"
+                                "\\n< Serena >Well, even if I'm told to rest... I guess I'll do\nsome information gathering to prepare for\ntomorrow."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "information to prepare for tomorrow. \\n< Serena >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9674,21 +9793,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "I should quickly do now while I have the"
+                                "\\n< Serena >Since I'll have to start working again as soon as\nmealtime begins, I should quickly finish the task\nwhile I have the freedom to move around."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "freedom to move, because once the meal begins, I'll"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "have to work again soon. \\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -9940,14 +10059,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "It doesn't seem like there's been any commotion. It"
+                                "\\n< Serena >...It seems that there hasn't been any commotion.\nIt appears that Cecilia hasn't been found."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "appears that Cecilia has not been found yet. \\n< Serena >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -10044,21 +10170,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "But now I don't know what the situation is with"
+                                "\\n< Serena >However, now I don't know Cecilia's situation. Did\nthe commotion go as planned?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "Cecilia. Will she be okay to cause a"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "commotion as planned? \\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -10113,14 +10239,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "...No, wait. Don't act rashly. It would be bad to make"
+                                "\\n< Serena >...Wait. Don't act rashly. It wouldn't be good to\nmake any more mistakes."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "any more mistakes. \\n< Serena >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -10144,14 +10277,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "She may have left some signs if it's her. I have to"
+                                "\\n< Serena >Besides, she might have left some signs. We need\nto search for any traces carefully..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "search for traces carefully... \\n< Serena >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -10340,7 +10480,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Oh. \\n< Serena >"
+                                "\\n< Serena >Ah."
                             ]
                         },
                         {
@@ -10604,7 +10744,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Cecilia...In a place like this...! \\n< Serena >"
+                                "\\n< Serena >Lord Cecilia....Wh-why are you in a place like\nthis...!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -10635,21 +10782,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "You...! You're patrolling right in front of me! I took"
+                                "\\n< Cecilia >You...! You're patrolling so obviously! You jumped\nin without thinking and have been hiding here\nuntil now!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "a chance and jumped in, and I've been cooped up here"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "ever since! \\n< Cecilia >"
+                                ""
                             ]
                         },
                         {
@@ -10673,14 +10820,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "I-I'm sorry...it's my mistake. There's really no deep"
+                                "\\n< Serena >I-I'm sorry... It's my mistake.... There's\nabsolutely no deep meaning behind this...!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "reason for this...! \\n< Serena >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -10704,14 +10858,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "No more talking! I got the goods, so let's make a"
+                                "\\n< Cecilia >No time for talking! I've got the goods, so go\ncause a commotion on the first floor!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "scene on the first floor! \\n< Cecilia >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -10735,7 +10896,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Take advantage of the chaos to escape! \\n< Cecilia >"
+                                "\\n< Cecilia >Take advantage of the chaos and escape!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -10759,7 +10927,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Ah, I understand. Sorry about that. \\n< Serena >"
+                                "\\n< Serena >W-Wakatta. Sono, sumanu. (Serena: I-I understand.\nUm, I'm sorry.)"
                             ]
                         },
                         {
@@ -10784,7 +10952,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "If you think so, then go quickly! \\n< Cecilia >"
+                                "\\n< Cecilia >If you think so, then hurry up and go!"
                             ]
                         },
                         {
@@ -10808,7 +10976,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Hmm! \\n< Serena >"
+                                "\\n< Serena >Yes!"
                             ]
                         },
                         {
@@ -11175,7 +11343,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Uh, uh-oh! This is bad! Head maid! Head maid! \\n< Serena >"
+                                "\\n< Serena >U-Uwah! It's a disaster! Head Maid! Head Maid!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -11200,7 +11375,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "What's going on, Virginia-sa...! Ah, Aahhh!! \\n< Head maid >"
+                                "\\n<Head Maid>What's the matter, Marilou...! Oh, oh my\ngoodness!!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -11231,7 +11413,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "...Jeez, girls these days... \\n< Cecilia >"
+                                "\\n< Cecilia >......Geez, kids are like this......."
                             ]
                         },
                         {
@@ -11407,14 +11589,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "Phew, phew...It's just a simple cleaning, but it's"
+                                "\\n< Serena >*sigh*... Cleaning is simple, but it's quite a\nstruggle with this belly..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "quite a struggle with this stomach... \\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -11441,14 +11623,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "Ugh, my stomach feels tight...Just cleaning is tough"
+                                "\\n< Serena >Ugh, my belly feels so tight... Just cleaning is\nsuch a struggle..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "work... \\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -11485,21 +11667,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "Is that a crumb or something from a snack? ...They"
+                                "\\n< Serena >Are these crumbs from sweets or something?... You\nmust have secretly eaten stolen sweets in the\nroom, right?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "must have secretly eaten a stolen snack in their"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "room. \\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -11816,14 +11991,14 @@
                             "code": 401,
                             "indent": 4,
                             "parameters": [
-                                "Is this enough cleaning? All that's left is to open"
+                                "\\n< Serena >Cleaning is fine with just this. I just need to\nopen the window on the right side..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 4,
                             "parameters": [
-                                "the window on the right side. \\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -11972,14 +12147,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "There's still some dust remaining. I must clean"
+                                "\\n< Serena >There's still dust here. We need to thoroughly\nclean every corner."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "thoroughly, even in the corners. \\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -12286,14 +12461,14 @@
                             "code": 401,
                             "indent": 4,
                             "parameters": [
-                                "Is this enough cleaning? All that's left is to open"
+                                "\\n< Serena >Is this enough cleaning? We just need to open the\nwindow on the right side..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 4,
                             "parameters": [
-                                "the window on the right side. \\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -12502,7 +12677,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "There's a slight water stain here... \\n< Serena >"
+                                "\\n< Serena >There's a slight water stain..."
                             ]
                         },
                         {
@@ -12530,14 +12705,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "It's dangerous to slip and fall, let's wipe it"
+                                "\\n< Serena >It would be troublesome if someone slips and\nfalls. Let's carefully wipe it away."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "carefully. \\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -12854,14 +13029,14 @@
                             "code": 401,
                             "indent": 4,
                             "parameters": [
-                                "Is this enough cleaning? All that's left is to open"
+                                "\\n< Serena >Is this enough for cleaning? We just need to open\nthe window on the right side afterwards..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 4,
                             "parameters": [
-                                "the window on the right side. \\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -13011,21 +13186,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "I see, this window is precisely hidden by the plants."
+                                "\\n< Serena >I see, so this window is perfectly hidden by the\nplants. With this, it can't be seen from outside,\nand it's easy to climb up and down using the tree."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "It can't be seen from outside, and it should be easy"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "to climb up and down along the tree. \\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -13043,14 +13218,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "I feel like there are windows with such a layout in"
+                                "\\n< Serena >...I feel like there are windows with this kind of\narrangement in my mansion too. I should take care\nof it when I get home..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "my mansion too. I'll deal with it when I get home. \\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -13240,14 +13415,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Did you say Virginia? Don't worry about me. Keep up"
+                                "\\n< Goupil >Did you say Virginia? You don't have to worry\nabout me. Just keep doing your best."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "the good work. \\n< Goupil >"
+                                ""
                             ]
                         },
                         {
@@ -13403,14 +13578,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "The cleaning is well done, but there are still some"
+                                "\\n< Serena >The cleaning is well done, but there's still a\nlittle bit of dirt."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "small stains. \\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -13640,21 +13815,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "...A gap that can be seen in her brisk movements..."
+                                "\\n< Goupil >...A slight gap can be seen in their brisk\nmovements... Is the small swaying of their\nbuttocks to the left and right a sign of\ncarelessness or an invitation...? It's\ncaptivating..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "Is the small, swaying buttocks from left to right a"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "sign of carelessness or invitation...? I am captivated... \\n< Goupil >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -13689,14 +13871,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "... ?"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n< Serena >"
+                                "\\n< Serena >......？"
                             ]
                         },
                         {
@@ -13720,7 +13895,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "You don't have to worry about me, please continue. \\n< Goupil >"
+                                "\\n< Goupil >You don't have to worry about me, just keep going."
                             ]
                         },
                         {
@@ -13744,7 +13919,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "...Huh...? \\n< Serena >"
+                                "\\n< Serena >......Huh......?"
                             ]
                         },
                         {
@@ -13891,14 +14066,14 @@
                             "code": 401,
                             "indent": 4,
                             "parameters": [
-                                "Is this enough cleaning? All that's left is to open"
+                                "\\n< Serena >Is this enough for the cleaning? Just need to open\nthe window on the right side..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 4,
                             "parameters": [
-                                "the window on the right side. \\n< Serena >"
+                                ""
                             ]
                         },
                         {

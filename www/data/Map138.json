@@ -4273,14 +4273,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "Weren't you listening to what I said earlier? I told"
+                                "\\n< Deacon >Didn't you listen to what I said? I told you to go\nupstairs and come back!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "you to go upstairs and come back! \\n< Deacon >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -4311,14 +4318,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "...It's frustrating, but for now, let's do as we have"
+                                "\\n< Serena >......It's frustrating, but I'll do as you say for\nnow."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "been told. \\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -4429,14 +4436,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "...It's already late today. Let's leave the errands"
+                                "\\n< Serena >......It's already late today. Let's postpone the\nerrands outside until tomorrow."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "outside for tomorrow. \\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -6452,7 +6459,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "_pum[1,0,150,1,Normal] The male customer smirked as he reached out to Serena."
+                                "The male customer smirked as he reached out his\nhand towards Serena."
                             ]
                         },
                         {
@@ -6672,7 +6679,7 @@
                             "code": 401,
                             "indent": 3,
                             "parameters": [
-                                "_pum[1,0,150,1,Normal] The male customer is trying to grab Serena's clothes."
+                                "The male customer is trying to grab Serena's\nclothes."
                             ]
                         },
                         {
@@ -6820,7 +6827,7 @@
                             "code": 401,
                             "indent": 4,
                             "parameters": [
-                                "_pum[1,0,150,1,Normal] The male customer offered Serena a drink."
+                                "The male customer offered Serena a drink."
                             ]
                         },
                         {
@@ -7132,7 +7139,7 @@
                             "code": 401,
                             "indent": 4,
                             "parameters": [
-                                "_pum[1,0,150,1,Normal] Serena is enduring frustration and disgust."
+                                "Serena is enduring frustration and disgust."
                             ]
                         },
                         {
@@ -7246,7 +7253,7 @@
                             "code": 401,
                             "indent": 5,
                             "parameters": [
-                                "_pum[1,0,150,1,Normal] Serena seems to break her heart at the man's disgusting touch."
+                                "Serena's heart feels like it's about to break from\nthe repulsive touch of the man."
                             ]
                         },
                         {
@@ -7426,7 +7433,7 @@
                             "code": 401,
                             "indent": 4,
                             "parameters": [
-                                "_pum[1,0,150,1,Normal] Serena deftly dodged the man's hand."
+                                "Serena flicked away the man's hand with a snap."
                             ]
                         },
                         {
@@ -7540,7 +7547,7 @@
                             "code": 401,
                             "indent": 5,
                             "parameters": [
-                                "_pum[1,0,150,1,Normal] Serena writhed weakly."
+                                "Serena writhed weakly."
                             ]
                         },
                         {
@@ -7891,7 +7898,7 @@
                             "code": 401,
                             "indent": 4,
                             "parameters": [
-                                "_pum[1,0,150,1,Normal] Serena was unable to react and had her clothes taken off."
+                                "Serena was unable to react and had her clothes\ntaken off."
                             ]
                         },
                         {
@@ -8006,7 +8013,7 @@
                             "code": 401,
                             "indent": 5,
                             "parameters": [
-                                "_pum[1,0,150,1,Normal] Serena weakly resists, but is sneered and ripped off."
+                                "Serena weakly resisted, but she was laughed at and\nforcibly stripped."
                             ]
                         },
                         {
@@ -8207,7 +8214,7 @@
                             "code": 401,
                             "indent": 4,
                             "parameters": [
-                                "_pum[1,0,150,1,Normal] Serena smoothly dodged the man's hand."
+                                "Serena smoothly dodged the man's hand."
                             ]
                         },
                         {
@@ -8354,7 +8361,7 @@
                             "code": 401,
                             "indent": 5,
                             "parameters": [
-                                "_pum[1,0,150,1,Normal] Serena struggled to restrain the man's hand."
+                                "Serena struggled to restrain the man's hand."
                             ]
                         },
                         {
@@ -8565,7 +8572,7 @@
                             "code": 401,
                             "indent": 4,
                             "parameters": [
-                                "_pum[1,0,150,1,Normal] Serena drank an unfamiliar strong drink."
+                                "Serena reluctantly drank a strong alcoholic drink."
                             ]
                         },
                         {
@@ -8737,7 +8744,7 @@
                             "code": 401,
                             "indent": 5,
                             "parameters": [
-                                "_pum[1,0,150,1,Normal] Serena felt dizzy from the terrible-tasting alcohol."
+                                "Serena felt dizzy from the terrible taste of the\nalcohol."
                             ]
                         },
                         {
@@ -8964,7 +8971,7 @@
                             "code": 401,
                             "indent": 4,
                             "parameters": [
-                                "_pum[1,0,150,1,Normal] Serena ignored with a cold attitude."
+                                "Serena ignored with a cold attitude."
                             ]
                         },
                         {
@@ -9065,7 +9072,7 @@
                             "code": 401,
                             "indent": 5,
                             "parameters": [
-                                "_pum[1,0,150,1,Normal] Serena weakly refused to drink any more."
+                                "Serena weakly refused, saying she couldn't drink\nanymore."
                             ]
                         },
                         {
@@ -9608,7 +9615,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "_pum[1,0,150,1,Normal] The reception is over."
+                                "_pum[1,0,150,1,Normal]The reception is over."
                             ]
                         },
                         {
@@ -9712,7 +9719,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "_pum[1,0,150,1,Normal] Serena treated the reluctant-looking customer casually."
+                                "Serena gracefully dealt with the customers who\nseemed reluctant to leave."
                             ]
                         },
                         {
@@ -9824,7 +9831,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "_pum[1,0,150,1,Normal] Serena breathed while feeling disgust towards the lecherous man."
+                                "Serena let out a sigh of relief, feeling a sense\nof disgust towards the man with a lecherous smile."
                             ]
                         },
                         {
@@ -10191,7 +10198,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "_pum[1,0,150,1,Normal] The customer forced the unsteady Serena to drink."
+                                "The male customer forcefully offered alcohol to\nthe tipsy Serena."
                             ]
                         },
                         {
@@ -10372,7 +10379,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "_pum[1,0,150,1,Normal] Serena got drunk and passed out."
+                                "Serena got completely drunk."
                             ]
                         },
                         {
@@ -11342,7 +11349,7 @@
                             "code": 401,
                             "indent": 3,
                             "parameters": [
-                                "_pum[1,0,150,1,Normal] Serena is unconscious..."
+                                "Serena's consciousness is hazy..."
                             ]
                         },
                         {
@@ -11471,7 +11478,7 @@
                             "code": 401,
                             "indent": 3,
                             "parameters": [
-                                "_pum[1,0,150,1,Normal] The male customer took out a stick to show off to Serena."
+                                "The male customer proudly took out a stick in\nfront of Serena."
                             ]
                         },
                         {
@@ -11535,7 +11542,7 @@
                             "code": 401,
                             "indent": 3,
                             "parameters": [
-                                "_pum[1,0,150,1,Normal] Serena is unconscious..."
+                                "Serena's consciousness is vacant..."
                             ]
                         },
                         {
@@ -11806,7 +11813,7 @@
                             "code": 401,
                             "indent": 4,
                             "parameters": [
-                                "_pum[1,0,150,1,Normal] Serena lost her virginity..."
+                                "Serena lost her virginity..."
                             ]
                         },
                         {
@@ -11938,7 +11945,7 @@
                             "code": 401,
                             "indent": 4,
                             "parameters": [
-                                "_pum[1,0,150,1,Normal] Serena was inserted with a stick-shaped object..."
+                                "Serena had a stick-like object inserted..."
                             ]
                         },
                         {
@@ -12030,7 +12037,7 @@
                             "code": 401,
                             "indent": 3,
                             "parameters": [
-                                "_pum[1,0,150,1,Normal] Serena is unconscious..."
+                                "Serena's consciousness is vacant..."
                             ]
                         },
                         {
@@ -13305,7 +13312,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "_pum[1,0,150,1,Normal] Serena is shocked to confirm that a stick has been inserted."
+                                "Serena is shocked as she confirms the stick-like\nobject inserted into her private area."
                             ]
                         },
                         {
@@ -13375,7 +13382,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "_pum[1,0,150,1,Normal] The stick has blood on it..."
+                                "The stick-like object is covered in blood..."
                             ]
                         },
                         {
@@ -13848,7 +13855,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "_pum[1,0,150,1,Normal] Deacon offered two people some alcohol."
+                                "_pum[1,0,150,1,Normal]Deacon offered the two of\nthem some alcohol."
                             ]
                         },
                         {
@@ -14006,7 +14013,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "_pum[1,0,150,1,Normal] Serena, who had drunk alcohol, fell asleep."
+                                "Serena, who drank alcohol, fell asleep."
                             ]
                         },
                         {
@@ -14030,7 +14037,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "_pum[1,0,150,1,Normal] The male guest and Deacon are wearing unpleasant smiles."
+                                "The male customer and Deacon have a lewd smile on\ntheir faces."
                             ]
                         },
                         {
@@ -14406,14 +14413,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "I came on a request from the guild. Serena,"
+                                "\\n< Serena >I came on a request from the guild. I'm Serena, an\nadventurer."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "adventurer. \\n< Serena >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -14438,7 +14452,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "What do you want, kid? \\n< Man >"
+                                "\\n< Male >What the hell, you brat?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -14455,14 +14476,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Has that bastard Guesclin finally let the fat get to"
+                                "\\n< Male >Gekuran bastard, has the fat finally reached your\nbrain?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "his brain? \\n< Man >"
+                                ""
                             ]
                         },
                         {
@@ -14479,14 +14500,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "I heard that you are a reliable and skilled"
+                                "\\n< Male >I heard that you're a reliable and skilled\nadventurer."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "adventurer. \\n< Man >"
+                                ""
                             ]
                         },
                         {
@@ -14544,7 +14565,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Shall we give it a try? \\n< Serena >"
+                                "\\n< Serena >Shall we give it a try?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -14568,7 +14596,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Oh, that's right...yeah! \\n< Man >"
+                                "\\n< Male >Ah, that's right... I got it!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -14712,7 +14747,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "What? \\n< Man >"
+                                "\\n< Male >What?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -14736,14 +14778,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "My Affirbil is an impregnable armor. I feel no pain"
+                                "\\n< Serena >My Affabilis Armor is invincible. I won't feel any\npain or itch from such a weak attack."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "or discomfort from a strike of that level. \\n< Serena >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -14768,7 +14817,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Hmm? \\n< Man >"
+                                "\\n< Male >Oh, really?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -14793,7 +14849,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "And my left-hand Secrecy is... \\n< Serena >"
+                                "\\n< Serena >And my left hand's Secret Leaf is..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -14870,7 +14933,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Crush bone and flesh to powder with a single stroke. \\n< Serena >"
+                                "\\n< Serena >With a single stroke, I pulverize flesh and bone."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -14895,7 +14965,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Hmph. you're not just a kid. \\n< Man >"
+                                "\\n< Male >...Hmph. So you're not just a brat, huh."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -14919,14 +14996,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "That's my charm. People who meet me let their guard"
+                                "\\n< Serena >That's my selling point. The person who meets me\nwill first let their guard down. Just like you."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "down first. Just like you. \\n< Serena >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -14951,14 +15042,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "You've got some guts. Alright, it's not a bad idea"
+                                "\\n< Male >You've got some guts. Alright, being a bodyguard\nisn't a bad idea."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "to have him as a guard. \\n< Man >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -14976,7 +15074,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "I'm Ochre. Well, let's try to get along, okay? \\n< Ochre >"
+                                "\\n< Okar >I am Okar. Well, let's get along, shall we?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -15008,7 +15120,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Oh, I hope so. \\n< Serena >"
+                                "\\n< Serena >Ah, I hope so."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -16670,7 +16789,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Faaa...I've been drinking too much lately... \\n< Prostitute >"
+                                "\\n< Prostitute >Ahh... I've been drinking too much lately..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -16687,21 +16813,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "I love drinking, and I can't get by without it. Plus,"
+                                "\\n< Prostitute >I love alcohol, and if I don't drink, I can't make\na living. Plus, it's more entertaining when I'm\ndrunk. But I know I won't have a good ending..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "it's a good way to get people to like me. But I just"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "can't seem to avoid a terrible ending... \\n< Prostitute >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -16790,45 +16923,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "If you're not sure what to do, just have a drink and"
+                                "\\n< Prostitute >If you don't know what to do, just drink some\nalcohol and put on a fake smile. You can handle\nanything that way. Plus, the payment is on their\nend, so you get to drink for free. It's awesome,\nright?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "smile. It'll work out somehow. They're paying, and the"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "free booze is amazing. \\n< Prostitute >"
+                                ""
                             ]
                         },
                         {
-                            "code": 101,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "Even if something unpleasant happens, if you're drunk"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "the distraction makes it not so bad, you know. \\n< Prostitute >"
+                                ""
                             ]
                         },
                         {
@@ -16845,52 +16961,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "But if you get too drunk, it might affect your work"
+                                "\\n< Prostitute >Even if something unpleasant happens, if you're\ndrunk, it helps distract your mind, so you don't\nhave to feel as bad about it."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "afterwards and you never know what could happen if you"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "pass out, so be careful. \\n< Prostitute >"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "There are also people who come expecting that and are"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "willing to drink, and the store won't help unless it's"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "to a certain extent. \\n< Prostitute >"
+                                ""
                             ]
                         },
                         {
@@ -16907,14 +16992,83 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "...In the end, there's no choice but to protect"
+                                "\\n< Prostitute >But if you get too drunk, it can affect your work\nafterwards, and you never know what might happen\nif you're in a vulnerable state, so be careful."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "oneself. \\n< Prostitute >"
+                                "\\n< Prostitute >Some customers come expecting that, so they'll\nmake you drink alcohol. And the shop won't help\nyou unless it's to a certain extent."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n< Prostitute >...In the end, I have to protect myself on my own."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -17012,14 +17166,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Oh my, a new friend, I see. How lovely...and how"
+                                "\\n< Prostitute >Oh my, a new colleague, I wonder. How cute... and\npitiful."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "pitiful. \\n< Prostitute >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -17108,52 +17269,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "For you cute, this job is easy. The men who come to"
+                                "\\n< Prostitute >For someone as cute as you, this job is easy. The\nmen who come to a place like this are\nstraightforward and if I let them do what they\nwant, they'll pay a lot of money."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "places like this are blatant, and if you let them do"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "what they want, they'll pay you a cup of money. \\n< Prostitute >"
+                                ""
                             ]
                         },
                         {
-                            "code": 101,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "But that means allowing yourself to be used to please"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "others. If you choose to do that, you have to endure"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "and accept unpleasant things. \\n< Prostitute >"
+                                ""
                             ]
                         },
                         {
@@ -17170,52 +17307,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "And, patience is poison. It may be fine in small"
+                                "\\n< Prostitute >But that means accepting the act of pleasing the\nother person using you. If you choose to do that,\nyou have to endure and accept unpleasant things."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "amounts, but if you have too much, you'll feel sick"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "and won't be able to focus on your work. \\n< Prostitute >"
+                                ""
                             ]
                         },
                         {
-                            "code": 101,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "So if you really don't like it, you should have the"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "courage to reject it. The money you get will be less,"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "and the customers may hate you and leave you. \\n< Prostitute >"
+                                ""
                             ]
                         },
                         {
@@ -17232,21 +17345,97 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "But in the end, that's how you can work for a long"
+                                "\\n< Prostitute >And endurance is poison. It's okay if it's just a\nlittle, but if there's too much, it makes me feel\nsick and I can't focus on my work."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "time. I guess the trick to the job is to take it easy"
+                                "\\n< Prostitute >So, if there's something you really don't want to\ndo, it's better to have the courage to refuse. You\nmight receive less money and the client might not\nlike it and leave, but that's a possibility."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "and steadily accumulate a variety of tasks, right? \\n< Prostitute >"
+                                "\\n< Prostitute >But in the end, that's the way to work for a long\ntime. Taking it easy and steadily building up\nwithout pushing yourself too hard, that's the\ntrick to this job, I guess?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {

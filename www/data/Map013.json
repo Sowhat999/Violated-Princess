@@ -9807,7 +9807,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "Help me! Someone help me!! \\n< Maril >"
+                                "\\n< Marilou >Help me! Someone, please help me!!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9907,7 +9914,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "I need help... \\n< Maril >"
+                                "\\n< Marilou >Help, please..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -10096,7 +10110,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Panting... The exit! \\n< Serena >"
+                                "\\n< Serena >Haa, haa... The exit!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -10353,7 +10374,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "... A baby. \\n< Serena >"
+                                "\\n< Serena >......The baby..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -10362,7 +10390,7 @@
                             "parameters": [
                                 [
                                     "Return",
-                                    "Can't go back."
+                                    "Can't go back"
                                 ],
                                 1,
                                 0,
@@ -10410,7 +10438,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "Why... even though it's a goblin baby... why me? \\n< Serena >"
+                                "\\n< Serena >......Why... is it a goblin baby... why... me...."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -10496,7 +10531,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "I won't go back! \\n< Serena >"
+                                "\\n< Serena >I won't go back!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -10585,7 +10627,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "I won't go back! \\n< Serena >"
+                                "\\n< Serena >I won't go back!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {

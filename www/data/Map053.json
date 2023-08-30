@@ -3561,28 +3561,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Z key: Attack. Hold down for a charged attack."
+                                "  Z Key: Hold down to perform a charged attack.\nWhile charging, it is possible to defend against\nenemy attacks. X Key: While pressed, character\ndirection is fixed. While fixed, press Shift to\nperform an emergency evasion."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "While charging, enemy attacks can be blocked."
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "X key: When held down, character direction is fixed."
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "While fixed, press Shift to perform an emergency dodge."
+                                ""
                             ]
                         },
                         {

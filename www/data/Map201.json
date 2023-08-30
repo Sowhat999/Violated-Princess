@@ -4276,14 +4276,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "......"
+                                "\\n< Serena >......."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -4744,14 +4744,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "...It's so deserted. I've never seen a brothel like"
+                                "\\n< Serena >......It's so quiet here. I've never seen a\nbrothel like this before."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "this before. \\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -4775,14 +4775,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "I was completely fed up with the noise of this store."
+                                "\\n< Serena >I was truly fed up with the noise in this\nestablishment, but now that I've been invited, it\nfeels strange..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "But now that it's gone, I feel strange... \\n< Serena >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -4888,21 +4895,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Who the hell are you? And you're in my shop...wait,"
+                                "\\n< Deacon >Who's there? Wait, isn't that Ginny! Hey you!\nWhere the hell have you been wandering around!?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "is that you, Ginny!? Where the hell have you been"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "wandering around!? \\n< Deacon >"
+                                ""
                             ]
                         },
                         {
@@ -4957,7 +4964,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Deacon. Are you safe? \\n< Serena >"
+                                "\\n< Serena >Deacon, are you safe?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -4981,14 +4995,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "After various things happened...I have finally"
+                                "\\n< Serena >There were various things... and now I have\nfinally returned. However, this is..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "returned. However, this is... \\n< Serena >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5012,7 +5033,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Ah, you heard it too. Madam was murdered. \\n< Deacon >"
+                                "\\n< Deacon >Ah, you heard too, right? Madame, she got fucking\nkilled."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5029,14 +5064,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "He was a man who had earned the grudges of many"
+                                "\\n< Deacon >Well, she certainly had made enemies everywhere...\nbut to be killed in such a way..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "people...The way he was killed was just... \\n< Deacon >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5060,7 +5102,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Did you see it? What happened? \\n< Serena >"
+                                "\\n< Serena >Did you see it? What happened?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5084,38 +5133,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "I didn't see the moment he was killed. Not just me,"
+                                "\\n< Deacon >I didn't see the moment she was killed. Not just\nme, nobody saw it."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "nobody saw it. \\n< Deacon >"
+                                ""
                             ]
                         },
                         {
-                            "code": 101,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "Just work as usual. It's already closing time. The"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "Madam hasn't come out of her room at all, has she? \\n< Deacon >"
+                                ""
                             ]
                         },
                         {
@@ -5132,21 +5164,59 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Thinking strangely, I opened the door...hehe. Blood"
+                                "\\n< Deacon >Do your job as usual. It's closing time. Madame\nhasn't come out of her room at all, right?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "and flesh were splattered all over the room..."
+                                "\\n< Deacon >I had a strange feeling, so I opened the door...\nhehe. Blood and flesh were scattered all over the\nroom... It looked like a stew that had been\nthoroughly mixed."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "it looked like a carefully stirred stew. \\n< Deacon >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5170,7 +5240,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "That...is... \\n< Serena >"
+                                "\\n< Serena >Tha...t was..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5194,7 +5271,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "What a dreadful way to die...Did no one notice? \\n< Serena >"
+                                "\\n< Serena >Such a gruesome way to be killed... Did no one\nnotice?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5218,14 +5309,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "At least I didn't notice it. The other prostitutes"
+                                "\\n< Deacon >At least I didn't notice. The other whores ran\naway immediately."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "ran away immediately. \\n< Deacon >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5242,21 +5340,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "I may have run away too. If caught by the city"
+                                "\\n< Deacon >I ran away too, you know. If the city police find\nme, they'll treat me as the culprit without\nquestion and hang me."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "police, they'll treat us as criminals without any"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "questions and hang us. \\n< Deacon >"
+                                ""
                             ]
                         },
                         {
@@ -5280,14 +5378,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Then why are you here now? The city police are still"
+                                "\\n< Serena >Then why are you here now? The city police are\nstill searching for the culprit."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "searching for the criminal. \\n< Serena >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5320,7 +5425,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "Ganelon said he'll be my supporter. \\n< Deacon >"
+                                "\\n< Deacon >Ganuron-sama will support me."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5347,14 +5459,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "Ganelon said he would support me. You're the"
+                                "\\n< Deacon >Ganuron-sama will support me. And you too, right?\nThe fact that we're here like this..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "same, right? Being here like this means... \\n< Deacon >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5381,14 +5500,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Heh, I'll protect you from the police, so reopen the"
+                                "\\n< Deacon >Hehe, I'll protect you from the city police, so\nreopen the brothel. I'm grateful to the point of\ntears... damn it."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "brothel. I'm grateful to the point of tears...damn. \\n< Deacon >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5412,14 +5538,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "......"
+                                "\\n< Serena >......."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -5443,45 +5569,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Is he planning to turn our house into a branch"
+                                "\\n< Deacon >Are you planning to turn this place into a\nbranch...? We finally crushed the competition. We\nshould just do as we please in the slums."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "office? The competition was crushed."
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "Does what he want in the depths of the slums. \\n< Deacon >"
+                                ""
                             ]
                         },
                         {
-                            "code": 101,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "Anyway, the brothel will reopen. Only the second floor"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "though. \\n< Deacon >"
+                                ""
                             ]
                         },
                         {
@@ -5498,21 +5607,59 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Ah, it's busy busy. Gotta greet people, make"
+                                "\\n< Deacon >Anyway, we'll reopen the brothel. Only the second\nfloor though."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "arrangements, and get this business up and running"
+                                "\\n< Deacon >Ah, so busy, so busy. Gotta greet people, make\narrangements, and get the business back up and\nrunning..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "again... \\n< Deacon >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5738,7 +5885,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Oh... \\n< Serena >"
+                                "\\n< Serena >Ah......."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5762,14 +5916,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "......"
+                                "\\n< Serena >......."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -6361,7 +6515,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "It's the door to the hall. \\n< Serena >"
+                                "\\n< Serena >It's the door to the hall."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -6378,7 +6539,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "I doubt I will ever pass through here again... \\n< Serena >"
+                                "\\n< Serena >I doubt I'll pass through here anymore..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {

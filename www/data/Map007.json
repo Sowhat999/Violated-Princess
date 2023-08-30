@@ -4504,21 +4504,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Excuse me. Is there a room available? I'd like to stay"
+                                "\\n< Serena >Excuse me. Is the room available? I would like to\nborrow accommodations for a while."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "for a while."
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -4542,21 +4542,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Hmm, we do have rooms available... How many days are"
+                                "\\n< Innkeeper >Ah, the room is available... How many days are you\nplanning to stay?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "you planning on staying?"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Innkeeper >"
+                                ""
                             ]
                         },
                         {
@@ -4587,14 +4587,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "It's undecided. For now, I want to rely on this."
+                                "\\n< Serena >I'm not sure yet. For now, I'd like to go with\nthis."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -4716,14 +4716,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Oh?!... Well, well, well."
+                                "\\n< Innkeeper >Oh?!... Well, well."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Innkeeper >"
+                                ""
                             ]
                         },
                         {
@@ -4747,21 +4747,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Please also prepare meals and beds. If there are any"
+                                "\\n< Serena >Please also prepare meals and a bed. If there are\nany shortages, I will pay for them separately."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "shortages, I will pay extra for them later."
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -4785,21 +4785,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Even if you stay for 100 days, it's sufficient"
+                                "\\n< Innkeeper >Don't worry about any shortages... Even if you\nstay for 100 days, the price will be more than\nenough."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "payment, so please don't worry about it."
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Innkeeper >"
+                                ""
                             ]
                         },
                         {
@@ -4823,14 +4823,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Is it really like that?"
+                                "\\n< Serena >Is that so?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -4847,21 +4847,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "By the way, I'd like to take a bath. Is there a bath"
+                                "\\n< Serena >By the way, I want to take a bath. Is there a bath\nin this inn?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "at this inn?"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -4885,21 +4885,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "There is a hot spring in this town and we offer"
+                                "\\n< Innkeeper >In this town, we have hot springs available, and\nwe guide guests to the bathing area."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "guidance to it for bathing."
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Innkeeper >"
+                                ""
                             ]
                         },
                         {
@@ -4923,14 +4923,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Hot springs? Is there such a thing?"
+                                "\\n< Serena >Hot springs? Is there such a thing?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -4961,28 +4961,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "The hot springs are located in a building to the"
+                                "\\n< Innkeeper >The hot springs are located in a building to the\nsouthwest of the town. If you leave the inn and\nwalk along the road, you will arrive there\nquickly."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "southwest of the town. If you leave the inn and walk"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "along the road, you'll reach it in no time."
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n< Innkeeper >"
+                                ""
                             ]
                         },
                         {
@@ -4999,14 +4985,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "We will prepare your room before your return."
+                                "\\n< Innkeeper >I will prepare the room until you come back."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Innkeeper >"
+                                ""
                             ]
                         },
                         {
@@ -5030,21 +5016,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Very well, then I'll be off. I've asked about the"
+                                "\\n< Serena >Hmm, then I'll be off. I've asked for the room."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "room."
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -5179,21 +5158,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "The room is not yet ready, so please enjoy the hot"
+                                "\\n< Innkeeper >The room is not ready yet, so please enjoy the hot\nsprings."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "springs."
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n< Innkeeper >"
+                                ""
                             ]
                         },
                         {
@@ -5386,14 +5358,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Good morning. Did you sleep well yesterday?"
+                                "\\n< Innkeeper >Good morning. Did you sleep well yesterday?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Innkeeper >"
+                                ""
                             ]
                         },
                         {
@@ -5493,21 +5465,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Greetings. May you be blessed by the divine. Well, I"
+                                "\\n< Serena >Good day. May the blessings of the gods be upon\nyou... Yes, I suppose I slept a bit too much."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "might have slept a little too much."
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -5531,14 +5503,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Oh my, is there something urgent on your schedule?"
+                                "\\n< Innkeeper >Oh my... Do you have some urgent plans, perhaps?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Innkeeper >"
+                                ""
                             ]
                         },
                         {
@@ -5562,14 +5534,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "I have to stop by a tool shop for a bit."
+                                "\\n< Serena >I'm going to the item shop. I need to stop by for\na bit."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -5593,21 +5565,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Is that so? The tool shop is located on the south side"
+                                "\\n< Innkeeper >...Is that so. The item shop is located on the\nsouth side of this town."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "of this town."
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n< Innkeeper >"
+                                ""
                             ]
                         },
                         {
@@ -5624,21 +5589,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "If you leave this inn and keep walking straight ahead,"
+                                "\\n< Innkeeper >If you just walk straight out of this inn, you\nwill arrive soon."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "you will arrive shortly."
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Innkeeper >"
+                                ""
                             ]
                         },
                         {
@@ -5662,14 +5627,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "I see. Thank you. I'll be going then."
+                                "\\n< Serena >I see, thank you. Well then, I'll be going."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -5693,14 +5658,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Take care."
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n< Innkeeper >"
+                                "\\n< Innkeeper >Take care."
                             ]
                         },
                         {
@@ -5861,14 +5819,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "Would you like to take a break?"
+                                "\\n< Innkeeper >Are you going to rest?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "\\n< Innkeeper >"
+                                ""
                             ]
                         },
                         {
@@ -5966,21 +5924,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "The payment has already been received, so please feel"
+                                "\\n< Innkeeper >We have already received the payment, so please\nfeel free to use it as you wish."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "free to use it."
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "\\n< Innkeeper >"
+                                ""
                             ]
                         },
                         {
@@ -6297,14 +6255,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Well... did he say it's located directly south?"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n< Serena >"
+                                "\\n< Serena >Well... Did they say it's located due south?"
                             ]
                         },
                         {
@@ -6328,28 +6279,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Well, it's not such a big town. Even if I don't know"
+                                "\\n< Serena >Well... It's not that big of a town. Even if we\ndon't know, if we walk around and ask, we'll\nprobably find it soon enough."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "the way, if I walk around while asking for"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "directions, I'll probably find it soon enough."
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -6730,14 +6674,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Well... did he say it's located directly south?"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n< Serena >"
+                                "\\n< Serena >Well... Did they say it's located due south?"
                             ]
                         },
                         {
@@ -6761,28 +6698,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Well, it's not such a big town. Even if I don't know"
+                                "\\n< Serena >Well... It's not that big of a town. Even if we\ndon't know, if we walk around and ask, we'll\nprobably find it soon enough."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "the way, if I walk around while asking for"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "directions, I'll probably find it soon enough."
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -7434,14 +7364,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Well... did he say it's located directly south?"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n< Serena >"
+                                "\\n< Serena >Well... Did they say it's located due south?"
                             ]
                         },
                         {
@@ -7465,28 +7388,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Well, it's not such a big town. Even if I don't know"
+                                "\\n< Serena >Well... It's not that big of a town. Even if we\ndon't know, if we walk around and ask, we should\nbe able to find it soon enough."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "the way, if I walk around while asking for"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "directions, I'll probably find it soon enough."
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -7710,21 +7626,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Please complete the check-in procedure before using"
+                                "\\n< Innkeeper >Please complete the check-in process before using\nyour room."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "your room, madam."
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n< Innkeeper >"
+                                ""
                             ]
                         },
                         {
@@ -7896,21 +7805,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "The room is not yet ready, so please enjoy the hot"
+                                "\\n< Innkeeper >The room is not ready yet, so please enjoy the hot\nsprings for now."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "springs for now."
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Innkeeper >"
+                                ""
                             ]
                         },
                         {
@@ -8210,21 +8119,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "I'm sorry. As the time passes, I might be late in"
+                                "\\n< Innkeeper >I'm sorry. It might take longer to prepare a\nproper meal at this time."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "preparing a proper meal."
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n< Innkeeper >"
+                                ""
                             ]
                         },
                         {
@@ -8241,21 +8143,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "The food at the nearby tavern is delicious, so it"
+                                "\\n< Innkeeper >The food at the nearby tavern is delicious, so it\nmight be better to have your meal there today."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "might be better to go there and finish up today."
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n< Innkeeper >"
+                                ""
                             ]
                         },
                         {
@@ -8404,21 +8299,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "We have prepared a meal, so please feel free to eat if"
+                                "\\n< Innkeeper >We have prepared a meal, so please feel free to\neat."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "you'd like."
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n< Innkeeper >"
+                                ""
                             ]
                         },
                         {
@@ -8507,21 +8395,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "We have prepared a meal, so please feel free to eat if"
+                                "\\n< Innkeeper >We have prepared a meal, so please feel free to\neat."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "you'd like."
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n< Innkeeper >"
+                                ""
                             ]
                         },
                         {
@@ -8671,21 +8552,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Please complete the check-in procedure before using"
+                                "\\n< Innkeeper >Guests, please complete the check-in process\nbefore using your rooms."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "your room, madam."
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n< Innkeeper >"
+                                ""
                             ]
                         },
                         {
@@ -8857,21 +8731,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "The room is not yet ready, so please enjoy the hot"
+                                "\\n< Innkeeper >The room is not ready yet, so please enjoy the hot\nsprings in the meantime."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "springs for now."
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Innkeeper >"
+                                ""
                             ]
                         },
                         {
@@ -9420,8 +9294,8 @@
                             "indent": 2,
                             "parameters": [
                                 [
-                                    "Eat it",
-                                    "Don't eat it"
+                                    "Eat",
+                                    "Not eating"
                                 ],
                                 1,
                                 0,
@@ -9793,14 +9667,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "It looks delicious, but I'm not hungry right now."
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "\\n< Serena >"
+                                "\\n< Serena >It looks delicious, but I'm not hungry right now."
                             ]
                         },
                         {
@@ -10014,21 +9881,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "This is the private room of the shopkeeper and his"
+                                "\\n< Serena >This is the private room for the shop owners.\nLet's not go in..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "associates. It's better not to enter..."
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -10310,14 +10170,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "It's a box."
+                                "\\n< Serena >It's a box."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -10334,14 +10194,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Hmm... why am I investigating something like this?"
+                                "\\n< Serena >Hmmm... Why are you investigating something like\nthis?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -10453,14 +10313,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "It's a box."
+                                "\\n< Serena >It's a box."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -10477,14 +10337,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "I don't see anything particularly useful here."
+                                "\\n< Serena >I don't see anything particularly useful."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -10596,14 +10456,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "It's a barrel."
+                                "\\n< Serena >It's a barrel."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -10620,21 +10480,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "It seems to contain drinking water."
+                                "\\n< Serena >It seems to contain drinking water. Let's not\ntouch it."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "I don'r have to touch it."
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -10746,52 +10606,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "It's a fireplace."
+                                "\\n< Serena >It's a fireplace."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "I glanced at the guestbook earlier and it seems that"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "some people stay in the space in front of this"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "fireplace."
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -10808,28 +10630,52 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "It's surprising that someone would rent out such a place,"
+                                "\\n< Serena >Earlier, I glanced at the guestbook and it seems\nthat some people stay in the space in front of\nthis fireplace."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "but it's even more surprising for someone to actually "
+                                "\\n< Serena >It's surprising that they're renting out a place\nlike this, but it's even more surprising for those\nwho stay here. I wonder how they sleep..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "stay here. I can't imagine how they manage to sleep..."
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -10950,38 +10796,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "A menu and other things are written."
+                                "\\n< Serena >There's a menu and other things written here."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "\\n< Serena >"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 1,
-                            "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "There is no brioche."
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -10998,21 +10820,45 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "Should I invest and expand my lineup? I'm seriously"
+                                "\\n< Serena >There's no brioche."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "considering it."
+                                "\\n< Serena >Should I invest and increase the lineup? I'm\nseriously considering it."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "\\n< Serena >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -11134,14 +10980,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Please knock before use."
+                                "\\n< Serena >Please knock before entering."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -11165,14 +11011,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "..."
+                                "\\n< Serena >...."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -11196,21 +11042,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Ah, I see. This must be for checking to see"
+                                "\\n< Serena >Ah, I see. Is someone checking to see if anyone's\ninside?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "if someone is inside."
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -11322,14 +11161,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "It's either flour or something similar."
+                                "\\n< Serena >Is it flour or something?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -11346,21 +11185,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "It's well-kneaded. It will probably make delicious"
+                                "\\n< Serena >It's being kneaded well. It will probably become\ndelicious bread."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "bread."
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -11472,14 +11311,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "It's an apple. It's still green."
+                                "\\n< Serena >It's an apple. It's still green."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -11496,14 +11335,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "I wonder if it'll become a cake..."
+                                "\\n< Serena >I wonder if it will become a cake..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -11615,14 +11454,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "It's a stove."
+                                "\\n< Serena >It's the stove."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -11639,21 +11478,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Cooking, huh? Mother may not approve, but I'm a little"
+                                "\\n< Serena >Cooking, huh? Mother might not be pleased, but I'm\na little interested."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "interested."
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -11765,45 +11604,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Garlic and onions are hanging."
+                                "\\n< Serena >Garlic and onions are hanging."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "These guys are a bad bunch. They probably received a"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "punishment as an example."
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -11820,21 +11628,45 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "I hope that they will learn their lesson from this and"
+                                "\\n< Serena >These guys are a bad bunch. They must have\nreceived some kind of punishment as a warning."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "become a bit sweeter."
+                                "\\n< Serena >I hope they learn their lesson from this and\nbecome a little sweeter."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -11946,14 +11778,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "There is sake placed over here."
+                                "\\n< Serena >There's alcohol placed here."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -11970,28 +11802,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "I'm not particularly interested, but it does annoy me"
+                                "\\n< Serena >I'm not particularly interested, but it does annoy\nme a bit when it's placed in a spot that's clearly\nout of reach like that."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "a little when things are placed in such a way as to"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "show off that they're out of reach."
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -12196,14 +12021,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "It's a bag of wheat flour."
+                                "\\n< Serena >It's a bag of flour."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -12220,14 +12045,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "I don't think I can lift it up."
+                                "\\n< Serena >It doesn't seem like I can lift it."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -12339,14 +12164,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "It's a kitchen."
+                                "\\n< Serena >Where is the big dick?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -12363,14 +12188,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Someone's cooking. I shouldn't touch it."
+                                "\\n< Serena >I'm cooking. You shouldn't touch it."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {

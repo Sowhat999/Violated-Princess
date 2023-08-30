@@ -3784,7 +3784,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "...This is bad, let's escape quickly. \\n< Cecilia >"
+                                "\\n< Cecilia >...This is bad, let's escape quickly."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5114,7 +5121,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "We don't have time to deal with them, let's hurry! \\n< Serena >"
+                                "\\n< Serena >We don't have time to waste, let's hurry!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -6913,7 +6927,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "We don't have time to deal with them, let's hurry! \\n< Serena >"
+                                "\\n< Serena >We don't have time to waste, let's hurry!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -7018,7 +7039,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "We don't have time to deal with them, let's hurry! \\n< Serena >"
+                                "\\n< Serena >We don't have time to waste, let's hurry!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {

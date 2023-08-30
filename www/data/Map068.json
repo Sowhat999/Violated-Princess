@@ -8262,7 +8262,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "There's no way to go back...! \\n< Serena >"
+                                "\\n< Serena >There's no way I can go back...!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8296,7 +8303,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "It seems that there are no ropers further in. \\n< Serena >"
+                                "\\n< Serena >It seems there are no ropes in this room."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {

@@ -2241,7 +2241,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "... \\n< Patrolman >"
+                                "\\n<Patrol Team>...."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -2265,7 +2272,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "I'm here. \\n< Serena >"
+                                "\\n< Serena >......They're here."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -2856,45 +2870,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Hey there, hey there, esteemed members of the patrol"
+                                "\\n< Demuran >Hey, hey, esteemed members of the patrol team.\nThank you for your hard work and efforts today\ndespite being busy."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "team. Thank you for taking the time out of your busy"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "day to come here today. \\n< Desmoulins >"
+                                ""
                             ]
                         },
                         {
-                            "code": 101,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "It's a great day for investigation, neither too hot"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "nor too cold.  \\n< Desmoulins >"
+                                ""
                             ]
                         },
                         {
@@ -2911,45 +2908,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "...If my work area is too dark, it's unlikely that"
+                                "\\n< Demuran >It's neither hot nor cold, a truly perfect day for\ninvestigation."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "the investigation will progress. \\n< Patrolman >"
+                                ""
                             ]
                         },
                         {
-                            "code": 101,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "Well, we prepared a special dog on our end for that."
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "The night time is simply more convenient in many ways,"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "you see.  \\n< Desmoulins >"
+                                ""
                             ]
                         },
                         {
@@ -2966,7 +2939,83 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "A dog? \\n< Patrolman >"
+                                "\\n<Patrol Team>...With our hands in the dark like this, it\ndoesn't seem like the investigation will progress."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n< Demuran >Well, we have prepared a special dog on our end.\nIt seems that the night would be more convenient\nfor various reasons."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n<Patrol Team>A dog?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -3014,7 +3063,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Okay... hey, bring the dog with you. \\n< Desmoulins >"
+                                "\\n< Demuran >Yes...Hey, bring the dog."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -3166,7 +3222,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ".... \\n< Patrolman >"
+                                "\\n<Patrol Team>......."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -3447,7 +3510,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Uh...! \\n< Serena >"
+                                "\\n< Serena >N...!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -3504,7 +3574,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "...... \\n< Nicola >"
+                                "\\n< Nicola >......."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -3521,7 +3598,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "How about this? It's quite splendid. \\n< Desmoulins >"
+                                "\\n< Demuran >How is it? Isn't it splendid?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -3538,45 +3622,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "This one has a good sense of smell. Actually, it's a"
+                                "\\n< Demuran >This one has a good sense of smell. Well, maybe a\nbit too good. It's not very friendly and training\nit was quite difficult."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "bit too sensitive. It's not easy to get close to and"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "was quite difficult to train. \\n< Desmoulins >"
+                                ""
                             ]
                         },
                         {
-                            "code": 101,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "Finally, huh. Our love has finally been recognized,"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "or shall I say, we have been taught our place. \\n< Desmoulins >"
+                                ""
                             ]
                         },
                         {
@@ -3593,14 +3660,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Then, I think my sharp nose might come in handy if"
+                                "\\n< Demuran >Finally, huh. Our love has reached her, or should\nI say, she has been made aware of her place."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "you bring me along for this investigation. Yes. \\n< Desmoulins >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -3617,21 +3691,59 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Your proud sense of smell that sticks its nose into"
+                                "\\n< Demuran >In that case, I thought her sharp sense of smell\nmight come in handy for this investigation. Yes."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "everything will lead us to solve this case, right,"
+                                "\\n< Demuran >With your proud sense of smell that sticks its\nnose into everything, you'll lead us to solve this\ncase, won't you? Right, Nicola?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "Nicolas? \\n< Desmoulins >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -3688,7 +3800,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "...... \\n< Nicola >"
+                                "\\n< Nicola >......."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -3736,7 +3855,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Hey, what's wrong? Answer me. \\n< Desmoulins >"
+                                "\\n< Demuran >Hey, what's wrong? Answer me."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -3793,7 +3919,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "...Wa... \\n< Nicola >"
+                                "\\n< Nicola >......Wha......"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -3850,7 +3983,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Wan, wan, wan...! \\n< Nicola >"
+                                "\\n< Nicola >Woof, woof, woof...!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -3867,7 +4007,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Hee, hee, hee! As you see, it's faithful! \\n< Desmoulins >"
+                                "\\n< Demuran >Kukuku! Look, as you can see, this one is quite\nfaithful, you know!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -3915,31 +4069,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "We all in the team take care of it from morning to"
+                                "\\n<City Police>We're taking care of her from morning till night,\neveryone in the squad!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "night, you know! \\n< City Patrol >"
+                                ""
                             ]
                         },
                         {
-                            "code": 101,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "Ahaha, hahaha! \\n< City Patrol >"
+                                ""
                             ]
                         },
                         {
@@ -3956,7 +4100,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Eekheeheehee!!! \\n< City Patrol >"
+                                "\\n<City Police>Ahh, hya hya hya!!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -3973,7 +4124,38 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "AAAAAAHHHHH!!! \\n< City Patrol >"
+                                "\\n<City Police>Hya-hya-hya!!!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n<City Police>Gyahiiiiii!!!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -4061,7 +4243,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Serena! \\n< Patrolman >"
+                                "\\n<Patrol Team>Serena-san!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -4085,14 +4274,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "The inhumane actions of those who do not even consider"
+                                "\\n< Serena >The despicable acts of someone who doesn't even\nsee others as human..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "others as human... \\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -4130,7 +4319,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Know that your wicked deeds end today! \\n< Serena >"
+                                "\\n< Serena >Know that your wicked deeds will come to an end\ntoday!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -4161,31 +4357,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Oh? If it isn't the little shit bucket I was thinking"
+                                "\\n< Demuran >Oh? If it isn't the little toilet bowl."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "of. \\n< Desmoulins >"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "I thought they would bring one or two assistants. \\n< Desmoulins >"
+                                ""
                             ]
                         },
                         {
@@ -4202,14 +4381,45 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Those kids are causing trouble again. Even the patrol"
+                                "\\n< Demuran >I thought you would bring one or two helpers."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "team is being pushed to their limits, huh? \\n< City Patrol >"
+                                "\\n<City Police>Look who's talking, you brat. The patrol team is\ncornered, aren't they?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -4233,7 +4443,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Silence! \\n< Serena >"
+                                "\\n< Serena >Shut up!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -4257,14 +4474,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Hehehe. Well, if you're looking for a fight, I won't"
+                                "\\n< Demuran >Kukuku. Well, if you're looking for a fight, I\nwouldn't mind giving it to you."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "refuse to oblige. \\n< Desmoulins >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -4281,14 +4505,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "You understand, right? It means you're the one who"
+                                "\\n< Demuran >You understand, right? It means that you were the\none who made the first move."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "made the first move. \\n< Desmoulins >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -4364,14 +4595,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "I didn't want to make it public last time. I just gave"
+                                "\\n< Demuran >Last time, I didn't want to make it public. I let\nyou off with just a light punishment..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "him a light punishment... \\n< Desmoulins >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -4388,7 +4626,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "This time, I am a criminal with impunity. \\n< Desmoulins >"
+                                "\\n< Demuran >This time, I'll be a criminal without any\nrestrictions."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -4474,7 +4719,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Are you ready to face the end of your life? \\n< Desmoulins >"
+                                "\\n< Demuran >Prepare yourself for the end of your life."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -4498,7 +4750,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "No matter what intention they have to wipe us out! \\n< Serena >"
+                                "\\n< Serena >No matter what, I will annihilate you all!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -4534,14 +4800,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Everyone, let's do it! We have to retrieve our"
+                                "\\n<Patrol Team>Everyone, let's do it! Let's retrieve our captain!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "captain! \\n< Patrolman >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -4558,7 +4831,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Woooohhh!!!! \\n< Patrolman >"
+                                "\\n<Patrol Team>Uwoooooooo!!!!!!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5192,7 +5472,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Nicola! \\n< Serena >"
+                                "\\n< Serena >Lord Nicola!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5272,7 +5559,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Serena, what have you done...! \\n< Nicola >"
+                                "\\n< Nicola >Serena, what have you done...!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5297,7 +5591,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "That's my line! \\n< Serena >"
+                                "\\n< Serena >That's my line!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5321,7 +5622,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Anyway, let's go back once. \\n< Serena >"
+                                "\\n< Serena >Anyway, let's go back once."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {

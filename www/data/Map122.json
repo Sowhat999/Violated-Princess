@@ -6077,14 +6077,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Serena! Watch out!"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n< Erika >"
+                                "\\n< Erika >Serena! It's dangerous!"
                             ]
                         },
                         {
@@ -6410,21 +6403,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "I apologize. But I'll be fine. Arrows of that level"
+                                "\\n< Serena >I apologize. But I'll be fine. Arrows of that\nlevel won't penetrate my armor!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "won't penetrate Afabill!"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -6481,28 +6467,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "There may be limits, but damn it, the entrance is"
+                                "\\n< Erika >There must be limits! Tch, they've got the\nentrance covered. I can't recklessly go out,\nthat's for sure."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "being guarded. We can't afford to be careless and just"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "walk out of here."
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n< Erika >"
+                                ""
                             ]
                         },
                         {
@@ -6537,28 +6516,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "... Are they planning to attack us without letting us"
+                                "\\n< Serena >...Are they planning to attack us after not\nletting us escape and waiting for reinforcements?\nIf that's the case, we don't have much time. I\nwill find a way out here..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "escape and wait for reinforcements? Then we don't have"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "much time. I will find a way out here..."
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -6615,21 +6594,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "No, Serena, I told you I have a plan. Let's hurry and"
+                                "\\n< Erika >...No, I told you I have a plan, Serena. Let's\nquickly go to the storage area for the loot."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "go to the loot storage."
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n< Erika >"
+                                ""
                             ]
                         },
                         {
@@ -6664,14 +6636,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "...Hmm."
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n< Serena >"
+                                "\\n< Serena >......Hmm."
                             ]
                         },
                         {
@@ -6899,21 +6864,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "You'll get shot again, Serena. The loot storage is"
+                                "\\n< Erika >I'm going to shoot you again, Serena. The loot\nstorage is upstairs."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "upstairs."
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n< Erika >"
+                                ""
                             ]
                         },
                         {
@@ -7058,45 +7016,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Okay, we've reached the exit."
+                                "\\n< Serena >Alright, we've reached the exit."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "We've managed to do this well so far, but there should"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "still be a few thieves remaining outside."
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -7113,21 +7040,52 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "We're going to have to fight those guys. Are you"
+                                "\\n< Serena >We've managed to handle things well so far, but\nthere should still be a few thieves remaining\noutside."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ready?"
+                                "\\n< Serena >We'll have to fight those guys. Are you ready?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -7184,28 +7142,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "There's no good or bad about it. If we stay here any"
+                                "\\n< Erika >There's no good or bad. If we stay here any\nlonger, we'll end up dead. It's a gamble once\nwe're out."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "longer, we'll end up dead. It's time to take a chance"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "and make a run for it."
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n< Erika >"
+                                ""
                             ]
                         },
                         {
@@ -7229,14 +7180,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Alright, let's go!"
+                                "\\n< Serena >Alright, let's go!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -8071,14 +8022,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Serena, wait a moment please."
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n< Erika >"
+                                "\\n< Erika >Serena, please wait a moment."
                             ]
                         },
                         {
@@ -8144,21 +8088,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "What's wrong, Lady Erika? We must escape quickly or"
+                                "\\n< Serena >What's wrong, Erika? We need to escape quickly or\nwe'll be engulfed in flames too."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "we'll be engulfed in flames too."
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -8215,21 +8152,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Well, it'll be done soon. ...This is the finishing"
+                                "\\n< Erika >What's wrong? It'll be done in no time... I'm just\nfinishing up, ya know!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "touch, here!!"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n< Erika >"
+                                ""
                             ]
                         },
                         {
@@ -8431,28 +8361,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "The only escape route now is through the flames on the"
+                                "\\n< Erika >The only escape route left is a sea of fire. We\neither burn to death or jump off, a delightful\nchoice, you bastards!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "staircase. The only choices left are to burn to death"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "or jump down. Have a nice day, you bastards!"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n< Erika >"
+                                ""
                             ]
                         },
                         {
@@ -8476,21 +8392,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "...This should prevent any possible pursuit. You're"
+                                "\\n< Serena >...With this, it seems like we can avoid any\npossible pursuit. Well done, Erika-sama."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "amazing, Lady Erika."
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -8547,14 +8456,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Hehe, it's not that big of a deal. Come on, let's go."
+                                "\\n< Erika >Hehe, it's not that big of a deal. Now, let's go."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Erika >"
+                                ""
                             ]
                         },
                         {

@@ -1633,7 +1633,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "(It's dim... Are there no lights?) \\n< Serena >"
+                                "\\n< Serena >(It's dim... Is there no lighting?)"
                             ]
                         },
                         {
@@ -1657,14 +1657,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "(There's nobody here since before. There must be a"
+                                "\\n< Serena >(There's no one here either. It seems there's a\nhidden door somewhere.)"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "hidden door somewhere.) \\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -1688,7 +1688,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Is it time to use the password we learned earlier? \\n< Serena >"
+                                "\\n< Serena >It's time to use the password I was taught\nearlier."
                             ]
                         },
                         {
@@ -1712,7 +1712,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Ah... When will the three of us meet again? \\n< Serena >"
+                                "\\n< Serena >Ah... When will the three of us meet again?"
                             ]
                         },
                         {
@@ -1730,7 +1730,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Thunder, lightning. \\n< Serena >"
+                                "\\n< Serena >Thunder, come forth."
                             ]
                         },
                         {
@@ -1747,7 +1747,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Or in the rain? \\n< Serena >"
+                                "\\n< Serena >Or is it in the rain?"
                             ]
                         },
                         {
@@ -1794,7 +1794,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "A hidden staircase, huh... \\n< Serena >"
+                                "\\n< Serena >A hidden staircase, huh..."
                             ]
                         },
                         {
@@ -1818,14 +1818,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "......"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n< Serena >"
+                                "\\n< Serena >......."
                             ]
                         },
                         {

@@ -4822,7 +4822,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "I must go report to the guild. \\n< Serena >"
+                                "\\n< Serena >I have to go report to the guild."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5093,7 +5100,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "...... \\n< Maril >"
+                                "\\n< Marilou >......."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5117,14 +5131,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "If it's just goblins, even I can take care of"
+                                "\\n< Marilou >Even a goblin, I can handle it..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "them... \\n< Maril >"
+                                ""
                             ]
                         },
                         {
@@ -5181,7 +5195,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Huu...... \\n< Maril >"
+                                "\\n< Marilou >*sigh*..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5205,7 +5226,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Alright, let's go...! \\n< Maril >"
+                                "\\n< Marilou >Alright, let's go...!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {

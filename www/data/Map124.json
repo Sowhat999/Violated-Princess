@@ -14982,14 +14982,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Is this the place where the loot is kept?"
+                                "\\n< Serena >Is this where the stolen goods are kept?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -15168,14 +15168,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Oh, I've been dragged here a few times before..."
+                                "\\n< Erika >Ah, I've been dragged out here a few times..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Erika >"
+                                ""
                             ]
                         },
                         {
@@ -15199,14 +15199,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "?"
+                                "\\n< Serena >？"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -15230,14 +15230,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "No... It's nothing."
+                                "\\n< Erika >No... it's nothing."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Erika >"
+                                ""
                             ]
                         },
                         {
@@ -15294,21 +15294,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Anyway, I saw it back then... I'm pretty sure it was"
+                                "\\n< Erika >Anyway, I saw it at that time... I'm pretty sure\nit was around here..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "around here..."
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n< Erika >"
+                                ""
                             ]
                         },
                         {
@@ -15363,14 +15356,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "...Alcohol?"
+                                "\\n< Serena >...Alcohol?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -15439,21 +15432,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Ugh, the leader here is such a petty guy. He's just a"
+                                "\\n< Erika >Ah, the leader here is a petty guy. Gathering\ndistilled liquor as a thief, of all things."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "thief, yet he's collecting distilled liquor and stuff."
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Erika >"
+                                ""
                             ]
                         },
                         {
@@ -15470,28 +15463,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Distilled liquor sure hits hard. Though it's not like"
+                                "\\n< Erika >Distilled liquor is expensive, you know. It's not\nlike it's completely out of reach, but it's a bit\ntoo casual for me."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "it's completely out of reach, it's not exactly"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "something you drink casually."
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n< Erika >"
+                                ""
                             ]
                         },
                         {
@@ -15605,14 +15591,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "So I thought I'd excuse myself for a moment..."
+                                "\\n< Erika >So I thought I'd take a little liberty with it..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Erika >"
+                                ""
                             ]
                         },
                         {
@@ -15669,14 +15655,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Hmm, is this wine? Oh, it's vintage. Interesting."
+                                "\\n< Erika >Hm, is this wine? Oh, it's a vintage."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Erika >"
+                                ""
                             ]
                         },
                         {
@@ -15711,14 +15697,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "What!? Weren't we supposed to plan an escape?!"
+                                "\\n< Serena >What!? Wasn't this about planning an escape?!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -15735,21 +15721,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Lady Erika, I did say it was going to be chaotic, but"
+                                "\\n< Serena >Erika, I did say it was chaotic, but this...!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "this is just ridiculous...!"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -15815,21 +15794,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "No, no, of course that was an important discussion for"
+                                "\\n< Erika >No, no, of course, what I just said is actually\nquite important for our escape. The key point is\nthe distilled liquor..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "our escape. The key is the distilled liquor..."
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Erika >"
+                                ""
                             ]
                         },
                         {
@@ -15846,21 +15825,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "We also have torches available as needed. That's quite"
+                                "\\n< Erika >There are torches conveniently placed. Quite\nconvenient."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "alright."
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Erika >"
+                                ""
                             ]
                         },
                         {
@@ -15895,14 +15874,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "??"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n< Serena >"
+                                "\\n< Serena >？？"
                             ]
                         },
                         {
@@ -16519,14 +16491,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "*cough*... *cough*... *huhu*... *huhu*... *huhu*..."
+                                "\\n< Erika >Cough... Cough, Ahhhchoo!... Heh! Heh! Heh!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Erika >"
+                                ""
                             ]
                         },
                         {
@@ -16572,21 +16544,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Fire... I've heard that alcohol is flammable, but I"
+                                "\\n< Serena >Fire... I've heard that alcohol is flammable, but\nI never expected it to become such a raging\nfire..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "never expected it to create flames this intense..."
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -16643,21 +16615,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "It's a trick often used by sailors. Distilled liquor"
+                                "\\n< Erika >It's a common trick used by sailors. Distilled\nspirits, in particular, tend to burn really well."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "in particular tends to burn well, you know."
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n< Erika >"
+                                ""
                             ]
                         },
                         {
@@ -16681,21 +16646,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "They will be in a panic because of the fire."
+                                "\\n< Serena >They're all in a panic because of the fire. With\nthis, I can easily escape by blending into the\nsmoke."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "We can escape easily by blending in with the smoke."
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -16752,14 +16717,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Take that, you jerk... Wait a sec."
+                                "\\n< Erika >Serves you right... Wait a moment."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Erika >"
+                                ""
                             ]
                         },
                         {
@@ -16787,14 +16752,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Oh, my equipment... abandoned in a place like this..."
+                                "\\n< Erika >Oh, my equipment... abandoned in a place like\nthis..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Erika >"
+                                ""
                             ]
                         },
                         {
@@ -16818,14 +16783,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "The contents are...crap, there's no money or medicine."
+                                "\\n< Erika >Inside... shit, I don't have any money or drugs..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Erika >"
+                                ""
                             ]
                         },
                         {
@@ -16875,21 +16840,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Oh! They're idiots! They left the shell!"
+                                "\\n< Erika >Oh! But you fool! The grenade is still intact!\nThis is the most valuable thing, you know!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "This is the most valuable part!"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Erika >"
+                                ""
                             ]
                         },
                         {
@@ -16944,21 +16909,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Lady Erika! If you hesitate, we will also be caught in"
+                                "\\n< Serena >Erika-sama! If you hesitate, we will also be\nengulfed in flames!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "the fire!"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -17015,21 +16973,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "I understand! Damn it, I guess I have to give up on"
+                                "\\n< Erika >I know! Damn it, I guess I have no choice but to\ngive up on the armor... At least the belt pouch\nand the boots..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "the armor... At least the belt pouch and the boots..."
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Erika >"
+                                ""
                             ]
                         },
                         {
@@ -17120,21 +17078,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Sorry Serena! I kept you waiting! With this, I can"
+                                "\\n< Erika >Sorry, Serena! I made you wait! With this, I can\nfight a little bit!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "fight a little bit!"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n< Erika >"
+                                ""
                             ]
                         },
                         {
@@ -17239,14 +17190,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Let's go!"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n< Serena >"
+                                "\\n< Serena >Let's go!"
                             ]
                         },
                         {
@@ -18723,7 +18667,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "There's no need to go to the third floor. \\n< Serena >"
+                                "\\n< Serena >I don't have any business on the third floor."
                             ]
                         },
                         {

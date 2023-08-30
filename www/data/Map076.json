@@ -10697,7 +10697,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "The bridge is currently closed! \\n< City Patrol >"
+                                "\\n<City Police>The bridge is currently closed!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -10985,7 +10992,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Oh, you came to the right place. \\n< City Patrol >"
+                                "\\n<City Police>Oh, you've come at a good time."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -11010,7 +11024,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "What is it... \\n< Serena >"
+                                "\\n< Serena >What is it..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -11034,7 +11055,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Hmm? Hahaha... \\n< City Patrol >"
+                                "\\n<City Police>Hm? Hahaha..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -11051,7 +11079,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Do you want to go back to the prison again? \\n< City Patrol >"
+                                "\\n<City Police>You don't know how to speak properly, huh? Do you\nwant to be thrown back into prison again?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -11094,7 +11136,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "What...could it be... \\n< Serena >"
+                                "\\n< Serena >W-What... is it...?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -11118,14 +11167,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Enough already, you fool. Learn to understand your"
+                                "\\n<City Police>That's right, you idiot. Understand your position\nalready."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "position. \\n< City Patrol >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -11184,14 +11240,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "Senior, what's up with this guy? His belly is so"
+                                "\\n<Young Police Officer>Senpai, what's up with this person? And their huge\nbelly..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "big... \\n< Young city policeman >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -11219,7 +11282,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "Hey senior, what's up with this guy? \\n< Young city policeman >"
+                                "\\n<Young Police Officer>Senpai, what's the deal with this person?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -11255,14 +11325,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "Her face looks strange... no, is that a tattoo? What"
+                                "\\n<Young Police Officer>Their face is weird... No, is that a tattoo? What\nthe hell is this?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "is that?' \\n< Young city policeman >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -11321,7 +11398,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Huh? \\n< City Patrol >"
+                                "\\n<City Police>Hm?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -11370,14 +11454,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "...Ah, I see. Haha, so you're the new guy. Were you"
+                                "\\n<City Police>......Ah, haha, I see. You're the new recruit.\nWere you not there at that time?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "not around back then? \\n< City Patrol >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -11395,21 +11486,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "I don't know when exactly it was, but I just got"
+                                "\\n<Young Police Officer>I don't know when that happened, but I finished my\ntraining and was assigned yesterday."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "assigned to a department yesterday after finishing my"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "training. \\n< Young city policeman >"
+                                ""
                             ]
                         },
                         {
@@ -11427,14 +11518,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Well then, that's perfect. It'll also deepen our"
+                                "\\n<City Police>Well then, that's perfect. It means we can deepen\nour friendship, right?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "friendship, right? \\n< City Patrol >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -11459,7 +11557,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "...! \\n< Serena >"
+                                "\\n< Serena >......!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -11772,7 +11877,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Ahhhhhhhhhh!!! \\n< Serena >"
+                                "\\n< Serena >Uuuuughhh!!!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -11807,14 +11919,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "Oh hell yeah, it's really in! My big dick! She's"
+                                "\\n<Young Police Officer>Ugh, seriously, they went in! My long cock! And\nthey got pregnant, damn it?!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "pregnant but still going at it, huh? \\n< Young city policeman >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -11841,14 +11960,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "Woo hoo, it really went in! My big d*ck! Even though"
+                                "\\n<Young Police Officer>Ugh, seriously, they went in! My long cock! Even\nthough they're just a kid?!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "you're a kid? \\n< Young city policeman >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -11875,14 +12001,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Moreover, double penetration! Just how much training"
+                                "\\n<Young Police Officer>And they're even double-penetrating! How much\ntraining have they gone through?!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "have they undergone? \\n< Young city policeman >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -11899,14 +12032,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Hahaha! This is the perk of being in the city police"
+                                "\\n<City Police>Haha! This is the perk of being in the city police\nforce! You should thank your uncle for this!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "force! Thank your uncle for this! \\n< City Patrol >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -11963,7 +12103,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Ughh! \\n< Serena >"
+                                "\\n< Serena >Uuughhh!!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -11987,7 +12134,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Sup! Let's do this! \\n< Young city policeman >"
+                                "\\n<Young Police Officer>Yes! I'll do it!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -12004,38 +12158,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Hehehe! The city police force is useless...! That's"
+                                "\\n<Young Police Officer>Hehehe! I thought being in the city police force\nwould be boring... but it's actually quite fun!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "what I thought, though! \\n< Young city policeman >"
+                                ""
                             ]
                         },
                         {
-                            "code": 101,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "",
-                                0,
-                                2,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "Hehe! Hey senior, can we do whatever we want with this"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "person anytime? \\n< Young city policeman >"
+                                ""
                             ]
                         },
                         {
@@ -12052,45 +12189,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Oh, by the way, don't do anything that draws attention"
+                                "\\n<Young Police Officer>Hehe! Hey, senior, can we fuck this person anytime\nwe want?!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "to yourself in town. \\n< City Patrol >"
+                                ""
                             ]
                         },
                         {
-                            "code": 101,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "",
-                                0,
-                                2,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "We have to protect the public order in the city. It"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "wouldn't be good if we made the citizens feel uneasy,"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "you know? \\n< City Patrol >"
+                                ""
                             ]
                         },
                         {
@@ -12107,7 +12220,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "So, it won't attract attention? \\n< Young city policeman >"
+                                "\\n<City Police>Ah, well, try not to do anything that would\nattract attention in the middle of the city."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -12124,7 +12251,69 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Of course, we can do whatever we want! \\n< City Patrol >"
+                                "\\n<City Police>We have to protect the public safety in the city.\nIt would be bad if we made the citizens feel\nuneasy, you know?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                2,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n<Young Police Officer>So, as long as it doesn't attract attention?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                2,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n<City Police>Of course, you can fuck as much as you want!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -12181,7 +12370,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Uuuuhhhh!!! Aahh!!! \\n< Serena >"
+                                "\\n< Serena >Nnnnghhhh!!! Ahhhhh!!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -12205,7 +12401,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Wow, it's really choppy! \\n< Young city policeman >"
+                                "\\n<Young Police Officer>Whoa, this is amazing!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -12222,38 +12425,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "That brat seems to be enjoying it more than me!? Maybe"
+                                "\\n<Young Police Officer>This brat's ass is more sensitive, huh?! Maybe I\nwould have preferred that too!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "I should've gone that way too! \\n< Young city policeman >"
+                                ""
                             ]
                         },
                         {
-                            "code": 101,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "",
-                                0,
-                                2,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "Hehe, don't get too worked up. From now on, you can"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "use it as much as you want, anytime. \\n< City Patrol >"
+                                ""
                             ]
                         },
                         {
@@ -12270,7 +12456,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Whether it's the front, the back, or the mouth...! \\n< City Patrol >"
+                                "\\n<City Police>Hehe, don't panic. From now on, you can use it\nanytime, as much as you want."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -12287,7 +12487,38 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Yahoo! Awesome!! \\n< Young city policeman >"
+                                "\\n<City Police>Whether it's the front, the ass, or the mouth...!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                2,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n<Young Police Officer>Hyaho! This is the best!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -12344,7 +12575,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Ahhh! Stop...! Slowly...! \\n< Serena >"
+                                "\\n< Serena >Ahhhh! Y-You... gently...!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -12368,7 +12613,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Ehehe, what are you saying even though you're all wet! \\n< Young city policeman >"
+                                "\\n<Young Police Officer>Ehehe, what are you saying even though you're all\nwet and horny!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -12385,14 +12637,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "You may have a cute face, but your pussy is saying it"
+                                "\\n<Young Police Officer>With such a cute face, huh?! Your pussy feels so\ngood, so good! You slutty bitch!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "feels so good! You slutty bitch! \\n< Young city policeman >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -12449,7 +12715,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "No...it's wrong...! \\n< Serena >"
+                                "\\n< Serena >No... not...!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -12473,38 +12746,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Having a flat chest is a flaw, but this kid is still"
+                                "\\n<Young Police Officer>It's a shame that you're a flat-chested brat, but\nI'll make sure to deepthroat you properly...!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "something! They hold it firmly in their mouth...! \\n< Young city policeman >"
+                                ""
                             ]
                         },
                         {
-                            "code": 101,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "",
-                                0,
-                                2,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "If we have this many top-grade items, then we're"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "definitely set! Hehe! \\n< Young city policeman >"
+                                ""
                             ]
                         },
                         {
@@ -12521,7 +12777,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Ahahaha, sorry senior, I gotta go soon! \\n< Young city policeman >"
+                                "\\n<Young Police Officer>Above all, if it's such a high-quality piece...\nhehe!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -12538,7 +12801,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "What?! You making money? Kids these days are too weak. \\n< City Patrol >"
+                                "\\n<Young Police Officer>Ah, hehe, Senpai, I'm almost...!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -12555,14 +12825,52 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Well, never mind. It's our first shot, after all."
+                                "\\n<City Police>What? Already? Kids these days are so weak."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                2,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Let's try it at the very back. \\n< City Patrol >"
+                                "\\n<City Police>Well, whatever. It's the first shot to\ncommemorate. Give it to me deep inside."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -12619,7 +12927,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "......!! \\n< Serena >"
+                                "\\n< Serena >......！！"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -12654,38 +12969,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "I-Is it okay? To release it inside? It seems like it's"
+                                "\\n<Young Police Officer>I-Is it okay to cum inside? Is it gross to give\npregnant women my semen...?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "gross to give pregnant woman semen... \\n< Young city policeman >"
+                                ""
                             ]
                         },
                         {
-                            "code": 101,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "",
-                                0,
-                                2,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "You're probably harassing that pregnant child from"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "both the front and back. Don't start caring now. \\n< City Patrol >"
+                                ""
                             ]
                         },
                         {
@@ -12702,21 +13000,52 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "First of all, even if this little punk (referring to a"
+                                "\\n<City Police>You're fucking that pregnant brat from both ends.\nDon't worry about it now."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "",
+                                0,
+                                2,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "child) becomes useless, will there be any problems"
+                                "\\n<City Police>First of all, even if this pregnant brat becomes\nuseless, will there be any trouble for me or you?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "that you or I will face? \\n< City Patrol >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -12754,7 +13083,21 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "Is-it, is it okay? To do it inside? With this kid...? \\n< Young city policeman >"
+                                "\\n<Young Police Officer>I-Is it okay? To cum inside? To do it with a kid\nlike this..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -12771,21 +13114,28 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "You can't complain after going all in like that. It"
+                                "\\n<City Police>After fucking her so hard, what are you even\nsaying? Whether you cum outside or inside, it\nwon't make any difference at this point."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "doesn't matter whether you do it outside or inside at"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "this point. \\n< City Patrol >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -12812,14 +13162,21 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "Is it... okay to do it inside? If we're not careful, I"
+                                "\\n<Young Police Officer>I-Is it okay? To cum inside? I'm afraid she might\nget pregnant if we do..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "might end up getting pregnant... \\n< Young city policeman >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -12836,14 +13193,21 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "So what? If a flesh receptacle gets pregnant, who"
+                                "\\n<City Police>So what? If the cum dumpster gets pregnant, who\nwill be troubled?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "would be troubled? \\n< City Patrol >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -12880,7 +13244,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "... I see. Listen up! He's just a worthless brat! \\n< Young city policeman >"
+                                "\\n<Young Police Officer>.......Yeah! You're right! She's just a toilet\nbrat after all!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -12937,7 +13315,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Stop...please... \\n< Serena >"
+                                "\\n< Serena >S-Stop...!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -12972,21 +13357,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "Hmph. Don't act like a mother when you're still a"
+                                "\\n<City Police>Hmph. Don't act like a mother all of a sudden.\nAfter all, the father is probably some unknown\nkid."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "child. You probably don't even know who your father"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "is. \\n< City Patrol >"
+                                ""
                             ]
                         },
                         {
@@ -13013,7 +13398,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "What did she say though? \\n< Young city policeman >"
+                                "\\n<Young Police Officer>What are you saying?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -13041,14 +13433,21 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "Ah, it's like a mating call. They say this when they"
+                                "\\n<City Police>Ah, it's like a moaning sound. When they really\nwant it inside, they say it like this."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "want it hard during sex. \\n< City Patrol >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -13065,7 +13464,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "Just bring it out without worrying. \\n< City Patrol >"
+                                "\\n<City Police>Just cum inside without worrying."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -13092,21 +13498,21 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "Anyway, I'm getting it inside me from anyone and"
+                                "\\n<City Police>Anyway, she's getting creampied by anyone and\neveryone every day. Even if she gets pregnant, who\nthe fuck knows who the father is."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "everyone every day. Even if I get pregnant, I won't"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "know who the father is. \\n< City Patrol >"
+                                ""
                             ]
                         },
                         {
@@ -13123,7 +13529,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "Just bring it out without worrying. \\n< City Patrol >"
+                                "\\n<City Police>Just cum inside without worrying."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -13160,7 +13573,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Yo! Yo! \\n< Young city policeman >"
+                                "\\n<Young Police Officer>Yes! Yes!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -13177,7 +13597,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Ssssssss!!!! \\n< Young city policeman >"
+                                "\\n<Young Police Officer>S-s-s-stoooop!!!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -13234,7 +13661,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Ugh! Guh! Ahh... \\n< Serena >"
+                                "\\n< Serena >Mm! Guh! Ahh...!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -13258,7 +13692,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Here I am! \\n< Young city policeman >"
+                                "\\n<Young Police Officer>I'm coming!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -13384,7 +13825,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "What? \\n< Serena >"
+                                "\\n< Serena >Ahh!?!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -13408,7 +13856,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Ugh...ahh...crap, this is a creampie... \\n< Young city policeman >"
+                                "\\n<Young Police Officer>Ugh...uhh...damn, this is a creampie..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -13425,7 +13887,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "What, were you a virgin? \\n< City Patrol >"
+                                "\\n<City Police>What, were you a virgin?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -13442,21 +13911,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Well, I have the experience that comes with my age..."
+                                "\\n<Young Police Officer>Well, I do have experience appropriate for my\nage... but in the end, I always use protection or\npull out..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "but in the end, I always use either withdrawal or"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "contraception. \\n< Young city policeman >"
+                                ""
                             ]
                         },
                         {
@@ -13484,14 +13953,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "This is the first time I have done it with a woman"
+                                "\\n<Young Police Officer>This is my first time cumming inside a woman\nwithout protection... Ohohoho!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "without protection... Ohohoh! \\n< Young city policeman >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -13518,14 +13994,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "This is the first time I've felt like impregnating a"
+                                "\\n<Young Police Officer>This is my first time ejaculating inside a woman\nwith the intention of impregnating her... Ohohoho!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "woman... Ohohoho! \\n< Young city policeman >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -13603,7 +14086,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Ugh... *groans*... \\n< Serena >"
+                                "\\n< Serena >Ugh...guh..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -13638,31 +14128,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "Whoa... I did it. Amazing. And she's just a kid, and"
+                                "\\n<Young Police Officer>Ugh...I came...damn, it's amazing. And she's just\na kid, pregnant too."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "pregnant too. \\n< Young city policeman >"
+                                ""
                             ]
                         },
                         {
-                            "code": 101,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "",
-                                0,
-                                2,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "Is it okay...to have sex like this? Let's do it... \\n< Young city policeman >"
+                                ""
                             ]
                         },
                         {
@@ -13679,14 +14159,45 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "Would you take care of the kid that person produced,"
+                                "\\n<Young Police Officer>Is it okay... to have sex like this..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "",
+                                0,
+                                2,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "then? \\n< City Patrol >"
+                                "\\n<City Police>If that kid is born, do you want me to take care\nof it?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -13724,38 +14235,28 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "Whoa...I came...inside. So this is what it feels like"
+                                "\\n<Young Police Officer>Ugh...I came...inside. So this is what it feels\nlike to creampie... It's amazing... Me..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "to do a creampie...amazing...me... \\n< Young city policeman >"
+                                ""
                             ]
                         },
                         {
-                            "code": 101,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "",
-                                0,
-                                2,
-                                2
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "Is it really okay though...? Even as a working girl, I"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "wouldn't do something like this, you know? \\n< Young city policeman >"
+                                ""
                             ]
                         },
                         {
@@ -13772,7 +14273,45 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "Then, are you going to take care of that person? \\n< City Patrol >"
+                                "\\n<Young Police Officer>Is it really okay... even for a prostitute, I\nshouldn't make her do something like this, right?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 2,
+                            "parameters": [
+                                "",
+                                0,
+                                2,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "\\n<City Police>Then, are you going to take care of that person?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -13799,14 +14338,28 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "Whoa...I did it. Awesome. With this, I can have a"
+                                "\\n<Young Police Officer>Ugh... I came... damn. This can make a child...\namazing..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "child...It's amazing... \\n< Young city policeman >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -13823,7 +14376,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "Will you take care of the child if I give birth to it? \\n< City Patrol >"
+                                "\\n<City Police>If that kid is born, do you want me to take care\nof it?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -13860,14 +14420,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "That's a harsh joke! We don't need a kid like a"
+                                "\\n<Young Police Officer>That's a harsh joke! I don't need a brat like you\nas my toilet!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "toilet! \\n< Young city policeman >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -13884,7 +14451,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Oh really? You were creampied by a terrible guy? \\n< City Patrol >"
+                                "\\n<City Police>Haha, is that so? You got creampied by a cruel\nperson, huh?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -13941,7 +14522,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "... \\n< Serena >"
+                                "\\n< Serena >......"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -13965,38 +14553,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "...I guess it's about time for me to bring it out too."
+                                "\\n<City Police>......I guess it's about time for me to cum too.\nHey, support me, okay?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "Hey, can you support me? \\n< City Patrol >"
+                                ""
                             ]
                         },
                         {
-                            "code": 101,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "",
-                                0,
-                                2,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "Hehe, I'm alright! I'm young, so here comes my second"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "shot without pulling out! Let's do it, let's do it! \\n< Young city policeman >"
+                                ""
                             ]
                         },
                         {
@@ -14013,7 +14584,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "That one is dependable...Mm, hah...! \\n< City Patrol >"
+                                "\\n<Young Police Officer>Hehe, don't worry! I'm young, after all! This is\nmy second shot without pulling out! I'm going at\nit!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -14030,21 +14615,45 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Alright you little shit, this time it's your ass. Make"
+                                "\\n<City Police>That person is reliable... Mm, ah...!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                2,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "sure to tighten it properly, because the ending is"
+                                "\\n<City Police>Alright, you little shit. This time, it's your\nass. Make sure to tighten up, the ending is\nimportant, you know."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "important. \\n< City Patrol >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -14101,7 +14710,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Uu...! \\n< Serena >"
+                                "\\n< Serena >Ugh...!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -14125,38 +14741,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Wow! Is it tightening up? Seriously, the training is"
+                                "\\n<Young Police Officer>Oh! It's tight!? This punishment is intense!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "tough! \\n< Young city policeman >"
+                                ""
                             ]
                         },
                         {
-                            "code": 101,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "",
-                                0,
-                                2,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "We gave you a good punishment, you know. What will"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "happen if you go against us...! \\n< City Patrol >"
+                                ""
                             ]
                         },
                         {
@@ -14173,7 +14772,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Hehe, I'm desperate with this one too! ...Mm, mm! \\n< City Patrol >"
+                                "\\n<City Police>I gave you a thorough punishment, you know. If you\ngo against us, you'll see what happens...!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -14190,7 +14803,45 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Okay, here it comes, coming, coming...! \\n< City Patrol >"
+                                "\\n<City Police>Hehe, desperate, huh, this person too! ...Mm, mm!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                2,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n<City Police>Alright, I'm gonna cum, gonna cum, gonna cum...!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -14354,7 +15005,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Uuuuuuuuuhhhh!!! \\n< Serena >"
+                                "\\n< Serena >Ughhhhhh!!!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -14378,7 +15036,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Uhahaha...! \\n< City Patrol >"
+                                "\\n<City Police>Uhahaha...!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -14431,31 +15096,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Hehe, your ass is still as good as ever. And to think"
+                                "\\n<City Police>Hehe, your asshole is still as good as ever.\nYou're getting to use it for free, after all."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "I can use it as much as I want for free. \\n< City Patrol >"
+                                ""
                             ]
                         },
                         {
-                            "code": 101,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "",
-                                0,
-                                2,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "The city police force is the best!! \\n< Young city policeman >"
+                                ""
                             ]
                         },
                         {
@@ -14472,31 +15127,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "That's right, that's right. You also have the"
+                                "\\n<Young Police Officer>The City Police Force is the best!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "privilege that you've acquired. \\n< City Patrol >"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                2,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "Serve the city police diligently. \\n< City Patrol >"
+                                ""
                             ]
                         },
                         {
@@ -14513,7 +15151,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Sup! \\n< Young city policeman >"
+                                "\\n<City Police>That's right, that's right. It's a privilege\nyou've obtained after all."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -14530,14 +15182,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "He's quite an interesting guy. Later, we'll show him"
+                                "\\n<City Police>Serve the City Police Force properly."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "the human-dog we're taking care of. \\n< City Patrol >"
+                                ""
                             ]
                         },
                         {
@@ -14554,7 +15206,69 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "What's up? \\n< Young city policeman >"
+                                "\\n<Young Police Officer>Yes!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                2,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n<City Police>This one is quite interesting. Later, we'll show\nyou the human dog we have."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                2,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n<Young Police Officer>Huh?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -14611,7 +15325,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Ah... ah... \\n< Serena >"
+                                "\\n< Serena >Ah... Ah..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -14830,7 +15551,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Alright! Nothing's abnormal! Let's go! \\n< City Patrol >"
+                                "\\n<City Police>Alright! No abnormalities! Let's go!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -14848,14 +15576,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Oh, this is just a formality for questioning you as"
+                                "\\n<Young Police Officer>Ahaha, this is just a routine questioning, you\nknow."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "part of my duty. \\n< Young city policeman >"
+                                ""
                             ]
                         },
                         {
@@ -14904,14 +15632,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "It may seem stupid, but format is important. You"
+                                "\\n<City Police>Ah, it might seem stupid, but formality is\nimportant. You should remember that too."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "should remember that well too. \\n< City Patrol >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -14929,7 +15664,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "I've studied a lot, sir! \\n< Young city policeman >"
+                                "\\n<Young Police Officer>Thank you for teaching me!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -15051,14 +15793,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "What's wrong? You're no longer needed. Get lost"
+                                "\\n<City Police>...What's wrong? You're already done here. Hurry\nup and disappear somewhere."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "quickly. \\n< City Patrol >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -15083,7 +15832,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Ugh... \\n< Serena >"
+                                "\\n< Serena >Ugh..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -15316,14 +16072,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "What, did you come to be bullied again? You really"
+                                "\\n<City Police>What, did you come here to be bullied again? You\nreally seem to enjoy it, don't you?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "love it, don't you? \\n< City Patrol >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -15351,14 +16114,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "Having a child is a disaster. Especially when it's"
+                                "\\n<City Police>Brat in the belly, huh? Are you rooted in the\nbelly of such a mother?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "rooted in a mother like this, right? \\n< City Patrol >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -15385,14 +16155,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Well, whatever. Let's have some fun. We're getting fed"
+                                "\\n<City Police>Well, fine. Let's play. We're getting tired of it\ntoo."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "up with it anyways. \\n< City Patrol >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -16492,14 +17269,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "I'll play with you until your belly aches this time!"
+                                "\\n<City Police>This time, we'll play with you until your little\nbrat comes out! Make sure to come, okay?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "Make sure you come, okay? \\n< City Patrol >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -16526,14 +17310,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "Oh, I'm done with you. Get out of here quickly, you"
+                                "\\n<City Police>Ah, you're no longer needed. Just disappear\nalready, you fool."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "fool. \\n< City Patrol >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -16680,7 +17471,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "*Sigh*... Can't keep doing this... \\n< Young city policeman >"
+                                "\\n<Young Police Officer>Sigh... I can't take it anymore..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -16819,21 +17617,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "Oh, hey there! Did you come to hang out with a big"
+                                "\\n<Young Police Officer>Oh, you've come to play again with a big smile on\nyour face? Great! Let's play together!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "smile on your face again? Awesome! Let's play"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "together! \\n< Young city policeman >"
+                                ""
                             ]
                         },
                         {
@@ -16860,7 +17658,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "Oh, Serena, you came back! I'm so happy, hehehe! \\n< Young city policeman >"
+                                "\\n<Young Police Officer>Oh, you've come again, Serena-chan! I'm so happy,\nhehehe!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -17009,14 +17821,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "Don't go saying my kid in your belly is mine or"
+                                "\\n<Young Police Officer>Don't talk about my seed, you brat! I wouldn't\nmarry a toilet like you, so don't even joke about\nit!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "anything! Marrying a toilet like you is no joke! \\n< Young city policeman >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -17043,14 +17862,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "Phew, found it found it. Thank you so much. Thanks to"
+                                "\\n<Young Police Officer>Ah, I came, I came. Thanks a lot. Thanks to you, I\nfeel refreshed."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "you, I feel relieved. \\n< Young city policeman >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {

@@ -1417,12 +1417,12 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "Insertion.",
-                                    "Sex sound.",
-                                    "Sex sound (continuous loop).",
-                                    "Ejaculation.",
-                                    "Pull out.",
-                                    "Repeat stop."
+                                    "Insertion",
+                                    "Sex sounds",
+                                    "Sex Sounds (Continuous Loop)",
+                                    "Ejaculation",
+                                    "To ejaculate",
+                                    "Stop repeat"
                                 ],
                                 -2,
                                 0,
@@ -1905,7 +1905,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                " \\n< Serena >"
+                                "\\n< Serena >"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -1926,7 +1933,7 @@
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
                                 ""
@@ -1936,7 +1943,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<>"
+                                ""
                             ]
                         },
                         {
@@ -3817,7 +3824,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "The following is an explanation."
+                                "Explanation below."
                             ]
                         },
                         {
@@ -3841,21 +3848,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "I will fill out the sex preparation information. This"
+                                "I will fill in the sex preparation information.\nThis is a procedure to retrieve information about\nthe partner I will have sex with from now on."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "is a measure to call up information about the partner"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "I am about to have sex with."
+                                ""
                             ]
                         },
                         {
@@ -3905,45 +3912,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Then, call the contents of the sex using variables."
+                                "Afterwards, I will call the sex details using\nvariables. There are three variables to be used."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "Three variables will be used."
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "803: Current: Number of times had sex 806: Current:"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "Number of times received oral sex 809: Current: Number"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "of times had anal sex."
+                                ""
                             ]
                         },
                         {
@@ -3960,14 +3936,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Please consider this as a tool used to confirm which"
+                                "803: Current: Number of times having sex 806:\nCurrent: Number of times giving oral sex 809:\nCurrent: Number of times having anal sex"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "hole the stick was inserted into."
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -3984,21 +3967,38 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "If ejaculation occurs afterwards, ejaculation"
+                                "Please consider this as a tool used to confirm\nwhich hole the stick was inserted into."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "processing will be performed. Six switches are used"
+                                "If ejaculation occurs afterwards, ejaculation\nprocessing will be performed. There are six\nswitches to be used."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "for this."
+                                ""
                             ]
                         },
                         {
@@ -4069,21 +4069,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "804: Sexual intercourse: Ejaculation inside the vagina 807: Sexual intercourse: Ejaculation outside the anus"
+                                "804: Sex: Vaginal creampie 807: Sex: Anal creampie\n805: Sex: External ejaculation 808: Sex: Oral\ncreampie 806: Sex: Anal creampie 809: Sex:\nExternal ejaculation"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "805: Sexual intercourse: Ejaculation outside the vagina  808: Sexual intercourse: Ejaculation in the mouth "
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "806: Sexual intercourse: Ejaculation inside the anus  809: Sexual intercourse: Ejaculation outside the mouth"
+                                ""
                             ]
                         },
                         {
@@ -4100,14 +4100,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "This is a confirmation of where ejaculation occurred"
+                                "This is a confirmation of where ejaculation\noccurred after the stick was inserted."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "after inserting a stick."
+                                ""
                             ]
                         },
                         {
@@ -4146,14 +4146,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "How you feel about sex is processed with two"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "variables."
+                                "The feelings towards sex will be processed using\ntwo variables."
                             ]
                         },
                         {
@@ -4170,14 +4163,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "821: Current: Pleasure Value 822: Current: Emotional"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "Addition Value"
+                                "821: Current: Pleasure value 822: Current:\nEmotional addition value"
                             ]
                         },
                         {
@@ -4194,28 +4180,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Pleasure value is processed only with a plus sign (+),"
+                                "The pleasure value will be processed only with a\npositive (+) sign, while the emotional addition\nvalue will be inputted and processed as a positive\n(+) if it is pleasant, and as a negative (-) if it\nis unpleasant."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "but emotional value is input and processed as plus"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "sign (+) if it is pleasurable, and as minus sign (-)"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "if it is unpleasant."
+                                ""
                             ]
                         },
                         {
@@ -4243,14 +4215,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Enter the situation directly into variable 943: Sexual"
+                                "The situation will be directly inputted into\nvariable 943: Sex Act Situation ID."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "Situation ID."
+                                ""
                             ]
                         },
                         {
@@ -4274,28 +4246,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "The variables and switch inputs for sex scenes are"
+                                "With that, the variables and switch inputs for sex\nshould be mostly complete. Finally, if you execute\nCommon Event 16: Common Event After Erotic Event,\nvarious details will be recorded in the Erotic\nStats."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "probably completed at this point. Finally, by"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "executing Common Event 16, various things will be"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "recorded in the Erosty after the erotic event."
+                                ""
                             ]
                         },
                         {
@@ -4334,28 +4299,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "If you are raped by a mob character, please add the"
+                                "If you are being violated by a background\ncharacter, please add to the respective experience\ncount. For unique characters with names, there is\na treatment where the count is only incremented\nfor the first occurrence, so this measure is\nunnecessary."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "experience number for each one. For named unique"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "characters, the treatment of adding the number of"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "people only applies to the first time, so this measure is not necessary."
+                                ""
                             ]
                         },
                         {
@@ -7334,7 +7299,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                " \\n< Serena >"
+                                "\\n< Serena >"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -7358,7 +7330,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                " \\n< Opponent >"
+                                "\\n< Opponent >"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -7474,7 +7453,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "Naked reaction. \\n< Opponent >"
+                                "\\n< Opponent >Naked reaction"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -7562,7 +7548,14 @@
                             "code": 401,
                             "indent": 4,
                             "parameters": [
-                                "Half-naked reaction. \\n< Opponent >"
+                                "\\n< Opponent >Half-naked reaction"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 4,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -7658,7 +7651,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "Pregnancy reaction. \\n< Opponent >"
+                                "\\n< Opponent >Pregnancy reaction"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -7770,21 +7770,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\V[43]"
+                                "\\V[43]\\V[44]\\V[45]"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "  \\V[44]"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "    \\V[45]"
+                                ""
                             ]
                         },
                         {
@@ -8767,21 +8767,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "I will fill out the sex preparation information. This"
+                                "Filling in sex preparation information. This is a\nprocedure to retrieve information about the\npartner you are about to have sex with."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "is a measure to call up information about the partner"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "I am about to have sex with."
+                                ""
                             ]
                         },
                         {
@@ -8831,45 +8831,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Then, call the contents of the sex using variables."
+                                "After that, the content of the sex is called using\nvariables. There are three variables to be used."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "Three variables will be used."
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "803: Current: Number of times had sex 806: Current:"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "Number of times received oral sex 809: Current: Number"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "of times had anal sex."
+                                ""
                             ]
                         },
                         {
@@ -8886,14 +8855,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Please consider this as a tool used to confirm which"
+                                "803: Current: Number of times having sex 806:\nCurrent: Number of times giving oral sex 809:\nCurrent: Number of times having anal sex"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "hole the stick was inserted into."
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8910,21 +8886,38 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "If ejaculation occurs afterwards, ejaculation"
+                                "Please consider this as an item used to confirm\nwhich hole the stick was inserted into."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "processing will be performed. Six switches are used"
+                                "After ejaculation, ejaculation processing will be\nperformed. There are six switches to be used."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "for this."
+                                ""
                             ]
                         },
                         {
@@ -8995,21 +8988,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "804: Sexual intercourse: Ejaculation inside the vagina 807: Sexual intercourse: Ejaculation outside the anus"
+                                "804: Sexual Activity: Vaginal Creampie 807: Sexual\nActivity: Anal Creampie 805: Sexual Activity:\nExternal Ejaculation 808: Sexual Activity: Oral\nCreampie 806: Sexual Activity: Anal Creampie 809:\nSexual Activity: External Oral Ejaculation"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "805: Sexual intercourse: Ejaculation outside the vagina  808: Sexual intercourse: Ejaculation in the mouth "
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "806: Sexual intercourse: Ejaculation inside the anus  809: Sexual intercourse: Ejaculation outside the mouth"
+                                ""
                             ]
                         },
                         {
@@ -9026,14 +9019,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "This is a confirmation of where ejaculation occurred"
+                                "This is a confirmation of where the stick was\ninserted after being thrust in and where\nejaculation occurred."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "after inserting a stick."
+                                ""
                             ]
                         },
                         {
@@ -9072,14 +9065,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "How you feel about sex is processed with two"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "variables."
+                                "The feelings towards sex are processed with two\nvariables."
                             ]
                         },
                         {
@@ -9096,14 +9082,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "821: Current: Pleasure Value 822: Current: Emotional"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "Addition Value"
+                                " 821: Current: Pleasure Value 822: Current:\nEmotional Addition Value"
                             ]
                         },
                         {
@@ -9120,28 +9099,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Pleasure value is processed only with a plus sign (+),"
+                                "The pleasure value is processed only with +, but\nthe emotional addition value is inputted and\nprocessed as + if it is pleasant, and - if it is\nunpleasant."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "but emotional value is input and processed as plus"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "sign (+) if it is pleasurable, and as minus sign (-)"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "if it is unpleasant."
+                                ""
                             ]
                         },
                         {
@@ -9169,14 +9134,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Enter the situation directly into variable 943: Sexual"
+                                "The situation is directly inputted into variable\n943: Sexual Activity Situation ID."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "Situation ID."
+                                ""
                             ]
                         },
                         {
@@ -9200,28 +9165,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "The variables and switch inputs for sex scenes are"
+                                "The variables and switch inputs for sex should be\ncompleted by now. Finally, if you execute Common\nEvent 16: Common Event After Erotic Event, various\ndetails will be recorded in the Erotic Status."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "probably completed at this point. Finally, by"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "executing Common Event 16, various things will be"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "recorded in the Erosty after the erotic event."
+                                ""
                             ]
                         },
                         {
@@ -9260,28 +9218,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "If you are raped by a mob character, please add the"
+                                "If you are being violated by a background\ncharacter, please increase the number of\nexperiences for each. For unique characters with\nnames, there is a treatment where the number is\nonly added once for the first time, so this\nmeasure is unnecessary."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "experience number for each one. For named unique"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "characters, the treatment of adding the number of"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "people only applies to the first time, so this measure is not necessary."
+                                ""
                             ]
                         },
                         {

@@ -4048,14 +4048,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "I have no intention of moving further away from the"
+                                "\\n< Serena >I don't intend to leave the town any further."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "town. \\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -4687,7 +4687,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Phew, I did it! \\n< Adventurer >"
+                                "\\n< Adventurer >Ah, there we go..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -4704,21 +4711,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "I feel like I spend more time climbing up and down"
+                                "\\n< Adventurer >I feel like I spend more time climbing up and down\nmountain paths for the purpose of monster\nextermination."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "mountain paths to fight monsters than actually"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "fighting monsters. \\n< Adventurer >"
+                                ""
                             ]
                         },
                         {
@@ -4735,7 +4742,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Should I just live in the mountains already? \\n< Adventurer >"
+                                "\\n< Adventurer >Maybe I should just live in the mountains."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -4840,45 +4854,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "This is what they call the Carriage Robber's slope."
+                                "\\n< Adventurer >This is what they call the Carriage Breaker Hill.\nThe slope is steep, so it's tough for carriages to\npass through."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "The incline is steep, so it's difficult for carriages"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "to pass through. \\n< Adventurer >"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "My dream is to make this slope smoother by leveling it"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "little by little and turning it into a gentler slope. \\n< Adventurer >"
+                                ""
                             ]
                         },
                         {
@@ -4895,14 +4885,52 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "If we do that, the ventilation in Castellum will"
+                                "\\n< Adventurer >You know, my dream is to gradually level this hill\nand make it a gentler slope."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "improve even more... \\n< Adventurer >"
+                                "\\n< Adventurer >If we do that, the view from the castle will be\neven better..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5073,7 +5101,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Signboard."
+                                "It's a signboard."
                             ]
                         },
                         {
@@ -5090,14 +5118,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "It must have just been rained on by the rain and blown"
+                                "I guess it's just something that gets rained on by\nthe rain and blown by the wind. It's difficult to\ndistinguish the characters."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "by the wind. It's difficult to discern the letters."
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5209,14 +5244,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "It's a barrel."
+                                "\\n< Serena >It's a barrel."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -5233,14 +5268,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Did a passing carriage drop it? It seems to be empty"
+                                "\\n< Serena >I wonder if a passing carriage dropped it. It\nseems to be empty inside."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "inside. \\n< Serena >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5352,38 +5394,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "It's a tree stump."
+                                "\\n< Serena >It's a tree stump."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "It must be tough to gather firewood with so many"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "monsters appearing like this. \\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -5400,21 +5418,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "We must reduce the strength of the monsters before"
+                                "\\n< Serena >It must be quite a challenge to gather firewood\nwith so many monsters appearing."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "winter comes, so that people can enter the mountains"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "and forests. Otherwise, the city will freeze. \\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -5431,7 +5449,45 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "It's truly a matter of life and death. \\n< Serena >"
+                                "\\n< Serena >Before winter comes, we need to reduce the\nstrength of the monsters and allow people to enter\nthe mountains so that the town doesn't freeze."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n< Serena >It's truly a matter of life and death."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5543,14 +5599,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "It's firewood."
+                                "\\n< Serena >Firewood."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -5567,14 +5623,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "You must not touch firewood carelessly in a place like"
+                                "\\n< Serena >You must not touch firewood in places like this\nwithout caution. It could be the town's property,\nafter all."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "this. It could be a valuable asset of the town. \\n< Serena >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5788,21 +5851,21 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "Is this the mountain hiking trail? If I go right, it"
+                                "\\n< Serena >So this is the mountain climbing path. If we go\nright, we'll head towards the neighboring country.\nIt seems like the monsters are in this direction\nof the mountain."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "leads to the neighboring country. It seems that the"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "monsters are on this side of the mountain. \\n< Serena >"
+                                ""
                             ]
                         },
                         {

@@ -7375,7 +7375,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Phew... Is this the end point? \\n< Adventurer >"
+                                "\\n< Adventurer >Phew... Is this the end point?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -7423,7 +7430,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Well, that's the end of the request. \\n< Adventurer >"
+                                "\\n< Adventurer >Well, this should complete the request."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -7471,14 +7485,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "That's impossible. We haven't been able to exterminate"
+                                "\\n<Female Adventurer>There's no way. The main one hasn't been\nexterminated yet."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "the essential ones yet. \\n< Female Adventurer >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -7526,14 +7547,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "If there were damage reports yesterday, they must not"
+                                "\\n<Female Adventurer>If there were reports of damage yesterday, it\nshouldn't have gone too far..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "have gone far... \\n< Female Adventurer >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8060,7 +8088,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "......!!! \\n< Orc >"
+                                "\\n< Orc >......！！！"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8084,7 +8119,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Oops... \\n< Adventurer >"
+                                "\\n< Adventurer >Oh...!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8101,7 +8143,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Welcome. Is this the one? \\n< Adventurer >"
+                                "\\n< Adventurer >Oh, are you here? Is it this one?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8118,14 +8167,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "... An orc wearing armor and a blond brat. I'm sure of"
+                                "\\n<Female Adventurer>...An orc wearing armor made from a blond brat.\nI'm pretty sure it's him."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "it. \\n< Female Adventurer >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8171,7 +8227,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Ah, oh... Mmm... \\n< Serena >"
+                                "\\n< Serena >Ah, uhh... ngh..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8195,7 +8258,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "I got smashed by an Egg, you know. \\n< Adventurer >"
+                                "\\n< Adventurer >Ugh, I've been hit by an egg."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8212,7 +8282,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Is that kid even conscious? \\n< Adventurer >"
+                                "\\n< Adventurer >Does that brat even have any awareness?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8229,7 +8306,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Shall I try speaking to them? Hey! \\n< Adventurer >"
+                                "\\n< Adventurer >Should I try calling out? Hey!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8345,7 +8429,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Mmm... Ah!? \\n< Serena >"
+                                "\\n< Serena >Ngh... Ah!?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8570,7 +8661,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "No, no!...Ah, ah...! \\n< Serena >"
+                                "\\n< Serena >N-No!... Ah, ah...!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8627,7 +8725,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Don't, don't look...! \\n< Serena >"
+                                "\\n< Serena >D-Don't look...!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8651,14 +8756,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "It's too late now. I've been taken by attacks so many"
+                                "\\n< Adventurer >It's too late now. I've been taken to be attacked\nmultiple times just like this."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "times while staying the same, you know. \\n< Adventurer >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8675,7 +8787,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Just to confirm, there's no way to escape, right? \\n< Adventurer >"
+                                "\\n< Adventurer >Just to confirm, there's no way to escape, right?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8732,7 +8851,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "If I could do that, then this...! \\n< Serena >"
+                                "\\n< Serena >If that were possible, then this...!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8756,7 +8882,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Got it. Then pray that the attacks don't hit you. \\n< Adventurer >"
+                                "\\n< Adventurer >Alright. Then pray that you don't get hit by my\nattack."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8773,14 +8913,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "The golden rule is to not hesitate when facing"
+                                "\\n< Adventurer >When facing a meat armor, it's a golden rule not\nto hesitate...!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "opponents wearing meat armor...! \\n< Adventurer >"
+                                ""
                             ]
                         },
                         {
@@ -8797,7 +8937,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "All right, let's do this! \\n< Adventurer >"
+                                "\\n< Adventurer >Alright, let's do it!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8854,7 +9001,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Huh, what's that?! \\n< Serena >"
+                                "\\n< Serena >H-huh!?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8878,7 +9032,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Haah! \\n< Adventurer >"
+                                "\\n< Adventurer >Haaah!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8895,7 +9056,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "......!!! \\n< Orc >"
+                                "\\n< Orc >......！！！"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9153,7 +9321,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Damn, what ridiculous strength... \\n< Adventurer >"
+                                "\\n< Adventurer >Damn, what a stupid strength..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9170,38 +9345,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "This Orc is different from the small fry we've"
+                                "\\n< Adventurer >This orc is different from the small fry orcs\nwe've encountered so far. Well, that makes sense."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "encountered so far. I suppose that's to be expected. \\n< Adventurer >"
+                                ""
                             ]
                         },
                         {
-                            "code": 101,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "Let's go with 3-1-1 coordination. I leave the follow-"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "up to you! \\n< Adventurer >"
+                                ""
                             ]
                         },
                         {
@@ -9218,7 +9376,45 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Hey there! \\n< Female Adventurer >"
+                                "\\n< Adventurer >Let's go with the 3-1-1 combo. I'll leave the\nfollow-up to you!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n<Female Adventurer>Here I go!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9275,7 +9471,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Ah!? Guuuh!? \\n< Serena >"
+                                "\\n< Serena >Ah!? Guuuh!?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9299,7 +9502,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "... \\n< Adventurer >"
+                                "\\n< Adventurer >......."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9445,7 +9655,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Ugh, ah! \\n< Serena >"
+                                "\\n< Serena >Hng, ughh!?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9469,7 +9686,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Hey, you brat! \\n< Adventurer >"
+                                "\\n< Adventurer >...Hey! You brat!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9526,7 +9750,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Huh...eh...? \\n< Serena >"
+                                "\\n< Serena >Euh... Ah...?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9550,31 +9781,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "What's with all the noise, huh?! It's been bothering"
+                                "\\n< Adventurer >Ugh, shut up already! You've been annoying since\nearlier! I can't concentrate... Guh!?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "me since earlier! I can't focus... Ugh, what?! \\n< Adventurer >"
+                                ""
                             ]
                         },
                         {
-                            "code": 101,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "Jean!? \\n< Female Adventurer >"
+                                ""
                             ]
                         },
                         {
@@ -9591,7 +9812,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Dora! \\n< Adventurer >"
+                                "\\n<Female Adventurer>Jean!?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9608,7 +9836,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "!! \\n< Orc >"
+                                "\\n< Adventurer >Dora!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9625,7 +9860,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Th-thank you, Wil... I'm saved. \\n< Adventurer >"
+                                "\\n< Orc >！！"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9642,21 +9884,45 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Well, it can't be helped that things didn't go as"
+                                "\\n< Adventurer >S-Sorry, Phil... Thank you for saving me."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "usual. Especially after being shown something like"
+                                "\\n< Adventurer >Well, it can't be helped if things go as usual. I\ncan't concentrate while being shown such things."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "that. \\n< Adventurer >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9713,7 +9979,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "U-um... Is it my fault...? \\n< Serena >"
+                                "\\n< Serena >U-uh... Is it because of me...?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9737,7 +10010,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Here they come! \\n< Adventurer >"
+                                "\\n< Adventurer >Here they come!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9754,7 +10034,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Kua!? \\n< Adventurer >"
+                                "\\n< Adventurer >Qua!?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9771,7 +10058,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Wait, no, this one is really strong! Wow...! \\n< Adventurer >"
+                                "\\n< Adventurer >T-T-This guy... is ridiculously strong!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9788,7 +10082,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "What the...! \\n< Female Adventurer >"
+                                "\\n<Female Adventurer>This...!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9805,7 +10106,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Ann! No, it's no good! \\n< Adventurer >"
+                                "\\n< Adventurer >Ah! No good!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9822,7 +10130,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Eh...! \\n< Female Adventurer >"
+                                "\\n<Female Adventurer>Eh...!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9890,7 +10205,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Unngghhh!!! \\n< Serena >"
+                                "\\n< Serena >Uuuuuhhhh!!!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9914,7 +10236,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "??!!! \\n< Orc >"
+                                "\\n< Orc >？？！！！"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9931,7 +10260,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Oh no, oh my! \\n< Female Adventurer >"
+                                "\\n<Female Adventurer>Ah, ah!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -10039,7 +10375,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "*heavy breathing* \\n< Serena >"
+                                "\\n< Serena >*sigh*... *pant*..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -10063,7 +10406,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Ann! Be careful! \\n< Adventurer >"
+                                "\\n< Adventurer >Ah! Be careful!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -10080,38 +10430,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Sorry about that! But I'm sure I dodged it properly,"
+                                "\\n<Female Adventurer>I'm sorry! But I definitely dodged it, right?!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "right?? \\n< Female Adventurer >"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "Ah, I thought I was done for just now. But not being"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "able to make a move at that timing... \\n< Adventurer >"
+                                ""
                             ]
                         },
                         {
@@ -10128,14 +10454,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "If I handle it calmly, maybe it won't be as bad as I"
+                                "\\n< Adventurer >Ahh, I thought I was done for just now. But not\nbeing able to land a hit at that timing..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "thought...? \\n< Adventurer >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -10152,7 +10485,45 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Shall I go with 3-3-3 strategy? Alright! \\n< Adventurer >"
+                                "\\n< Adventurer >Maybe if I handle it calmly, it won't be as bad as\nI thought...?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n< Adventurer >Should I go with 3-3-3 and poke them. Alright!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -10209,7 +10580,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "(Oh no, what is it again...!) \\n< Serena >"
+                                "\\n< Serena >(A-Again, something...!)"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -10226,7 +10604,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "(I too, can do something like this!) \\n< Serena >"
+                                "\\n< Serena >(Even someone like me can do something...!)"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -10283,7 +10668,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Mmm, ugh...! Ahh...! \\n< Serena >"
+                                "\\n< Serena >Nn, gu...! Hiuah...!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -10307,7 +10706,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Hah! \\n< Adventurer >"
+                                "\\n< Adventurer >Ha!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -10364,7 +10770,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Mmm, ugh... \\n< Serena >"
+                                "\\n< Serena >Nn, ugh..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -10388,7 +10801,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Here we go! One more time! \\n< Adventurer >"
+                                "\\n< Adventurer >Alright! One more time!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -10445,7 +10865,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Uuuuhhhh! \\n< Serena >"
+                                "\\n< Serena >Uuuuuhhh!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -10469,7 +10896,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "What?! \\n< Orc >"
+                                "\\n< Orc >！？？！！"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -10486,7 +10920,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Here you go! \\n< Female Adventurer >"
+                                "\\n<Female Adventurer>Take this!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -10532,7 +10973,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Ah... It's... Hard... Why is it bigger than usual... \\n< Serena >"
+                                "\\n< Serena >Ah... ah... it's so hard... why is it bigger than\nusual..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -10556,38 +11011,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Hey, that kid over there. What's up with them since"
+                                "\\n< Adventurer >...Hey, you brat. You've been..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "earlier? \\n< Adventurer >"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "Haah... Haah... Ugh. Even though I'm risking my life"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "fighting...! \\n< Female Adventurer >"
+                                ""
                             ]
                         },
                         {
@@ -10604,14 +11035,52 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Don't worry about it. Even if you accidentally kill"
+                                "\\n<Female Adventurer>Haa... haa... Ahh, even though I'm risking my life\nfighting here...!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "someone, it can actually be a relief! \\n< Adventurer >"
+                                "\\n< Adventurer >Don't worry about it. Even if I accidentally kill\nyou, it'll actually be a relief!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -10668,7 +11137,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Th-this is...! \\n< Serena >"
+                                "\\n< Serena >Th-this is...!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -10685,7 +11161,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "I...will do it for all of you! \\n< Serena >"
+                                "\\n< Serena >I... for the sake of all of you...!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -10742,14 +11225,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Hah, hah, hah... Ah, it's getting fat. Oh, here it"
+                                "\\n< Serena >Haa, haa, haa... Ahh, it's getting bigger. Ah,\nit's coming, the throbbing is coming..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "comes...! \\n< Serena >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -10815,7 +11305,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "What? Oh my! \\n< Serena >"
+                                "\\n< Serena >Nnnaaaahhhhh!?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -11063,7 +11560,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Now! \\n< Adventurer >"
+                                "\\n< Adventurer >Now!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -11886,7 +12390,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Ah, ah... haah, haah... \\n< Serena >"
+                                "\\n< Serena >Ah, ah... haa, haa..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -11910,7 +12421,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Phew, we managed to pull through. \\n< Adventurer >"
+                                "\\n< Adventurer >Phew, we managed to pull through."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -11927,31 +12445,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Victory through combination. We were able to rescue"
+                                "\\n< Adventurer >It's a victory of teamwork. We were able to rescue\nthe hostage safely. Hooray for us!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "the hostage safely, so it's a great success. \\n< Adventurer >"
+                                ""
                             ]
                         },
                         {
-                            "code": 101,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "Yes, yes! \\n< Adventurer >"
+                                ""
                             ]
                         },
                         {
@@ -11968,7 +12476,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "So, what do we do with this brat? \\n< Female Adventurer >"
+                                "\\n< Adventurer >Yes, yes!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -11985,7 +12500,38 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "No matter what I do... \\n< Adventurer >"
+                                "\\n<Female Adventurer>So, what are we going to do with this kid?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n< Adventurer >What should we do..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -12016,7 +12562,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "...Hmm. \\n< Serena >"
+                                "\\n< Serena >......Mmm."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -12040,7 +12593,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Ugh, how much did they serve us? \\n< Female Adventurer >"
+                                "\\n<Female Adventurer>Ugh, how much did they make me do?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -12057,38 +12617,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Is there any other option besides taking it to the"
+                                "\\n< Adventurer >Is there anything else besides taking her to the\nguild? There is a rescue request after all."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "guild? There is a rescue request after all. \\n< Adventurer >"
+                                ""
                             ]
                         },
                         {
-                            "code": 101,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "Then you guys take care of it. I don't want to have"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "anything to do with this kind of debauchery. \\n< Female Adventurer >"
+                                ""
                             ]
                         },
                         {
@@ -12105,14 +12648,52 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "I came here desperately to help because I felt sorry"
+                                "\\n<Female Adventurer>Then you guys take care of her. I don't want to\nhave anything to do with this kind of\nprostitution."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "for you! \\n< Female Adventurer >"
+                                "\\n<Female Adventurer>I thought she looked pitiful, so I came to rescue\nher desperately...!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -12143,7 +12724,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Oh, please wait...I am...! \\n< Serena >"
+                                "\\n< Serena >Ah, w-wait... I...!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -12167,21 +12762,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "It's fine, it's fine. If I were to be pounded by such"
+                                "\\n< Adventurer >It's fine, it's fine. Well, if I were to be\nstuffed with such a big cock, I guess I would end\nup moaning and drooling!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "a big dick, it's no wonder I'd be moaning and"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "groaning! \\n< Adventurer >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -12198,14 +12800,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Even with a small body like this, having a big dick is"
+                                "\\n< Adventurer >Even with such a small body, it seems a big cock\nis preferred."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "better, huh. \\n< Adventurer >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -12236,14 +12845,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "That's why...! It was so painful and hard to"
+                                "\\n< Serena >That's not true...! It was painful and\ndifficult...!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "endure...! \\n< Serena >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -12267,14 +12883,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Yes, yes, yes. You can do that kind of thing with the"
+                                "\\n< Adventurer >Yeah yeah. Do that kind of thing with the priest\nafter you go back."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "priest when you get back. \\n< Adventurer >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -12291,7 +12914,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "We should go soon, or our princess will be crowned. \\n< Adventurer >"
+                                "\\n< Adventurer >Hey, we should go soon, or our princess will be\ncrowned."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -12322,14 +12959,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Heh, huh, clothes... At least something to hide my"
+                                "\\n< Serena >H-hey, c-clothes... At least give me something to\ncover myself...!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "body...! \\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -12353,7 +12990,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "That's not necessary. \\n< Adventurer >"
+                                "\\n< Adventurer >Hey, don't say such things."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -12370,14 +13014,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Keep walking, keep walking. As long as you have your"
+                                "\\n< Adventurer >Come on, keep walking. Just having a life is a\ngreat find, you know."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "life, consider it a stroke of luck. \\n< Adventurer >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -12408,7 +13059,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Ugh, ugh...uh, uh... \\n< Serena >"
+                                "\\n< Serena >U-uh... U-uh..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -12803,7 +13461,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Damn, what ridiculous strength... \\n< Adventurer >"
+                                "\\n< Adventurer >Shit, what a fucking idiotic strength..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -12820,7 +13485,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Ugh, and to top it off, this annoying armor too... \\n< Adventurer >"
+                                "\\n< Adventurer >Ah, on top of that, you're wearing a troublesome\narmor..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -12877,7 +13549,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Huh?! But how...? \\n< Serena >"
+                                "\\n< Serena >Huh!? But how..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -12894,28 +13573,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Even in that condition, you can still shake your hips,"
+                                "\\n< Adventurer >Even in that state, you can still move your hips,\nright? Hurry up and squeeze out my cum with your\nproud little pussy!! That's the only thing a\nuseless weakling like you is good for."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "right? Hurry up and squeeze out semen with your"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "boastful loli pussy!! That's all you're good for, you"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "useless scrub.' \\n< Adventurer >"
+                                ""
                             ]
                         },
                         {
@@ -12972,7 +13651,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "What!? S-Such a thing-- \\n< Serena >"
+                                "\\n< Serena >What!? Th-that kind of thing--."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -12989,14 +13675,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Shut up! Just do it already!! If you can't do it, then"
+                                "\\n< Adventurer >Shut up! Just do it already!! If you can't, then\ndie while sucking on an orc's cock!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "die while sucking on an orc's dick!! \\n< Adventurer >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -13053,28 +13746,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "(No, this is miserable and embarrassing... Having"
+                                "\\n< Serena >(No, I don't want it, it's so miserable and\nembarrassing... To have something this big\ninserted and to willingly move up and down with\nthat throbbing sensation in my pussy...)"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "something so big inserted inside me, it aches and"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "throbs... And to be willingly moving up and down like"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "that...) \\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -13131,21 +13824,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "(...however, it cannot be helped if it costs a life."
+                                "\\n< Serena >(...However, I cannot sacrifice my life. Above\nall, it is my own immaturity that has caused this\nsituation. I cannot burden others any further...!)"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "Above all, it was my own immaturity that caused this"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "situation. I cannot cause any more trouble...) \\n< Serena >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {

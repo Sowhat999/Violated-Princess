@@ -4426,14 +4426,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "Well... Generally, people with dark sides tend to"
+                                "\\n< Adventurer >Well... generally, those who have dark secrets\ntend to become aggressive towards others."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "become aggressive towards others. \\n< Adventurer >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -4450,7 +4457,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "I won't say who or how, you know. \\n< Adventurer >"
+                                "\\n< Adventurer >I'm not saying who, but well... you know."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -4484,21 +4498,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "The more people there are, the more troubles arise. In"
+                                "\\n< Adventurer >As the number of people increases, so does the\ntrouble. With a city this big, there's some kind\nof incident happening every day."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "a city this big, there are incidents happening every"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "day. \\n< Adventurer >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -4515,21 +4536,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "It's great that as an adventurer, I never run out of"
+                                "\\n< Adventurer >It's great that adventurers always have something\nto eat, but sometimes it can be unbearably empty."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "ways to make money for food. But sometimes, it really"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "makes me feel empty inside. \\n< Adventurer >"
+                                ""
                             ]
                         },
                         {
@@ -4625,7 +4646,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Well then, I guess I'll be on my way soon. \\n< Adventurer >"
+                                "\\n< Adventurer >Well, I guess it's about time for me to go."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -4642,14 +4670,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Adventurers who only have connections with their guild"
+                                "\\n< Adventurer >Adventurers who only rely on the guild are left\nout in times like this."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "are left high and dry in times like this. \\n< Adventurer >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -4666,21 +4701,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Now is actually the time to make money. With a little"
+                                "\\n< Adventurer >Now is actually the time to make some money. If\nyou dig a little, there will be a high demand.\nYou're also in that line of work, right?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "digging, there will be plenty of demand. ... You're"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "one of those people too, right? \\n< Adventurer >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5222,7 +5264,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Boo-heehee. Buhihi, buhihii... \\n< Guesclin >"
+                                "\\n< Gekuran >Booheehee. Buhhihi, buhihii..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5239,48 +5288,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "What? What do you want, pig? Singing a tune, huh? You"
+                                "\\n< Adventurer >Huh? What's up, pig? Singing a little tune, huh?\nYou seem to be in quite a good mood."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "seem to be in a good mood. \\n< Adventurer >"
+                                ""
                             ]
                         },
                         {
-                            "code": 101,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "",
-                                0,
-                                2,
-                                2
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "Buhihi. Well, you know? Buhi, buhi, buhhihihi! \\n< Guesclin >"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                2,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "...He's still a creepy guy as usual. \\n< Adventurer >"
+                                ""
                             ]
                         },
                         {
@@ -5297,14 +5326,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Here, this is the request. Hurry up and take care of"
+                                "\\n< Gekuran >Buhhihi. Well, you know? Buhhi, buhi, buhihihi!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "it. \\n< Adventurer >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5321,7 +5357,69 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Oops, excuse me. \\n< Guesclin >"
+                                "\\n< Adventurer >......You're still a creepy bastard as always."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                2,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n< Adventurer >Here, this is the request. Hurry up and take care\nof it."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                2,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n< Gekuran >Buhii-"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5392,7 +5490,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Nbiho! \\n< Guesclin >"
+                                "\\n< Gekuran >Nbihoo!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5409,7 +5514,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "What!? \\n< Adventurer >"
+                                "\\n< Adventurer >Whoa!?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5426,7 +5538,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Buhi... Buhihi...! \\n< Guesclin >"
+                                "\\n< Gekuran >Buhii... buhihi...!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5443,7 +5562,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Have you finally gone insane? \\n< Adventurer >"
+                                "\\n< Adventurer >Have you finally gone mad?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5460,7 +5586,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Buhihi. Buhihhi. Oh, wait, I caught a cold... \\n< Guesclin >"
+                                "\\n< Gekuran >Buhii... buhihi. Well, you know, I caught a cold,\nso..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5477,7 +5617,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "It's nothing. Don't worry about it. Buhin hihhihhi. \\n< Guesclin >"
+                                "\\n< Gekuran >It's nothing, don't worry about it. Buhinhihihi."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5494,7 +5648,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "... \\n< Adventurer >"
+                                "\\n< Adventurer >......."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5690,7 +5851,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "...Buhhihi. \\n< Guesclin >"
+                                "\\n< Gekuran >......Buhinhihi."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5810,14 +5978,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "No, no, Serena! You can't suddenly move when someone"
+                                "\\n< Gekuran >N-No, Serena-chan! It's not good to suddenly move\nwhile someone is talking...!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "is talking...! \\n< Guesclin >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5874,7 +6049,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "E-Even if you say that, in this outfit... \\n< Serena >"
+                                "\\n< Serena >E-Even if you say that, in this outfit...!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5891,7 +6073,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "If it gets exposed...! \\n< Serena >"
+                                "\\n< Serena >If I were to get caught...!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5915,14 +6104,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Buhihhi, it's okay, it's okay. There's nobody peeking"
+                                "\\n< Gekuran >Buhinhihi, it's okay, it's okay. There's no one\nhere peeking over, you know."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "over here. \\n< Guesclin >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5939,14 +6135,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "I never thought that Serena would be giving me a"
+                                "\\n< Gekuran >I never thought that Serena-chan would be sucking\nmy cock completely naked. No one, really. Buhii!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "blowjob completely naked like this. No one did. Haha! \\n< Guesclin >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5992,7 +6202,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Don't suck it yet... \\n< Serena >"
+                                "\\n< Serena >Don't suck it yet..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -6016,14 +6233,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Okay, let's take a bath quickly. Come on, you"
+                                "\\n< Gekuran >Well, let's suck it quickly then. Come on, didn't\nwe make a promise yesterday?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "promised me yesterday, didn't you? \\n< Guesclin >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -6040,14 +6264,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "My penis. It's like you're sucking on it like this~"
+                                "\\n< Gekuran >My cock. To have you suck it like\nthis~ah~ah~ahhhh~..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "ah~...ahhh~... \\n< Guesclin >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -6093,7 +6324,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Hmm... \\n< Serena >"
+                                "\\n< Serena >Uhh..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -6139,7 +6377,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Yeah...that's right. Yeah, but... \\n< Serena >"
+                                "\\n< Serena >That's right... it was like that. Yes, but..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -6196,7 +6448,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Ugh, why did I make such a promise to myself... \\n< Serena >"
+                                "\\n< Serena >Ugh, why did I make such a promise to myself..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -6220,14 +6479,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Hurry up. We won't finish if you don't suck it, you"
+                                "\\n< Gekuran >Come on, hurry up. If you don't suck it, it won't\nend, you know?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "know? \\n< Guesclin >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -6273,7 +6539,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Ugh... \\n< Serena >"
+                                "\\n< Serena >Ugh..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -6359,7 +6632,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Hmm. \\n< Serena >"
+                                "\\n< Serena >Mmm."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -6452,7 +6732,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Oh, wow! \\n< Guesclin >"
+                                "\\n< Gekuran >Ohh!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -6469,14 +6756,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Bu fu... buhihuhu!! Another dream has come true,"
+                                "\\n< Gekuran >Hahaha... Hahaha! Another one, another dream has\ncome true!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "another one! \\n< Guesclin >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -6533,7 +6827,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Mogu...Fugofumo...! \\n< Serena >"
+                                "\\n< Serena >Mm...g-guh...!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -6557,7 +6858,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Oh hehehiho...! Small mouth tightening...! \\n< Guesclin >"
+                                "\\n< Gekuran >Oh hehehiho...! Your little mouth is\ntightening...!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -6610,14 +6925,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Buhhii...! Buhhii...! It feels so good... very"
+                                "\\n< Gekuran >Buhi...! Buhi...! It feels good... really good...!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "good...! \\n< Guesclin >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -6665,7 +6987,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Just keep moving your head back and forth like that. \\n< Guesclin >"
+                                "\\n< Gekuran >Keep moving your head back and forth..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -6682,14 +7011,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Yes...! ...Like licking with your tongue...! Nbuhi! Your"
+                                "\\n< Gekuran >Yes...! ...Like licking with your tongue...!\nNubuhi! Your cute teeth, they hit...!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "cute teeth are hitting me...! \\n< Guesclin >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -6735,21 +7071,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "But it's so round, it doesn't hurt at all! Th, this!"
+                                "\\n< Gekuran >But it's so round, it doesn't hurt at all! I-Is\nthis... S-Serena-chan, could it be that your baby\nteeth haven't fallen out yet!?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "I wonder if Serena-chan hasn't changed her baby teeth"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "yet!? \\n< Guesclin >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -6961,7 +7304,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Pig. \\n< Adventurer >"
+                                "\\n< Adventurer >Pig."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -6978,7 +7328,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Buh? \\n< Guesclin >"
+                                "\\n< Gekuran >Buhi?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -6995,7 +7352,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Request. \\n< Adventurer >"
+                                "\\n< Adventurer >Request."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -7041,31 +7405,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Ahem, hehehe. Yes, yes. We're going to exterminate"
+                                "\\n< Gekuran >B-buhihihi... Yes, yes. Roper extermination, huh?\nYes, yes."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "the ropers. Yes, yes. \\n< Guesclin >"
+                                ""
                             ]
                         },
                         {
-                            "code": 101,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "",
-                                0,
-                                2,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "...Hey. \\n< Adventurer >"
+                                ""
                             ]
                         },
                         {
@@ -7082,7 +7436,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Buh? \\n< Guesclin >"
+                                "\\n< Adventurer >...Hey."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -7099,7 +7460,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Why are you sitting so deeply? \\n< Adventurer >"
+                                "\\n< Gekuran >Buhi?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -7116,7 +7484,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Buh, buhi? Is it okay if I sit down?! \\n< Guesclin >"
+                                "\\n< Adventurer >Why are you sitting so deeply?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -7133,7 +7508,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "The sitting posture is unnatural. Creepy. \\n< Adventurer >"
+                                "\\n< Gekuran >B-Buhi? Is it bad that I'm sitting down?!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -7150,7 +7532,38 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Bu, buhi...... \\n< Guesclin >"
+                                "\\n< Adventurer >Your sitting posture is unnatural. It's creepy."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                2,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n< Gekuran >B-Buhi..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -7205,7 +7618,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Is someone there...? \\n< Adventurer >"
+                                "\\n< Adventurer >Is someone there...?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -7251,14 +7671,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Bwahaha! Here's the request form! Come back and"
+                                "\\n< Gekuran >Buhihi! Here's the request document! Come back and\nreport after exterminating 10 of them, okay?!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "report to me after you've defeated 10 of them! \\n< Guesclin >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -7275,7 +7702,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "... \\n< Adventurer >"
+                                "\\n< Adventurer >......."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -7321,7 +7755,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Well, never mind... It doesn't matter. \\n< Adventurer >"
+                                "\\n< Adventurer >Well, whatever... It doesn't matter."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -7338,7 +7786,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Well then. \\n< Adventurer >"
+                                "\\n< Adventurer >Well then."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -7563,14 +8018,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "...Pufi, buhihi. Did I surprise you? Did you think"
+                                "\\n< Gekuran >......Puh, buhihi. Did I surprise you? Did you\nthink you were caught?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "you would be caught? \\n< Guesclin >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -7667,7 +8129,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Mmmph! \\n< Serena >"
+                                "\\n< Serena >Mmmph!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -7691,14 +8160,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Oh, oh, don't let go of your mouth. Right now is a"
+                                "\\n< Gekuran >Ah, ah, please don't let go of your mouth. Right\nnow... it feels really good..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "really good...place. \\n< Guesclin >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -7791,14 +8267,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Bwahaha. Today's the end if you can make me come,"
+                                "\\n< Gekuran >Buhihi. Today's the end if you can make me cum,\nso...!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "so...! \\n< Guesclin >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -7851,7 +8334,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Good luck, Serena. Buhi, buhihi! \\n< Guesclin >"
+                                "\\n< Gekuran >Do your best, Serena-chan. Buhi, buhihi!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8063,7 +8560,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Excuse me, um... \\n< Man >"
+                                "\\n< Male >Um, excuse me."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8080,7 +8584,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Buh? \\n< Guesclin >"
+                                "\\n< Gekuran >Buhi?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8097,7 +8608,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "I would like to request a job. \\n< Man >"
+                                "\\n< Male >I want to make a request, um..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8170,21 +8688,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Uh-huh, uh-huh. As for the application form... Oh,"
+                                "\\n< Gekuran >Buhi, buhi. Yes, yes. As for the application\nform... Ah, you've already filled it out. This is\nfor your preparedness... Buhi!?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "you've already filled it out. This is about the thing"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "we've prepared for you. ...Huh, what's this? \\n< Guesclin >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8201,7 +8726,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Huh? \\n< Man >"
+                                "\\n< Male >Huh?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8254,38 +8786,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Bu, thud, buhin! Oh, excuse me... it's nothing,"
+                                "\\n< Gekuran >B-buhin, buhin! E-excuse me... It's nothing, buhi."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "buhi. \\n< Guesclin >"
+                                ""
                             ]
                         },
                         {
-                            "code": 101,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "",
-                                0,
-                                2,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "Ahem. Hmm... You're here for a Warg extermination"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "request, aren't you? \\n< Guesclin >"
+                                ""
                             ]
                         },
                         {
@@ -8302,21 +8817,59 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "The sheepherder will be back soon. They call it dew"
+                                "\\n< Gekuran >Ahem... Hmmm. It seems to be a request to\nexterminate the Wargs, huh?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                2,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "sweeper, right? Have they increased in numbers"
+                                "\\n< Male >The shepherd will be back soon, you know. Or\nshould I say, the dew sweeper. Have those guys\nbeen increasing again lately?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "lately? \\n< Man >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8369,31 +8922,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Mhm, never mind the reason... How much is the payment"
+                                "\\n< Gekuran >Buhi, buhi. Well, the reason doesn't really\nmatter... How much is the fee for the request?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "for the request? \\n< Guesclin >"
+                                ""
                             ]
                         },
                         {
-                            "code": 101,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "",
-                                0,
-                                2,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "Yes, here it is. That will be 1300 silver. \\n< Man >"
+                                ""
                             ]
                         },
                         {
@@ -8410,14 +8953,52 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Understood. Then, the request will be posted within a"
+                                "\\n< Male >Y-Yes. It's 1300 silver here."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                2,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "week...! \\n< Guesclin >"
+                                "\\n< Gekuran >Buhi buhi. Certainly. Then, within a week, the\nrequest will be posted...!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8481,7 +9062,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "...No, wait... \\n< Guesclin >"
+                                "\\n< Gekuran >Umm... so..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8498,7 +9086,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Aah, no, stop...! \\n< Guesclin >"
+                                "\\n< Gekuran >Ah, no...!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8515,7 +9110,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Is it no good? \\n< Man >"
+                                "\\n< Male >N-No?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8568,7 +9170,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Ugh... huh...! Hah...! \\n< Guesclin >"
+                                "\\n< Gekuran >Ohh... ngh...! Fuu...!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8594,7 +9203,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "I-I'm about to come out...! \\n< Guesclin >"
+                                "\\n< Gekuran >I-I'm, I'm gonna... cum...!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8611,7 +9227,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "What...what is...!? \\n< Man >"
+                                "\\n< Male >W-What is...!?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8722,7 +9345,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "....!...! \\n< Guesclin >"
+                                "\\n< Gekuran >............！......！"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8822,7 +9452,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Hmph...! Mmm~... \\n< Guesclin >"
+                                "\\n< Gekuran >Hmmm......! Mmmmm......!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8839,7 +9476,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Um, excuse me...? \\n< Man >"
+                                "\\n< Male >U-Um...?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8932,7 +9576,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Hmm, uhh... *coughs* \\n< Guesclin >"
+                                "\\n< Gekuran >F, u... buhi bu..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8949,7 +9600,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Phew... phew phew... \\n< Guesclin >"
+                                "\\n< Gekuran >Buhh... buhfu..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8966,7 +9624,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Shall I call someone...? \\n< Man >"
+                                "\\n< Male >Sh-Should I go call someone...?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8983,7 +9648,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Ah, ah~... No, no. \\n< Guesclin >"
+                                "\\n< Gekuran >Ah, ah~... No, no."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9000,14 +9672,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "S-Sorry about that. Thank you very much. Bwahaha."
+                                "\\n< Gekuran >S-Sorry, um... hehe. It's nothing, really."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "It's nothing really. \\n< Guesclin >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9111,7 +9790,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "What the heck is going on?! \\n< Guesclin >"
+                                "\\n< Gekuran >I-I can't take it anymore~!!?!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9128,7 +9814,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "!? \\n< Man >"
+                                "\\n< Male >！？"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9221,7 +9914,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Nubuhin! \\n< Guesclin >"
+                                "\\n< Gekuran >Nbuhihn!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9238,7 +9938,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "A-are you really going to be okay...? \\n< Man >"
+                                "\\n< Male >A-Are you really okay...?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9313,7 +10020,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Beep... beep... \\n< Guesclin >"
+                                "\\n< Gekuran >Buhii... buhii..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9330,14 +10044,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Ah... Haah... Ee... I, I've calmed down now. Hupi."
+                                "\\n< Gekuran >Ahh... haa... ehh... I-I've calmed down now. Buh.\nI-I feel refreshed... I got it..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "C-Clear... I did it... \\n< Guesclin >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9354,7 +10082,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Clear...?! \\n< Man >"
+                                "\\n< Male >Are you feeling refreshed...?!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9418,14 +10153,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "I have certainly received your request. It's okay for"
+                                "\\n< Gekuran >......I did accept the request, so you can go home\nnow. Buh."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "you to leave now. Bye. \\n< Guesclin >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9442,7 +10184,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Oh, I see... Well then, please take care of me. \\n< Man >"
+                                "\\n< Male >I-I see... Well then, please take care of me."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9638,7 +10394,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "...... \\n< Guesclin >"
+                                "\\n< Gekuran >......."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9695,21 +10458,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Puhh... Serena, you're a naughty girl. You"
+                                "\\n< Gekuran >Pufuu... Serena-chan, you're such a naughty girl.\nYou shouldn't make someone ejaculate while they're\nworking."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "shouldn't make someone ejaculate while they're"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "working. \\n< Guesclin >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9766,7 +10536,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Hmmph. \\n< Serena >"
+                                "\\n< Serena >Mmm..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9790,14 +10567,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Ah, buhibuhi. You're keeping to the rules,"
+                                "\\n< Gekuran >Ahh... buhii buhii... You're following my\ninstructions, aren't you? Good job."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "aren't you? Well done. \\n< Guesclin >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9892,7 +10676,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Okay then, keep smooching like that. \\n< Guesclin >"
+                                "\\n< Gekuran >Well then, keep kissing."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9945,7 +10736,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Oh. Ah, how cute... so cute~. \\n< Guesclin >"
+                                "\\n< Gekuran >So... Ahh... cute... You're so cute~..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9998,7 +10796,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Hmm... Hmm... \\n< Guesclin >"
+                                "\\n< Gekuran >Mmm... mmm..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -10060,7 +10865,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "So, shall we take a gulp now? \\n< Guesclin >"
+                                "\\n< Gekuran >Well then, shall we do a swallow soon?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -10144,14 +10956,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Aah~ gulp burp Delicious~. Alright, open your"
+                                "\\n< Gekuran >Ahh~ Swallow. Buhii. That's good~ Now, open your\nmouth and show me."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "mouth and let me see. \\n< Guesclin >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -10224,7 +11043,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Hmm... \\n< Serena >"
+                                "\\n< Serena >Mmm..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -10248,7 +11074,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Bwahaha! Bwi! \\n< Guesclin >"
+                                "\\n< Gekuran >Buhii! Buhii!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -10312,14 +11145,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "She ate every drop of it... Serena...! My"
+                                "\\n< Gekuran >E-Every drop... of my semen... was eaten by\nSerena-chan...!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "semen...! She ate it all...! \\n< Guesclin >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -10336,14 +11176,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Buribuhii! Hey? Hey? So, how was it? Was it"
+                                "\\n< Gekuran >Buhii buhii! Right? Right? How was it? Was it\ndelicious?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "delicious? \\n< Guesclin >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -10400,14 +11247,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Ugh...it's a bitter and salty taste...makes me feel"
+                                "\\n< Serena >Ugh... It's a bitter and salty taste... It makes\nme feel nauseous..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "nauseous... \\n< Serena >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -10431,14 +11285,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Hmm... Something's strange. Isn't this supposed to be"
+                                "\\n< Gekuran >Hmmm~? That's strange~? It should be Serena-chan's\nfavorite, right~?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "Serena's favorite food? \\n< Guesclin >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -10455,7 +11316,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Oh, my... Semen is delicious... \\n< Guesclin >"
+                                "\\n< Gekuran >My... my semen..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -10524,14 +11392,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "......"
+                                "\\n< Serena >......."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >"
+                                ""
                             ]
                         },
                         {
@@ -10600,14 +11468,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "No... it doesn't taste good... no matter what anyone"
+                                "\\n< Serena >No... it's not delicious... no matter what you\nsay... it's not delicious..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "says... it doesn't taste good... \\n< Serena >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -10631,7 +11506,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "? \\n< Guesclin >"
+                                "\\n< Gekuran >？"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -10648,38 +11530,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Hmm... Is it difficult to twist the sensation I'm"
+                                "\\n< Gekuran >Hmm... I wonder if it's difficult to twist the\nsensations I'm actually feeling? Buhii."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "actually feeling right now? Buhi. \\n< Guesclin >"
+                                ""
                             ]
                         },
                         {
-                            "code": 101,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "",
-                                0,
-                                2,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "I still don't fully understand how to use it. I need"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "to practice more. Buhin buhi. \\n< Guesclin >"
+                                ""
                             ]
                         },
                         {
@@ -10696,14 +11561,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Fortunately, Serena is always willing to"
+                                "\\n< Gekuran >I still don't fully understand how to handle it~.\nI need to practice more. Buhii buhii."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "accompany me in my experiments... \\n< Guesclin >"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -10720,7 +11592,45 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Shall we study together and do our best? Buhihinnbuhi! \\n< Guesclin >"
+                                "\\n< Gekuran >Fortunately, Serena-chan is willing to accompany\nme in as many experiments as I want..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                2,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n< Gekuran >Let's study together, okay~? Buhii buhii!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -10777,7 +11687,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "???? \\n< Serena >"
+                                "\\n< Serena >？？？？"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -13989,7 +14906,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "I must listen to what Lord Guesclin has to say first. \\n< Serena >"
+                                "\\n< Serena >I must first hear what Lord Gekuran has to say."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
