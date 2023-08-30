@@ -37,19 +37,19 @@
  *  このプラグインはもうあなたのものです。
  */
 
-(function () {
+(function() {
     'use strict';
 
     var _Sprite__renderCanvas = Sprite.prototype._renderCanvas;
-    Sprite.prototype._renderCanvas = function (renderer) {
+    Sprite.prototype._renderCanvas = function(renderer) {
         _Sprite__renderCanvas.apply(this, arguments);
         if (this.isExistLoadingBitmap()) {
             this._renderCanvas_PIXI(renderer);
         }
     };
 
-    var _Sprite__renderWebGL = Sprite.prototype._renderWebGL;
-    Sprite.prototype._renderWebGL = function (renderer) {
+    var _Sprite__renderWebGL      = Sprite.prototype._renderWebGL;
+    Sprite.prototype._renderWebGL = function(renderer) {
         _Sprite__renderWebGL.apply(this, arguments);
         if (this.isExistLoadingBitmap()) {
             if (this._isPicture) {
@@ -65,7 +65,7 @@
         }
     };
 
-    Sprite.prototype.isExistLoadingBitmap = function () {
+    Sprite.prototype.isExistLoadingBitmap = function() {
         return this.bitmap && !this.bitmap.isReady();
     };
 })();

@@ -29,7 +29,7 @@ function SentenceData() {
     Sentence.saveMapName = "マップ名"
 
     const _Scene_Boot_start = Scene_Boot.prototype.start;
-    Scene_Boot.prototype.start = function () {
+    Scene_Boot.prototype.start = function() {
         _Scene_Boot_start.call(this);
         SentenceData.start();
     };
@@ -68,7 +68,7 @@ function SentenceData() {
     };
     SentenceData.saveText = function (dataStr, saveFileName) {
         // 後方「,改行」削除
-        dataStr = dataStr.replace(/\,\n$/g, "");
+        dataStr = dataStr.replace(/\,\n$/g,"");
         let saveFilePath = this._projectFilePath + "/" + DIR_NAME + "/" + saveFileName + ".txt";
         this._fs.writeFileSync(saveFilePath, dataStr);
     };
@@ -112,9 +112,9 @@ function SentenceData() {
     SentenceData.saveCsv = function (dataStr, saveFileName) {
         let saveFilePath = this._projectFilePath + "/" + DIR_NAME + "/" + saveFileName + ".csv";
         let fs = this._fs;
-        if (dataStr == "") {
+        if(dataStr == ""){
             fs.writeFileSync(saveFilePath, dataStr);
-        } else {
+        }else{
             // bom付きじゃないとエクセル表示で文字化けするため、追加
             fs.writeFileSync(saveFilePath, '\uFEFF');
             fs.appendFile(saveFilePath, dataStr);
@@ -126,16 +126,16 @@ function SentenceData() {
             let page = event.pages[m];
             let l = 0;
             let list = page.list;
-            while (list[l]) {
+            while(list[l]){
                 var oneSerif = "";
                 //一イベントコマンドにある文章を抽出
                 while (this.nextEventCode(list, l) === 401) {
                     l++;
                     oneSerif += list[l].parameters[0] + "\n";
                 }
-                if (oneSerif != "") {
+                if (oneSerif != ""){
                     // 後方改行削除
-                    oneSerif = oneSerif.replace(/\r?\n$/g, "");
+                    oneSerif = oneSerif.replace(/\r?\n$/g,"");
                     oneSerif = '"' + oneSerif + '"';
                     // マップＩＤ，イベントＩＤを文章の前に接頭文字で入れる
                     let prefix = String(mapId) + "," + String(event.id) + ",";
@@ -169,7 +169,7 @@ function SentenceData() {
         }
     };
     SentenceData.writeCommonSentence = function (typeNum) {
-        let fs = this._fs;
+        let fs = this._fs; 
         var data = fs.readFileSync(this._projectFilePath + '/data/CommonEvents.json');
         var jsonData = JSON.parse(data);
         var dataStr = "";
@@ -182,32 +182,32 @@ function SentenceData() {
         for (i = 1; i < jsonData.length; i++) {
             if (jsonData[i] == null)
                 continue;
-            commonId = jsonData[i].id;
-            let list = jsonData[i].list;
-            switch (typeNum) {
-                case 0:
-                    dataStr += this.serifInCommonEv(list, commonId);
-                    break;
-                case 1:
-                    dataStr += this.choicesInCommonEv(list);
-                    break;
-            }
+                commonId = jsonData[i].id;
+                let list = jsonData[i].list;
+                switch (typeNum) {
+                    case 0:
+                        dataStr += this.serifInCommonEv(list, commonId);
+                        break;
+                    case 1:
+                        dataStr += this.choicesInCommonEv(list);
+                        break;
+                }
         }
         return dataStr;
     };
     SentenceData.serifInCommonEv = function (list, commonId) {
         var serIfInCommonEv = "";
         let i = 0;
-        while (list[i]) {
+        while(list[i]){
             var oneSerif = "";
             //一イベントコマンドにある文章を抽出
             while (this.nextEventCode(list, i) === 401) {
                 i++;
                 oneSerif += list[i].parameters[0] + "\n";
             }
-            if (oneSerif != "") {
+            if (oneSerif != ""){
                 // 後方改行削除
-                oneSerif = oneSerif.replace(/\r?\n$/g, "");
+                oneSerif = oneSerif.replace(/\r?\n$/g,"");
                 oneSerif = '"' + oneSerif + '"';
                 // コモンイベントＩＤを文章の前に接頭文字で入れる
                 let prefix = String(commonId) + ",";

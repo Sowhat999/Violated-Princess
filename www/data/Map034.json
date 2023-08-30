@@ -1,4 +1,4 @@
-{
+﻿{
     "autoplayBgm": true,
     "autoplayBgs": false,
     "battleback1Name": "Cobblestones3",
@@ -4264,7 +4264,7 @@
         },
         {
             "id": 2,
-            "name": "スライム",
+            "name": "Slime",
             "note": "<TE:スライム[対象者]>",
             "pages": [
                 {
@@ -4324,7 +4324,7 @@
         },
         {
             "id": 3,
-            "name": "スライム",
+            "name": "Slime",
             "note": "<TE:スライム[対象者]>",
             "pages": [
                 {
@@ -4384,7 +4384,7 @@
         },
         {
             "id": 4,
-            "name": "スライム",
+            "name": "Slime",
             "note": "<TE:スライム[対象者]>",
             "pages": [
                 {
@@ -5775,7 +5775,7 @@
         },
         {
             "id": 18,
-            "name": "スライム",
+            "name": "Slime",
             "note": "<TE:スライム[対象者]>",
             "pages": [
                 {
@@ -5835,7 +5835,7 @@
         },
         {
             "id": 19,
-            "name": "スライム",
+            "name": "Slime",
             "note": "<TE:スライム[対象者]>",
             "pages": [
                 {
@@ -5895,7 +5895,7 @@
         },
         {
             "id": 20,
-            "name": "スライム",
+            "name": "Slime",
             "note": "<TE:スライム[対象者]>",
             "pages": [
                 {
@@ -5955,7 +5955,7 @@
         },
         {
             "id": 21,
-            "name": "スライム",
+            "name": "Slime",
             "note": "<TE:スライム[対象者]>",
             "pages": [
                 {
@@ -6096,21 +6096,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "こいつは以前倒したはずだが…まぁよい。"
+                                "I should have defeated this one before... Well, it's"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "何度でも倒すまでだ。"
+                                "fine. I'll keep defeating it as many times as it"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "takes. \\n< Serena >"
                             ]
                         },
                         {
@@ -6165,14 +6165,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "今度は負けぬぞ！"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "This time, I won't lose! \\n< Serena >"
                             ]
                         },
                         {

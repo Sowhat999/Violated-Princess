@@ -36,28 +36,8 @@ var __extends = (this && this.__extends) || (function () {
  *
  * @param alreadySaveExists
  * @text 回想セーブが存在する時のメッセージ
- * @default 既にセーブデータがあるため回想セーブされませんでした
- * 
- * @param alreadySaveExistsEn
- * @text 回想セーブが存在する時のメッセージ(英語)
- * @default Not recollection saved because there is already saved data.
- * 
- * @param alreadySaveExistsCh
- * @text 回想セーブが存在する時のメッセージ(中国語)
- * @default 既にセーブデータがあるため回想セーブされませんでした
- * 
- * @param fullSaveFiles
- * @text 回想セーブがまんたんでセーブができない時のメッセージ
- * @default これ以上回想セーブを登録することができません
+ * @default 既にセーブがあるため回想セーブされませんでした
  *
- * @param fullSaveFilesEn
- * @text 回想セーブがまんたん時(英語)
- * @default The maximum number of recollection saves has been reached
- * 
- * @param fullSaveFilesCh
- * @text 回想セーブがまんたん時(中国語)
- * @default これ以上回想セーブを登録することができません
- * 
  * @param recosaveJp
  * @text 回想セーブの日本語名
  * @default 回想%1
@@ -128,14 +108,9 @@ var Nore;
     var maxCols = parseInt(parameters['maxCols'] || '4');
     var MAX_PAGE_FILES = maxCols * 3;
     var AUTO_SAVE_ID = 0;
-    var maxPage = 16;
+    var maxPage = 15;
     var MAX_ROW = 3;
     var ALREADY_SAVE_EXISTS = parameters['alreadySaveExists'];
-    var ALREADY_SAVE_EXISTS_EN = parameters['alreadySaveExistsEn'];
-    var ALREADY_SAVE_EXISTS_CH = parameters['alreadySaveExistsCh'];
-    var FULL_SAVE_FILES = parameters['fullSaveFiles'];
-    var FULL_SAVE_FILES_EN = parameters['fullSaveFilesEn'];
-    var FULL_SAVE_FILES_CH = parameters['fullSaveFilesCh'];
     var RECO_LABEL_JP = parameters['recosaveJp'];
     var RECO_LABEL_EN = parameters['recosaveEn'];
     var RECO_LABEL_CH = parameters['recosaveCh'];
@@ -158,6 +133,11 @@ var Nore;
     Game_Interpreter.prototype.pluginCommand = function (command, args) {
         _Game_Interpreter_pluginCommand.apply(this, arguments);
         if (command === '回想セーブ') {
+            //--------Added code--------
+            if (typeof args[0] === 'string' && args[0].includes("_")) {
+                args[0] = args[0].replace(/_/g, " ");
+            }
+            //--------------------------
             $recoSaveManager.save(args[0]);
         }
     };
@@ -214,21 +194,13 @@ var Nore;
         RecoSaveManager.prototype.save = function (saveFileName) {
             var slotId = this.findSlotId(saveFileName);
             if (slotId == -1) {
-                CommonPopupManager.showInfo({}, this.getAlreadySaveExistMsg(), '');
-                return;
-            }
-            if (slotId == -2) {
-                CommonPopupManager.showInfo({}, this.getFullSaveFilesMsg(), '');
+                CommonPopupManager.showInfo({}, ALREADY_SAVE_EXISTS, '');
                 return;
             }
             var lastAccessId = DataManager._lastAccessedId;
             var saveId = getRecoStartId() + slotId - 1;
             var info = DataManager.loadGlobalInfo()[saveId];
             if (info && info.playtime == $gameSystem.playtimeText()) {
-                return;
-            }
-            if (saveId > DataManager.maxSavefiles()) {
-                CommonPopupManager.showInfo({}, this.getFullSaveFilesMsg(), '');
                 return;
             }
             SceneManager.snapForThumbnail();
@@ -241,48 +213,18 @@ var Nore;
             DataManager._lastAccessedId = lastAccessId;
             this._recoSaveName = null;
         };
-        RecoSaveManager.prototype.getAlreadySaveExistMsg = function () {
-            switch ($gameVariables.value(1999)) {
-                case 2:
-                    return ALREADY_SAVE_EXISTS_EN;
-                case 3:
-                    return ALREADY_SAVE_EXISTS_CH;
-                default:
-                    return ALREADY_SAVE_EXISTS;
-            }
-        };
-        RecoSaveManager.prototype.getFullSaveFilesMsg = function () {
-            switch ($gameVariables.value(1999)) {
-                case 2:
-                    return FULL_SAVE_FILES_EN;
-                case 3:
-                    return FULL_SAVE_FILES_CH;
-                default:
-                    return FULL_SAVE_FILES;
-            }
-        };
         RecoSaveManager.prototype.findSlotId = function (saveFileName) {
             var start = getRecoStartId();
             var globalInfo = DataManager.loadGlobalInfo();
-            let maxSaveFiles = DataManager.maxSavefiles();
-            for (var i = 0; i < maxSaveFiles; i++) {
-                let fileId = i + start;
-                if (fileId >= maxSaveFiles) {
-                    break;
-                }
-                var info = globalInfo[fileId];
+            for (var i = 0; i < 100; i++) {
+                var info = globalInfo[i + start];
                 if (info) {
                     if (info.label == saveFileName) {
                         return -1;
                     }
                 }
             }
-            for (var i = 0; i < maxSaveFiles; i++) {
-                let fileId = i + start;
-                if (fileId >= maxSaveFiles) {
-                    return -2;
-                }
-
+            for (var i = 0; i < 100; i++) {
                 var info = globalInfo[i + start];
                 if (!info) {
                     return i + 1;
@@ -345,8 +287,8 @@ var Nore;
     };
     const _Scene_File_prototype_popScene = Scene_File.prototype.popScene;
     Scene_File.prototype.popScene = function () {
-        $gameVariables.setValue(11, 0);
-        _Scene_File_prototype_popScene.call(this);
+          $gameVariables.setValue(11, 0);
+          _Scene_File_prototype_popScene.call(this);
     }
     Scene_File.prototype.onRight = function () {
         var page = this._pageWindow.right();
@@ -475,14 +417,14 @@ var Nore;
             var info = DataManager.loadSavefileInfo(id);
             var rect = this.itemRectForText(index);
             this.resetTextColor();
+      
 
-
-            if (!valid && !info && id > 0) {
+            if (! valid && ! info && id > 0) {
                 if (StorageManager.exists(id)) {
                     try {
                         const jsonStr = StorageManager.load(id);
                         const json = JsonEx.parse(jsonStr);
-
+                       
                         info = this.makeDummySaveFile();
                         valid = true;
                     } catch (e) {
@@ -501,13 +443,13 @@ var Nore;
                 this.changePaintOpacity(true);
             }
         };
-        Window_SavefileList2.prototype.makeDummySaveFile = function () {
+        Window_SavefileList2.prototype.makeDummySaveFile = function() {
             var info = {};
-            info.globalId = this._globalId;
-            info.title = $dataSystem.gameTitle;
+            info.globalId   = this._globalId;
+            info.title      = $dataSystem.gameTitle;
             info.characters = [];
-            info.faces = [];
-            info.timestamp = Date.now();
+            info.faces      = [];
+            info.timestamp  = Date.now();
 
             var text = COPIED_LABEL_JP;
             switch ($gameVariables.value(1999)) {
@@ -684,7 +626,7 @@ var Nore;
             }
         };
         Window_SavePage.prototype.itemWidth = function () {
-            return 48;
+            return 50;
         };
         Window_SavePage.prototype.setPage = function (page) {
             this._index = page;
@@ -804,7 +746,7 @@ var Nore;
     var _DataManager_loadGameWithoutRescue = DataManager.loadGameWithoutRescue;
     DataManager.loadGameWithoutRescue = function (savefileId) {
         var lastAccessId = this._lastAccessedId;
-
+     
 
         let result;
         if (this.isThisGameFile2(savefileId)) {
@@ -816,7 +758,7 @@ var Nore;
         } else {
             result = false;
         }
-
+        
         $gameTemp.interceptorType = 2;
 
         if (this._lastAccessedId >= getRecoStartId()) {
@@ -830,17 +772,17 @@ var Nore;
 
 
     var _Nore_DataManager_isThisGameFile = DataManager.isThisGameFile;
-    DataManager.isThisGameFile2 = function (savefileId) {
+    DataManager.isThisGameFile2 = function(savefileId) {
 
         const result = _Nore_DataManager_isThisGameFile.apply(this, arguments);
-        if (!result) {
+        if (! result) {
             if (StorageManager.exists(savefileId)) {
-
+          
                 return true;
             }
             return false;
         }
-
+     
         return true;
     };
 

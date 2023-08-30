@@ -187,7 +187,7 @@
  * http://opensource.org/licenses/mit-license.php
 */
 
-(function () {
+(function() {
     'use strict';
 
     //------------------------------------------------------------------------
@@ -305,7 +305,7 @@
      * @param {number} ch 元の高さ
      * @return {Bitmap} リサイズされたビットマップ
      */
-    Bitmap.snap2 = function (stage, dw = Graphics.width, dh = Graphics.height, cw = dw, ch = dh) {
+    Bitmap.snap2 = function(stage, dw = Graphics.width, dh = Graphics.height, cw = dw, ch = dh) {
         const bitmap = new Bitmap(dw, dh);
         if (stage) {
             const context = bitmap._context;
@@ -334,8 +334,8 @@
 
     //------------------------------------------------------------------------
 
-    monkeyPatch(Decrypter, 'checkImgIgnore', function ($) {
-        return function (url) {
+    monkeyPatch(Decrypter, 'checkImgIgnore', function($) {
+        return function(url) {
             // Base64形式なら暗号化の対象外にする
             if (url.includes('data:image/jpeg;base64')) {
                 return true;
@@ -353,7 +353,7 @@
      * @param {Object} info セーブデータ
      * @return {number} 
      */
-    DataManager.getSavefileId = function (info) {
+    DataManager.getSavefileId = function(info) {
         const globalInfo = this.loadGlobalInfo();
         if (globalInfo) {
             for (let id = 1, l = globalInfo.length; id < l; id++) {
@@ -374,7 +374,7 @@
      * @param {Object} b セーブデータB
      * @return {boolean} 
      */
-    DataManager.isEqualSavefile = function (a, b) {
+    DataManager.isEqualSavefile = function(a, b) {
         // NOTE : thumbnailは長くなりがちなので比較しなくてよいかなという判断
         return (a.globalId === b.globalId
             && a.title === b.title
@@ -397,7 +397,7 @@
      * @param {number} hue 色相
      * @return {string} 
      */
-    ImageManager._generateBase64CacheKey = function (cacheKey, hue) {
+    ImageManager._generateBase64CacheKey = function(cacheKey, hue) {
         return 'Base64:' + cacheKey + ':' + hue;
     };
 
@@ -407,7 +407,7 @@
      * @param {Bitmap} bitmap ビットマップ
      * @return {string} Base64形式の文字列を返します
      */
-    ImageManager.toBase64 = function (bitmap) {
+    ImageManager.toBase64 = function(bitmap) {
         const minetype = 'image/jpeg';
         const quality = thumbQuality / 100;
         return bitmap._canvas.toDataURL(minetype, quality);
@@ -422,7 +422,7 @@
      * @param {number} hue 色相
      * @return {Bitmap} 
      */
-    ImageManager.loadBase64Bitmap = function (src, cacheKey, hue = 0) {
+    ImageManager.loadBase64Bitmap = function(src, cacheKey, hue = 0) {
         const b64cacheKey = this._generateBase64CacheKey(cacheKey, hue);
         let bitmap = this._imageCache.get(b64cacheKey);
         if (!bitmap) {
@@ -431,7 +431,7 @@
                 // community-1.3 の プログレスバー 対応
                 this._callCreationHook(bitmap);
             }
-            bitmap.addLoadListener(function () {
+            bitmap.addLoadListener(function() {
                 bitmap.rotateHue(hue);
             });
             this._imageCache.add(b64cacheKey, bitmap);
@@ -450,7 +450,7 @@
      * @param {number} hue 色相
      * @return {Bitmap} 
      */
-    ImageManager.requestBase64Bitmap = function (src, cacheKey, hue = 0) {
+    ImageManager.requestBase64Bitmap = function(src, cacheKey, hue = 0) {
         const b64cacheKey = this._generateBase64CacheKey(cacheKey, hue);
         let bitmap = this._imageCache.get(b64cacheKey);
         if (!bitmap) {
@@ -459,7 +459,7 @@
                 // community-1.3 の プログレスバー 対応
                 this._callCreationHook(bitmap);
             }
-            bitmap.addLoadListener(function () {
+            bitmap.addLoadListener(function() {
                 bitmap.rotateHue(hue);
             });
             this._imageCache.add(b64cacheKey, bitmap);
@@ -481,7 +481,7 @@
      * @param {number} hue 色相
      * @return {Bitmap} 
      */
-    ImageManager.loadThumbnail = function (savefileId, info, hue) {
+    ImageManager.loadThumbnail = function(savefileId, info, hue) {
         const cacheKey = generateThumbUniqueKey(savefileId);
         if (info && info.thumbnail && cacheKey) {
             return ImageManager.loadBase64Bitmap(info.thumbnail, cacheKey, hue);
@@ -497,7 +497,7 @@
      * @param {number} hue 色相
      * @return {Bitmap} 
      */
-    ImageManager.requestThumbnail = function (savefileId, info, hue) {
+    ImageManager.requestThumbnail = function(savefileId, info, hue) {
         const cacheKey = generateThumbUniqueKey(savefileId);
         if (info && info.thumbnail && cacheKey) {
             return this.requestBase64Bitmap(info.thumbnail, cacheKey, hue);
@@ -512,7 +512,7 @@
      * @param {number} height
      * @return {Bitmap} 
      */
-    ImageManager.loadBusyThumbBitmap = function (width, height) {
+    ImageManager.loadBusyThumbBitmap = function(width, height) {
         const cacheKey = 'busyThumb:' + width + '_' + height;
         let empty = this._imageCache.get(cacheKey);
         if (!empty) {
@@ -528,7 +528,7 @@
      * 
      * @return {boolean}
      */
-    SceneManager.isAutoSnapForThumbnail = function () {
+    SceneManager.isAutoSnapForThumbnail = function() {
         if (!isAutoSnap || !$gameSystem.isSaveEnabled()) {
             return false;
         }
@@ -542,8 +542,8 @@
         return scenes.some((scene) => this.isNextScene(scene));
     };
 
-    monkeyPatch(SceneManager, 'snapForBackground', function ($) {
-        return function () {
+    monkeyPatch(SceneManager, 'snapForBackground', function($) {
+        return function() {
             $.call(this);
             if (this.isAutoSnapForThumbnail()) {
                 this.snapForThumbnail();
@@ -554,7 +554,7 @@
     /**
      * マップ画面を指定のサイズのビットマップを保存します.
      */
-    SceneManager.snapForThumbnail = function () {
+    SceneManager.snapForThumbnail = function() {
         if (this._scene) {
             const cw = Graphics.width;
             const ch = Graphics.height;
@@ -565,7 +565,7 @@
     /**
      * サムネイルのビットマップを削除します.
      */
-    SceneManager.clearThumbnail = function () {
+    SceneManager.clearThumbnail = function() {
         this._thumbnailBitmap = null;
     };
 
@@ -574,15 +574,15 @@
      * 
      * @return {string} 
      */
-    SceneManager.thumbnailBase64 = function () {
+    SceneManager.thumbnailBase64 = function() {
         if (this._thumbnailBitmap) {
             return ImageManager.toBase64(this._thumbnailBitmap);
         }
         return '';
     };
 
-    monkeyPatch(DataManager, 'makeSavefileInfo', function ($) {
-        return function () {
+    monkeyPatch(DataManager, 'makeSavefileInfo', function($) {
+        return function() {
             let info = $.call(this);
             info.thumbnail = SceneManager.thumbnailBase64();
             if (!info.thumbnail) {
@@ -592,8 +592,8 @@
         };
     });
 
-    monkeyPatch(DataManager, 'loadSavefileImages', function ($) {
-        return function (info) {
+    monkeyPatch(DataManager, 'loadSavefileImages', function($) {
+        return function(info) {
             $.call(this, info);
             if (info.thumbnail) {
                 ImageManager.requestThumbnail(info);
@@ -615,7 +615,7 @@
      * @param {number} height 描画する高さ
      * @param {Function} onDrawAfter 描画後の処理
      */
-    Window_Base.prototype.drawBase64Data = function (src, cacheKey, x, y, width = 0, height = 0, onDrawAfter = null) {
+    Window_Base.prototype.drawBase64Data = function(src, cacheKey, x, y, width = 0, height = 0, onDrawAfter = null) {
         const bitmap = ImageManager.loadBase64Bitmap(src, cacheKey);
         const lastOpacity = this.contents.paintOpacity;
         if (!bitmap.isReady() && width > 0 && height > 0) {
@@ -637,7 +637,7 @@
      * @param {number} height 描画する高さ
      * @param {Function} onDrawAfter 描画後の処理
      */
-    Window_Base.prototype._onLoadBase64Data = function (bitmap, x, y, lastOpacity, width, height, onDrawAfter = null) {
+    Window_Base.prototype._onLoadBase64Data = function(bitmap, x, y, lastOpacity, width, height, onDrawAfter = null) {
         const bw = bitmap.width;
         const bh = bitmap.height;
         width = width || bw;
@@ -664,7 +664,7 @@
      * @param {number} height 描画する高さ
      * @param {Function} onDrawAfter 描画後の処理
      */
-    Window_Selectable.prototype.drawBase64Data = function (src, cacheKey, x, y, width = 0, height = 0, onDrawAfter = null) {
+    Window_Selectable.prototype.drawBase64Data = function(src, cacheKey, x, y, width = 0, height = 0, onDrawAfter = null) {
         const bitmap = ImageManager.loadBase64Bitmap(src, cacheKey);
         const lastOpacity = this.contents.paintOpacity;
         const lastTopRow = this.topRow();
@@ -688,21 +688,21 @@
         /** @type {Object[]} */
         let _globalInfo;
 
-        monkeyPatch(DataManager, 'loadGlobalInfo', function ($) {
-            return function () {
+        monkeyPatch(DataManager, 'loadGlobalInfo', function($) {
+            return function() {
                 return _globalInfo ? _globalInfo : $.call(this);
             };
         });
 
-        monkeyPatch(Scene_File.prototype, 'initialize', function ($) {
-            return function () {
+        monkeyPatch(Scene_File.prototype, 'initialize', function($) {
+            return function() {
                 _globalInfo = DataManager.loadGlobalInfo();
                 $.call(this);
             };
         });
 
-        monkeyPatch(Scene_File.prototype, 'terminate', function ($) {
-            return function () {
+        monkeyPatch(Scene_File.prototype, 'terminate', function($) {
+            return function() {
                 $.call(this);
                 _globalInfo = null;
             };
@@ -717,14 +717,14 @@
         Window_SavefileList.prototype.thumbnailX = eval('(function(rect, width) { return %1; });'.format(thumbItemPosX));
         Window_SavefileList.prototype.thumbnailY = eval('(function(rect, height) { return %1; });'.format(thumbItemPosY));
 
-        monkeyPatch(Window_SavefileList.prototype, 'initialize', function ($) {
-            return function (x, y, width, height) {
+        monkeyPatch(Window_SavefileList.prototype, 'initialize', function($) {
+            return function(x, y, width, height) {
                 $.call(this, x, y, width, height);
                 this.createThumbnail();
             };
         });
 
-        Window_SavefileList.prototype.createThumbnail = function () {
+        Window_SavefileList.prototype.createThumbnail = function() {
             const contentsIndex = this.children.indexOf(this._windowContentsSprite);
             this._thumbContainer = new PIXI.Container();
             this.addChildAt(this._thumbContainer, contentsIndex);
@@ -742,32 +742,32 @@
             this.refreshThumbnailParts();
         };
 
-        monkeyPatch(Window_SavefileList.prototype, '_refreshContents', function ($) {
-            return function () {
+        monkeyPatch(Window_SavefileList.prototype, '_refreshContents', function($) {
+            return function() {
                 $.call(this);
                 this.refreshThumbnailParts();
             };
         });
 
-        Window_SavefileList.prototype.refreshThumbnailParts = function () {
+        Window_SavefileList.prototype.refreshThumbnailParts = function() {
             if (this._thumbContainer) {
                 this._thumbContainer.x = this.padding;
                 this._thumbContainer.y = this.padding;
             }
         };
 
-        Window_SavefileList.prototype.bottomIndex = function () {
+        Window_SavefileList.prototype.bottomIndex = function() {
             return this.topIndex() + this.maxPageItems() - 1;
         };
 
-        monkeyPatch(Window_SavefileList.prototype, 'refresh', function ($) {
-            return function () {
+        monkeyPatch(Window_SavefileList.prototype, 'refresh', function($) {
+            return function() {
                 this.clearThumbnail();
                 $.call(this);
             };
         });
 
-        Window_SavefileList.prototype.clearThumbnail = function () {
+        Window_SavefileList.prototype.clearThumbnail = function() {
             const thumbs = this._thumbContainer.children;
             let thumb;
             for (let i = 0, l = thumbs.length; i < l; i++) {
@@ -777,8 +777,8 @@
             }
         };
 
-        monkeyPatch(Window_SavefileList.prototype, 'drawContents', function ($) {
-            return function (info, rect, valid) {
+        monkeyPatch(Window_SavefileList.prototype, 'drawContents', function($) {
+            return function(info, rect, valid) {
                 $.call(this, info, rect, valid);
                 let thumbRect = new Rectangle();
                 thumbRect.width = Math.floor(thumbSaveWidth * thumbItemScale);
@@ -796,7 +796,7 @@
          * @param {Rectangle} thumbRect 
          * @param {boolean} valid 
          */
-        Window_SavefileList.prototype.drawThumbnail = function (info, thumbRect, valid) {
+        Window_SavefileList.prototype.drawThumbnail = function(info, thumbRect, valid) {
             const savefileId = DataManager.getSavefileId(info);
             const listIndex = savefileId - 1;
             if (savefileId > 0 && info.thumbnail) {
@@ -836,8 +836,8 @@
         AnyWindowClass.prototype._thumbnailX = eval('(function(rect, width) { return %1; });'.format(thumbOtherPosX));
         AnyWindowClass.prototype._thumbnailY = eval('(function(rect, height) { return %1; });'.format(thumbOtherPosY));
 
-        monkeyPatch(AnyWindowClass.prototype, 'initialize', function ($) {
-            return function () {
+        monkeyPatch(AnyWindowClass.prototype, 'initialize', function($) {
+            return function() {
                 $.call(this, ...arguments);
                 if (SceneManager._scene instanceof Scene_File) {
                     this._createThumbnail();
@@ -845,7 +845,7 @@
             };
         });
 
-        AnyWindowClass.prototype._createThumbnail = function () {
+        AnyWindowClass.prototype._createThumbnail = function() {
             const contentsIndex = this.children.indexOf(this._windowContentsSprite);
             this._thumbContainer = new PIXI.Container();
             this.addChildAt(this._thumbContainer, contentsIndex);
@@ -862,14 +862,14 @@
             this._refreshThumbnailParts();
         };
 
-        monkeyPatch(AnyWindowClass.prototype, '_refreshContents', function ($) {
-            return function () {
+        monkeyPatch(AnyWindowClass.prototype, '_refreshContents', function($) {
+            return function() {
                 $.call(this);
                 this._refreshThumbnailParts();
             };
         });
 
-        AnyWindowClass.prototype._refreshThumbnailParts = function () {
+        AnyWindowClass.prototype._refreshThumbnailParts = function() {
             if (this._thumbContainer) {
                 this._thumbContainer.x = this.padding;
                 this._thumbContainer.y = this.padding;
@@ -882,8 +882,8 @@
             }
         };
 
-        monkeyPatch(AnyWindowClass.prototype, 'update', function ($) {
-            return function () {
+        monkeyPatch(AnyWindowClass.prototype, 'update', function($) {
+            return function() {
                 if ($) {
                     $.call(this);
                 }
@@ -893,7 +893,7 @@
             };
         });
 
-        AnyWindowClass.prototype._updateThumbnail = function () {
+        AnyWindowClass.prototype._updateThumbnail = function() {
             /** @type {Window_SavefileList} */
             const list = SceneManager._scene._listWindow;
             if (list) {
@@ -911,7 +911,7 @@
             }
         };
 
-        AnyWindowClass.prototype._drawThumbnail = function (thumbRect) {
+        AnyWindowClass.prototype._drawThumbnail = function(thumbRect) {
             const savefileId = this._savefileId;
             const info = DataManager.loadSavefileInfo(savefileId);
             if (this._savefileId > 0 && info && info.thumbnail) {
@@ -944,8 +944,8 @@
 
     // community-1.3 の オートセーブ 対応
     if (DataManager.autoSaveGame) {
-        monkeyPatch(DataManager, 'autoSaveGame', function ($) {
-            return function () {
+        monkeyPatch(DataManager, 'autoSaveGame', function($) {
+            return function() {
                 if (this._autoSaveFileId !== 0 && !this.isEventTest() && $gameSystem.isSaveEnabled()) {
                     SceneManager.clearThumbnail();
                 }

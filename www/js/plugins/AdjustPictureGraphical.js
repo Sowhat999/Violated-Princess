@@ -87,7 +87,7 @@
 (function () {
     'use strict';
     // イベントテスト時以外は一切の機能を無効
-    if (!DataManager.isEventTest()) return;
+    if (!DataManager.isEventTest())return;
 
     var pluginName = 'AdjustPictureGraphical';
 
@@ -95,14 +95,14 @@
     // ローカル関数
     //  プラグインパラメータやプラグインコマンドパラメータの整形やチェックをします
     //=============================================================================
-    var getParamNumber = function (paramNames, min, max) {
+    var getParamNumber = function(paramNames, min, max) {
         var value = getParamOther(paramNames);
         if (arguments.length < 2) min = -Infinity;
         if (arguments.length < 3) max = Infinity;
         return (parseInt(value, 10) || 0).clamp(min, max);
     };
 
-    var getParamOther = function (paramNames) {
+    var getParamOther = function(paramNames) {
         if (!Array.isArray(paramNames)) paramNames = [paramNames];
         for (var i = 0; i < paramNames.length; i++) {
             var name = PluginManager.parameters(pluginName)[paramNames[i]];
@@ -122,7 +122,7 @@
     //  テスト用マップの読み込みを追加定義します。
     //=============================================================================
     var _DataManager_setupEventTest = DataManager.setupEventTest;
-    DataManager.setupEventTest = function () {
+    DataManager.setupEventTest = function() {
         _DataManager_setupEventTest.call(this);
         var mapId = getParamNumber(['TestMapId', 'テストマップID'], -1, 9999);
         if (mapId > 0) $gamePlayer.reserveTransfer(mapId, 8, 6);
@@ -132,7 +132,7 @@
     // Game_Picture
     //  ピクチャを掴んだ場合に移動を中断します。
     //=============================================================================
-    Game_Picture.prototype.resetMove = function (x, y) {
+    Game_Picture.prototype.resetMove = function(x, y) {
         this._x = x;
         this._y = y;
         this._duration = 0;
@@ -143,19 +143,19 @@
     //  最後に選択したピクチャの座標を保存します。
     //=============================================================================
     var _Game_Screen_initialize = Game_Screen.prototype.initialize;
-    Game_Screen.prototype.initialize = function () {
+    Game_Screen.prototype.initialize = function() {
         _Game_Screen_initialize.call(this);
         this._lastPictureX = null;
         this._lastPictureY = null;
-        this._copyCount = 0;
-        this._infoPicture = '';
-        this._infoHelp = 'Shift:ウィンドウ表示切替 Ctrl+マウス:グリッドにスナップ Ctrl+C:座標コピー ';
-        this._infoCopy = '';
+        this._copyCount    = 0;
+        this._infoPicture  = '';
+        this._infoHelp     = 'Shift:ウィンドウ表示切替 Ctrl+マウス:グリッドにスナップ Ctrl+C:座標コピー ';
+        this._infoCopy     = '';
         this._documentTitle = '';
     };
 
     var _Game_Screen_updatePictures = Game_Screen.prototype.updatePictures;
-    Game_Screen.prototype.updatePictures = function () {
+    Game_Screen.prototype.updatePictures = function() {
         _Game_Screen_updatePictures.call(this);
         if (Utils.isNwjs() && Input.isPressed('control') && Input.isTriggered('copy')) {
             if (this._lastPictureX == null || this._lastPictureY == null) return;
@@ -183,12 +183,12 @@
     //  テストイベント時の特別な処理
     //=============================================================================
     var _Scene_Map_update = Scene_Map.prototype.update;
-    Scene_Map.prototype.update = function () {
+    Scene_Map.prototype.update = function() {
         if (!$gameMap.isEventRunning()) this.updateEventTest();
         _Scene_Map_update.call(this);
     };
 
-    Scene_Map.prototype.updateEventTest = function () {
+    Scene_Map.prototype.updateEventTest = function() {
         this._spriteset.checkDragPictures();
         if (Input.isTriggered('shift')) {
             if (!this._messageWindow.isOpen()) {
@@ -199,7 +199,7 @@
         }
     };
 
-    Scene_Map.prototype.isMapTouchOk = function () {
+    Scene_Map.prototype.isMapTouchOk = function() {
         return false;
     };
 
@@ -207,20 +207,20 @@
     // Spriteset_Base
     //  配下のピクチャから掴んでいるものを探します。
     //=============================================================================
-    Spriteset_Base.prototype.checkDragPictures = function () {
-        this._pictureContainer.children.reverse().some(function (picture) {
+    Spriteset_Base.prototype.checkDragPictures = function() {
+        this._pictureContainer.children.reverse().some(function(picture) {
             return picture.checkDrag && picture.checkDrag();
         }, this);
         this._pictureContainer.children.reverse();
     };
 
     var _Spriteset_Base_createLowerLayer = Spriteset_Base.prototype.createLowerLayer;
-    Spriteset_Base.prototype.createLowerLayer = function () {
+    Spriteset_Base.prototype.createLowerLayer = function() {
         _Spriteset_Base_createLowerLayer.call(this);
         this.createGridSprite();
     };
 
-    Spriteset_Base.prototype.createGridSprite = function () {
+    Spriteset_Base.prototype.createGridSprite = function() {
         var size = getParamNumber(['GridSize', 'グリッドサイズ'], 0, Math.max(this.width, this.height));
         if (size === 0) return;
         this._gridSprite = new Sprite();
@@ -241,22 +241,22 @@
     //  テストイベント時にピクチャを掴みます。
     //=============================================================================
     var _Sprite_Picture_initialize = Sprite_Picture.prototype.initialize;
-    Sprite_Picture.prototype.initialize = function (pictureId) {
+    Sprite_Picture.prototype.initialize = function(pictureId) {
         _Sprite_Picture_initialize.call(this, pictureId);
         this._holding = false;
-        this._dx = 0;
-        this._dy = 0;
+        this._dx      = 0;
+        this._dy      = 0;
     };
 
-    Sprite_Picture.prototype.checkDrag = function () {
+    Sprite_Picture.prototype.checkDrag = function() {
         var picture = this.picture();
         if (picture != null) {
             if (this.updateDragMove()) {
-                var result = 'PictureNum:[' + this._pictureId + '] X:[' + this.x + '] Y:[' + this.y + ']';
+                var result                = 'PictureNum:[' + this._pictureId + '] X:[' + this.x + '] Y:[' + this.y + ']';
                 $gameScreen._lastPictureX = this.x;
                 $gameScreen._lastPictureY = this.y;
-                $gameScreen._infoPicture = result;
-                $gameScreen._infoCopy = '';
+                $gameScreen._infoPicture  = result;
+                $gameScreen._infoCopy     = '';
                 if (!this._holding) console.log(result);
                 picture.resetMove(this.x, this.y);
                 return true;
@@ -265,7 +265,7 @@
         return false;
     };
 
-    Sprite_Picture.prototype.updateDragMove = function () {
+    Sprite_Picture.prototype.updateDragMove = function() {
         if (this.isTriggered() || (this._holding && TouchInput.isPressed())) {
             if (!this._holding) this.hold();
             var x = TouchInput.x - this._dx;
@@ -286,54 +286,54 @@
         return false;
     };
 
-    Sprite_Picture.prototype.hold = function () {
+    Sprite_Picture.prototype.hold = function() {
         this._holding = true;
-        this._dx = TouchInput.x - this.x;
-        this._dy = TouchInput.y - this.y;
-        this.setBlendColor([255, 255, 255, 192]);
+        this._dx      = TouchInput.x - this.x;
+        this._dy      = TouchInput.y - this.y;
+        this.setBlendColor([255,255,255,192]);
     };
 
-    Sprite_Picture.prototype.release = function () {
+    Sprite_Picture.prototype.release = function() {
         this._holding = false;
-        this.setBlendColor([0, 0, 0, 0]);
+        this.setBlendColor([0,0,0,0]);
     };
 
     //=============================================================================
     // Sprite_Picture
     //  タッチ操作を可能にする共通部分
     //=============================================================================
-    Sprite_Picture.prototype.screenWidth = function () {
+    Sprite_Picture.prototype.screenWidth = function() {
         return (this.width || 0) * this.scale.x;
     };
 
-    Sprite_Picture.prototype.screenHeight = function () {
+    Sprite_Picture.prototype.screenHeight = function() {
         return (this.height || 0) * this.scale.y;
     };
 
-    Sprite_Picture.prototype.screenX = function () {
+    Sprite_Picture.prototype.screenX = function() {
         return (this.x || 0) - this.anchor.x * this.screenWidth();
     };
 
-    Sprite_Picture.prototype.screenY = function () {
+    Sprite_Picture.prototype.screenY = function() {
         return (this.y || 0) - this.anchor.y * this.screenHeight();
     };
 
-    Sprite_Picture.prototype.minX = function () {
+    Sprite_Picture.prototype.minX = function() {
         var width = this.screenWidth();
         return Math.min(this.screenX(), this.screenX() + width);
     };
 
-    Sprite_Picture.prototype.minY = function () {
+    Sprite_Picture.prototype.minY = function() {
         var height = this.screenHeight();
         return Math.min(this.screenY(), this.screenY() + height);
     };
 
-    Sprite_Picture.prototype.maxX = function () {
+    Sprite_Picture.prototype.maxX = function() {
         var width = this.screenWidth();
         return Math.max(this.screenX(), this.screenX() + width);
     };
 
-    Sprite_Picture.prototype.maxY = function () {
+    Sprite_Picture.prototype.maxY = function() {
         var height = this.screenHeight();
         return Math.max(this.screenY(), this.screenY() + height);
     };
@@ -346,18 +346,18 @@
         var rx = this.x + Math.floor(dx * cos + dy * -sin);
         var ry = this.y + Math.floor(dx * sin + dy * cos);
         return (rx >= this.minX() && rx <= this.maxX() &&
-            ry >= this.minY() && ry <= this.maxY());
+                ry >= this.minY() && ry <= this.maxY());
     };
 
-    Sprite_Picture.prototype.isTouchable = function () {
+    Sprite_Picture.prototype.isTouchable = function() {
         return this.bitmap != null && this.visible && this.scale.x !== 0 && this.scale.y !== 0;
     };
 
-    Sprite_Picture.prototype.isTriggered = function () {
+    Sprite_Picture.prototype.isTriggered = function() {
         return this.isTouchEvent(TouchInput.isTriggered);
     };
 
-    Sprite_Picture.prototype.isTouchEvent = function (triggerFunc) {
+    Sprite_Picture.prototype.isTouchEvent = function(triggerFunc) {
         return this.isTouchable() && triggerFunc.call(TouchInput) && this.isTouchPosInRect();
     };
 })();

@@ -173,22 +173,22 @@ Imported.TMMoveEx = true;
 var TMPlugin = TMPlugin || {};
 if (!TMPlugin.EventBase) {
   TMPlugin.EventBase = true;
-  (function () {
+  (function() {
 
     var _Game_Event_setupPage = Game_Event.prototype.setupPage;
-    Game_Event.prototype.setupPage = function () {
+    Game_Event.prototype.setupPage = function() {
       _Game_Event_setupPage.call(this);
       if (this._pageIndex >= 0) this.loadCommentParams();
     };
 
-    Game_Event.prototype.loadCommentParams = function () {
+    Game_Event.prototype.loadCommentParams = function() {
       this._commentParams = {};
       var re = /<([^<>:]+)(:?)([^>]*)>/g;
       var list = this.list();
       for (var i = 0; i < list.length; i++) {
         var command = list[i];
         if (command && command.code == 108 || command.code == 408) {
-          for (; ;) {
+          for (;;) {
             var match = re.exec(command.parameters[0]);
             if (match) {
               this._commentParams[match[1]] = match[2] === ':' ? match[3] : true;
@@ -202,14 +202,14 @@ if (!TMPlugin.EventBase) {
       }
     };
 
-    Game_Event.prototype.loadTagParam = function (paramName) {
+    Game_Event.prototype.loadTagParam = function(paramName) {
       return this._commentParams[paramName] || this.event().meta[paramName];
     };
 
   })();
 } // TMPlugin.EventBase
 
-(function () {
+(function() {
 
   var parameters = PluginManager.parameters('TMMoveEx');
   var passableRegionId = +(parameters['passableRegionId'] || 251);
@@ -234,14 +234,14 @@ if (!TMPlugin.EventBase) {
   //
 
   var _Game_Map_checkPassage = Game_Map.prototype.checkPassage;
-  Game_Map.prototype.checkPassage = function (x, y, bit) {
+  Game_Map.prototype.checkPassage = function(x, y, bit) {
     var regionId = this.regionId(x, y);
     if (regionId === passableRegionId) return true;
     if (regionId === dontPassRegionId) return false;
     return _Game_Map_checkPassage.call(this, x, y, bit);
   };
 
-  Game_Map.prototype.regionPoints = function (regionId) {
+  Game_Map.prototype.regionPoints = function(regionId) {
     var result = [];
     for (var x = 0; x < this.width(); x++) {
       for (var y = 0; y < this.height(); y++) {
@@ -252,8 +252,8 @@ if (!TMPlugin.EventBase) {
     }
     return result;
   };
-
-  Game_Map.prototype.regionPointRandom = function (regionId) {
+  
+  Game_Map.prototype.regionPointRandom = function(regionId) {
     var regionPoints = this.regionPoints(regionId);
     if (regionPoints.length === 0) return null;
     return regionPoints[Math.randomInt(regionPoints.length)];
@@ -264,7 +264,7 @@ if (!TMPlugin.EventBase) {
   //
 
   var _Game_Player_moveStraight = Game_Player.prototype.moveStraight;
-  Game_Player.prototype.moveStraight = function (d) {
+  Game_Player.prototype.moveStraight = function(d) {
     _Game_Player_moveStraight.call(this, d);
     if (!this.isMovementSucceeded()) {
       var x2 = $gameMap.roundXWithDirection(this.x, d);
@@ -275,7 +275,7 @@ if (!TMPlugin.EventBase) {
       if (!$gameMap.isPassable(this.x, this.y, d) || !$gameMap.isPassable(x2, y2, d2)) {
         this._knockWallCount = this._knockWallCount == null ? 0 : this._knockWallCount;
         if (this._knockWallCount + knockWallInterval <= Graphics.frameCount ||
-          this._lastKnockWallDir !== d) {
+            this._lastKnockWallDir !== d) {
           if (d === 4) {
             knockWallSe.pan = -knockWallPan;
           } else if (d === 6) {
@@ -292,7 +292,7 @@ if (!TMPlugin.EventBase) {
   };
 
   var _Game_Player_moveByInput = Game_Player.prototype.moveByInput;
-  Game_Player.prototype.moveByInput = function () {
+  Game_Player.prototype.moveByInput = function() {
     if (!this.isMoving() && this.canMove()) {
       var direction = this.getInputDirection();
       if (Input.isPressed('turn') && direction > 0) {
@@ -316,7 +316,7 @@ if (!TMPlugin.EventBase) {
   //
 
   var _Game_Event_isMapPassable = Game_Event.prototype.isMapPassable;
-  Game_Event.prototype.isMapPassable = function (x, y, d) {
+  Game_Event.prototype.isMapPassable = function(x, y, d) {
     var movableRegion = this.loadTagParam('movableRegion');
     if (movableRegion) {
       var x2 = $gameMap.roundXWithDirection(x, d);
@@ -329,9 +329,9 @@ if (!TMPlugin.EventBase) {
   };
 
   var _Game_Event_moveStraight = Game_Event.prototype.moveStraight;
-  Game_Event.prototype.moveStraight = function (d) {
+  Game_Event.prototype.moveStraight = function(d) {
     _Game_Event_moveStraight.call(this, d);
-    ['A', 'B', 'C', 'D'].forEach(function (code) {
+    ['A', 'B', 'C', 'D'].forEach (function(code) {
       var regionId = this.loadTagParam('stepSwitchOn' + code);
       if (regionId && this.regionId() === +regionId) {
         var key = [$gameMap.mapId(), this.eventId(), code];
@@ -351,7 +351,7 @@ if (!TMPlugin.EventBase) {
   //
 
   var _Game_Interpreter_pluginCommand = Game_Interpreter.prototype.pluginCommand;
-  Game_Interpreter.prototype.pluginCommand = function (command, args) {
+  Game_Interpreter.prototype.pluginCommand = function(command, args) {
     _Game_Interpreter_pluginCommand.call(this, command, args);
     if (command === 'regionLocate') {
       var character = this.character(+args[0]);
@@ -361,5 +361,5 @@ if (!TMPlugin.EventBase) {
       }
     }
   };
-
+  
 })();

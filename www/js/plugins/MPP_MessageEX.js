@@ -863,7 +863,7 @@
     'use strict';
 
     const pluginName = 'MPP_MessageEX';
-
+    
     // Plugin Parameters
     const parameters = PluginManager.parameters(pluginName);
     const paramReplace = (key, value) => {
@@ -890,7 +890,7 @@
     const param_DefaultRubyColor = 'rgb(%1)'.format(parameters['Default Ruby Color'] || '255,255,255');
     const param_DefaultRubySize = Number(parameters['Default Ruby Size'] || 14);
     const param_DefaultRubyOutline = Number(parameters['Default Ruby Outline']);
-
+    
     // Dealing with other plugins
     const __base = (obj, prop) => {
         if (obj.hasOwnProperty(prop)) {
@@ -903,48 +903,48 @@
     const _importedPlugin = (...names) => {
         return names.some(name => PluginManager._scripts.includes(name));
     };
-
+    
     // MPP_Patch.js
     let param_Patch6 = false;
     if (_importedPlugin('MPP_Patch')) {
         const patchParameters = PluginManager.parameters('MPP_Patch');
         param_Patch6 = patchParameters['Patch6 enabled?'] === 'true';
     }
-
+    
     // RPG Maker Param
-    const _textColor = function (index) {
+    const _textColor = function(index) {
         return Utils.RPGMAKER_NAME === 'MV'
-            ? this.textColor(index)
-            : ColorManager.textColor(index);
+                    ? this.textColor(index)
+                    : ColorManager.textColor(index);
     };
-
+    
     //-----------------------------------------------------------------------------
     // Bitmap
-
+    
     if (Utils.RPGMAKER_NAME === 'MV') {
-
-        Bitmap.prototype.destroy = function () {
+        
+        Bitmap.prototype.destroy = function() {
             if (this._baseTexture) {
                 this._baseTexture.destroy();
                 this.__baseTexture = null;
             }
             this._destroyCanvas();
         };
-
-        Bitmap.prototype._destroyCanvas = function () {
+        
+        Bitmap.prototype._destroyCanvas = function() {
             if (this._canvas) {
                 this._canvas.width = 0;
                 this._canvas.height = 0;
                 this.__canvas = null;
             }
         };
-
+        
     }
 
     //-------------------------------------------------------------------------
     // WebAudio
 
-    WebAudio.prototype.realVolume = function () {
+    WebAudio.prototype.realVolume = function() {
         return this._gainNode ? this._gainNode.gain.value : 0;
     };
 
@@ -952,17 +952,17 @@
     // Html5Audio
 
     if (Utils.RPGMAKER_NAME === 'MV') {
-
-        Html5Audio.realVolume = function () {
+        
+        Html5Audio.realVolume = function() {
             return this._audioElement ? this._audioElement.volume : 0;
         };
-
+        
     }
 
     //-------------------------------------------------------------------------
     // AudioManager
 
-    AudioManager.isBgmFadeOuting = function () {
+    AudioManager.isBgmFadeOuting = function() {
         return (
             this._bgmBuffer &&
             !this._currentBgm &&
@@ -970,7 +970,7 @@
         );
     };
 
-    AudioManager.isBgsFadeOuting = function () {
+    AudioManager.isBgsFadeOuting = function() {
         return (
             this._bgsBuffer &&
             !this._currentBgs &&
@@ -978,24 +978,24 @@
         );
     };
 
-    AudioManager.isMePlaying = function () {
+    AudioManager.isMePlaying = function() {
         return this._meBuffer && this._meBuffer.isPlaying();
     };
 
     //-------------------------------------------------------------------------
     // PluginManager
-
+    
     PluginManager._commands = PluginManager._commands || {};
-
+    
     if (!PluginManager.registerCommand) {
-        PluginManager.registerCommand = function (pluginName, commandName, func) {
+        PluginManager.registerCommand = function(pluginName, commandName, func) {
             const key = pluginName + ":" + commandName;
             this._commands[key] = func;
         };
     }
 
     if (!PluginManager.callCommand) {
-        PluginManager.callCommand = function (self, pluginName, commandName, args) {
+        PluginManager.callCommand = function(self, pluginName, commandName, args) {
             const key = pluginName + ":" + commandName;
             const func = this._commands[key];
             if (typeof func === "function") {
@@ -1016,36 +1016,36 @@
         $gameMessage.setEffectSkip(args.boolean === 'true');
     });
 
-    PluginManager.mppValue = function (value) {
+    PluginManager.mppValue = function(value) {
         const match = /^V\[(\d+)\]$/i.exec(value);
         return match ? $gameVariables.value(+match[1]) : +value;
     };
-
+    
     //-----------------------------------------------------------------------------
     // Game_Character
 
-    Game_Character.prototype.isMoveRouteForcingNr = function () {
+    Game_Character.prototype.isMoveRouteForcingNr = function() {
         return this.isMoveRouteForcing() && !this._moveRoute.repeat;
     };
 
     //-------------------------------------------------------------------------
     // Game_Map
 
-    Game_Map.prototype.isAnyMoveRouteForcingNr = function () {
+    Game_Map.prototype.isAnyMoveRouteForcingNr = function() {
         return (
             this.events().some(e => e.isMoveRouteForcingNr()) ||
             $gamePlayer.isMoveRouteForcingNr()
         );
     };
 
-    Game_Map.prototype.isAnyAnimationPlaying = function () {
+    Game_Map.prototype.isAnyAnimationPlaying = function() {
         return (
             this.events().some(e => e.isAnimationPlaying()) ||
             $gamePlayer.isAnimationPlaying()
         );
     };
 
-    Game_Map.prototype.isAnyBalloonPlaying = function () {
+    Game_Map.prototype.isAnyBalloonPlaying = function() {
         return (
             this.events().some(e => e.isBalloonPlaying()) ||
             $gamePlayer.isBalloonPlaying()
@@ -1055,38 +1055,38 @@
     //-------------------------------------------------------------------------
     // Game_Screen
 
-    Game_Screen.prototype.isAnyPictureMoving = function () {
+    Game_Screen.prototype.isAnyPictureMoving = function() {
         return this._pictures.some(p => p && p.isMoving());
     };
 
-    Game_Screen.prototype.isAnyPictureTinting = function () {
+    Game_Screen.prototype.isAnyPictureTinting = function() {
         return this._pictures.some(p => p && p.isTinting());
     };
 
-    Game_Screen.prototype.isTinting = function () {
+    Game_Screen.prototype.isTinting = function() {
         return this._toneDuration > 0;
     };
 
-    Game_Screen.prototype.isFlashing = function () {
+    Game_Screen.prototype.isFlashing = function() {
         return this._flashDuration > 0;
     };
 
-    Game_Screen.prototype.isShaking = function () {
+    Game_Screen.prototype.isShaking = function() {
         return this._shakeDuration > 0;
     };
 
-    Game_Screen.prototype.isWeatherChanging = function () {
+    Game_Screen.prototype.isWeatherChanging = function() {
         return this._weatherDuration > 0;
     };
 
     //-------------------------------------------------------------------------
     // Game_Picture
 
-    Game_Picture.prototype.isMoving = function () {
+    Game_Picture.prototype.isMoving = function() {
         return this._duration > 0;
     };
 
-    Game_Picture.prototype.isTinting = function () {
+    Game_Picture.prototype.isTinting = function() {
         return this._toneDuration > 0;
     };
 
@@ -1094,7 +1094,7 @@
     // Game_Message
 
     const _Game_Message_initialize = Game_Message.prototype.initialize;
-    Game_Message.prototype.initialize = function () {
+    Game_Message.prototype.initialize = function() {
         _Game_Message_initialize.apply(this, arguments);
         this._messageRow = param_DefaultMessageRow;
         this._fadeOutType = param_DefaultFadeOutType;
@@ -1102,49 +1102,49 @@
     };
 
     const _Game_Message_clear = Game_Message.prototype.clear;
-    Game_Message.prototype.clear = function () {
+    Game_Message.prototype.clear = function() {
         _Game_Message_clear.apply(this, arguments);
         this._sceneEffectSkip = false;
     };
 
-    Game_Message.prototype.clearSceneEffectSkip = function () {
+    Game_Message.prototype.clearSceneEffectSkip = function() {
         this._sceneEffectSkip = false;
     };
 
-    Game_Message.prototype.requestSceneEffectSkip = function () {
+    Game_Message.prototype.requestSceneEffectSkip = function() {
         this._sceneEffectSkip = true;
     };
 
-    Game_Message.prototype.messageRow = function () {
+    Game_Message.prototype.messageRow = function() {
         return this._messageRow;
     };
 
-    Game_Message.prototype.fadeOutType = function () {
+    Game_Message.prototype.fadeOutType = function() {
         return this._fadeOutType;
     };
 
-    Game_Message.prototype.effectSkip = function () {
+    Game_Message.prototype.effectSkip = function() {
         return this._effectSkip;
     };
 
-    Game_Message.prototype.sceneEffectSkip = function () {
+    Game_Message.prototype.sceneEffectSkip = function() {
         return this._sceneEffectSkip;
     };
 
-    Game_Message.prototype.setMessageRow = function (row) {
+    Game_Message.prototype.setMessageRow = function(row) {
         this._messageRow = row;
     };
 
-    Game_Message.prototype.setFadeOutType = function (type) {
+    Game_Message.prototype.setFadeOutType = function(type) {
         this._fadeOutType = type;
     };
 
-    Game_Message.prototype.setEffectSkip = function (skip) {
+    Game_Message.prototype.setEffectSkip = function(skip) {
         this._effectSkip = skip;
     };
 
     const _Game_Message_isBusy = Game_Message.prototype.isBusy;
-    Game_Message.prototype.isBusy = function () {
+    Game_Message.prototype.isBusy = function() {
         return (
             _Game_Message_isBusy.apply(this, arguments) ||
             this._sceneEffectSkip
@@ -1155,9 +1155,9 @@
     // Game_Interpreter
 
     const _mzCommands = {
-        SetMesRow: { name: 'messageRow', keys: ['row'] },
-        SetMesFadeOut: { name: 'messageFadeOut', keys: ['type'] },
-        SetEffectSkip: { name: 'effectSkip', keys: ['boolean'] }
+        SetMesRow: { name:'messageRow', keys:['row'] },
+        SetMesFadeOut: { name:'messageFadeOut', keys:['type'] },
+        SetEffectSkip: { name:'effectSkip', keys:['boolean'] }
     };
     Object.assign(_mzCommands, {
         'メッセージ行数設定': _mzCommands.SetMesRow,
@@ -1166,15 +1166,15 @@
     });
 
     const _Game_Interpreter_pluginCommand = Game_Interpreter.prototype.pluginCommand;
-    Game_Interpreter.prototype.pluginCommand = function (command, args) {
+    Game_Interpreter.prototype.pluginCommand = function(command, args) {
         _Game_Interpreter_pluginCommand.apply(this, arguments);
         const params = _mzCommands[command];
         if (params) {
-            const args2 = Object.assign(...params.keys.map((k, i) => ({ [k]: args[i] })));
+            const args2 = Object.assign(...params.keys.map((k,i) => ({[k]:args[i]})));
             PluginManager.callCommand(this, pluginName, params.name, args2);
         }
     };
-
+    
     //-------------------------------------------------------------------------
     // Sprite_TextCharacter
 
@@ -1185,7 +1185,7 @@
     Sprite_TextCharacter.prototype = Object.create(Sprite.prototype);
     Sprite_TextCharacter.prototype.constructor = Sprite_TextCharacter;
 
-    Sprite_TextCharacter.prototype.initialize = function () {
+    Sprite_TextCharacter.prototype.initialize = function() {
         Sprite.prototype.initialize.call(this);
         this._rect = null;
         this._list = null;
@@ -1193,11 +1193,11 @@
         this._waitCount = 0;
     };
 
-    Sprite_TextCharacter.prototype.setCallback = function (callback) {
+    Sprite_TextCharacter.prototype.setCallback = function(callback) {
         this._drawCallback = callback;
     };
 
-    Sprite_TextCharacter.prototype.setup = function (bitmap, rect, list) {
+    Sprite_TextCharacter.prototype.setup = function(bitmap, rect, list) {
         this.bitmap = bitmap;
         this._rect = rect;
         this._list = list;
@@ -1222,42 +1222,42 @@
         this.update();
     };
 
-    Sprite_TextCharacter.prototype.initBasic = function () {
+    Sprite_TextCharacter.prototype.initBasic = function() {
         this._origin = 0;
         this._offsetX = 0;
         this._offsetY = 0;
     };
 
-    Sprite_TextCharacter.prototype.initMove = function () {
+    Sprite_TextCharacter.prototype.initMove = function() {
         this._targetX = 0;
         this._targetY = 0;
         this._moveDuration = 0;
     };
 
-    Sprite_TextCharacter.prototype.initScale = function () {
+    Sprite_TextCharacter.prototype.initScale = function() {
         this._targetScaleX = 1;
         this._targetScaleY = 1;
         this._scaleDuration = 0;
     };
 
-    Sprite_TextCharacter.prototype.initOpacity = function () {
+    Sprite_TextCharacter.prototype.initOpacity = function() {
         this._targetOpacity = 255;
         this._opacityDuration = 0;
     };
 
-    Sprite_TextCharacter.prototype.initTone = function () {
+    Sprite_TextCharacter.prototype.initTone = function() {
         this._tone = null;
         this._toneTarget = null;
         this._toneDuration = 0;
     };
 
-    Sprite_TextCharacter.prototype.initRotation = function () {
+    Sprite_TextCharacter.prototype.initRotation = function() {
         this._angle = 0;
         this._targetAngle = 0;
         this._angleDuration = 0;
     };
 
-    Sprite_TextCharacter.prototype.initFrame = function () {
+    Sprite_TextCharacter.prototype.initFrame = function() {
         const bitmap = this._bitmap;
         if (bitmap) {
             this.setFrame(0, 0, bitmap.width, bitmap.height);
@@ -1269,11 +1269,11 @@
         this._frame2Duration = 0;
     };
 
-    Sprite_TextCharacter.prototype.isPlaying = function () {
+    Sprite_TextCharacter.prototype.isPlaying = function() {
         return !!this._list;
     };
 
-    Sprite_TextCharacter.prototype.isEffecting = function () {
+    Sprite_TextCharacter.prototype.isEffecting = function() {
         return (
             this._moveDuration > 0 ||
             this._scaleDuration > 0 ||
@@ -1284,7 +1284,7 @@
         );
     };
 
-    Sprite_TextCharacter.prototype.update = function () {
+    Sprite_TextCharacter.prototype.update = function() {
         Sprite.prototype.update.call(this);
         if (this.isPlaying() && this.updateCommand()) {
             this.updateMove();
@@ -1296,8 +1296,8 @@
         }
     };
 
-    Sprite_TextCharacter.prototype.updateCommand = function () {
-        for (; ;) {
+    Sprite_TextCharacter.prototype.updateCommand = function() {
+        for (;;) {
             if (this.updateWaitCount()) {
                 return true;
             }
@@ -1313,7 +1313,7 @@
         }
     };
 
-    Sprite_TextCharacter.prototype.updateWaitCount = function () {
+    Sprite_TextCharacter.prototype.updateWaitCount = function() {
         if (this._waitCount < 0) {
             if (this.isEffecting()) return true;
             this._waitCount = 0;
@@ -1324,7 +1324,7 @@
         return false;
     };
 
-    Sprite_TextCharacter.prototype.callMethod = function (command, args) {
+    Sprite_TextCharacter.prototype.callMethod = function(command, args) {
         switch (command) {
             case 'show':
                 this.commandShow(args);
@@ -1356,7 +1356,7 @@
         }
     };
 
-    Sprite_TextCharacter.prototype.updateMove = function () {
+    Sprite_TextCharacter.prototype.updateMove = function() {
         if (this._moveDuration > 0) {
             const d = this._moveDuration;
             this._offsetX = (this._offsetX * (d - 1) + this._targetX) / d;
@@ -1372,7 +1372,7 @@
         this.refreshAnchor();
     };
 
-    Sprite_TextCharacter.prototype.updateScale = function () {
+    Sprite_TextCharacter.prototype.updateScale = function() {
         if (this._scaleDuration > 0) {
             const d = this._scaleDuration;
             this.scale.x = (this.scale.x * (d - 1) + this._targetScaleX) / d;
@@ -1381,7 +1381,7 @@
         }
     };
 
-    Sprite_TextCharacter.prototype.updateOpacity = function () {
+    Sprite_TextCharacter.prototype.updateOpacity = function() {
         if (this._opacityDuration > 0) {
             const d = this._opacityDuration;
             this.opacity = (this.opacity * (d - 1) + this._targetOpacity) / d;
@@ -1389,7 +1389,7 @@
         }
     };
 
-    Sprite_TextCharacter.prototype.updateTone = function () {
+    Sprite_TextCharacter.prototype.updateTone = function() {
         if (this._toneDuration > 0) {
             const d = this._toneDuration;
             for (const [i, target] of this._toneTarget.entries()) {
@@ -1400,7 +1400,7 @@
         if (this._tone) this.setColorTone(this._tone);
     };
 
-    Sprite_TextCharacter.prototype.updateRotation = function () {
+    Sprite_TextCharacter.prototype.updateRotation = function() {
         if (this._angleDuration > 0) {
             const d = this._angleDuration;
             this._angle = (this._angle * (d - 1) + this._targetAngle) / d;
@@ -1409,7 +1409,7 @@
         this.rotation = this._angle * Math.PI / 180;
     };
 
-    Sprite_TextCharacter.prototype.updateFrame2 = function () {
+    Sprite_TextCharacter.prototype.updateFrame2 = function() {
         if (this._frame2Duration > 0) {
             const d = this._frame2Duration;
             for (const [i, target] of this._frame2Target.entries()) {
@@ -1421,7 +1421,7 @@
         }
     };
 
-    Sprite_TextCharacter.prototype.refreshFrame2 = function () {
+    Sprite_TextCharacter.prototype.refreshFrame2 = function() {
         const { width, height } = this.bitmap;
         const frame = this._frame2;
         const fx = Math.round(width * frame[0] / 100);
@@ -1431,28 +1431,28 @@
         this.setFrame(fx, fy, fw, fh);
     };
 
-    Sprite_TextCharacter.prototype.refreshAnchor = function () {
+    Sprite_TextCharacter.prototype.refreshAnchor = function() {
         const ox = (this._origin === 0 ? 0 : this._rect.width / 2) + 4;
         const oy = this._origin === 0 ? 0 : this._rect.height / 2;
         this.anchor.x = this.width > 0 ? ox / this.width : 0;
         this.anchor.y = this.height > 0 ? oy / this.height : 0;
     };
 
-    Sprite_TextCharacter.prototype.draw = function () {
+    Sprite_TextCharacter.prototype.draw = function() {
         if (this._drawCallback) {
             this._drawCallback(this.bitmap, this._rect);
         }
         this.delete();
     };
 
-    Sprite_TextCharacter.prototype.delete = function () {
+    Sprite_TextCharacter.prototype.delete = function() {
         this.parent.removeChild(this);
         this.bitmap.destroy();
         this.bitmap = null;
         this._list = null;
     };
 
-    Sprite_TextCharacter.prototype.commandShow = function (args) {
+    Sprite_TextCharacter.prototype.commandShow = function(args) {
         this._origin = (args[0] || 0).clamp(0, 1);
         this._offsetX = args[1] || 0;
         this._offsetY = args[2] || 0;
@@ -1467,7 +1467,7 @@
         this.initFrame();
     };
 
-    Sprite_TextCharacter.prototype.commandMove = function (args) {
+    Sprite_TextCharacter.prototype.commandMove = function(args) {
         this._targetX = args[0] || 0;
         this._targetY = args[1] || 0;
         this._moveDuration = Math.max(args[2] || 0, 0);
@@ -1477,25 +1477,25 @@
         }
     };
 
-    Sprite_TextCharacter.prototype.commandScale = function (args) {
+    Sprite_TextCharacter.prototype.commandScale = function(args) {
         this._targetScaleX = args.length > 0 ? args[0] / 100 : 1;
         this._targetScaleY = args.length > 0 ? args[1] / 100 : 1;
         this._scaleDuration = Math.max(args[2] || 0, 0);
         if (this._scaleDuration === 0) {
-            this.scale.x = this._targetScaleX;
-            this.scale.y = this._targetScaleY;
+            this.scale.x  = this._targetScaleX;
+            this.scale.y  = this._targetScaleY;
         }
     };
 
-    Sprite_TextCharacter.prototype.commandOpacity = function (args) {
+    Sprite_TextCharacter.prototype.commandOpacity = function(args) {
         this._targetOpacity = args.length > 0 ? args[0].clamp(0, 255) : 255;
         this._opacityDuration = Math.max(args[1] || 0, 0);
         if (this._opacityDuration === 0) {
-            this.opacity = this._targetOpacity;
+            this.opacity  = this._targetOpacity;
         }
     };
 
-    Sprite_TextCharacter.prototype.commandRotate = function (args) {
+    Sprite_TextCharacter.prototype.commandRotate = function(args) {
         this._targetAngle = args[0] || 0;
         this._angleDuration = Math.max(args[1] || 0, 0);
         if (this._angleDuration === 0) {
@@ -1503,7 +1503,7 @@
         }
     };
 
-    Sprite_TextCharacter.prototype.commandTone = function (args) {
+    Sprite_TextCharacter.prototype.commandTone = function(args) {
         if (!this._tone) this._tone = [0, 0, 0, 0];
         this._toneTarget = [];
         for (let i = 0; i < 4; i++) {
@@ -1516,7 +1516,7 @@
         }
     };
 
-    Sprite_TextCharacter.prototype.commandFrame = function (args) {
+    Sprite_TextCharacter.prototype.commandFrame = function(args) {
         if (!this._frame2) this._frame2 = [0, 0, 100, 100];
         this._frame2Target = [];
         this._frame2Target[0] = args.length > 0 ? args[0].clamp(0, 100) : 0;
@@ -1530,11 +1530,11 @@
         }
     };
 
-    Sprite_TextCharacter.prototype.commandWait = function (args) {
+    Sprite_TextCharacter.prototype.commandWait = function(args) {
         this._waitCount = args.length > 0 ? Math.max(args[0], 0) : -1;
     };
 
-    Sprite_TextCharacter.prototype.commandFinish = function (args) {
+    Sprite_TextCharacter.prototype.commandFinish = function(args) {
         const count = Math.max(args[0] || 0, 0);
         this.commandMove([0, 0, count]);
         this.commandScale([100, 100, count]);
@@ -1549,7 +1549,7 @@
     // Window_Message
 
     const _Window_Base_convertEscapeCharacters = Window_Base.prototype.convertEscapeCharacters;
-    Window_Base.prototype.convertEscapeCharacters = function (text) {
+    Window_Base.prototype.convertEscapeCharacters = function(text) {
         text = _Window_Base_convertEscapeCharacters.apply(this, arguments);
         text = text.replace(/\x1bSET\[(\d+)\]/gi, (_, p1) => {
             const index = Number(p1 || 0);
@@ -1562,7 +1562,7 @@
         return text;
     };
 
-    Window_Base.prototype.mppConvertItemName = function (type, icon, itemId) {
+    Window_Base.prototype.mppConvertItemName = function(type, icon, itemId) {
         let text = '';
         let item;
         switch (type.toUpperCase()) {
@@ -1588,7 +1588,7 @@
 
     //-------------------------------------------------------------------------
     // Window_Message
-
+    
     Window_Message.ANIMATIONS = [
         null,
         [ // type 1
@@ -1617,9 +1617,9 @@
             'finish 10'
         ],
     ];
-
+    
     const _Window_Message_initialize = Window_Message.prototype.initialize;
-    Window_Message.prototype.initialize = function () {
+    Window_Message.prototype.initialize = function() {
         this._messageRow = $gameMessage.messageRow();
         this._textInfo = [];
         this._rubyBitmap = new Bitmap();
@@ -1630,12 +1630,12 @@
     };
 
     const _Window_Message_destroy = __base(Window_Message.prototype, 'destroy');
-    Window_Message.prototype.destroy = function (options) {
+    Window_Message.prototype.destroy = function(options) {
         this._rubyBitmap.destroy();
         _Window_Message_destroy.apply(this, arguments);
     };
 
-    Window_Message.prototype.createCharacterContainer = function () {
+    Window_Message.prototype.createCharacterContainer = function() {
         if (Utils.RPGMAKER_NAME === 'MV') {
             this._characterContainer = new Sprite();
             this.addChild(this._characterContainer);
@@ -1644,7 +1644,7 @@
     };
 
     const _Window_Message_fittingHeight = __base(Window_Message.prototype, 'fittingHeight');
-    Window_Message.prototype.fittingHeight = function (numLines) {
+    Window_Message.prototype.fittingHeight = function(numLines) {
         let height = _Window_Message_fittingHeight.apply(this, arguments);
         if (param_AlwaysLeaveRubyHeight) {
             height += numLines * (param_DefaultRubySize - param_RubyOy);
@@ -1653,7 +1653,7 @@
     };
 
     const _Window_Message_resetFontSettings = __base(Window_Message.prototype, 'resetFontSettings');
-    Window_Message.prototype.resetFontSettings = function () {
+    Window_Message.prototype.resetFontSettings = function() {
         _Window_Message_resetFontSettings.apply(this, arguments);
         this.contents.paintOpacity = 255;
         this._paintOpacity = 255;
@@ -1665,18 +1665,18 @@
     };
 
     const _Window_Message_initMembers = Window_Message.prototype.initMembers;
-    Window_Message.prototype.initMembers = function () {
+    Window_Message.prototype.initMembers = function() {
         _Window_Message_initMembers.apply(this, arguments);
         this.clearFlagsMessageEx();
     };
 
     // overwrite mv
-    Window_Message.prototype.windowHeight = function () {
+    Window_Message.prototype.windowHeight = function() {
         return this.fittingHeight(this.numVisibleRows());
     };
 
     const _Window_Message_clearFlags = Window_Message.prototype.clearFlags;
-    Window_Message.prototype.clearFlags = function () {
+    Window_Message.prototype.clearFlags = function() {
         _Window_Message_clearFlags.apply(this, arguments);
         this._speed = param_DefaultTextSpeed;
         this._animeType = param_DefaultAnimeType;
@@ -1685,21 +1685,21 @@
         this._messageCount = 0;
     };
 
-    Window_Message.prototype.clearFlagsMessageEx = function () {
+    Window_Message.prototype.clearFlagsMessageEx = function() {
         this._auto = false;
         this._effectSkip = $gameMessage.effectSkip();
     };
 
-    Window_Message.prototype.numVisibleRows = function () {
+    Window_Message.prototype.numVisibleRows = function() {
         return this._messageRow;
     };
 
-    Window_Message.prototype.getAnimationList = function () {
+    Window_Message.prototype.getAnimationList = function() {
         return Window_Message.ANIMATIONS[this._animeType];
     };
 
-    Window_Message.prototype.getTextCharacterSprite = function () {
-        let sprite = this._characterSprites.find(sprite => !sprite.isPlaying);
+    Window_Message.prototype.getTextCharacterSprite = function() {
+        let sprite = this._characterSprites.find( sprite => !sprite.isPlaying );
         if (!sprite) {
             sprite = new Sprite_TextCharacter();
             sprite.setCallback(this.drawTextCharacter.bind(this));
@@ -1713,16 +1713,16 @@
         return sprite;
     };
 
-    Window_Message.prototype.drawTextCharacter = function (bitmap, rect) {
+    Window_Message.prototype.drawTextCharacter = function(bitmap, rect) {
         const { x, y } = rect;
         this.contents.blt(bitmap, 0, 0, bitmap.width, bitmap.height, x - 4, y);
     };
 
     const _Window_Message_flushTextState = __base(Window_Base.prototype, 'flushTextState');
-    Window_Message.prototype.flushTextState = function (textState) {
+    Window_Message.prototype.flushTextState = function(textState) {
         const list = this.getAnimationList();
         if (!textState.drawing || !list || this._showFast ||
-            this._lineShowFast) {
+                this._lineShowFast) {
             this.contents.paintOpacity = this._paintOpacity;
             _Window_Message_flushTextState.apply(this, arguments);
             this.contents.paintOpacity = 255;
@@ -1746,9 +1746,9 @@
             textState.outputHeight = y - textState.startY + height;
         }
     };
-
+    
     const _Window_Message_convertEscapeCharacters = __base(Window_Message.prototype, 'convertEscapeCharacters');
-    Window_Message.prototype.convertEscapeCharacters = function (text) {
+    Window_Message.prototype.convertEscapeCharacters = function(text) {
         text = _Window_Message_convertEscapeCharacters.apply(this, arguments);
         text = text.replace(/\x1bA(?:[^NIT]|$)/gi, () => {
             this._auto = true;
@@ -1762,12 +1762,12 @@
     };
 
     const _Window_Message_update = Window_Message.prototype.update;
-    Window_Message.prototype.update = function () {
+    Window_Message.prototype.update = function() {
         _Window_Message_update.apply(this, arguments);
         this.updateCharacterContainer();
     };
 
-    Window_Message.prototype.updateCharacterContainer = function () {
+    Window_Message.prototype.updateCharacterContainer = function() {
         if (this._characterContainer) {
             const pad = this._padding;
             this._characterContainer.move(pad, pad);
@@ -1775,13 +1775,13 @@
     };
 
     const _Window_Message_startMessage = Window_Message.prototype.startMessage;
-    Window_Message.prototype.startMessage = function () {
+    Window_Message.prototype.startMessage = function() {
         this.clearFlagsMessageEx();
         _Window_Message_startMessage.apply(this, arguments);
     };
 
     const _Window_Message_updatePlacement = Window_Message.prototype.updatePlacement;
-    Window_Message.prototype.updatePlacement = function () {
+    Window_Message.prototype.updatePlacement = function() {
         this._messageRow = $gameMessage.messageRow();
         this.height = this.windowHeight();
         _Window_Message_updatePlacement.apply(this, arguments);
@@ -1789,15 +1789,15 @@
     };
 
     const _Window_Message_terminateMessage = Window_Message.prototype.terminateMessage;
-    Window_Message.prototype.terminateMessage = function () {
+    Window_Message.prototype.terminateMessage = function() {
         if (!this.isOpen() || $gameMessage.fadeOutType() === 0) {
             this.terminateMessageEx();
         } else {
             this._fadeOutType = $gameMessage.fadeOutType();
         }
     };
-
-    Window_Message.prototype.terminateMessageEx = function () {
+    
+    Window_Message.prototype.terminateMessageEx = function() {
         _Window_Message_terminateMessage.call(this);
         if (this._effectSkip && param_SkipEffectsTiming === 'end of text') {
             $gameMessage.requestSceneEffectSkip();
@@ -1805,9 +1805,9 @@
     };
 
     const _Window_Message_updateWait = Window_Message.prototype.updateWait;
-    Window_Message.prototype.updateWait = function () {
+    Window_Message.prototype.updateWait = function() {
         if (_Window_Message_updateWait.apply(this, arguments) ||
-            this.updateFadeOut()) {
+                this.updateFadeOut()) {
             return true;
         } else if (this._waitEffect) {
             if (param_Patch6) this.updateShowFast();
@@ -1818,7 +1818,7 @@
     };
 
     const _Window_Message_updateMessage = Window_Message.prototype.updateMessage;
-    Window_Message.prototype.updateMessage = function () {
+    Window_Message.prototype.updateMessage = function() {
         if (this._textState) {
             this.updateShowFast();
             this._messageCount += this._speed;
@@ -1834,7 +1834,7 @@
         return this._characterSprites.some(sprite => sprite.isPlaying());
     };
 
-    Window_Message.prototype.updateFadeOut = function () {
+    Window_Message.prototype.updateFadeOut = function() {
         if (this._fadeOutType > 0) {
             let finish = true;
             switch (this._fadeOutType) {
@@ -1857,7 +1857,7 @@
     };
 
     const _Window_Message_areSettingsChanged = Window_Message.prototype.areSettingsChanged;
-    Window_Message.prototype.areSettingsChanged = function () {
+    Window_Message.prototype.areSettingsChanged = function() {
         return (
             _Window_Message_areSettingsChanged.apply(this, arguments) ||
             this._messageRow !== $gameMessage.messageRow()
@@ -1865,7 +1865,7 @@
     };
 
     const _Window_Message_updateShowFast = Window_Message.prototype.updateShowFast;
-    Window_Message.prototype.updateShowFast = function () {
+    Window_Message.prototype.updateShowFast = function() {
         const lastShowFast = this._showFast;
         if (!this._auto) _Window_Message_updateShowFast.apply(this, arguments);
         if (!lastShowFast && this._showFast) {
@@ -1879,7 +1879,7 @@
     };
 
     const _Window_Message_newPage = Window_Message.prototype.newPage;
-    Window_Message.prototype.newPage = function (textState) {
+    Window_Message.prototype.newPage = function(textState) {
         for (const item of this._characterSprites.clone()) {
             if (item.isPlaying()) item.delete();
         }
@@ -1891,26 +1891,26 @@
         this._lastBottomY = textState.y + textState.height;
     };
 
-    Window_Message.prototype.calcRubyHeight = function (textState) {
+    Window_Message.prototype.calcRubyHeight = function(textState) {
         const lines = textState.text.slice(textState.index).split('\n');
         const rubyHeight = this.maxRubySizeInLine(lines[0]);
         return rubyHeight === 0 ? 0 : Math.max(rubyHeight - param_RubyOy, 4);
     };
 
-    Window_Message.prototype.maxRubySizeInLine = function (line) {
+    Window_Message.prototype.maxRubySizeInLine = function(line) {
         const rubySize = param_DefaultRubySize;
         const regExp = /\x1bRB\[.+?\]/i;
         return param_AlwaysLeaveRubyHeight || regExp.test(line) ? rubySize : 0;
     };
-
+    
     const _Window_Message_processCharacter = __base(Window_Message.prototype, 'processCharacter');
-    Window_Message.prototype.processCharacter = function (textState) {
+    Window_Message.prototype.processCharacter = function(textState) {
         _Window_Message_processCharacter.apply(this, arguments);
         this._lastBottomY = textState.y + textState.height;
     };
 
     const _Window_Message_processNewLine = Window_Message.prototype.processNewLine;
-    Window_Message.prototype.processNewLine = function (textState) {
+    Window_Message.prototype.processNewLine = function(textState) {
         if (this.isEndOfText(textState) && textState.x === textState.left) {
             return;
         }
@@ -1923,7 +1923,7 @@
     };
 
     const _Window_Message_processEscapeCharacter = Window_Message.prototype.processEscapeCharacter;
-    Window_Message.prototype.processEscapeCharacter = function (code, textState) {
+    Window_Message.prototype.processEscapeCharacter = function(code, textState) {
         switch (code) {
             case 'SP':
                 this._speed = this.obtainEscapeParam(textState);
@@ -1988,14 +1988,14 @@
         }
     };
 
-    Window_Message.prototype.waitForEffect = function () {
+    Window_Message.prototype.waitForEffect = function() {
         if (this.isEffectingEx(param_WaitEffects)) {
             this._waitEffect = true;
             this._waitCount = 1;
         }
     };
 
-    Window_Message.prototype.obtainEscapeParam2 = function (textState) {
+    Window_Message.prototype.obtainEscapeParam2 = function(textState) {
         const arr = /^\[-?\d+\]/.exec(textState.text.slice(textState.index));
         if (arr) {
             textState.index += arr[0].length;
@@ -2004,7 +2004,7 @@
         return '';
     };
 
-    Window_Message.prototype.obtainEscapeTexts = function (textState) {
+    Window_Message.prototype.obtainEscapeTexts = function(textState) {
         const arr = /^\[(.+?)\]/.exec(textState.text.slice(textState.index));
         if (arr) {
             textState.index += arr[0].length;
@@ -2013,7 +2013,7 @@
         return [];
     };
 
-    Window_Message.prototype.obtainEscapeColor = function (textState, defaultColor) {
+    Window_Message.prototype.obtainEscapeColor = function(textState, defaultColor) {
         const arr = /^\[([\d\s,\.]+)\]/.exec(textState.text.slice(textState.index));
         if (arr) {
             textState.index += arr[0].length;
@@ -2021,8 +2021,8 @@
                 case 1:
                     const index = Number(arr[1]);
                     return index === 0
-                        ? defaultColor || _textColor.call(this, 0)
-                        : _textColor.call(this, index);
+                            ? defaultColor || _textColor.call(this, 0)
+                            : _textColor.call(this, index);
                 case 3:
                     return 'rgb(%1)'.format(arr[1]);
                 case 4:
@@ -2032,63 +2032,63 @@
         return '';
     };
 
-    Window_Message.prototype.defaultTextInfo = function () {
+    Window_Message.prototype.defaultTextInfo = function() {
         const info = param_TextInformations;
-        if (info['Text Speed']) this._speed = param_DefaultTextSpeed;
-        if (info['Anime Type']) this._animeType = param_DefaultAnimeType;
-        if (info['Text Color']) this.resetTextColor();
-        if (info['Text Size']) this.contents.fontSize = this.standardFontSize();
-        if (info['Text Opacity']) this._paintOpacity = 255;
+        if (info['Text Speed'])    this._speed = param_DefaultTextSpeed;
+        if (info['Anime Type'])    this._animeType = param_DefaultAnimeType;
+        if (info['Text Color'])    this.resetTextColor();
+        if (info['Text Size'])     this.contents.fontSize = this.standardFontSize();
+        if (info['Text Opacity'])  this._paintOpacity = 255;
         if (info['Outline Color']) this.contents.outlineColor = 'rgba(0, 0, 0, 0.5)';
         if (info['Outline Width']) this.contents.outlineWidth = 4;
-        if (info['Ruby Color']) this._rubyBitmap.textColor = param_DefaultRubyColor;
+        if (info['Ruby Color'])    this._rubyBitmap.textColor = param_DefaultRubyColor;
     };
 
-    Window_Message.prototype.saveTextInfo = function () {
+    Window_Message.prototype.saveTextInfo = function() {
         const info = param_TextInformations;
-        if (info['Text Speed']) this._textInfo[0] = this._speed;
-        if (info['Anime Type']) this._textInfo[1] = this._animeType;
-        if (info['Text Color']) this._textInfo[2] = this.contents.textColor;
-        if (info['Text Size']) this._textInfo[3] = this.contents.fontSize;
-        if (info['Text Opacity']) this._textInfo[4] = this._paintOpacity;
+        if (info['Text Speed'])    this._textInfo[0] = this._speed;
+        if (info['Anime Type'])    this._textInfo[1] = this._animeType;
+        if (info['Text Color'])    this._textInfo[2] = this.contents.textColor;
+        if (info['Text Size'])     this._textInfo[3] = this.contents.fontSize;
+        if (info['Text Opacity'])  this._textInfo[4] = this._paintOpacity;
         if (info['Outline Color']) this._textInfo[5] = this.contents.outlineColor;
         if (info['Outline Width']) this._textInfo[6] = this.contents.outlineWidth;
-        if (info['Ruby Color']) this._textInfo[7] = this._rubyBitmap.textColor;
+        if (info['Ruby Color'])    this._textInfo[7] = this._rubyBitmap.textColor;
     };
 
-    Window_Message.prototype.loadTextInfo = function () {
+    Window_Message.prototype.loadTextInfo = function() {
         if (this._textInfo.length === 0) return;
         const info = param_TextInformations;
-        if (info['Text Speed']) this._speed = this._textInfo[0];
-        if (info['Anime Type']) this._animeType = this._textInfo[1];
-        if (info['Text Color']) this.contents.textColor = this._textInfo[2];
-        if (info['Text Size']) this.contents.fontSize = this._textInfo[3];
-        if (info['Text Opacity']) this._paintOpacity = this._textInfo[4];
+        if (info['Text Speed'])    this._speed = this._textInfo[0];
+        if (info['Anime Type'])    this._animeType = this._textInfo[1];
+        if (info['Text Color'])    this.contents.textColor = this._textInfo[2];
+        if (info['Text Size'])     this.contents.fontSize = this._textInfo[3];
+        if (info['Text Opacity'])  this._paintOpacity = this._textInfo[4];
         if (info['Outline Color']) this.contents.outlineColor = this._textInfo[5];
         if (info['Outline Width']) this.contents.outlineWidth = this._textInfo[6];
-        if (info['Ruby Color']) this._rubyBitmap.textColor = this._textInfo[7];
+        if (info['Ruby Color'])    this._rubyBitmap.textColor = this._textInfo[7];
     };
 
-    Window_Message.prototype.isEffectingEx = function (info) {
-        return (
-            (info['Scroll Map'] && $gameMap.isScrolling()) ||
+    Window_Message.prototype.isEffectingEx = function(info) {
+        return  (
+            (info['Scroll Map']         && $gameMap.isScrolling()) ||
             (info['Set Movement Route'] && $gameMap.isAnyMoveRouteForcingNr()) ||
-            (info['Show Animation'] && $gameMap.isAnyAnimationPlaying()) ||
-            (info['Show Balloon Icon'] && $gameMap.isAnyBalloonPlaying()) ||
-            (info['Move Picture'] && $gameScreen.isAnyPictureMoving()) ||
-            (info['Tint Picture'] && $gameScreen.isAnyPictureTinting()) ||
-            (info['Tint Screen'] && $gameScreen.isTinting()) ||
-            (info['Flash Screen'] && $gameScreen.isFlashing()) ||
-            (info['Shake Screen'] && $gameScreen.isShaking()) ||
+            (info['Show Animation']     && $gameMap.isAnyAnimationPlaying()) ||
+            (info['Show Balloon Icon']  && $gameMap.isAnyBalloonPlaying()) ||
+            (info['Move Picture']       && $gameScreen.isAnyPictureMoving()) ||
+            (info['Tint Picture']       && $gameScreen.isAnyPictureTinting()) ||
+            (info['Tint Screen']        && $gameScreen.isTinting()) ||
+            (info['Flash Screen']       && $gameScreen.isFlashing()) ||
+            (info['Shake Screen']       && $gameScreen.isShaking()) ||
             (info['Set Weather Effect'] && $gameScreen.isWeatherChanging()) ||
-            (info['Fadeout BGM'] && AudioManager.isBgmFadeOuting()) ||
-            (info['Fadeout BGS'] && AudioManager.isBgsFadeOuting()) ||
-            (info['Play ME'] && AudioManager.isMePlaying())
+            (info['Fadeout BGM']        && AudioManager.isBgmFadeOuting()) ||
+            (info['Fadeout BGS']        && AudioManager.isBgsFadeOuting()) ||
+            (info['Play ME']            && AudioManager.isMePlaying())
         );
     };
 
     const _Window_Message_processNormalCharacter = __base(Window_Message.prototype, 'processNormalCharacter');
-    Window_Message.prototype.processNormalCharacter = function (textState) {
+    Window_Message.prototype.processNormalCharacter = function(textState) {
         const list = this.getAnimationList();
         if (!list || this._showFast || this._lineShowFast) {
             this.contents.paintOpacity = this._paintOpacity;
@@ -2107,7 +2107,7 @@
         }
     };
 
-    Window_Message.prototype.processDrawIcon = function (iconIndex, textState) {
+    Window_Message.prototype.processDrawIcon = function(iconIndex, textState) {
         const pw = Window_Base._iconWidth || ImageManager.iconWidth;
         const ph = Window_Base._iconHeight || ImageManager.iconHeight;
         const { x, y, height } = textState;
@@ -2133,7 +2133,7 @@
         textState.x += width;
     };
 
-    Window_Message.prototype.processGroupCharacter = function (textState, texts) {
+    Window_Message.prototype.processGroupCharacter = function(textState, texts) {
         const c = texts[0];
         const { x, y, height } = textState;
         const width = this.textWidth(c);
@@ -2154,7 +2154,7 @@
         textState.x += width;
     };
 
-    Window_Message.prototype.processRubyCharacter = function (textState, texts) {
+    Window_Message.prototype.processRubyCharacter = function(textState, texts) {
         const c = texts[0];
         const { x, y, height } = textState;
         const cw = this.textWidth(c);
@@ -2191,7 +2191,7 @@
         textState.x += width;
     };
 
-    Window_Message.prototype.createCharacterBitmap = function (width, height) {
+    Window_Message.prototype.createCharacterBitmap = function(width, height) {
         const bitmap = new Bitmap(width, height);
         bitmap.fontFace = this.contents.fontFace;
         bitmap.fontSize = this.contents.fontSize;
@@ -2203,14 +2203,14 @@
     };
 
     const _Window_Message_calcTextHeight = Window_Message.prototype.calcTextHeight;
-    Window_Message.prototype.calcTextHeight = function (textState, all) {
+    Window_Message.prototype.calcTextHeight = function(textState, all) {
         if (Utils.RPGMAKER_NAME === 'MZ') {
             return _Window_Message_calcTextHeight.apply(this, arguments);
         }
         const lines = textState.text.slice(textState.index).split('\n');
         const regExp = /\x1bFS\[(\d+)\]/gi;
         let maxFontSize = this.contents.fontSize;
-        for (; ;) {
+        for (;;) {
             const array = regExp.exec(lines[0]);
             if (array) {
                 const fontSize = Number(array[1]);
@@ -2229,7 +2229,7 @@
     // Scene_Map
 
     const _Scene_Map_updateMainMultiply = Scene_Map.prototype.updateMainMultiply;
-    Scene_Map.prototype.updateMainMultiply = function () {
+    Scene_Map.prototype.updateMainMultiply = function() {
         _Scene_Map_updateMainMultiply.apply(this, arguments);
         if ($gameMessage.sceneEffectSkip()) {
             for (let i = 1; i < 16; i++) {

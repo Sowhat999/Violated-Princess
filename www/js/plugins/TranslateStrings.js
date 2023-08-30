@@ -75,7 +75,7 @@ function GameStrings() {
     Lang.dbNameList = JSON.parse(Lang.Param["言語データベース名"]);
     Lang.useCommonId = 0;
     for (var i = 0; i < Lang.dbNameList.length; i++) {
-        Lang.dbNameList[i] = Lang.dbNameList[i] + ".json";
+        Lang.dbNameList[i] = Lang.dbNameList[i] + ".json"; 
     }
     // 言語設定を取得
     let lang = (window.navigator.languages && window.navigator.languages[0]) ||
@@ -158,7 +158,7 @@ function GameStrings() {
             }
             if (messages != "") {
                 // 後方改行削除
-                messages = messages.replace(/\n$/g, "");
+                messages = messages.replace(/\n$/g,"");
                 // 一行ずつではなく、コマンド一つの文章と、言語jsonを比較する
                 // 文章そのものをトリガーにすることによって、仕組みをシンプルにする
                 // ただし同一イベント内でセリフが被ると、上のセリフが優先される
@@ -282,7 +282,7 @@ function GameStrings() {
     const _Scene_Boot_prototype_start = Scene_Boot.prototype.start;
     Scene_Boot.prototype.start = function () {
         _Scene_Boot_prototype_start.call(this);
-        if (!Lang.reflectSentence) return;
+        if(!Lang.reflectSentence) return;
         $gameCommonText._commonIdsHasSerif = [];
         for (let i = 1; i < $dataCommonEvents.length; i++) {
             let data = $dataCommonEvents[i];
@@ -318,7 +318,7 @@ function GameStrings() {
     //-----------------------------------------------------------------------------
     const _Scene_Boot_create = Scene_Boot.prototype.create;
     Scene_Boot.prototype.create = function () {
-        if (Lang.reflectSentence) {
+        if(Lang.reflectSentence){
             DataManager.loadMapText();
             DataManager.loadCommonText();
         }
@@ -334,7 +334,7 @@ function GameStrings() {
     };
     DataManager.isMapLoaded = function () {
         this.checkError();
-        if (!Lang.reflectSentence) {
+        if(!Lang.reflectSentence){
             return !!$dataMap;
         }
         return !!$dataMap && !!$gameMapText && !!$gameCommonText;

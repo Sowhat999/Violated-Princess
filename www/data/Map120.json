@@ -1,4 +1,4 @@
-{
+﻿{
     "autoplayBgm": true,
     "autoplayBgs": false,
     "battleback1Name": "Grassland",
@@ -17212,7 +17212,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\n<セレナ>まだゴブリンが残っている。"
+                                "There are still goblins remaining."
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -17432,7 +17439,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>情報によるとこの辺りとの事だが…いるな。"
+                                "According to the information, it seems to be around"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "this area... and there it is."
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -17456,21 +17477,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "道なりに進んで倒して行くか。"
+                                "Should I proceed straight ahead and defeat them as"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "音拳シークレフを上手く使おう。"
+                                "I go? Let's make good use of the Sonic Fist Secret"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "Technique."
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -17781,7 +17809,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>依頼を終えるまで戻るつもりはない！"
+                                "I have no intention of returning until the job is"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "done!"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -17999,7 +18041,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>依頼を終えるまで戻るつもりはない！"
+                                "I have no intention of returning until the job is"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "done!"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -18217,7 +18273,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>依頼を終えるまで戻るつもりはない！"
+                                "I have no intention of returning until the job is"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "done!"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n< Serena >"
                             ]
                         },
                         {

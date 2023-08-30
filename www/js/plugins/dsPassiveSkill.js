@@ -387,7 +387,7 @@ Imported.dsPassiveSkill = true;
 (function (exports) {
 	'use strict';
 
-	exports.Param = (function () {
+	exports.Param = (function() {
 		var ret = {};
 		var parameters = PluginManager.parameters('dsPassiveSkill');
 		ret.ShowBattle = Boolean(parameters['Show Battle'] === 'true' || false);
@@ -397,86 +397,106 @@ Imported.dsPassiveSkill = true;
 
 	//--------------------------------------------------------------------------
 	/** Utility */
-	function Utility() { }
+	function Utility() {}
 
-	Utility.calcParamBoost = function (baseParam, metaData) {
+	Utility.calcParamBoost = function(baseParam, metaData)
+	{
 		var ret = 0;
 		var re = /([-]?\d+)(%?)/i;
 		var match = re.exec(metaData);
-		if (match) {
-			if (match[2] === '%') {
+		if ( match )
+		{
+			if ( match[2] === '%' )
+			{
 				var rate = Number(match[1]) * 0.01;
 				ret = Math.floor(baseParam * rate);
 			}
-			else {
+			else
+			{
 				ret = Number(match[1]);
 			}
 		}
 		return ret;
 	};
 
-	Utility.calcXParamBoost = function (metaData) {
+	Utility.calcXParamBoost = function(metaData)
+	{
 		var ret = 0;
 		var re = /([-]?\d+)/i;
 		var match = re.exec(metaData);
-		if (match) {
+		if ( match )
+		{
 			ret = Number(match[1]) * 0.01;
 		}
 		return ret;
 	};
 
-	Utility.calcSParamBoost = function (metaData) {
+	Utility.calcSParamBoost = function(metaData)
+	{
 		var ret = 0;
 		var re = /([-]?\d+)/i;
 		var match = re.exec(metaData);
-		if (match) {
+		if ( match )
+		{
 			ret = Number(match[1]) * 0.01;
 		}
 		return ret;
 	};
 
-	Utility.calcMastery = function (baseParam, metaData) {
+	Utility.calcMastery = function(baseParam, metaData)
+	{
 		var ret = 0;
 		var re = /([-]?\d+)(%?)/i;
 		var match = re.exec(metaData);
-		if (match) {
-			if (match[2] === '%') {
+		if ( match )
+		{
+			if ( match[2] === '%' )
+			{
 				var rate = Number(match[1]) * 0.01;
 				ret = Math.floor(baseParam * rate);
 			}
-			else {
+			else
+			{
 				ret = Number(match[1]);
 			}
 		}
 		return ret;
 	};
 
-	Utility.calcMasteryX = function (baseParam, metaData) {
+	Utility.calcMasteryX = function(baseParam, metaData)
+	{
 		var ret = 0;
 		var re = /([-]?\d+)(%?)/i;
 		var match = re.exec(metaData);
-		if (match) {
-			if (match[2] === '%') {
+		if ( match )
+		{
+			if ( match[2] === '%' )
+			{
 				var rate = Number(match[1]) * 0.01;
 				ret = baseParam * rate;
 			}
-			else {
+			else
+			{
 				ret = Number(match[1]);
 			}
 		}
 		return ret;
 	};
 
-	Utility.calcMasteryS = function (baseParam, metaData) {
+	Utility.calcMasteryS = function(baseParam, metaData)
+	{
 		var ret = 0;
 		var re = /([-]?\d+)(%?)/i;
 		var match = re.exec(metaData);
-		if (match) {
-			if (match[2] === '%') {
+		if ( match )
+		{
+			if ( match[2] === '%' )
+			{
 				var rate = Number(match[1]) * 0.01;
-				ret = (baseParam - 1.0) * rate;
+				ret = (baseParam-1.0) * rate;
 			}
-			else {
+			else
+			{
 				ret = Number(match[1]);
 			}
 		}
@@ -486,106 +506,126 @@ Imported.dsPassiveSkill = true;
 	//--------------------------------------------------------------------------
 	/** Game_Actor */
 	var _Game_Actor_initMembers = Game_Actor.prototype.initMembers;
-	Game_Actor.prototype.refreshSkillTypes = function () {
+	Game_Actor.prototype.refreshSkillTypes = function()
+	{
 		_Game_Actor_initMembers.call(this);
 		this._psSkillTypes = [];
 	};
 
-	Game_Actor.prototype.refreshSkillTypes = function () {
+	Game_Actor.prototype.refreshSkillTypes = function()
+	{
 		this._psSkillTypes = [];
 		var skillTypesMax = $dataSystem.skillTypes.length;
-		for (var ii = 1; ii < skillTypesMax; ii++) {
-			var tag = 'passiveAST' + ('00' + ii).slice(-2);
+		for ( var ii = 1; ii < skillTypesMax; ii++ )
+		{
+			var tag = 'passiveAST' + ('00'+ii).slice(-2);
 			var find = false;
-			this.iteratePassiveSkill(tag, function (metaData) {
+			this.iteratePassiveSkill(tag, function(metaData) {
 				find = true;
 			});
-			if (find) {
+			if ( find )
+			{
 				this._psSkillTypes.push(ii);
 			}
 		}
 	};
 
 	var _Game_Actor_refresh = Game_Actor.prototype.refresh;
-	Game_Actor.prototype.refresh = function () {
+	Game_Actor.prototype.refresh = function()
+	{
 		_Game_Actor_refresh.call(this);
 		this.refreshSkillTypes();
 	};
 
 	var _Game_Actor_learnSkill = Game_Actor.prototype.learnSkill;
-	Game_Actor.prototype.learnSkill = function (skillId) {
+	Game_Actor.prototype.learnSkill = function(skillId)
+	{
 		var lastDualWield = this.isDualWield();
 		_Game_Actor_learnSkill.call(this, skillId);
-		if (lastDualWield !== this.isDualWield()) {
+		if ( lastDualWield !== this.isDualWield() )
+		{
 			this.refresh();
 		}
 		this.refreshSkillTypes();
 	};
 
-	Game_Actor.prototype.iteratePassiveSkill = function (metaName, callback) {
-		this.skills().forEach(function (skill) {
-			if (skill.meta[metaName]) {
+	Game_Actor.prototype.iteratePassiveSkill = function(metaName, callback)
+	{
+		this.skills().forEach(function(skill) {
+			if ( skill.meta[metaName] )
+			{
 				callback(skill.meta[metaName]);
 			}
 		});
 	};
 
-	Game_Actor.prototype.evaluateCondition = function (condition, value) {
+	Game_Actor.prototype.evaluateCondition = function(condition, value)
+	{
 		var ret = false;
-		switch (condition) {
-			case 'HPUP': ret = (this.hpRate() >= value * 0.01) ? true : false; break;
-			case 'HPLW': ret = (this.hpRate() <= value * 0.01) ? true : false; break;
-			case 'MPUP': ret = (this.mpRate() >= value * 0.01) ? true : false; break;
-			case 'MPLW': ret = (this.mpRate() <= value * 0.01) ? true : false; break;
-			case 'TPUP': ret = (this.tpRate() >= value * 0.01) ? true : false; break;
-			case 'TPLW': ret = (this.tpRate() <= value * 0.01) ? true : false; break;
-			case 'STAT': ret = this.isStateAffected(value); break;
+		switch ( condition )
+		{
+		case 'HPUP': ret = (this.hpRate() >= value * 0.01) ? true : false; break;
+		case 'HPLW': ret = (this.hpRate() <= value * 0.01) ? true : false; break;
+		case 'MPUP': ret = (this.mpRate() >= value * 0.01) ? true : false; break;
+		case 'MPLW': ret = (this.mpRate() <= value * 0.01) ? true : false; break;
+		case 'TPUP': ret = (this.tpRate() >= value * 0.01) ? true : false; break;
+		case 'TPLW': ret = (this.tpRate() <= value * 0.01) ? true : false; break;
+		case 'STAT': ret = this.isStateAffected(value);                    break;
 		}
 		return ret;
 	};
 
-	Game_Actor.prototype.itemTraitsWithId = function (item, code, dataId) {
-		return item.traits.filter(function (trait) {
+	Game_Actor.prototype.itemTraitsWithId = function(item, code, dataId)
+	{
+		return item.traits.filter(function(trait) {
 			return trait.code === code && trait.dataId === dataId;
 		});
 	};
 
-	Game_Actor.prototype.itemTraitsSum = function (item, code, id) {
-		return this.itemTraitsWithId(item, code, id).reduce(function (r, trait) {
+	Game_Actor.prototype.itemTraitsSum = function(item, code, id)
+	{
+		return this.itemTraitsWithId(item, code, id).reduce(function(r, trait) {
 			return r + trait.value;
 		}, 0);
 	};
 
 	var _Game_Actor_paramBase = Game_Actor.prototype.paramBase;
-	Game_Actor.prototype.paramBaseDirect = function (paramId) {
+	Game_Actor.prototype.paramBaseDirect = function(paramId)
+	{
 		return _Game_Actor_paramBase.call(this, paramId);
 	};
 
-	Game_Actor.prototype.paramBaseBoost = function (paramId) {
+	Game_Actor.prototype.paramBaseBoost = function(paramId)
+	{
 		var baseParam = this.paramBaseDirect(paramId);
 		var ret = 0;
-		var tagPBST = 'passivePBST' + ('0' + paramId).slice(-1);
-		this.iteratePassiveSkill(tagPBST, function (metaData) {
+		var tagPBST = 'passivePBST' + ('0'+paramId).slice(-1);
+		this.iteratePassiveSkill(tagPBST, function(metaData) {
 			ret += Utility.calcParamBoost(baseParam, metaData);
 		});
-		var tagPBSTEX = 'passivePBSTEX' + ('0' + paramId).slice(-1);
-		this.iteratePassiveSkill(tagPBSTEX, function (metaData) {
+		var tagPBSTEX = 'passivePBSTEX' + ('0'+paramId).slice(-1);
+		this.iteratePassiveSkill(tagPBSTEX, function(metaData) {
 			var splitData = metaData.split(',');
-			if (this.evaluateCondition(splitData[1], Number(splitData[2]))) {
+			if ( this.evaluateCondition(splitData[1], Number(splitData[2])) )
+			{
 				ret += Utility.calcParamBoost(baseParam, splitData[0]);
 			}
 		}.bind(this));
-		var tagINDM = 'passiveINDM' + ('0' + paramId).slice(-1);
-		this.iteratePassiveSkill(tagINDM, function (metaData) {
+		var tagINDM = 'passiveINDM' + ('0'+paramId).slice(-1);
+		this.iteratePassiveSkill(tagINDM, function(metaData) {
 			var re = /(\d+)\,([-]?\d+)(%?)/i;
 			var match = re.exec(metaData);
-			if (match) {
-				if (this.hpRate() <= Number(match[1]) * 0.01) {
-					if (match[3] === '%') {
+			if ( match )
+			{
+				if ( this.hpRate() <= Number(match[1]) * 0.01 )
+				{
+					if ( match[3] === '%' )
+					{
 						var rate = Number(match[2]) * 0.01;
 						ret += Math.floor(baseParam * rate);
 					}
-					else {
+					else
+					{
 						ret += Number(match[2]);
 					}
 				}
@@ -594,42 +634,50 @@ Imported.dsPassiveSkill = true;
 		return ret;
 	};
 
-	Game_Actor.prototype.paramBase = function (paramId) {
+	Game_Actor.prototype.paramBase = function(paramId)
+	{
 		var ret = this.paramBaseDirect(paramId);
 		ret += this.paramBaseBoost(paramId);
 		return ret;
 	};
 
 	var _Game_Actor_paramPlus = Game_Actor.prototype.paramPlus;
-	Game_Actor.prototype.paramPlusDirect = function (paramId) {
+	Game_Actor.prototype.paramPlusDirect = function(paramId)
+	{
 		return _Game_Actor_paramPlus.call(this, paramId);
 	};
 
-	Game_Actor.prototype.paramPlusBoost = function (paramId) {
+	Game_Actor.prototype.paramPlusBoost = function(paramId)
+	{
 		var ret = 0;
-		this.equips().forEach(function (item) {
-			if (item) {
-				if (DataManager.isWeapon(item)) {
-					if (item.params[paramId] > 0) {
-						var tagWPNM = 'passiveWPNM' + ('00' + item.wtypeId).slice(-2);
-						this.iteratePassiveSkill(tagWPNM, function (metaData) {
+		this.equips().forEach(function(item) {
+			if ( item )
+			{
+				if ( DataManager.isWeapon(item) )
+				{
+					if ( item.params[paramId] > 0 )
+					{
+						var tagWPNM = 'passiveWPNM' + ('00'+item.wtypeId).slice(-2);
+						this.iteratePassiveSkill(tagWPNM, function(metaData) {
 							ret += Utility.calcMastery(item.params[paramId], metaData);
 						});
 					}
-					var tagWPBST = 'passiveWPBST' + ('00' + item.wtypeId).slice(-2) + '_' + paramId;
-					this.iteratePassiveSkill(tagWPBST, function (metaData) {
+					var tagWPBST = 'passiveWPBST' + ('00'+item.wtypeId).slice(-2) + '_' + paramId;
+					this.iteratePassiveSkill(tagWPBST, function(metaData) {
 						ret += Number(metaData);
 					});
 				}
-				else if (DataManager.isArmor(item)) {
-					if (item.params[paramId] > 0) {
-						var tagARMM = 'passiveARMM' + ('00' + item.atypeId).slice(-2);
-						this.iteratePassiveSkill(tagARMM, function (metaData) {
+				else if ( DataManager.isArmor(item) )
+				{
+					if ( item.params[paramId] > 0 )
+					{
+						var tagARMM = 'passiveARMM' + ('00'+item.atypeId).slice(-2);
+						this.iteratePassiveSkill(tagARMM, function(metaData) {
 							ret += Utility.calcMastery(item.params[paramId], metaData);
 						});
 					}
-					var tagAPBST = 'passiveAPBST' + ('00' + item.atypeId).slice(-2) + '_' + paramId;
-					this.iteratePassiveSkill(tagAPBST, function (metaData) {
+					var tagAPBST = 'passiveAPBST' + ('00'+item.atypeId).slice(-2) + '_' + paramId;
+					this.iteratePassiveSkill(tagAPBST, function(metaData) {
 						ret += Number(metaData);
 					});
 				}
@@ -638,64 +686,75 @@ Imported.dsPassiveSkill = true;
 		return ret;
 	};
 
-	Game_Actor.prototype.paramPlus = function (paramId) {
+	Game_Actor.prototype.paramPlus = function(paramId)
+	{
 		var ret = this.paramPlusDirect(paramId);
 		ret += this.paramPlusBoost(paramId);
 		return ret;
 	};
 
 	var _Game_Actor_xparam = Game_Actor.prototype.xparam;
-	Game_Actor.prototype.xparamDirect = function (xparamId) {
+	Game_Actor.prototype.xparamDirect = function(xparamId)
+	{
 		return _Game_Actor_xparam.call(this, xparamId);
 	};
 
-	Game_Actor.prototype.xparam = function (xparamId) {
+	Game_Actor.prototype.xparam = function(xparamId)
+	{
 		var ret = this.xparamDirect(xparamId);
-		var tagPBST = 'passiveXPBST' + ('0' + xparamId).slice(-1);
-		this.iteratePassiveSkill(tagPBST, function (metaData) {
+		var tagPBST = 'passiveXPBST' + ('0'+xparamId).slice(-1);
+		this.iteratePassiveSkill(tagPBST, function(metaData) {
 			ret += Utility.calcXParamBoost(metaData);
 		});
-		var tagPBSTEX = 'passiveXPBSTEX' + ('0' + xparamId).slice(-1);
-		this.iteratePassiveSkill(tagPBSTEX, function (metaData) {
+		var tagPBSTEX = 'passiveXPBSTEX' + ('0'+xparamId).slice(-1);
+		this.iteratePassiveSkill(tagPBSTEX, function(metaData) {
 			var splitData = metaData.split(',');
-			if (this.evaluateCondition(splitData[1], Number(splitData[2]))) {
+			if ( this.evaluateCondition(splitData[1], Number(splitData[2])) )
+			{
 				ret += Utility.calcXParamBoost(splitData[0]);
 			}
 		}.bind(this));
-		var tagINDM = 'passiveXINDM' + ('0' + xparamId).slice(-1);
-		this.iteratePassiveSkill(tagINDM, function (metaData) {
+		var tagINDM = 'passiveXINDM' + ('0'+xparamId).slice(-1);
+		this.iteratePassiveSkill(tagINDM, function(metaData) {
 			var re = /(\d+)\,([-]?\d+)/i;
 			var match = re.exec(metaData);
-			if (match) {
-				if (this.hpRate() <= Number(match[1]) * 0.01) {
+			if ( match )
+			{
+				if ( this.hpRate() <= Number(match[1]) * 0.01 )
+				{
 					ret += Number(match[2]) * 0.01;
 				}
 			}
 		}.bind(this));
-		this.equips().forEach(function (item) {
-			if (item) {
+		this.equips().forEach(function(item) {
+			if ( item )
+			{
 				var value = this.itemTraitsSum(item, Game_BattlerBase.TRAIT_XPARAM, xparamId);
-				if (DataManager.isWeapon(item)) {
-					if (value > 0) {
-						var tagWPNMX = 'passiveWPNMX' + ('00' + item.wtypeId).slice(-2);
-						this.iteratePassiveSkill(tagWPNMX, function (metaData) {
+				if ( DataManager.isWeapon(item) )
+				{
+					if ( value > 0 )
+					{
+						var tagWPNMX = 'passiveWPNMX' + ('00'+item.wtypeId).slice(-2);
+						this.iteratePassiveSkill(tagWPNMX, function(metaData) {
 							ret += Utility.calcMasteryX(value, metaData);
 						});
 					}
-					var tagWPBST = 'passiveWXPBST' + ('00' + item.wtypeId).slice(-2) + '_' + xparamId;
-					this.iteratePassiveSkill(tagWPBST, function (metaData) {
+					var tagWPBST = 'passiveWXPBST' + ('00'+item.wtypeId).slice(-2) + '_' + xparamId;
+					this.iteratePassiveSkill(tagWPBST, function(metaData) {
 						ret += Number(metaData) * 0.01;
 					});
 				}
-				else if (DataManager.isArmor(item)) {
-					if (value > 0) {
-						var tagARMMX = 'passiveARMMX' + ('00' + item.atypeId).slice(-2);
-						this.iteratePassiveSkill(tagARMMX, function (metaData) {
+				else if ( DataManager.isArmor(item) )
+				{
+					if ( value > 0 )
+					{
+						var tagARMMX = 'passiveARMMX' + ('00'+item.atypeId).slice(-2);
+						this.iteratePassiveSkill(tagARMMX, function(metaData) {
 							ret += Utility.calcMasteryX(value, metaData);
 						});
 					}
-					var tagAPBST = 'passiveAXPBST' + ('00' + item.atypeId).slice(-2) + '_' + xparamId;
-					this.iteratePassiveSkill(tagAPBST, function (metaData) {
+					var tagAPBST = 'passiveAXPBST' + ('00'+item.atypeId).slice(-2) + '_' + xparamId;
+					this.iteratePassiveSkill(tagAPBST, function(metaData) {
 						ret += Number(metaData) * 0.01;
 					});
 				}
@@ -705,57 +764,67 @@ Imported.dsPassiveSkill = true;
 	};
 
 	var _Game_Actor_sparam = Game_Actor.prototype.sparam;
-	Game_Actor.prototype.sparamDirect = function (sparamId) {
+	Game_Actor.prototype.sparamDirect = function(sparamId)
+	{
 		return _Game_Actor_sparam.call(this, sparamId);
 	};
 
-	Game_Actor.prototype.sparam = function (sparamId) {
+	Game_Actor.prototype.sparam = function(sparamId)
+	{
 		var ret = this.sparamDirect(sparamId);
-		var tagPBST = 'passiveSPBST' + ('0' + sparamId).slice(-1);
-		this.iteratePassiveSkill(tagPBST, function (metaData) {
+		var tagPBST = 'passiveSPBST' + ('0'+sparamId).slice(-1);
+		this.iteratePassiveSkill(tagPBST, function(metaData) {
 			ret += Utility.calcSParamBoost(metaData);
 		});
-		var tagPBSTEX = 'passiveSPBSTEX' + ('0' + sparamId).slice(-1);
-		this.iteratePassiveSkill(tagPBSTEX, function (metaData) {
+		var tagPBSTEX = 'passiveSPBSTEX' + ('0'+sparamId).slice(-1);
+		this.iteratePassiveSkill(tagPBSTEX, function(metaData) {
 			var splitData = metaData.split(',');
-			if (this.evaluateCondition(splitData[1], Number(splitData[2]))) {
+			if ( this.evaluateCondition(splitData[1], Number(splitData[2])) )
+			{
 				ret += Utility.calcSParamBoost(splitData[0]);
 			}
 		}.bind(this));
-		var tagINDM = 'passiveSINDM' + ('0' + sparamId).slice(-1);
-		this.iteratePassiveSkill(tagINDM, function (metaData) {
+		var tagINDM = 'passiveSINDM' + ('0'+sparamId).slice(-1);
+		this.iteratePassiveSkill(tagINDM, function(metaData) {
 			var re = /(\d+)\,([-]?\d+)/i;
 			var match = re.exec(metaData);
-			if (match) {
-				if (this.hpRate() <= Number(match[1]) * 0.01) {
+			if ( match )
+			{
+				if ( this.hpRate() <= Number(match[1]) * 0.01 )
+				{
 					ret += Number(match[2]) * 0.01;
 				}
 			}
 		}.bind(this));
-		this.equips().forEach(function (item) {
-			if (item) {
+		this.equips().forEach(function(item) {
+			if ( item )
+			{
 				var value = this.itemTraitsSum(item, Game_BattlerBase.TRAIT_SPARAM, sparamId);
-				if (DataManager.isWeapon(item)) {
-					if (value > 0) {
-						var tagWPNMS = 'passiveWPNMS' + ('00' + item.wtypeId).slice(-2);
-						this.iteratePassiveSkill(tagWPNMS, function (metaData) {
+				if ( DataManager.isWeapon(item) )
+				{
+					if ( value > 0 )
+					{
+						var tagWPNMS = 'passiveWPNMS' + ('00'+item.wtypeId).slice(-2);
+						this.iteratePassiveSkill(tagWPNMS, function(metaData) {
 							ret += Utility.calcMasteryS(value, metaData);
 						});
 					}
-					var tagWPBST = 'passiveWSPBST' + ('00' + item.wtypeId).slice(-2) + '_' + sparamId;
-					this.iteratePassiveSkill(tagWPBST, function (metaData) {
+					var tagWPBST = 'passiveWSPBST' + ('00'+item.wtypeId).slice(-2) + '_' + sparamId;
+					this.iteratePassiveSkill(tagWPBST, function(metaData) {
 						ret += Number(metaData) * 0.01;
 					});
 				}
-				else if (DataManager.isArmor(item)) {
-					if (value > 0) {
-						var tagARMMS = 'passiveARMMS' + ('00' + item.atypeId).slice(-2);
-						this.iteratePassiveSkill(tagARMMS, function (metaData) {
+				else if ( DataManager.isArmor(item) )
+				{
+					if ( value > 0 )
+					{
+						var tagARMMS = 'passiveARMMS' + ('00'+item.atypeId).slice(-2);
+						this.iteratePassiveSkill(tagARMMS, function(metaData) {
 							ret += Utility.calcMasteryS(value, metaData);
 						});
 					}
-					var tagAPBST = 'passiveASPBST' + ('00' + item.atypeId).slice(-2) + '_' + sparamId;
-					this.iteratePassiveSkill(tagAPBST, function (metaData) {
+					var tagAPBST = 'passiveASPBST' + ('00'+item.atypeId).slice(-2) + '_' + sparamId;
+					this.iteratePassiveSkill(tagAPBST, function(metaData) {
 						ret += Number(metaData) * 0.01;
 					});
 				}
@@ -765,53 +834,60 @@ Imported.dsPassiveSkill = true;
 	};
 
 	var _Game_Actor_elementRate = Game_Actor.prototype.elementRate;
-	Game_Actor.prototype.elementRate = function (elementId) {
+	Game_Actor.prototype.elementRate = function(elementId)
+	{
 		var ret = _Game_Actor_elementRate.call(this, elementId);
-		var tag = 'passiveELEM' + ('00' + elementId).slice(-2);
-		this.iteratePassiveSkill(tag, function (metaData) {
+		var tag = 'passiveELEM' + ('00'+elementId).slice(-2);
+		this.iteratePassiveSkill(tag, function(metaData) {
 			ret *= Number(metaData) * 0.01;
 		});
 		ret += this.addElementRate(elementId);
 		return Math.max(ret, 0);
 	};
 
-	Game_Actor.prototype.addElementRate = function (elementId) {
+	Game_Actor.prototype.addElementRate = function(elementId)
+	{
 		var ret = 0;
-		var tag = 'passiveELEM_ADD' + ('00' + elementId).slice(-2);
-		this.iteratePassiveSkill(tag, function (metaData) {
+		var tag = 'passiveELEM_ADD' + ('00'+elementId).slice(-2);
+		this.iteratePassiveSkill(tag, function(metaData) {
 			ret += Number(metaData) * 0.01;
 		});
 		return ret;
 	};
 
 	var _Game_Actor_stateRate = Game_Actor.prototype.stateRate;
-	Game_Actor.prototype.stateRate = function (stateId) {
+	Game_Actor.prototype.stateRate = function(stateId)
+	{
 		var ret = _Game_Actor_stateRate.call(this, stateId);
-		var tag = 'passiveSTAT' + ('0000' + stateId).slice(-4);
-		this.iteratePassiveSkill(tag, function (metaData) {
+		var tag = 'passiveSTAT' + ('0000'+stateId).slice(-4);
+		this.iteratePassiveSkill(tag, function(metaData) {
 			ret *= Number(metaData) * 0.01;
 		});
 		ret += this.addStateRate(stateId);
 		return Math.max(ret, 0);
 	};
 
-	Game_Actor.prototype.addStateRate = function (stateId) {
+	Game_Actor.prototype.addStateRate = function(stateId)
+	{
 		var ret = 0;
-		var tag = 'passiveSTAT_ADD' + ('0000' + stateId).slice(-4);
-		this.iteratePassiveSkill(tag, function (metaData) {
+		var tag = 'passiveSTAT_ADD' + ('0000'+stateId).slice(-4);
+		this.iteratePassiveSkill(tag, function(metaData) {
 			ret += Number(metaData) * 0.01;
 		});
 		return ret;
 	};
 
 	var _Game_Actor_stateResistSet = Game_Actor.prototype.stateResistSet;
-	Game_Actor.prototype.stateResistSet = function () {
+	Game_Actor.prototype.stateResistSet = function()
+	{
 		var ret = _Game_Actor_stateResistSet.call(this);
 		var num = $dataStates.length;
-		for (var ii = 1; ii < num; ii++) {
-			var tag = 'passiveSTREG' + ('0000' + ii).slice(-4);
-			this.iteratePassiveSkill(tag, function (metaData) {
-				if (!ret.contains(ii)) {
+		for ( var ii = 1; ii < num; ii++ )
+		{
+			var tag = 'passiveSTREG' + ('0000'+ii).slice(-4);
+			this.iteratePassiveSkill(tag, function(metaData) {
+				if ( !ret.contains(ii) )
+				{
 					ret.push(ii);
 				}
 			});
@@ -820,13 +896,16 @@ Imported.dsPassiveSkill = true;
 	};
 
 	var _Game_Actor_attackStates = Game_Actor.prototype.attackStates;
-	Game_Actor.prototype.attackStates = function () {
+	Game_Actor.prototype.attackStates = function()
+	{
 		var ret = _Game_Actor_attackStates.call(this);
 		var num = $dataStates.length;
-		for (var ii = 1; ii < num; ii++) {
-			var tag = 'passiveATKST' + ('0000' + ii).slice(-4);
-			this.iteratePassiveSkill(tag, function (metaData) {
-				if (!ret.contains(ii)) {
+		for ( var ii = 1; ii < num; ii++ )
+		{
+			var tag = 'passiveATKST' + ('0000'+ii).slice(-4);
+			this.iteratePassiveSkill(tag, function(metaData) {
+				if ( !ret.contains(ii) )
+				{
 					ret.push(ii);
 				}
 			});
@@ -835,13 +914,15 @@ Imported.dsPassiveSkill = true;
 	};
 
 	var _Game_Actor_attackStatesRate = Game_Actor.prototype.attackStatesRate;
-	Game_Actor.prototype.attackStatesRate = function (stateId) {
+	Game_Actor.prototype.attackStatesRate = function(stateId)
+	{
 		var ret = _Game_Actor_attackStatesRate.call(this, stateId);
-		var tag = 'passiveATKST' + ('0000' + stateId).slice(-4);
-		this.iteratePassiveSkill(tag, function (metaData) {
+		var tag = 'passiveATKST' + ('0000'+stateId).slice(-4);
+		this.iteratePassiveSkill(tag, function(metaData) {
 			var re = /([-]?\d+)/i;
 			var match = re.exec(metaData);
-			if (match) {
+			if ( match )
+			{
 				ret += Number(match[1]) * 0.01;
 			}
 		});
@@ -849,21 +930,25 @@ Imported.dsPassiveSkill = true;
 	};
 
 	var _Game_Actor_attackTimesAdd = Game_Actor.prototype.attackTimesAdd;
-	Game_Actor.prototype.attackTimesAdd = function () {
+	Game_Actor.prototype.attackTimesAdd = function()
+	{
 		var ret = _Game_Actor_attackTimesAdd.call(this);
 		var tag = 'passiveATADD';
-		this.iteratePassiveSkill(tag, function (metaData) {
+		this.iteratePassiveSkill(tag, function(metaData) {
 			ret += Number(metaData);
 		});
 		return ret;
 	};
 
 	var _Game_Actor_addedSkillTypes = Game_Actor.prototype.addedSkillTypes;
-	Game_Actor.prototype.addedSkillTypes = function () {
+	Game_Actor.prototype.addedSkillTypes = function()
+	{
 		var ret = _Game_Actor_addedSkillTypes.call(this);
-		if (this._psSkillTypes) {
-			this._psSkillTypes.forEach(function (stype) {
-				if (ret.indexOf(stype) < 0) {
+		if ( this._psSkillTypes )
+		{
+			this._psSkillTypes.forEach(function(stype) {
+				if ( ret.indexOf(stype) < 0 )
+				{
 					ret.push(stype);
 				}
 			});
@@ -872,43 +957,48 @@ Imported.dsPassiveSkill = true;
 	};
 
 	var _Game_Actor_isEquipWtypeOk = Game_Actor.prototype.isEquipWtypeOk;
-	Game_Actor.prototype.isEquipWtypeOk = function (wtypeId) {
+	Game_Actor.prototype.isEquipWtypeOk = function(wtypeId)
+	{
 		var ret = _Game_Actor_isEquipWtypeOk.call(this, wtypeId);
-		var tag = 'passiveEWPN' + ('00' + wtypeId).slice(-2);
-		this.iteratePassiveSkill(tag, function (metaData) {
+		var tag = 'passiveEWPN' + ('00'+wtypeId).slice(-2);
+		this.iteratePassiveSkill(tag, function(metaData) {
 			ret = true;
 		});
 		return ret;
 	};
 
 	var _Game_Actor_isEquipAtypeOk = Game_Actor.prototype.isEquipAtypeOk;
-	Game_Actor.prototype.isEquipAtypeOk = function (atypeId) {
+	Game_Actor.prototype.isEquipAtypeOk = function(atypeId)
+	{
 		var ret = _Game_Actor_isEquipAtypeOk.call(this, atypeId);
-		var tag = 'passiveEARM' + ('00' + atypeId).slice(-2);
-		this.iteratePassiveSkill(tag, function (metaData) {
+		var tag = 'passiveEARM' + ('00'+atypeId).slice(-2);
+		this.iteratePassiveSkill(tag , function(metaData) {
 			ret = true;
 		});
 		return ret;
 	};
 
 	var _Game_Actor_isDualWield = Game_Actor.prototype.isDualWield;
-	Game_BattlerBase.prototype.isDualWield = function () {
+	Game_BattlerBase.prototype.isDualWield = function()
+	{
 		var ret = _Game_Actor_isDualWield.call(this);
 		var tag = 'passiveDUAL';
-		this.iteratePassiveSkill(tag, function (metaData) {
+		this.iteratePassiveSkill(tag, function(metaData) {
 			ret = true;
 		});
 		return ret;
 	};
 
 	var _Game_Actor_actionPlusSet = Game_Actor.prototype.actionPlusSet;
-	Game_Actor.prototype.actionPlusSet = function () {
+	Game_Actor.prototype.actionPlusSet = function()
+	{
 		var ret = _Game_Actor_actionPlusSet.call(this);
 		var tag = 'passiveAPLUS';
-		this.iteratePassiveSkill(tag, function (metaData) {
+		this.iteratePassiveSkill(tag, function(metaData) {
 			var re = /(\d+)/i;
 			var match = re.exec(metaData);
-			if (match) {
+			if ( match )
+			{
 				ret.push(Number(match[1]) * 0.01);
 			}
 		});
@@ -916,21 +1006,24 @@ Imported.dsPassiveSkill = true;
 	};
 
 	var _Game_Actor_isAutoBattle = Game_Actor.prototype.isAutoBattle;
-	Game_Actor.prototype.isAutoBattle = function () {
+	Game_Actor.prototype.isAutoBattle = function()
+	{
 		var ret = _Game_Actor_isAutoBattle.call(this);
 		var tag = 'passiveAUTO';
-		this.iteratePassiveSkill(tag, function (metaData) {
+		this.iteratePassiveSkill(tag, function(metaData) {
 			ret = true;
 		});
 		return ret;
 	};
 
 	var _Game_Actor_isGuard = Game_Actor.prototype.isGuard;
-	Game_Actor.prototype.isGuard = function () {
+	Game_Actor.prototype.isGuard = function()
+	{
 		var ret = _Game_Actor_isGuard.call(this);
-		if (this.canMove()) {
+		if ( this.canMove() )
+		{
 			var tag = 'passiveGUARD';
-			this.iteratePassiveSkill(tag, function (metaData) {
+			this.iteratePassiveSkill(tag, function(metaData) {
 				ret = true;
 			});
 		}
@@ -938,11 +1031,13 @@ Imported.dsPassiveSkill = true;
 	};
 
 	var _Game_Actor_isSubstitute = Game_Actor.prototype.isSubstitute;
-	Game_Actor.prototype.isSubstitute = function () {
+	Game_Actor.prototype.isSubstitute = function()
+	{
 		var ret = _Game_Actor_isSubstitute.call(this);
-		if (this.canMove()) {
+		if ( this.canMove() )
+		{
 			var tag = 'passiveSUBS';
-			this.iteratePassiveSkill(tag, function (metaData) {
+			this.iteratePassiveSkill(tag, function(metaData) {
 				ret = true;
 			});
 		}
@@ -950,10 +1045,11 @@ Imported.dsPassiveSkill = true;
 	};
 
 	var _Game_Actor_isPreserveTp = Game_Actor.prototype.isPreserveTp;
-	Game_Actor.prototype.isPreserveTp = function (flagId) {
+	Game_Actor.prototype.isPreserveTp = function(flagId)
+	{
 		var ret = _Game_Actor_isPreserveTp.call(this);
 		var tag = 'passivePRETP';
-		this.iteratePassiveSkill(tag, function (metaData) {
+		this.iteratePassiveSkill(tag, function(metaData) {
 			ret = true;
 		});
 		return ret;
@@ -962,10 +1058,11 @@ Imported.dsPassiveSkill = true;
 	//--------------------------------------------------------------------------
 	/** Game_Party */
 	var _Game_Party_ratePreemptive = Game_Party.prototype.ratePreemptive;
-	Game_Party.prototype.ratePreemptive = function (troopAgi) {
+	Game_Party.prototype.ratePreemptive = function(troopAgi)
+	{
 		var rate = _Game_Party_ratePreemptive.call(this, troopAgi);
-		this.battleMembers().some(function (actor) {
-			actor.iteratePassiveSkill('passivePREE', function (metaData) {
+		this.battleMembers().some(function(actor) {
+			actor.iteratePassiveSkill('passivePREE', function(metaData) {
 				rate += Number(metaData) * 0.01;
 			});
 		});
@@ -973,10 +1070,11 @@ Imported.dsPassiveSkill = true;
 	};
 
 	var _Game_Party_rateSurprise = Game_Party.prototype.rateSurprise;
-	Game_Party.prototype.rateSurprise = function (troopAgi) {
+	Game_Party.prototype.rateSurprise = function(troopAgi)
+	{
 		var rate = _Game_Party_rateSurprise.call(this, troopAgi);
-		this.battleMembers().some(function (actor) {
-			actor.iteratePassiveSkill('passiveASUP', function (metaData) {
+		this.battleMembers().some(function(actor) {
+			actor.iteratePassiveSkill('passiveASUP', function(metaData) {
 				rate -= Number(metaData) * 0.01 * rate;
 			});
 		});
@@ -986,11 +1084,15 @@ Imported.dsPassiveSkill = true;
 	//--------------------------------------------------------------------------
 	/** Window_BattleSkill */
 	var _Window_BattleSkill_includes = Window_BattleSkill.prototype.includes;
-	Window_BattleSkill.prototype.includes = function (item) {
-		if (!this.showPassiveSkill()) {
-			if (item) {
+	Window_BattleSkill.prototype.includes = function(item)
+	{
+		if ( !this.showPassiveSkill() )
+		{
+			if ( item )
+			{
 				var re = /<passive/;
-				if (re.test(item.note)) {
+				if ( re.test(item.note) )
+				{
 					return false;
 				}
 			}
@@ -998,11 +1100,14 @@ Imported.dsPassiveSkill = true;
 		return _Window_BattleSkill_includes.call(this, item);
 	};
 
-	Window_BattleSkill.prototype.showPassiveSkill = function () {
-		if (exports.Param.ShowBattleSwitchId > 0) {
+	Window_BattleSkill.prototype.showPassiveSkill = function()
+	{
+		if ( exports.Param.ShowBattleSwitchId > 0 )
+		{
 			return $gameSwitches.value(exports.Param.ShowBattleSwitchId);
 		}
-		else {
+		else
+		{
 			return exports.Param.ShowBattle;
 		}
 	};

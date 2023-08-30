@@ -96,17 +96,17 @@
  * 
  */
 
-(function () {
+(function() {
     'use strict';
     var pluginName = 'MessageWindowSizeAdjuster';
 
 
-    ////=============================================================================
-    //// Local function
-    ////  These functions checks & formats pluguin's command parameters.
-    ////  I borrowed these functions from Triacontane.Thanks!
-    ////=============================================================================
-    var getParamString = function (paramNames) {
+////=============================================================================
+//// Local function
+////  These functions checks & formats pluguin's command parameters.
+////  I borrowed these functions from Triacontane.Thanks!
+////=============================================================================
+    var getParamString = function(paramNames) {
         if (!Array.isArray(paramNames)) paramNames = [paramNames];
         for (var i = 0; i < paramNames.length; i++) {
             var name = PluginManager.parameters(pluginName)[paramNames[i]];
@@ -115,46 +115,46 @@
         return '';
     };
 
-    var getParamNumber = function (paramNames, min, max) {
+    var getParamNumber = function(paramNames, min, max) {
         var value = getParamString(paramNames);
         if (arguments.length < 2) min = -Infinity;
         if (arguments.length < 3) max = Infinity;
         return (parseInt(value) || 0).clamp(min, max);
     };
 
-    ////=============================================================================
-    //// Get and set pluguin parameters.
-    ////=============================================================================
-    var param = {};
+////=============================================================================
+//// Get and set pluguin parameters.
+////=============================================================================
+    var param                          = {};
     //スイッチ番号
     param.switchId = getParamNumber(['SwitchId', 'スイッチ番号']);
     //サイズ指定用変数番号
     param.sizeVariableId = getParamNumber(['SizeVariableId', 'サイズ指定用変数番号']);
 
-    //////=============================================================================
-    ///// Window_Message
-    /////  特定のスイッチがONのとき、サイズを変更する
-    //////=============================================================================
+//////=============================================================================
+///// Window_Message
+/////  特定のスイッチがONのとき、サイズを変更する
+//////=============================================================================
 
     //位置のupdateでサイズも調整する
     const _Window_Message_updatePlacement = Window_Message.prototype.updatePlacement;
-    Window_Message.prototype.updatePlacement = function () {
+    Window_Message.prototype.updatePlacement = function() {
         _Window_Message_updatePlacement.call(this);
-        if (this.shouldAdjustWindow()) {
+        if(this.shouldAdjustWindow()) {
             this.width = this.adjustedWindowWidth();
             console.log(this.adjustedWindowWidth());
-        } else {
+        }else {
             this.width = this.windowWidth();
         }
     };
 
     //ウィンドウを調整するべきかどうか
-    Window_Message.prototype.shouldAdjustWindow = function () {
+    Window_Message.prototype.shouldAdjustWindow = function() {
         return $gameSwitches.value(param.switchId);
     };
 
     //変更後の幅
-    Window_Message.prototype.adjustedWindowWidth = function () {
+    Window_Message.prototype.adjustedWindowWidth = function() {
         return $gameVariables.value(param.sizeVariableId);
     };
 

@@ -56,16 +56,16 @@
  * MIT Licenseにつき著作権表示とライセンスURLは残しておいて下さい。
  */
 
-(function () {
+(function() {
     'use strict';
     var pd_IT_useVariableId = Number(PluginManager.parameters("ItemTrigger")["ItemId_Variable"]);
     var pd_IT_Scene_ItemBase_checkCommonEvent = Scene_ItemBase.prototype.checkCommonEvent;
-    Scene_ItemBase.prototype.checkCommonEvent = function () {
-        if (pd_IT_useVariableId != 0) {
-            if (!this.pd_IT_checkUseItemEvent($gamePlayer._x, $gamePlayer._y, false)) {
+    Scene_ItemBase.prototype.checkCommonEvent = function() {
+        if(pd_IT_useVariableId != 0){
+            if(!this.pd_IT_checkUseItemEvent($gamePlayer._x, $gamePlayer._y, false)){
                 var x = $gameMap.roundXWithDirection($gamePlayer._x, $gamePlayer._direction);
                 var y = $gameMap.roundYWithDirection($gamePlayer._y, $gamePlayer._direction);
-                if (!this.pd_IT_checkUseItemEvent(x, y, true) && $gameMap.isCounter(x, y)) {
+                if(!this.pd_IT_checkUseItemEvent(x, y, true) && $gameMap.isCounter(x, y)){
                     var x2 = $gameMap.roundXWithDirection(x, $gamePlayer._direction);
                     var y2 = $gameMap.roundYWithDirection(y, $gamePlayer._direction);
                     this.pd_IT_checkUseItemEvent(x2, y2, true)
@@ -74,26 +74,26 @@
         }
         pd_IT_Scene_ItemBase_checkCommonEvent.call(this);
     };
-
-    Scene_ItemBase.prototype.pd_IT_checkUseItemEvent = function (x, y, normal) {
-        if (pd_IT_useVariableId != 0) {
+    
+    Scene_ItemBase.prototype.pd_IT_checkUseItemEvent = function(x, y, normal) {
+        if(pd_IT_useVariableId != 0){
             var useItemId = this._itemWindow.item().id;
             var frontEvents = $gameMap.eventsXy(x, y);
-
-            if (frontEvents.length >= 1) {
-                frontEvents.forEach(function (event) {
-                    if (event.isNormalPriority() === normal && !event._erased) {
+            
+            if(frontEvents.length >= 1){
+                frontEvents.forEach(function(event) {
+                    if(event.isNormalPriority() === normal && !event._erased){
                         var eventList = $dataMap.events[event._eventId].pages[event._pageIndex].list;
-                        for (var i = 0; i < eventList.length; i++) {
-                            if (eventList[i].code === 111 && eventList[i].parameters[0] === 1) {
-                                if (eventList[i].parameters[1] === pd_IT_useVariableId) {
+                        for(var i = 0; i < eventList.length; i++){
+                            if(eventList[i].code === 111 && eventList[i].parameters[0] === 1 ){
+                                if(eventList[i].parameters[1] === pd_IT_useVariableId){
                                     var variableValue;
                                     if (eventList[i].parameters[2] === 0) {
                                         variableValue = eventList[i].parameters[3];
                                     } else {
                                         variableValue = $gameVariables.value(eventList[i].parameters[3]);
                                     }
-                                    if (variableValue === useItemId) {
+                                    if(variableValue === useItemId){
                                         if ($gameTemp.isCommonEventReserved()) {
                                             $gameTemp.clearCommonEvent();
                                         }
@@ -111,17 +111,17 @@
         }
         return false;
     };
-
+    
     var pd_IT_Game_Map_isEventRunning = Game_Map.prototype.isEventRunning;
-    Game_Map.prototype.isEventRunning = function () {
-        if (pd_IT_Game_Map_isEventRunning.call(this)) {
+    Game_Map.prototype.isEventRunning = function() {
+        if(pd_IT_Game_Map_isEventRunning.call(this)){
             return true;
-        } else {
-            if (pd_IT_useVariableId != 0 && $gameVariables.value(pd_IT_useVariableId) != 0) {
+        }else{
+            if(pd_IT_useVariableId != 0 && $gameVariables.value(pd_IT_useVariableId) != 0){
                 $gameVariables.setValue(pd_IT_useVariableId, 0);
             }
             return false;
         }
     };
-
+    
 })();

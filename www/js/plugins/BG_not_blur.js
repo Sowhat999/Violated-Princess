@@ -17,7 +17,7 @@
 
 
 
-SceneManager.snapForBackground = function () {
+SceneManager.snapForBackground = function() {
     this._backgroundBitmap = this.snap();
-    //    this._backgroundBitmap.blur();
+//    this._backgroundBitmap.blur();
 };

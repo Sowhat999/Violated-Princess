@@ -10,7 +10,7 @@
  *
  * This plugin is released under the MIT License.
  */
-
+ 
 /*:ja
  * @plugindesc メッセージ名前ラベルプラグイン
  * @author ガバチョ（溟犬一六）(https:/star-write-dream.com)
@@ -469,17 +469,17 @@
  */
 
 
-(function () {
+(function() {
     'use strict';
-
-    var convertToNumber = function (obj) {
-        for (var prop in obj) {
+        
+    var convertToNumber = function(obj) {
+        for(var prop in obj) {
             obj[prop] = Number(obj[prop]);
         }
         return obj;
     }
-
-    var getParamString = function (paramNames) {
+    
+    var getParamString = function(paramNames) {
         if (!Array.isArray(paramNames)) paramNames = [paramNames];
         for (var i = 0; i < paramNames.length; i++) {
             var name = PluginManager.parameters(pluginName)[paramNames[i]];
@@ -487,43 +487,43 @@
         }
         return '';
     };
-
-    var convertArrayParam = function (param) {
+    
+    var convertArrayParam = function(param) {
         if (!param) {
             return;
         }
-
-        if (param !== undefined) {
+        
+        if(param !== undefined){
             try {
                 const array = JSON.parse(param);
-                for (let i = 0; i < array.length; i++) {
+                for(let i = 0; i < array.length; i++) {
                     array[i] = JSON.parse(array[i]);
                 }
                 return array;
-            } catch (e) {
+            }catch(e){
                 console.group();
-                console.error('%cParameter is invalid ! SNH_MsgNameLableのパラメータ準備に失敗しました。', 'background-color: #5174FF');
+                console.error('%cParameter is invalid ! SNH_MsgNameLableのパラメータ準備に失敗しました。','background-color: #5174FF');
                 console.error('Parameter:' + eval(param));
                 console.error('Error message :' + e);
                 console.groupEnd();
             }
         }
     };
-
-    var convertParam = function (param) {
-        if (param !== undefined) {
+    
+    var convertParam = function(param) {
+        if(param !== undefined){
             try {
                 return JSON.parse(param);
-            } catch (e) {
+            }catch(e){
                 console.group();
-                console.error('%cParameter is invalid ! SNH_MsgNameLableのパラメータ準備に失敗しました。', 'background-color: #5174FF');
+                console.error('%cParameter is invalid ! SNH_MsgNameLableのパラメータ準備に失敗しました。','background-color: #5174FF');
                 console.error('Parameter:' + eval(param));
                 console.error('Error message :' + e);
                 console.groupEnd();
             }
         }
     };
-
+    
     var parameters = PluginManager.parameters('SNH_MsgNameLabel');
     var nameLabelFontSize = Number(parameters['文字サイズ'] || 24);
     var nameLabelFontColor = Number(parameters['文字色'] || 0);
@@ -555,38 +555,38 @@
 
     // 矩形bitmap作成
     function createPartsSpriteRect(parts) {
-        let bitmap = new Bitmap(0, 0);
+        let bitmap = new Bitmap(0,0);
         bitmap.resize(parts.width, parts.height);
 
-        if (parts.gradationMode) {
+        if (parts.gradationMode){
             bitmap.gradientFillRect(0, 0, parts.width, parts.height
-                , 'rgba(' + parts.color1.red + ',' + parts.color1.green + ',' + parts.color1.blue + ',' + parts.color1.opacity + ')'
-                , 'rgba(' + parts.color2.red + ',' + parts.color2.green + ',' + parts.color2.blue + ',' + parts.color2.opacity + ')'
-                , parts.gradationVertical);
+                                             ,'rgba('+parts.color1.red + ',' + parts.color1.green + ',' + parts.color1.blue + ',' + parts.color1.opacity + ')'
+                                             ,'rgba('+parts.color2.red + ',' + parts.color2.green + ',' + parts.color2.blue + ',' + parts.color2.opacity + ')'
+                                             , parts.gradationVertical);
         } else {
             bitmap.fillRect(0, 0, parts.width, parts.height
-                , 'rgba(' + parts.color1.red + ',' + parts.color1.green + ',' + parts.color1.blue + ',' + parts.color1.opacity + ')');
+                                     ,'rgba('+parts.color1.red + ',' + parts.color1.green + ',' + parts.color1.blue + ',' + parts.color1.opacity + ')');
         }
         return bitmap;
     }
 
     //円bitmap作成
     function createPartsSpriteCircle(parts) {
-        let bitmap = new Bitmap(0, 0);
+        let bitmap = new Bitmap(0,0);
         bitmap.resize(parts.radius * 2, parts.radius * 2);
 
         bitmap.drawCircle(parts.radius, parts.radius, parts.radius
-            , 'rgba(' + parts.color.red + ',' + parts.color.green + ',' + parts.color.blue + ',' + parts.color.opacity + ')');
+                                 ,'rgba(' + parts.color.red + ',' + parts.color.green + ',' + parts.color.blue + ',' + parts.color.opacity+')');
         return bitmap;
     }
 
     //画像bitmap作成
     function createPartsSpritePicture(parts) {
-        let bitmap = new Bitmap(0, 0);
-        bitmap = ImageManager.loadBitmap('img/pictures/', parts.fileName, 0, false);
+        let bitmap = new Bitmap(0,0);
+        bitmap = ImageManager.loadBitmap('img/pictures/',parts.fileName , 0, false);
         return bitmap;
     }
-
+    
     //初期処理：構造体の整形とbitmapの準備
     (function initPartsList() {
         if (param.NamePlate && param.NamePlate.length > 0) {
@@ -611,7 +611,7 @@
         }
 
         if (param.AttachmentRect && param.AttachmentRect.length > 0) {
-            for (let rect of param.AttachmentRect) {
+            for(let rect of param.AttachmentRect) {
                 rect.type = 'rect';
                 rect.orderNo = Number(rect.orderNo);
                 rect.width = Number(rect.width);
@@ -627,13 +627,13 @@
                 if (rect.width === 0 || rect.height === 0) {
                     continue;
                 }
-
+                
                 partsList.push(rect);
             }
         }
 
         if (param.AttachmentCircle && param.AttachmentCircle.length > 0) {
-            for (let circle of param.AttachmentCircle) {
+            for(let circle of param.AttachmentCircle) {
                 circle.type = 'circle';
                 circle.orderNo = Number(circle.orderNo);
                 circle.radius = Number(circle.radius);
@@ -649,8 +649,8 @@
         }
 
         if (param.AttachmentPictures && param.AttachmentPictures.length > 0) {
-            let pictureBitmap = new Bitmap(0, 0);
-            for (let picture of param.AttachmentPictures) {
+            let pictureBitmap = new Bitmap(0,0);
+            for(let picture of param.AttachmentPictures) {
                 picture.type = 'picture';
                 picture.orderNo = Number(picture.orderNo);
                 picture.fileName = String(picture.fileName);
@@ -667,11 +667,11 @@
                 partsList.push(picture);
             }
         }
-
+        
         if (param.NamePlatePictures && param.NamePlatePictures.length > 0) {
-            let pPictureBitmap = new Bitmap(0, 0);
+            let pPictureBitmap = new Bitmap(0,0);
             let pPicture = param.NamePlatePictures[0];
-
+            
             pPicture.type = 'picture';
             pPicture.orderNo = 0;
             pPicture.fileName = String(pPicture.fileName);
@@ -688,92 +688,92 @@
                 namePlatePicture.push(pPicture);
             }
         }
-
+        
         //並び替え
-        partsList.sort(function (a, b) {
-            if (a.orderNo < b.orderNo) return -1;
-            if (a.orderNo > b.orderNo) return 1;
-            return 0;
+        partsList.sort(function(a,b){
+                if(a.orderNo < b.orderNo) return -1;
+                if(a.orderNo > b.orderNo) return 1;
+                return 0;
         });
-
+        
     })();
-
+    
     //-----------------------------------------------
     // Window_Messageの機能追加
     //-----------------------------------------------
-
+    
     // 名前ラベルのテキストを取得
     let nameLabelText = '';
-    var escapeNameLabel = function (nameText) {
+    var escapeNameLabel = function(nameText) {
         // 名前ラベルの描画
         if (nameText != '') {
             nameLabelText = nameText;
         }
-
+        
         return '';
     };
-
+    
     var _Window_Message_initialize = Window_Message.prototype.initialize;
-    Window_Message.prototype.initialize = function () {
+    Window_Message.prototype.initialize = function() {
         _Window_Message_initialize.call(this);
         this._snhNameLabelList = [];
     }
-
-    var _Window_Message_startMessage = Window_Message.prototype.startMessage;
-    Window_Message.prototype.startMessage = function () {
+    
+    var _Window_Message_startMessage=Window_Message.prototype.startMessage;
+    Window_Message.prototype.startMessage = function() {
         _Window_Message_startMessage.call(this);
-
+        
         //制御文字の除去
         if (this._textState) {
-            this._textState.text = this._textState.text.replace(/\x1bNL\<(.*?)\>/gi, function () {
+            this._textState.text = this._textState.text.replace(/\x1bNL\<(.*?)\>/gi, function() {
                 return escapeNameLabel(arguments[1]);
             }, this);
-
-            if (nameLabelText != '') {
+            
+            if (nameLabelText != ''){
                 this.snhDrawNameLabel();
             }
         }
     };
 
     var _Window_Message_terminateMessage = Window_Message.prototype.terminateMessage;
-    Window_Message.prototype.terminateMessage = function () {
+    Window_Message.prototype.terminateMessage = function() {
         _Window_Message_terminateMessage.call(this);
-
+        
         //ラベルの除去
         this.snhRemoveNameLabel();
     };
-
+    
     //メイン処理
-    Window_Message.prototype.snhDrawNameLabel = function () {
+    Window_Message.prototype.snhDrawNameLabel = function(){
         let spriteBase = new Sprite();
-
+        
         let nameBitmap = new Bitmap(0, 0);
         let nameSprite = new Sprite();
 
         let cSize = nameBitmap.measureTextWidth('幅');
         let nameWidth = nameBitmap.measureTextWidth(nameLabelText);
-
+        
         let scene = SceneManager._scene;
-
+        
         //位置調整
         let startX = nameLabelChoseiX;
         let startY = nameLabelChoseiY;
         spriteBase.move(startX, startY);
-
+        
         //文字の設定
         nameBitmap.fontSize = nameLabelFontSize;
-        nameBitmap.textColor = scene._messageWindow.textColor(nameLabelFontColor);
-        nameBitmap.outlineColor = scene._messageWindow.textColor(nameLabelFontOutLineColor);
+        nameBitmap.textColor=scene._messageWindow.textColor(nameLabelFontColor);
+        nameBitmap.outlineColor=scene._messageWindow.textColor(nameLabelFontOutLineColor);
 
         //ネームプレートがない時は終わり
         let wNamePlate = namePlate[0];
         if (!wNamePlate) {
             return;
         }
-
+        
         let height = wNamePlate.height;
         let width = wNamePlate.width;
-
+        
         //ネームプレートを設定
         let namePlateSprite = new Sprite();
         if (width > 0) {
@@ -786,19 +786,19 @@
             namePlateSprite.bitmap = namePlateBitmap;
             namePlateSprite.rotation = wNamePlate.rotation * Math.PI / 180;
 
-            if (wNamePlate.gradationMode) {
+            if (wNamePlate.gradationMode){
                 namePlateBitmap.gradientFillRect(0, 0, width, wNamePlate.height
-                    , 'rgba(' + wNamePlate.color1.red + ',' + wNamePlate.color1.green + ',' + wNamePlate.color1.blue + ',' + wNamePlate.color1.opacity + ')'
-                    , 'rgba(' + wNamePlate.color2.red + ',' + wNamePlate.color2.green + ',' + wNamePlate.color2.blue + ',' + wNamePlate.color2.opacity + ')'
-                    , wNamePlate.gradationVertical);
+                                                 ,'rgba(' + wNamePlate.color1.red + ',' + wNamePlate.color1.green + ',' + wNamePlate.color1.blue + ',' + wNamePlate.color1.opacity+')'
+                                                 ,'rgba(' + wNamePlate.color2.red + ',' + wNamePlate.color2.green + ',' + wNamePlate.color2.blue + ',' + wNamePlate.color2.opacity+')'
+                                                 , wNamePlate.gradationVertical);
             } else {
                 namePlateBitmap.fillRect(0, 0, width, wNamePlate.height
-                    , 'rgba(' + wNamePlate.color1.red + ',' + wNamePlate.color1.green + ',' + wNamePlate.color1.blue + ',' + wNamePlate.color1.opacity + ')');
+                                         ,'rgba('+wNamePlate.color1.red+','+ wNamePlate.color1.green+','+ wNamePlate.color1.blue+','+ wNamePlate.color1.opacity+')');
             }
-
+            
             spriteBase.addChild(namePlateSprite);
         }
-
+        
         //ネームプレート画像
         if (namePlatePicture && namePlatePicture.length > 0) {
             namePlatePicture[0]
@@ -808,7 +808,7 @@
                 if (namePlatePictureWidth === 0) {
                     namePlatePictureWidth = namePlatePicture[0].width;
                 }
-
+                
                 width = nameWidth + wNamePlate.paddingX * 2;
                 platePictureSprite.scale.x = width / namePlatePictureWidth;
             }
@@ -821,18 +821,18 @@
 
         //プレートの高さが十分な時
         if (nameLabelFontSize < wNamePlate.height - wNamePlate.paddingY * 2) {
-            let wHeight = wNamePlate.height - wNamePlate.paddingY;
+            let wHeight =  wNamePlate.height - wNamePlate.paddingY;
             if (nameLabelAlignY === 'up') {
                 yChosei = wNamePlate.paddingY;
             } else if (nameLabelAlignY === 'center') {
                 yChosei = wNamePlate.paddingY + (wHeight - wNamePlate.paddingY - nameLabelFontSize) / 2;
             } else if (nameLabelAlignY === 'down') {
-                yChosei = wNamePlate.paddingY + (wHeight - nameLabelFontSize - wNamePlate.paddingY);
+                yChosei = wNamePlate.paddingY+ (wHeight - nameLabelFontSize - wNamePlate.paddingY);
             }
         } else {
             yChosei = wNamePlate.paddingY;
         }
-
+        
         if (nameAutoMode && wNamePlate.width > 0) {
             width -= wNamePlate.paddingX * 2;
         } else {
@@ -841,21 +841,21 @@
 
         nameBitmap.resize(width, cSize);
         nameSprite.bitmap = nameBitmap;
-
+        
         let drawNameFinish = false;
         nameSprite.move(wNamePlate.paddingX, yChosei);
-
+        
         //パーツと名前の描画
         if (partsList.length > 0) {
-            for (let parts of partsList) {
+            for(let parts of partsList) {
                 if (nameLabelOrderNo < parts.orderNo && !drawNameFinish) {
                     spriteBase.addChild(this.snhDrawingName(nameSprite, width, cSize));
                     drawNameFinish = true;
                 }
                 let sprite = new Sprite(parts.bitmap);
                 sprite.move(parts.positionX, parts.positionY);
-
-                if (parts.type === 'rect') {
+                
+                if (parts.type === 'rect'){
                     sprite.rotation = parts.rotation * Math.PI / 180;
                 } else if (parts.type === 'picture') {
                     sprite.opacity = parts.opacity;
@@ -863,34 +863,34 @@
                     sprite.scale.x = parts.scaleX;
                     sprite.scale.y = parts.scaleY;
                 }
-
+                
                 spriteBase.addChild(sprite);
             }
         }
-
+        
         if (!drawNameFinish) {
             spriteBase.addChild(this.snhDrawingName(nameSprite, width, cSize));
         }
-
+        
         this.snhSetNameLabelSprite(spriteBase);
     };
 
     // 名前を描画して返す
-    Window_Message.prototype.snhDrawingName = function (sprite, width, height) {
+    Window_Message.prototype.snhDrawingName = function(sprite, width, height) {
         sprite.bitmap.drawText(nameLabelText, 0, 0, width, height, nameLabelAlignX);
         return sprite;
     }
-
+    
     // スプライトの登録
-    Window_Message.prototype.snhSetNameLabelSprite = function (sprite) {
+    Window_Message.prototype.snhSetNameLabelSprite = function(sprite) {
         this.addChild(sprite);
         //実際に入るスプライトは１件なのでリストに入れる必要はないですが、作る時に紆余曲折あり、その名残です。
         this._snhNameLabelList.push(sprite);
     }
-
+    
     //名前ラベルの除去
-    Window_Message.prototype.snhRemoveNameLabel = function () {
-        if (this._snhNameLabelList && this._snhNameLabelList.length > 0) {
+    Window_Message.prototype.snhRemoveNameLabel = function() {
+        if (this._snhNameLabelList && this._snhNameLabelList.length > 0){
             for (let label of this._snhNameLabelList) {
                 this.removeChild(label);
             }
@@ -900,7 +900,7 @@
         nameLabelText = '';
     };
 
-
+    
 })();
 
 

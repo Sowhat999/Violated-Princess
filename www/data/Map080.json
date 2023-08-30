@@ -1,4 +1,4 @@
-{
+﻿{
     "autoplayBgm": false,
     "autoplayBgs": false,
     "battleback1Name": "",
@@ -1633,7 +1633,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>（薄暗いな…照明がないのか？）"
+                                "(It's dim... Are there no lights?) \\n< Serena >"
                             ]
                         },
                         {
@@ -1657,14 +1657,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>（先ほどの人間もいない。"
+                                "(There's nobody here since before. There must be a"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "どこかに隠し扉があるという事だな）"
+                                "hidden door somewhere.) \\n< Serena >"
                             ]
                         },
                         {
@@ -1688,7 +1688,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>早速先ほど教わった合言葉の出番か。"
+                                "Is it time to use the password we learned earlier? \\n< Serena >"
                             ]
                         },
                         {
@@ -1712,7 +1712,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>あー…『私たち三人、いつまた会おうか。"
+                                "Ah... When will the three of us meet again? \\n< Serena >"
                             ]
                         },
                         {
@@ -1730,7 +1730,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>いかずち、らいめい"
+                                "Thunder, lightning. \\n< Serena >"
                             ]
                         },
                         {
@@ -1747,7 +1747,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>それとも雨のなか？』"
+                                "Or in the rain? \\n< Serena >"
                             ]
                         },
                         {
@@ -1794,7 +1794,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>隠し階段か…。"
+                                "A hidden staircase, huh... \\n< Serena >"
                             ]
                         },
                         {
@@ -1818,7 +1818,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>……。"
+                                "......"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n< Serena >"
                             ]
                         },
                         {

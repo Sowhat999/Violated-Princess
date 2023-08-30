@@ -284,7 +284,7 @@ if (!Imported.CommonPopupCore) {
  * 公開
  */
 
-(function () {
+(function() {
     var parameters = PluginManager.parameters('GetInformation');
     var infoDisableSwitchId = Number(parameters['Info Disable Switch Id'] || 10);
     var getGoldText = String(parameters['Get Gold Text']);
@@ -326,25 +326,25 @@ if (!Imported.CommonPopupCore) {
 
     var fLvUpText = String(parameters['Formation Lv Up Text']);
     var fLvMaxText = String(parameters['Formation Lv Max Text']);
-
+    
     var battleShowList = String(parameters['Battle Show List']).split(',');
 
     var _gInfo_GInterpreter_pluginCommand = Game_Interpreter.prototype.pluginCommand;
-    Game_Interpreter.prototype.pluginCommand = function (command, args) {
+    Game_Interpreter.prototype.pluginCommand = function(command, args) {
         _gInfo_GInterpreter_pluginCommand.call(this, command, args);
         if (command === 'ShowInfo' || command === 'インフォ表示') {
-            CommonPopupManager.showInfo({}, args[0], null);
+            CommonPopupManager.showInfo({},args[0],null);
         }
     };
 
-    CommonPopupManager.popEnable = function () {
+    CommonPopupManager.popEnable = function() {
         var useBattle = $gameParty.inBattle() ? useBattleInfo : true;
         return !$gameSwitches.value(infoDisableSwitchId) && useBattle;
     };
 
     // Change Gold
     var _gInfo_GInterpreter_command125 = Game_Interpreter.prototype.command125;
-    Game_Interpreter.prototype.command125 = function () {
+    Game_Interpreter.prototype.command125 = function() {
         CommonPopupManager._popEnable = CommonPopupManager.popEnable();
         var result = _gInfo_GInterpreter_command125.call(this);
         CommonPopupManager._popEnable = false;
@@ -352,7 +352,7 @@ if (!Imported.CommonPopupCore) {
     };
     // Change Item
     var _gInfo_GInterpreter_command126 = Game_Interpreter.prototype.command126;
-    Game_Interpreter.prototype.command126 = function () {
+    Game_Interpreter.prototype.command126 = function() {
         CommonPopupManager._popEnable = CommonPopupManager.popEnable();
         var result = _gInfo_GInterpreter_command126.call(this);
         CommonPopupManager._popEnable = false;
@@ -360,7 +360,7 @@ if (!Imported.CommonPopupCore) {
     };
     // Change Weapon
     var _gInfo_GInterpreter_command127 = Game_Interpreter.prototype.command127;
-    Game_Interpreter.prototype.command127 = function () {
+    Game_Interpreter.prototype.command127 = function() {
         CommonPopupManager._popEnable = CommonPopupManager.popEnable();
         var result = _gInfo_GInterpreter_command127.call(this);
         CommonPopupManager._popEnable = false;
@@ -368,7 +368,7 @@ if (!Imported.CommonPopupCore) {
     };
     // Change Armor
     var _gInfo_GInterpreter_command128 = Game_Interpreter.prototype.command128;
-    Game_Interpreter.prototype.command128 = function () {
+    Game_Interpreter.prototype.command128 = function() {
         CommonPopupManager._popEnable = CommonPopupManager.popEnable();
         var result = _gInfo_GInterpreter_command128.call(this);
         CommonPopupManager._popEnable = false;
@@ -376,7 +376,7 @@ if (!Imported.CommonPopupCore) {
     };
     // Change EXP
     var _gInfo_GInterpreter_command315 = Game_Interpreter.prototype.command315;
-    Game_Interpreter.prototype.command315 = function () {
+    Game_Interpreter.prototype.command315 = function() {
         CommonPopupManager._popEnable = CommonPopupManager.popEnable();
         var result = _gInfo_GInterpreter_command315.call(this);
         CommonPopupManager._popEnable = false;
@@ -384,7 +384,7 @@ if (!Imported.CommonPopupCore) {
     };
     // Change Level
     var _gInfo_GInterpreter_command316 = Game_Interpreter.prototype.command316;
-    Game_Interpreter.prototype.command316 = function () {
+    Game_Interpreter.prototype.command316 = function() {
         CommonPopupManager._popEnable = CommonPopupManager.popEnable();
         var result = _gInfo_GInterpreter_command316.call(this);
         CommonPopupManager._popEnable = false;
@@ -392,7 +392,7 @@ if (!Imported.CommonPopupCore) {
     };
     // Change Parameter
     var _gInfo_GInterpreter_command317 = Game_Interpreter.prototype.command317;
-    Game_Interpreter.prototype.command317 = function () {
+    Game_Interpreter.prototype.command317 = function() {
         CommonPopupManager._popEnable = CommonPopupManager.popEnable();
         var result = _gInfo_GInterpreter_command317.call(this);
         CommonPopupManager._popEnable = false;
@@ -400,75 +400,75 @@ if (!Imported.CommonPopupCore) {
     };
     // Change Skill
     var _gInfo_GInterpreter_command318 = Game_Interpreter.prototype.command318;
-    Game_Interpreter.prototype.command318 = function () {
+    Game_Interpreter.prototype.command318 = function() {
         CommonPopupManager._popEnable = CommonPopupManager.popEnable();
         var result = _gInfo_GInterpreter_command318.call(this);
         CommonPopupManager._popEnable = false;
         return result;
     };
 
-    Game_Actor.prototype.addParam = function (paramId, value) {
+    Game_Actor.prototype.addParam = function(paramId, value) {
         Game_BattlerBase.prototype.addParam.call(this, paramId, value);
         if (CommonPopupManager._popEnable) {
-            if ($gameParty.inBattle() && !battleShowList.contains('params')) { return }
+            if ($gameParty.inBattle() && !battleShowList.contains('params')){ return }
             CommonPopupManager.showInfo({
-                'name': TextManager.param(paramId),
-                'value': value > 0
-            }, value, 'param', this.actorId());
+                'name' : TextManager.param(paramId),
+                'value' : value > 0
+            }, value, 'param',this.actorId());
         }
     };
     var _gInfo_GParty_gainGold = Game_Party.prototype.gainGold;
-    Game_Party.prototype.gainGold = function (amount) {
+    Game_Party.prototype.gainGold = function(amount) {
         _gInfo_GParty_gainGold.call(this, amount);
         if (CommonPopupManager._popEnable) {
-            if ($gameParty.inBattle() && !battleShowList.contains('gold')) { return }
+            if ($gameParty.inBattle() && !battleShowList.contains('gold')){ return }
             var hash = {
-                'name': '',
-                'iconIndex': goldIconIndex,
-                'description': '',
-                'value': Math.abs(amount)
+                'name' : '',
+                'iconIndex' : goldIconIndex,
+                'description' : '',
+                'value' : Math.abs(amount)
             };
             CommonPopupManager.showInfo(hash, amount, 'gold');
         }
     };
     var _gInfo_GParty_gainItem = Game_Party.prototype.gainItem;
-    Game_Party.prototype.gainItem = function (item, amount, includeEquip) {
+    Game_Party.prototype.gainItem = function(item, amount, includeEquip) {
         var result = _gInfo_GParty_gainItem.call(this, item, amount, includeEquip);
         if (CommonPopupManager._popEnable) {
-            if (this.inBattle() && !battleShowList.contains('item')) { return }
+            if (this.inBattle() && !battleShowList.contains('item')){ return }
             CommonPopupManager.showInfo(item, amount, 'item');
         }
         if (Imported.YEP_CoreEngine) return result;
     };
-
+    
     var _gInfo_GActor_learnSkill = Game_Actor.prototype.learnSkill;
-    Game_Actor.prototype.learnSkill = function (skillId) {
+    Game_Actor.prototype.learnSkill = function(skillId) {
         var isLearn = this.isLearnedSkill(skillId);
         _gInfo_GActor_learnSkill.call(this, skillId);
         if (CommonPopupManager._popEnable && !isLearn) {
-            if ($gameParty.inBattle() && !battleShowList.contains('skill')) { return }
+            if ($gameParty.inBattle() && !battleShowList.contains('skill')){ return }
             CommonPopupManager.showInfo($dataSkills[skillId], 1, 'skill', this.actorId());
         }
     };
     var _gInfo_GActor_forgetSkill = Game_Actor.prototype.forgetSkill;
-    Game_Actor.prototype.forgetSkill = function (skillId) {
+    Game_Actor.prototype.forgetSkill = function(skillId) {
         var isLearn = this.isLearnedSkill(skillId);
         _gInfo_GActor_forgetSkill.call(this, skillId);
         if (CommonPopupManager._popEnable && isLearn) {
-            if ($gameParty.inBattle() && !battleShowList.contains('skill')) { return }
+            if ($gameParty.inBattle() && !battleShowList.contains('skill')){ return }
             CommonPopupManager.showInfo($dataSkills[skillId], 2, 'skill', this.actorId());
         }
     };
     var _gInfo_GActor_changeExp = Game_Actor.prototype.changeExp;
-    Game_Actor.prototype.changeExp = function (exp, show) {
+    Game_Actor.prototype.changeExp = function(exp, show) {
         var tExp = exp - this.currentExp();
         var plevel = this.level;
         var pSkills = this._skills.clone();
         if (CommonPopupManager._popEnable) {
-            if (!$gameParty.inBattle() || battleShowList.contains('exp')) {
+            if (!$gameParty.inBattle() || battleShowList.contains('exp')){
                 CommonPopupManager.showInfo({
-                    'name': TextManager.exp,
-                    'value': tExp > 0
+                    'name' : TextManager.exp,
+                    'value' : tExp > 0
                 }, tExp, 'exp', this.actorId());
             }
         }
@@ -476,27 +476,27 @@ if (!Imported.CommonPopupCore) {
         CommonPopupManager._popEnable = false;
         _gInfo_GActor_changeExp.call(this, exp, show);
         CommonPopupManager._popEnable = tempEnable;
-        if ((this.level - plevel) !== 0) {
+        if ((this.level - plevel) !== 0){
             var upLevel = this.level - plevel;
             if (CommonPopupManager._popEnable) {
-                if ($gameParty.inBattle() && !battleShowList.contains('level')) { return }
+                if ($gameParty.inBattle() && !battleShowList.contains('level')){ return }
                 CommonPopupManager.showInfo({
-                    'name': TextManager.level,
-                    'value': upLevel > 0
+                    'name' : TextManager.level,
+                    'value' : upLevel > 0
                 }, upLevel, 'level', this.actorId());
-            }
+            }   
         }
         if (CommonPopupManager._popEnable) {
-            this._skills.forEach(function (skillId) {
-                if (!pSkills.contains(skillId)) {
+            this._skills.forEach(function(skillId){
+                if (!pSkills.contains(skillId)){
                     CommonPopupManager.showInfo($dataSkills[skillId], 1, 'skill', this.actorId());
                 }
             }.bind(this));
         }
     };
-
+    
     var _gInfo_GActor_changeLevel = Game_Actor.prototype.changeLevel;
-    Game_Actor.prototype.changeLevel = function (level, show) {
+    Game_Actor.prototype.changeLevel = function(level, show) {
         var upLevel = level - this.level;
         var tempEnable = CommonPopupManager._popEnable;
         var pSkills = this._skills.clone();
@@ -504,81 +504,81 @@ if (!Imported.CommonPopupCore) {
         _gInfo_GActor_changeLevel.call(this, level, show);
         CommonPopupManager._popEnable = tempEnable;
         if (CommonPopupManager._popEnable) {
-            if ($gameParty.inBattle() && !battleShowList.contains('level')) { return }
+            if ($gameParty.inBattle() && !battleShowList.contains('level')){ return }
             CommonPopupManager.showInfo({
-                'name': TextManager.level,
-                'value': upLevel > 0
+                'name' : TextManager.level,
+                'value' : upLevel > 0
             }, upLevel, 'level', this.actorId());
-
-            this._skills.forEach(function (skillId) {
-                if (!pSkills.contains(skillId)) {
+            
+            this._skills.forEach(function(skillId){
+                if (!pSkills.contains(skillId)){
                     CommonPopupManager.showInfo($dataSkills[skillId], 1, 'skill', this.actorId());
                 }
             }.bind(this));
         }
     };
-
-    if (Imported['VXandAceHybridClass']) {
-
+    
+    if (Imported['VXandAceHybridClass']){
+        
         // Change Class Level
         var _gInfo_GInterpreter_changeClassLevel = Game_Interpreter.prototype.changeClassLevel;
-        Game_Interpreter.prototype.changeClassLevel = function (actorId, level, show) {
+        Game_Interpreter.prototype.changeClassLevel = function(actorId,level,show) {
             CommonPopupManager._popEnable = CommonPopupManager.popEnable();
-            _gInfo_GInterpreter_changeClassLevel.call(this, actorId, level, show);
+            _gInfo_GInterpreter_changeClassLevel.call(this,actorId,level,show);
             CommonPopupManager._popEnable = false;
         };
-
+        
         // Change Abp
         var _gInfo_GInterpreter_changeAbp = Game_Interpreter.prototype.changeAbp;
-        Game_Interpreter.prototype.changeAbp = function (actorId, abp, show) {
+        Game_Interpreter.prototype.changeAbp = function(actorId,abp,show) {
             CommonPopupManager._popEnable = CommonPopupManager.popEnable();
-            var result = _gInfo_GInterpreter_changeAbp.call(this, actorId, abp, show);
+            var result = _gInfo_GInterpreter_changeAbp.call(this,actorId,abp,show);
             CommonPopupManager._popEnable = false;
             return result;
         };
-
+        
         var _gInfo_GActor_changeAbp = Game_Actor.prototype.changeAbp;
-        Game_Actor.prototype.changeAbp = function (abp, show) {
+        Game_Actor.prototype.changeAbp = function(abp, show) {
             var tAbp = abp - this.currentAbp();
             var plevel = this.currentClassLevel();
             var pSkills = this._skills.clone();
             if (CommonPopupManager._popEnable) {
-                if (!$gameParty.inBattle() || battleShowList.contains('abp')) {
+                if (!$gameParty.inBattle() || battleShowList.contains('abp')){
                     CommonPopupManager.showInfo({
-                        'name': TextManager.abp,
-                        'value': tAbp > 0
+                        'name' : TextManager.abp,
+                        'value' : tAbp > 0
                     }, tAbp, 'abp', this.actorId());
                 }
             }
-
+            
             var tempEnable = CommonPopupManager._popEnable;
             CommonPopupManager._popEnable = false;
-
+            
             _gInfo_GActor_changeAbp.call(this, abp, show);
-
+            
             CommonPopupManager._popEnable = tempEnable;
-
-            if ((this.currentClassLevel() - plevel) !== 0) {
+            
+            if ((this.currentClassLevel() - plevel) !== 0){
                 var upLevel = this.currentClassLevel() - plevel;
                 if (CommonPopupManager._popEnable) {
-                    if ($gameParty.inBattle() && !battleShowList.contains('classLevel')) { return }
+                    if ($gameParty.inBattle() && !battleShowList.contains('classLevel')){ return }
                     CommonPopupManager.showInfo({
-                        'name': TextManager.classLevel,
-                        'value': upLevel > 0
+                        'name' : TextManager.classLevel,
+                        'value' : upLevel > 0
                     }, upLevel, 'classLevel', this.actorId(), this.currentClass().name);
-                }
+                }   
             }
             if (CommonPopupManager._popEnable) {
-                this._skills.forEach(function (skillId) {
-                    if (!pSkills.contains(skillId)) {
+                this._skills.forEach(function(skillId){
+                    if (!pSkills.contains(skillId)){
                         CommonPopupManager.showInfo($dataSkills[skillId], 1, 'skill', this.actorId());
                     }
                 }.bind(this));
             }
         };
-
+        
         var _gInfo_GActor_changeClassLevel = Game_Actor.prototype.changeClassLevel;
-        Game_Actor.prototype.changeClassLevel = function (level, show) {
+        Game_Actor.prototype.changeClassLevel = function(level, show) {
             var upLevel = level - this.currentClassLevel();
             var tempEnable = CommonPopupManager._popEnable;
             var pSkills = this._skills.clone();
@@ -586,18 +586,18 @@ if (!Imported.CommonPopupCore) {
             _gInfo_GActor_changeClassLevel.call(this, level, show);
             CommonPopupManager._popEnable = tempEnable;
             if (CommonPopupManager._popEnable) {
-                if ($gameParty.inBattle() && !battleShowList.contains('classLevel')) { return }
+                if ($gameParty.inBattle() && !battleShowList.contains('classLevel')){ return }
                 CommonPopupManager.showInfo({
-                    'name': TextManager.classLevel,
-                    'value': upLevel > 0
+                    'name' : TextManager.classLevel,
+                    'value' : upLevel > 0
                 }, upLevel, 'classLevel', this.actorId(), this.currentClass().name);
-
-                this._skills.forEach(function (skillId) {
-                    if (!pSkills.contains(skillId)) {
+                
+                this._skills.forEach(function(skillId){
+                    if (!pSkills.contains(skillId)){
                         CommonPopupManager.showInfo($dataSkills[skillId], 1, 'skill', this.actorId());
                     }
                 }.bind(this));
-            }
+            }   
         };
     }
 
@@ -628,11 +628,13 @@ if (!Imported.CommonPopupCore) {
         }
     };
 
-    CommonPopupManager.showInfo = function (object, value, type, actor, c) {
+    CommonPopupManager.showInfo = function(object, value, type, actor, c) {
+        let _judgeForReplace = false;//Added code
+
         var text1 = null;
         if (value === 0) { return }
-        var se = { name: '', volume: 90, pitch: 100, pan: 0 };
-        switch (type) {
+        var se = {name:'',volume:90,pitch:100,pan:0};
+        switch(type) {
             case 'gold':
                 text1 = getGoldText;
                 if (value < 0) {
@@ -670,12 +672,13 @@ if (!Imported.CommonPopupCore) {
             case 'formationLevel':
                 text1 = object.value === 'max' ? fLvMaxText : fLvUpText;
                 break;
-            default:
+            default :
+                _judgeForReplace = true;//Added code
                 text1 = value;
         }
         if (text1 === '') return;
         if (text1 === 'null') return;
-        text1 = text1.replace(/^_se\[(.+?)\]/i, function () {
+        text1 = text1.replace(/^_se\[(.+?)\]/i,function(){
             var tx = arguments[1].split(',');
             se.name = tx[0];
             if (tx[1]) se.volume = parseInt(tx[1], 10);
@@ -687,7 +690,7 @@ if (!Imported.CommonPopupCore) {
         if (actor) {
             actor = $gameActors.actor(actor);
             text1 = text1.replace(/_actor/g, actor.name());
-            text1 = text1.replace(/_aicon/g, actor.actorId() + actorIconStartIndex - 1);
+            text1 = text1.replace(/_aicon/g, actor.actorId()+actorIconStartIndex-1);
         }
         if (c) { text1 = text1.replace(/_class/g, c) }
         text1 = text1.replace(/_name/g, object.name);
@@ -695,6 +698,13 @@ if (!Imported.CommonPopupCore) {
         text1 = text1.replace(/_num/g, Math.abs(value));
         text1 = descs[0] ? text1.replace(/_desc1/g, descs[0]) : text1.replace(/_desc1/g, '');
         text1 = descs[1] ? text1.replace(/_desc2/g, descs[1]) : text1.replace(/_desc2/g, '');
+
+        //---Added code---
+        if (_judgeForReplace) {
+            text1 = text1.replace(/_/g, " ");
+        }
+        //----------------
+        
         var texts = text1.split(/\n|\\n/);
         for (var i = 0; i < texts.length; i++) {
             var text = texts[i].replace(/\\C\[\d+\]/g, '');
@@ -723,7 +733,7 @@ if (!Imported.CommonPopupCore) {
             arg.anchorY = 1.0;
             arg.pattern = -2;
             if (infoSlideAction === 'Down') arg.anchorY = 0;
-        } else if (infoPattern === 'Stretch') {
+        } else if (infoPattern === 'Stretch'){
             arg.x = 0 + infoSupX;
             arg.y = Graphics.boxHeight - height;
             arg.moveX = 0;
@@ -748,22 +758,22 @@ if (!Imported.CommonPopupCore) {
                 arg.y = Math.min(arg.y, my - height + height * arg.anchorY);
             }
         }
-        if ((SceneManager._scene._statusWindow && SceneManager._scene._statusWindow.isOpen())) {
+        if ((SceneManager._scene._statusWindow && SceneManager._scene._statusWindow.isOpen())){
             var sy = SceneManager._scene._statusWindow.y;
-            arg.y = Math.min(arg.y, sy - height + height * arg.anchorY);
+            arg.y = Math.min(arg.y,sy - height +  height * arg.anchorY);
         }
         arg.moveY = 0;
         arg.count = infoCount;
         arg.fixed = false;
-        arg.extend = [infoMoveFade, infoMoveWait];
+        arg.extend = [infoMoveFade,infoMoveWait];
         arg.slideCount = infoSlideCount;
         arg.delay = 0;
         arg.slideAction = infoSlideAction;
         if (!CommonPopupManager._tempCommonSprites) CommonPopupManager._tempCommonSprites = [];
         var array = CommonPopupManager._tempCommonSprites.compact();
         var ld = CommonPopupManager._lastIndex;
-        if (ld !== undefined && ld >= 0 && array[ld]) {
-            array.sort(function (a, b) { return a.delay > b.delay ? -1 : 1 });
+        if (ld !== undefined && ld >= 0 && array[ld]){
+            array.sort(function(a,b){ return a.delay > b.delay ? -1 : 1 });
             arg.delay = array[0].delay + infoDelay;
         }
         if ($gameTemp._popupDelay && arg.delay === 0) arg.delay += $gameTemp._popupDelay;
@@ -771,7 +781,7 @@ if (!Imported.CommonPopupCore) {
     };
 
     var _gInfo_BManager_gainRewards = BattleManager.gainRewards;
-    BattleManager.gainRewards = function () {
+    BattleManager.gainRewards = function() {
         CommonPopupManager._popEnable = CommonPopupManager.popEnable() && useRewardsInfo;
         $gameTemp._popupDelay = rewardPopupDelay;
         _gInfo_BManager_gainRewards.call(this);

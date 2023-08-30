@@ -126,11 +126,11 @@
  *  このプラグインはもうあなたのものです。
  */
 
-(function () {
+(function() {
     'use strict';
     var pluginName = 'GeneralTrigger';
 
-    var getParamOther = function (paramNames) {
+    var getParamOther = function(paramNames) {
         if (!Array.isArray(paramNames)) paramNames = [paramNames];
         for (var i = 0; i < paramNames.length; i++) {
             var name = PluginManager.parameters(pluginName)[paramNames[i]];
@@ -139,14 +139,14 @@
         return null;
     };
 
-    var getParamNumber = function (paramNames, min, max) {
+    var getParamNumber = function(paramNames, min, max) {
         var value = getParamOther(paramNames);
         if (arguments.length < 2) min = -Infinity;
         if (arguments.length < 3) max = Infinity;
         return (parseInt(value, 10) || 0).clamp(min, max);
     };
 
-    var getParamBoolean = function (paramNames) {
+    var getParamBoolean = function(paramNames) {
         var value = getParamOther(paramNames);
         return (value || '').toUpperCase() === 'ON';
     };
@@ -154,24 +154,24 @@
     //=============================================================================
     // パラメータの取得と整形
     //=============================================================================
-    var paramNewGame = getParamNumber(['NewGame', 'ニューゲーム']);
-    var paramContinue = getParamNumber(['Continue', 'コンティニュー']);
-    var paramOptions = getParamNumber(['Options', 'オプション画面']);
-    var paramSave = getParamNumber(['Save', 'セーブ画面']);
-    var paramMenu = getParamNumber(['Menu', 'メニュー画面']);
-    var paramBattle = getParamNumber(['Battle', '戦闘画面']);
-    var paramShop = getParamNumber(['Shop', 'ショップ画面']);
-    var paramMoveMap = getParamNumber(['MoveMap', '別マップ移動']);
-    var paramGainItem = getParamNumber(['GainItem', 'アイテム増減']);
-    var paramGainWeapon = getParamNumber(['GainWeapon', '武器増減']);
-    var paramGainArmor = getParamNumber(['GainArmor', '防具増減']);
-    var paramItemId = getParamNumber(['ItemId', 'アイテムID']);
-    var paramItemAmount = getParamNumber(['ItemAmount', 'アイテム個数']);
-    var paramAddMember = getParamNumber(['AddMember', 'メンバー加入']);
+    var paramNewGame      = getParamNumber(['NewGame', 'ニューゲーム']);
+    var paramContinue     = getParamNumber(['Continue', 'コンティニュー']);
+    var paramOptions      = getParamNumber(['Options', 'オプション画面']);
+    var paramSave         = getParamNumber(['Save', 'セーブ画面']);
+    var paramMenu         = getParamNumber(['Menu', 'メニュー画面']);
+    var paramBattle       = getParamNumber(['Battle', '戦闘画面']);
+    var paramShop         = getParamNumber(['Shop', 'ショップ画面']);
+    var paramMoveMap      = getParamNumber(['MoveMap', '別マップ移動']);
+    var paramGainItem     = getParamNumber(['GainItem', 'アイテム増減']);
+    var paramGainWeapon   = getParamNumber(['GainWeapon', '武器増減']);
+    var paramGainArmor    = getParamNumber(['GainArmor', '防具増減']);
+    var paramItemId       = getParamNumber(['ItemId', 'アイテムID']);
+    var paramItemAmount   = getParamNumber(['ItemAmount', 'アイテム個数']);
+    var paramAddMember    = getParamNumber(['AddMember', 'メンバー加入']);
     var paramRemoveMember = getParamNumber(['RemoveMember', 'メンバー離脱']);
-    var paramLevelUp = getParamNumber(['LevelUp', 'レベルアップ']);
-    var paramLevelDown = getParamNumber(['LevelDown', 'レベルダウン']);
-    var paramActorId = getParamNumber(['ActorId', 'アクターID']);
+    var paramLevelUp      = getParamNumber(['LevelUp', 'レベルアップ']);
+    var paramLevelDown    = getParamNumber(['LevelDown', 'レベルダウン']);
+    var paramActorId      = getParamNumber(['ActorId', 'アクターID']);
     var paramValidOnlyMap = getParamBoolean(['ValidOnlyMap', 'マップ画面でのみ有効']);
 
     //=============================================================================
@@ -179,26 +179,26 @@
     //  トリガースイッチを設定処理を追加定義します。
     //=============================================================================
     var _SceneManager_pop = SceneManager.pop;
-    SceneManager.pop = function () {
+    SceneManager.pop      = function() {
         if (this._stack.length > 0) {
             this._scene.setPopTrigger();
         }
         _SceneManager_pop.apply(this, arguments);
     };
 
-    SceneManager.setTriggerSwitch = function (switchNumber) {
+    SceneManager.setTriggerSwitch = function(switchNumber) {
         if ($gameSwitches && switchNumber > 0) {
             $gameSwitches.setValue(switchNumber, true);
         }
     };
 
-    SceneManager.setTriggerVariable = function (variableNumber, value) {
+    SceneManager.setTriggerVariable = function(variableNumber, value) {
         if ($gameVariables && variableNumber > 0) {
             $gameVariables.setValue(variableNumber, value);
         }
     };
 
-    SceneManager.isTriggerValid = function () {
+    SceneManager.isTriggerValid = function() {
         return !paramValidOnlyMap || this._scene instanceof Scene_Map;
     };
 
@@ -207,13 +207,13 @@
     //  ニューゲーム、コンティニューのトリガースイッチを設定します。
     //=============================================================================
     var _DataManager_setupNewGame = DataManager.setupNewGame;
-    DataManager.setupNewGame = function () {
+    DataManager.setupNewGame      = function() {
         _DataManager_setupNewGame.apply(this, arguments);
         SceneManager.setTriggerSwitch(paramNewGame);
     };
 
     var _DataManager_loadGame = DataManager.loadGame;
-    DataManager.loadGame = function (saveFileId) {
+    DataManager.loadGame      = function(saveFileId) {
         var result = _DataManager_loadGame.apply(this, arguments);
         SceneManager.setTriggerSwitch(paramContinue);
         return result;
@@ -223,14 +223,14 @@
     // Game_Player
     //  場所移動時にトリガースイッチを設定します。
     //=============================================================================
-    var _Game_Player_reserveTransfer = Game_Player.prototype.reserveTransfer;
-    Game_Player.prototype.reserveTransfer = function (mapId, x, y, d, fadeType) {
+    var _Game_Player_reserveTransfer      = Game_Player.prototype.reserveTransfer;
+    Game_Player.prototype.reserveTransfer = function(mapId, x, y, d, fadeType) {
         _Game_Player_reserveTransfer.apply(this, arguments);
         SceneManager.setTriggerSwitch(paramMoveMap);
     };
 
-    var _Game_Party_addActor = Game_Party.prototype.addActor;
-    Game_Party.prototype.addActor = function (actorId) {
+    var _Game_Party_addActor      = Game_Party.prototype.addActor;
+    Game_Party.prototype.addActor = function(actorId) {
         var length = this._actors.length;
         _Game_Party_addActor.apply(this, arguments);
         if (length !== this._actors.length && SceneManager.isTriggerValid()) {
@@ -239,8 +239,8 @@
         }
     };
 
-    var _Game_Party_removeActor = Game_Party.prototype.removeActor;
-    Game_Party.prototype.removeActor = function (actorId) {
+    var _Game_Party_removeActor      = Game_Party.prototype.removeActor;
+    Game_Party.prototype.removeActor = function(actorId) {
         var length = this._actors.length;
         _Game_Party_removeActor.apply(this, arguments);
         if (length !== this._actors.length && SceneManager.isTriggerValid()) {
@@ -249,8 +249,8 @@
         }
     };
 
-    var _Game_Party_gainItem = Game_Party.prototype.gainItem;
-    Game_Party.prototype.gainItem = function (item, amount, includeEquip) {
+    var _Game_Party_gainItem      = Game_Party.prototype.gainItem;
+    Game_Party.prototype.gainItem = function(item, amount, includeEquip) {
         _Game_Party_gainItem.apply(this, arguments);
         if (!item || !SceneManager.isTriggerValid()) return;
         switch (this.itemContainer(item)) {
@@ -269,7 +269,7 @@
     };
 
     var _Game_Actor_levelUp = Game_Actor.prototype.levelUp;
-    Game_Actor.prototype.levelUp = function () {
+    Game_Actor.prototype.levelUp = function() {
         _Game_Actor_levelUp.apply(this, arguments);
         if (SceneManager.isTriggerValid()) {
             SceneManager.setTriggerSwitch(paramLevelUp);
@@ -278,7 +278,7 @@
     };
 
     var _Game_Actor_levelDown = Game_Actor.prototype.levelDown;
-    Game_Actor.prototype.levelDown = function () {
+    Game_Actor.prototype.levelDown = function() {
         _Game_Actor_levelDown.apply(this, arguments);
         if (SceneManager.isTriggerValid()) {
             SceneManager.setTriggerSwitch(paramLevelDown);
@@ -290,26 +290,26 @@
     // Scene_Base
     //  各クラス用のトリガースイッチを設定します。
     //=============================================================================
-    Scene_Base.prototype.setPopTrigger = function () {
+    Scene_Base.prototype.setPopTrigger = function() {
     };
 
-    Scene_Options.prototype.setPopTrigger = function () {
+    Scene_Options.prototype.setPopTrigger = function() {
         SceneManager.setTriggerSwitch(paramOptions);
     };
 
-    Scene_Menu.prototype.setPopTrigger = function () {
+    Scene_Menu.prototype.setPopTrigger = function() {
         SceneManager.setTriggerSwitch(paramMenu);
     };
 
-    Scene_Save.prototype.setPopTrigger = function () {
+    Scene_Save.prototype.setPopTrigger = function() {
         SceneManager.setTriggerSwitch(paramSave);
     };
 
-    Scene_Shop.prototype.setPopTrigger = function () {
+    Scene_Shop.prototype.setPopTrigger = function() {
         SceneManager.setTriggerSwitch(paramShop);
     };
 
-    Scene_Battle.prototype.setPopTrigger = function () {
+    Scene_Battle.prototype.setPopTrigger = function() {
         SceneManager.setTriggerSwitch(paramBattle);
     };
 })();

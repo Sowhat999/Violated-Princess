@@ -74,7 +74,7 @@
 var Imported = Imported || {};
 var Makonet = Makonet || {};
 
-(function () {
+(function(){
     'use strict';
 
     const plugin_name = 'MpiGetMapImage';
@@ -85,12 +85,12 @@ var Makonet = Makonet || {};
     let _plugin = Makonet[plugin_name];
     let _parameters = PluginManager.parameters(plugin_name);
 
-    _plugin.trigger1 = _parameters['GetImageTrigger1'];
-    _plugin.trigger2 = _parameters['GetImageTrigger2'];
-    _plugin.vertical = Number(_parameters['Vertical Split']) || 1;
+    _plugin.trigger1   = _parameters['GetImageTrigger1'];
+    _plugin.trigger2   = _parameters['GetImageTrigger2'];
+    _plugin.vertical   = Number(_parameters['Vertical Split']) || 1;
     _plugin.horizontal = Number(_parameters['Horizontal Split']) || 1;
-    _plugin.folder = _parameters['OutputFolder'];
-    _plugin.testOnly = _parameters['TestModeOnly'].toLowerCase() === 'true';
+    _plugin.folder     = _parameters['OutputFolder'];
+    _plugin.testOnly   = _parameters['TestModeOnly'].toLowerCase() === 'true';
 
     //==============================================================================
     // Local Function
@@ -176,7 +176,7 @@ var Makonet = Makonet || {};
                 fs.mkdirSync(folder);
             }
             let strIndex = (array.length > 1) ? '_' + index.padZero(2) : '';
-            let date = (function () {
+            let date = (function(){
                 let date = new Date();
                 let year = date.getFullYear();
                 let month = date.getMonth() + 1;
@@ -201,10 +201,10 @@ var Makonet = Makonet || {};
     //==============================================================================
     // Scene_Map
     //==============================================================================
-
+    
     {
         let __update = Scene_Map.prototype.update;
-        Scene_Map.prototype.update = function () {
+        Scene_Map.prototype.update = function() {
             if ($gameTemp.isPlaytest() || !_plugin.testOnly) {
                 let trigger1 = !!eval(_plugin.trigger1);
                 let trigger2 = !!eval(_plugin.trigger2);

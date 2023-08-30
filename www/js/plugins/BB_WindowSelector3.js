@@ -114,122 +114,122 @@
  *
  */
 
-(function () {
+(function() {
 
-    var parameters = PluginManager.parameters('BB_WindowSelector3');
-    var BBWSvar = Number(parameters['Variable ID'] || '0');
-    var BBWS1o = Number(parameters['Window1 Opacity'] || '192');
-    var BBWS2o = Number(parameters['Window2 Opacity'] || '192');
-    var BBWS3o = Number(parameters['Window3 Opacity'] || '192');
-    var BBWS1oc = String(parameters['Window1 OutlineColor'] || 'rgba(0, 0, 0, 0.5)');
-    var BBWS1ow = Number(parameters['Window1 OutlineWidth'] || '4');
-    var BBWS2oc = String(parameters['Window2 OutlineColor'] || 'rgba(0, 0, 0, 0.5)');
-    var BBWS2ow = Number(parameters['Window2 OutlineWidth'] || '4');
-    var BBWS3oc = String(parameters['Window3 OutlineColor'] || 'rgba(0, 0, 0, 0.5)');
-    var BBWS3ow = Number(parameters['Window3 OutlineWidth'] || '4');
-    var BBWS1dm = String(parameters['Window1 DimmerColor'] || 'rgba(0, 0, 0, 0.6)');
-    var BBWS2dm = String(parameters['Window1 DimGradationColor'] || 'rgba(0, 0, 0, 0)');
-    var BBWS3dm = String(parameters['Window2 DimmerColor'] || 'rgba(0, 0, 0, 0.6)');
-    var BBWS4dm = String(parameters['Window2 DimGradationColor'] || 'rgba(0, 0, 0, 0)');
-    var BBWS5dm = String(parameters['Window3 DimmerColor'] || 'rgba(0, 0, 0, 0.6)');
-    var BBWS6dm = String(parameters['Window3 DimGradationColor'] || 'rgba(0, 0, 0, 0)');
+        var parameters = PluginManager.parameters('BB_WindowSelector3');
+        var BBWSvar = Number(parameters['Variable ID'] || '0');
+        var BBWS1o = Number(parameters['Window1 Opacity'] || '192');
+        var BBWS2o = Number(parameters['Window2 Opacity'] || '192');
+        var BBWS3o = Number(parameters['Window3 Opacity'] || '192');
+        var BBWS1oc = String(parameters['Window1 OutlineColor'] || 'rgba(0, 0, 0, 0.5)');
+        var BBWS1ow = Number(parameters['Window1 OutlineWidth'] || '4');
+        var BBWS2oc = String(parameters['Window2 OutlineColor'] || 'rgba(0, 0, 0, 0.5)');
+        var BBWS2ow = Number(parameters['Window2 OutlineWidth'] || '4');
+        var BBWS3oc = String(parameters['Window3 OutlineColor'] || 'rgba(0, 0, 0, 0.5)');
+        var BBWS3ow = Number(parameters['Window3 OutlineWidth'] || '4');
+        var BBWS1dm = String(parameters['Window1 DimmerColor'] || 'rgba(0, 0, 0, 0.6)');
+        var BBWS2dm = String(parameters['Window1 DimGradationColor'] || 'rgba(0, 0, 0, 0)');
+        var BBWS3dm = String(parameters['Window2 DimmerColor'] || 'rgba(0, 0, 0, 0.6)');
+        var BBWS4dm = String(parameters['Window2 DimGradationColor'] || 'rgba(0, 0, 0, 0)');
+        var BBWS5dm = String(parameters['Window3 DimmerColor'] || 'rgba(0, 0, 0, 0.6)');
+        var BBWS6dm = String(parameters['Window3 DimGradationColor'] || 'rgba(0, 0, 0, 0)');
 
-    // 画像の読み込み
-    var _Scene_Boot_prototype_loadSystemWindowImage = Scene_Boot.prototype.loadSystemWindowImage;
-    Scene_Boot.prototype.loadSystemWindowImage = function () {
-        ImageManager.loadSystem('Window');
-        ImageManager.loadSystem('Window2');
-        ImageManager.loadSystem('Window3');
-    };
+// 画像の読み込み
+var _Scene_Boot_prototype_loadSystemWindowImage = Scene_Boot.prototype.loadSystemWindowImage;
+Scene_Boot.prototype.loadSystemWindowImage = function() {
+    ImageManager.loadSystem('Window');
+    ImageManager.loadSystem('Window2');
+    ImageManager.loadSystem('Window3');
+};
 
-    // ウインドウ画像の切り替え
-    var _Window_Base_prototype_update = Window_Base.prototype.update;
-    Window_Base.prototype.update = function () {
-        Window.prototype.update.call(this);
-        if ($gameVariables.value(BBWSvar) == 3) {
-            this.windowskin = ImageManager.loadSystem('Window3');
-            this.backOpacity = BBWS3o;
-            this.contents.outlineColor = BBWS3oc;
-            this.contents.outlineWidth = BBWS3ow;
-        } else if ($gameVariables.value(BBWSvar) == 2) {
-            this.windowskin = ImageManager.loadSystem('Window2');
-            this.backOpacity = BBWS2o;
-            this.contents.outlineColor = BBWS2oc;
-            this.contents.outlineWidth = BBWS2ow;
-        } else {
-            this.windowskin = ImageManager.loadSystem('Window');
-            this.backOpacity = BBWS1o;
-            this.contents.outlineColor = BBWS1oc;
-            this.contents.outlineWidth = BBWS1ow;
+// ウインドウ画像の切り替え
+var _Window_Base_prototype_update = Window_Base.prototype.update;
+Window_Base.prototype.update = function() {
+    Window.prototype.update.call(this);
+    if($gameVariables.value(BBWSvar) == 3){
+        this.windowskin = ImageManager.loadSystem('Window3');
+        this.backOpacity = BBWS3o;
+        this.contents.outlineColor = BBWS3oc;
+        this.contents.outlineWidth = BBWS3ow;
+    }else if($gameVariables.value(BBWSvar) == 2){
+        this.windowskin = ImageManager.loadSystem('Window2');
+        this.backOpacity = BBWS2o;
+        this.contents.outlineColor = BBWS2oc;
+        this.contents.outlineWidth = BBWS2ow;
+    }else{
+        this.windowskin = ImageManager.loadSystem('Window');
+        this.backOpacity = BBWS1o;
+        this.contents.outlineColor = BBWS1oc;
+        this.contents.outlineWidth = BBWS1ow;
+    }
+    this.updateTone();
+    this.updateOpen();
+    this.updateClose();
+    this.updateBackgroundDimmer();
+};
+
+var _Window_Base_prototype_updateBackgroundDimmer = Window_Base.prototype.updateBackgroundDimmer;
+Window_Base.prototype.updateBackgroundDimmer = function() {
+    if (this._dimmerSprite) {
+        this._dimmerSprite.opacity = this.openness;
+        this.refreshDimmerBitmap();
+    }
+};
+
+var _Window_Base_prototype_refreshDimmerBitmap = Window_Base.prototype.refreshDimmerBitmap;
+Window_Base.prototype.refreshDimmerBitmap = function() {
+    if (this._dimmerSprite) {
+        var bitmap = this._dimmerSprite.bitmap;
+        var w = this.width;
+        var h = this.height;
+        var m = this.padding;
+        if($gameVariables.value(BBWSvar) == 3){
+            var c1 = this.dimColor5();
+            var c2 = this.dimColor6();
+        }else if($gameVariables.value(BBWSvar) == 2){
+            var c1 = this.dimColor3();
+            var c2 = this.dimColor4();
+        }else{
+            var c1 = this.dimColor1();
+            var c2 = this.dimColor2();
         }
-        this.updateTone();
-        this.updateOpen();
-        this.updateClose();
-        this.updateBackgroundDimmer();
-    };
+        bitmap.resize(w, h);
+        bitmap.gradientFillRect(0, 0, w, m, c2, c1, true);
+        bitmap.fillRect(0, m, w, h - m * 2, c1);
+        bitmap.gradientFillRect(0, h - m, w, m, c1, c2, true);
+        this._dimmerSprite.setFrame(0, 0, w, h);
+    }
+};
 
-    var _Window_Base_prototype_updateBackgroundDimmer = Window_Base.prototype.updateBackgroundDimmer;
-    Window_Base.prototype.updateBackgroundDimmer = function () {
-        if (this._dimmerSprite) {
-            this._dimmerSprite.opacity = this.openness;
-            this.refreshDimmerBitmap();
-        }
-    };
+var _Window_Base_prototype_dimColor1 = Window_Base.prototype.dimColor1;
+Window_Base.prototype.dimColor1 = function() {
+    return BBWS1dm;
+};
 
-    var _Window_Base_prototype_refreshDimmerBitmap = Window_Base.prototype.refreshDimmerBitmap;
-    Window_Base.prototype.refreshDimmerBitmap = function () {
-        if (this._dimmerSprite) {
-            var bitmap = this._dimmerSprite.bitmap;
-            var w = this.width;
-            var h = this.height;
-            var m = this.padding;
-            if ($gameVariables.value(BBWSvar) == 3) {
-                var c1 = this.dimColor5();
-                var c2 = this.dimColor6();
-            } else if ($gameVariables.value(BBWSvar) == 2) {
-                var c1 = this.dimColor3();
-                var c2 = this.dimColor4();
-            } else {
-                var c1 = this.dimColor1();
-                var c2 = this.dimColor2();
-            }
-            bitmap.resize(w, h);
-            bitmap.gradientFillRect(0, 0, w, m, c2, c1, true);
-            bitmap.fillRect(0, m, w, h - m * 2, c1);
-            bitmap.gradientFillRect(0, h - m, w, m, c1, c2, true);
-            this._dimmerSprite.setFrame(0, 0, w, h);
-        }
-    };
+var _Window_Base_prototype_dimColor21 = Window_Base.prototype.dimColor2;
+Window_Base.prototype.dimColor2 = function() {
+    return BBWS2dm;
+};
 
-    var _Window_Base_prototype_dimColor1 = Window_Base.prototype.dimColor1;
-    Window_Base.prototype.dimColor1 = function () {
-        return BBWS1dm;
-    };
+var _Window_Base_prototype_dimColor3 = Window_Base.prototype.dimColor3;
+Window_Base.prototype.dimColor3 = function() {
+    return BBWS3dm;
+};
 
-    var _Window_Base_prototype_dimColor21 = Window_Base.prototype.dimColor2;
-    Window_Base.prototype.dimColor2 = function () {
-        return BBWS2dm;
-    };
+var _Window_Base_prototype_dimColor4 = Window_Base.prototype.dimColor4;
+Window_Base.prototype.dimColor4 = function() {
+    return BBWS4dm;
+};
 
-    var _Window_Base_prototype_dimColor3 = Window_Base.prototype.dimColor3;
-    Window_Base.prototype.dimColor3 = function () {
-        return BBWS3dm;
-    };
+var _Window_Base_prototype_dimColor5 = Window_Base.prototype.dimColor5;
+Window_Base.prototype.dimColor5 = function() {
+    return BBWS5dm;
+};
 
-    var _Window_Base_prototype_dimColor4 = Window_Base.prototype.dimColor4;
-    Window_Base.prototype.dimColor4 = function () {
-        return BBWS4dm;
-    };
-
-    var _Window_Base_prototype_dimColor5 = Window_Base.prototype.dimColor5;
-    Window_Base.prototype.dimColor5 = function () {
-        return BBWS5dm;
-    };
-
-    var _Window_Base_prototype_dimColor6 = Window_Base.prototype.dimColor6;
-    Window_Base.prototype.dimColor6 = function () {
-        return BBWS6dm;
-    };
+var _Window_Base_prototype_dimColor6 = Window_Base.prototype.dimColor6;
+Window_Base.prototype.dimColor6 = function() {
+    return BBWS6dm;
+};
 
 
 })();

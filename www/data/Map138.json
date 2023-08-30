@@ -1,4 +1,4 @@
-{
+﻿{
     "autoplayBgm": false,
     "autoplayBgs": false,
     "battleback1Name": "",
@@ -4273,21 +4273,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "人の話を聞いてなかったのか？"
+                                "Weren't you listening to what I said earlier? I told"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "二階に行ってこいって言ってんだろ！"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "\\n<ディーコン>"
+                                "you to go upstairs and come back! \\n< Deacon >"
                             ]
                         },
                         {
@@ -4318,14 +4311,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "……腹立たしいが今は言うとおりにしておこう。"
+                                "...It's frustrating, but for now, let's do as we have"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "been told. \\n< Serena >"
                             ]
                         },
                         {
@@ -4436,14 +4429,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "……今日はもう遅い。外の用事は明日にしよう。"
+                                "...It's already late today. Let's leave the errands"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "outside for tomorrow. \\n< Serena >"
                             ]
                         },
                         {
@@ -6216,7 +6209,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "D_TEXT キャンセル　キャンセルキー　終了 18"
+                                "D_TEXT Cancel Cancel key End 18"
                             ]
                         },
                         {
@@ -6459,7 +6452,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "_pum[1,0,150,1,Normal]客の男はにやにやしながらセレナに手を伸ばした。"
+                                "_pum[1,0,150,1,Normal] The male customer smirked as he reached out to Serena."
                             ]
                         },
                         {
@@ -6679,7 +6672,7 @@
                             "code": 401,
                             "indent": 3,
                             "parameters": [
-                                "_pum[1,0,150,1,Normal]客の男はセレナの衣服を掴もうとしている。"
+                                "_pum[1,0,150,1,Normal] The male customer is trying to grab Serena's clothes."
                             ]
                         },
                         {
@@ -6827,7 +6820,7 @@
                             "code": 401,
                             "indent": 4,
                             "parameters": [
-                                "_pum[1,0,150,1,Normal]客の男はセレナにお酒を進めた。"
+                                "_pum[1,0,150,1,Normal] The male customer offered Serena a drink."
                             ]
                         },
                         {
@@ -7139,7 +7132,7 @@
                             "code": 401,
                             "indent": 4,
                             "parameters": [
-                                "_pum[1,0,150,1,Normal]セレナは苛立ちと嫌悪感に耐えている。"
+                                "_pum[1,0,150,1,Normal] Serena is enduring frustration and disgust."
                             ]
                         },
                         {
@@ -7253,7 +7246,7 @@
                             "code": 401,
                             "indent": 5,
                             "parameters": [
-                                "_pum[1,0,150,1,Normal]セレナは男の厭らしい手触りに心が折れそうだ。"
+                                "_pum[1,0,150,1,Normal] Serena seems to break her heart at the man's disgusting touch."
                             ]
                         },
                         {
@@ -7433,7 +7426,7 @@
                             "code": 401,
                             "indent": 4,
                             "parameters": [
-                                "_pum[1,0,150,1,Normal]セレナは男の手をぴしゃりと跳ね除けた。"
+                                "_pum[1,0,150,1,Normal] Serena deftly dodged the man's hand."
                             ]
                         },
                         {
@@ -7547,7 +7540,7 @@
                             "code": 401,
                             "indent": 5,
                             "parameters": [
-                                "_pum[1,0,150,1,Normal]セレナは弱々しい素振りで身をよじった。"
+                                "_pum[1,0,150,1,Normal] Serena writhed weakly."
                             ]
                         },
                         {
@@ -7898,7 +7891,7 @@
                             "code": 401,
                             "indent": 4,
                             "parameters": [
-                                "_pum[1,0,150,1,Normal]セレナは反応が出来ず、衣服を抜き取られてしまった。"
+                                "_pum[1,0,150,1,Normal] Serena was unable to react and had her clothes taken off."
                             ]
                         },
                         {
@@ -8013,7 +8006,7 @@
                             "code": 401,
                             "indent": 5,
                             "parameters": [
-                                "_pum[1,0,150,1,Normal]セレナは弱々しく抗うが、せせら笑われむしり取られた。"
+                                "_pum[1,0,150,1,Normal] Serena weakly resists, but is sneered and ripped off."
                             ]
                         },
                         {
@@ -8214,7 +8207,7 @@
                             "code": 401,
                             "indent": 4,
                             "parameters": [
-                                "_pum[1,0,150,1,Normal]セレナはするりと男の手を躱した。"
+                                "_pum[1,0,150,1,Normal] Serena smoothly dodged the man's hand."
                             ]
                         },
                         {
@@ -8361,7 +8354,7 @@
                             "code": 401,
                             "indent": 5,
                             "parameters": [
-                                "_pum[1,0,150,1,Normal]セレナは苦心しながら男の手を抑えた。"
+                                "_pum[1,0,150,1,Normal] Serena struggled to restrain the man's hand."
                             ]
                         },
                         {
@@ -8572,7 +8565,7 @@
                             "code": 401,
                             "indent": 4,
                             "parameters": [
-                                "_pum[1,0,150,1,Normal]セレナは慣れない強いお酒を飲みくだした。"
+                                "_pum[1,0,150,1,Normal] Serena drank an unfamiliar strong drink."
                             ]
                         },
                         {
@@ -8744,7 +8737,7 @@
                             "code": 401,
                             "indent": 5,
                             "parameters": [
-                                "_pum[1,0,150,1,Normal]セレナは酷い味のお酒に眩暈を感じた。"
+                                "_pum[1,0,150,1,Normal] Serena felt dizzy from the terrible-tasting alcohol."
                             ]
                         },
                         {
@@ -8971,7 +8964,7 @@
                             "code": 401,
                             "indent": 4,
                             "parameters": [
-                                "_pum[1,0,150,1,Normal]セレナは冷淡な態度で無視した。"
+                                "_pum[1,0,150,1,Normal] Serena ignored with a cold attitude."
                             ]
                         },
                         {
@@ -9072,7 +9065,7 @@
                             "code": 401,
                             "indent": 5,
                             "parameters": [
-                                "_pum[1,0,150,1,Normal]セレナはもう飲めないと弱々しく拒否した。"
+                                "_pum[1,0,150,1,Normal] Serena weakly refused to drink any more."
                             ]
                         },
                         {
@@ -9615,7 +9608,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "_pum[1,0,150,1,Normal]接待が終わった。"
+                                "_pum[1,0,150,1,Normal] The reception is over."
                             ]
                         },
                         {
@@ -9719,7 +9712,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "_pum[1,0,150,1,Normal]名残惜し気な様子の客をセレナはすげなくあしらった。"
+                                "_pum[1,0,150,1,Normal] Serena treated the reluctant-looking customer casually."
                             ]
                         },
                         {
@@ -9831,7 +9824,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "_pum[1,0,150,1,Normal]好色な笑みを浮かべる男の嫌悪感を覚えながら、セレナは安堵のため息を吐いた。"
+                                "_pum[1,0,150,1,Normal] Serena breathed while feeling disgust towards the lecherous man."
                             ]
                         },
                         {
@@ -10198,7 +10191,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "_pum[1,0,150,1,Normal]フラフラなセレナに客の男は無理やり酒を進めた。"
+                                "_pum[1,0,150,1,Normal] The customer forced the unsteady Serena to drink."
                             ]
                         },
                         {
@@ -10379,7 +10372,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "_pum[1,0,150,1,Normal]セレナは酔い潰れてしまった。"
+                                "_pum[1,0,150,1,Normal] Serena got drunk and passed out."
                             ]
                         },
                         {
@@ -11349,7 +11342,7 @@
                             "code": 401,
                             "indent": 3,
                             "parameters": [
-                                "_pum[1,0,150,1,Normal]セレナは意識が虚ろだ…。"
+                                "_pum[1,0,150,1,Normal] Serena is unconscious..."
                             ]
                         },
                         {
@@ -11478,7 +11471,7 @@
                             "code": 401,
                             "indent": 3,
                             "parameters": [
-                                "_pum[1,0,150,1,Normal]客の男はセレナに見せびらかす様に棒を取り出した。"
+                                "_pum[1,0,150,1,Normal] The male customer took out a stick to show off to Serena."
                             ]
                         },
                         {
@@ -11542,7 +11535,7 @@
                             "code": 401,
                             "indent": 3,
                             "parameters": [
-                                "_pum[1,0,150,1,Normal]セレナは意識が虚ろだ…。"
+                                "_pum[1,0,150,1,Normal] Serena is unconscious..."
                             ]
                         },
                         {
@@ -11771,7 +11764,7 @@
                                 943,
                                 0,
                                 4,
-                                "'酔い潰され処女喪失'"
+                                "\"Loss of virginity due to getting drunk\""
                             ]
                         },
                         {
@@ -11813,7 +11806,7 @@
                             "code": 401,
                             "indent": 4,
                             "parameters": [
-                                "_pum[1,0,150,1,Normal]セレナは処女を失った…。"
+                                "_pum[1,0,150,1,Normal] Serena lost her virginity..."
                             ]
                         },
                         {
@@ -11903,7 +11896,7 @@
                                 943,
                                 0,
                                 4,
-                                "'酔い潰され悪戯された'"
+                                "\"Drunk and played a prank on.\""
                             ]
                         },
                         {
@@ -11945,7 +11938,7 @@
                             "code": 401,
                             "indent": 4,
                             "parameters": [
-                                "_pum[1,0,150,1,Normal]セレナは棒状の物を挿入された…。"
+                                "_pum[1,0,150,1,Normal] Serena was inserted with a stick-shaped object..."
                             ]
                         },
                         {
@@ -12037,7 +12030,7 @@
                             "code": 401,
                             "indent": 3,
                             "parameters": [
-                                "_pum[1,0,150,1,Normal]セレナは意識が虚ろだ…。"
+                                "_pum[1,0,150,1,Normal] Serena is unconscious..."
                             ]
                         },
                         {
@@ -13312,7 +13305,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "_pum[1,0,150,1,Normal]セレナは自分の秘所に挿入された棒切れを確認し愕然としている。"
+                                "_pum[1,0,150,1,Normal] Serena is shocked to confirm that a stick has been inserted."
                             ]
                         },
                         {
@@ -13382,7 +13375,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "_pum[1,0,150,1,Normal]棒には血がついている……。"
+                                "_pum[1,0,150,1,Normal] The stick has blood on it..."
                             ]
                         },
                         {
@@ -13855,7 +13848,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "_pum[1,0,150,1,Normal]ディーコンが二人にお酒を差し出してきた。"
+                                "_pum[1,0,150,1,Normal] Deacon offered two people some alcohol."
                             ]
                         },
                         {
@@ -14013,7 +14006,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "_pum[1,0,150,1,Normal]お酒を飲んだセレナは眠りに落ちてしまった。"
+                                "_pum[1,0,150,1,Normal] Serena, who had drunk alcohol, fell asleep."
                             ]
                         },
                         {
@@ -14037,7 +14030,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "_pum[1,0,150,1,Normal]客の男とディーコンは厭らしい笑みを浮かべている。"
+                                "_pum[1,0,150,1,Normal] The male guest and Deacon are wearing unpleasant smiles."
                             ]
                         },
                         {
@@ -14413,21 +14406,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ギルドからの依頼で来た。"
+                                "I came on a request from the guild. Serena,"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "セレナ。冒険者だ。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "adventurer. \\n< Serena >"
                             ]
                         },
                         {
@@ -14452,14 +14438,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "んだこんガキぁ？"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<男>"
+                                "What do you want, kid? \\n< Man >"
                             ]
                         },
                         {
@@ -14476,14 +14455,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ゲクランの野郎、とうとう脳みそまで脂肪が回ったか？"
+                                "Has that bastard Guesclin finally let the fat get to"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<男>"
+                                "his brain? \\n< Man >"
                             ]
                         },
                         {
@@ -14500,14 +14479,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "信頼がおけて、腕の立つ冒険者だって聞いてたがよぉ。"
+                                "I heard that you are a reliable and skilled"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<男>"
+                                "adventurer. \\n< Man >"
                             ]
                         },
                         {
@@ -14565,14 +14544,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "試してみるか。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "Shall we give it a try? \\n< Serena >"
                             ]
                         },
                         {
@@ -14596,14 +14568,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ああ、そうだ…なッ！"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<男>"
+                                "Oh, that's right...yeah! \\n< Man >"
                             ]
                         },
                         {
@@ -14747,14 +14712,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "なにぃ？"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<男>"
+                                "What? \\n< Man >"
                             ]
                         },
                         {
@@ -14778,21 +14736,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "我がアファービレは不抜の鎧。"
+                                "My Affirbil is an impregnable armor. I feel no pain"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "その程度の一撃では何の痛痒も感じない。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "or discomfort from a strike of that level. \\n< Serena >"
                             ]
                         },
                         {
@@ -14817,14 +14768,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "へぇ～？"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<男>"
+                                "Hmm? \\n< Man >"
                             ]
                         },
                         {
@@ -14849,14 +14793,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "そして我が左手のシークレフは"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "And my left-hand Secrecy is... \\n< Serena >"
                             ]
                         },
                         {
@@ -14933,14 +14870,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ひと撫でで骨肉を粉砕する。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "Crush bone and flesh to powder with a single stroke. \\n< Serena >"
                             ]
                         },
                         {
@@ -14965,14 +14895,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "…ふん。ただのガキじゃねえってわけだ。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<男>"
+                                "Hmph. you're not just a kid. \\n< Man >"
                             ]
                         },
                         {
@@ -14996,28 +14919,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "そこが売りだ。"
+                                "That's my charm. People who meet me let their guard"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "私と出会った相手は、まず油断する。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "貴様のようにな。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "down first. Just like you. \\n< Serena >"
                             ]
                         },
                         {
@@ -15042,21 +14951,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "肝も据わってやがる。"
+                                "You've got some guts. Alright, it's not a bad idea"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "いいだろう、護衛としちゃ悪くない。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<男>"
+                                "to have him as a guard. \\n< Man >"
                             ]
                         },
                         {
@@ -15074,21 +14976,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "俺はオーカーだ。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "まぁせいぜい仲良くやろうや。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<オーカー>"
+                                "I'm Ochre. Well, let's try to get along, okay? \\n< Ochre >"
                             ]
                         },
                         {
@@ -15120,14 +15008,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ああ、そう願う。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "Oh, I hope so. \\n< Serena >"
                             ]
                         },
                         {
@@ -16789,14 +16670,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ふぁーあ…最近飲みすぎだわ、あたし…。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<娼婦>"
+                                "Faaa...I've been drinking too much lately... \\n< Prostitute >"
                             ]
                         },
                         {
@@ -16813,28 +16687,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "お酒好きだし、飲まなきゃやってらんないし、"
+                                "I love drinking, and I can't get by without it. Plus,"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "飲んだ方がウケもいいしで飲むしかないんだけど…。"
+                                "it's a good way to get people to like me. But I just"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "絶対ロクな死に方できないわ…。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<娼婦>"
+                                "can't seem to avoid a terrible ending... \\n< Prostitute >"
                             ]
                         },
                         {
@@ -16923,28 +16790,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "どうしたらいいか分かんなかったら、とりあえずお酒でも"
+                                "If you're not sure what to do, just have a drink and"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "飲んで愛想笑いしてればどうとでもなるよ。"
+                                "smile. It'll work out somehow. They're paying, and the"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "代金はあっち持ちだしね、タダ酒飲めるしサイコーね。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<娼婦>"
+                                "free booze is amazing. \\n< Prostitute >"
                             ]
                         },
                         {
@@ -16961,21 +16821,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "嫌な事があっても酔ってれば気が紛れるから、"
+                                "Even if something unpleasant happens, if you're drunk"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "嫌な思いもそこまでしなくて済むしね。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<娼婦>"
+                                "the distraction makes it not so bad, you know. \\n< Prostitute >"
                             ]
                         },
                         {
@@ -16992,28 +16845,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "でも、あんまり酔っ払っちゃうとその後の仕事に"
+                                "But if you get too drunk, it might affect your work"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "差し支えるし、良い潰れたらなにされるか分かんないから"
+                                "afterwards and you never know what could happen if you"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "気を付けてね。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<娼婦>"
+                                "pass out, so be careful. \\n< Prostitute >"
                             ]
                         },
                         {
@@ -17030,21 +16876,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "あっちはそれ期待して酒飲ませに来るヤツもいるし、"
+                                "There are also people who come expecting that and are"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "店側もある程度までじゃなきゃ助けてくれないから。"
+                                "willing to drink, and the store won't help unless it's"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<娼婦>"
+                                "to a certain extent. \\n< Prostitute >"
                             ]
                         },
                         {
@@ -17061,14 +16907,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "……結局、自分の身は自分で守るしかないんだよ。"
+                                "...In the end, there's no choice but to protect"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<娼婦>"
+                                "oneself. \\n< Prostitute >"
                             ]
                         },
                         {
@@ -17166,21 +17012,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "あらあら、新しいお仲間さんかしら。"
+                                "Oh my, a new friend, I see. How lovely...and how"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "可愛いわねぇ。…可哀そうに。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<娼婦>"
+                                "pitiful. \\n< Prostitute >"
                             ]
                         },
                         {
@@ -17269,28 +17108,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "可愛い貴方にとって、このお仕事は簡単よ。"
+                                "For you cute, this job is easy. The men who come to"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "こういう場所に来る男の人は露骨だし、したい事を"
+                                "places like this are blatant, and if you let them do"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "させてあげれば一杯お金を払ってくれるわ。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<娼婦>"
+                                "what they want, they'll pay you a cup of money. \\n< Prostitute >"
                             ]
                         },
                         {
@@ -17307,28 +17139,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "でもそれは、貴方を使って相手を喜ばせる事を容認する"
+                                "But that means allowing yourself to be used to please"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "事なの。それを選ぶのであれば、嫌な事をされても"
+                                "others. If you choose to do that, you have to endure"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "我慢して受け入れなければならないわ。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<娼婦>"
+                                "and accept unpleasant things. \\n< Prostitute >"
                             ]
                         },
                         {
@@ -17345,21 +17170,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "そして、我慢は毒よ。少しなら大丈夫でも、あんまりにも"
+                                "And, patience is poison. It may be fine in small"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "多いと気分が悪くなって仕事どころじゃなくなっちゃうの。"
+                                "amounts, but if you have too much, you'll feel sick"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<娼婦>"
+                                "and won't be able to focus on your work. \\n< Prostitute >"
                             ]
                         },
                         {
@@ -17376,28 +17201,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "だから、どうしても嫌なら嫌だと跳ね除ける勇気を"
+                                "So if you really don't like it, you should have the"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "持った方がいいわよ。もらえるお金は少なくなるもだし、"
+                                "courage to reject it. The money you get will be less,"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "お客さんに嫌われて、帰られちゃうかもしれないけれどね。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<娼婦>"
+                                "and the customers may hate you and leave you. \\n< Prostitute >"
                             ]
                         },
                         {
@@ -17414,28 +17232,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "でも結局、そうした方が長く働けるのよ。"
+                                "But in the end, that's how you can work for a long"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "無理せず手広くコツコツと積み重ねていくのが、"
+                                "time. I guess the trick to the job is to take it easy"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "お仕事のコツかなぁ？"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<娼婦>"
+                                "and steadily accumulate a variety of tasks, right? \\n< Prostitute >"
                             ]
                         },
                         {
@@ -18254,7 +18065,7 @@
         null,
         {
             "id": 41,
-            "name": "踊り子",
+            "name": "Dancer",
             "note": "",
             "pages": [
                 {

@@ -334,7 +334,7 @@
 var Imported = Imported || {};
 Imported.TMMapHpGauge = true;
 
-(function () {
+(function() {
 
 	var parameters = PluginManager.parameters('TMMapHpGauge');
 	var gaugeWindowX = +(parameters['gaugeWindowX'] || 0);
@@ -342,7 +342,7 @@ Imported.TMMapHpGauge = true;
 	var gaugeWindowWidth = +(parameters['gaugeWindowWidth'] || 288);
 	var gaugeWindowHeight = +(parameters['gaugeWindowHeight'] || 64);
 	var gauges = [];
-	['A', 'B', 'C', 'D'].forEach(function (code, i) {
+	['A', 'B', 'C', 'D'].forEach (function(code, i) {
 		gauges[i] = JSON.parse(parameters['gauge' + code]);
 		gauges[i].x = +gauges[i].x;
 		gauges[i].y = +gauges[i].y;
@@ -369,7 +369,7 @@ Imported.TMMapHpGauge = true;
 	var startVisible = JSON.parse(parameters['startVisible'] || 'true');
 	var windowOpacity = +(parameters['windowOpacity'] || 255);
 	var messageBusyHide = JSON.parse(parameters['messageBusyHide'] || 'true');
-	var eventBusyHide = JSON.parse(parameters['eventBusyHide'] || 'true');
+	var eventBusyHide = JSON.parse(parameters['eventBusyHide'] || 'true' );
 	var useBattleScene = JSON.parse(parameters['useBattleScene'] || 'false');
 	var gaugeWindowBattleX = +(parameters['gaugeWindowBattleX'] || 0);
 	var gaugeWindowBattleY = +(parameters['gaugeWindowBattleY'] || 0);
@@ -378,16 +378,16 @@ Imported.TMMapHpGauge = true;
 	// Game_System
 	//
 
-	Game_System.prototype.isVisibleMapHpGauge = function () {
+	Game_System.prototype.isVisibleMapHpGauge = function() {
 		if (this._visibleMapHpGauge == null) this._visibleMapHpGauge = startVisible;
 		return this._visibleMapHpGauge;
 	};
-
-	Game_System.prototype.setVisibleMapHpGauge = function (flag) {
+	
+	Game_System.prototype.setVisibleMapHpGauge = function(flag) {
 		this._visibleMapHpGauge = flag;
 	};
 
-	Game_System.prototype.isVisibleMapHpGauges = function (gaugeId) {
+	Game_System.prototype.isVisibleMapHpGauges = function(gaugeId) {
 		if (this._visibleMapHpGauges == null) {
 			this._visibleMapHpGauges = [];
 			for (var i = 0; i < gauges.length; i++) {
@@ -397,7 +397,7 @@ Imported.TMMapHpGauge = true;
 		return this._visibleMapHpGauges[gaugeId];
 	};
 
-	Game_System.prototype.setVisibleMapHpGauges = function (gaugeId, flag) {
+	Game_System.prototype.setVisibleMapHpGauges = function(gaugeId, flag) {
 		this._visibleMapHpGauges[gaugeId] = flag;
 	};
 
@@ -406,7 +406,7 @@ Imported.TMMapHpGauge = true;
 	//
 
 	var _Game_Interpreter_pluginCommand = Game_Interpreter.prototype.pluginCommand;
-	Game_Interpreter.prototype.pluginCommand = function (command, args) {
+	Game_Interpreter.prototype.pluginCommand = function(command, args) {
 		_Game_Interpreter_pluginCommand.call(this, command, args);
 		if (command === 'showHpGauge') {
 			if (args[0]) {
@@ -444,7 +444,7 @@ Imported.TMMapHpGauge = true;
 	Window_MapHpGauge.prototype = Object.create(Window_Base.prototype);
 	Window_MapHpGauge.prototype.constructor = Window_MapHpGauge;
 
-	Window_MapHpGauge.prototype.initialize = function () {
+	Window_MapHpGauge.prototype.initialize = function() {
 		if (SceneManager.isNextScene(Scene_Battle)) {
 			var x = gaugeWindowBattleX;
 			var y = gaugeWindowBattleY;
@@ -460,7 +460,7 @@ Imported.TMMapHpGauge = true;
 		this._gaugeParams = [];
 		this._gaugeVisible = [];
 		for (var i = 0; i < gauges.length; i++) {
-			this._gaugeParams.push({ param: -1, max: -1 });
+			this._gaugeParams.push({param: -1, max: -1});
 			this._gaugeVisible[i] = $gameSystem.isVisibleMapHpGauges(i);
 		}
 		this._icons = [];
@@ -474,19 +474,19 @@ Imported.TMMapHpGauge = true;
 		this._hideCount = 0;
 	};
 
-	Window_MapHpGauge.prototype.lineHeight = function () {
+	Window_MapHpGauge.prototype.lineHeight = function() {
 		return this._lineHeight || 36;
 	};
 
-	Window_MapHpGauge.prototype.standardPadding = function () {
+	Window_MapHpGauge.prototype.standardPadding = function() {
 		return 0;
 	};
 
-	Window_MapHpGauge.prototype.setShake = function (power) {
+	Window_MapHpGauge.prototype.setShake = function(power) {
 		this._shakeDuration = power;
 	};
 
-	Window_MapHpGauge.prototype.update = function () {
+	Window_MapHpGauge.prototype.update = function() {
 		Window_Base.prototype.update.call(this);
 		if (this.updateVisibility()) {
 			this.open();
@@ -527,7 +527,7 @@ Imported.TMMapHpGauge = true;
 		}
 	};
 
-	Window_MapHpGauge.prototype.updateVisibility = function () {
+	Window_MapHpGauge.prototype.updateVisibility = function() {
 		if (!$gameSystem.isVisibleMapHpGauge()) {
 			return false;
 		}
@@ -535,7 +535,7 @@ Imported.TMMapHpGauge = true;
 			return true;
 		}
 		if ((eventBusyHide && $gameMap.isEventRunning()) ||
-			(messageBusyHide && $gameMessage.isBusy())) {
+				(messageBusyHide && $gameMessage.isBusy())) {
 			this._hideCount++;
 		} else {
 			this._hideCount = 0;
@@ -543,7 +543,7 @@ Imported.TMMapHpGauge = true;
 		return this._hideCount < 10 && $gameParty.leader();
 	};
 
-	Window_MapHpGauge.prototype.isNeedRefresh = function () {
+	Window_MapHpGauge.prototype.isNeedRefresh = function() {
 		var actor = $gameParty.leader();
 		if (actor) {
 			var result = false;
@@ -574,13 +574,13 @@ Imported.TMMapHpGauge = true;
 					}
 				} else if (gauge.type === 'LV') {
 					if (gaugeParam.param !== actor.currentExp() ||
-						gaugeParam.max !== actor.nextLevelExp() ||
-						gaugeParam.subParam !== actor.level) {
+							gaugeParam.max !== actor.nextLevelExp() ||
+							gaugeParam.subParam !== actor.level) {
 						result = true;
 					}
 				} else if (gauge.type === 'VN') {
 					if (gaugeParam.param !== $gameVariables.value(gauge.param) ||
-						gaugeParam.max !== $gameVariables.value(gauge.max)) {
+							gaugeParam.max !== $gameVariables.value(gauge.max)) {
 						result = true;
 					}
 				}
@@ -602,9 +602,9 @@ Imported.TMMapHpGauge = true;
 			}
 		}
 		return result;
-	};
+};
 
-	Window_MapHpGauge.prototype.updateShake = function () {
+	Window_MapHpGauge.prototype.updateShake = function() {
 		if (this._shakeDuration > 0) {
 			this._shakeDuration--;
 			this.x = this._baseX;
@@ -614,11 +614,11 @@ Imported.TMMapHpGauge = true;
 		}
 	};
 
-	Window_MapHpGauge.prototype.updateOpacity = function () {
+	Window_MapHpGauge.prototype.updateOpacity = function() {
 		if (this.x < $gamePlayer.screenX() + 24 &&
-			this.x + gaugeWindowWidth > $gamePlayer.screenX() - 24 &&
-			this.y < $gamePlayer.screenY() &&
-			this.y + gaugeWindowHeight > $gamePlayer.screenY() - 48) {
+				this.x + gaugeWindowWidth > $gamePlayer.screenX() - 24 &&
+				this.y < $gamePlayer.screenY() &&
+				this.y + gaugeWindowHeight > $gamePlayer.screenY() - 48) {
 			this.opacity = Math.min(collideOpacity, windowOpacity);
 			this.contentsOpacity = collideOpacity;
 		} else {
@@ -627,7 +627,7 @@ Imported.TMMapHpGauge = true;
 		}
 	};
 
-	Window_MapHpGauge.prototype.refresh = function () {
+	Window_MapHpGauge.prototype.refresh = function() {
 		this.contents.clear();
 		var actor = $gameParty.leader();
 		if (actor) {
@@ -663,7 +663,7 @@ Imported.TMMapHpGauge = true;
 		}
 	};
 
-	Window_MapHpGauge.prototype.drawIcon = function (iconIndex, x, y) {
+	Window_MapHpGauge.prototype.drawIcon = function(iconIndex, x, y) {
 		var bitmap = ImageManager.loadSystem('IconSet');
 		var pw = Window_Base._iconWidth;
 		var ph = Window_Base._iconHeight;
@@ -676,8 +676,8 @@ Imported.TMMapHpGauge = true;
 		this.contents.blt(bitmap, sx, sy, pw, ph, x, y, dw, dh);
 		this.contents.paintOpacity = lastPaintOpacity;
 	};
-
-	Window_MapHpGauge.prototype.drawLvGauge = function (actor, gauge) {
+	
+	Window_MapHpGauge.prototype.drawLvGauge = function(actor, gauge) {
 		if (actor.isMaxLevel()) {
 			var value1 = '-------';
 			var value2 = '-------';
@@ -698,8 +698,8 @@ Imported.TMMapHpGauge = true;
 		width = gauge.width - width - this.textWidth('' + actor.level);
 		this.drawCurrentAndMax(value1, value2, gauge.x + gauge.width - width, gauge.y, width, color, color);
 	};
-
-	Window_MapHpGauge.prototype.drawVnGauge = function (params, gauge) {
+	
+	Window_MapHpGauge.prototype.drawVnGauge = function(params, gauge) {
 		var rate = params.max === 0 ? 0 : params.param / params.max;
 		this.drawGauge(gauge.x, gauge.y, gauge.width, rate, gauge.color[0], gauge.color[1]);
 		this.changeTextColor(this.systemColor());
@@ -711,8 +711,8 @@ Imported.TMMapHpGauge = true;
 			this.drawText(params.param, gauge.x + gauge.width - 64, gauge.y, 64, 'right');
 		}
 	};
-
-	Window_MapHpGauge.prototype.drawVnCurrentAndMax = function (name, current, max, x, y, width) {
+	
+	Window_MapHpGauge.prototype.drawVnCurrentAndMax = function(name, current, max, x, y, width) {
 		var labelWidth = this.textWidth(name);
 		var valueWidth = this.textWidth('0' + max);
 		var slashWidth = this.textWidth('/');
@@ -729,7 +729,7 @@ Imported.TMMapHpGauge = true;
 		}
 	};
 
-	Window_MapHpGauge.prototype.refreshFace = function () {
+	Window_MapHpGauge.prototype.refreshFace = function() {
 		if (faceOffsetX === -1000) {
 			return;
 		}
@@ -748,7 +748,7 @@ Imported.TMMapHpGauge = true;
 	// Scene_Base
 	//
 
-	Scene_Base.prototype.createMapHpGaugeWindow = function () {
+	Scene_Base.prototype.createMapHpGaugeWindow = function() {
 		this._mapHpGaugeWindow = new Window_MapHpGauge();
 		this.addChild(this._mapHpGaugeWindow);
 	};
@@ -758,30 +758,30 @@ Imported.TMMapHpGauge = true;
 	//
 
 	var _Scene_Map_createDisplayObjects = Scene_Map.prototype.createDisplayObjects;
-	Scene_Map.prototype.createDisplayObjects = function () {
+	Scene_Map.prototype.createDisplayObjects = function() {
 		_Scene_Map_createDisplayObjects.call(this);
 		this.createMapHpGaugeWindow();
 	};
 
 	var _Scene_Map_terminate = Scene_Map.prototype.terminate;
-	Scene_Map.prototype.terminate = function () {
+	Scene_Map.prototype.terminate = function() {
 		if (!SceneManager.isNextScene(Scene_Battle)) this._mapHpGaugeWindow.hide();
 		_Scene_Map_terminate.call(this);
 		this.removeChild(this._mapHpGaugeWindow);
 	};
-
+	
 	var _Scene_Map_launchBattle = Scene_Map.prototype.launchBattle;
-	Scene_Map.prototype.launchBattle = function () {
+	Scene_Map.prototype.launchBattle = function() {
 		this._mapHpGaugeWindow.hide();
 		_Scene_Map_launchBattle.call(this);
 	};
-
+	
 	//-----------------------------------------------------------------------------
 	// Scene_Battle
 	//
 
 	var _Scene_Battle_createDisplayObjects = Scene_Battle.prototype.createDisplayObjects;
-	Scene_Battle.prototype.createDisplayObjects = function () {
+	Scene_Battle.prototype.createDisplayObjects = function() {
 		_Scene_Battle_createDisplayObjects.call(this);
 		if (useBattleScene) {
 			this.createMapHpGaugeWindow();
@@ -789,7 +789,7 @@ Imported.TMMapHpGauge = true;
 	};
 
 	var _Scene_Battle_terminate = Scene_Battle.prototype.terminate;
-	Scene_Battle.prototype.terminate = function () {
+	Scene_Battle.prototype.terminate = function() {
 		_Scene_Battle_terminate.call(this);
 		if (this._mapHpGaugeWindow) {
 			this.removeChild(this._mapHpGaugeWindow);

@@ -1,4 +1,4 @@
-{
+﻿{
     "autoplayBgm": false,
     "autoplayBgs": false,
     "battleback1Name": "Castle1",
@@ -7376,7 +7376,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>持ち場を離れるわけにはいかない。"
+                                "I cannot leave my post. \\n< Serena >"
                             ]
                         },
                         {
@@ -7536,7 +7536,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "用意されたメイド服は…。"
+                                "The prepared maid uniform is..."
                             ]
                         },
                         {
@@ -7544,8 +7544,8 @@
                             "indent": 1,
                             "parameters": [
                                 [
-                                    "ちゃんとしたメイド服",
-                                    "短いひらひらしたメイド服"
+                                    "Proper maid uniform.",
+                                    "Short frilly maid outfit."
                                 ],
                                 -2,
                                 -1,
@@ -7558,7 +7558,7 @@
                             "indent": 1,
                             "parameters": [
                                 0,
-                                "ちゃんとしたメイド服"
+                                "Proper maid uniform."
                             ]
                         },
                         {
@@ -7604,7 +7604,7 @@
                             "indent": 1,
                             "parameters": [
                                 1,
-                                "短いひらひらしたメイド服"
+                                "Short frilly maid outfit."
                             ]
                         },
                         {
@@ -7973,7 +7973,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<メイド長>ヴァージニアさん？"
+                                "Is Virginia here? \\n< Head maid >"
                             ]
                         },
                         {
@@ -8035,7 +8035,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>うむ。あっ…。"
+                                "Hmm. Ah... \\n< Serena >"
                             ]
                         },
                         {
@@ -8060,7 +8060,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>…はい、なんでしょうかメイド長。"
+                                "Yes, what is it, Head Maid? \\n< Serena >"
                             ]
                         },
                         {
@@ -8084,14 +8084,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<メイド長>こちらの清掃はもう十分です。"
+                                "The cleaning here is already sufficient. Please move"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "次の箇所に移ってください。"
+                                "on to the next location. \\n< Head maid >"
                             ]
                         },
                         {
@@ -8108,21 +8108,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<メイド長>二階全体をくまなく掃除せねばなりません。"
+                                "You must clean thoroughly the entire second floor. It"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "新入りの貴方には厳しいかもしれませんが、要領良く"
+                                "may be tough for you as a new member, but please do it"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "行ってください。"
+                                "efficiently. \\n< Head maid >"
                             ]
                         },
                         {
@@ -8147,14 +8147,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>承知いたしました。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "早速とりかかります。"
+                                "Understood. I will start right away. \\n< Serena >"
                             ]
                         },
                         {
@@ -8179,7 +8172,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<メイド長>お願いします。"
+                                "Please. \\n< Head maid >"
                             ]
                         },
                         {
@@ -8293,21 +8286,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "二階全体の掃除か。丁度いい。"
+                                "Cleaning the entire second floor? Perfect timing. I'll"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "仕事をしつつ浴室を探して窓の鍵を開けてしまおう。"
+                                "search for the bathroom while I work and open the"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "window lock. \\n< Serena >"
                             ]
                         },
                         {
@@ -8331,14 +8324,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "手間取れば怪しまれかねん。素早く終わらせるぞ。"
+                                "If I take too long, they might suspect something."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "Let's finish quickly. \\n< Serena >"
                             ]
                         },
                         {
@@ -8731,21 +8724,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ムムッ、ここの窓枠め。わずかにほこりが残っているぞ。"
+                                "Hmm, the window frame here. There's a little bit of"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "私とした事が見落としていたな…。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "dust left. I overlooked something as simple as this. \\n< Serena >"
                             ]
                         },
                         {
@@ -8769,21 +8755,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "こういう細かい所にこそ心構えというものが表れるのだ。"
+                                "This is where one's mindset shows, in the details."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "誰が見るとか見ないとか、そういった事ではなく…。"
+                                "It's not about whether someone is watching or not, but"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "rather... \\n< Serena >"
                             ]
                         },
                         {
@@ -8800,14 +8786,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "……フキフキ……フキフキ……。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "...whisk...whisk... \\n< Serena >"
                             ]
                         },
                         {
@@ -8896,14 +8875,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ヴァージニアさん。まだこちらでしたか。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<メイド長>"
+                                "Miss Virginia. Are you still here? \\n< Head maid >"
                             ]
                         },
                         {
@@ -8958,14 +8930,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "あっ、メイド長！？"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "Oh, Head Maid!? \\n< Serena >"
                             ]
                         },
                         {
@@ -9048,21 +9013,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "すみません。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "つい掃除に没頭してしまいまして…。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "I'm sorry. I got carried away with cleaning... \\n< Serena >"
                             ]
                         },
                         {
@@ -9086,21 +9037,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "初日ですから。仕事の時間配分には"
+                                "Since it's your first day, it would be good if you"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "これから慣れていかれると良いでしょう。"
+                                "can gradually get used to the time allocation for your"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<メイド長>"
+                                "tasks. \\n< Head maid >"
                             ]
                         },
                         {
@@ -9117,21 +9068,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "それより昼食の準備が整いました。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "食堂へお越しください。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<メイド長>"
+                                "Lunch is now ready. Please come to the dining hall. \\n< Head maid >"
                             ]
                         },
                         {
@@ -9148,14 +9085,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "皆で一緒にいただきましょう。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<メイド長>"
+                                "Let's all eat together. \\n< Head maid >"
                             ]
                         },
                         {
@@ -9179,14 +9109,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "了解しました。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "Understood. \\n< Serena >"
                             ]
                         },
                         {
@@ -9488,14 +9411,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ヴァージニアさん。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<メイド長>"
+                                "Virginia. \\n< Head maid >"
                             ]
                         },
                         {
@@ -9519,21 +9435,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "メイド長、掃除は終わりました。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "完璧です。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "Head maid, I have finished cleaning. It is perfect. \\n< Serena >"
                             ]
                         },
                         {
@@ -9557,28 +9459,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "…そうですか。中々に早いですね。"
+                                "I see. That's quite early. I'll check everything to"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "後は私が問題ないかチェックしておきますので、"
+                                "make sure there are no issues, so please rest on the"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "セレナさんは食事が始まるまで一階で休んでいてください。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<メイド長>"
+                                "first floor until the meal begins, Serena. \\n< Head maid >"
                             ]
                         },
                         {
@@ -9602,14 +9497,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "分かりました。それでは失礼します。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "Understood. Well then, excuse me. \\n< Serena >"
                             ]
                         },
                         {
@@ -9762,21 +9650,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "さて、休めと言われてもな…。"
+                                "Well, even if I'm told to rest...I should gather some"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "……明日に備えて情報収集でもしておくか。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "information to prepare for tomorrow. \\n< Serena >"
                             ]
                         },
                         {
@@ -9793,21 +9674,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "食事が始まればまたすぐに作業をせねばならぬだろうし、"
+                                "I should quickly do now while I have the"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "自由に動ける今のうちにササッとやってしまおう。"
+                                "freedom to move, because once the meal begins, I'll"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "have to work again soon. \\n< Serena >"
                             ]
                         },
                         {
@@ -10059,21 +9940,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "…どうやら騒ぎにはなっていない。"
+                                "It doesn't seem like there's been any commotion. It"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "シシリア殿は見つかってはいないようだ。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "appears that Cecilia has not been found yet. \\n< Serena >"
                             ]
                         },
                         {
@@ -10170,21 +10044,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "しかし今度はシシリア殿の状況がわからなくなった。"
+                                "But now I don't know what the situation is with"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "予定通りに騒ぎを起こして大丈夫か？"
+                                "Cecilia. Will she be okay to cause a"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "commotion as planned? \\n< Serena >"
                             ]
                         },
                         {
@@ -10239,21 +10113,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "……いや待て。短慮を起こすな。"
+                                "...No, wait. Don't act rashly. It would be bad to make"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "これ以上の失態を重ねるのはまずい。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "any more mistakes. \\n< Serena >"
                             ]
                         },
                         {
@@ -10277,21 +10144,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "それに彼女なら何かサインを残しているかもしれぬ。"
+                                "She may have left some signs if it's her. I have to"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "痕跡をよく探さねば…。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "search for traces carefully... \\n< Serena >"
                             ]
                         },
                         {
@@ -10480,7 +10340,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>あっ。"
+                                "Oh. \\n< Serena >"
                             ]
                         },
                         {
@@ -10744,14 +10604,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "シシリア殿…。こ、こんな所に…！"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "Cecilia...In a place like this...! \\n< Serena >"
                             ]
                         },
                         {
@@ -10782,21 +10635,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "あんたね…！モロに巡回来てんじゃない！"
+                                "You...! You're patrolling right in front of me! I took"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "イチかバチかで飛び込んで、今の今までここで引き籠りよ！"
+                                "a chance and jumped in, and I've been cooped up here"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<シシリア>"
+                                "ever since! \\n< Cecilia >"
                             ]
                         },
                         {
@@ -10820,21 +10673,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "す、すまぬ…私のミスだ…。"
+                                "I-I'm sorry...it's my mistake. There's really no deep"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "これにはまったく深くないワケがあって…！"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "reason for this...! \\n< Serena >"
                             ]
                         },
                         {
@@ -10858,21 +10704,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "話は後！"
+                                "No more talking! I got the goods, so let's make a"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ブツは手に入れたから、一階で騒ぎを起こしてきて！"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<シシリア>"
+                                "scene on the first floor! \\n< Cecilia >"
                             ]
                         },
                         {
@@ -10896,14 +10735,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "その混乱に乗じて逃げる！"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<シシリア>"
+                                "Take advantage of the chaos to escape! \\n< Cecilia >"
                             ]
                         },
                         {
@@ -10927,7 +10759,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>わ、わかった。その、すまぬ。"
+                                "Ah, I understand. Sorry about that. \\n< Serena >"
                             ]
                         },
                         {
@@ -10952,7 +10784,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<シシリア>そう思うなら早く行きなって！"
+                                "If you think so, then go quickly! \\n< Cecilia >"
                             ]
                         },
                         {
@@ -10976,7 +10808,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>うむ！"
+                                "Hmm! \\n< Serena >"
                             ]
                         },
                         {
@@ -11343,14 +11175,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>う、うわー！大変だー！"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "メイド長！メイド長ー！"
+                                "Uh, uh-oh! This is bad! Head maid! Head maid! \\n< Serena >"
                             ]
                         },
                         {
@@ -11375,14 +11200,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<メイド長>何事ですかヴァージニアさ…！"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "う、うわーッ！！"
+                                "What's going on, Virginia-sa...! Ah, Aahhh!! \\n< Head maid >"
                             ]
                         },
                         {
@@ -11413,7 +11231,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<シシリア>……ったく、ガキはこれだから……。"
+                                "...Jeez, girls these days... \\n< Cecilia >"
                             ]
                         },
                         {
@@ -11589,14 +11407,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\n<セレナ>ふぅ、ふぅ……。"
+                                "Phew, phew...It's just a simple cleaning, but it's"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "簡単な掃除だが、このお腹では一苦労だ…。"
+                                "quite a struggle with this stomach... \\n< Serena >"
                             ]
                         },
                         {
@@ -11623,14 +11441,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\n<セレナ>うぅ、お腹が突っ張って……。"
+                                "Ugh, my stomach feels tight...Just cleaning is tough"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "ただの掃除が一苦労だ……。"
+                                "work... \\n< Serena >"
                             ]
                         },
                         {
@@ -11667,14 +11485,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<セレナ>お菓子の食べかすか何かか？"
+                                "Is that a crumb or something from a snack? ...They"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "…くすねたお菓子を部屋でこっそり食べたのだろうな。"
+                                "must have secretly eaten a stolen snack in their"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "room. \\n< Serena >"
                             ]
                         },
                         {
@@ -11991,14 +11816,14 @@
                             "code": 401,
                             "indent": 4,
                             "parameters": [
-                                "\\n<セレナ>掃除はこれぐらいでいいか。"
+                                "Is this enough cleaning? All that's left is to open"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 4,
                             "parameters": [
-                                "後は右側の窓を開けるだけだ…。"
+                                "the window on the right side. \\n< Serena >"
                             ]
                         },
                         {
@@ -12147,14 +11972,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>埃が残っているな。"
+                                "There's still some dust remaining. I must clean"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "掃除は隅まで徹底的にやらねばな。"
+                                "thoroughly, even in the corners. \\n< Serena >"
                             ]
                         },
                         {
@@ -12461,14 +12286,14 @@
                             "code": 401,
                             "indent": 4,
                             "parameters": [
-                                "\\n<セレナ>掃除はこれぐらいでいいか。"
+                                "Is this enough cleaning? All that's left is to open"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 4,
                             "parameters": [
-                                "後は右側の窓を開けるだけだ…。"
+                                "the window on the right side. \\n< Serena >"
                             ]
                         },
                         {
@@ -12677,7 +12502,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>少々の水汚れがあるな…。"
+                                "There's a slight water stain here... \\n< Serena >"
                             ]
                         },
                         {
@@ -12705,14 +12530,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<セレナ>滑って転ぶと大変だ。"
+                                "It's dangerous to slip and fall, let's wipe it"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "慎重に拭き取ろう。"
+                                "carefully. \\n< Serena >"
                             ]
                         },
                         {
@@ -13029,14 +12854,14 @@
                             "code": 401,
                             "indent": 4,
                             "parameters": [
-                                "\\n<セレナ>掃除はこれぐらいでいいか。"
+                                "Is this enough cleaning? All that's left is to open"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 4,
                             "parameters": [
-                                "後は右側の窓を開けるだけだ…。"
+                                "the window on the right side. \\n< Serena >"
                             ]
                         },
                         {
@@ -13186,21 +13011,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>なるほど、この窓は丁度植木で隠れているのか。"
+                                "I see, this window is precisely hidden by the plants."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "これなら外から見えないし、木を伝って上り下りも"
+                                "It can't be seen from outside, and it should be easy"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "容易い。"
+                                "to climb up and down along the tree. \\n< Serena >"
                             ]
                         },
                         {
@@ -13218,14 +13043,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>…我が屋敷にもこういう配置の窓があった気がするな。"
+                                "I feel like there are windows with such a layout in"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "帰ったら対処しておこう…。"
+                                "my mansion too. I'll deal with it when I get home. \\n< Serena >"
                             ]
                         },
                         {
@@ -13415,14 +13240,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<グーピル>ヴァージニアと言ったかな？"
+                                "Did you say Virginia? Don't worry about me. Keep up"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "私の事は気にしなくて良い。励みたまえ。"
+                                "the good work. \\n< Goupil >"
                             ]
                         },
                         {
@@ -13578,14 +13403,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>よく掃除が行き届いているが、それでもちょっと"
+                                "The cleaning is well done, but there are still some"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "した汚れがあるな。"
+                                "small stains. \\n< Serena >"
                             ]
                         },
                         {
@@ -13815,28 +13640,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "…キビキビとした所作の中にほの見える隙…。"
+                                "...A gap that can be seen in her brisk movements..."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "左右に揺れる小さな尻は油断なのか、誘いなのか…？"
+                                "Is the small, swaying buttocks from left to right a"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "惹きつけられる…。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<グーピル>"
+                                "sign of carelessness or invitation...? I am captivated... \\n< Goupil >"
                             ]
                         },
                         {
@@ -13871,7 +13689,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>……？"
+                                "... ?"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -13895,7 +13720,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<グーピル>私の事は気にしなくていい、続けたまえ。"
+                                "You don't have to worry about me, please continue. \\n< Goupil >"
                             ]
                         },
                         {
@@ -13919,7 +13744,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>……はぁ……？"
+                                "...Huh...? \\n< Serena >"
                             ]
                         },
                         {
@@ -14066,14 +13891,14 @@
                             "code": 401,
                             "indent": 4,
                             "parameters": [
-                                "\\n<セレナ>掃除はこれぐらいでいいか。"
+                                "Is this enough cleaning? All that's left is to open"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 4,
                             "parameters": [
-                                "後は右側の窓を開けるだけだ…。"
+                                "the window on the right side. \\n< Serena >"
                             ]
                         },
                         {

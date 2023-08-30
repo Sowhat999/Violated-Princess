@@ -1,4 +1,4 @@
-{
+﻿{
     "autoplayBgm": false,
     "autoplayBgs": false,
     "battleback1Name": "DirtField",
@@ -2919,7 +2919,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "そして助けが…。"
+                                "And then help came..."
                             ]
                         },
                         {
@@ -2927,8 +2927,8 @@
                             "indent": 1,
                             "parameters": [
                                 [
-                                    "きょうもこない",
-                                    "いいえ"
+                                    "They didn't come today either.",
+                                    "No"
                                 ],
                                 -2,
                                 -1,
@@ -2941,7 +2941,7 @@
                             "indent": 1,
                             "parameters": [
                                 0,
-                                "きょうもこない"
+                                "They didn't come today either."
                             ]
                         },
                         {
@@ -2981,7 +2981,7 @@
                             "indent": 1,
                             "parameters": [
                                 1,
-                                "いいえ"
+                                "No"
                             ]
                         },
                         {
@@ -3089,7 +3089,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "そして助けが…。"
+                                "And then help came..."
                             ]
                         },
                         {
@@ -3097,8 +3097,8 @@
                             "indent": 2,
                             "parameters": [
                                 [
-                                    "きた",
-                                    "こなかった"
+                                    "Came.",
+                                    "Did not come."
                                 ],
                                 1,
                                 0,
@@ -3111,7 +3111,7 @@
                             "indent": 2,
                             "parameters": [
                                 0,
-                                "きた"
+                                "Came."
                             ]
                         },
                         {
@@ -3267,7 +3267,7 @@
                             "indent": 2,
                             "parameters": [
                                 1,
-                                "こなかった"
+                                "Did not come."
                             ]
                         },
                         {
@@ -4004,7 +4004,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "回想セーブ オーク敗北　１"
+                                "回想セーブ Defeated_by_Orc_1"
                             ]
                         },
                         {
@@ -4311,14 +4311,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "……ぐ、ぅ……っ。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "...Gu, u... \\n< Serena >"
                             ]
                         },
                         {
@@ -4382,14 +4375,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "はっ！？"
+                                "Huh!?"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -5174,14 +5167,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "何、だ？何をして……。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "What is it? What are you doing...? \\n< Serena >"
                             ]
                         },
                         {
@@ -5212,14 +5198,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "仲間割れ…か…？"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "A falling out with our comrades...? \\n< Serena >"
                             ]
                         },
                         {
@@ -6599,14 +6578,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "この、状況……。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "This situation... \\n< Serena >"
                             ]
                         },
                         {
@@ -6718,14 +6690,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "うあっ！"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "Ah! \\n< Serena >"
                             ]
                         },
                         {
@@ -6928,14 +6893,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ぐ、ぅッ！"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "Guuuh! \\n< Serena >"
                             ]
                         },
                         {
@@ -7014,14 +6972,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ひぃう！？"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "Eek!? \\n< Serena >"
                             ]
                         },
                         {
@@ -7078,14 +7029,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "はっ…くっ……！ま、さか…。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "Hah...Kuh...! No, impossible... \\n< Serena >"
                             ]
                         },
                         {
@@ -7142,14 +7086,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "誰が、私を食べるか…で、争って…！"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "Who will fight over eating me...!? \\n< Serena >"
                             ]
                         },
                         {
@@ -7206,14 +7143,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "うぁあ！し、舌で…舐めるなぁ…！"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "Ah, don't lick it with your tongue! \\n< Serena >"
                             ]
                         },
                         {
@@ -7270,14 +7200,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "あぁ…こ、このままでは…。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "Oh... This, if it continues like this... \\n< Serena >"
                             ]
                         },
                         {
@@ -7334,14 +7257,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "たべ、られ…食べられ……！る…！"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "I'm going to be eaten... eaten! Ahh! \\n< Serena >"
                             ]
                         },
                         {
@@ -7398,21 +7314,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "う、ううう！べろべろとォ……！"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "や、め……！"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "Ugh, uuuugh! It's so messy...! St-stop it...! \\n< Serena >"
                             ]
                         },
                         {
@@ -7480,14 +7382,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "あ…？…本当に、やめ…。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "Huh...?... Really, stop... \\n< Serena >"
                             ]
                         },
                         {
@@ -7544,14 +7439,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "いや…嬲って…楽しんで、いる…のか…。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "No... Are you enjoying... tormenting me? \\n< Serena >"
                             ]
                         },
                         {
@@ -7608,21 +7496,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "おのれ…私は…誇り高い…グラツィアの…。"
+                                "You...I am...proud...of Gracia...That's why...That's"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "だから…だから……。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "why... \\n< Serena >"
                             ]
                         },
                         {
@@ -7679,21 +7560,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "貴様らモンスターに命乞いなどしない！"
+                                "Do not beg for your lives, monsters! It's useless to"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "嬲っても無駄だ！誰が泣いてなどやるものか！"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "torture you! Who would shed a tear for you! \\n< Serena >"
                             ]
                         },
                         {
@@ -7750,14 +7624,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "や、やるなら…一思いに…！？"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "If you're going to do it...do it all at once...!? \\n< Serena >"
                             ]
                         },
                         {
@@ -7825,14 +7692,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "なんだ？何かが当たっ…？"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "What? Did something hit me...? \\n< Serena >"
                             ]
                         },
                         {
@@ -7954,14 +7814,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "あ？――あああ゛オ゛オ゛オ゛オ゛オ゛！？"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "Huh? - Aaaahhhh!? \\n< Serena >"
                             ]
                         },
                         {
@@ -8036,14 +7889,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "こオ゛…かっ…ア……！？"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "What...happened...Ah...!? \\n< Serena >"
                             ]
                         },
                         {
@@ -8100,14 +7946,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "かふ……は…ひ…？"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "Ka-fu...ha...hi...? \\n< Serena >"
                             ]
                         },
                         {
@@ -8235,14 +8074,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ああ゛ああ゛あ゛あ゛ぁああーー！！！"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "Aaaaahhhh!!! \\n< Serena >"
                             ]
                         },
                         {
@@ -8328,14 +8160,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "い…たい…痛い痛い痛たいたいたい…！"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "It hurts... it hurts so much...! \\n< Serena >"
                             ]
                         },
                         {
@@ -8392,14 +8217,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "いや！…アッ！げッ！うヴッ…！"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "No! ... Ah! Gee! Uh... \\n< Serena >"
                             ]
                         },
                         {
@@ -8456,14 +8274,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ぎ、ィイ！ああ！！あああーーー！！！"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "Gii! Aah!! Aaaaahhh!!! \\n< Serena >"
                             ]
                         },
                         {
@@ -8638,14 +8449,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "お゛ごォオオオっ！？"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "What the...?! \\n< Serena >"
                             ]
                         },
                         {
@@ -8731,14 +8535,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "あ゛っ……あ゛っ。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "Ah… ah. \\n< Serena >"
                             ]
                         },
                         {
@@ -8795,14 +8592,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ばく、はつ、した……？"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "Did it explode...? \\n< Serena >"
                             ]
                         },
                         {
@@ -8819,21 +8609,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "わたしの、なか…。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "なにか、あつくてどろどろ、した、ものが…。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "Inside me... Something hot and sticky... \\n< Serena >"
                             ]
                         },
                         {
@@ -8901,14 +8677,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ゥ…。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "Uh... \\n< Serena >"
                             ]
                         },
                         {
@@ -8983,14 +8752,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "…いぎっ！？"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "...Eep!? \\n< Serena >"
                             ]
                         },
                         {
@@ -9089,14 +8851,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ま……た！？…あぁ…！やめ……！"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "What... again!? Ah...! Stop...! \\n< Serena >"
                             ]
                         },
                         {
@@ -9153,14 +8908,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ひィ…クッ！…あく、ハッ…ガッ…！！"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "Ah...Kuh!...Ngh, Haah...Gahh...!! \\n< Serena >"
                             ]
                         },
                         {
@@ -9217,14 +8965,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "い、いきが、でき、な……！"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "I...I can't breathe...! \\n< Serena >"
                             ]
                         },
                         {
@@ -9281,21 +9022,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "私、がッ……えぐ、れ…オゴッ！！"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "削れ…る…！"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "I... I'm being... Ahh!! Scraped...! \\n< Serena >"
                             ]
                         },
                         {
@@ -9312,14 +9039,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "消え…る………。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "Disappearing... \\n< Serena >"
                             ]
                         },
                         {
@@ -9939,7 +9659,7 @@
                             "code": 355,
                             "indent": 0,
                             "parameters": [
-                                "$gameScreen.showPicture(1,\"01_Window-s\",0,195,588,100,100,255,0)"
+                                "$gameScreen.showPicture(1,\"01_Window-s\",0,175,588,100,100,255,0)"
                             ]
                         },
                         {
@@ -9956,21 +9676,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "はぁ、はぁ……。なん、だ？私にこれ以上、"
+                                "Huff, puff... What... do you want to do to me any"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "何をするつもりなんだ？"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "further? \\n< Serena >"
                             ]
                         },
                         {
@@ -9987,14 +9700,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "それは、何の道具だ？…えっ、あっ？"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "What kind of tool is that?...Huh, huh? \\n< Serena >"
                             ]
                         },
                         {
@@ -10011,21 +9717,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "な、何をするつもりなんだ！？やめろ！近づけ"
+                                "What... What are you planning to do?! Stop it! Don't"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "るな、やめっ……ぎっ！？？"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "come any closer, stop... G-gah!?? \\n< Serena >"
                             ]
                         },
                         {
@@ -10072,14 +9771,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "あああああーーーーーっ！！！痛い！痛い！！"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "Aaahhhh!!! It hurts! It hurts!! \\n< Serena >"
                             ]
                         },
                         {
@@ -10096,21 +9788,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "づっ、ぐっ…やめ！放せ！放してぇ！いたい！"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "いやぁぁっ！"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "Ow, stop it! Let me go! Help me! It hurts! Nooo! \\n< Serena >"
                             ]
                         },
                         {
@@ -10157,14 +9835,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "痛い！痛い！あああぁっ！"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "Ouch! Ouch! Aaahhh! \\n< Serena >"
                             ]
                         },
                         {
@@ -10181,14 +9852,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "はっ、はっ…な、何だこれ。身体に、痕が…。"
+                                "Huff, huff... W-what's this? There are marks on my"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "body... \\n< Serena >"
                             ]
                         },
                         {
@@ -10205,14 +9876,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ひっ！？まだするつもりなのか！？いやぁ！"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "Huh!? Are you still planning to do it!? No way! \\n< Serena >"
                             ]
                         },
                         {
@@ -10259,14 +9923,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "いやぁぁぁぁぁぁ！！！"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "Noooooo!!! \\n< Serena >"
                             ]
                         },
                         {
@@ -10438,7 +10095,7 @@
                                 943,
                                 0,
                                 4,
-                                "'オークに敗北強姦'"
+                                "\"Defeated and raped by an orc.\""
                             ]
                         },
                         {
@@ -10863,14 +10520,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "う、あっ……またこんな…辱め、を…っ。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "Oh, ah... another humiliation like this... ugh. \\n< Serena >"
                             ]
                         },
                         {
@@ -10927,14 +10577,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "はぁ、はぁ…うぅ。おのれ、おのれぇ…っ！"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "*Panting* Ugh... You... you...! \\n< Serena >"
                             ]
                         },
                         {
@@ -11044,21 +10687,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "んぐっ！？あぁっ！？う、動くな！あそこ、"
+                                "Ngh?! Ahh?! Don't move! Over there, the thick one..."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "太いのが…痛いっ。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "it hurts. \\n< Serena >"
                             ]
                         },
                         {
@@ -11137,14 +10773,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "あぅぅ…助けて…誰か。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "Aah... Help me... Someone. \\n< Serena >"
                             ]
                         },
                         {
@@ -11207,7 +10836,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "D_TEXT キャンセル　オナホを使う 18"
+                                "D_TEXT Cancel Using masturbation hall 18"
                             ]
                         },
                         {
@@ -11607,7 +11236,7 @@
                                 943,
                                 0,
                                 4,
-                                "'玩具にされた'"
+                                "\"Toyed with.\""
                             ]
                         },
                         {
@@ -11862,7 +11491,7 @@
                                 943,
                                 0,
                                 4,
-                                "'玩具にされた'"
+                                "\"Toyed with.\""
                             ]
                         },
                         {
@@ -12213,7 +11842,7 @@
                             "code": 356,
                             "indent": 1,
                             "parameters": [
-                                "D_TEXT 決定キー　進行　↑キー　秘密の日記 18"
+                                "D_TEXT Enter Key Proceed ↑Key Secret Diary 18"
                             ]
                         },
                         {
@@ -12727,7 +12356,7 @@
                             "code": 356,
                             "indent": 2,
                             "parameters": [
-                                "D_TEXT 決定キー　進行　↑キー　秘密の日記 18"
+                                "D_TEXT Enter Key Proceed ↑Key Secret Diary 18"
                             ]
                         },
                         {
@@ -12805,7 +12434,7 @@
                             "code": 356,
                             "indent": 1,
                             "parameters": [
-                                "D_TEXT キャンセル　オナホを使う 18"
+                                "D_TEXT Cancel Using masturbation hall 18"
                             ]
                         },
                         {
@@ -13091,7 +12720,7 @@
                                 50,
                                 0,
                                 4,
-                                "'くっ…放せ。放して…っ。'"
+                                "\"Ugh... Let me go. Release me...\""
                             ]
                         },
                         {
@@ -13123,7 +12752,7 @@
                                 50,
                                 0,
                                 4,
-                                "'いつになったら助けが…このままじゃ。'"
+                                "\"When will help come...it can't go on like this.\""
                             ]
                         },
                         {
@@ -13155,7 +12784,7 @@
                                 50,
                                 0,
                                 4,
-                                "'なんとかしないと…。'"
+                                "\"I have to do something about it...\""
                             ]
                         },
                         {
@@ -13187,7 +12816,7 @@
                                 50,
                                 0,
                                 4,
-                                "'くっ、いつまでこんな惨めな事を…。'"
+                                "\"How much longer must I endure this miserable...\""
                             ]
                         },
                         {
@@ -13219,7 +12848,7 @@
                                 50,
                                 0,
                                 4,
-                                "'はぁ、はぁ…許さない。絶対に…っ。'"
+                                "\"Haa, haa... I won't forgive. Absolutely...\""
                             ]
                         },
                         {
@@ -13251,7 +12880,7 @@
                                 50,
                                 0,
                                 4,
-                                "'こんな事は許されぬ。こんな…。'"
+                                "\"This is not permissible. Like this...\""
                             ]
                         },
                         {
@@ -13283,7 +12912,7 @@
                                 50,
                                 0,
                                 4,
-                                "'私を玩具にして…おのれっ。'"
+                                "\"Using me as a toy... You scoundrel.\""
                             ]
                         },
                         {
@@ -13315,7 +12944,7 @@
                                 50,
                                 0,
                                 4,
-                                "'くっ…ふっ、うぅっ。'"
+                                "\"Ugh...huff, ugh.\""
                             ]
                         },
                         {
@@ -13347,7 +12976,7 @@
                                 50,
                                 0,
                                 4,
-                                "'うぅぅ…おのれぇ！'"
+                                "\"Ugh...You scoundrel!\""
                             ]
                         },
                         {
@@ -13379,7 +13008,7 @@
                                 50,
                                 0,
                                 4,
-                                "'放せ、あそこが…つぅっ。'"
+                                "\"Let go, over there...tsuu.\""
                             ]
                         },
                         {
@@ -13411,7 +13040,7 @@
                                 50,
                                 0,
                                 4,
-                                "'はぁ、はぁ…諦めぬぞ。絶対に。'"
+                                "\"Haa, haa... I will not give up. Absolutely not.\""
                             ]
                         },
                         {
@@ -13464,7 +13093,7 @@
                                 50,
                                 0,
                                 4,
-                                "'うっ、うっ…おのれ、おのれぇ。'"
+                                "\"Ugh, ugh... you, you...\""
                             ]
                         },
                         {
@@ -13496,7 +13125,7 @@
                                 50,
                                 0,
                                 4,
-                                "'何でこんな…オーク何かに…何度も。'"
+                                "\"Why do I have to encounter these... Orcs...\""
                             ]
                         },
                         {
@@ -13528,7 +13157,7 @@
                                 50,
                                 0,
                                 4,
-                                "'お゛っ、ふぐっ、うぎぃ、いぃぃっ！'"
+                                "\"Ugh, puff, ugh, aaaah!\""
                             ]
                         },
                         {
@@ -13560,7 +13189,7 @@
                                 50,
                                 0,
                                 4,
-                                "'そんな、物みたいにぃ…っ。'"
+                                "\"Like, I feel like an object...\""
                             ]
                         },
                         {
@@ -13592,7 +13221,7 @@
                                 50,
                                 0,
                                 4,
-                                "'体つかんでずぼずぼするの、やめてぇ…。'"
+                                "\"Stop grabbing onto me and thrusting like that...\""
                             ]
                         },
                         {
@@ -13624,7 +13253,7 @@
                                 50,
                                 0,
                                 4,
-                                "'あうぅ、なか、抉られて…ごりごりぃ…。'"
+                                "\"Ah, my insides, they're being gouged... it hurts so\\nmuch...\""
                             ]
                         },
                         {
@@ -13656,7 +13285,7 @@
                                 50,
                                 0,
                                 4,
-                                "'いやあぁ…ふといの…硬いのぉ…。'"
+                                "\"Oh no... It's thick... and hard...\""
                             ]
                         },
                         {
@@ -13688,7 +13317,7 @@
                                 50,
                                 0,
                                 4,
-                                "'こんな、筋肉の塊みたいな奴にぃ…。'"
+                                "\"Someone who looks like a lump of muscles like this...\""
                             ]
                         },
                         {
@@ -13720,7 +13349,7 @@
                                 50,
                                 0,
                                 4,
-                                "'んあぁぁっ、オーク、オークなんかに…'"
+                                "\"Ah, nooo, an orc, not an orc...\""
                             ]
                         },
                         {
@@ -13752,7 +13381,7 @@
                                 50,
                                 0,
                                 4,
-                                "'やめでぇっ。無理やりずぼずぼしないでぇ！'"
+                                "\"Stop it! Don't force me like that!\""
                             ]
                         },
                         {
@@ -13784,7 +13413,7 @@
                                 50,
                                 0,
                                 4,
-                                "'いたい、いあぁぁっ！'"
+                                "\"It hurts, ow!\""
                             ]
                         },
                         {
@@ -13837,7 +13466,7 @@
                                 50,
                                 0,
                                 4,
-                                "'くぅぅ…わ、私に動けというのか？'"
+                                "\"Kuu... W-what, are you telling me to move?\""
                             ]
                         },
                         {
@@ -13869,7 +13498,7 @@
                                 50,
                                 0,
                                 4,
-                                "'ああっ、た、叩くな！ゆれて…くぅぅ！'"
+                                "\"Aah, don't hit me! It's shaking...ugh!\""
                             ]
                         },
                         {
@@ -13901,7 +13530,7 @@
                                 50,
                                 0,
                                 4,
-                                "'ふっ、ふっ…うぅぅ、あああっ！'"
+                                "\"Huh...huh...ugh! Ahh!\""
                             ]
                         },
                         {
@@ -13933,7 +13562,7 @@
                                 50,
                                 0,
                                 4,
-                                "'あっ、あっ、あそこが、いたい、のに…っ。'"
+                                "\"Ah, ah, it hurts over there...\""
                             ]
                         },
                         {
@@ -13965,7 +13594,7 @@
                                 50,
                                 0,
                                 4,
-                                "'ああっ、太い…かたいぃ…。'"
+                                "\"Aah, it's thick...and hard...\""
                             ]
                         },
                         {
@@ -13997,7 +13626,7 @@
                                 50,
                                 0,
                                 4,
-                                "'あそこが、ぐりぐり…抉れて…あぁっ。'"
+                                "\"There, it's digging and digging... It hurts... Ahh.\""
                             ]
                         },
                         {
@@ -14029,7 +13658,7 @@
                                 50,
                                 0,
                                 4,
-                                "'はっ、はっ…あくぅ…んんぅ。'"
+                                "\"Hah, hah... *gasping* ...mmmph.\""
                             ]
                         },
                         {
@@ -14061,7 +13690,7 @@
                                 50,
                                 0,
                                 4,
-                                "'いっ、きっ……ふぅ、ふぅ…んぅぅ。'"
+                                "\"Ah, ah...huff, huff...mmm.\""
                             ]
                         },
                         {
@@ -14093,7 +13722,7 @@
                                 50,
                                 0,
                                 4,
-                                "'おの、れ…おのれ…おの、れぇ…っ！'"
+                                "\"You...you...youuuu...!\""
                             ]
                         },
                         {
@@ -14125,7 +13754,7 @@
                                 50,
                                 0,
                                 4,
-                                "'何でわたしがこんなこと…こんな…っ！'"
+                                "\"Why am I doing something like this... like this...!\""
                             ]
                         },
                         {
@@ -14157,7 +13786,7 @@
                                 50,
                                 0,
                                 4,
-                                "'ふーっ、ふーっ…あっ、うっ…っ。'"
+                                "\"*huff*, *huff*... oh, *ugh*...\""
                             ]
                         },
                         {
@@ -14210,7 +13839,7 @@
                                 50,
                                 0,
                                 4,
-                                "'あ゛あ゛あ゛あ゛あ゛っ！？'"
+                                "\"Ah...ah...ah...!?!\""
                             ]
                         },
                         {
@@ -14242,7 +13871,7 @@
                                 50,
                                 0,
                                 4,
-                                "'やめっ、やだぁ！出すな！汚いの出すなぁ！'"
+                                "\"Stop it! Don't take out something dirty!\""
                             ]
                         },
                         {
@@ -14274,7 +13903,7 @@
                                 50,
                                 0,
                                 4,
-                                "'欲しくない、オークの赤ちゃんなんてぇ！'"
+                                "\"I don't want an orc baby!\""
                             ]
                         },
                         {
@@ -14306,7 +13935,7 @@
                                 50,
                                 0,
                                 4,
-                                "'あっ、すご、熱いのがでて…あっ、あぅ…。'"
+                                "\"Ah, hot stuff is coming out... Ah, ah...\""
                             ]
                         },
                         {
@@ -14338,7 +13967,7 @@
                                 50,
                                 0,
                                 4,
-                                "'ンッ、ギッ…イィ、ぁ…っ。'"
+                                "\"Ugh, gasp... Ow, ah...!\""
                             ]
                         },
                         {
@@ -14370,7 +13999,7 @@
                                 50,
                                 0,
                                 4,
-                                "'膣内で出さないで、出さないでぇぇ！'"
+                                "\"Don't come inside me, don't come inside meeee!\""
                             ]
                         },
                         {
@@ -14402,7 +14031,7 @@
                                 50,
                                 0,
                                 4,
-                                "'太くて硬いのが、脈打って…あついぃ。'"
+                                "\"Thick and hard, pulsing... so hot.\""
                             ]
                         },
                         {
@@ -14434,7 +14063,7 @@
                                 50,
                                 0,
                                 4,
-                                "'はっ、はっ…はひっ！？ひぐっ、あっ…。'"
+                                "\"Hah, hah... Hih?! Higgu, ah...\""
                             ]
                         },
                         {
@@ -14466,7 +14095,7 @@
                                 50,
                                 0,
                                 4,
-                                "'どくどく、びゅるびゅるって…ひぃぃ。'"
+                                "\"Sizzling and bubbling... Ahh!\""
                             ]
                         },
                         {
@@ -14498,7 +14127,7 @@
                                 50,
                                 0,
                                 4,
-                                "'どくんどくんって、あつぃぃ。'"
+                                "\"Thump thump, it's hot.\""
                             ]
                         },
                         {
@@ -14530,7 +14159,7 @@
                                 50,
                                 0,
                                 4,
-                                "'やだぁぁ！やだよぉぉぉ！！'"
+                                "\"No wayyy! I don't want to!!\""
                             ]
                         },
                         {
@@ -14583,7 +14212,7 @@
                                 50,
                                 0,
                                 4,
-                                "'…こんなに一杯…汚いのが、中に…。'"
+                                "\"...So full...and there's something dirty inside...\""
                             ]
                         },
                         {
@@ -14615,7 +14244,7 @@
                                 50,
                                 0,
                                 4,
-                                "'かはっ、あ、うっ…。はっ、はっ…。'"
+                                "\"Kahh, ah, uhh...hah, hah...\""
                             ]
                         },
                         {
@@ -14647,7 +14276,7 @@
                                 50,
                                 0,
                                 4,
-                                "'いたいぃ、いたいの…。'"
+                                "\"It hurts, it hurts...\""
                             ]
                         },
                         {
@@ -14679,7 +14308,7 @@
                                 50,
                                 0,
                                 4,
-                                "'んひっ、ひっ、ひっ、んひぃぃっ。'"
+                                "\"Nhii, hi, hi, nhiii!\""
                             ]
                         },
                         {
@@ -14722,7 +14351,7 @@
                                 50,
                                 0,
                                 4,
-                                "'やめ…も、赤ちゃんできてる、から…。'"
+                                "\"Stop...you know, because I'm pregnant...\""
                             ]
                         },
                         {
@@ -14743,7 +14372,7 @@
                                 50,
                                 0,
                                 4,
-                                "'やだ…赤ちゃん作るのやめてぇ…。'"
+                                "\"No...please stop making babies...\""
                             ]
                         },
                         {
@@ -14785,7 +14414,7 @@
                                 50,
                                 0,
                                 4,
-                                "'いやぁ…もうずぼずぼしないで…。'"
+                                "\"Oh no... please don't slurp anymore...\""
                             ]
                         },
                         {
@@ -14817,7 +14446,7 @@
                                 50,
                                 0,
                                 4,
-                                "'うぅ、…まだ硬いの…あそこが一杯なの…。'"
+                                "\"Ugh, it's still hard... and that spot is full...\""
                             ]
                         },
                         {
@@ -14849,7 +14478,7 @@
                                 50,
                                 0,
                                 4,
-                                "'あんなに一杯出したのにまだ硬くて熱いの…。'"
+                                "\"It's still hard and hot despite pouring so much of...\""
                             ]
                         },
                         {
@@ -14892,7 +14521,7 @@
                                 50,
                                 0,
                                 4,
-                                "'もう妊娠してるのに…なんでこんなこと…。'"
+                                "\"I'm already pregnant...why did this have to happen...\""
                             ]
                         },
                         {
@@ -14913,7 +14542,7 @@
                                 50,
                                 0,
                                 4,
-                                "'嫌だ…妊娠しちゃう…。本当に妊娠しちゃう。'"
+                                "\"No... I'm pregnant... I really am pregnant.\""
                             ]
                         },
                         {
@@ -14966,7 +14595,7 @@
                                 50,
                                 0,
                                 4,
-                                "'赤ちゃんできてるの…乱暴しないで…。'"
+                                "\"I'm pregnant...Please don't be rough...\""
                             ]
                         },
                         {
@@ -14987,7 +14616,7 @@
                                 50,
                                 0,
                                 4,
-                                "'本当に妊娠しちゃう…赤ちゃんできちゃう。'"
+                                "\"I'm really pregnant... I'm going to have a baby.\""
                             ]
                         },
                         {
@@ -15029,7 +14658,7 @@
                                 50,
                                 0,
                                 4,
-                                "'ゆる、して…もう、ゆるしてぇ…。'"
+                                "\"Please forgive me... forgive me.\""
                             ]
                         },
                         {
@@ -15101,7 +14730,7 @@
                                 50,
                                 0,
                                 4,
-                                "'くっ…放せ。放して…っ。'"
+                                "\"Ugh... Let me go. Release me...\""
                             ]
                         },
                         {
@@ -15133,7 +14762,7 @@
                                 50,
                                 0,
                                 4,
-                                "'いつになったら助けが…このままじゃ。'"
+                                "\"When will help come...it can't go on like this.\""
                             ]
                         },
                         {
@@ -15165,7 +14794,7 @@
                                 50,
                                 0,
                                 4,
-                                "'なんとかしないと…。'"
+                                "\"I have to do something about it...\""
                             ]
                         },
                         {
@@ -15197,7 +14826,7 @@
                                 50,
                                 0,
                                 4,
-                                "'くっ、いつまでこんな惨めな事を…。'"
+                                "\"How much longer must I endure this miserable...\""
                             ]
                         },
                         {
@@ -15229,7 +14858,7 @@
                                 50,
                                 0,
                                 4,
-                                "'はぁ、はぁ…許さない。絶対に…っ。'"
+                                "\"Haa, haa... I won't forgive. Absolutely...\""
                             ]
                         },
                         {
@@ -15261,7 +14890,7 @@
                                 50,
                                 0,
                                 4,
-                                "'こんな事は許されぬ。こんな…。'"
+                                "\"This is not permissible. Like this...\""
                             ]
                         },
                         {
@@ -15293,7 +14922,7 @@
                                 50,
                                 0,
                                 4,
-                                "'私を玩具にして…おのれっ。'"
+                                "\"Using me as a toy... You scoundrel.\""
                             ]
                         },
                         {
@@ -15325,7 +14954,7 @@
                                 50,
                                 0,
                                 4,
-                                "'くっ…ふっ、うぅっ。'"
+                                "\"Ugh...huff, ugh.\""
                             ]
                         },
                         {
@@ -15357,7 +14986,7 @@
                                 50,
                                 0,
                                 4,
-                                "'うぅぅ…おのれぇ！'"
+                                "\"Ugh...You scoundrel!\""
                             ]
                         },
                         {
@@ -15389,7 +15018,7 @@
                                 50,
                                 0,
                                 4,
-                                "'放せ、あそこが…つぅっ。'"
+                                "\"Let go, over there...tsuu.\""
                             ]
                         },
                         {
@@ -15421,7 +15050,7 @@
                                 50,
                                 0,
                                 4,
-                                "'はぁ、はぁ…諦めぬぞ。絶対に。'"
+                                "\"Haa, haa... I will not give up. Absolutely not.\""
                             ]
                         },
                         {
@@ -15474,7 +15103,7 @@
                                 50,
                                 0,
                                 4,
-                                "'うっ、うっ…おのれ、おのれぇ。'"
+                                "\"Ugh, ugh... you, you...\""
                             ]
                         },
                         {
@@ -15506,7 +15135,7 @@
                                 50,
                                 0,
                                 4,
-                                "'何でこんな…オーク何かに…何度も。'"
+                                "\"Why do I have to encounter these... Orcs...\""
                             ]
                         },
                         {
@@ -15538,7 +15167,7 @@
                                 50,
                                 0,
                                 4,
-                                "'お゛っ、ふぐっ、うぎぃ、いぃぃっ！'"
+                                "\"Ugh, puff, ugh, aaaah!\""
                             ]
                         },
                         {
@@ -15570,7 +15199,7 @@
                                 50,
                                 0,
                                 4,
-                                "'そんな、物みたいにぃ…っ。'"
+                                "\"Like, I feel like an object...\""
                             ]
                         },
                         {
@@ -15602,7 +15231,7 @@
                                 50,
                                 0,
                                 4,
-                                "'体つかんでずぼずぼするの、やめてぇ…。'"
+                                "\"Stop grabbing onto me and thrusting like that...\""
                             ]
                         },
                         {
@@ -15634,7 +15263,7 @@
                                 50,
                                 0,
                                 4,
-                                "'あうぅ、なか、抉られて…ごりごりぃ…。'"
+                                "\"Ah, my insides, they're being gouged... it hurts so\\nmuch...\""
                             ]
                         },
                         {
@@ -15666,7 +15295,7 @@
                                 50,
                                 0,
                                 4,
-                                "'いやあぁ…ふといの…硬いのぉ…。'"
+                                "\"Oh no... It's thick... and hard...\""
                             ]
                         },
                         {
@@ -15698,7 +15327,7 @@
                                 50,
                                 0,
                                 4,
-                                "'こんな、筋肉の塊みたいな奴にぃ…。'"
+                                "\"Someone who looks like a lump of muscles like this...\""
                             ]
                         },
                         {
@@ -15730,7 +15359,7 @@
                                 50,
                                 0,
                                 4,
-                                "'んあぁぁっ、オーク、オークなんかに…'"
+                                "\"Ah, nooo, an orc, not an orc...\""
                             ]
                         },
                         {
@@ -15762,7 +15391,7 @@
                                 50,
                                 0,
                                 4,
-                                "'やめでぇっ。無理やりずぼずぼしないでぇ！'"
+                                "\"Stop it! Don't force me like that!\""
                             ]
                         },
                         {
@@ -15794,7 +15423,7 @@
                                 50,
                                 0,
                                 4,
-                                "'いたい、いあぁぁっ！'"
+                                "\"It hurts, ow!\""
                             ]
                         },
                         {
@@ -15847,7 +15476,7 @@
                                 50,
                                 0,
                                 4,
-                                "'くぅぅ…わ、私に動けというのか？'"
+                                "\"Kuu... W-what, are you telling me to move?\""
                             ]
                         },
                         {
@@ -15879,7 +15508,7 @@
                                 50,
                                 0,
                                 4,
-                                "'ああっ、た、叩くな！ゆれて…くぅぅ！'"
+                                "\"Aah, don't hit me! It's shaking...ugh!\""
                             ]
                         },
                         {
@@ -15911,7 +15540,7 @@
                                 50,
                                 0,
                                 4,
-                                "'ふっ、ふっ…うぅぅ、あああっ！'"
+                                "\"Huh...huh...ugh! Ahh!\""
                             ]
                         },
                         {
@@ -15943,7 +15572,7 @@
                                 50,
                                 0,
                                 4,
-                                "'あっ、あっ、あそこが、いたい、のに…っ。'"
+                                "\"Ah, ah, it hurts over there...\""
                             ]
                         },
                         {
@@ -15975,7 +15604,7 @@
                                 50,
                                 0,
                                 4,
-                                "'ああっ、太い…かたいぃ…。'"
+                                "\"Aah, it's thick...and hard...\""
                             ]
                         },
                         {
@@ -16007,7 +15636,7 @@
                                 50,
                                 0,
                                 4,
-                                "'あそこが、ぐりぐり…抉れて…あぁっ。'"
+                                "\"There, it's digging and digging... It hurts... Ahh.\""
                             ]
                         },
                         {
@@ -16039,7 +15668,7 @@
                                 50,
                                 0,
                                 4,
-                                "'はっ、はっ…あくぅ…んんぅ。'"
+                                "\"Hah, hah... *gasping* ...mmmph.\""
                             ]
                         },
                         {
@@ -16071,7 +15700,7 @@
                                 50,
                                 0,
                                 4,
-                                "'いっ、きっ……ふぅ、ふぅ…んぅぅ。'"
+                                "\"Ah, ah...huff, huff...mmm.\""
                             ]
                         },
                         {
@@ -16103,7 +15732,7 @@
                                 50,
                                 0,
                                 4,
-                                "'おの、れ…おのれ…おの、れぇ…っ！'"
+                                "\"You...you...youuuu...!\""
                             ]
                         },
                         {
@@ -16135,7 +15764,7 @@
                                 50,
                                 0,
                                 4,
-                                "'何でわたしがこんなこと…こんな…っ！'"
+                                "\"Why am I doing something like this... like this...!\""
                             ]
                         },
                         {
@@ -16167,7 +15796,7 @@
                                 50,
                                 0,
                                 4,
-                                "'ふーっ、ふーっ…あっ、うっ…っ。'"
+                                "\"*huff*, *huff*... oh, *ugh*...\""
                             ]
                         },
                         {
@@ -16220,7 +15849,7 @@
                                 50,
                                 0,
                                 4,
-                                "'あ゛あ゛あ゛あ゛あ゛っ！？'"
+                                "\"Ah...ah...ah...!?!\""
                             ]
                         },
                         {
@@ -16252,7 +15881,7 @@
                                 50,
                                 0,
                                 4,
-                                "'やめっ、やだぁ！出すな！汚いの出すなぁ！'"
+                                "\"Stop it! Don't take out something dirty!\""
                             ]
                         },
                         {
@@ -16284,7 +15913,7 @@
                                 50,
                                 0,
                                 4,
-                                "'欲しくない、オークの赤ちゃんなんてぇ！'"
+                                "\"I don't want an orc baby!\""
                             ]
                         },
                         {
@@ -16316,7 +15945,7 @@
                                 50,
                                 0,
                                 4,
-                                "'あっ、すご、熱いのがでて…あっ、あぅ…。'"
+                                "\"Ah, hot stuff is coming out... Ah, ah...\""
                             ]
                         },
                         {
@@ -16348,7 +15977,7 @@
                                 50,
                                 0,
                                 4,
-                                "'ンッ、ギッ…イィ、ぁ…っ。'"
+                                "\"Ugh, gasp... Ow, ah...!\""
                             ]
                         },
                         {
@@ -16380,7 +16009,7 @@
                                 50,
                                 0,
                                 4,
-                                "'膣内で出さないで、出さないでぇぇ！'"
+                                "\"Don't come inside me, don't come inside meeee!\""
                             ]
                         },
                         {
@@ -16412,7 +16041,7 @@
                                 50,
                                 0,
                                 4,
-                                "'太くて硬いのが、脈打って…あついぃ。'"
+                                "\"Thick and hard, pulsing... so hot.\""
                             ]
                         },
                         {
@@ -16444,7 +16073,7 @@
                                 50,
                                 0,
                                 4,
-                                "'はっ、はっ…はひっ！？ひぐっ、あっ…。'"
+                                "\"Hah, hah... Hih?! Higgu, ah...\""
                             ]
                         },
                         {
@@ -16476,7 +16105,7 @@
                                 50,
                                 0,
                                 4,
-                                "'どくどく、びゅるびゅるって…ひぃぃ。'"
+                                "\"Sizzling and bubbling... Ahh!\""
                             ]
                         },
                         {
@@ -16508,7 +16137,7 @@
                                 50,
                                 0,
                                 4,
-                                "'どくんどくんって、あつぃぃ。'"
+                                "\"Thump thump, it's hot.\""
                             ]
                         },
                         {
@@ -16540,7 +16169,7 @@
                                 50,
                                 0,
                                 4,
-                                "'やだぁぁ！やだよぉぉぉ！！'"
+                                "\"No wayyy! I don't want to!!\""
                             ]
                         },
                         {
@@ -16593,7 +16222,7 @@
                                 50,
                                 0,
                                 4,
-                                "'…こんなに一杯…汚いのが、中に…。'"
+                                "\"...So full...and there's something dirty inside...\""
                             ]
                         },
                         {
@@ -16625,7 +16254,7 @@
                                 50,
                                 0,
                                 4,
-                                "'かはっ、あ、うっ…。はっ、はっ…。'"
+                                "\"Kahh, ah, uhh...hah, hah...\""
                             ]
                         },
                         {
@@ -16657,7 +16286,7 @@
                                 50,
                                 0,
                                 4,
-                                "'いたいぃ、いたいの…。'"
+                                "\"It hurts, it hurts...\""
                             ]
                         },
                         {
@@ -16689,7 +16318,7 @@
                                 50,
                                 0,
                                 4,
-                                "'んひっ、ひっ、ひっ、んひぃぃっ。'"
+                                "\"Nhii, hi, hi, nhiii!\""
                             ]
                         },
                         {
@@ -16732,7 +16361,7 @@
                                 50,
                                 0,
                                 4,
-                                "'やめ…も、赤ちゃんできてる、から…。'"
+                                "\"Stop...you know, because I'm pregnant...\""
                             ]
                         },
                         {
@@ -16753,7 +16382,7 @@
                                 50,
                                 0,
                                 4,
-                                "'やだ…赤ちゃん作るのやめてぇ…。'"
+                                "\"No...please stop making babies...\""
                             ]
                         },
                         {
@@ -16795,7 +16424,7 @@
                                 50,
                                 0,
                                 4,
-                                "'いやぁ…もうずぼずぼしないで…。'"
+                                "\"Oh no... please don't slurp anymore...\""
                             ]
                         },
                         {
@@ -16827,7 +16456,7 @@
                                 50,
                                 0,
                                 4,
-                                "'うぅ、…まだ硬いの…あそこが一杯なの…。'"
+                                "\"Ugh, it's still hard... and that spot is full...\""
                             ]
                         },
                         {
@@ -16859,7 +16488,7 @@
                                 50,
                                 0,
                                 4,
-                                "'あんなに一杯出したのにまだ硬くて熱いの…。'"
+                                "\"It's still hard and hot despite pouring so much of...\""
                             ]
                         },
                         {
@@ -16902,7 +16531,7 @@
                                 50,
                                 0,
                                 4,
-                                "'もう妊娠してるのに…なんでこんなこと…。'"
+                                "\"I'm already pregnant...why did this have to happen...\""
                             ]
                         },
                         {
@@ -16923,7 +16552,7 @@
                                 50,
                                 0,
                                 4,
-                                "'嫌だ…妊娠しちゃう…。本当に妊娠しちゃう。'"
+                                "\"No... I'm pregnant... I really am pregnant.\""
                             ]
                         },
                         {
@@ -16976,7 +16605,7 @@
                                 50,
                                 0,
                                 4,
-                                "'赤ちゃんできてるの…乱暴しないで…。'"
+                                "\"I'm pregnant...Please don't be rough...\""
                             ]
                         },
                         {
@@ -16997,7 +16626,7 @@
                                 50,
                                 0,
                                 4,
-                                "'本当に妊娠しちゃう…赤ちゃんできちゃう。'"
+                                "\"I'm really pregnant... I'm going to have a baby.\""
                             ]
                         },
                         {
@@ -17039,7 +16668,7 @@
                                 50,
                                 0,
                                 4,
-                                "'ゆる、して…もう、ゆるしてぇ…。'"
+                                "\"Please forgive me... forgive me.\""
                             ]
                         },
                         {
@@ -17131,7 +16760,7 @@
                                 50,
                                 0,
                                 4,
-                                "'くっ…放せ。放して…っ。'"
+                                "\"Ugh... Let me go. Release me...\""
                             ]
                         },
                         {
@@ -17163,7 +16792,7 @@
                                 50,
                                 0,
                                 4,
-                                "'いつになったら助けが…このままじゃ。'"
+                                "\"When will help come...it can't go on like this.\""
                             ]
                         },
                         {
@@ -17195,7 +16824,7 @@
                                 50,
                                 0,
                                 4,
-                                "'なんとかしないと…。'"
+                                "\"I have to do something about it...\""
                             ]
                         },
                         {
@@ -17227,7 +16856,7 @@
                                 50,
                                 0,
                                 4,
-                                "'くっ、いつまでこんな惨めな事を…。'"
+                                "\"How much longer must I endure this miserable...\""
                             ]
                         },
                         {
@@ -17259,7 +16888,7 @@
                                 50,
                                 0,
                                 4,
-                                "'はぁ、はぁ…許さない。絶対に…っ。'"
+                                "\"Haa, haa... I won't forgive. Absolutely...\""
                             ]
                         },
                         {
@@ -17291,7 +16920,7 @@
                                 50,
                                 0,
                                 4,
-                                "'こんな事は許されぬ。こんな…。'"
+                                "\"This is not permissible. Like this...\""
                             ]
                         },
                         {
@@ -17323,7 +16952,7 @@
                                 50,
                                 0,
                                 4,
-                                "'私を玩具にして…おのれっ。'"
+                                "\"Using me as a toy... You scoundrel.\""
                             ]
                         },
                         {
@@ -17355,7 +16984,7 @@
                                 50,
                                 0,
                                 4,
-                                "'くっ…ふっ、うぅっ。'"
+                                "\"Ugh...huff, ugh.\""
                             ]
                         },
                         {
@@ -17387,7 +17016,7 @@
                                 50,
                                 0,
                                 4,
-                                "'うぅぅ…おのれぇ！'"
+                                "\"Ugh...You scoundrel!\""
                             ]
                         },
                         {
@@ -17419,7 +17048,7 @@
                                 50,
                                 0,
                                 4,
-                                "'放せ、あそこが…つぅっ。'"
+                                "\"Let go, over there...tsuu.\""
                             ]
                         },
                         {
@@ -17451,7 +17080,7 @@
                                 50,
                                 0,
                                 4,
-                                "'はぁ、はぁ…諦めぬぞ。絶対に。'"
+                                "\"Haa, haa... I will not give up. Absolutely not.\""
                             ]
                         },
                         {
@@ -17504,7 +17133,7 @@
                                 50,
                                 0,
                                 4,
-                                "'うっ、うっ…おのれ、おのれぇ。'"
+                                "\"Ugh, ugh... you, you...\""
                             ]
                         },
                         {
@@ -17536,7 +17165,7 @@
                                 50,
                                 0,
                                 4,
-                                "'何でこんな…オーク何かに…何度も。'"
+                                "\"Why do I have to encounter these... Orcs...\""
                             ]
                         },
                         {
@@ -17568,7 +17197,7 @@
                                 50,
                                 0,
                                 4,
-                                "'お゛っ、ふぐっ、うぎぃ、いぃぃっ！'"
+                                "\"Ugh, puff, ugh, aaaah!\""
                             ]
                         },
                         {
@@ -17600,7 +17229,7 @@
                                 50,
                                 0,
                                 4,
-                                "'そんな、物みたいにぃ…っ。'"
+                                "\"Like, I feel like an object...\""
                             ]
                         },
                         {
@@ -17632,7 +17261,7 @@
                                 50,
                                 0,
                                 4,
-                                "'体つかんでずぼずぼするの、やめてぇ…。'"
+                                "\"Stop grabbing onto me and thrusting like that...\""
                             ]
                         },
                         {
@@ -17664,7 +17293,7 @@
                                 50,
                                 0,
                                 4,
-                                "'あうぅ、なか、抉られて…ごりごりぃ…。'"
+                                "\"Ah, my insides, they're being gouged... it hurts so\\nmuch...\""
                             ]
                         },
                         {
@@ -17696,7 +17325,7 @@
                                 50,
                                 0,
                                 4,
-                                "'いやあぁ…ふといの…硬いのぉ…。'"
+                                "\"Oh no... It's thick... and hard...\""
                             ]
                         },
                         {
@@ -17728,7 +17357,7 @@
                                 50,
                                 0,
                                 4,
-                                "'こんな、筋肉の塊みたいな奴にぃ…。'"
+                                "\"Someone who looks like a lump of muscles like this...\""
                             ]
                         },
                         {
@@ -17760,7 +17389,7 @@
                                 50,
                                 0,
                                 4,
-                                "'んあぁぁっ、オーク、オークなんかに…'"
+                                "\"Ah, nooo, an orc, not an orc...\""
                             ]
                         },
                         {
@@ -17792,7 +17421,7 @@
                                 50,
                                 0,
                                 4,
-                                "'やめでぇっ。無理やりずぼずぼしないでぇ！'"
+                                "\"Stop it! Don't force me like that!\""
                             ]
                         },
                         {
@@ -17824,7 +17453,7 @@
                                 50,
                                 0,
                                 4,
-                                "'いたい、いあぁぁっ！'"
+                                "\"It hurts, ow!\""
                             ]
                         },
                         {
@@ -17877,7 +17506,7 @@
                                 50,
                                 0,
                                 4,
-                                "'くぅぅ…わ、私に動けというのか？'"
+                                "\"Kuu... W-what, are you telling me to move?\""
                             ]
                         },
                         {
@@ -17909,7 +17538,7 @@
                                 50,
                                 0,
                                 4,
-                                "'ああっ、た、叩くな！ゆれて…くぅぅ！'"
+                                "\"Aah, don't hit me! It's shaking...ugh!\""
                             ]
                         },
                         {
@@ -17941,7 +17570,7 @@
                                 50,
                                 0,
                                 4,
-                                "'ふっ、ふっ…うぅぅ、あああっ！'"
+                                "\"Huh...huh...ugh! Ahh!\""
                             ]
                         },
                         {
@@ -17973,7 +17602,7 @@
                                 50,
                                 0,
                                 4,
-                                "'あっ、あっ、あそこが、いたい、のに…っ。'"
+                                "\"Ah, ah, it hurts over there...\""
                             ]
                         },
                         {
@@ -18005,7 +17634,7 @@
                                 50,
                                 0,
                                 4,
-                                "'ああっ、太い…かたいぃ…。'"
+                                "\"Aah, it's thick...and hard...\""
                             ]
                         },
                         {
@@ -18037,7 +17666,7 @@
                                 50,
                                 0,
                                 4,
-                                "'あそこが、ぐりぐり…抉れて…あぁっ。'"
+                                "\"There, it's digging and digging... It hurts... Ahh.\""
                             ]
                         },
                         {
@@ -18069,7 +17698,7 @@
                                 50,
                                 0,
                                 4,
-                                "'はっ、はっ…あくぅ…んんぅ。'"
+                                "\"Hah, hah... *gasping* ...mmmph.\""
                             ]
                         },
                         {
@@ -18101,7 +17730,7 @@
                                 50,
                                 0,
                                 4,
-                                "'いっ、きっ……ふぅ、ふぅ…んぅぅ。'"
+                                "\"Ah, ah...huff, huff...mmm.\""
                             ]
                         },
                         {
@@ -18133,7 +17762,7 @@
                                 50,
                                 0,
                                 4,
-                                "'おの、れ…おのれ…おの、れぇ…っ！'"
+                                "\"You...you...youuuu...!\""
                             ]
                         },
                         {
@@ -18165,7 +17794,7 @@
                                 50,
                                 0,
                                 4,
-                                "'何でわたしがこんなこと…こんな…っ！'"
+                                "\"Why am I doing something like this... like this...!\""
                             ]
                         },
                         {
@@ -18197,7 +17826,7 @@
                                 50,
                                 0,
                                 4,
-                                "'ふーっ、ふーっ…あっ、うっ…っ。'"
+                                "\"*huff*, *huff*... oh, *ugh*...\""
                             ]
                         },
                         {
@@ -18250,7 +17879,7 @@
                                 50,
                                 0,
                                 4,
-                                "'あ゛あ゛あ゛あ゛あ゛っ！？'"
+                                "\"Ah...ah...ah...!?!\""
                             ]
                         },
                         {
@@ -18282,7 +17911,7 @@
                                 50,
                                 0,
                                 4,
-                                "'やめっ、やだぁ！出すな！汚いの出すなぁ！'"
+                                "\"Stop it! Don't take out something dirty!\""
                             ]
                         },
                         {
@@ -18314,7 +17943,7 @@
                                 50,
                                 0,
                                 4,
-                                "'欲しくない、オークの赤ちゃんなんてぇ！'"
+                                "\"I don't want an orc baby!\""
                             ]
                         },
                         {
@@ -18346,7 +17975,7 @@
                                 50,
                                 0,
                                 4,
-                                "'あっ、すご、熱いのがでて…あっ、あぅ…。'"
+                                "\"Ah, hot stuff is coming out... Ah, ah...\""
                             ]
                         },
                         {
@@ -18378,7 +18007,7 @@
                                 50,
                                 0,
                                 4,
-                                "'ンッ、ギッ…イィ、ぁ…っ。'"
+                                "\"Ugh, gasp... Ow, ah...!\""
                             ]
                         },
                         {
@@ -18410,7 +18039,7 @@
                                 50,
                                 0,
                                 4,
-                                "'膣内で出さないで、出さないでぇぇ！'"
+                                "\"Don't come inside me, don't come inside meeee!\""
                             ]
                         },
                         {
@@ -18442,7 +18071,7 @@
                                 50,
                                 0,
                                 4,
-                                "'太くて硬いのが、脈打って…あついぃ。'"
+                                "\"Thick and hard, pulsing... so hot.\""
                             ]
                         },
                         {
@@ -18474,7 +18103,7 @@
                                 50,
                                 0,
                                 4,
-                                "'はっ、はっ…はひっ！？ひぐっ、あっ…。'"
+                                "\"Hah, hah... Hih?! Higgu, ah...\""
                             ]
                         },
                         {
@@ -18506,7 +18135,7 @@
                                 50,
                                 0,
                                 4,
-                                "'どくどく、びゅるびゅるって…ひぃぃ。'"
+                                "\"Sizzling and bubbling... Ahh!\""
                             ]
                         },
                         {
@@ -18538,7 +18167,7 @@
                                 50,
                                 0,
                                 4,
-                                "'どくんどくんって、あつぃぃ。'"
+                                "\"Thump thump, it's hot.\""
                             ]
                         },
                         {
@@ -18570,7 +18199,7 @@
                                 50,
                                 0,
                                 4,
-                                "'やだぁぁ！やだよぉぉぉ！！'"
+                                "\"No wayyy! I don't want to!!\""
                             ]
                         },
                         {
@@ -18623,7 +18252,7 @@
                                 50,
                                 0,
                                 4,
-                                "'…こんなに一杯…汚いのが、中に…。'"
+                                "\"...So full...and there's something dirty inside...\""
                             ]
                         },
                         {
@@ -18655,7 +18284,7 @@
                                 50,
                                 0,
                                 4,
-                                "'かはっ、あ、うっ…。はっ、はっ…。'"
+                                "\"Kahh, ah, uhh...hah, hah...\""
                             ]
                         },
                         {
@@ -18687,7 +18316,7 @@
                                 50,
                                 0,
                                 4,
-                                "'いたいぃ、いたいの…。'"
+                                "\"It hurts, it hurts...\""
                             ]
                         },
                         {
@@ -18719,7 +18348,7 @@
                                 50,
                                 0,
                                 4,
-                                "'んひっ、ひっ、ひっ、んひぃぃっ。'"
+                                "\"Nhii, hi, hi, nhiii!\""
                             ]
                         },
                         {
@@ -18762,7 +18391,7 @@
                                 50,
                                 0,
                                 4,
-                                "'やめ…も、赤ちゃんできてる、から…。'"
+                                "\"Stop...you know, because I'm pregnant...\""
                             ]
                         },
                         {
@@ -18783,7 +18412,7 @@
                                 50,
                                 0,
                                 4,
-                                "'やだ…赤ちゃん作るのやめてぇ…。'"
+                                "\"No...please stop making babies...\""
                             ]
                         },
                         {
@@ -18825,7 +18454,7 @@
                                 50,
                                 0,
                                 4,
-                                "'いやぁ…もうずぼずぼしないで…。'"
+                                "\"Oh no... please don't slurp anymore...\""
                             ]
                         },
                         {
@@ -18857,7 +18486,7 @@
                                 50,
                                 0,
                                 4,
-                                "'うぅ、…まだ硬いの…あそこが一杯なの…。'"
+                                "\"Ugh, it's still hard... and that spot is full...\""
                             ]
                         },
                         {
@@ -18889,7 +18518,7 @@
                                 50,
                                 0,
                                 4,
-                                "'あんなに一杯出したのにまだ硬くて熱いの…。'"
+                                "\"It's still hard and hot despite pouring so much of...\""
                             ]
                         },
                         {
@@ -18932,7 +18561,7 @@
                                 50,
                                 0,
                                 4,
-                                "'もう妊娠してるのに…なんでこんなこと…。'"
+                                "\"I'm already pregnant...why did this have to happen...\""
                             ]
                         },
                         {
@@ -18953,7 +18582,7 @@
                                 50,
                                 0,
                                 4,
-                                "'嫌だ…妊娠しちゃう…。本当に妊娠しちゃう。'"
+                                "\"No... I'm pregnant... I really am pregnant.\""
                             ]
                         },
                         {
@@ -19006,7 +18635,7 @@
                                 50,
                                 0,
                                 4,
-                                "'赤ちゃんできてるの…乱暴しないで…。'"
+                                "\"I'm pregnant...Please don't be rough...\""
                             ]
                         },
                         {
@@ -19027,7 +18656,7 @@
                                 50,
                                 0,
                                 4,
-                                "'本当に妊娠しちゃう…赤ちゃんできちゃう。'"
+                                "\"I'm really pregnant... I'm going to have a baby.\""
                             ]
                         },
                         {
@@ -19069,7 +18698,7 @@
                                 50,
                                 0,
                                 4,
-                                "'ゆる、して…もう、ゆるしてぇ…。'"
+                                "\"Please forgive me... forgive me.\""
                             ]
                         },
                         {
@@ -19402,7 +19031,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "D_TEXT セレナ 22"
+                                "D_TEXT Serena 22"
                             ]
                         },
                         {
@@ -19444,7 +19073,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "D_TEXT 　　　　　　　　　　　　　　　　　　　　　"
+                                "D_TEXT "
                             ]
                         },
                         {
@@ -21523,7 +21152,7 @@
                                 943,
                                 0,
                                 4,
-                                "'オークの肉鎧レイプ'"
+                                "\"Orc Flesh Armor Rape.\""
                             ]
                         },
                         {
@@ -23666,8 +23295,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "グオウゴ",
-                                    "ウォルルル…"
+                                    "Guougo",
+                                    "Waluru..."
                                 ],
                                 1,
                                 0,
@@ -23680,7 +23309,7 @@
                             "indent": 0,
                             "parameters": [
                                 0,
-                                "グオウゴ"
+                                "Guougo"
                             ]
                         },
                         {
@@ -23757,7 +23386,7 @@
                             "indent": 0,
                             "parameters": [
                                 1,
-                                "ウォルルル…"
+                                "Waluru..."
                             ]
                         },
                         {
@@ -23826,8 +23455,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "グオゴ！！！",
-                                    "ウォルルル…"
+                                    "Guogo!!!",
+                                    "Waluru..."
                                 ],
                                 1,
                                 0,
@@ -23840,7 +23469,7 @@
                             "indent": 0,
                             "parameters": [
                                 0,
-                                "グオゴ！！！"
+                                "Guogo!!!"
                             ]
                         },
                         {
@@ -23915,14 +23544,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "…今度は私に何を、するつもりなのだ？"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "What are you planning to do to me this time? \\n< Serena >"
                             ]
                         },
                         {
@@ -23951,14 +23573,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "な、なんだそれ…それで私に何を…っ。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "W-What is that...and what does it have to do with me? \\n< Serena >"
                             ]
                         },
                         {
@@ -23975,14 +23590,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "い、いや…いやだ！それだけは嫌だ！"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "N-No... No way! I refuse to do that! \\n< Serena >"
                             ]
                         },
                         {
@@ -23999,21 +23607,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "お願い！お願いします！嫌だ嫌、いや！"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "いやああああーーーー！！！！"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "Please, please! I don't want to, no! Noooo! \\n< Serena >"
                             ]
                         },
                         {
@@ -24060,14 +23654,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ぎぃいいあああああああ！！"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "Giiiiaaaaa!! \\n< Serena >"
                             ]
                         },
                         {
@@ -24084,14 +23671,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "あ……あぁ…あ……あああ……！"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "Ah... ah... ah... aaaaah...! \\n< Serena >"
                             ]
                         },
                         {
@@ -24108,21 +23688,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ヒ！？いいい…！やだあーー！！"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "もうやあああーーーーーー！！！"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "What?! No way...! Noooooooo! Stop itttttt!!! \\n< Serena >"
                             ]
                         },
                         {
@@ -24169,14 +23735,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "うああいぃギぎああイアあああアァアあ！！！！"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "Aaaahh, Gigi, noooo!!! \\n< Serena >"
                             ]
                         },
                         {
@@ -24193,14 +23752,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "あぁ…あ…あ…………。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "Oh...ah...ah... \\n< Serena >"
                             ]
                         },
                         {
@@ -24217,14 +23769,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ぅあ……そんな……そん、な……。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "Uh, ah...like that...no, don't... \\n< Serena >"
                             ]
                         },
                         {
@@ -24248,7 +23793,7 @@
                             "indent": 0,
                             "parameters": [
                                 1,
-                                "ウォルルル…"
+                                "Waluru..."
                             ]
                         },
                         {
@@ -24880,8 +24425,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "体の状態を確かめる",
-                                    "何もしない"
+                                    "Check the condition of the body.",
+                                    "Do nothing."
                                 ],
                                 -1,
                                 0,
@@ -24894,7 +24439,7 @@
                             "indent": 0,
                             "parameters": [
                                 0,
-                                "体の状態を確かめる"
+                                "Check the condition of the body."
                             ]
                         },
                         {
@@ -24949,7 +24494,7 @@
                             "indent": 0,
                             "parameters": [
                                 1,
-                                "何もしない"
+                                "Do nothing."
                             ]
                         },
                         {
@@ -25418,9 +24963,9 @@
                             "indent": 2,
                             "parameters": [
                                 [
-                                    "オナホでしごく",
-                                    "オナホにしごかせる",
-                                    "やめる"
+                                    "Masturbating with an onahole.",
+                                    "Make the onahole masturbate.",
+                                    "Cancel"
                                 ],
                                 -1,
                                 -1,
@@ -25433,7 +24978,7 @@
                             "indent": 2,
                             "parameters": [
                                 0,
-                                "オナホでしごく"
+                                "Masturbating with an onahole."
                             ]
                         },
                         {
@@ -25480,7 +25025,7 @@
                             "code": 356,
                             "indent": 3,
                             "parameters": [
-                                "D_TEXT キャンセル　やめる 18"
+                                "D_TEXT Cancel stop 18"
                             ]
                         },
                         {
@@ -25520,7 +25065,7 @@
                             "indent": 2,
                             "parameters": [
                                 1,
-                                "オナホにしごかせる"
+                                "Make the onahole masturbate."
                             ]
                         },
                         {
@@ -25567,7 +25112,7 @@
                             "code": 356,
                             "indent": 3,
                             "parameters": [
-                                "D_TEXT キャンセル　やめる 18"
+                                "D_TEXT Cancel stop 18"
                             ]
                         },
                         {
@@ -25607,7 +25152,7 @@
                             "indent": 2,
                             "parameters": [
                                 2,
-                                "やめる"
+                                "Cancel"
                             ]
                         },
                         {
@@ -25727,7 +25272,7 @@
                             "code": 356,
                             "indent": 2,
                             "parameters": [
-                                "D_TEXT キャンセル　オナホを使う 18"
+                                "D_TEXT Cancel Using masturbation hall 18"
                             ]
                         },
                         {

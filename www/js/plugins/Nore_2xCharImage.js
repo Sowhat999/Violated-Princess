@@ -96,12 +96,12 @@ var Nore;
     }
 
     var Sprite_Character_prototype_update = Sprite_Character.prototype.update;
-    Sprite_Character.prototype.update = function () {
+    Sprite_Character.prototype.update = function() {
         Sprite_Character_prototype_update.call(this);
         this.update2xZoom();
     };
 
-    Sprite_Character.prototype.update2xZoom = function () {
+    Sprite_Character.prototype.update2xZoom = function() {
         if (this._characterName == '') {
             return;
         }

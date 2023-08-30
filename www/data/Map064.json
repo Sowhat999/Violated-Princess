@@ -1,4 +1,4 @@
-{
+﻿{
     "autoplayBgm": false,
     "autoplayBgs": false,
     "battleback1Name": "DirtField",
@@ -2912,7 +2912,7 @@
                             "code": 355,
                             "indent": 0,
                             "parameters": [
-                                "$gameScreen.showPicture(1,\"01_Window-s\",0,195,588,100,100,255,0)"
+                                "$gameScreen.showPicture(1,\"01_Window-s\",0,175,588,100,100,255,0)"
                             ]
                         },
                         {
@@ -3014,7 +3014,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "回想セーブ オークバッドエンド"
+                                "回想セーブ Orc_Bad_End"
                             ]
                         },
                         {
@@ -3031,14 +3031,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ゴゥオロロロ…。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<オーク>"
+                                "Gooororororo… \\n< Orc >"
                             ]
                         },
                         {
@@ -3285,14 +3278,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "グゥオ！オオオ！"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<オーク>"
+                                "Grrrr! Aaargh! \\n< Orc >"
                             ]
                         },
                         {
@@ -3309,14 +3295,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "オァ！オァ！グォアゴ！！"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<オーク>"
+                                "Roar! Roar! Gwoh goh!! \\n< Orc >"
                             ]
                         },
                         {
@@ -3345,14 +3324,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ヴォロロロロロ！！！！！"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<オーク>"
+                                "Vororororo!!! \\n< Orc >"
                             ]
                         },
                         {
@@ -3450,14 +3422,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ごぼっ！オっ……！"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "Goboh! Oh... \\n< Serena >"
                             ]
                         },
                         {
@@ -3534,14 +3499,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "グオオオオオオオ！！！！！"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<オーク>"
+                                "Grrrrrrrrrrrrrrrrrr!!!!!! \\n< Orc >"
                             ]
                         },
                         {
@@ -3753,14 +3711,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "がっ！…あぁ…！"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "Ah!...Ugh...! \\n< Serena >"
                             ]
                         },
                         {
@@ -3839,14 +3790,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "んっ…ぅ……！"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "Ah, umph...! \\n< Serena >"
                             ]
                         },
                         {
@@ -3914,14 +3858,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "っぁ……………。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "Ahh... \\n< Serena >"
                             ]
                         },
                         {
@@ -3938,14 +3875,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ウーー…。ウーー……。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<？？？>"
+                                "Oooooo... Ooooooo... \\n< ??? >"
                             ]
                         },
                         {
@@ -3980,14 +3910,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アー……。ダー……。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<オークの子供>"
+                                "Ahh... Duh... \\n< Orc child >"
                             ]
                         },
                         {
@@ -4044,14 +3967,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "…………。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                ".......... \\n< Serena >"
                             ]
                         },
                         {
@@ -4075,14 +3991,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ヴォォア……。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<オーク>"
+                                "Vwoah... \\n< Orc >"
                             ]
                         },
                         {
@@ -4099,14 +4008,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "フォロロロロロ……。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<オーク>"
+                                "Folorororo... \\n< Orc >"
                             ]
                         },
                         {
@@ -4141,14 +4043,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ゴゥア……ヴフン！"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<オーク>"
+                                "Grrr... Hmph! \\n< Orc >"
                             ]
                         },
                         {
@@ -4225,14 +4120,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ヴォアッ！ヴォアッ！ヴォアッ！ヴォアッ！"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<オーク>"
+                                "Voah! Voah! Voah! Voah! \\n< Orc >"
                             ]
                         },
                         {
@@ -4753,14 +4641,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ヴォア！ゴアアアアアアーーー！！！"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<オーク>"
+                                "Voa! Goooooooohhhhh!!! \\n< Orc >"
                             ]
                         },
                         {
@@ -4818,21 +4699,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ヴォオオオオオオオ！"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "ヴォオオオオオオオオオーーーー！！！"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<オーク>"
+                                "Voooooh! Vooooooooooh!!! \\n< Orc >"
                             ]
                         },
                         {
@@ -5046,14 +4913,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "っおっ！…げっ……ぐ……っ！"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "Oh! ...Uh...Ugh...! \\n< Serena >"
                             ]
                         },
                         {
@@ -5132,14 +4992,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "っ……。っ……。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "... ... \\n< Serena >"
                             ]
                         },
                         {
@@ -5156,21 +5009,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ま……た……襲、撃……に……。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "行く……のか……。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "Att...ack...again. Are you going...to go? \\n< Serena >"
                             ]
                         },
                         {
@@ -5187,14 +5026,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "……。"
+                                "......"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -5251,14 +5090,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "たの……む……誰か……。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "Please... help... anyone... \\n< Serena >"
                             ]
                         },
                         {
@@ -5315,21 +5147,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "止め……て……。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "殺し……て…………。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "Stop....ing. Kill...ing.... \\n< Serena >"
                             ]
                         },
                         {
@@ -5360,21 +5178,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "この……者、共…を……。"
+                                "This... person, gather the... others. Take care of"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "この…子を……。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "this... child. \\n< Serena >"
                             ]
                         },
                         {
@@ -5445,14 +5256,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "私……を……。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "I...will... \\n< Serena >"
                             ]
                         },
                         {

@@ -546,31 +546,31 @@
  *  このプラグインはもうあなたのものです。
  */
 
-(function () {
+(function() {
     'use strict';
     var pluginName = 'MessageWindowPopup';
 
-    var checkTypeFunction = function (value) {
+    var checkTypeFunction = function(value) {
         return checkType(value, 'Function');
     };
 
-    var checkType = function (value, typeName) {
+    var checkType = function(value, typeName) {
         return Object.prototype.toString.call(value).slice(8, -1) === typeName;
     };
 
-    var getParamNumber = function (paramNames, min, max) {
+    var getParamNumber = function(paramNames, min, max) {
         var value = getParamString(paramNames);
         if (arguments.length < 2) min = -Infinity;
         if (arguments.length < 3) max = Infinity;
         return (parseInt(value) || 0).clamp(min, max);
     };
 
-    var getParamBoolean = function (paramNames) {
+    var getParamBoolean = function(paramNames) {
         var value = getParamString(paramNames);
         return (value || '').toUpperCase() === 'ON' || (value || '').toUpperCase() === 'TRUE';
     };
 
-    var getParamString = function (paramNames) {
+    var getParamString = function(paramNames) {
         if (!Array.isArray(paramNames)) paramNames = [paramNames];
         for (var i = 0; i < paramNames.length; i++) {
             var name = PluginManager.parameters(pluginName)[paramNames[i]];
@@ -579,75 +579,75 @@
         return null;
     };
 
-    var getArgNumber = function (arg, min, max) {
+    var getArgNumber = function(arg, min, max) {
         if (arguments.length <= 2) min = -Infinity;
         if (arguments.length <= 3) max = Infinity;
         return (parseInt(convertEscapeCharacters(arg)) || 0).clamp(min, max);
     };
 
-    var getArgString = function (arg, upperFlg) {
+    var getArgString = function(arg, upperFlg) {
         arg = convertEscapeCharacters(arg);
         return upperFlg ? arg.toUpperCase() : arg;
     };
 
-    var getCommandName = function (command) {
+    var getCommandName = function(command) {
         return (command || '').toUpperCase();
     };
 
-    var convertEscapeCharacters = function (text) {
+    var convertEscapeCharacters = function(text) {
         if (text == null) text = '';
         var window = SceneManager._scene._windowLayer.children[0];
         return window ? window.convertEscapeCharacters(text) : text;
     };
 
     //FTKR_ExMessageWindow2.jsを使用しているか
-    var imported_FTKR_EMW = function () {
+    var imported_FTKR_EMW = function() {
         return typeof Imported !== 'undefined' && Imported.FTKR_EMW;
     };
 
-    var isExistPlugin = function (pluginName) {
+    var isExistPlugin = function(pluginName) {
         return Object.keys(PluginManager.parameters(pluginName)).length > 0;
     };
 
     //=============================================================================
     // パラメータのバリデーション
     //=============================================================================
-    var paramThroughWindow = getParamBoolean(['ThroughWindow', 'ウィンドウ透過']);
-    var paramFaceScale = getParamNumber(['FaceScale', 'フェイス倍率'], 1, 100);
-    var paramFontSize = getParamNumber(['FontSize', 'フォントサイズ'], 1);
-    var paramPadding = getParamNumber(['Padding', '余白'], 1);
-    var paramLinkage = getParamBoolean(['WindowLinkage', 'ウィンドウ連携']);
-    var paramBetweenLines = getParamNumber(['BetweenLines', '行間'], 0);
-    var paramAutoPopup = getParamBoolean(['AutoPopup', '自動設定']);
-    var paramFontSizeRange = getParamNumber(['FontSizeRange', 'フォントサイズ増減幅'], 0);
-    var paramFontUpperLimit = getParamNumber(['FontUpperLimit', 'フォントサイズ上限'], 0);
-    var paramFontLowerLimit = getParamNumber(['FontLowerLimit', 'フォントサイズ下限'], 0);
-    var paramInnerScreen = getParamBoolean(['InnerScreen', '画面内に収める']);
-    var paramShakeSpeed = getParamString(['ShakeSpeed', '振動の速さ']);
-    var paramShakeDuration = getParamString(['ShakeDuration', '振動時間']);
-    var paramNoUseTail = getParamBoolean(['NoUseTail', 'テールを使わない']);
-    var paramMinWidthVariableId = getParamNumber(['MinWidthVariableId', '最小横幅取得変数ID']);
+    var paramThroughWindow       = getParamBoolean(['ThroughWindow', 'ウィンドウ透過']);
+    var paramFaceScale           = getParamNumber(['FaceScale', 'フェイス倍率'], 1, 100);
+    var paramFontSize            = getParamNumber(['FontSize', 'フォントサイズ'], 1);
+    var paramPadding             = getParamNumber(['Padding', '余白'], 1);
+    var paramLinkage             = getParamBoolean(['WindowLinkage', 'ウィンドウ連携']);
+    var paramBetweenLines        = getParamNumber(['BetweenLines', '行間'], 0);
+    var paramAutoPopup           = getParamBoolean(['AutoPopup', '自動設定']);
+    var paramFontSizeRange       = getParamNumber(['FontSizeRange', 'フォントサイズ増減幅'], 0);
+    var paramFontUpperLimit      = getParamNumber(['FontUpperLimit', 'フォントサイズ上限'], 0);
+    var paramFontLowerLimit      = getParamNumber(['FontLowerLimit', 'フォントサイズ下限'], 0);
+    var paramInnerScreen         = getParamBoolean(['InnerScreen', '画面内に収める']);
+    var paramShakeSpeed          = getParamString(['ShakeSpeed', '振動の速さ']);
+    var paramShakeDuration       = getParamString(['ShakeDuration', '振動時間']);
+    var paramNoUseTail           = getParamBoolean(['NoUseTail', 'テールを使わない']);
+    var paramMinWidthVariableId  = getParamNumber(['MinWidthVariableId', '最小横幅取得変数ID']);
     var paramMinHeightVariableId = getParamNumber(['MinHeightVariableId', '最小高さ取得変数ID']);
-    var paramLowerLimitX = getParamNumber(['lowerLimitX']);
-    var paramUpperLimitX = getParamNumber(['upperLimitX']);
-    var paramLowerLimitY = getParamNumber(['lowerLimitY']);
-    var paramUpperLimitY = getParamNumber(['upperLimitY']);
-    var paramTailImage = getParamString(['tailImage']);
-    var paramTailImageAdjustY = getParamNumber(['tailImageAdjustY']);
+    var paramLowerLimitX         = getParamNumber(['lowerLimitX']);
+    var paramUpperLimitX         = getParamNumber(['upperLimitX']);
+    var paramLowerLimitY         = getParamNumber(['lowerLimitY']);
+    var paramUpperLimitY         = getParamNumber(['upperLimitY']);
+    var paramTailImage           = getParamString(['tailImage']);
+    var paramTailImageAdjustY    = getParamNumber(['tailImageAdjustY']);
 
     //=============================================================================
     // Game_Interpreter
     //  プラグインコマンドを追加定義します。
     //=============================================================================
-    var _Game_Interpreter_pluginCommand = Game_Interpreter.prototype.pluginCommand;
-    Game_Interpreter.prototype.pluginCommand = function (command, args) {
+    var _Game_Interpreter_pluginCommand      = Game_Interpreter.prototype.pluginCommand;
+    Game_Interpreter.prototype.pluginCommand = function(command, args) {
         _Game_Interpreter_pluginCommand.apply(this, arguments);
         this.pluginCommandMessageWindowPopup(command, args);
     };
 
-    Game_Interpreter.prototype.pluginCommandMessageWindowPopup = function (command, args) {
+    Game_Interpreter.prototype.pluginCommandMessageWindowPopup = function(command, args) {
         switch (getCommandName(command)) {
-            case 'MWP_VALID':
+            case 'MWP_VALID' :
             case 'フキダシウィンドウ有効化':
                 $gameSystem.clearMessagePopupFree();
                 var eventId = this.getEventIdForMessagePopup(args[0]);
@@ -669,7 +669,7 @@
                     $gameSystem.setPopupFixLower(eventId);
                 }
                 break;
-            case 'MWP_FREE':
+            case 'MWP_FREE' :
             case 'フキダシウィンドウフリー配置':
                 var x = getArgNumber(args[0]) || 0;
                 var y = getArgNumber(args[1]) || 0;
@@ -685,39 +685,39 @@
                     $gameSystem.clearMessagePopup();
                 }
                 break;
-            case 'MWP_SETTING':
+            case 'MWP_SETTING' :
             case 'フキダシウィンドウ設定':
                 switch (getCommandName(args[0])) {
-                    case 'POS_UPPER':
+                    case 'POS_UPPER' :
                     case '位置_上固定':
                         $gameSystem.setPopupFixUpper(args[1] ? this.getEventIdForMessagePopup(args[1]) : null);
                         break;
-                    case 'POS_LOWER':
+                    case 'POS_LOWER' :
                     case '位置_下固定':
                         $gameSystem.setPopupFixLower(args[1] ? this.getEventIdForMessagePopup(args[1]) : null);
                         break;
-                    case 'POS_AUTO':
+                    case 'POS_AUTO' :
                     case '位置_自動':
                         $gameSystem.setPopupAuto(args[1] ? this.getEventIdForMessagePopup(args[1]) : null);
                         break;
-                    case 'SKIN':
-                    case 'スキン':
+                    case 'SKIN' :
+                    case 'スキン' :
                         $gameSystem.setPopupWindowSkin(getArgString(args[1]));
                         this.setWaitMode('image');
                         break;
-                    case 'SUB_POS_NORMAL':
+                    case 'SUB_POS_NORMAL' :
                     case 'サブ位置_通常':
                         $gameSystem.setPopupSubWindowPosition(0);
                         break;
-                    case 'SUB_POS_PLAYER':
+                    case 'SUB_POS_PLAYER' :
                     case 'サブ位置_プレイヤーの頭上':
                         $gameSystem.setPopupSubWindowPosition(1);
                         break;
-                    case 'SUB_POS_INNER':
+                    case 'SUB_POS_INNER' :
                     case 'サブ位置_メッセージウィンドウ内部':
                         $gameSystem.setPopupSubWindowPosition(2);
                         break;
-                    case 'SUB_POS_RIGHT':
+                    case 'SUB_POS_RIGHT' :
                     case 'サブ位置_右':
                         $gameSystem.setPopupSubWindowPosition(3);
                         break;
@@ -726,11 +726,11 @@
             case 'MWP_ADJUST':
             case 'フキダシウィンドウ調整':
                 switch (getCommandName(args[0])) {
-                    case 'SIZE':
+                    case 'SIZE' :
                     case 'サイズ':
                         $gameSystem.setPopupAdjustSize(getArgNumber(args[1]), getArgNumber(args[2]));
                         break;
-                    case 'POS':
+                    case 'POS' :
                     case '位置':
                         $gameSystem.setPopupAdjustPosition(getArgNumber(args[1]), getArgNumber(args[2]));
                         break;
@@ -739,9 +739,9 @@
         }
     };
 
-    Game_Interpreter.prototype.getEventIdForMessagePopup = function (arg) {
+    Game_Interpreter.prototype.getEventIdForMessagePopup = function(arg) {
         var convertedArg = convertEscapeCharacters(arg);
-        var eventId = parseInt(convertedArg);
+        var eventId      = parseInt(convertedArg);
         if (isNaN(eventId)) {
             return convertedArg;
         }
@@ -751,9 +751,9 @@
         return eventId;
     };
 
-    Game_Interpreter.prototype.getEventIdFromEventName = function (eventName) {
+    Game_Interpreter.prototype.getEventIdFromEventName = function(eventName) {
         var eventId = 0;
-        $gameMap.events().some(function (event) {
+        $gameMap.events().some(function(event) {
             if (event.event().name === eventName) {
                 eventId = event.eventId();
                 return true;
@@ -763,8 +763,8 @@
         return eventId;
     };
 
-    var _Game_Interpreter_terminate = Game_Interpreter.prototype.terminate;
-    Game_Interpreter.prototype.terminate = function () {
+    var _Game_Interpreter_terminate      = Game_Interpreter.prototype.terminate;
+    Game_Interpreter.prototype.terminate = function() {
         _Game_Interpreter_terminate.apply(this, arguments);
         if (this._depth === 0 && this.isGameMapInterpreter()) {
             if (imported_FTKR_EMW()) {
@@ -775,11 +775,11 @@
         }
     };
 
-    Game_Interpreter.prototype.setGameMapInterpreter = function () {
+    Game_Interpreter.prototype.setGameMapInterpreter = function() {
         this._gameMapInterpreter = true;
     };
 
-    Game_Interpreter.prototype.isGameMapInterpreter = function () {
+    Game_Interpreter.prototype.isGameMapInterpreter = function() {
         return this._gameMapInterpreter;
     };
 
@@ -787,83 +787,83 @@
     // Game_System
     //  ポップアップフラグを保持します。
     //=============================================================================
-    var _Game_System_initialize = Game_System.prototype.initialize;
-    Game_System.prototype.initialize = function () {
+    var _Game_System_initialize      = Game_System.prototype.initialize;
+    Game_System.prototype.initialize = function() {
         _Game_System_initialize.apply(this, arguments);
-        this._messagePopupCharacterId = 0;
-        this._messagePopupPosition = null;
-        this._messagePopupAdjustSize = null;
-        this._messagePopupAdjustPosition = null;
-        this._messagePopupWindowSkin = null;
+        this._messagePopupCharacterId       = 0;
+        this._messagePopupPosition          = null;
+        this._messagePopupAdjustSize        = null;
+        this._messagePopupAdjustPosition    = null;
+        this._messagePopupWindowSkin        = null;
         this._messagePopupSubWindowPosition = 0;
     };
 
-    Game_System.prototype.initMessagePositionEvents = function () {
+    Game_System.prototype.initMessagePositionEvents = function() {
         if (!this._messagePopupPositionEvents) {
             this._messagePopupPositionEvents = [];
         }
     };
 
-    Game_System.prototype.setPopupSubWindowPosition = function (position) {
+    Game_System.prototype.setPopupSubWindowPosition = function(position) {
         this._messagePopupSubWindowPosition = position.clamp(0, 3);
     };
 
-    Game_System.prototype.getPopupSubWindowPosition = function () {
+    Game_System.prototype.getPopupSubWindowPosition = function() {
         return this._messagePopupSubWindowPosition;
     };
 
-    Game_System.prototype.setPopupWindowSkin = function (fileName) {
+    Game_System.prototype.setPopupWindowSkin = function(fileName) {
         this._messagePopupWindowSkin = fileName;
         ImageManager.loadSystem(fileName);
     };
 
-    Game_System.prototype.getPopupWindowSkin = function () {
+    Game_System.prototype.getPopupWindowSkin = function() {
         return this._messagePopupWindowSkin;
     };
 
-    Game_System.prototype.setMessagePopup = function (id) {
+    Game_System.prototype.setMessagePopup = function(id) {
         this._messagePopupCharacterId = id;
     };
 
-    Game_System.prototype.clearMessagePopup = function () {
-        this._messagePopupCharacterId = 0;
+    Game_System.prototype.clearMessagePopup = function() {
+        this._messagePopupCharacterId    = 0;
         this._messagePopupPositionEvents = [];
     };
 
-    Game_System.prototype.setMessagePopupFree = function (x, y) {
-        this._messagePopupFreeX = x;
-        this._messagePopupFreeY = y;
+    Game_System.prototype.setMessagePopupFree = function(x, y) {
+        this._messagePopupFreeX       = x;
+        this._messagePopupFreeY       = y;
         this._messagePopupCharacterId = 1;
     };
 
-    Game_System.prototype.clearMessagePopupFree = function () {
+    Game_System.prototype.clearMessagePopupFree = function() {
         this.setMessagePopupFree(undefined, undefined);
     };
 
-    Game_System.prototype.getMessagePopupId = function () {
+    Game_System.prototype.getMessagePopupId = function() {
         return this._messagePopupCharacterId !== 0 ? this._messagePopupCharacterId : null;
     };
 
-    Game_System.prototype.getMessagePopupFree = function () {
+    Game_System.prototype.getMessagePopupFree = function() {
         if (this._messagePopupFreeX === undefined || this._messagePopupFreeY === undefined) {
             return null;
         }
-        return { x: this._messagePopupFreeX, y: this._messagePopupFreeY };
+        return {x: this._messagePopupFreeX, y: this._messagePopupFreeY};
     };
 
-    Game_System.prototype.setPopupFixUpper = function (characterId) {
+    Game_System.prototype.setPopupFixUpper = function(characterId) {
         this.setPopupFixPosition(characterId, 1);
     };
 
-    Game_System.prototype.setPopupFixLower = function (characterId) {
+    Game_System.prototype.setPopupFixLower = function(characterId) {
         this.setPopupFixPosition(characterId, 2);
     };
 
-    Game_System.prototype.setPopupAuto = function (characterId) {
+    Game_System.prototype.setPopupAuto = function(characterId) {
         this.setPopupFixPosition(characterId, 0);
     };
 
-    Game_System.prototype.setPopupFixPosition = function (characterId, position) {
+    Game_System.prototype.setPopupFixPosition = function(characterId, position) {
         if (characterId !== null) {
             this.initMessagePositionEvents();
             this._messagePopupPositionEvents[characterId] = position;
@@ -872,35 +872,35 @@
         }
     };
 
-    Game_System.prototype.setPopupAdjustSize = function (w, h) {
+    Game_System.prototype.setPopupAdjustSize = function(w, h) {
         this._messagePopupAdjustSize = [w, h];
     };
 
-    Game_System.prototype.getPopupAdjustSize = function () {
+    Game_System.prototype.getPopupAdjustSize = function() {
         return this._messagePopupAdjustSize;
     };
 
-    Game_System.prototype.setPopupAdjustPosition = function (x, y) {
+    Game_System.prototype.setPopupAdjustPosition = function(x, y) {
         this._messagePopupAdjustPosition = [x, y];
     };
 
-    Game_System.prototype.getPopupAdjustPosition = function () {
+    Game_System.prototype.getPopupAdjustPosition = function() {
         return this._messagePopupAdjustPosition;
     };
 
-    Game_System.prototype.isPopupFixUpper = function (eventId) {
+    Game_System.prototype.isPopupFixUpper = function(eventId) {
         return this.isPopupFixPosition(1, eventId);
     };
 
-    Game_System.prototype.isPopupFixLower = function (eventId) {
+    Game_System.prototype.isPopupFixLower = function(eventId) {
         return this.isPopupFixPosition(2, eventId);
     };
 
-    Game_System.prototype.isPopupFixPosition = function (position, eventId) {
+    Game_System.prototype.isPopupFixPosition = function(position, eventId) {
         var id = eventId || this._messagePopupCharacterId;
         this.initMessagePositionEvents();
-        var positionFixForId = this._messagePopupPositionEvents[id];
-        var event = $gameMap.event(id);
+        var positionFixForId   = this._messagePopupPositionEvents[id];
+        var event              = $gameMap.event(id);
         var positionFixForName = event ? this._messagePopupPositionEvents[event.event().name] : 0;
         if (positionFixForId > 0) {
             return positionFixForId === position;
@@ -915,8 +915,8 @@
     // Game_Map
     //  イベント起動時に自動設定を適用します。
     //=============================================================================
-    var _Game_Map_setupStartingMapEvent = Game_Map.prototype.setupStartingMapEvent;
-    Game_Map.prototype.setupStartingMapEvent = function () {
+    var _Game_Map_setupStartingMapEvent      = Game_Map.prototype.setupStartingMapEvent;
+    Game_Map.prototype.setupStartingMapEvent = function() {
         var result = _Game_Map_setupStartingMapEvent.apply(this, arguments);
         if (result) {
             if (paramAutoPopup) {
@@ -930,8 +930,8 @@
         return result;
     };
 
-    var _Game_Map_setup = Game_Map.prototype.setup;
-    Game_Map.prototype.setup = function (mapId) {
+    var _Game_Map_setup      = Game_Map.prototype.setup;
+    Game_Map.prototype.setup = function(mapId) {
         _Game_Map_setup.apply(this, arguments);
         this._interpreter.setGameMapInterpreter();
     };
@@ -940,8 +940,8 @@
     // Game_Troop
     //  戦闘開始時にポップアップフラグを解除します。
     //=============================================================================
-    var _Game_Troop_setup = Game_Troop.prototype.setup;
-    Game_Troop.prototype.setup = function (troopId) {
+    var _Game_Troop_setup      = Game_Troop.prototype.setup;
+    Game_Troop.prototype.setup = function(troopId) {
         _Game_Troop_setup.apply(this, arguments);
         $gameSystem.clearMessagePopup();
     };
@@ -950,25 +950,25 @@
     // Game_CharacterBase
     //  キャラクターの高さを設定します。
     //=============================================================================
-    var _Game_CharacterBase_initMembers = Game_CharacterBase.prototype.initMembers;
-    Game_CharacterBase.prototype.initMembers = function () {
+    var _Game_CharacterBase_initMembers      = Game_CharacterBase.prototype.initMembers;
+    Game_CharacterBase.prototype.initMembers = function() {
         _Game_CharacterBase_initMembers.apply(this, arguments);
         this.setSizeForMessagePopup(0, 0);
     };
 
-    Game_CharacterBase.prototype.setSizeForMessagePopup = function (width, height) {
+    Game_CharacterBase.prototype.setSizeForMessagePopup = function(width, height) {
         this._size = [width, height];
     };
 
-    Game_CharacterBase.prototype.getHeightForPopup = function () {
+    Game_CharacterBase.prototype.getHeightForPopup = function() {
         return $gameScreen.zoomScale() * this._size[1];
     };
 
-    Game_CharacterBase.prototype.getRealScreenX = function () {
+    Game_CharacterBase.prototype.getRealScreenX = function() {
         return $gameScreen.convertRealX(this.screenX());
     };
 
-    Game_CharacterBase.prototype.getRealScreenY = function () {
+    Game_CharacterBase.prototype.getRealScreenY = function() {
         return $gameScreen.convertRealY(this.screenY());
     };
 
@@ -976,12 +976,12 @@
     // Game_Screen
     //  画面座標をズームを考慮した座標に変換します。
     //=============================================================================
-    Game_Screen.prototype.convertRealX = function (x) {
+    Game_Screen.prototype.convertRealX = function(x) {
         var scale = this.zoomScale();
         return scale * x - (scale - 1.0) * this.zoomX();
     };
 
-    Game_Screen.prototype.convertRealY = function (y) {
+    Game_Screen.prototype.convertRealY = function(y) {
         var scale = this.zoomScale();
         return scale * y - (scale - 1.0) * this.zoomY();
     };
@@ -990,9 +990,9 @@
     // Scene_Map
     //  ポップアップ用のウィンドウスキンをロードします。
     //=============================================================================
-    var _Scene_Map_isReady = Scene_Map.prototype.isReady;
-    Scene_Map.prototype.isReady = function () {
-        var ready = _Scene_Map_isReady.apply(this, arguments);
+    var _Scene_Map_isReady      = Scene_Map.prototype.isReady;
+    Scene_Map.prototype.isReady = function() {
+        var ready   = _Scene_Map_isReady.apply(this, arguments);
         var popSkin = $gameSystem.getPopupWindowSkin();
         if (popSkin && ready) {
             var bitmap = ImageManager.loadSystem(popSkin);
@@ -1005,13 +1005,13 @@
     // Sprite_Character
     //  キャラクターの高さを逆設定します。
     //=============================================================================
-    var _Sprite_Character_updateBitmap = Sprite_Character.prototype.updateBitmap;
-    Sprite_Character.prototype.updateBitmap = function () {
+    var _Sprite_Character_updateBitmap      = Sprite_Character.prototype.updateBitmap;
+    Sprite_Character.prototype.updateBitmap = function() {
         if (this.isImageChanged()) this._imageChange = true;
         _Sprite_Character_updateBitmap.apply(this, arguments);
         if (this._imageChange) {
-            this.bitmap.addLoadListener(function () {
-                var width = this.bitmap.width === 1 ? $gameMap.tileWidth() : this.patternWidth();
+            this.bitmap.addLoadListener(function() {
+                var width  = this.bitmap.width === 1 ? $gameMap.tileWidth() : this.patternWidth();
                 var height = this.bitmap.height === 1 ? $gameMap.tileHeight() : this.patternHeight();
                 this._character.setSizeForMessagePopup(width, height);
             }.bind(this));
@@ -1023,8 +1023,8 @@
     // Window_Base
     //  共通処理を定義します。
     //=============================================================================
-    var _Window_Base_loadWindowskin = Window_Base.prototype.loadWindowskin;
-    Window_Base.prototype.loadWindowskin = function () {
+    var _Window_Base_loadWindowskin      = Window_Base.prototype.loadWindowskin;
+    Window_Base.prototype.loadWindowskin = function() {
         var popSkin = $gameSystem.getPopupWindowSkin();
         if (this.isPopup() && popSkin) {
             this.windowskin = ImageManager.loadSystem(popSkin);
@@ -1033,53 +1033,53 @@
         }
     };
 
-    Window_Base.prototype.setPauseSignToTail = function (lowerFlg) {
+    Window_Base.prototype.setPauseSignToTail = function(lowerFlg) {
         if (lowerFlg) {
             this._windowPauseSignSprite.rotation = 180 * Math.PI / 180;
-            this._windowPauseSignSprite.y = 12;
+            this._windowPauseSignSprite.y        = 12;
             this._windowPauseSignSprite.anchor.y = 0;
         } else {
             this._windowPauseSignSprite.rotation = 0;
-            this._windowPauseSignSprite.y = this.height + 12;
+            this._windowPauseSignSprite.y        = this.height + 12;
             this._windowPauseSignSprite.anchor.y = 1;
         }
-        this._pauseSignLower = lowerFlg;
+        this._pauseSignLower  = lowerFlg;
         this._pauseSignToTail = true;
     };
 
-    Window_Base.prototype.setPauseSignImageToTail = function (lowerFlg) {
+    Window_Base.prototype.setPauseSignImageToTail = function(lowerFlg) {
         this._windowPauseSignSprite.visible = false;
         if (lowerFlg) {
             this._messageTailImage.rotation = 180 * Math.PI / 180;
-            this._messageTailImage.y = -paramTailImageAdjustY;
+            this._messageTailImage.y        = -paramTailImageAdjustY;
             this._messageTailImage.anchor.y = 0;
         } else {
             this._messageTailImage.rotation = 0;
-            this._messageTailImage.y = this.height + paramTailImageAdjustY;
+            this._messageTailImage.y        = this.height + paramTailImageAdjustY;
             this._messageTailImage.anchor.y = 0;
         }
     };
 
-    Window_Base.prototype.setPauseSignToNormal = function () {
+    Window_Base.prototype.setPauseSignToNormal = function() {
         this._windowPauseSignSprite.rotation = 0;
         this._windowPauseSignSprite.anchor.y = 1.0;
         this._windowPauseSignSprite.move(this._width / 2, this._height);
         this._pauseSignToTail = false;
     };
 
-    var _Window_Base_updatePauseSign = Window_Base.prototype._updatePauseSign;
-    Window_Base.prototype._updatePauseSign = function () {
+    var _Window_Base_updatePauseSign       = Window_Base.prototype._updatePauseSign;
+    Window_Base.prototype._updatePauseSign = function() {
         _Window_Base_updatePauseSign.apply(this, arguments);
         if (this._pauseSignToTail) this._windowPauseSignSprite.alpha = 1.0;
     };
 
-    Window_Base.prototype.isPopupLower = function () {
+    Window_Base.prototype.isPopupLower = function() {
         return $gameSystem.isPopupFixLower() || (!$gameSystem.isPopupFixUpper() && this.y < 0);
     };
 
-    Window_Base.prototype.setPopupPosition = function (character) {
+    Window_Base.prototype.setPopupPosition = function(character) {
         this._popupCharacter = character;
-        this._popupFreePos = $gameSystem.getMessagePopupFree();
+        this._popupFreePos   = $gameSystem.getMessagePopupFree();
         this.setPopupBasePosition();
         this.setPopupLowerPosition();
         this.setPopupAdjustInnerScreen();
@@ -1088,30 +1088,30 @@
         }
     };
 
-    Window_Base.prototype.getPopupBaseX = function () {
+    Window_Base.prototype.getPopupBaseX = function() {
         return this._popupFreePos ? this._popupFreePos.x : this._popupCharacter.getRealScreenX();
     };
 
-    Window_Base.prototype.getPopupBaseY = function () {
+    Window_Base.prototype.getPopupBaseY = function() {
         return this._popupFreePos ? this._popupFreePos.y : this._popupCharacter.getRealScreenY();
     };
 
-    Window_Base.prototype.getHeightForPopup = function () {
+    Window_Base.prototype.getHeightForPopup = function() {
         return this._popupFreePos ? 0 : (this._popupCharacter.getHeightForPopup() + 8);
     };
 
-    Window_Base.prototype.setPopupBasePosition = function () {
+    Window_Base.prototype.setPopupBasePosition = function() {
         var pos = $gameSystem.getPopupAdjustPosition();
-        this.x = this.getPopupBaseX() - this.width / 2 + (pos ? pos[0] : 0);
-        this.y = this.getPopupBaseY() - this.height - this.getHeightForPopup() + (pos ? pos[1] : 0);
+        this.x  = this.getPopupBaseX() - this.width / 2 + (pos ? pos[0] : 0);
+        this.y  = this.getPopupBaseY() - this.height - this.getHeightForPopup() + (pos ? pos[1] : 0);
     };
 
-    Window_Base.prototype.setPopupShakePosition = function () {
+    Window_Base.prototype.setPopupShakePosition = function() {
         var duration = getArgNumber(paramShakeDuration);
         if (duration && this._shakeCount > duration) {
             this.setWindowShake(0);
         }
-        var speed = getArgNumber(paramShakeSpeed, 1);
+        var speed    = getArgNumber(paramShakeSpeed, 1);
         var position = Math.sin(this._shakeCount / 10 * speed) * this._shakePower;
         this.x += position;
         this._windowPauseSignSprite.x -= position;
@@ -1119,7 +1119,7 @@
         this._shakeCount++;
     };
 
-    Window_Base.prototype.setPopupLowerPosition = function () {
+    Window_Base.prototype.setPopupLowerPosition = function() {
         var lowerFlg = this.isPopupLower();
         if (lowerFlg) {
             this.y += this.height + this.getHeightForPopup() + 8;
@@ -1132,7 +1132,7 @@
         }
     };
 
-    Window_Base.prototype.setPopupAdjustInnerScreen = function () {
+    Window_Base.prototype.setPopupAdjustInnerScreen = function() {
         if (paramInnerScreen) {
             this.adjustPopupPositionY();
         }
@@ -1144,15 +1144,15 @@
         this._messageTailImage.x = tailX;
     };
 
-    Window_Base.prototype.setWindowShake = function (power) {
+    Window_Base.prototype.setWindowShake = function(power) {
         this._shakePower = power;
         this._shakeCount = 0;
     };
 
-    Window_Base.prototype.adjustPopupPositionX = function () {
+    Window_Base.prototype.adjustPopupPositionX = function() {
         var deltaX = 0;
-        var minX = paramLowerLimitX || 0;
-        var maxX = paramUpperLimitX || Graphics.boxWidth;
+        var minX   = paramLowerLimitX || 0;
+        var maxX   = paramUpperLimitX || Graphics.boxWidth;
         if (this.x < minX) {
             deltaX = this.x - minX;
             this.x = minX;
@@ -1164,7 +1164,7 @@
         return deltaX;
     };
 
-    Window_Base.prototype.adjustPopupPositionY = function () {
+    Window_Base.prototype.adjustPopupPositionY = function() {
         var minY = (this._pauseSignLower ? this._windowPauseSignSprite.height / 2 : 0);
         minY += paramLowerLimitY || 0;
         if (this.y < minY) {
@@ -1176,7 +1176,7 @@
         }
     };
 
-    Window_Base.prototype.updatePlacementPopup = function () {
+    Window_Base.prototype.updatePlacementPopup = function() {
         if (!this._messageWindow) return;
         if (paramLinkage) {
             switch ($gameSystem.getPopupSubWindowPosition()) {
@@ -1190,8 +1190,8 @@
                     break;
                 case 2:
                     var pos = this._messageWindow.getSubWindowPosition();
-                    this.x = pos.x;
-                    this.y = pos.y;
+                    this.x  = pos.x;
+                    this.y  = pos.y;
                     this.setPauseSignToNormal();
                     this.opacity = 0;
                     break;
@@ -1206,24 +1206,24 @@
         }
     };
 
-    Window_Base.prototype.isPopup = function () {
+    Window_Base.prototype.isPopup = function() {
         return false;
     };
 
-    Window_Base.prototype.isPopupLinkage = function () {
+    Window_Base.prototype.isPopupLinkage = function() {
         return this.isPopup() && paramLinkage;
     };
 
-    Window_Base.prototype.resetLayout = function () {
+    Window_Base.prototype.resetLayout = function() {
         this.padding = this.standardPadding();
-        this.width = this.windowWidth();
-        this.height = this.windowHeight();
+        this.width   = this.windowWidth();
+        this.height  = this.windowHeight();
         this.loadWindowskin();
         this.setPauseSignToNormal();
     };
 
-    var _Window_Base_makeFontBigger = Window_Base.prototype.makeFontBigger;
-    Window_Base.prototype.makeFontBigger = function () {
+    var _Window_Base_makeFontBigger      = Window_Base.prototype.makeFontBigger;
+    Window_Base.prototype.makeFontBigger = function() {
         if (this.isValidFontRangeForPopup()) {
             if (this.contents.fontSize <= paramFontUpperLimit) {
                 this.contents.fontSize += paramFontSizeRange;
@@ -1233,8 +1233,8 @@
         }
     };
 
-    var _Window_Base_makeFontSmaller = Window_Base.prototype.makeFontSmaller;
-    Window_Base.prototype.makeFontSmaller = function () {
+    var _Window_Base_makeFontSmaller      = Window_Base.prototype.makeFontSmaller;
+    Window_Base.prototype.makeFontSmaller = function() {
         if (this.isValidFontRangeForPopup()) {
             if (this.contents.fontSize >= paramFontLowerLimit) {
                 this.contents.fontSize -= paramFontSizeRange;
@@ -1244,11 +1244,11 @@
         }
     };
 
-    Window_Base.prototype.isValidFontRangeForPopup = function () {
+    Window_Base.prototype.isValidFontRangeForPopup = function() {
         return this.isPopup() && paramFontSizeRange > 0;
     };
 
-    Window_Base.prototype.isUsePauseSignTextEnd = function () {
+    Window_Base.prototype.isUsePauseSignTextEnd = function() {
         return this.isValidPauseSignTextEnd && this.isValidPauseSignTextEnd()
     };
 
@@ -1257,38 +1257,38 @@
     //  ポップアップする場合、表示内容により座標とサイズを自動設定します。
     //=============================================================================
     Window_Message._faceHeight = Math.floor(Window_Base._faceHeight * paramFaceScale / 100);
-    Window_Message._faceWidth = Math.floor(Window_Base._faceWidth * paramFaceScale / 100);
+    Window_Message._faceWidth  = Math.floor(Window_Base._faceWidth * paramFaceScale / 100);
 
     var _Window_Message__createAllParts = Window_Message.prototype._createAllParts;
-    Window_Message.prototype._createAllParts = function () {
+    Window_Message.prototype._createAllParts = function() {
         _Window_Message__createAllParts.apply(this, arguments);
         this._messageTailImage = new Sprite();
         if (paramTailImage) {
-            this._messageTailImage.bitmap = ImageManager.loadSystem(paramTailImage);
-            this._messageTailImage.visible = false;
+            this._messageTailImage.bitmap   = ImageManager.loadSystem(paramTailImage);
+            this._messageTailImage.visible  = false;
             this._messageTailImage.anchor.x = 0.5;
             this.addChild(this._messageTailImage);
         }
     };
 
-    var _Window_Message_standardFontSize = Window_Message.prototype.standardFontSize;
-    Window_Message.prototype.standardFontSize = function () {
+    var _Window_Message_standardFontSize      = Window_Message.prototype.standardFontSize;
+    Window_Message.prototype.standardFontSize = function() {
         return this.isPopup() ? paramFontSize : _Window_Message_standardFontSize.apply(this, arguments);
     };
 
-    var _Window_Message_standardPadding = Window_Message.prototype.standardPadding;
-    Window_Message.prototype.standardPadding = function () {
+    var _Window_Message_standardPadding      = Window_Message.prototype.standardPadding;
+    Window_Message.prototype.standardPadding = function() {
         return this.isPopup() ? paramPadding : _Window_Message_standardPadding.apply(this, arguments);
     };
 
-    var _Window_Message_calcTextHeight = Window_Message.prototype.calcTextHeight;
-    Window_Message.prototype.calcTextHeight = function (textState, all) {
+    var _Window_Message_calcTextHeight      = Window_Message.prototype.calcTextHeight;
+    Window_Message.prototype.calcTextHeight = function(textState, all) {
         var height = _Window_Message_calcTextHeight.apply(this, arguments);
         return this.isPopup() ? height - 8 + paramBetweenLines : height;
     };
 
-    var _Window_Message_startMessage = Window_Message.prototype.startMessage;
-    Window_Message.prototype.startMessage = function () {
+    var _Window_Message_startMessage      = Window_Message.prototype.startMessage;
+    Window_Message.prototype.startMessage = function() {
         this.updateTargetCharacterId();
         this.loadWindowskin();
         // Resolve conflict for MPP_MessageEX
@@ -1306,8 +1306,8 @@
         this.resetLayout();
     };
 
-    var _Window_Message_loadWindowskin = Window_Message.prototype.loadWindowskin;
-    Window_Message.prototype.loadWindowskin = function () {
+    var _Window_Message_loadWindowskin      = Window_Message.prototype.loadWindowskin;
+    Window_Message.prototype.loadWindowskin = function() {
         var popupWindowSkin = $gameSystem.getPopupWindowSkin();
         if (this._windowSkinName !== popupWindowSkin || !popupWindowSkin) {
             if (this.isPopup()) {
@@ -1317,17 +1317,17 @@
         _Window_Message_loadWindowskin.apply(this, arguments);
     };
 
-    Window_Message.prototype.updateTargetCharacterId = function () {
+    Window_Message.prototype.updateTargetCharacterId = function() {
         this._targetCharacterId = $gameSystem.getMessagePopupId();
     };
 
-    var _Window_Message_resetFontSettings = Window_Message.prototype.resetFontSettings;
-    Window_Message.prototype.resetFontSettings = function () {
+    var _Window_Message_resetFontSettings      = Window_Message.prototype.resetFontSettings;
+    Window_Message.prototype.resetFontSettings = function() {
         _Window_Message_resetFontSettings.apply(this, arguments);
         if (this.isPopup()) this.contents.fontSize = paramFontSize;
     };
 
-    Window_Message.prototype.getPopupTargetCharacter = function () {
+    Window_Message.prototype.getPopupTargetCharacter = function() {
         var id = this._targetCharacterId;
         if (id < -1) {
             return $gamePlayer.followers().follower((id * -1) - 2);
@@ -1340,17 +1340,17 @@
         }
     };
 
-    Window_Message.prototype.isPopup = function () {
+    Window_Message.prototype.isPopup = function() {
         return !!this.getPopupTargetCharacter();
     };
 
-    var _Window_Message_update = Window_Message.prototype.update;
-    Window_Message.prototype.update = function () {
+    var _Window_Message_update      = Window_Message.prototype.update;
+    Window_Message.prototype.update = function() {
         _Window_Message_update.apply(this, arguments);
         this.updatePlacementPopupIfNeed();
     };
 
-    Window_Message.prototype.updatePlacementPopupIfNeed = function () {
+    Window_Message.prototype.updatePlacementPopupIfNeed = function() {
         var prevX = this.x;
         var prevY = this.y;
         if (this.openness > 0 && this.isPopup()) {
@@ -1361,8 +1361,8 @@
         }
     };
 
-    var _Window_Message_updatePlacement = Window_Message.prototype.updatePlacement;
-    Window_Message.prototype.updatePlacement = function () {
+    var _Window_Message_updatePlacement      = Window_Message.prototype.updatePlacement;
+    Window_Message.prototype.updatePlacement = function() {
         if (typeof Yanfly === 'undefined' || !Yanfly.Message) {
             var width = this.windowWidth();
             this.x = (Graphics.boxWidth - width) / 2;
@@ -1383,7 +1383,7 @@
 
     var _Window_Message__updatePauseSign = Window_Message.prototype.hasOwnProperty('_updatePauseSign') ?
         Window_Message.prototype._updatePauseSign : null;
-    Window_Message.prototype._updatePauseSign = function () {
+    Window_Message.prototype._updatePauseSign = function() {
         if (_Window_Message__updatePauseSign) {
             _Window_Message__updatePauseSign.apply(this, arguments);
         } else {
@@ -1392,16 +1392,16 @@
         this.updateTailImage();
     };
 
-    Window_Message.prototype.isPopupLower = function () {
+    Window_Message.prototype.isPopupLower = function() {
         var id = this._targetCharacterId;
         return $gameSystem.isPopupFixLower(id) || (!$gameSystem.isPopupFixUpper(id) && this.getWindowTopY() < 0);
     };
 
-    Window_Message.prototype.getWindowTopY = function () {
+    Window_Message.prototype.getWindowTopY = function() {
         return this.y - (this._nameWindow && this._nameWindow.visible ? this._nameWindow.height : 0);
     };
 
-    Window_Message.prototype.updatePlacementPopup = function () {
+    Window_Message.prototype.updatePlacementPopup = function() {
         this.setPopupPosition(this.getPopupTargetCharacter());
         if (this._choiceWindow && $gameMessage.isChoice()) {
             this._choiceWindow.updatePlacementPopup();
@@ -1417,7 +1417,7 @@
         }
     };
 
-    Window_Message.prototype.updateTailImage = function () {
+    Window_Message.prototype.updateTailImage = function() {
         if (!this.isPopup()) {
             this._messageTailImage.visible = false;
         } else if (paramTailImage) {
@@ -1428,12 +1428,12 @@
         }
     };
 
-    Window_Message.prototype.resetLayout = function () {
+    Window_Message.prototype.resetLayout = function() {
         this.padding = this.standardPadding();
         if (this.getPopupTargetCharacter()) {
             this.processVirtual();
         } else {
-            this.width = this.windowWidth();
+            this.width  = this.windowWidth();
             this.height = this.windowHeight();
             this.setPauseSignToNormal();
         }
@@ -1441,12 +1441,12 @@
         this.updateBackground();
     };
 
-    Window_Message.prototype.processVirtual = function () {
-        var virtual = {};
-        virtual.index = 0;
-        virtual.text = this.convertEscapeCharacters($gameMessage.allText());
+    Window_Message.prototype.processVirtual = function() {
+        var virtual      = {};
+        virtual.index    = 0;
+        virtual.text     = this.convertEscapeCharacters($gameMessage.allText());
         var defaultEscapeList = ['C', 'I', '{', '}'];
-        virtual.text = virtual.text.replace(/\x1b(\w+)\[.*]/gi, function (text) {
+        virtual.text     = virtual.text.replace(/\x1b(\w+)\[.*]/gi, function(text) {
             return defaultEscapeList.contains(arguments[1].toUpperCase()) ? text : '';
         });
         virtual.maxWidth = 0;
@@ -1456,7 +1456,7 @@
         }
         virtual.y += virtual.height;
         this._subWindowY = virtual.y;
-        var choices = $gameMessage.choices();
+        var choices      = $gameMessage.choices();
         if (choices && $gameSystem.getPopupSubWindowPosition() === 2) {
             virtual.y += choices.length * this._choiceWindow.lineHeight();
             virtual.maxWidth = Math.max(virtual.maxWidth, this.newLineX() + this._choiceWindow.maxChoiceWidth());
@@ -1465,7 +1465,7 @@
         if (digit && $gameSystem.getPopupSubWindowPosition() === 2) {
             virtual.y += this._numberWindow.lineHeight();
         }
-        var width = virtual.maxWidth + this.padding * 2;
+        var width  = virtual.maxWidth + this.padding * 2;
         var height = Math.max(this.getFaceHeight(), virtual.y) + this.padding * 2;
         var adjust = $gameSystem.getPopupAdjustSize();
         if (adjust) {
@@ -1477,27 +1477,27 @@
         } else if (paramNoUseTail) {
             height += 8;
         }
-        this.width = Math.max(width, this.getMinimumWidth());
+        this.width  = Math.max(width, this.getMinimumWidth());
         this.height = Math.max(height, this.getMinimumHeight());
         this.resetFontSettings();
     };
 
-    Window_Message.prototype.getMinimumWidth = function () {
+    Window_Message.prototype.getMinimumWidth = function() {
         return $gameVariables.value(paramMinWidthVariableId);
     };
 
-    Window_Message.prototype.getMinimumHeight = function () {
+    Window_Message.prototype.getMinimumHeight = function() {
         return $gameVariables.value(paramMinHeightVariableId);
     };
 
-    Window_Message.prototype.getSubWindowPosition = function () {
+    Window_Message.prototype.getSubWindowPosition = function() {
         var pos = new Point();
-        pos.x = this.x + this.newLineX();
-        pos.y = this.y + this._subWindowY;
+        pos.x   = this.x + this.newLineX();
+        pos.y   = this.y + this._subWindowY;
         return pos;
     };
 
-    Window_Message.prototype.processVirtualCharacter = function (textState) {
+    Window_Message.prototype.processVirtualCharacter = function(textState) {
         switch (textState.text[textState.index]) {
             case '\n':
                 this.processNewLine(textState);
@@ -1514,8 +1514,8 @@
         }
     };
 
-    var _Window_Message_processNewLine = Window_Message.prototype.processNewLine;
-    Window_Message.prototype.processNewLine = function (textState) {
+    var _Window_Message_processNewLine      = Window_Message.prototype.processNewLine;
+    Window_Message.prototype.processNewLine = function(textState) {
         if (this.isPopup()) {
             textState.index++;
             _Window_Message_processNewLine.apply(this, arguments);
@@ -1525,7 +1525,7 @@
         }
     };
 
-    Window_Message.prototype.processVirtualEscapeCharacter = function (code, textState) {
+    Window_Message.prototype.processVirtualEscapeCharacter = function(code, textState) {
         switch (code) {
             case 'C':
                 this.changeTextColor(this.textColor(this.obtainEscapeParam(textState)));
@@ -1547,7 +1547,7 @@
         }
     };
 
-    Window_Message.prototype.processVirtualNormalCharacter = function (textState) {
+    Window_Message.prototype.processVirtualNormalCharacter = function(textState) {
         var c = textState.text[textState.index++];
         textState.x += this.textWidth(c);
         // Resolve conflict for BetweenCharacters.js
@@ -1557,13 +1557,13 @@
         textState.maxWidth = Math.max(textState.maxWidth, textState.x);
     };
 
-    Window_Message.prototype.processVirtualDrawIcon = function (iconIndex, textState) {
+    Window_Message.prototype.processVirtualDrawIcon = function(iconIndex, textState) {
         textState.x += Window_Base._iconWidth + 4;
         textState.maxWidth = Math.max(textState.maxWidth, textState.x);
     };
 
-    var _Window_Message_newLineX = Window_Message.prototype.newLineX;
-    Window_Message.prototype.newLineX = function () {
+    var _Window_Message_newLineX      = Window_Message.prototype.newLineX;
+    Window_Message.prototype.newLineX = function() {
         if (this.isPopup()) {
             return $gameMessage.faceName() === '' ? 0 : Window_Message._faceWidth + 8;
         } else {
@@ -1571,32 +1571,32 @@
         }
     };
 
-    Window_Message.prototype.getFaceHeight = function () {
+    Window_Message.prototype.getFaceHeight = function() {
         return $gameMessage.faceName() === '' ? 0 : Window_Message._faceHeight;
     };
 
-    var _Window_Message_drawFace = Window_Message.prototype.drawFace;
-    Window_Message.prototype.drawFace = function (faceName, faceIndex, x, y, width, height) {
+    var _Window_Message_drawFace      = Window_Message.prototype.drawFace;
+    Window_Message.prototype.drawFace = function(faceName, faceIndex, x, y, width, height) {
         if (this.isPopup()) {
-            width = width || Window_Base._faceWidth;
-            height = height || Window_Base._faceHeight;
+            width      = width || Window_Base._faceWidth;
+            height     = height || Window_Base._faceHeight;
             var bitmap = ImageManager.loadFace(faceName);
-            var pw = Window_Base._faceWidth;
-            var ph = Window_Base._faceHeight;
-            var sw = Math.min(width, pw);
-            var sh = Math.min(height, ph);
-            var dx = Math.floor(x + Math.max(width - pw, 0) / 2);
-            var dy = Math.floor(y + Math.max(height - ph, 0) / 2);
-            var sx = faceIndex % 4 * pw + (pw - sw) / 2;
-            var sy = Math.floor(faceIndex / 4) * ph + (ph - sh) / 2;
+            var pw     = Window_Base._faceWidth;
+            var ph     = Window_Base._faceHeight;
+            var sw     = Math.min(width, pw);
+            var sh     = Math.min(height, ph);
+            var dx     = Math.floor(x + Math.max(width - pw, 0) / 2);
+            var dy     = Math.floor(y + Math.max(height - ph, 0) / 2);
+            var sx     = faceIndex % 4 * pw + (pw - sw) / 2;
+            var sy     = Math.floor(faceIndex / 4) * ph + (ph - sh) / 2;
             this.contents.blt(bitmap, sx, sy, sw, sh, dx, dy, Window_Message._faceWidth, Window_Message._faceHeight);
         } else {
             _Window_Message_drawFace.apply(this, arguments);
         }
     };
 
-    var _Window_Message_processEscapeCharacter = Window_Message.prototype.processEscapeCharacter;
-    Window_Message.prototype.processEscapeCharacter = function (code, textState) {
+    var _Window_Message_processEscapeCharacter      = Window_Message.prototype.processEscapeCharacter;
+    Window_Message.prototype.processEscapeCharacter = function(code, textState) {
         if (code === 'SH') {
             this.setWindowShake(this.obtainEscapeParam(textState));
         } else {
@@ -1604,8 +1604,8 @@
         }
     };
 
-    var _Window_Message_terminateMessage = Window_Message.prototype.terminateMessage;
-    Window_Message.prototype.terminateMessage = function () {
+    var _Window_Message_terminateMessage      = Window_Message.prototype.terminateMessage;
+    Window_Message.prototype.terminateMessage = function() {
         this.setWindowShake(0);
         _Window_Message_terminateMessage.apply(this, arguments);
     };
@@ -1614,23 +1614,23 @@
     // Window_ChoiceList
     //  ポップアップする場合、メッセージウィンドウに連動して表示位置と余白を調整します。
     //=============================================================================
-    var _Window_ChoiceList_standardFontSize = Window_ChoiceList.prototype.standardFontSize;
-    Window_ChoiceList.prototype.standardFontSize = function () {
+    var _Window_ChoiceList_standardFontSize      = Window_ChoiceList.prototype.standardFontSize;
+    Window_ChoiceList.prototype.standardFontSize = function() {
         return this.isPopupLinkage() ? paramFontSize : _Window_ChoiceList_standardFontSize.apply(this, arguments);
     };
 
-    var _Window_ChoiceList_standardPadding = Window_ChoiceList.prototype.standardPadding;
-    Window_ChoiceList.prototype.standardPadding = function () {
+    var _Window_ChoiceList_standardPadding      = Window_ChoiceList.prototype.standardPadding;
+    Window_ChoiceList.prototype.standardPadding = function() {
         return this.isPopupLinkage() ? paramPadding : _Window_ChoiceList_standardPadding.apply(this, arguments);
     };
 
-    var _Window_ChoiceList_lineHeight = Window_ChoiceList.prototype.lineHeight;
-    Window_ChoiceList.prototype.lineHeight = function () {
+    var _Window_ChoiceList_lineHeight      = Window_ChoiceList.prototype.lineHeight;
+    Window_ChoiceList.prototype.lineHeight = function() {
         return this.isPopupLinkage() ? paramFontSize + 8 : _Window_ChoiceList_lineHeight.apply(this, arguments);
     };
 
-    var _Window_ChoiceList_start = Window_ChoiceList.prototype.start;
-    Window_ChoiceList.prototype.start = function () {
+    var _Window_ChoiceList_start      = Window_ChoiceList.prototype.start;
+    Window_ChoiceList.prototype.start = function() {
         this._messageWindow.updateTargetCharacterId();
         if (!this.isPopup()) {
             this._messageWindow.resetLayout();
@@ -1638,25 +1638,25 @@
         return _Window_ChoiceList_start.apply(this, arguments);
     };
 
-    var _Window_ChoiceList_updatePlacement = Window_ChoiceList.prototype.updatePlacement;
-    Window_ChoiceList.prototype.updatePlacement = function () {
+    var _Window_ChoiceList_updatePlacement      = Window_ChoiceList.prototype.updatePlacement;
+    Window_ChoiceList.prototype.updatePlacement = function() {
         this.resetLayout();
         _Window_ChoiceList_updatePlacement.apply(this, arguments);
         if (this.isPopup()) this.updatePlacementPopup();
     };
 
-    var _Window_ChoiceList_refresh = Window_ChoiceList.prototype.refresh;
-    Window_ChoiceList.prototype.refresh = function () {
+    var _Window_ChoiceList_refresh      = Window_ChoiceList.prototype.refresh;
+    Window_ChoiceList.prototype.refresh = function() {
         this.resetLayout();
         _Window_ChoiceList_refresh.apply(this, arguments);
     };
 
-    Window_ChoiceList.prototype.isPopup = function () {
+    Window_ChoiceList.prototype.isPopup = function() {
         return this._messageWindow.isPopup() && this._messageWindow.isOpen();
     };
 
-    var _Window_ChoiceList_numVisibleRows = Window_ChoiceList.prototype.numVisibleRows;
-    Window_ChoiceList.prototype.numVisibleRows = function () {
+    var _Window_ChoiceList_numVisibleRows      = Window_ChoiceList.prototype.numVisibleRows;
+    Window_ChoiceList.prototype.numVisibleRows = function() {
         var result = _Window_ChoiceList_numVisibleRows.apply(this, arguments);
         if (this.isPopupLinkage()) {
             result = Math.min($gameMessage.choices().length, 8);
@@ -1668,36 +1668,36 @@
     // Window_NumberInput
     //  ポップアップする場合、メッセージウィンドウに連動して表示位置と余白を調整します。
     //=============================================================================
-    var _Window_NumberInput_standardFontSize = Window_NumberInput.prototype.standardFontSize;
-    Window_NumberInput.prototype.standardFontSize = function () {
+    var _Window_NumberInput_standardFontSize      = Window_NumberInput.prototype.standardFontSize;
+    Window_NumberInput.prototype.standardFontSize = function() {
         return this.isPopupLinkage() ? paramFontSize : _Window_NumberInput_standardFontSize.apply(this, arguments);
     };
 
-    var _Window_NumberInput_standardPadding = Window_NumberInput.prototype.standardPadding;
-    Window_NumberInput.prototype.standardPadding = function () {
+    var _Window_NumberInput_standardPadding      = Window_NumberInput.prototype.standardPadding;
+    Window_NumberInput.prototype.standardPadding = function() {
         return this.isPopupLinkage() ? paramPadding : _Window_NumberInput_standardPadding.apply(this, arguments);
     };
 
-    var _Window_NumberInput_lineHeight = Window_NumberInput.prototype.lineHeight;
-    Window_NumberInput.prototype.lineHeight = function () {
+    var _Window_NumberInput_lineHeight      = Window_NumberInput.prototype.lineHeight;
+    Window_NumberInput.prototype.lineHeight = function() {
         return this.isPopupLinkage() ? paramFontSize + 8 : _Window_NumberInput_lineHeight.apply(this, arguments);
     };
 
-    var _Window_NumberInput_updatePlacement = Window_NumberInput.prototype.updatePlacement;
-    Window_NumberInput.prototype.updatePlacement = function () {
+    var _Window_NumberInput_updatePlacement      = Window_NumberInput.prototype.updatePlacement;
+    Window_NumberInput.prototype.updatePlacement = function() {
         this.resetLayout();
         this.opacity = 255;
         _Window_NumberInput_updatePlacement.apply(this, arguments);
         if (this.isPopup()) this.updatePlacementPopup();
     };
 
-    Window_NumberInput.prototype.isPopup = function () {
+    Window_NumberInput.prototype.isPopup = function() {
         return this._messageWindow.isPopup() && this._messageWindow.isOpen();
     };
 
     // Resolve conflict for KMS_DebugUtil.js
     if (isExistPlugin('KMS_DebugUtil')) {
-        Window_NumberInput.prototype.isPopup = function () {
+        Window_NumberInput.prototype.isPopup = function() {
             return this._messageWindow && this._messageWindow.isPopup() && this._messageWindow.isOpen();
         };
     }
@@ -1707,39 +1707,39 @@
     //  メッセージウィンドウに連動して表示位置と余白を調整します。
     //=============================================================================
     if (typeof Window_NameBox !== 'undefined') {
-        var _Window_NameBox_standardFontSize = Window_NameBox.prototype.standardFontSize;
-        Window_NameBox.prototype.standardFontSize = function () {
+        var _Window_NameBox_standardFontSize      = Window_NameBox.prototype.standardFontSize;
+        Window_NameBox.prototype.standardFontSize = function() {
             return this.isPopupLinkage() ? paramFontSize : _Window_NameBox_standardFontSize.apply(this, arguments);
         };
 
-        var _Window_NameBox_standardPadding = Window_NameBox.prototype.standardPadding;
-        Window_NameBox.prototype.standardPadding = function () {
+        var _Window_NameBox_standardPadding      = Window_NameBox.prototype.standardPadding;
+        Window_NameBox.prototype.standardPadding = function() {
             return this.isPopupLinkage() ? paramPadding : _Window_NameBox_standardPadding.apply(this, arguments);
         };
 
-        var _Window_NameBox_lineHeight = Window_NameBox.prototype.lineHeight;
-        Window_NameBox.prototype.lineHeight = function () {
+        var _Window_NameBox_lineHeight      = Window_NameBox.prototype.lineHeight;
+        Window_NameBox.prototype.lineHeight = function() {
             return this.isPopupLinkage() ? paramFontSize + 8 : _Window_NameBox_lineHeight.apply(this, arguments);
         };
 
-        var _Window_NameBox_updatePlacement = Window_NameBox.prototype.updatePlacement;
-        Window_NameBox.prototype.updatePlacement = function () {
+        var _Window_NameBox_updatePlacement      = Window_NameBox.prototype.updatePlacement;
+        Window_NameBox.prototype.updatePlacement = function() {
             this.resetLayout();
             _Window_NameBox_updatePlacement.apply(this, arguments);
             if (this.isPopup()) this.updatePlacementPopup();
         };
 
-        var _Window_NameBox_refresh = Window_NameBox.prototype.refresh;
-        Window_NameBox.prototype.refresh = function () {
+        var _Window_NameBox_refresh      = Window_NameBox.prototype.refresh;
+        Window_NameBox.prototype.refresh = function() {
             this.resetLayout();
             return _Window_NameBox_refresh.apply(this, arguments);
         };
 
-        Window_NameBox.prototype.isPopup = function () {
+        Window_NameBox.prototype.isPopup = function() {
             return this._parentWindow.isPopup();
         };
 
-        Window_NameBox.prototype.updatePlacementPopup = function () {
+        Window_NameBox.prototype.updatePlacementPopup = function() {
             this.adjustPositionX();
             this.adjustPositionY();
             if (!$gameSystem.getMessagePopupId()) {
@@ -1757,9 +1757,9 @@
         //  WindowLayer
         //   ウィンドウのマスク処理を除去します。
         //=============================================================================
-        WindowLayer.prototype._maskWindow = function (window) { };
+        WindowLayer.prototype._maskWindow = function(window) {};
 
-        WindowLayer.prototype._canvasClearWindowRect = function (renderSession, window) { };
+        WindowLayer.prototype._canvasClearWindowRect = function(renderSession, window) {};
     }
 
     //=============================================================================
@@ -1771,29 +1771,29 @@
         //Game_System
         //フキダシウィンドウの有効無効フラグをウィンドウID毎に保持
         //------------------------------------------------------------------------
-        var _EMW_Game_System_initialize = Game_System.prototype.initialize;
-        Game_System.prototype.initialize = function () {
+        var _EMW_Game_System_initialize  = Game_System.prototype.initialize;
+        Game_System.prototype.initialize = function() {
             _EMW_Game_System_initialize.apply(this, arguments);
             this._messagePopupCharacterIds = [];
         };
 
-        Game_System.prototype.setMessagePopupEx = function (windowId, eventId) {
+        Game_System.prototype.setMessagePopupEx = function(windowId, eventId) {
             this._messagePopupCharacterIds[windowId] = eventId;
         };
 
-        var _EMW_Game_System_clearMessagePopup = Game_System.prototype.clearMessagePopup;
-        Game_System.prototype.clearMessagePopup = function () {
+        var _EMW_Game_System_clearMessagePopup  = Game_System.prototype.clearMessagePopup;
+        Game_System.prototype.clearMessagePopup = function() {
             _EMW_Game_System_clearMessagePopup.apply(this, arguments);
-            this._messagePopupCharacterIds.forEach(function (id, i) {
+            this._messagePopupCharacterIds.forEach(function(id, i) {
                 this.clearMessagePopupEx(i);
             }, this);
         };
 
-        Game_System.prototype.clearMessagePopupEx = function (windowId) {
+        Game_System.prototype.clearMessagePopupEx = function(windowId) {
             this._messagePopupCharacterIds[windowId] = 0;
         };
 
-        Game_System.prototype.getMessagePopupIdEx = function (windowId) {
+        Game_System.prototype.getMessagePopupIdEx = function(windowId) {
             windowId = windowId || 0;
             return this._messagePopupCharacterIds[windowId] !== 0 ? this._messagePopupCharacterIds[windowId] : null;
         };
@@ -1802,8 +1802,8 @@
         //Scene_Map
         //場所移動時にすべてのウィンドウIDのフキダシ無効化
         //------------------------------------------------------------------------
-        var _EMW_Scene_Map_terminate = Scene_Map.prototype.terminate;
-        Scene_Map.prototype.terminate = function () {
+        var _EMW_Scene_Map_terminate  = Scene_Map.prototype.terminate;
+        Scene_Map.prototype.terminate = function() {
             _EMW_Scene_Map_terminate.call(this);
             if (SceneManager.isNextScene(Scene_Map)) {
                 $gameSystem.clearMessagePopup();
@@ -1813,16 +1813,16 @@
         //------------------------------------------------------------------------
         //Window_MessageEx
         //------------------------------------------------------------------------
-        var _Window_MessageEx_startMessage = Window_MessageEx.prototype.startMessage;
-        Window_MessageEx.prototype.startMessage = function () {
+        var _Window_MessageEx_startMessage      = Window_MessageEx.prototype.startMessage;
+        Window_MessageEx.prototype.startMessage = function() {
             this.updateTargetCharacterId();
             this.loadWindowskin();
             _Window_MessageEx_startMessage.apply(this, arguments);
             this.resetLayout();
         };
 
-        var _Window_MessageEx_updatePlacement = Window_MessageEx.prototype.updatePlacement;
-        Window_MessageEx.prototype.updatePlacement = function () {
+        var _Window_MessageEx_updatePlacement      = Window_MessageEx.prototype.updatePlacement;
+        Window_MessageEx.prototype.updatePlacement = function() {
             if (typeof Yanfly === 'undefined' || !Yanfly.Message) {
                 this.x = 0;
             }
@@ -1833,12 +1833,12 @@
             this.updatePlacementPopup();
         };
 
-        Window_MessageEx.prototype.updateTargetCharacterId = function () {
-            var id = $gameSystem.getMessagePopupIdEx(this._windowId);
+        Window_MessageEx.prototype.updateTargetCharacterId = function() {
+            var id                  = $gameSystem.getMessagePopupIdEx(this._windowId);
             this._targetCharacterId = $gameSystem.getMessagePopupIdEx(this._windowId);
         };
 
-        Window_MessageEx.prototype.updatePlacementPopup = function () {
+        Window_MessageEx.prototype.updatePlacementPopup = function() {
             this.setPopupPosition(this.getPopupTargetCharacter());
             if (this._choiceWindow && this._gameMessage.isChoice()) {
                 this._choiceWindow.updatePlacementPopup();
@@ -1849,10 +1849,10 @@
             }
         };
 
-        Window_MessageEx.prototype.processVirtual = function () {
-            var virtual = {};
-            virtual.index = 0;
-            virtual.text = this.convertEscapeCharacters(this._gameMessage.allText());
+        Window_MessageEx.prototype.processVirtual = function() {
+            var virtual      = {};
+            virtual.index    = 0;
+            virtual.text     = this.convertEscapeCharacters(this._gameMessage.allText());
             virtual.maxWidth = 0;
             this.newPage(virtual);
             while (!this.isEndOfText(virtual)) {
@@ -1860,7 +1860,7 @@
             }
             virtual.y += virtual.height;
             this._subWindowY = virtual.y;
-            var choices = this._gameMessage.choices();
+            var choices      = this._gameMessage.choices();
             if (choices && $gameSystem.getPopupSubWindowPosition() === 2) {
                 virtual.y += choices.length * this._choiceWindow.lineHeight();
                 virtual.maxWidth = Math.max(virtual.maxWidth, this.newLineX() + this._choiceWindow.maxChoiceWidth());
@@ -1869,7 +1869,7 @@
             if (digit && $gameSystem.getPopupSubWindowPosition() === 2) {
                 virtual.y += this._numberWindow.lineHeight();
             }
-            var width = virtual.maxWidth + this.padding * 2;
+            var width  = virtual.maxWidth + this.padding * 2;
             var height = Math.max(this.getFaceHeight(), virtual.y) + this.padding * 2;
             var adjust = $gameSystem.getPopupAdjustSize();
             if (adjust) {
@@ -1881,13 +1881,13 @@
             } else if (paramNoUseTail) {
                 height += 8;
             }
-            this.width = width;
+            this.width  = width;
             this.height = height;
             this.resetFontSettings();
         };
 
-        var _Window_MessageEx_newLineX = Window_MessageEx.prototype.newLineX;
-        Window_MessageEx.prototype.newLineX = function () {
+        var _Window_MessageEx_newLineX      = Window_MessageEx.prototype.newLineX;
+        Window_MessageEx.prototype.newLineX = function() {
             if (this.isPopup()) {
                 return this._gameMessage.faceName() === '' ? 0 : Window_Message._faceWidth + 8;
             } else {
@@ -1895,15 +1895,15 @@
             }
         };
 
-        Window_MessageEx.prototype.getFaceHeight = function () {
+        Window_MessageEx.prototype.getFaceHeight = function() {
             return this._gameMessage.faceName() === '' ? 0 : Window_Message._faceHeight;
         };
 
         //------------------------------------------------------------------------
         //Window_ChoiceListEx
         //------------------------------------------------------------------------
-        var _Window_ChoiceListEx_numVisibleRows = Window_ChoiceListEx.prototype.numVisibleRows;
-        Window_ChoiceListEx.prototype.numVisibleRows = function () {
+        var _Window_ChoiceListEx_numVisibleRows      = Window_ChoiceListEx.prototype.numVisibleRows;
+        Window_ChoiceListEx.prototype.numVisibleRows = function() {
             var result = _Window_ChoiceListEx_numVisibleRows.apply(this, arguments);
             if (this.isPopupLinkage()) {
                 result = Math.min(this._gameMessage.choices().length, 8);
@@ -1911,8 +1911,8 @@
             return result;
         };
 
-        var _Window_ChoiceListEx_updatePlacement = Window_ChoiceListEx.prototype.updatePlacement;
-        Window_ChoiceListEx.prototype.updatePlacement = function () {
+        var _Window_ChoiceListEx_updatePlacement      = Window_ChoiceListEx.prototype.updatePlacement;
+        Window_ChoiceListEx.prototype.updatePlacement = function() {
             this.resetLayout();
             _Window_ChoiceListEx_updatePlacement.apply(this, arguments);
             if (this.isPopup()) this.updatePlacementPopup();
@@ -1921,8 +1921,8 @@
         //------------------------------------------------------------------------
         //Window_NumberInputEx
         //------------------------------------------------------------------------
-        var _Window_NumberInputEx_updatePlacement = Window_NumberInputEx.prototype.updatePlacement;
-        Window_NumberInputEx.prototype.updatePlacement = function () {
+        var _Window_NumberInputEx_updatePlacement      = Window_NumberInputEx.prototype.updatePlacement;
+        Window_NumberInputEx.prototype.updatePlacement = function() {
             this.resetLayout();
             this.opacity = 255;
             _Window_NumberInputEx_updatePlacement.apply(this, arguments);

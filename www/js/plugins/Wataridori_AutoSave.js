@@ -68,123 +68,123 @@
 * Ci-en  : https://ci-en.dlsite.com/creator/2449
 */
 
-(function () {
+(function() {
 
-	/******************************************************************************/
-	//
-	// Plugin_Parameters
-	//
-	/******************************************************************************/
+/******************************************************************************/
+//
+// Plugin_Parameters
+//
+/******************************************************************************/
 
-	var p_parameters = PluginManager.parameters("Wataridori_AutoSave");
-	var p_autoSaveNumber = Number(p_parameters.autoSaveNumber) || 20;
-	var p_show_Console = p_parameters.show_Console == 'true';
+var p_parameters         = PluginManager.parameters("Wataridori_AutoSave");
+var p_autoSaveNumber     = Number(p_parameters.autoSaveNumber)         || 20;
+var p_show_Console       = p_parameters.show_Console == 'true';
 
-	/******************************************************************************/
-	//
-	// PluginCommand
-	//
-	/******************************************************************************/
+/******************************************************************************/
+//
+// PluginCommand
+//
+/******************************************************************************/
 
-	var _Game_Interpreter_pluginCommand = Game_Interpreter.prototype.pluginCommand;
-	Game_Interpreter.prototype.pluginCommand = function (command, args) {
-		_Game_Interpreter_pluginCommand.call(this, command, args);
-		if (command == 'AutoSave') {
-			$gameSystem.autoSave(args[0]);
+var _Game_Interpreter_pluginCommand = Game_Interpreter.prototype.pluginCommand;
+Game_Interpreter.prototype.pluginCommand = function(command, args) {
+	_Game_Interpreter_pluginCommand.call(this, command, args);
+	if(command == 'AutoSave'){
+		$gameSystem.autoSave(args[0]);
+	}
+	if(command == 'Allow_AutoSave'){
+		$gameSystem.setAutoSaveStatement(true);
+	}
+	if(command == 'Deny_AutoSave'){
+		$gameSystem.setAutoSaveStatement(false);
+	}
+};
+
+/******************************************************************************/
+//
+// Game_System
+//
+/******************************************************************************/
+
+var _Game_System_prototype_initialize = Game_System.prototype.initialize;
+Game_System.prototype.initialize = function() {
+	_Game_System_prototype_initialize.call(this);
+	this._autoSaveStatement = true;
+};
+
+Game_System.prototype.getAutoSaveStatement = function() {
+	return this._autoSaveStatement;
+};
+
+Game_System.prototype.setAutoSaveStatement = function(bool) {
+	this._autoSaveStatement = !!bool;
+};
+
+Game_System.prototype.autoSave = function(saveFileIdString) {
+	if(this.getAutoSaveStatement()){
+		this.onBeforeSave();
+		DataManager.autoSave(saveFileIdString);
+	}
+	else{
+	if(p_show_Console){
+		console.log('オートセーブの許可状態：'+this.getAutoSaveStatement()+' （true:実行可能です。false:実行できません。オートセーブを実行可能にするためにはAllow_AutoSaveをプラグインコマンドで実行してください）')
+	}
+
+	}
+};
+
+/******************************************************************************/
+//
+// DataManager
+//
+/******************************************************************************/
+
+DataManager.getAutoSavefileId = function() {
+	return p_autoSaveNumber;
+};
+
+DataManager.autoSave = function(saveFileId) {
+
+	// オートセーブを実行するセーブデータIDの取得
+	var _saveFileId = function(id) {
+		if(typeof id === 'undefined'){
+			// 最後にアクセスしたセーブデータのID
+			return this.lastAccessedSavefileId();
 		}
-		if (command == 'Allow_AutoSave') {
-			$gameSystem.setAutoSaveStatement(true);
+		else if(!isNaN(Number(id))									// idが数字か判定
+				 && (Number(id) > 0)								// idが0以上の数か判定
+			 	 && (this.maxSavefiles() >= Number(id))		// idがセーブできる最大個数以下か判定
+		){
+			// 念のため指定された数字から小数点を切り捨てたId
+			return Math.floor(Number(id));
 		}
-		if (command == 'Deny_AutoSave') {
-			$gameSystem.setAutoSaveStatement(false);
+		else if(id == 'auto'){
+			// プラグインパラメータで設定したId
+			return this.getAutoSavefileId();
 		}
-	};
-
-	/******************************************************************************/
-	//
-	// Game_System
-	//
-	/******************************************************************************/
-
-	var _Game_System_prototype_initialize = Game_System.prototype.initialize;
-	Game_System.prototype.initialize = function () {
-		_Game_System_prototype_initialize.call(this);
-		this._autoSaveStatement = true;
-	};
-
-	Game_System.prototype.getAutoSaveStatement = function () {
-		return this._autoSaveStatement;
-	};
-
-	Game_System.prototype.setAutoSaveStatement = function (bool) {
-		this._autoSaveStatement = !!bool;
-	};
-
-	Game_System.prototype.autoSave = function (saveFileIdString) {
-		if (this.getAutoSaveStatement()) {
-			this.onBeforeSave();
-			DataManager.autoSave(saveFileIdString);
+		else{
+			// 不正な値の場合は、プラグインパラメータで設定したId
+			console.log('不正なセーブデータIDです。');
+			return this.getAutoSavefileId();
 		}
-		else {
-			if (p_show_Console) {
-				console.log('オートセーブの許可状態：' + this.getAutoSaveStatement() + ' （true:実行可能です。false:実行できません。オートセーブを実行可能にするためにはAllow_AutoSaveをプラグインコマンドで実行してください）')
-			}
+	}.bind(this)(saveFileId);
 
-		}
-	};
+	// セーブ実行
+    if (DataManager.saveGame(_saveFileId)) {
+		StorageManager.cleanBackup(_saveFileId);
+		console.log('セーブに成功しました。セーブデータID:'+_saveFileId);
+		return true;
+    }
 
-	/******************************************************************************/
-	//
-	// DataManager
-	//
-	/******************************************************************************/
+	// オートセーブに失敗した場合に状態を表示
+	if(p_show_Console){
+		console.log('オートセーブに失敗しました。');
+		console.log('指定したセーブデータのID:'+saveFileId);
+		console.log('プログラム内で変換後のID:'+_saveFileId);
+	}
 
-	DataManager.getAutoSavefileId = function () {
-		return p_autoSaveNumber;
-	};
-
-	DataManager.autoSave = function (saveFileId) {
-
-		// オートセーブを実行するセーブデータIDの取得
-		var _saveFileId = function (id) {
-			if (typeof id === 'undefined') {
-				// 最後にアクセスしたセーブデータのID
-				return this.lastAccessedSavefileId();
-			}
-			else if (!isNaN(Number(id))									// idが数字か判定
-				&& (Number(id) > 0)								// idが0以上の数か判定
-				&& (this.maxSavefiles() >= Number(id))		// idがセーブできる最大個数以下か判定
-			) {
-				// 念のため指定された数字から小数点を切り捨てたId
-				return Math.floor(Number(id));
-			}
-			else if (id == 'auto') {
-				// プラグインパラメータで設定したId
-				return this.getAutoSavefileId();
-			}
-			else {
-				// 不正な値の場合は、プラグインパラメータで設定したId
-				console.log('不正なセーブデータIDです。');
-				return this.getAutoSavefileId();
-			}
-		}.bind(this)(saveFileId);
-
-		// セーブ実行
-		if (DataManager.saveGame(_saveFileId)) {
-			StorageManager.cleanBackup(_saveFileId);
-			console.log('セーブに成功しました。セーブデータID:' + _saveFileId);
-			return true;
-		}
-
-		// オートセーブに失敗した場合に状態を表示
-		if (p_show_Console) {
-			console.log('オートセーブに失敗しました。');
-			console.log('指定したセーブデータのID:' + saveFileId);
-			console.log('プログラム内で変換後のID:' + _saveFileId);
-		}
-
-		return false;
-	};
+	return false;
+};
 
 
 })();

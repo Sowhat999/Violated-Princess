@@ -1,4 +1,4 @@
-{
+﻿{
     "autoplayBgm": false,
     "autoplayBgs": false,
     "battleback1Name": "",
@@ -3419,14 +3419,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "失礼、そなたがトマ殿でよろしかったか。"
+                                "Excuse me, are you Lord Thomas?"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -3450,14 +3450,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "そうだが…君もミノタウロスについて聞きにきたのかね。"
+                                "Ah, I see... Did you also come to ask about the"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<魔物博士>"
+                                "Minotaur?"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n< Doctor of Demons >"
                             ]
                         },
                         {
@@ -3481,14 +3488,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "私も？"
+                                "Me too?"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -3505,21 +3512,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "いや、ミノタウロスなる化け物に興味がないではないが、"
+                                "No, I have no interest in the monster known as"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "今聞きたいのはオークについてだ。"
+                                "Minotaur, but what I want to know now is"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "about Orcs."
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -3543,14 +3557,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "なら敵の事を知りに来たといった所か。結構な事だね。"
+                                "So you've come to learn about the enemy, huh? That's"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<魔物博士>"
+                                "quite something."
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n< Doctor of Demons >"
                             ]
                         },
                         {
@@ -3567,21 +3588,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "君たち冒険者は、畢竟モンスター駆除業者だ。"
+                                "As adventurers and monster exterminators, you are"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "にも関わらず、モンスターについてあまりに無知と言える。"
+                                "expected to know more about monsters. However, I must"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<魔物博士>"
+                                "say that you are surprisingly ignorant in this regard."
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n< Doctor of Demons >"
                             ]
                         },
                         {
@@ -3598,21 +3626,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "奴らの根絶が一向に進まないのは、そのあたりにも"
+                                "There must be a reason why we're not making any"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "一因があるだろうね。"
+                                "progress in eradicating them around this area."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<魔物博士>"
+                                "\\n< Doctor of Demons >"
                             ]
                         },
                         {
@@ -3636,14 +3664,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "そこまで大仰な話をするつもりはないが。"
+                                "I don't intend to make such a big deal out of it."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -3660,14 +3688,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "単に自衛のためだ。"
+                                "It's just for self-defense."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -3691,14 +3719,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "結構結構。"
+                                "Okay, okay."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<魔物博士>"
+                                "\\n< Doctor of Demons >"
                             ]
                         },
                         {
@@ -4007,21 +4035,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "身を守るため。大いに結構。"
+                                "To protect yourselves. That's perfectly fine. It's"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "その為の学びすら厭う輩のなんと多い事か。"
+                                "amazing how many people there are who even dislike"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<魔物博士>"
+                                "learning for that purpose."
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n< Doctor of Demons >"
                             ]
                         },
                         {
@@ -4038,14 +4073,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "無知とはね、君、緩慢な自殺と違いのないものだよ。"
+                                "Ignorance, you know, is not unlike a slow suicide for"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<魔物博士>"
+                                "you."
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n< Doctor of Demons >"
                             ]
                         },
                         {
@@ -4062,14 +4104,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "よく生きるという事は、よく学ぶという事だ。"
+                                "To live well is to learn well."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<魔物博士>"
+                                "\\n< Doctor of Demons >"
                             ]
                         },
                         {
@@ -4183,14 +4225,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "この本を差し上げよう。"
+                                "Let me give you this book."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<魔物博士>"
+                                "\\n< Doctor of Demons >"
                             ]
                         },
                         {
@@ -4214,14 +4256,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "…？"
+                                "...?"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -4261,14 +4303,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "起動した。魔導書の類か？胡乱な…。"
+                                "It started up. Is it some kind of magic book?"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "How random..."
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -4292,21 +4341,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "その本は所有者の…つまり今は君の…魔力を少しばかり"
+                                "That book is borrowing a little bit of its owner's -"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "間借りしてね。動くものだ。"
+                                "that is, your - magical power. It's a living thing."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<魔物博士>"
+                                "\\n< Doctor of Demons >"
                             ]
                         },
                         {
@@ -4323,14 +4372,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "中を開いてみたまえ。"
+                                "Please open it and see what's inside."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<魔物博士>"
+                                "\\n< Doctor of Demons >"
                             ]
                         },
                         {
@@ -4354,14 +4403,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "…ゴブリンに…オーク…あとの頁は全部白紙だな。"
+                                "...Goblins...Orcs...all the remaining pages are blank."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -4378,14 +4427,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "なんだこれは。"
+                                "What is this?"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -4409,21 +4458,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ほとんど白紙とは素晴らしい。"
+                                "It's amazing that it's mostly a blank slate. That just"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "それだけ君はモンスターを知らないという事だ。"
+                                "means you don't know much about monsters."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<魔物博士>"
+                                "\\n< Doctor of Demons >"
                             ]
                         },
                         {
@@ -4447,21 +4496,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "…つまり、この本は私の知識と連動している"
+                                "...So, this book is linked to my knowledge."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "という事か。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -4485,14 +4527,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "その通り。君は、実に話がスムーズだ。"
+                                "That's right. You have a really smooth way of talking."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<魔物博士>"
+                                "\\n< Doctor of Demons >"
                             ]
                         },
                         {
@@ -4523,14 +4565,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "しかし、これでは未知への備えとはなりえないではないか。"
+                                "However, this could hardly be considered preparation"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "for the unknown."
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -4554,21 +4603,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "私が欲しいのは日記ではなく実用書だ。実用的な知識だ。"
+                                "What I want is not a diary, but a practical book."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "この本の仕掛けは面白いとは思うが…。"
+                                "Practical knowledge. I think the gimmick in this book"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "is interesting, but..."
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -4592,14 +4648,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "…すまぬ。初対面の方にいささか無礼な物言いだったか。"
+                                "I apologize. I fear I may have spoken rudely to"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "someone I have just met."
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -4623,21 +4686,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "そういえば自己紹介もまだであった。"
+                                "Come to think of it, I haven't introduced myself yet."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "私はセレナ。よろしくトマ殿。"
+                                "I'm Serena. Nice to meet you, Lord Thomas."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -4661,14 +4724,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "あぁ、構わない、構わないとも。"
+                                "Oh, it's okay, it's okay."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<魔物博士>"
+                                "\\n< Doctor of Demons >"
                             ]
                         },
                         {
@@ -4685,14 +4748,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "率直な意見。大いに結構。君の言う事に間違いはない。"
+                                "Honest opinion. Absolutely fine. There is no mistake"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<魔物博士>"
+                                "in what you say."
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n< Doctor of Demons >"
                             ]
                         },
                         {
@@ -4709,14 +4779,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "その本は、ただのお近づきの印とでも思ってくれ玉え。"
+                                "Please treat this book as a mere token of our"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<魔物博士>"
+                                "acquaintance."
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n< Doctor of Demons >"
                             ]
                         },
                         {
@@ -4733,21 +4810,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "さて、オークについてだが、単刀直入に"
+                                "Well, regarding the orcs, you want to know their"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "君が知りたいのは奴らの弱点だね？生態ではなく。"
+                                "weakness without beating around the bush, right?"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<魔物博士>"
+                                "Not their ecology."
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n< Doctor of Demons >"
                             ]
                         },
                         {
@@ -4771,14 +4855,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "そうだ。長々と講義を聞いている時間はない。"
+                                "That's right. I don't have time to listen to long"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "lectures."
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -4802,14 +4893,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "結構結構。"
+                                "Okay, okay."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<魔物博士>"
+                                "\\n< Doctor of Demons >"
                             ]
                         },
                         {
@@ -4826,14 +4917,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "では結論から。奴らとは真っ向勝負はしない事だ。"
+                                "So, in conclusion, you should not engage in a direct"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<魔物博士>"
+                                "confrontation with them."
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n< Doctor of Demons >"
                             ]
                         },
                         {
@@ -4850,28 +4948,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "攻撃を受けようと思ってはいけない。とても耐えられない。"
+                                "Do not think of taking their attack. It is unbearable."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "そして連続で攻撃を与えようとしてはいけない。"
+                                "And do not attempt to attack them continuously. They"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "彼らは頑強で、滅多な事ではひるまない。"
+                                "are tough and do not easily back down."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<魔物博士>"
+                                "\\n< Doctor of Demons >"
                             ]
                         },
                         {
@@ -4888,21 +4986,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "だから、やるならば強力な遠距離攻撃で一方的に叩くか、"
+                                "So, if you're going to do it, it's either to"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "攻撃の隙をついて撃っては退いてを繰り返すかだな。"
+                                "relentlessly hit with powerful long-range attacks"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<魔物博士>"
+                                "or to shoot and retreat repeatedly by taking"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "advantage of the gaps in the attacks. \\n< Doctor of Demons >"
                             ]
                         },
                         {
@@ -4919,21 +5024,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "もっとも、その弱点はオークも知っている。"
+                                "However, even the orcs know that weakness. That's why"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "だから二体とか三体とかで現れるわけだが。"
+                                "they appear in groups of two or three."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<魔物博士>"
+                                "\\n< Doctor of Demons >"
                             ]
                         },
                         {
@@ -4950,21 +5055,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "欲張らず、注意深く戦うといい。"
+                                "It's best to fight without greed and with caution."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "魔法攻撃はよく通る相手だし、君は有利ではあるだろう。"
+                                "Magic attacks are effective against this opponent, so"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<魔物博士>"
+                                "you may have the advantage."
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n< Doctor of Demons >"
                             ]
                         },
                         {
@@ -4988,14 +5100,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "私の攻撃手段が魔法だと？"
+                                "Do you know that my means of attack is magic?"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -5019,14 +5131,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "違うのかね？その細腕で剣や斧は振り回せないだろう。"
+                                "Isn't it different? With those slender arms, you"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<魔物博士>"
+                                "wouldn't be able to swing a sword or an axe, right?"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n< Doctor of Demons >"
                             ]
                         },
                         {
@@ -5043,14 +5162,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "必然、君の攻撃手段は魔法という事になる。"
+                                "Necessarily, your means of attack will be magic."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<魔物博士>"
+                                "\\n< Doctor of Demons >"
                             ]
                         },
                         {
@@ -5074,14 +5193,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "なるほど。"
+                                "I see."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -5105,14 +5224,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "こんな所だ。参考になったかね。"
+                                "Was what I said helpful?"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<魔物博士>"
+                                "\\n< Doctor of Demons >"
                             ]
                         },
                         {
@@ -5136,14 +5255,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "大いに。トマ殿。"
+                                "Certainly, Lord Thomas."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -5167,14 +5286,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "博士だ。"
+                                "I am a professor."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<魔物博士>"
+                                "\\n< Doctor of Demons >"
                             ]
                         },
                         {
@@ -5198,14 +5317,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "うん？"
+                                "Hmm?"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -5229,14 +5348,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "私を呼ぶなら魔物博士と。"
+                                "Call me the Monster Doctor if you must address me."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<魔物博士>"
+                                "\\n< Doctor of Demons >"
                             ]
                         },
                         {
@@ -5253,21 +5372,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "田舎町の人間がひやかしでつけたあだ名だが。"
+                                "It's a nickname that the people in the countryside"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "これでなかなか気に入っていてね。"
+                                "gave me as a joke, but I actually quite like it."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<魔物博士>"
+                                "\\n< Doctor of Demons >"
                             ]
                         },
                         {
@@ -5291,21 +5410,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "わかった。魔物博士殿。"
+                                "I understand. Dr. Monster, your information was very"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "非常に参考になった。謝礼を…。"
+                                "helpful. Please accept my gratitude and this reward."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -5329,21 +5448,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "コインは結構。この程度の話で講義料をとっていては、"
+                                "No thank you. It would be awkward for me"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "かえってこちらのきまりが悪い。"
+                                "to charge a tuition fee for such a trivial matter."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<魔物博士>"
+                                "\\n< Doctor of Demons >"
                             ]
                         },
                         {
@@ -5360,21 +5479,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "謝礼と言うのであれば、君に渡したその本。"
+                                "If you want to give me some rewards, "
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "それを大事に持っていてくれたまえ。"
+                                "then that book I gave you. Please keep it safe."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<魔物博士>"
+                                "\\n< Doctor of Demons >"
                             ]
                         },
                         {
@@ -5398,21 +5517,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "何やらわけのわからぬ話だ。"
+                                "Seems like a nonsensical story. Receiving goods as a"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "物を貰うのが謝礼とは。"
+                                "reward, is that supposed to be gratitude?"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -5436,21 +5555,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "その本が、この世に存在するという事自体が"
+                                "The mere fact that the book exists in this world will"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "いずれ一つの価値となる。"
+                                "eventually become a value in itself."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<魔物博士>"
+                                "\\n< Doctor of Demons >"
                             ]
                         },
                         {
@@ -5467,14 +5586,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "それでまぁ…良ければいつか見せてくれたまえ。"
+                                "Well then... if it's okay with you, please show it to"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<魔物博士>"
+                                "me someday."
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n< Doctor of Demons >"
                             ]
                         },
                         {
@@ -5498,21 +5624,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "…つまりどういう内容が記述されるか"
+                                "...So, does it mean it's an experiment to find out"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "実験という事だろうか？"
+                                "what kind of content is described?"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -5536,14 +5662,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "そういう理解で大きく違いはない。"
+                                "There is no big difference in understanding it that"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<魔物博士>"
+                                "way."
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n< Doctor of Demons >"
                             ]
                         },
                         {
@@ -5567,21 +5700,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "…。まぁ…それならば一応理解はできる。"
+                                "...Well, if that's the case, I can sort of understand."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "わかった。貰っておこう。"
+                                "Alright, got it. I'll take it."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -5605,14 +5738,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "それがいい。それがいい。"
+                                "That's good. That's good."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<魔物博士>"
+                                "\\n< Doctor of Demons >"
                             ]
                         },
                         {
@@ -5643,14 +5776,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "うむ。では魔物博士殿。いずれまた。"
+                                "Very well. Then, Dr. Monster, until we meet again."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -5877,21 +6010,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "なかなか面白い子だ。"
+                                "Quite an interesting child. Has good qualities, good"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "良い資質、良い魔力、そして良い容貌をしている。"
+                                "magical ability, and a good appearance."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<魔物博士>"
+                                "\\n< Doctor of Demons >"
                             ]
                         },
                         {
@@ -5908,14 +6041,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "実に『良い』。"
+                                "Truly 'good'."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<魔物博士>"
+                                "\\n< Doctor of Demons >"
                             ]
                         },
                         {
@@ -5932,21 +6065,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "私でさえそう思うのだから、モンスターにとっては"
+                                "Even I think that way, then it's probably even more so"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "もっとだろう。"
+                                "for the monsters."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<魔物博士>"
+                                "\\n< Doctor of Demons >"
                             ]
                         },
                         {
@@ -5963,21 +6096,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "彼女の記載する図鑑は、これまでにないものと"
+                                "Her illustrated encyclopedia is likely to be"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "なりそうだ。"
+                                "unprecedented."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<魔物博士>"
+                                "\\n< Doctor of Demons >"
                             ]
                         },
                         {
@@ -5994,14 +6127,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "…期待しているよ、セレナ君。"
+                                "I'm expecting great things from you, Serena."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<魔物博士>"
+                                "\\n< Doctor of Demons >"
                             ]
                         },
                         {
@@ -6201,14 +6334,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "魔物について、また疑問が湧いたら来たまえ。"
+                                "If you have any further questions about monsters,"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<魔物博士>"
+                                "please come back."
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n< Doctor of Demons >"
                             ]
                         },
                         {
@@ -6459,14 +6599,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "箱だ。"
+                                "It's a box."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -6483,14 +6623,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "生活雑貨が詰まっている。"
+                                "It's packed with daily necessities."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -6507,14 +6647,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "あまり見るものではない。"
+                                "It's not something you see often."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -6626,14 +6766,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "箱だ。"
+                                "It's a box."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -6650,14 +6790,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "生活雑貨が詰まっている。"
+                                "It's packed with daily necessities."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -6674,14 +6814,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "あまり見るものではない。"
+                                "It's not something you see often."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -6793,14 +6933,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "箱だ。"
+                                "It's a box."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -6817,14 +6957,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "生活雑貨が詰まっている。"
+                                "It's packed with daily necessities."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -6841,14 +6981,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "あまり見るものではない。"
+                                "It's not something you see often."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -6960,14 +7100,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "箱だ。"
+                                "It's a box."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -6984,14 +7124,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "筆記道具やら紙やらが詰まっている。"
+                                "It's full of writing tools and paper."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -7103,14 +7243,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "本棚だ。"
+                                "This is a bookshelf."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -7127,21 +7267,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "時期も言語もバラバラだが、一様にモンスターについての"
+                                "Although timing and language vary, it seems to be a"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "書籍らしい。"
+                                "book about monsters uniformly."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -7158,21 +7298,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "なるほど博士などと名乗るだけの事はある。"
+                                "There's a reason why he calls himself a doctor. If he"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "これだけの知識が頭の中で紐づいているのならだが。"
+                                "has all this knowledge connected in his head, that"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "would be it."
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -7284,14 +7431,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "本棚だ。"
+                                "This is a bookshelf."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -7308,21 +7455,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "時期も言語もバラバラだが、一様にモンスターについての"
+                                "Although timing and language vary, it seems to be a"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "書籍らしい。"
+                                "book about monsters uniformly."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -7339,21 +7486,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "なるほど博士などと名乗るだけの事はある。"
+                                "There's a reason why he calls himself a doctor. If he"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "これだけの知識が頭の中で紐づいているのならだが。"
+                                "has all this knowledge connected in his head, that"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "would be it."
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -7465,14 +7619,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "本だ。"
+                                "It's a book."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -7489,21 +7643,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "モンスターに関して詳細な記述がなされている。"
+                                "There are detailed descriptions about monsters. It"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "高価なもののはずだが付箋や書き込みでいっぱいだ。"
+                                "should be an expensive item, but it is full of sticky"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "notes and writings."
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -7520,21 +7681,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "じっと覗き込んでいると博士と目があった。"
+                                "As I was staring intently, I made eye contact with the"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "少し気まずそうにしている。"
+                                "professor. He seemed a bit uncomfortable."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -7646,14 +7807,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "本だ。"
+                                "It's a book."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -7670,14 +7831,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "モンスターの繁殖形態。その表層と本質。"
+                                "The breeding forms of monsters. Their superficial and"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "essential characteristics."
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -7694,21 +7862,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "うーん。率直に言って少し気持ち悪いテーマの本だ。"
+                                "Hmm. Honestly, this book has a somewhat disturbing"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "我ながら珍しく、あまり読みたいと思わない。"
+                                "theme. Even I, surprisingly, don't really feel like"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "reading it."
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -7820,14 +7995,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "本だ。"
+                                "It's a book."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -7844,21 +8019,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "虫食いだらけで読めたものではないが、なんとか"
+                                "Although full of bug holes and hard to read, it seems"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "修復しようとしているようだ。"
+                                "like someone is trying to restore it."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -7875,14 +8050,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "よほど貴重な知見が修められているのだろうか。"
+                                "I wonder if some very valuable knowledge has been"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "acquired."
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -7994,14 +8176,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "本だ。"
+                                "It's a book."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -8018,21 +8200,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "虫食いだらけで読めたものではないが、なんとか"
+                                "Although full of bug holes and hard to read, it seems"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "修復しようとしているようだ。"
+                                "like someone is trying to restore it."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -8049,14 +8231,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "よほど貴重な知見が修められているのだろうか。"
+                                "I wonder if some very valuable knowledge has been"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "acquired."
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -8168,14 +8357,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "かまどだ。"
+                                "It's a stove."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -8192,21 +8381,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "使用感がない。"
+                                "There is no feeling of use. It seems that"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "料理はしないようだ。"
+                                "he doesn't cook."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -8318,14 +8507,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "壺だ。蓋をされている。"
+                                "It's a jar. It's covered."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -8342,21 +8531,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "魔物博士が少したじろいでいる気がする。"
+                                "I have a feeling that the Dr. Monster is a bit"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "家に入るなり自分を無視して家探しされたらそうもなろう。"
+                                "hesitant. If I enter the house and start searching for"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "something while ignoring him, it might be the case."
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -8468,14 +8664,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "麦だ。"
+                                "It's wheat."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -8492,21 +8688,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "雑に置かれている。"
+                                "It's placed in a messy way. I'm worried that the mouth"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "口が開きっぱなしで、虫が湧かないか心配だ。"
+                                "is left wide open and bugs might start breeding."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -8618,14 +8814,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "暖炉だ。"
+                                "It's a fireplace."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -8642,21 +8838,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "使用感なし。"
+                                "No signs of use. He must have recently moved in."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "引っ越してきて日が浅いのだろう。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -8768,14 +8957,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "クローゼットだ。"
+                                "It's a closet."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -8792,21 +8981,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "中を見たいとは思わない。"
+                                "I don't want to see the inside. As for the outside"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "外側の感想は…まぁ、重そうだ。うん。"
+                                "impression...well, it looks heavy. Yeah."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -8918,14 +9107,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "本棚だ。"
+                                "This is a bookshelf."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -8942,21 +9131,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "こちらは魔物関係に限らず自由七科の本が混じっている。"
+                                "This contains not only books on monsters but also"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "やや天文学関連の書籍が多めだろうか。"
+                                "various subjects of the seven liberal arts. There may"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "be a slightly larger number of books related to astronomy."
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -9068,14 +9264,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "人の手紙だ。"
+                                "It's a letter from someone."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -9092,14 +9288,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "覗き込むのはよくない。"
+                                "It's not good to peek."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "\\n< Serena >"
                             ]
                         },
                         {

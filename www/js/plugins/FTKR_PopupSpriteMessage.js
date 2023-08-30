@@ -392,13 +392,13 @@ FTKR.PSM = FTKR.PSM || {};
  * @max 255
 */
 
-(function () {
+(function() {
 
-    var paramParse = function (obj) {
+    var paramParse = function(obj) {
         return JSON.parse(JSON.stringify(obj, paramReplace));
     };
 
-    var paramReplace = function (key, value) {
+    var paramReplace = function(key, value) {
         try {
             return JSON.parse(value || null);
         } catch (e) {
@@ -406,19 +406,19 @@ FTKR.PSM = FTKR.PSM || {};
         }
     };
 
-    var convertEscapeCharacters = function (text) {
+    var convertEscapeCharacters = function(text) {
         if (text == null) text = '';
         var window = SceneManager._scene._windowLayer.children[0];
         return window ? window.convertEscapeCharacters(text) : text;
     };
 
-    var textColor = function (colorId) {
+    var textColor = function(colorId) {
         if (colorId == null || isNaN(colorId)) return colorId;
         var window = SceneManager._scene._windowLayer.children[0];
-        return window && Number(colorId) >= 0 ? window.textColor(colorId) : '';
+        return window && Number(colorId)>=0 ? window.textColor(colorId) : '';
     };
 
-    var convertTextWidth = function (text) {
+    var convertTextWidth = function(text) {
         var tw = 0;
         var window = SceneManager._scene._windowLayer.children[0];
         if (!window) return tw;
@@ -439,11 +439,11 @@ FTKR.PSM = FTKR.PSM || {};
         return tw;
     };
 
-    var setArgStr = function (arg) {
+    var setArgStr = function(arg) {
         return convertEscapeCharacters(arg);
     };
 
-    var setArgNum = function (arg) {
+    var setArgNum = function(arg) {
         try {
             return Number(eval(setArgStr(arg)));
         } catch (e) {
@@ -452,10 +452,10 @@ FTKR.PSM = FTKR.PSM || {};
     };
 
     //配列の要素を、すべて数値に変換する。
-    Array.prototype.num = function () {
-        return this.map(function (elm) {
-            return Number(elm);
-        });
+    Array.prototype.num = function() {
+      return this.map(function(elm) {
+          return Number(elm);
+      });
     }
 
     //=============================================================================
@@ -464,9 +464,9 @@ FTKR.PSM = FTKR.PSM || {};
     var parameters = PluginManager.parameters('FTKR_PopupSpriteMessage');
 
     FTKR.PSM = {
-        maxPopupMessages: paramParse(parameters['Max Popup Messages'] || 0),
-        popupStatus: paramParse(parameters['Popup Message Status']),
-        repop: paramParse(parameters['Repop Message After Menu']),
+        maxPopupMessages : paramParse(parameters['Max Popup Messages'] || 0),
+        popupStatus      : paramParse(parameters['Popup Message Status']),
+        repop            : paramParse(parameters['Repop Message After Menu']),
     };
 
     //=============================================================================
@@ -474,7 +474,7 @@ FTKR.PSM = FTKR.PSM || {};
     //=============================================================================
 
     var _PSM_Game_Interpreter_pluginCommand = Game_Interpreter.prototype.pluginCommand;
-    Game_Interpreter.prototype.pluginCommand = function (command, args) {
+    Game_Interpreter.prototype.pluginCommand = function(command, args) {
         _PSM_Game_Interpreter_pluginCommand.call(this, command, args);
         if (!command.match(/PSM_(.+)/i)) return;
         command = (RegExp.$1 + '').toUpperCase();
@@ -507,10 +507,10 @@ FTKR.PSM = FTKR.PSM || {};
         }
     };
 
-    Game_Interpreter.prototype.setupPopupMessageOptions = function (args, i) {
+    Game_Interpreter.prototype.setupPopupMessageOptions = function(args, i) {
         var option = {};
         for (var m = i; m < args.length; m++) {
-            switch (args[m]) {
+            switch(args[m]) {
                 case '-c':
                     option.align = true;
                     break;
@@ -522,55 +522,55 @@ FTKR.PSM = FTKR.PSM || {};
         return option;
     };
 
-    Game_Interpreter.prototype.setupPopupMessage = function (args) {
+    Game_Interpreter.prototype.setupPopupMessage = function(args) {
         var status = FTKR.PSM.popupStatus[Number(args[1])];
         var option = this.setupPopupMessageOptions(args, 6);
         $gameParty.setPopupMessage(
-            setArgNum(args[0]), setArgNum(args[2]), setArgNum(args[3]), setArgNum(args[4]),
-            status.offsetWait, args[5], status.color, 0, status.italic,
-            status.fontSize, status.outlineColor, status.popupHeight, status.fontFace,
-            status.opacity, !!option.align
+          setArgNum(args[0]), setArgNum(args[2]), setArgNum(args[3]), setArgNum(args[4]),
+          status.offsetWait, args[5], status.color, 0, status.italic,
+          status.fontSize, status.outlineColor, status.popupHeight, status.fontFace,
+          status.opacity, !!option.align
         );
     };
 
-    Game_Interpreter.prototype.setupPopupMessage_B = function (args) {
+    Game_Interpreter.prototype.setupPopupMessage_B = function(args) {
         var font = args[5] == -1 ? '' : args[5];
         var option = this.setupPopupMessageOptions(args, 13);
-        var color = /,/g.test(args[7]) ? args[7].split(',').num() : [0, 0, 0, 0];
+        var color = /,/g.test(args[7]) ? args[7].split(',').num() : [0,0,0,0];
         $gameParty.setPopupMessage(
-            setArgNum(args[0]), setArgNum(args[1]), setArgNum(args[2]), setArgNum(args[3]),
-            setArgNum(args[11]), args[4], color, 0, Boolean(args[8]),
-            setArgNum(args[6]), args[9], setArgNum(args[10]), font,
-            setArgNum(args[12]), !!option.align
+          setArgNum(args[0]), setArgNum(args[1]), setArgNum(args[2]), setArgNum(args[3]),
+          setArgNum(args[11]), args[4], color, 0, Boolean(args[8]),
+          setArgNum(args[6]), args[9], setArgNum(args[10]), font,
+          setArgNum(args[12]), !!option.align
         );
     };
 
-    Game_Interpreter.prototype.setupMoveMessage = function (args) {
+    Game_Interpreter.prototype.setupMoveMessage = function(args) {
         var option = this.setupPopupMessageOptions(args, 4);
         $gameParty.movePopupMessage(
-            setArgNum(args[0]), setArgNum(args[1]), setArgNum(args[2]), setArgNum(args[3])
+          setArgNum(args[0]), setArgNum(args[1]), setArgNum(args[2]), setArgNum(args[3])
         );
     };
 
-    Game_Interpreter.prototype.setupRotateMessage = function (args) {
+    Game_Interpreter.prototype.setupRotateMessage = function(args) {
         $gameParty.rotatePopupMessage(
-            setArgNum(args[0]), setArgNum(args[1]), Boolean(setArgNum(args[2]))
+          setArgNum(args[0]), setArgNum(args[1]), Boolean(setArgNum(args[2]))
         );
     };
 
-    Game_Interpreter.prototype.setupChangeColorMessage = function (args) {
+    Game_Interpreter.prototype.setupChangeColorMessage = function(args) {
         var option = this.setupPopupMessageOptions(args, 4);
         $gameParty.changeColorMessage(
-            setArgNum(args[0]), args[1], setArgNum(args[2]), setArgNum(args[3])
+          setArgNum(args[0]), args[1], setArgNum(args[2]), setArgNum(args[3])
         );
     };
 
-    Game_Interpreter.prototype.setPSMWaitMode = function () {
+    Game_Interpreter.prototype.setPSMWaitMode = function() {
         this._waitMode = 'popupSpriteText';
     };
 
     var _PSM_Game_Interpreter_updateWaitMode = Game_Interpreter.prototype.updateWaitMode;
-    Game_Interpreter.prototype.updateWaitMode = function () {
+    Game_Interpreter.prototype.updateWaitMode = function() {
         var waiting = false;
         switch (this._waitMode) {
             case 'popupSpriteText':
@@ -585,124 +585,124 @@ FTKR.PSM = FTKR.PSM || {};
     // Game_Party
     // メッセージスプライトを設定する
     //=============================================================================
-
+    
     var _PSM_Game_Party_initialize = Game_Party.prototype.initialize;
-    Game_Party.prototype.initialize = function () {
+    Game_Party.prototype.initialize = function() {
         _PSM_Game_Party_initialize.call(this);
         this._psmMessage = [];
     };
 
-    Game_Party.prototype.maxPopupMessages = function () {
+    Game_Party.prototype.maxPopupMessages = function() {
         return FTKR.PSM.maxPopupMessages;// 画面に表示可能な文字列の最大数
     };
 
-    Game_Party.prototype.psmMessages = function () {
+    Game_Party.prototype.psmMessages = function(){
         if (!this._psmMessage) this._psmMessage = [];
         return this._psmMessage;
     };
 
-    Game_Party.prototype.psmMessage = function (messageId) {
+    Game_Party.prototype.psmMessage = function(messageId) {
         return this.psmMessages()[messageId];
     };
 
-    Game_Party.prototype.clearPsmMessage = function (messageId) {
+    Game_Party.prototype.clearPsmMessage = function(messageId) {
         if (this.psmMessage(messageId)) {
-            for (var key in this.psmMessage(messageId)) {
+            for(var key in this.psmMessage(messageId)) {
                 delete this.psmMessage(messageId)[key];
             };
             this._psmMessage[messageId] = null;
         }
     };
 
-    Game_Party.prototype.setPopupMessage = function (messageId, x1, y1, duration,
-        offsetCount, text, flashColor, flashDuration, italic,
-        fontSize, outlineColor, popupHeight, fontFace, opacity, align) {
+    Game_Party.prototype.setPopupMessage = function(messageId, x1, y1, duration,
+            offsetCount, text, flashColor, flashDuration, italic,
+            fontSize, outlineColor, popupHeight, fontFace, opacity, align) {
         if (messageId > 0 && messageId <= this.maxPopupMessages()) {
             this.psmMessage(messageId);
             this._psmMessage[messageId] = {
-                x: x1,
-                y: y1,
-                duration: duration,
-                text: convertEscapeCharacters(text),
-                flashColor: flashColor,
-                flashDuration: flashDuration,
-                popup: true,
-                offsetCount: offsetCount,
-                italic: italic,
-                fontSize: fontSize,
-                outlineColor: outlineColor,
-                popupHeight: popupHeight,
-                fontFace: fontFace,
-                opacity: opacity,
-                align: align,
+                x : x1,
+                y : y1,
+                duration : duration,
+                text : convertEscapeCharacters(text),
+                flashColor : flashColor,
+                flashDuration : flashDuration,
+                popup : true,
+                offsetCount : offsetCount,
+                italic : italic,
+                fontSize : fontSize,
+                outlineColor : outlineColor,
+                popupHeight : popupHeight,
+                fontFace : fontFace,
+                opacity : opacity,
+                align : align,
             };
             return true;
         }
         return false;
     };
 
-    Game_Party.prototype.clearPopupMessage = function (messageId) {
+    Game_Party.prototype.clearPopupMessage = function(messageId) {
         if (!this.psmMessage(messageId)) return;
         this.psmMessage(messageId).popup = false;
     };
 
-    Game_Party.prototype.clearMoveMessage = function (messageId) {
+    Game_Party.prototype.clearMoveMessage = function(messageId) {
         if (!this.psmMessage(messageId)) return;
         this.psmMessage(messageId).move = false;
     };
 
-    Game_Party.prototype.clearRotateMessage = function (messageId) {
+    Game_Party.prototype.clearRotateMessage = function(messageId) {
         if (!this.psmMessage(messageId)) return;
         this.psmMessage(messageId).rotate = false;
     }
-
-    Game_Party.prototype.requestErasePopupMessage = function (messageId, duration) {
+    
+    Game_Party.prototype.requestErasePopupMessage = function(messageId, duration) {
         if (!this.psmMessage(messageId)) return;
         this.psmMessage(messageId).erase = true;
         this.psmMessage(messageId).eraseDuration = duration;
     };
 
-    Game_Party.prototype.clearErasePopupMessage = function (messageId) {
+    Game_Party.prototype.clearErasePopupMessage = function(messageId) {
         if (!this.psmMessage(messageId)) return;
         this.psmMessage(messageId).erase = false;
         this.psmMessage(messageId).eraseDuration = 0;
     };
 
-    Game_Party.prototype.clearChangeColorMessage = function (messageId) {
+    Game_Party.prototype.clearChangeColorMessage = function(messageId) {
         if (!this.psmMessage(messageId)) return;
         this.psmMessage(messageId).changeColor = false;
     };
 
-    Game_Party.prototype.isPopupMessage = function (messageId) {
+    Game_Party.prototype.isPopupMessage = function(messageId) {
         return this.psmMessage(messageId) && this.psmMessage(messageId).popup;
     };
 
-    Game_Party.prototype.isMoveMessage = function (messageId) {
+    Game_Party.prototype.isMoveMessage = function(messageId) {
         return this.psmMessage(messageId) && this.psmMessage(messageId).move;
     };
 
-    Game_Party.prototype.isChangeColorMessage = function (messageId) {
+    Game_Party.prototype.isChangeColorMessage = function(messageId) {
         return this.psmMessage(messageId) && this.psmMessage(messageId).changeColor;
     };
 
-    Game_Party.prototype.isErasePopupMessage = function (messageId) {
+    Game_Party.prototype.isErasePopupMessage = function(messageId) {
         return this.psmMessage(messageId) && this.psmMessage(messageId).erase;
     };
 
-    Game_Party.prototype.eraseDuration = function (messageId) {
+    Game_Party.prototype.eraseDuration = function(messageId) {
         return this.psmMessage(messageId) && this.psmMessage(messageId).eraseDuration || 0
     };
 
-    Game_Party.prototype.isPsmBusy = function () {
-        return this.psmMessages().some(function (message) {
-            return !!message &&
-                (message.duration > 0 ||
-                    message.moveDuration >= 0 ||
-                    message.colorDuration >= 0);
+    Game_Party.prototype.isPsmBusy = function() {
+        return this.psmMessages().some(function(message) {
+            return !!message && 
+              (message.duration > 0 ||
+              message.moveDuration >= 0 || 
+              message.colorDuration >= 0);
         });
     };
 
-    Game_Party.prototype.movePopupMessage = function (messageId, x2, y2, duration) {
+    Game_Party.prototype.movePopupMessage = function(messageId, x2, y2, duration) {
         var message = this.psmMessage(messageId);
         if (message) {
             if (message.duration) {
@@ -715,7 +715,7 @@ FTKR.PSM = FTKR.PSM || {};
         }
     };
 
-    Game_Party.prototype.rotatePopupMessage = function (messageId, speed, rotate) {
+    Game_Party.prototype.rotatePopupMessage = function(messageId, speed, rotate) {
         var message = this.psmMessage(messageId);
         if (message) {
             if (message.duration) {
@@ -726,7 +726,7 @@ FTKR.PSM = FTKR.PSM || {};
         }
     };
 
-    Game_Party.prototype.changeColorMessage = function (messageId, color, opacity, duration) {
+    Game_Party.prototype.changeColorMessage = function(messageId, color, opacity, duration){
         var message = this.psmMessage(messageId);
         if (message) {
             if (message.duration) {
@@ -739,13 +739,13 @@ FTKR.PSM = FTKR.PSM || {};
         }
     };
 
-    Game_Party.prototype.stopUpdateMessage = function (messageId) {
+    Game_Party.prototype.stopUpdateMessage = function(messageId) {
         var message = this.psmMessage(messageId);
         if (message) {
             message.offsetCount = 0;
             if (message.dx) message.x = message.dx;
             if (message.dy) message.y = message.dy;
-            if (message.dopacity >= 0) {
+            if (message.dopacity>=0) {
                 message.opacity = message.dopacity;
             }
             if (message.dcolor instanceof Array) message.flashColor = message.dcolor.clone();
@@ -757,28 +757,28 @@ FTKR.PSM = FTKR.PSM || {};
     //  半角スペース用の制御文字を追加
     //=============================================================================
     var _PSM_Window_Base_convertEscapeCharacters = Window_Base.prototype.convertEscapeCharacters;
-    Window_Base.prototype.convertEscapeCharacters = function (text) {
+    Window_Base.prototype.convertEscapeCharacters = function(text) {
         text = _PSM_Window_Base_convertEscapeCharacters.call(this, text);
         text = text.replace(/\x1b_/gi, ' ');
         return text;
     };
 
     var _PSM_Scene_Map_start = Scene_Map.prototype.start;
-    Scene_Map.prototype.start = function () {
+    Scene_Map.prototype.start = function() {
         _PSM_Scene_Map_start.call(this);
         this.repopPsmMessages();
     };
 
-    Scene_Map.prototype.repopPsmMessages = function () {
+    Scene_Map.prototype.repopPsmMessages = function() {
         if (FTKR.PSM.repop) {
-            $gameParty.psmMessages().forEach(function (message, i) {
+            $gameParty.psmMessages().forEach(function(message, i){
                 if (message && message.duration) {
                     $gameParty.stopUpdateMessage(i);
                     var sprite = this._spriteset._ftPopupMessages[i];
                     sprite.setup(message);
                     sprite.setupSprite(sprite._text);
                 }
-            }, this);
+            },this);
         }
     };
 
@@ -787,12 +787,12 @@ FTKR.PSM = FTKR.PSM || {};
     // メッセージスプライトを作成
     //=============================================================================
     var _PSM_Spriteset_Base_createUpperLayer = Spriteset_Base.prototype.createUpperLayer;
-    Spriteset_Base.prototype.createUpperLayer = function () {
+    Spriteset_Base.prototype.createUpperLayer = function() {
         _PSM_Spriteset_Base_createUpperLayer.call(this);
         this.createPopupMessages();
     };
 
-    Spriteset_Base.prototype.createPopupMessages = function () {
+    Spriteset_Base.prototype.createPopupMessages = function() {
         var width = Graphics.boxWidth;
         var height = Graphics.boxHeight;
         var x = (Graphics.width - width) / 2;
@@ -807,7 +807,7 @@ FTKR.PSM = FTKR.PSM || {};
         this.addChild(this._messageContainer);
     };
 
-    Spriteset_Base.prototype.maxPopupMessages = function () {
+    Spriteset_Base.prototype.maxPopupMessages = function() {
         return $gameParty.maxPopupMessages();
     };
 
@@ -819,10 +819,10 @@ FTKR.PSM = FTKR.PSM || {};
         this.initialize.apply(this, arguments);
     }
 
-    Sprite_FtPopupMessage.prototype = Object.create(Sprite_Damage.prototype);
+    Sprite_FtPopupMessage.prototype             = Object.create(Sprite_Damage.prototype);
     Sprite_FtPopupMessage.prototype.constructor = Sprite_FtPopupMessage;
 
-    Sprite_FtPopupMessage.prototype.initialize = function (messageId) {
+    Sprite_FtPopupMessage.prototype.initialize = function(messageId) {
         Sprite_Damage.prototype.initialize.call(this);
         this._messageId = messageId;
         this._messageSprites = [];
@@ -835,11 +835,11 @@ FTKR.PSM = FTKR.PSM || {};
         this._isKeepPopup = false;
     };
 
-    Sprite_FtPopupMessage.prototype.setup = function (message) {
+    Sprite_FtPopupMessage.prototype.setup = function(message) {
         if (this._messageSprites.length) {
-            this._messageSprites.forEach(function (sprite) {
+            this._messageSprites.forEach( function(sprite) {
                 this.removeChild(sprite);
-            }, this);
+            },this);
         }
         this._text = message.text;
         this._fontSize = message.fontSize;
@@ -861,30 +861,30 @@ FTKR.PSM = FTKR.PSM || {};
             this.setupFlashEffect(message.flashColor, message.flashDuration);
         }
         this._duration = message.duration;
-        this.opacity = !isNaN(message.opacity) ? Number(message.opacity) : 255;
+        this.opacity = !isNaN(message.opacity)  ? Number(message.opacity) : 255;
     };
 
-    Sprite_FtPopupMessage.prototype.getTextWidth = function () {
+    Sprite_FtPopupMessage.prototype.getTextWidth = function() {
         return this.setupDynamicText().measureTextWidth(this._text);
     };
 
-    Sprite_FtPopupMessage.prototype.textX = function (x) {
+    Sprite_FtPopupMessage.prototype.textX = function(x) {
         return this._align ? x - this._textWidth / 2 : x;
     };
 
-    Sprite_FtPopupMessage.prototype.textY = function (y) {
+    Sprite_FtPopupMessage.prototype.textY = function(y) {
         return this._align ? y - this._textHeight / 2 : y;
     };
 
-    Sprite_FtPopupMessage.prototype.setupSprite = function (text) {
-        var bitmap = this.setupDynamicText(text);
-        var sprite = this.createChildSprite(bitmap);
-        sprite.dy = 0;
-        sprite.dw = bitmap.measureTextWidth(text);
+    Sprite_FtPopupMessage.prototype.setupSprite = function(text) {
+        var bitmap     = this.setupDynamicText(text);
+        var sprite     = this.createChildSprite(bitmap);
+        sprite.dy      = 0;
+        sprite.dw      = bitmap.measureTextWidth(text);
         return sprite;
     };
 
-    Sprite_FtPopupMessage.prototype.setupDynamicText = function (text) {
+    Sprite_FtPopupMessage.prototype.setupDynamicText = function(text) {
         var size = this._fontSize;
         var width = text ? (this._italic ? size * 1.5 : size) * text.length : size + 8;
         var bitmap = new Bitmap(width, size + 8);// 文字の描画領域サイズ
@@ -903,7 +903,7 @@ FTKR.PSM = FTKR.PSM || {};
         return bitmap;
     };
 
-    Sprite_FtPopupMessage.prototype.createChildSprite = function (bitmap) {
+    Sprite_FtPopupMessage.prototype.createChildSprite = function(bitmap) {
         var sprite = new Sprite();
         sprite.bitmap = bitmap || this._damageBitmap;
         sprite.anchor.x = 0;// 原点に対する文字の表示位置
@@ -913,12 +913,12 @@ FTKR.PSM = FTKR.PSM || {};
         return sprite;
     };
 
-    Sprite_FtPopupMessage.prototype.setupFlashEffect = function (flashColor, duration) {
-        this._flashColor = flashColor.clone();
+    Sprite_FtPopupMessage.prototype.setupFlashEffect = function(flashColor, duration) {
+        this._flashColor    = flashColor.clone();
         this._flashDuration = duration;
     };
 
-    Sprite_FtPopupMessage.prototype.update = function () {
+    Sprite_FtPopupMessage.prototype.update = function() {
         Sprite.prototype.update.call(this);
         this.updateBitmap();
         this.updateDuration();
@@ -927,7 +927,7 @@ FTKR.PSM = FTKR.PSM || {};
         this.updateOpacity();
     };
 
-    Sprite_FtPopupMessage.prototype.updateBitmap = function () {
+    Sprite_FtPopupMessage.prototype.updateBitmap = function() {
         if ($gameParty.isPopupMessage(this._messageId)) {
             var message = this.message();
             this.setup(message);
@@ -938,7 +938,7 @@ FTKR.PSM = FTKR.PSM || {};
                 if (this._count == 0) {
                     var i = this._index;
                     var sprite = this.setupSprite(this._text[i]);
-                    sprite.x = i > 0 ? this._messageSprites[i - 1].x + sprite.dw : 0;
+                    sprite.x = i > 0 ? this._messageSprites[i-1].x + sprite.dw : 0;
                     this._messageSprites[i] = sprite;
                     this.addChild(this._messageSprites[i]);
                     this._count = this.message().offsetCount;
@@ -950,7 +950,7 @@ FTKR.PSM = FTKR.PSM || {};
             } else if (this._offsetCount == 0) {
                 for (var i = 0; i < this._text.length; i++) {
                     var sprite = this.setupSprite(this._text[i]);
-                    sprite.x = i > 0 ? this._messageSprites[i - 1].x + sprite.dw : 0;
+                    sprite.x = i > 0 ? this._messageSprites[i-1].x + sprite.dw : 0;
                     this._messageSprites[i] = sprite;
                     this.addChild(this._messageSprites[i]);
                     this._count = this.message().offsetCount;
@@ -964,11 +964,11 @@ FTKR.PSM = FTKR.PSM || {};
         }
     };
 
-    Sprite_FtPopupMessage.prototype.message = function () {
+    Sprite_FtPopupMessage.prototype.message = function() {
         return $gameParty.psmMessage(this._messageId);
     };
 
-    Sprite_FtPopupMessage.prototype.updatePosition = function () {
+    Sprite_FtPopupMessage.prototype.updatePosition = function() {
         if ($gameParty.isMoveMessage(this._messageId)) {
             var message = this.message();
             this._moveDuration = message.moveDuration;
@@ -997,7 +997,7 @@ FTKR.PSM = FTKR.PSM || {};
         this.rotation = this._angle * Math.PI / 180;
     };
 
-    Sprite_FtPopupMessage.prototype.updateDuration = function () {
+    Sprite_FtPopupMessage.prototype.updateDuration = function() {
         if (this._duration == -1 && $gameParty.isErasePopupMessage(this._messageId)) {
             this._duration = $gameParty.eraseDuration(this._messageId);
             $gameParty.clearErasePopupMessage(this._messageId);
@@ -1014,9 +1014,9 @@ FTKR.PSM = FTKR.PSM || {};
             }
         }
         if (this._duration == 0 && this._messageSprites.length) {
-            this._messageSprites.forEach(function (sprite) {
+            this._messageSprites.forEach( function(sprite) {
                 this.removeChild(sprite);
-            }, this);
+            },this);
             this._moveDuration = -1;
             this._angle = 0;
             $gameParty.clearPsmMessage(this._messageId);
@@ -1024,7 +1024,7 @@ FTKR.PSM = FTKR.PSM || {};
         }
     };
 
-    Sprite_FtPopupMessage.prototype.updateColor = function () {
+    Sprite_FtPopupMessage.prototype.updateColor = function() {
         var message = this.message();
         if (!Array.isArray(message.dcolor)) return;
         this._flashColor = [
@@ -1036,11 +1036,11 @@ FTKR.PSM = FTKR.PSM || {};
         message.flashColor = this._flashColor.clone();
     };
 
-    Sprite_FtPopupMessage.prototype.setNextColor = function (index, message) {
-        return Math.floor(this._colorA[index] + (message.dcolor[index] - this._colorA[index]) * (1 - this._colorDuration / message.colorDuration));
+    Sprite_FtPopupMessage.prototype.setNextColor = function(index, message) {
+      return Math.floor(this._colorA[index] + (message.dcolor[index] - this._colorA[index]) * (1 - this._colorDuration / message.colorDuration));
     };
 
-    Sprite_FtPopupMessage.prototype.updateOpacity = function () {
+    Sprite_FtPopupMessage.prototype.updateOpacity = function() {
         if ($gameParty.isChangeColorMessage(this._messageId)) {
             var message = this.message();
             this._colorDuration = message.colorDuration;
@@ -1052,12 +1052,12 @@ FTKR.PSM = FTKR.PSM || {};
             var message = this.message();
             if (this.message()) this.message().colorDuration = this._colorDuration;
             this.updateColor();
-            if (message.dopacity >= 0) this.opacity = Math.floor(message.opacity + (message.dopacity - message.opacity) * (1 - this._colorDuration / message.colorDuration));
+            if (message.dopacity>=0) this.opacity = Math.floor(message.opacity + (message.dopacity - message.opacity) * (1 - this._colorDuration / message.colorDuration));
         } else if (this._colorDuration == 0) {
             this._colorDuration--;
             var message = this.message();
             if (this.message()) this.message().colorDuration = this._colorDuration;
-            if (message.dopacity >= 0) {
+            if (message.dopacity>=0) {
                 this.opacity = message.dopacity;
                 message.opacity = message.dopacity;
             }

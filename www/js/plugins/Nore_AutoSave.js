@@ -153,7 +153,7 @@ var Nore;
         }
     };
     const _Scene_Save_prototype_onSavefileOk = Scene_Save.prototype.onSavefileOk;
-    Scene_Save.prototype.onSavefileOk = function () {
+    Scene_Save.prototype.onSavefileOk = function() {
         const fileId = this.savefileId();
         if (fileId == undefined || fileId == AUTO_SAVE_DUMMY_ID) {
             this.onSaveFailure();
@@ -197,7 +197,7 @@ var Nore;
         }
     };
     var _DataManager_loadGameWithoutRescue = DataManager.loadGameWithoutRescue;
-    DataManager.loadGameWithoutRescue = function (savefileId) {
+    DataManager.loadGameWithoutRescue = function(savefileId) {
         const lastAccessId = this._lastAccessedId;
         const result = _DataManager_loadGameWithoutRescue.apply(this, arguments);
         if (this._lastAccessedId == AUTO_SAVE_DUMMY_ID) {
@@ -206,7 +206,7 @@ var Nore;
         return result;
     };
 
-    DataManager.selectSavefileForNewGame = function () {
+    DataManager.selectSavefileForNewGame = function() {
         var globalInfo = this.loadGlobalInfo();
         this._lastAccessedId = 1;
         if (globalInfo) {

@@ -160,7 +160,7 @@
  *  についても制限はありません。
  *  このプラグインはもうあなたのものです。
  */
-(function () {
+(function() {
     'use strict';
     var pluginName = 'PictureAnimation';
 
@@ -169,7 +169,7 @@
         maxCellAnimation: 200
     };
 
-    var getParamString = function (paramNames) {
+    var getParamString = function(paramNames) {
         if (!Array.isArray(paramNames)) paramNames = [paramNames];
         for (var i = 0; i < paramNames.length; i++) {
             var name = PluginManager.parameters(pluginName)[paramNames[i]];
@@ -178,7 +178,7 @@
         return '';
     };
 
-    var getParamBoolean = function (paramNames) {
+    var getParamBoolean = function(paramNames) {
         var value = getParamString(paramNames);
         return value.toUpperCase() === 'ON' || value.toUpperCase() === 'TRUE';
     };
@@ -187,16 +187,16 @@
     // ローカル関数
     //  プラグインパラメータやプラグインコマンドパラメータの整形やチェックをします
     //=============================================================================
-    var getCommandName = function (command) {
+    var getCommandName = function(command) {
         return (command || '').toUpperCase();
     };
 
-    var getArgArrayString = function (args, upperFlg) {
+    var getArgArrayString = function(args, upperFlg) {
         var values = getArgString(args, upperFlg);
         return (values || '').split(',');
     };
 
-    var getArgArrayNumber = function (args, min, max) {
+    var getArgArrayNumber = function(args, min, max) {
         if (!args) {
             return [];
         }
@@ -207,18 +207,18 @@
         return values;
     };
 
-    var getArgString = function (arg, upperFlg) {
+    var getArgString = function(arg, upperFlg) {
         arg = convertEscapeCharacters(arg);
         return upperFlg ? arg.toUpperCase() : arg;
     };
 
-    var getArgNumber = function (arg, min, max) {
+    var getArgNumber = function(arg, min, max) {
         if (arguments.length < 2) min = -Infinity;
         if (arguments.length < 3) max = Infinity;
         return (parseInt(convertEscapeCharacters(arg), 10) || 0).clamp(min, max);
     };
 
-    var convertEscapeCharacters = function (text) {
+    var convertEscapeCharacters = function(text) {
         if (text == null) text = '';
         var window = SceneManager._scene._windowLayer.children[0];
         return window ? window.convertEscapeCharacters(text) : text;
@@ -227,99 +227,99 @@
     //=============================================================================
     // パラメータの取得と整形
     //=============================================================================
-    var param = {};
+    var param               = {};
     param.returnToFirstCell = getParamBoolean(['ReturnToFirstCell', '最初のセルに戻る']);
 
     //=============================================================================
     // Game_Interpreter
     //  プラグインコマンドを追加定義します。
     //=============================================================================
-    var _Game_Interpreter_pluginCommand = Game_Interpreter.prototype.pluginCommand;
-    Game_Interpreter.prototype.pluginCommand = function (command, args) {
+    var _Game_Interpreter_pluginCommand      = Game_Interpreter.prototype.pluginCommand;
+    Game_Interpreter.prototype.pluginCommand = function(command, args) {
         _Game_Interpreter_pluginCommand.call(this, command, args);
         this.pluginCommandPictureAnimation(command, args);
     };
 
-    Game_Interpreter.prototype.pluginCommandPictureAnimation = function (command, args) {
+    Game_Interpreter.prototype.pluginCommandPictureAnimation = function(command, args) {
         var pictureNum, animationType, picture, cellNumber, frameNumber, direction, fadeDuration, wait, customArray;
         switch (getCommandName(command)) {
-            case 'PA_INIT':
+            case 'PA_INIT' :
             case 'ピクチャのアニメーション準備':
-                cellNumber = getArgNumber(args[0], 1, settings.maxCellAnimation);
-                frameNumber = getArgNumber(args[1], 1, 9999);
-                direction = getArgString(args[2], true) || '縦';
+                cellNumber   = getArgNumber(args[0], 1, settings.maxCellAnimation);
+                frameNumber  = getArgNumber(args[1], 1, 9999);
+                direction    = getArgString(args[2], true) || '縦';
                 fadeDuration = getArgNumber(args[3], 0, 9999) || 0;
                 $gameScreen.setPicturesAnimation(cellNumber, frameNumber, direction, fadeDuration);
                 break;
-            case 'PA_SOUND':
+            case 'PA_SOUND' :
             case 'ピクチャのアニメーション効果音予約':
                 cellNumber = getArgNumber(args[0], 1, settings.maxCellAnimation);
                 this.reservePaSound(cellNumber);
                 break;
-            case 'PA_START':
+            case 'PA_START' :
             case 'ピクチャのアニメーション開始':
-                pictureNum = getArgNumber(args[0], 1, $gameScreen.maxPictures());
+                pictureNum    = getArgNumber(args[0], 1, $gameScreen.maxPictures());
                 animationType = getArgNumber(args[1], 1, 3);
-                customArray = getArgArrayNumber(args[2], 1, settings.maxCellAnimation);
-                picture = $gameScreen.picture(pictureNum);
+                customArray   = getArgArrayNumber(args[2], 1, settings.maxCellAnimation);
+                picture       = $gameScreen.picture(pictureNum);
                 if (picture) picture.startAnimationFrame(animationType, false, customArray);
                 break;
-            case 'PA_START_LOOP':
+            case 'PA_START_LOOP' :
             case 'ピクチャのループアニメーション開始':
-                pictureNum = getArgNumber(args[0], 1, $gameScreen.maxPictures());
+                pictureNum    = getArgNumber(args[0], 1, $gameScreen.maxPictures());
                 animationType = getArgNumber(args[1], 1, 3);
-                customArray = getArgArrayNumber(args[2], 1, settings.maxCellAnimation);
-                picture = $gameScreen.picture(pictureNum);
+                customArray   = getArgArrayNumber(args[2], 1, settings.maxCellAnimation);
+                picture       = $gameScreen.picture(pictureNum);
                 if (picture) picture.startAnimationFrame(animationType, true, customArray);
                 break;
-            case 'PA_STOP':
+            case 'PA_STOP' :
             case 'ピクチャのアニメーション終了':
                 pictureNum = getArgNumber(args[0], 1, $gameScreen.maxPictures());
-                picture = $gameScreen.picture(pictureNum);
+                picture    = $gameScreen.picture(pictureNum);
                 if (picture) picture.stopAnimationFrame(false);
                 break;
-            case 'PA_STOP_FORCE':
+            case 'PA_STOP_FORCE' :
             case 'ピクチャのアニメーション強制終了':
                 pictureNum = getArgNumber(args[0], 1, $gameScreen.maxPictures());
-                picture = $gameScreen.picture(pictureNum);
+                picture    = $gameScreen.picture(pictureNum);
                 if (picture) picture.stopAnimationFrame(true);
                 break;
-            case 'PA_SET_CELL':
+            case 'PA_SET_CELL' :
             case 'ピクチャのアニメーションセル設定':
                 pictureNum = getArgNumber(args[0], 1, $gameScreen.maxPictures());
                 cellNumber = getArgNumber(args[1], 0, settings.maxCellAnimation);
-                wait = getArgString(args[2]);
-                picture = $gameScreen.picture(pictureNum);
+                wait       = getArgString(args[2]);
+                picture    = $gameScreen.picture(pictureNum);
                 if (picture) {
                     if (wait === 'ウェイトあり' || wait.toUpperCase() === 'WAIT') this.wait(picture._fadeDuration);
                     picture.cell = cellNumber;
                 }
                 break;
-            case 'PA_PROG_CELL':
+            case 'PA_PROG_CELL' :
             case 'ピクチャのアニメーションセル進行':
                 pictureNum = getArgNumber(args[0], 1, $gameScreen.maxPictures());
-                wait = getArgString(args[1]);
-                picture = $gameScreen.picture(pictureNum);
+                wait       = getArgString(args[1]);
+                picture    = $gameScreen.picture(pictureNum);
                 if (picture) {
                     if (wait === 'ウェイトあり' || wait.toUpperCase() === 'WAIT') this.wait(picture._fadeDuration);
                     picture.addCellCount();
                 }
                 break;
-            case 'PA_SET_VARIABLE':
+            case 'PA_SET_VARIABLE' :
             case 'ピクチャのアニメーションセル変数の設定':
                 pictureNum = getArgNumber(args[0], 1, $gameScreen.maxPictures());
-                picture = $gameScreen.picture(pictureNum);
+                picture    = $gameScreen.picture(pictureNum);
                 if (picture) picture.linkToVariable(getArgNumber(args[1]));
                 break;
         }
     };
 
-    Game_Interpreter.prototype.reservePaSound = function (cellNumber) {
+    Game_Interpreter.prototype.reservePaSound = function(cellNumber) {
         this._paSoundFrame = cellNumber;
     };
 
-    var _Game_Interpreter_command250 = Game_Interpreter.prototype.command250;
-    Game_Interpreter.prototype.command250 = function () {
+    var _Game_Interpreter_command250      = Game_Interpreter.prototype.command250;
+    Game_Interpreter.prototype.command250 = function() {
         if (this._paSoundFrame) {
             var se = this._params[0];
             AudioManager.loadStaticSe(se);
@@ -334,29 +334,29 @@
     // Game_Screen
     //  アニメーション関連の情報を追加で保持します。
     //=============================================================================
-    Game_Screen.prototype.setPicturesAnimation = function (cellNumber, frameNumber, direction, fadeDuration) {
-        this._paCellNumber = cellNumber;
-        this._paFrameNumber = frameNumber;
-        this._paDirection = direction;
+    Game_Screen.prototype.setPicturesAnimation = function(cellNumber, frameNumber, direction, fadeDuration) {
+        this._paCellNumber   = cellNumber;
+        this._paFrameNumber  = frameNumber;
+        this._paDirection    = direction;
         this._paFadeDuration = fadeDuration;
     };
 
-    Game_Screen.prototype.addPaSound = function (sound, frame) {
+    Game_Screen.prototype.addPaSound = function(sound, frame) {
         if (!this._paSounds) this._paSounds = [];
         this._paSounds[frame] = sound;
     };
 
-    Game_Screen.prototype.clearPicturesAnimation = function () {
-        this._paCellNumber = 1;
-        this._paFrameNumber = 1;
-        this._paDirection = '';
+    Game_Screen.prototype.clearPicturesAnimation = function() {
+        this._paCellNumber   = 1;
+        this._paFrameNumber  = 1;
+        this._paDirection    = '';
         this._paFadeDuration = 0;
-        this._paSounds = null;
+        this._paSounds       = null;
     };
 
-    var _Game_Screen_showPicture = Game_Screen.prototype.showPicture;
-    Game_Screen.prototype.showPicture = function (pictureId, name, origin, x, y,
-        scaleX, scaleY, opacity, blendMode) {
+    var _Game_Screen_showPicture      = Game_Screen.prototype.showPicture;
+    Game_Screen.prototype.showPicture = function(pictureId, name, origin, x, y,
+                                                 scaleX, scaleY, opacity, blendMode) {
         _Game_Screen_showPicture.apply(this, arguments);
         var realPictureId = this.realPictureId(pictureId);
         if (this._paCellNumber > 1) {
@@ -366,7 +366,7 @@
         }
     };
 
-    Game_Screen.prototype.isActivePicture = function (picture) {
+    Game_Screen.prototype.isActivePicture = function(picture) {
         var realId = this._pictures.indexOf(picture);
         return realId > this.maxPictures() === $gameParty.inBattle();
     };
@@ -375,42 +375,42 @@
     // Game_Picture
     //  アニメーション関連の情報を追加で保持します。
     //=============================================================================
-    var _Game_Picture_initialize = Game_Picture.prototype.initialize;
-    Game_Picture.prototype.initialize = function () {
+    var _Game_Picture_initialize      = Game_Picture.prototype.initialize;
+    Game_Picture.prototype.initialize = function() {
         _Game_Picture_initialize.call(this);
         this.initAnimationFrameInfo();
     };
 
-    Game_Picture.prototype.initAnimationFrameInfo = function () {
-        this._cellNumber = 1;
-        this._frameNumber = 1;
-        this._cellCount = 0;
-        this._frameCount = 0;
-        this._animationType = 0;
-        this._customArray = null;
-        this._loopFlg = false;
-        this._direction = '';
-        this._fadeDuration = 0;
+    Game_Picture.prototype.initAnimationFrameInfo = function() {
+        this._cellNumber        = 1;
+        this._frameNumber       = 1;
+        this._cellCount         = 0;
+        this._frameCount        = 0;
+        this._animationType     = 0;
+        this._customArray       = null;
+        this._loopFlg           = false;
+        this._direction         = '';
+        this._fadeDuration      = 0;
         this._fadeDurationCount = 0;
-        this._prevCellCount = 0;
-        this._animationFlg = false;
-        this._linkedVariable = 0;
-        this._cellSes = [];
+        this._prevCellCount     = 0;
+        this._animationFlg      = false;
+        this._linkedVariable    = 0;
+        this._cellSes           = [];
     };
 
-    Game_Picture.prototype.direction = function () {
+    Game_Picture.prototype.direction = function() {
         return this._direction;
     };
 
-    Game_Picture.prototype.cellNumber = function () {
+    Game_Picture.prototype.cellNumber = function() {
         return this._cellNumber;
     };
 
-    Game_Picture.prototype.prevCellCount = function () {
+    Game_Picture.prototype.prevCellCount = function() {
         return this._prevCellCount;
     };
 
-    Game_Picture.prototype.isMulti = function () {
+    Game_Picture.prototype.isMulti = function() {
         var dir = this.direction();
         return dir === '連番' || dir === 'N';
     };
@@ -422,7 +422,7 @@
      * @type Number
      */
     Object.defineProperty(Game_Picture.prototype, 'cell', {
-        get: function () {
+        get: function() {
             if (this._linkedVariable > 0) {
                 return $gameVariables.value(this._linkedVariable) % this._cellNumber;
             }
@@ -437,17 +437,17 @@
                     return this._cellCount;
             }
         },
-        set: function (value) {
+        set: function(value) {
             var newCellCount = value % this.getCellNumber();
             if (this._cellCount !== newCellCount) {
-                this._prevCellCount = this.cell;
+                this._prevCellCount     = this.cell;
                 this._fadeDurationCount = this._fadeDuration;
             }
             this._cellCount = newCellCount;
         }
     });
 
-    Game_Picture.prototype.getCellNumber = function () {
+    Game_Picture.prototype.getCellNumber = function() {
         switch (this._animationType) {
             case 3:
                 return this._customArray.length;
@@ -460,8 +460,8 @@
         }
     };
 
-    var _Game_Picture_update = Game_Picture.prototype.update;
-    Game_Picture.prototype.update = function () {
+    var _Game_Picture_update      = Game_Picture.prototype.update;
+    Game_Picture.prototype.update = function() {
         _Game_Picture_update.call(this);
         if (this.isFading()) {
             this.updateFading();
@@ -470,11 +470,11 @@
         }
     };
 
-    Game_Picture.prototype.linkToVariable = function (variableNumber) {
+    Game_Picture.prototype.linkToVariable = function(variableNumber) {
         this._linkedVariable = variableNumber.clamp(1, $dataSystem.variables.length);
     };
 
-    Game_Picture.prototype.updateAnimationFrame = function () {
+    Game_Picture.prototype.updateAnimationFrame = function() {
         this._frameCount = (this._frameCount + 1) % this._frameNumber;
         if (this._frameCount === 0) {
             this.addCellCount();
@@ -485,71 +485,71 @@
         }
     };
 
-    Game_Picture.prototype.isEndFirstLoop = function () {
+    Game_Picture.prototype.isEndFirstLoop = function() {
         return this._cellCount === (param.returnToFirstCell ? 0 : this.getCellNumber() - 1);
     };
 
-    Game_Picture.prototype.updateFading = function () {
+    Game_Picture.prototype.updateFading = function() {
         this._fadeDurationCount--;
     };
 
-    Game_Picture.prototype.prevCellOpacity = function () {
+    Game_Picture.prototype.prevCellOpacity = function() {
         if (this._fadeDuration === 0) return 0;
         return this.opacity() / this._fadeDuration * this._fadeDurationCount;
     };
 
-    Game_Picture.prototype.addCellCount = function () {
+    Game_Picture.prototype.addCellCount = function() {
         this.cell = this._cellCount + 1;
     };
 
-    Game_Picture.prototype.playCellSe = function () {
+    Game_Picture.prototype.playCellSe = function() {
         var se = this._cellSes[this.cell + 1];
         if (se) {
             AudioManager.playSe(se);
         }
     };
 
-    Game_Picture.prototype.setAnimationFrameInit = function (cellNumber, frameNumber, direction, fadeDuration, cellSes) {
-        this._cellNumber = cellNumber;
-        this._frameNumber = frameNumber;
-        this._frameCount = 0;
-        this._cellCount = 0;
-        this._direction = direction;
+    Game_Picture.prototype.setAnimationFrameInit = function(cellNumber, frameNumber, direction, fadeDuration, cellSes) {
+        this._cellNumber   = cellNumber;
+        this._frameNumber  = frameNumber;
+        this._frameCount   = 0;
+        this._cellCount    = 0;
+        this._direction    = direction;
         this._fadeDuration = fadeDuration;
-        this._cellSes = cellSes || [];
+        this._cellSes      = cellSes || [];
     };
 
-    Game_Picture.prototype.startAnimationFrame = function (animationType, loopFlg, customArray) {
+    Game_Picture.prototype.startAnimationFrame = function(animationType, loopFlg, customArray) {
         this._animationType = animationType;
-        this._customArray = customArray;
-        this._animationFlg = true;
-        this._loopFlg = loopFlg;
+        this._customArray   = customArray;
+        this._animationFlg  = true;
+        this._loopFlg       = loopFlg;
         if (this._cellNumber <= this._cellCount) {
             this._cellCount = this._cellNumber - 1;
         }
         this.playCellSe();
     };
 
-    Game_Picture.prototype.stopAnimationFrame = function (forceFlg) {
+    Game_Picture.prototype.stopAnimationFrame = function(forceFlg) {
         this._loopFlg = false;
         if (forceFlg) {
             this._animationFlg = false;
         }
     };
 
-    Game_Picture.prototype.hasAnimationFrame = function () {
+    Game_Picture.prototype.hasAnimationFrame = function() {
         return this._animationFlg;
     };
 
-    Game_Picture.prototype.isFading = function () {
+    Game_Picture.prototype.isFading = function() {
         return this._fadeDurationCount !== 0;
     };
 
-    Game_Picture.prototype.isNeedFade = function () {
+    Game_Picture.prototype.isNeedFade = function() {
         return this._fadeDuration !== 0;
     };
 
-    Game_Picture.prototype.isActive = function () {
+    Game_Picture.prototype.isActive = function() {
         return $gameScreen.isActivePicture(this);
     };
 
@@ -557,14 +557,14 @@
     // Sprite_Picture
     //  アニメーション関連の情報を追加で保持します。
     //=============================================================================
-    var _Sprite_Picture_initialize = Sprite_Picture.prototype.initialize;
-    Sprite_Picture.prototype.initialize = function (pictureId) {
+    var _Sprite_Picture_initialize      = Sprite_Picture.prototype.initialize;
+    Sprite_Picture.prototype.initialize = function(pictureId) {
         this._prevSprite = null;
         _Sprite_Picture_initialize.apply(this, arguments);
     };
 
-    var _Sprite_Picture_update = Sprite_Picture.prototype.update;
-    Sprite_Picture.prototype.update = function () {
+    var _Sprite_Picture_update      = Sprite_Picture.prototype.update;
+    Sprite_Picture.prototype.update = function() {
         _Sprite_Picture_update.apply(this, arguments);
         var picture = this.picture();
         if (picture && picture.name()) {
@@ -578,8 +578,8 @@
         }
     };
 
-    var _Sprite_Picture_updateBitmap = Sprite_Picture.prototype.updateBitmap;
-    Sprite_Picture.prototype.updateBitmap = function () {
+    var _Sprite_Picture_updateBitmap      = Sprite_Picture.prototype.updateBitmap;
+    Sprite_Picture.prototype.updateBitmap = function() {
         _Sprite_Picture_updateBitmap.apply(this, arguments);
         if (!this.picture()) {
             this._bitmaps = null;
@@ -589,7 +589,7 @@
         }
     };
 
-    Sprite_Picture.prototype.updateFading = function () {
+    Sprite_Picture.prototype.updateFading = function() {
         if (!this._prevSprite) {
             this.makePrevSprite();
         }
@@ -606,7 +606,7 @@
         }
     };
 
-    Sprite_Picture.prototype.updateAnimationFrame = function (sprite, cellCount) {
+    Sprite_Picture.prototype.updateAnimationFrame = function(sprite, cellCount) {
         switch (this.picture().direction()) {
             case '連番':
             case 'N':
@@ -616,13 +616,13 @@
             case '縦':
             case 'V':
                 var height = sprite.bitmap.height / this.picture().cellNumber();
-                var y = cellCount * height;
+                var y      = cellCount * height;
                 sprite.setFrame(0, y, sprite.bitmap.width, height);
                 break;
             case '横':
             case 'H':
                 var width = sprite.bitmap.width / this.picture().cellNumber();
-                var x = cellCount * width;
+                var x     = cellCount * width;
                 sprite.setFrame(x, 0, width, sprite.bitmap.height);
                 break;
             default:
@@ -630,45 +630,45 @@
         }
     };
 
-    var _Sprite_Picture_loadBitmap = Sprite_Picture.prototype.loadBitmap;
-    Sprite_Picture.prototype.loadBitmap = function () {
+    var _Sprite_Picture_loadBitmap      = Sprite_Picture.prototype.loadBitmap;
+    Sprite_Picture.prototype.loadBitmap = function() {
         _Sprite_Picture_loadBitmap.apply(this, arguments);
         this._bitmapReady = false;
-        this._bitmaps = null;
+        this._bitmaps     = null;
         if (this._prevSprite) {
             this._prevSprite.visible = false;
         }
     };
 
-    Sprite_Picture.prototype.loadAnimationBitmap = function () {
+    Sprite_Picture.prototype.loadAnimationBitmap = function() {
         var cellNumber = this.picture().cellNumber();
-        var cellDigit = cellNumber.toString().length;
-        this._bitmaps = [this.bitmap];
+        var cellDigit  = cellNumber.toString().length;
+        this._bitmaps  = [this.bitmap];
         for (var i = 1; i < cellNumber; i++) {
-            var filename = this._pictureName.substr(0, this._pictureName.length - cellDigit) + i.padZero(cellDigit);
+            var filename     = this._pictureName.substr(0, this._pictureName.length - cellDigit) + i.padZero(cellDigit);
             this._bitmaps[i] = ImageManager.loadPicture(filename);
         }
         this._bitmapReady = false;
     };
 
-    Sprite_Picture.prototype.makePrevSprite = function () {
-        this._prevSprite = new Sprite();
+    Sprite_Picture.prototype.makePrevSprite = function() {
+        this._prevSprite         = new Sprite();
         this._prevSprite.visible = false;
         this.addChild(this._prevSprite);
     };
 
-    Sprite_Picture.prototype.makePrevBitmap = function () {
-        this._prevSprite.bitmap = this.bitmap;
+    Sprite_Picture.prototype.makePrevBitmap = function() {
+        this._prevSprite.bitmap   = this.bitmap;
         this._prevSprite.anchor.x = this.anchor.x;
         this._prevSprite.anchor.y = this.anchor.y;
     };
 
-    Sprite_Picture.prototype.isBitmapReady = function () {
+    Sprite_Picture.prototype.isBitmapReady = function() {
         if (!this.bitmap) return false;
         if (this._bitmapReady) return true;
         var result;
         if (this.picture().isMulti()) {
-            result = this._bitmaps.every(function (bitmap) {
+            result = this._bitmaps.every(function(bitmap) {
                 return bitmap.isReady();
             });
         } else {

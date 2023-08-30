@@ -132,23 +132,23 @@
  *  このプラグインはもうあなたのものです。
  */
 
-(function () {
+(function() {
     'use strict';
     var pluginName = 'TitleImageChange';
 
-    var getParamString = function (paramNames) {
+    var getParamString = function(paramNames) {
         var value = getParamOther(paramNames);
         return value == null ? '' : value;
     };
 
-    var getParamNumber = function (paramNames, min, max) {
+    var getParamNumber = function(paramNames, min, max) {
         var value = getParamOther(paramNames);
         if (arguments.length < 2) min = -Infinity;
         if (arguments.length < 3) max = Infinity;
         return (parseInt(value, 10) || 0).clamp(min, max);
     };
 
-    var getParamOther = function (paramNames) {
+    var getParamOther = function(paramNames) {
         if (!Array.isArray(paramNames)) paramNames = [paramNames];
         for (var i = 0; i < paramNames.length; i++) {
             var name = PluginManager.parameters(pluginName)[paramNames[i]];
@@ -157,7 +157,7 @@
         return null;
     };
 
-    var getParamArrayString = function (paramNames) {
+    var getParamArrayString = function(paramNames) {
         var valuesText = getParamString(paramNames);
         if (!valuesText) return [];
         var values = valuesText.split(',');
@@ -167,7 +167,7 @@
         return values;
     };
 
-    var getParamArrayNumber = function (paramNames, min, max) {
+    var getParamArrayNumber = function(paramNames, min, max) {
         var values = getParamArrayString(paramNames);
         if (arguments.length < 2) min = -Infinity;
         if (arguments.length < 3) max = Infinity;
@@ -184,9 +184,9 @@
     //=============================================================================
     // パラメータの取得と整形
     //=============================================================================
-    var paramGradeVariable = getParamNumber(['GradeVariable', '進行度変数'], 1, 5000);
+    var paramGradeVariable    = getParamNumber(['GradeVariable', '進行度変数'], 1, 5000);
     var paramPriorityVariable = getParamNumber(['PriorityVariable', '優先度変数'], 0, 5000);
-    var paramTitleGrades = [];
+    var paramTitleGrades      = [];
     paramTitleGrades.push(getParamNumber(['TitleGrade1', 'タイトル1の進行度']));
     paramTitleGrades.push(getParamNumber(['TitleGrade2', 'タイトル2の進行度']));
     paramTitleGrades.push(getParamNumber(['TitleGrade3', 'タイトル3の進行度']));
@@ -200,22 +200,22 @@
     paramTitleBgms.push(getParamString(['TitleBgm3', 'タイトル3のBGM']));
     paramTitleGrades = paramTitleGrades.concat(getParamArrayNumber(['TitleGradeAfter', '以降の進行度'])).reverse();
     paramTitleImages = paramTitleImages.concat(getParamArrayString(['TitleImageAfter', '以降の画像'])).reverse();
-    paramTitleBgms = paramTitleBgms.concat(getParamArrayString(['TitleBgmAfter', '以降のBGM'])).reverse();
+    paramTitleBgms   = paramTitleBgms.concat(getParamArrayString(['TitleBgmAfter', '以降のBGM'])).reverse();
 
     //=============================================================================
     // DataManager
     //  ゲーム進行状況を保存します。
     //=============================================================================
     var _DataManager_makeSavefileInfo = DataManager.makeSavefileInfo;
-    DataManager.makeSavefileInfo = function () {
+    DataManager.makeSavefileInfo      = function() {
         var info = _DataManager_makeSavefileInfo.apply(this, arguments);
         this.setGradeVariable(info);
         return info;
     };
 
-    DataManager.getFirstPriorityGradeVariable = function () {
+    DataManager.getFirstPriorityGradeVariable = function() {
         this._loadGrade = true;
-        var globalInfo = this.loadGlobalInfo().filter(function (data, id) {
+        var globalInfo    = this.loadGlobalInfo().filter(function(data, id) {
             return this.isThisGameFile(id);
         }, this);
         this._loadGrade = false;
@@ -230,7 +230,7 @@
     };
 
     var _DataManager_loadGlobalInfo = DataManager.loadGlobalInfo;
-    DataManager.loadGlobalInfo = function () {
+    DataManager.loadGlobalInfo = function() {
         if (this._loadGrade) {
             if (!this._globalInfo) {
                 try {
@@ -247,7 +247,7 @@
         }
     };
 
-    DataManager._compareOrderForGradeVariable = function (a, b) {
+    DataManager._compareOrderForGradeVariable = function(a, b) {
         if (!a) {
             return 1;
         } else if (!b) {
@@ -259,7 +259,7 @@
         }
     };
 
-    DataManager.saveOnlyGradeVariable = function () {
+    DataManager.saveOnlyGradeVariable = function() {
         var saveFileId = this.lastAccessedSavefileId();
         var globalInfo = this.loadGlobalInfo() || [];
         if (globalInfo[saveFileId]) {
@@ -270,7 +270,7 @@
         this.saveGlobalInfo(globalInfo);
     };
 
-    DataManager.setGradeVariable = function (info) {
+    DataManager.setGradeVariable = function(info) {
         info.gradeVariable = $gameVariables.value(paramGradeVariable);
         if (paramPriorityVariable > 0) {
             info.priorityVariable = $gameVariables.value(paramPriorityVariable);
@@ -278,7 +278,7 @@
     };
 
     var _DataManager_saveGlobalInfo = DataManager.saveGlobalInfo;
-    DataManager.saveGlobalInfo = function (info) {
+    DataManager.saveGlobalInfo = function(info) {
         _DataManager_saveGlobalInfo.apply(this, arguments);
         this._globalInfo = null;
     };
@@ -287,14 +287,14 @@
     // Scene_Title
     //  進行状況が一定以上の場合、タイトル画像を差し替えます。
     //=============================================================================
-    var _Scene_Title_initialize = Scene_Title.prototype.initialize;
-    Scene_Title.prototype.initialize = function () {
+    var _Scene_Title_initialize      = Scene_Title.prototype.initialize;
+    Scene_Title.prototype.initialize = function() {
         _Scene_Title_initialize.apply(this, arguments);
         this.changeTitleImage();
         this.changeTitleBgm();
     };
 
-    Scene_Title.prototype.changeTitleImage = function () {
+    Scene_Title.prototype.changeTitleImage = function() {
         var gradeVariable = DataManager.getFirstPriorityGradeVariable();
         if ($dataSystem.originalTitle1Name !== undefined) {
             $dataSystem.title1Name = $dataSystem.originalTitle1Name;
@@ -308,7 +308,7 @@
         }
     };
 
-    Scene_Title.prototype.changeTitleBgm = function () {
+    Scene_Title.prototype.changeTitleBgm = function() {
         var gradeVariable = DataManager.getFirstPriorityGradeVariable();
         if ($dataSystem.titleBgm.originalName !== undefined) {
             $dataSystem.titleBgm.name = $dataSystem.titleBgm.originalName;

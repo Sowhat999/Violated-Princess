@@ -35,7 +35,7 @@ var Nore;
         loader = new PIXI.loaders.Loader();
         loader.add('HeaderFont', './fonts/bgfont.fnt')
             .load(function () {
-            });
+        });
     };
     var Scene_Map_prototype_update = Scene_Map.prototype.update;
     Scene_Map.prototype.update = function () {

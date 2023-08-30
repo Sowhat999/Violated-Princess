@@ -77,20 +77,20 @@ Imported.MPI_ModestyPicture = true;
 var Makonet = Makonet || {};
 Makonet.MPC = {};
 
-(function () {
+(function(){
     'use strict';
 
-    var MPD = Makonet.MPC;
-    MPD.product = 'MPI_ModestyPicture';
+    var MPD        = Makonet.MPC;
+    MPD.product    = 'MPI_ModestyPicture';
     MPD.parameters = PluginManager.parameters(MPD.product);
 
-    MPD.picture = MPD.parameters['半透明にするピクチャ番号'].trim().split(/ *, */).map(function (value) { return +value });
-    MPD.check1 = MPD.parameters['重なり判定-A'].trim().toLowerCase() === 'true';
-    MPD.check2 = MPD.parameters['重なり判定-B'].trim().toLowerCase() === 'true';
-    MPD.check3 = MPD.parameters['重なり判定-C'].trim().toLowerCase() === 'true';
-    MPD.cycle = +MPD.parameters['判定周期'];
+    MPD.picture =  MPD.parameters['半透明にするピクチャ番号'].trim().split(/ *, */).map(function(value){ return +value });
+    MPD.check1  =  MPD.parameters['重なり判定-A'].trim().toLowerCase() === 'true';
+    MPD.check2  =  MPD.parameters['重なり判定-B'].trim().toLowerCase() === 'true';
+    MPD.check3  =  MPD.parameters['重なり判定-C'].trim().toLowerCase() === 'true';
+    MPD.cycle   = +MPD.parameters['判定周期'];
     MPD.opacity = +MPD.parameters['不透明度'];
-    MPD.step = +MPD.parameters['変化量'];
+    MPD.step    = +MPD.parameters['変化量'];
 
     var _ = MPD.product;
 
@@ -99,8 +99,8 @@ Makonet.MPC = {};
     //==============================================================================
 
     Object.defineProperty(Game_Player.prototype, _, {
-        get: function () { return this[`$${_}`] = this[`$${_}`] || { left: 0, top: 0, right: 0, bottom: 0 }; },
-        set: function (value) { this[`$${_}`] = value; },
+        get: function(){ return this[`$${_}`] = this[`$${_}`] || { left: 0, top: 0, right: 0, bottom: 0 }; },
+        set: function(value) { this[`$${_}`] = value; },
         configurable: true
     });
 
@@ -108,15 +108,15 @@ Makonet.MPC = {};
     // Sprite_Character
     //==============================================================================
 
-    (function (o, p) {
-        var f = o[p]; o[p] = function () {
+    (function(o, p) {
+        var f = o[p]; o[p] = function(){
             f.apply(this, arguments);
             if (this._character === $gamePlayer) {
                 var gp = $gamePlayer[_];
-                gp.left = parseInt(this.x - this.anchor.x * this.patternWidth());
-                gp.top = parseInt(this.y - this.anchor.y * this.patternHeight());
-                gp.right = gp.left + this.patternWidth();
-                gp.bottom = gp.top + this.patternHeight();
+                gp.left   = parseInt(this.x - this.anchor.x * this.patternWidth());
+                gp.top    = parseInt(this.y - this.anchor.y * this.patternHeight());
+                gp.right  = gp.left + this.patternWidth();
+                gp.bottom = gp.top  + this.patternHeight();
             }
         };
     }(Sprite_Character.prototype, 'updateCharacterFrame'));
@@ -126,20 +126,20 @@ Makonet.MPC = {};
     //==============================================================================
 
     Object.defineProperty(Sprite_Picture.prototype, _, {
-        get: function () { return this[`$${_}`] = this[`$${_}`] || { modesty: false, opacity: 255, overlap: false }; },
-        set: function (value) { this[`$${_}`] = value; },
+        get: function(){ return this[`$${_}`] = this[`$${_}`] || { modesty: false, opacity: 255, overlap: false }; },
+        set: function(value) { this[`$${_}`] = value; },
         configurable: true
     });
 
-    (function (o, p) {
-        var f = o[p]; o[p] = function (pictureId) {
+    (function(o, p) {
+        var f = o[p]; o[p] = function(pictureId){
             f.apply(this, arguments);
             this[_].modesty = (MPD.picture.indexOf(pictureId) >= 0);
         };
     }(Sprite_Picture.prototype, 'initialize'));
 
-    (function (o, p) {
-        var f = o[p]; o[p] = function () {
+    (function(o, p) {
+        var f = o[p]; o[p] = function(){
             f.apply(this, arguments);
             var this_ = this[_];
             if (this_.modesty && !!this.bitmap) {
@@ -149,27 +149,27 @@ Makonet.MPC = {};
                     var pr = pl + this._realFrame.width;
                     var pb = pt + this._realFrame.height;
                     var gp = $gamePlayer[_];
-                    var bl = (gp.left === gp.left.clamp(pl, pr));
-                    var bt = (gp.top === gp.top.clamp(pt, pb));
-                    var br = (gp.right === gp.right.clamp(pl, pr));
+                    var bl = (gp.left   === gp.left.clamp(pl, pr));
+                    var bt = (gp.top    === gp.top.clamp(pt, pb));
+                    var br = (gp.right  === gp.right.clamp(pl, pr));
                     var bb = (gp.bottom === gp.bottom.clamp(pt, pb));
                     this_.overlap = false;
                     if ((bl && bt) || (bl && bb) || (br && bt) || (br && bb)) {
-                        var cl = gp.left - pl;
-                        var ct = gp.top - pt;
-                        var cr = gp.right - pl;
+                        var cl = gp.left   - pl;
+                        var ct = gp.top    - pt;
+                        var cr = gp.right  - pl;
                         var cb = gp.bottom - pt;
                         var cx = parseInt((cl + cr) / 2);
                         var cy = parseInt((ct + cb) / 2);
                         if ((MPD.check1 && ((this.bitmap.getAlphaPixel(cl, ct) > 0) ||
-                            (this.bitmap.getAlphaPixel(cl, cb) > 0) ||
-                            (this.bitmap.getAlphaPixel(cr, ct) > 0) ||
-                            (this.bitmap.getAlphaPixel(cr, cb) > 0))) ||
+                                            (this.bitmap.getAlphaPixel(cl, cb) > 0) ||
+                                            (this.bitmap.getAlphaPixel(cr, ct) > 0) ||
+                                            (this.bitmap.getAlphaPixel(cr, cb) > 0))) ||
                             (MPD.check2 && ((this.bitmap.getAlphaPixel(cx, ct) > 0) ||
-                                (this.bitmap.getAlphaPixel(cx, cb) > 0) ||
-                                (this.bitmap.getAlphaPixel(cl, cy) > 0) ||
-                                (this.bitmap.getAlphaPixel(cr, cy) > 0))) ||
-                            (MPD.check3 && (this.bitmap.getAlphaPixel(cx, cy) > 0))) {
+                                            (this.bitmap.getAlphaPixel(cx, cb) > 0) ||
+                                            (this.bitmap.getAlphaPixel(cl, cy) > 0) ||
+                                            (this.bitmap.getAlphaPixel(cr, cy) > 0))) ||
+                            (MPD.check3 &&  (this.bitmap.getAlphaPixel(cx, cy) > 0))) {
                             this_.overlap = true;
                         }
                     }

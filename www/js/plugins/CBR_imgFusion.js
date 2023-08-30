@@ -41,12 +41,12 @@
 var CBR = CBR || {};
 CBR.imgFusion = {};
 
-if (!CBR_Game_Interpreter_command355) {
+if(!CBR_Game_Interpreter_command355){
 	var CBR_Game_Interpreter_command355 = Game_Interpreter.prototype.command355;
-	Game_Interpreter.prototype.command355 = function () {
+	Game_Interpreter.prototype.command355 = function() {
 		//CBR-xxxの場合CBR.xxxにobjを渡す
 		var key = this.currentCommand().parameters[0];
-		if (key.match(/^CBR\-/)) {
+		if(key.match(/^CBR\-/)){
 			var obj = [];
 			//下に続いてるスクリプトの取得
 			while (this.nextEventCode() === 655) {
@@ -55,12 +55,12 @@ if (!CBR_Game_Interpreter_command355) {
 			}
 			var temp = key.split('-');
 			//CBR-×××があったら
-			if (CBR[temp[1]]) {
+			if(CBR[temp[1]]){
 				//下に続くデータを入れる
 				CBR[temp[1]](obj);
 			}
-			//普通にスクリプト実行
-		} else {
+		//普通にスクリプト実行
+		}else{
 			CBR_Game_Interpreter_command355.call(this);
 		}
 		return true;
@@ -71,12 +71,12 @@ if (!CBR_Game_Interpreter_command355) {
 
 
 //他の人がややこしくなるだろうからGame_Systemには追加したくない
-CBR.imgFusion.key = function (name) {
+CBR.imgFusion.key = function(name){
 	//後に何があるかわからないから.pngは残す
 	var key = null;
 	var ary = $gameSystem._CBR_imgFusion._fusionList;
-	for (var i = 0, len = ary.length; i < len; i++) {
-		if (ary[i].base == name) {
+	for(var i=0,len=ary.length; i<len; i++){
+		if(ary[i].base == name){
 			key = i;
 		}
 	}
@@ -84,14 +84,14 @@ CBR.imgFusion.key = function (name) {
 };
 
 //基画像、要素のロード完了後実行するヤツ
-CBR.imgFusion.onLoad = function (e) {
+CBR.imgFusion.onLoad = function(e){
 	//ロード終わっても合成解除されてCBR_imgFusionが消されてたら
-	if (!this.CBR_imgFusion) {
+	if(!this.CBR_imgFusion){
 		this.clear();
 		this._context.drawImage(this._image, 0, 0);
 		return;
 	}
-	if (!CBR.imgFusion.check(this.CBR_imgFusion._name)) {//今後何があるかわらないから
+	if(!CBR.imgFusion.check(this.CBR_imgFusion._name)){//今後何があるかわらないから
 		return;
 	}
 	this.clear();
@@ -99,33 +99,33 @@ CBR.imgFusion.onLoad = function (e) {
 	//終わってた！画像描写するぞー！
 	var key = CBR.imgFusion.key(this.CBR_imgFusion._name);
 	var ary = $gameSystem._CBR_imgFusion._fusionList;
-	for (var i = 0, len = ary[key].add_ary.length; i < len; i++) {
-		var bitmap2 = ImageManager.loadBitmap('img/pictures/', ary[key].add_ary[i].slice(0, -4), undefined, true);
+	for(var i=0,len=ary[key].add_ary.length; i<len; i++){
+		var bitmap2 = ImageManager.loadBitmap('img/pictures/', ary[key].add_ary[i].slice(0,-4), undefined, true);
 		this.context.drawImage(bitmap2._image, 0, 0);
 	}
 	//オンロードしたらbitmapがキャッシュされるんで追加描写は前もって
 	//キャッシュのbitmapはちゃんと変更されてる、だから消してまた読み込んだ時反映されてる
 	//Game_Pictureにはアップデートがある picture.update();
 	//もしロード終了後の流れだったら
-	if (!this._loadingState) {
+	if(!this._loadingState){
 		this._loadingState = this._CBR_loadingState;
 		this._renewCanvas = Bitmap.prototype._renewCanvas;//元に戻す
 	}
 
 	//ロード終了→オンロード→_renewCanvas内での実行だったらこれが終わった後オンロード実行される
-	if (e) {
-		this._renewCanvas();
-	} else {
+	if(e){
+		this._renewCanvas();	
+	}else{
 		Bitmap.prototype._onLoad.call(this);
 		//もしピクチャが表示されてたらこの場でピクチャをリフレッシュ
-		var temp = this.CBR_imgFusion._name.slice(0, -4);
-		if (SceneManager._scene._spriteset) {
-			for (var i = 1; i < 101; i++) {
+		var temp = this.CBR_imgFusion._name.slice(0,-4);
+		if(SceneManager._scene._spriteset){
+			for(var i=1; i<101; i++){
 				var temp2 = $gameScreen._pictures[i];
 				//Game_Pictureがあったら
-				if (temp2 && temp == temp2._name) {
+				if(temp2 && temp == temp2._name){
 					//ピクチャスプライトをリフレッシュする
-					SceneManager._scene._spriteset._pictureContainer.children[i - 1]._refresh();
+					SceneManager._scene._spriteset._pictureContainer.children[i-1]._refresh();
 					this._baseTexture.update();//リフレッシュしたらbitmapのベーステクスチャもアップデートする事。リフレッシュの挙動的に
 					break;
 				}
@@ -135,23 +135,23 @@ CBR.imgFusion.onLoad = function (e) {
 };
 
 //その名前の要素が全部読み込めてるかどうか できてたらtrue
-CBR.imgFusion.check = function (name) {
+CBR.imgFusion.check = function(name){
 	var key = CBR.imgFusion.key(name);
 	var temp = true;
 	var ary = $gameSystem._CBR_imgFusion._fusionList;
-	if (key !== null) {
-		for (var i = 0, len = ary[key].add_ary.length; i < len; i++) {
+	if(key !== null){
+		for(var i=0,len=ary[key].add_ary.length; i<len; i++){
 			//素材読みこむよー
-			var bitmap = ImageManager.loadBitmap('img/pictures/', ary[key].add_ary[i].slice(0, -4), undefined, true);
+			var bitmap = ImageManager.loadBitmap('img/pictures/', ary[key].add_ary[i].slice(0,-4),undefined, true);
 			//終わってなかったよ
-			if (bitmap._loadingState != 'loaded') {
+			if(bitmap._loadingState!='loaded'){
 				//素材のロード終わったら実行する奴
 				bitmap._CBR_imgFusion_parent = name;
-				var test = function () {
+				var test =function(){
 					//普通にロード終わったよ
 					Bitmap.prototype._onLoad.call(this);
 					//ベース画像を読みこむ
-					var bitmap = ImageManager.loadBitmap('img/pictures/', this._CBR_imgFusion_parent.slice(0, -4), undefined, true);
+					var bitmap = ImageManager.loadBitmap('img/pictures/', this._CBR_imgFusion_parent.slice(0,-4), undefined, true);
 					//そしてオンロード オンロードはloadでバインドしたものとは別物だからダメ
 					bitmap.CBR_imgFusion_load();
 				};
@@ -169,40 +169,40 @@ CBR.imgFusion.check = function (name) {
 
 
 var _CBRimgFusion_Game_System_initialize = Game_System.prototype.initialize;
-Game_System.prototype.initialize = function () {
+Game_System.prototype.initialize = function(){
 	_CBRimgFusion_Game_System_initialize.call(this);
-
+	
 	this._CBR_imgFusion = {};
 	this._CBR_imgFusion._fusionList = [];
 };
 
 var _CBRimgFusion_ImageManager_loadPicture = ImageManager.loadPicture;
-ImageManager.loadPicture = function (filename, hue) {
+ImageManager.loadPicture = function(filename, hue) {
 
 	//フュージョンに同じものあるかな？
 	var temp = false;
-	for (var i = 0, len = $gameSystem._CBR_imgFusion._fusionList.length; i < len; i++) {
-		if ($gameSystem._CBR_imgFusion._fusionList[i].base == filename + '.png') {
+	for(var i=0,len=$gameSystem._CBR_imgFusion._fusionList.length; i<len; i++){
+		if($gameSystem._CBR_imgFusion._fusionList[i].base == filename+'.png'){
 			temp = true;
 			break;
 		}
 	}
 
 	//あったー
-	if (temp) {
+	if(temp){
 		//bitmap初期設定
 		var bitmap = this.loadBitmap('img/pictures/', filename, hue, true);
 		//ロード時、systemには残ってるけどbitmapは初期化されてしまってるとき
-		if (!bitmap.CBR_imgFusion) {
+		if(!bitmap.CBR_imgFusion){
 			bitmap.CBR_imgFusion = {};
-			bitmap.CBR_imgFusion._name = filename + '.png';
+			bitmap.CBR_imgFusion._name = filename+'.png';
 			bitmap.CBR_imgFusion_load = CBR.imgFusion.onLoad;
 
 			//基画像がロード中だったらロード終わった後に実行させないとね
 			//ロード済みだったら合成しちゃお
-			if (bitmap._loadingState == 'requesting' || bitmap._loadingState == 'decrypting') {
+			if(bitmap._loadingState=='requesting' || bitmap._loadingState=='decrypting'){
 				//ロード終わったらload()実行させないとね！
-				bitmap._renewCanvas = function () {
+				bitmap._renewCanvas = function(){
 					this._CBR_loadingState = this._loadingState;
 					this._loadingState = null;
 					this.CBR_imgFusion_load(true);
@@ -211,40 +211,40 @@ ImageManager.loadPicture = function (filename, hue) {
 			}
 		}
 
-		if (bitmap._loadingState == 'loaded') {
+		if(bitmap._loadingState == 'loaded'){
 			bitmap.CBR_imgFusion_load();//とりあえず更新
 		}
 		return bitmap;
-	} else {
-		return _CBRimgFusion_ImageManager_loadPicture.call(this, filename, hue);
+	}else{
+		return _CBRimgFusion_ImageManager_loadPicture.call(this,filename, hue);
 	}
 };
 
 
 
 //合成するぞー
-CBR["画像合成"] = function (ary) {
+CBR["画像合成"] = function(ary){	
 	//ベースと要素の変数を実行
-	for (var i = 0, len = ary.length; i < len; i++) {
-		ary[i] = ary[i].replace(/\\V\[(\d+)\]/g, function (a, b) {//汚いけどこれは毎回やらないとね
-			return $gameVariables.value(b);//律儀にNumberしなくてもいいか
+	for(var i=0,len=ary.length; i<len; i++){
+		ary[i] = ary[i].replace(/\\V\[(\d+)\]/g,function(a,b){//汚いけどこれは毎回やらないとね
+				return $gameVariables.value(b);//律儀にNumberしなくてもいいか
 		});
 	}
 
-	var base = ary.shift().slice(1, -1);
+	var base = ary.shift().slice(1,-1);
 	var key = CBR.imgFusion.key(base);
 
 	//同じベース画像だったら上書きする
-	if (key === null) {
+	if(key === null){
 		key = $gameSystem._CBR_imgFusion._fusionList.length;
 	}
 	$gameSystem._CBR_imgFusion._fusionList[key] = {
-		'base': base,
-		'add_ary': ary
+		'base':base,
+		'add_ary':ary
 	};
 
-	var bitmap = ImageManager.loadBitmap('img/pictures/', base.slice(0, -4), undefined, true);
-
+	var bitmap = ImageManager.loadBitmap('img/pictures/', base.slice(0,-4), undefined, true);	
+	
 	//初期設定
 	bitmap.CBR_imgFusion = {};
 	bitmap.CBR_imgFusion._name = base;
@@ -252,26 +252,26 @@ CBR["画像合成"] = function (ary) {
 	bitmap.CBR_imgFusion_load = CBR.imgFusion.onLoad;
 
 	//ロード済みだったら合成しちゃお
-	if (bitmap._loadingState == 'loaded') {
+	if(bitmap._loadingState=='loaded'){
 		//ベースがピクチャとして表示されてなかったら隠す
-		var temp = base.slice(0, -4);
-		if (SceneManager._scene._spriteset) {
-			for (var i = 1; i < 101; i++) {
+		var temp = base.slice(0,-4);
+		if(SceneManager._scene._spriteset){
+			for(var i=1; i<101; i++){
 				var temp2 = $gameScreen._pictures[i];
 				//Game_Pictureがあったら
-				if (temp2 && temp == temp2._name) {
+				if(temp2 && temp == temp2._name){
 					break;
 				}
 			}
-			if (i == 101) {
+			if(i==101){
 				bitmap.clear();
 			}
 		}
 		bitmap.CBR_imgFusion_load();
-		//ロード・解読中だったら
-	} else if (bitmap._loadingState == 'requesting' || bitmap._loadingState == 'decrypting') {
+	//ロード・解読中だったら
+	}else if(bitmap._loadingState=='requesting' || bitmap._loadingState=='decrypting'){
 		//ロード終わったらload()実行させないとね！
-		bitmap._renewCanvas = function () {
+		bitmap._renewCanvas = function(){
 			this._CBR_loadingState = this._loadingState;
 			this._loadingState = null;
 			this.CBR_imgFusion_load(true);

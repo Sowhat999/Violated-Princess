@@ -876,7 +876,7 @@
       };
     } else {
       const _Scene_Map_onMapLoaded = Scene_Map.prototype.onMapLoaded;
-      Scene_Map.prototype.onMapLoaded = function () {
+      Scene_Map.prototype.onMapLoaded = function() {
         _Scene_Map_onMapLoaded.call(this);
         if (settings.smoothBackFromLog && evacuatedMessageWindow) {
           this._windowLayer.removeChild(this._pauseWindow);
@@ -922,7 +922,7 @@
    * NobleMushroom.js でセーブ・ロード画面を開いているかどうか
    * @return {boolean}
    */
-  Scene_Map.prototype.isFileListWindowActive = function () {
+  Scene_Map.prototype.isFileListWindowActive = function() {
     return this._fileListWindow && this._fileListWindow.isOpenAndActive();
   };
 
@@ -1087,7 +1087,7 @@
    * ログにテキストを記録する
    * @param {string} text ログに記録したいテキスト
    */
-  Game_System.prototype.insertTextLog = function (text) {
+  Game_System.prototype.insertTextLog = function(text) {
     addTextLog(text);
   };
 

@@ -140,189 +140,189 @@
 
 var MPP = MPP || {};
 
-(function (exports) {
+(function(exports) {
     'use strict';
 
-    MPP.paramRange = MPP.paramRange || function (param) {
-        var result = [];
-        param.split(',').forEach(id => {
-            if (/(\d+)-(\d+)/.test(id)) {
-                for (var n = Number(RegExp.$1); n <= Number(RegExp.$2); n++) {
-                    result.push(n);
-                }
-            } else {
-                result.push(Number(id));
+MPP.paramRange = MPP.paramRange || function(param) {
+    var result = [];
+    param.split(',').forEach( id => {
+        if (/(\d+)-(\d+)/.test(id)) {
+            for (var n = Number(RegExp.$1); n <= Number(RegExp.$2); n++) {
+                result.push(n);
             }
-        });
-        return result;
-    };
+        } else {
+            result.push(Number(id));
+        }
+    });
+    return result;
+};
 
-    const Params = {};
+const Params = {};
 
-    {
+{
+    
+    let parameters = PluginManager.parameters('MPP_SelfVariable');
 
-        let parameters = PluginManager.parameters('MPP_SelfVariable');
+    Params.Variables = MPP.paramRange(parameters['Variables']);
+    
+    //=== Command ===
+    Params.PluginCommands = JSON.parse(parameters['Plugin Commands']);
+    
+}
 
-        Params.Variables = MPP.paramRange(parameters['Variables']);
+const Alias = {};
 
-        //=== Command ===
-        Params.PluginCommands = JSON.parse(parameters['Plugin Commands']);
+//-----------------------------------------------------------------------------
+// Game_Variables
 
+//15
+Alias.GaVa_clear = Game_Variables.prototype.clear;
+Game_Variables.prototype.clear = function() {
+    Alias.GaVa_clear.apply(this, arguments);
+    this._selfVariables = {};
+    this._mapId = 0;
+    this._eventId = 0;
+};
+
+//19
+Alias.GaVa_value = Game_Variables.prototype.value;
+Game_Variables.prototype.value = function(variableId) {
+    if (this._eventId > 0 && Params.Variables.contains(variableId)) {
+        var key = [this._mapId, this._eventId, variableId];
+        return this._selfVariables[key] || 0;
+    } else {
+        return Alias.GaVa_value.apply(this, arguments);
     }
+};
 
-    const Alias = {};
-
-    //-----------------------------------------------------------------------------
-    // Game_Variables
-
-    //15
-    Alias.GaVa_clear = Game_Variables.prototype.clear;
-    Game_Variables.prototype.clear = function () {
-        Alias.GaVa_clear.apply(this, arguments);
-        this._selfVariables = {};
-        this._mapId = 0;
-        this._eventId = 0;
-    };
-
-    //19
-    Alias.GaVa_value = Game_Variables.prototype.value;
-    Game_Variables.prototype.value = function (variableId) {
-        if (this._eventId > 0 && Params.Variables.contains(variableId)) {
-            var key = [this._mapId, this._eventId, variableId];
-            return this._selfVariables[key] || 0;
-        } else {
-            return Alias.GaVa_value.apply(this, arguments);
+//23
+Alias.GaVa_setValue = Game_Variables.prototype.setValue;
+Game_Variables.prototype.setValue = function(variableId, value) {
+    if (this._eventId > 0 && Params.Variables.contains(variableId)) {
+        if (typeof value === 'number') {
+            value = Math.floor(value);
         }
-    };
-
-    //23
-    Alias.GaVa_setValue = Game_Variables.prototype.setValue;
-    Game_Variables.prototype.setValue = function (variableId, value) {
-        if (this._eventId > 0 && Params.Variables.contains(variableId)) {
-            if (typeof value === 'number') {
-                value = Math.floor(value);
-            }
-            var key = [this._mapId, this._eventId, variableId];
-            this._selfVariables[key] = value;
-            this.onChange();
-        } else {
-            Alias.GaVa_setValue.apply(this, arguments);
-        }
-    };
-
-    Game_Variables.prototype.setSelfVariable = function (mapId, eventId, variableId, value) {
-        if (eventId > 0 && eventId > 0 && Params.Variables.contains(variableId)) {
-            if (typeof value === 'number') {
-                value = Math.floor(value);
-            }
-            var key = [mapId, eventId, variableId];
-            this._selfVariables[key] = value;
-            this.onChange();
-        }
-    };
-
-    Game_Variables.prototype.deleteSelfVariables = function (mapId, evIds, vaIds) {
-        var re = new RegExp(mapId + ',(\\d+),(\\d+)');
-        for (var key in this._selfVariables) {
-            if (re.test(key)) {
-                if ((evIds.length === 0 || evIds.includes(parseInt(RegExp.$1))) &&
-                    (vaIds.length === 0 || vaIds.includes(parseInt(RegExp.$2)))) {
-                    delete this._selfVariables[key];
-                }
-            }
-        }
+        var key = [this._mapId, this._eventId, variableId];
+        this._selfVariables[key] = value;
         this.onChange();
-    };
+    } else {
+        Alias.GaVa_setValue.apply(this, arguments);
+    }
+};
 
-    Game_Variables.prototype.reserveEvent = function (mapId, eventId) {
-        this._mapId = mapId;
-        this._eventId = eventId;
-    };
+Game_Variables.prototype.setSelfVariable = function(mapId, eventId, variableId, value) {
+    if (eventId > 0 && eventId > 0 && Params.Variables.contains(variableId)) {
+        if (typeof value === 'number') {
+            value = Math.floor(value);
+        }
+        var key = [mapId, eventId, variableId];
+        this._selfVariables[key] = value;
+        this.onChange();
+    }
+};
 
-    //-----------------------------------------------------------------------------
-    // Game_Event
+Game_Variables.prototype.deleteSelfVariables = function(mapId, evIds, vaIds) {
+    var re = new RegExp(mapId + ',(\\d+),(\\d+)');
+    for (var key in this._selfVariables) {
+        if (re.test(key)) {
+            if ((evIds.length === 0 || evIds.includes(parseInt(RegExp.$1))) &&
+                    (vaIds.length === 0 || vaIds.includes(parseInt(RegExp.$2)))) {
+                delete this._selfVariables[key];
+            }
+        }
+    }
+    this.onChange();
+};
 
-    //188
-    Alias.GaEv_findProperPageIndex = Game_Event.prototype.findProperPageIndex;
-    Game_Event.prototype.findProperPageIndex = function () {
+Game_Variables.prototype.reserveEvent = function(mapId, eventId) {
+    this._mapId = mapId;
+    this._eventId = eventId;
+};
+
+//-----------------------------------------------------------------------------
+// Game_Event
+
+//188
+Alias.GaEv_findProperPageIndex = Game_Event.prototype.findProperPageIndex;
+Game_Event.prototype.findProperPageIndex = function() {
+    $gameVariables.reserveEvent(this._mapId, this._eventId);
+    return Alias.GaEv_findProperPageIndex.apply(this, arguments);
+};
+
+//-----------------------------------------------------------------------------
+// Game_CommonEvent
+
+//24
+Alias.GaCoEv_refresh = Game_CommonEvent.prototype.refresh;
+Game_CommonEvent.prototype.refresh = function() {
+    Alias.GaCoEv_refresh.apply(this, arguments);
+    if (this._interpreter) {
+        this._interpreter._commonEventId = this._commonEventId;
+    }
+};
+
+//-----------------------------------------------------------------------------
+// Game_Interpreter
+
+//55
+Alias.GaIn_setupReservedCommonEvent = Game_Interpreter.prototype.setupReservedCommonEvent;
+Game_Interpreter.prototype.setupReservedCommonEvent = function() {
+    this._commonEventId = $gameTemp._commonEventId;
+    return Alias.GaIn_setupReservedCommonEvent.apply(this, arguments);
+};
+
+//68
+Alias.GaIn_update = Game_Interpreter.prototype.update;
+Game_Interpreter.prototype.update = function() {
+    this.reserveSelfVar();
+    Alias.GaIn_update.apply(this, arguments);
+};
+
+//608
+Alias.GaIn_setupChild = Game_Interpreter.prototype.setupChild;
+Game_Interpreter.prototype.setupChild = function(list, eventId) {
+    Alias.GaIn_setupChild.apply(this, arguments);
+    this._childInterpreter._commonEventId = this._commonEventId;
+};
+
+Game_Interpreter.prototype.reserveSelfVar = function() {
+    if (this._commonEventId) {
+        $gameVariables.reserveEvent(-1, this._commonEventId);
+    } else {
         $gameVariables.reserveEvent(this._mapId, this._eventId);
-        return Alias.GaEv_findProperPageIndex.apply(this, arguments);
+    }
+};
+
+//1722
+Alias.GaIn_pluginCommand = Game_Interpreter.prototype.pluginCommand;
+Game_Interpreter.prototype.pluginCommand = function(command, args) {
+    Alias.GaIn_pluginCommand.apply(this, arguments);
+    var args2 = this.mppPluginCommandArgs2(args);
+    switch (command) {
+        case Params.PluginCommands.DeleteSelfVariable:
+        case 'DeleteSelfVariable':
+            var varIds = MPP.paramRange(args2[1]);
+            MPP.paramRange(args2[0]).forEach(function(mapId) {
+                $gameVariables.deleteSelfVariables(mapId, [], varIds);
+            });
+            break;
+        case Params.PluginCommands.SetSelfVariable:
+        case 'SetSelfVariable':
+            var mapIds = MPP.paramRange(args2[0]);
+            var evIds = MPP.paramRange(args2[1]);
+            var varIds = MPP.paramRange(args2[2]);
+            mapIds.forEach(n1 => evIds.forEach(n2 => varIds.forEach( n3 =>
+                $gameVariables.setSelfVariable(n1, n2, n3, args2[3]) )));
+            break;
+    }
+};
+
+Game_Interpreter.prototype.mppPluginCommandArgs2 = function(args) {
+    var convertVar = function() {
+        return $gameVariables.value(parseInt(arguments[1]));
     };
-
-    //-----------------------------------------------------------------------------
-    // Game_CommonEvent
-
-    //24
-    Alias.GaCoEv_refresh = Game_CommonEvent.prototype.refresh;
-    Game_CommonEvent.prototype.refresh = function () {
-        Alias.GaCoEv_refresh.apply(this, arguments);
-        if (this._interpreter) {
-            this._interpreter._commonEventId = this._commonEventId;
-        }
-    };
-
-    //-----------------------------------------------------------------------------
-    // Game_Interpreter
-
-    //55
-    Alias.GaIn_setupReservedCommonEvent = Game_Interpreter.prototype.setupReservedCommonEvent;
-    Game_Interpreter.prototype.setupReservedCommonEvent = function () {
-        this._commonEventId = $gameTemp._commonEventId;
-        return Alias.GaIn_setupReservedCommonEvent.apply(this, arguments);
-    };
-
-    //68
-    Alias.GaIn_update = Game_Interpreter.prototype.update;
-    Game_Interpreter.prototype.update = function () {
-        this.reserveSelfVar();
-        Alias.GaIn_update.apply(this, arguments);
-    };
-
-    //608
-    Alias.GaIn_setupChild = Game_Interpreter.prototype.setupChild;
-    Game_Interpreter.prototype.setupChild = function (list, eventId) {
-        Alias.GaIn_setupChild.apply(this, arguments);
-        this._childInterpreter._commonEventId = this._commonEventId;
-    };
-
-    Game_Interpreter.prototype.reserveSelfVar = function () {
-        if (this._commonEventId) {
-            $gameVariables.reserveEvent(-1, this._commonEventId);
-        } else {
-            $gameVariables.reserveEvent(this._mapId, this._eventId);
-        }
-    };
-
-    //1722
-    Alias.GaIn_pluginCommand = Game_Interpreter.prototype.pluginCommand;
-    Game_Interpreter.prototype.pluginCommand = function (command, args) {
-        Alias.GaIn_pluginCommand.apply(this, arguments);
-        var args2 = this.mppPluginCommandArgs2(args);
-        switch (command) {
-            case Params.PluginCommands.DeleteSelfVariable:
-            case 'DeleteSelfVariable':
-                var varIds = MPP.paramRange(args2[1]);
-                MPP.paramRange(args2[0]).forEach(function (mapId) {
-                    $gameVariables.deleteSelfVariables(mapId, [], varIds);
-                });
-                break;
-            case Params.PluginCommands.SetSelfVariable:
-            case 'SetSelfVariable':
-                var mapIds = MPP.paramRange(args2[0]);
-                var evIds = MPP.paramRange(args2[1]);
-                var varIds = MPP.paramRange(args2[2]);
-                mapIds.forEach(n1 => evIds.forEach(n2 => varIds.forEach(n3 =>
-                    $gameVariables.setSelfVariable(n1, n2, n3, args2[3]))));
-                break;
-        }
-    };
-
-    Game_Interpreter.prototype.mppPluginCommandArgs2 = function (args) {
-        var convertVar = function () {
-            return $gameVariables.value(parseInt(arguments[1]));
-        };
-        return args.map(arg => arg.replace(/v\[(\d+)\]/gi, convertVar));
-    };
+    return args.map( arg => arg.replace(/v\[(\d+)\]/gi, convertVar) );
+};
 
 
 

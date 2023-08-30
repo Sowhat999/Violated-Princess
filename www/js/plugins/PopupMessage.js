@@ -69,7 +69,7 @@ if (!Imported.CommonPopupCore) {
  * 公開
  */
 
-(function () {
+(function() {
 
     'use strict';
 
@@ -79,28 +79,28 @@ if (!Imported.CommonPopupCore) {
     var popMesSlide = Number(parameters['Pop Message Slide'] || 60);
     var popupPattern = parameters['Popup Pattern'] || 0;
     var popMesRegExp = /_PUM\[(.+)\]/gi;
-
+    
     var _pMes_GInterpreter_pluginCommand = Game_Interpreter.prototype.pluginCommand;
-    Game_Interpreter.prototype.pluginCommand = function (command, args) {
+    Game_Interpreter.prototype.pluginCommand = function(command, args) {
         _pMes_GInterpreter_pluginCommand.call(this, command, args);
         if (command === 'PopupMessage') {
         }
     };
-
+    
     var _pMes_GInterpreter_c101 = Game_Interpreter.prototype.command101;
-    Game_Interpreter.prototype.command101 = function () {
+    Game_Interpreter.prototype.command101 = function(){
         var texts = [];
         var pIndex = this._index;
-        var param = { 'delay': null };
-        while (this.nextEventCode() === 401) {
+        var param = {'delay':null};
+        while (this.nextEventCode() === 401){
             this._index++;
             texts.push(this.currentCommand().parameters[0]);
         }
         var window = CommonPopupManager.window();
-        for (var i = 0; i < texts.length; i++) {
-            if (texts[i].match(popMesRegExp)) {
-                var ary = [0, null, null, 0, popupPattern];
-                var text = texts[i].replace(popMesRegExp, function () {
+        for(var i=0;i<texts.length;i++){
+            if (texts[i].match(popMesRegExp)){
+                var ary = [0,null,null,0,popupPattern];
+                var text = texts[i].replace(popMesRegExp,function(){
                     var arg = arguments[1].split(',');
                     ary[0] = Number(window.convertEscapeCharacters(arg[0]));
                     if (arg[1]) ary[1] = Number(window.convertEscapeCharacters(arg[1]));
@@ -118,39 +118,39 @@ if (!Imported.CommonPopupCore) {
         var result = _pMes_GInterpreter_c101.call(this);
         return result;
     };
-
+    
     var _pMes_GMessage_add = Game_Message.prototype.add;
-    Game_Message.prototype.add = function (text) {
-        text = text.replace(popMesRegExp, '');
-        _pMes_GMessage_add.call(this, text);
+    Game_Message.prototype.add = function(text){
+        text = text.replace(popMesRegExp,'');
+        _pMes_GMessage_add.call(this,text);
     };
-
-    CommonPopupManager.setPopupMessage = function (params, texts, ary) {
+    
+    CommonPopupManager.setPopupMessage = function(params,texts,ary){
         this._readyPopup = this._readyPopup || [];
         var bitmap = ImageManager.loadFace(params[0]);
         this.bltCheck(bitmap);
         this._readyPopup.push([params, texts, ary, 'pMessage']);
     };
-
+    
     var _pMes_CPManager_makeBitmap = CommonPopupManager.makeBitmap;
-    CommonPopupManager.makeBitmap = function (arg) {
-        if (arg[3] === 'pMessage') {
+    CommonPopupManager.makeBitmap = function(arg){
+        if (arg[3] === 'pMessage'){
             return ImageManager.loadFace(arg[0][0]);
-        } else {
-            return _pMes_CPManager_makeBitmap.call(this, arg);
+        }else{
+            return _pMes_CPManager_makeBitmap.call(this,arg);
         }
     };
-
+    
     var _pMes_CPManager_startPopup = CommonPopupManager.startPopup;
-    CommonPopupManager.startPopup = function (arg) {
-        if (arg[3] === 'pMessage') {
-            this.startPopupMessage(arg[0], arg[1], arg[2]);
-        } else {
-            _pMes_CPManager_startPopup.call(this, arg);
+    CommonPopupManager.startPopup = function(arg){
+        if (arg[3] === 'pMessage'){
+            this.startPopupMessage(arg[0],arg[1],arg[2]);   
+        }else{
+            _pMes_CPManager_startPopup.call(this,arg);
         }
     };
-
-    CommonPopupManager.startPopupMessage = function (params, texts, arg) {
+    
+    CommonPopupManager.startPopupMessage = function(params,texts,arg){
         var fontSize = popMesFontSize;
         var oneHeight = (fontSize + 8);
         var height = params[0] ? 144 : oneHeight * texts.length;
@@ -165,7 +165,7 @@ if (!Imported.CommonPopupCore) {
         bitmap.gradientFillRect(bitmap.width / 2, 0, bitmap.width / 2, bitmap.height, 'rgba(0,0,0,0.5)', 'rgba(0,0,0,0)');
         this.window().contents = bitmap;
         this.window().drawTextEx('\\FS[' + fontSize + ']', 0, 0);
-        this.window().drawFace(params[0], params[1], 0, 0);
+        this.window().drawFace(params[0],params[1],0,0);
         var iFontSize = fontSize;
         for (var i = 0; i < texts.length; i++) {
             var text = '\\FS[' + iFontSize + ']' + texts[i];
@@ -181,7 +181,7 @@ if (!Imported.CommonPopupCore) {
             arg.anchorX = 0;
             arg.anchorY = 1.0;
             arg.pattern = -2;
-        } else if (pattern === 'Stretch') {
+        } else if (pattern === 'Stretch'){
             arg.x = 0;
             arg.y = Graphics.boxHeight - height;
             arg.moveX = 0;
@@ -195,14 +195,14 @@ if (!Imported.CommonPopupCore) {
             arg.anchorX = 0;
             arg.anchorY = 0;
         }
-        if (x) { arg.x += x }
-        if (y) { arg.y = y }
-        if ($gameParty.inBattle()) { arg.y = Math.min(Graphics.boxHeight - 180, arg.y) }
+        if (x){ arg.x += x }
+        if (y){ arg.y = y }
+        if ($gameParty.inBattle()){ arg.y = Math.min(Graphics.boxHeight - 180,arg.y) }
         arg.moveY = 0;
         arg.count = popMesCount;
         arg.fixed = false;
         arg.slideCount = popMesSlide;
-        if (action === 1) { arg.slideAction = 'Down' }
+        if (action === 1){ arg.slideAction = 'Down' }
         arg.delay = delay;
         this._tempCommonSprites.setNullPos(arg);
     }

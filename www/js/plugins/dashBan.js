@@ -27,23 +27,23 @@
  *   ダッシュ許可    # ダッシュを許可
  */
 
-(function () {
+(function() {
 	villaA_dashBan = false;
-
-	var _Game_Interpreter_pluginCommand = Game_Interpreter.prototype.pluginCommand;
-	Game_Interpreter.prototype.pluginCommand = function (command, args) {
-		_Game_Interpreter_pluginCommand.call(this, command, args);
-		if (command === 'ダッシュ禁止') {
+	
+    var _Game_Interpreter_pluginCommand = Game_Interpreter.prototype.pluginCommand;
+    Game_Interpreter.prototype.pluginCommand = function(command, args) {
+        _Game_Interpreter_pluginCommand.call(this, command, args);
+        if (command === 'ダッシュ禁止') {
 			$gamePlayer.villaA_dashBan = true;
-		}
-
-		if (command === 'ダッシュ許可') {
+        }
+		
+        if (command === 'ダッシュ許可') {
 			$gamePlayer.villaA_dashBan = false;
-		}
-	};
-
-	Game_Player.prototype.isDashing = function () {
-		if ($gamePlayer.villaA_dashBan) {
+        }
+    };
+	
+	Game_Player.prototype.isDashing = function() {
+		if($gamePlayer.villaA_dashBan){
 			return false;
 		} else {
 			return this._dashing;

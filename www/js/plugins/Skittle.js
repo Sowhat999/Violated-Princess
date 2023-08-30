@@ -66,7 +66,7 @@ var parseIntStrict = function (value) {
 /*
  * 中身
  */
-var Content = (function () {
+ var Content = (function () {
     // クラス変数
     var sprite = null;
 
@@ -214,12 +214,12 @@ var Skittle = (function () {
                     var add = 1;
                     this.addContent -= add;
                     this.content.setValue(add);
-                }
+                } 
                 else if (this.addContent < 0) {
                     var add = -1
                     this.addContent -= add;
                     this.content.setValue(add);
-                }
+                } 
                 else {
                     this.startAnimetion = false;
                 }

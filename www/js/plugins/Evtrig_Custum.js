@@ -24,42 +24,42 @@
 */
 //=============================================================================
 
-(function () {
+(function() {
 
-    var parameters = PluginManager.parameters('EVtrig_Custum');
-    var t_ev_trig = String(parameters['t_ev_trig']);
-    var t_ev_trig_type = String(parameters['t_ev_trig_type']);
+   var parameters = PluginManager.parameters('EVtrig_Custum');
+   var t_ev_trig = String(parameters['t_ev_trig']);
+   var t_ev_trig_type = String(parameters['t_ev_trig_type']);
 
-    //分岐
+//分岐
 
-    if (t_ev_trig == 0) {
-        t_ev_trig_type = '[0]';
-    } else if (t_ev_trig == 1) {
-        t_ev_trig_type = '[0,1]';
-    } else if (t_ev_trig == 2) {
-        t_ev_trig_type = '[0,2]';
-    } else if (t_ev_trig == 3) {
-        t_ev_trig_type = '[0,1,2]';
-    }
+   	if (t_ev_trig == 0) {
+   	t_ev_trig_type = '[0]';
+  	} else if (t_ev_trig == 1){
+   	t_ev_trig_type = '[0,1]';
+   	} else if (t_ev_trig == 2){
+  	t_ev_trig_type = '[0,2]';
+   	} else if (t_ev_trig == 3){
+  	t_ev_trig_type = '[0,1,2]';
+   }
+   
+//分岐ここまで
 
-    //分岐ここまで
+Game_Player.prototype.triggerButtonAction = function() {
 
-    Game_Player.prototype.triggerButtonAction = function () {
-
-        if (Input.isTriggered('ok')) {
-            if (this.getOnOffVehicle()) {
-                return true;
-            }
-            this.checkEventTriggerHere([0]);
-            if ($gameMap.setupStartingEvent()) {
-                return true;
-            }
-            this.checkEventTriggerThere(t_ev_trig_type);
-            if ($gameMap.setupStartingEvent()) {
-                return true;
-            }
+    if (Input.isTriggered('ok')) {
+        if (this.getOnOffVehicle()) {
+            return true;
         }
-        return false;
-    };
+        this.checkEventTriggerHere([0]);
+        if ($gameMap.setupStartingEvent()) {
+            return true;
+        }
+        this.checkEventTriggerThere(t_ev_trig_type);
+        if ($gameMap.setupStartingEvent()) {
+            return true;
+        }
+    }
+    return false;
+};
 
 })();

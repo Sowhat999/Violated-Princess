@@ -1,4 +1,4 @@
-{
+﻿{
     "autoplayBgm": false,
     "autoplayBgs": false,
     "battleback1Name": "Dirt1",
@@ -3844,7 +3844,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<盗賊>…なんか聞こえねえか？"
+                                "Can you hear something?"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n< Thieves >"
                             ]
                         },
                         {
@@ -3892,7 +3899,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<盗賊>あぁ？動物かなんかの鳴き声じゃねえの？"
+                                "Huh? Is that the sound of an animal or something?"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n< Thieves >"
                             ]
                         },
                         {
@@ -3940,7 +3954,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<盗賊>いや何か、遠鳴りみてえな……っ！？"
+                                "No, something like a distant roar...!?"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n< Thieves >"
                             ]
                         },
                         {
@@ -4111,7 +4132,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>ぁあああああああああ！！！"
+                                "Aaaaaahhhhhh!!!"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -4135,7 +4163,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<盗賊>おおぉッ！？"
+                                "Oh wow!?"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n< Thieves >"
                             ]
                         },
                         {
@@ -4792,21 +4827,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "くぅ…つつ…アファービレ越しでも凄まじい衝撃だったな。"
+                                "Ugh... that was a tremendous shock even through the"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "クッションがあって助かった。"
+                                "Affabil Barrier. I'm glad there was a cushion."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -4854,7 +4889,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<盗賊>て、てめえ！？何モンだ！？"
+                                "What, what are you?!?"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n< Thieves >"
                             ]
                         },
                         {
@@ -4930,7 +4972,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>貴様に名乗る名など！"
+                                "What name do you think I go by?!"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -5595,7 +5644,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>ないッ！"
+                                "None!"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -5711,21 +5767,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "…ふぅ。我ながら乱暴な手段だったが、どうやら首尾よく"
+                                "... Phew. I used rather rough methods, but it seems I"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "入り込めたな。"
+                                "managed to sneak in successfully."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -5742,21 +5798,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "だが、すぐ騒ぎになるはずだ。"
+                                "But it's sure to cause a commotion soon. I must find"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "一刻も早くエリカ殿を探し出さねば。"
+                                "Lady Erika as soon as possible."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -5984,21 +6040,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "床も壁もかなり傷んでいるな…。"
+                                "The floor and walls are quite damaged... They say it's"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "古い砦の跡と言うが…。"
+                                "the remains of an old fortress."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "\\n< Serena >"
                             ]
                         },
                         {
@@ -6067,21 +6123,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "む…。この階段はダメだな、人の声がする。"
+                                "Hmm... This staircase won't work, I hear people's"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "どこか人目につかず下に降りられる場所はないか？"
+                                "voices. Is there anywhere I can go down without"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "attracting attention?"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n< Serena >"
                             ]
                         },
                         {

@@ -1,4 +1,4 @@
-{
+﻿{
     "autoplayBgm": false,
     "autoplayBgs": false,
     "battleback1Name": "DecorativeTile",
@@ -9813,14 +9813,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "出口まであと少しだ…！"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "We're almost at the exit! \\n< Serena >"
                             ]
                         },
                         {
@@ -15905,7 +15898,7 @@
         },
         {
             "id": 22,
-            "name": "ティム",
+            "name": "Tim",
             "note": "",
             "pages": [
                 {
@@ -18080,14 +18073,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "早く！こっち！！"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<シシリア>"
+                                "Hurry up! This way! \\n< Cecilia >"
                             ]
                         },
                         {
@@ -18689,14 +18675,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "早く！こっち！！"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<シシリア>"
+                                "Hurry up! This way! \\n< Cecilia >"
                             ]
                         },
                         {
@@ -19831,14 +19810,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "早く！こっち！！"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<シシリア>"
+                                "Hurry up! This way! \\n< Cecilia >"
                             ]
                         },
                         {
@@ -21557,14 +21529,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ハァ！ハァ！出口だ！"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                "Haa! Haa! That's the exit! \\n< Serena >"
                             ]
                         },
                         {
@@ -21599,21 +21564,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "うし、このまま逃げちゃいましょう！"
+                                "Let's run away like this, Ushi! Who cares about what"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "後の事なんて知ったもんですか！"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<シシリア>"
+                                "happens later! \\n< Cecilia >"
                             ]
                         },
                         {
@@ -22103,14 +22061,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "早く！こっち！！"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<シシリア>"
+                                "Hurry up! This way! \\n< Cecilia >"
                             ]
                         },
                         {
@@ -28311,14 +28262,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "早く！こっち！！"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<シシリア>"
+                                "Hurry up! This way! \\n< Cecilia >"
                             ]
                         },
                         {
@@ -28437,14 +28381,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "早く！こっち！！"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<シシリア>"
+                                "Hurry up! This way! \\n< Cecilia >"
                             ]
                         },
                         {
@@ -28740,7 +28677,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "D_TEXT セレナ 22"
+                                "D_TEXT Serena 22"
                             ]
                         },
                         {
@@ -28761,7 +28698,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "D_TEXT ハァ！ハァ！出口だ！ 22"
+                                "D_TEXT Haa! Haa! This is the exit! 22."
                             ]
                         },
                         {
@@ -28782,7 +28719,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "D_TEXT 　　　　　　　　　　　　　　　　　　　　　"
+                                "D_TEXT "
                             ]
                         },
                         {
@@ -28835,7 +28772,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "D_TEXT セレナ 22"
+                                "D_TEXT Serena 22"
                             ]
                         },
                         {
@@ -28856,14 +28793,14 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "D_TEXT 開けて開けて！扉！ 22"
+                                "D_TEXT Open it, open it! The door! 22"
                             ]
                         },
                         {
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "D_TEXT うおおおおおおお！"
+                                "D_TEXT Woooooh!"
                             ]
                         },
                         {
@@ -28877,7 +28814,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "D_TEXT 　　　　　　　　　　　　　　　　　　　　　"
+                                "D_TEXT "
                             ]
                         },
                         {
@@ -30646,14 +30583,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "早く！こっち！！"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<シシリア>"
+                                "Hurry up! This way! \\n< Cecilia >"
                             ]
                         },
                         {

@@ -331,9 +331,9 @@
 
 (() => {
     'use strict';
-
+    
     const pluginName = 'MPP_MessageEX_Op1';
-
+    
     // Plugin Parameters
     const parameters = PluginManager.parameters(pluginName);
     const paramReplace = (key, value) => {
@@ -345,12 +345,12 @@
     };
     const param_NameWindow = JSON.parse(parameters['Name Window'] || '{}', paramReplace);
     const param_FaceWindow = JSON.parse(parameters['Face Window'] || '{}', paramReplace);
-
+    
     // MPP_MessageEX.js
     const baseParameters = PluginManager.parameters('MPP_MessageEX');
     const param_RubyOy = Number(baseParameters['Ruby Oy'] || 0);
     const param_DefaultRubySize = Number(baseParameters['Default Ruby Size'] || 14);
-
+    
     // Dealing with other plugins
     const __base = (obj, prop) => {
         if (obj.hasOwnProperty(prop)) {
@@ -360,22 +360,22 @@
             return function () { return proto[prop].apply(this, arguments); };
         }
     };
-
+    
     // RPG Maker Param
-    const _textColor = function (index) {
+    const _textColor = function(index) {
         return Utils.RPGMAKER_NAME === 'MV'
-            ? this.textColor(index)
-            : ColorManager.textColor(index);
+                    ? this.textColor(index)
+                    : ColorManager.textColor(index);
     };
-    const _fontSize = function () {
+    const _fontSize = function() {
         return Utils.RPGMAKER_NAME === 'MV'
-            ? this.standardFontSize()
-            : $gameSystem.mainFontSize();
+                    ? this.standardFontSize()
+                    : $gameSystem.mainFontSize();
     };
-
+    
     //-------------------------------------------------------------------------
     // PluginManager
-
+    
     PluginManager.registerCommand(pluginName, 'speakerName', args => {
         $gameMessage.setBasicSpeakerName(args.name || '');
     });
@@ -384,39 +384,39 @@
     // Game_Message
 
     const _Game_Message_initialize = Game_Message.prototype.initialize;
-    Game_Message.prototype.initialize = function () {
+    Game_Message.prototype.initialize = function() {
         _Game_Message_initialize.apply(this, arguments);
         this._basicSpeakerName = '';
     };
 
     const _Game_Message_clear = Game_Message.prototype.clear;
-    Game_Message.prototype.clear = function () {
+    Game_Message.prototype.clear = function() {
         _Game_Message_clear.apply(this, arguments);
         this._nameColorIndex = 0;
     };
 
-    Game_Message.prototype.clearBasicSpeakerName = function () {
+    Game_Message.prototype.clearBasicSpeakerName = function() {
         this._basicSpeakerName = '';
     };
 
-    Game_Message.prototype.basicSpeakerName = function () {
+    Game_Message.prototype.basicSpeakerName = function() {
         return this._basicSpeakerName;
     };
 
-    Game_Message.prototype.nameColorIndex = function () {
+    Game_Message.prototype.nameColorIndex = function() {
         return this._nameColorIndex;
     };
 
-    Game_Message.prototype.setBasicSpeakerName = function (name) {
+    Game_Message.prototype.setBasicSpeakerName = function(name) {
         this._basicSpeakerName = name || '';
     };
-
-    Game_Message.prototype.setNameColorIndex = function (colorIndex) {
+    
+    Game_Message.prototype.setNameColorIndex = function(colorIndex) {
         this._nameColorIndex = colorIndex;
     };
 
     if (!Game_Message.prototype.isRTL) {
-        Game_Message.prototype.isRTL = function () {
+        Game_Message.prototype.isRTL = function() {
             return false;
         };
     }
@@ -425,43 +425,43 @@
     // Game_Interpreter
 
     const _mzCommands = {
-        SetSpeakerName: { name: 'speakerName', keys: ['name'] }
+        SetSpeakerName: { name:'speakerName', keys:['name'] }
     };
     Object.assign(_mzCommands, {
         'メッセージ名前表示': _mzCommands.SetSpeakerName
     });
 
     const _Game_Interpreter_pluginCommand = Game_Interpreter.prototype.pluginCommand;
-    Game_Interpreter.prototype.pluginCommand = function (command, args) {
+    Game_Interpreter.prototype.pluginCommand = function(command, args) {
         _Game_Interpreter_pluginCommand.apply(this, arguments);
         const params = _mzCommands[command];
         if (params) {
-            const args2 = Object.assign(...params.keys.map((k, i) => ({ [k]: args[i] })));
+            const args2 = Object.assign(...params.keys.map((k,i) => ({[k]:args[i]})));
             PluginManager.callCommand(this, pluginName, params.name, args2);
         }
     };
-
+    
     //-----------------------------------------------------------------------------
     // Window_Message
 
-    Window_Message.prototype.setFaceBoxWindow = function (faceBoxWindow) {
+    Window_Message.prototype.setFaceBoxWindow = function(faceBoxWindow) {
         this._faceBoxWindow = faceBoxWindow;
     };
-
-    Window_Message.prototype.setNameBoxWindow = function (nameBoxWindow) {
+    
+    Window_Message.prototype.setNameBoxWindow = function(nameBoxWindow) {
         this._nameBoxWindow = nameBoxWindow;
     };
 
     const _Window_Message_clearFlagsMessageEx = Window_Message.prototype.clearFlagsMessageEx;
-    Window_Message.prototype.clearFlagsMessageEx = function () {
+    Window_Message.prototype.clearFlagsMessageEx = function() {
         _Window_Message_clearFlagsMessageEx.call(this);
-        this._faceParams = { mirror: $gameMessage.isRTL() };
+        this._faceParams = { mirror:$gameMessage.isRTL() };
         this._speakerName = '';
         this._nameColorIndex = param_NameWindow['Default Color'] || 0;
     };
 
     const _Window_Message_convertEscapeCharacters = Window_Message.prototype.convertEscapeCharacters;
-    Window_Message.prototype.convertEscapeCharacters = function (text) {
+    Window_Message.prototype.convertEscapeCharacters = function(text) {
         text = _Window_Message_convertEscapeCharacters.apply(this, arguments);
         text = text.replace(/\x1bF([LRMW]+)/gi, (_, p1) => {
             const code = p1.toUpperCase();
@@ -483,19 +483,19 @@
     };
 
     const _Window_Message_update = Window_Message.prototype.update;
-    Window_Message.prototype.update = function () {
+    Window_Message.prototype.update = function() {
         _Window_Message_update.apply(this, arguments);
         this.synchronizeNameBoxMV();
     };
 
-    Window_Message.prototype.synchronizeNameBoxMV = function () {
+    Window_Message.prototype.synchronizeNameBoxMV = function() {
         if (Utils.RPGMAKER_NAME === 'MV') {
             this._nameBoxWindow.openness = this.openness;
         }
     };
 
     const _Window_Message_startMessage = Window_Message.prototype.startMessage;
-    Window_Message.prototype.startMessage = function () {
+    Window_Message.prototype.startMessage = function() {
         this._faceBoxWindow.clear();
         _Window_Message_startMessage.apply(this, arguments);
         this._faceBoxWindow.start();
@@ -503,25 +503,25 @@
     };
 
     const _Window_Message_terminateMessageEx = Window_Message.prototype.terminateMessageEx;
-    Window_Message.prototype.terminateMessageEx = function () {
+    Window_Message.prototype.terminateMessageEx = function() {
         _Window_Message_terminateMessageEx.call(this);
         this._faceBoxWindow.needClose();
     };
 
     const _Window_Message_newPage = Window_Message.prototype.newPage;
-    Window_Message.prototype.newPage = function (textState) {
+    Window_Message.prototype.newPage = function(textState) {
         _Window_Message_newPage.apply(this, arguments);
         if (Utils.RPGMAKER_NAME === 'MV') this.updateSpeakerNameMv();
         this.updateSpeakerFace();
     };
 
     const _Window_Message_updateSpeakerName = Window_Message.prototype.updateSpeakerName;
-    Window_Message.prototype.updateSpeakerName = function () {
+    Window_Message.prototype.updateSpeakerName = function() {
         $gameMessage.setNameColorIndex(this._nameColorIndex);
         _Window_Message_updateSpeakerName.apply(this, arguments);
     };
 
-    Window_Message.prototype.updateSpeakerNameMv = function () {
+    Window_Message.prototype.updateSpeakerNameMv = function() {
         $gameMessage.setNameColorIndex(this._nameColorIndex);
         if (this._speakerName !== '') {
             $gameMessage.clearBasicSpeakerName();
@@ -530,18 +530,18 @@
         this._nameBoxWindow.setName(name);
     };
 
-    Window_Message.prototype.updateSpeakerFace = function () {
+    Window_Message.prototype.updateSpeakerFace = function() {
         const faceName = $gameMessage.faceName();
         const faceIndex = $gameMessage.faceIndex();
         this._faceBoxWindow.setParam(faceName, faceIndex, this._faceParams);
     };
 
-    Window_Message.prototype.drawMessageFace = function () {
+    Window_Message.prototype.drawMessageFace = function() {
         this._faceBoxWindow.refresh();
     };
 
     const _Window_Message_newLineX = Window_Message.prototype.newLineX;
-    Window_Message.prototype.newLineX = function () {
+    Window_Message.prototype.newLineX = function() {
         const { right, onBox = false } = this._faceParams;
         return onBox || right ? 0 : _Window_Message_newLineX.apply(this, arguments);
     };
@@ -556,7 +556,7 @@
     Window_FaceBox.prototype = Object.create(Window_Base.prototype);
     Window_FaceBox.prototype.constructor = Window_FaceBox;
 
-    Window_FaceBox.prototype.initialize = function () {
+    Window_FaceBox.prototype.initialize = function() {
         if (Utils.RPGMAKER_NAME === 'MV') {
             Window_Base.prototype.initialize.call(this, 0, 0, 0, 0);
         } else {
@@ -569,11 +569,11 @@
         this.clear();
     };
 
-    Window_FaceBox.prototype.setMessageWindow = function (messageWindow) {
+    Window_FaceBox.prototype.setMessageWindow = function(messageWindow) {
         this._messageWindow = messageWindow;
     };
-
-    Window_FaceBox.prototype.clear = function () {
+    
+    Window_FaceBox.prototype.clear = function() {
         this._faceName = '';
         this._faceIndex = 0;
         this._onBox = false;
@@ -581,16 +581,16 @@
         this._right = false;
     };
 
-    Window_FaceBox.prototype.loadWindowskin = function () {
+    Window_FaceBox.prototype.loadWindowskin = function() {
         const name = param_FaceWindow['Windowskin'] || 'Window';
         this.windowskin = ImageManager.loadSystem(name);
     };
 
-    Window_FaceBox.prototype.needClose = function () {
+    Window_FaceBox.prototype.needClose = function() {
         this._needClose = true;
     };
 
-    Window_FaceBox.prototype.setParam = function (faceName, faceIndex, params) {
+    Window_FaceBox.prototype.setParam = function(faceName, faceIndex, params) {
         this._faceName = faceName;
         this._faceIndex = faceIndex;
         this._onBox = !!params.onBox;
@@ -598,7 +598,7 @@
         this._mirror = !!params.mirror;
     };
 
-    Window_FaceBox.prototype.update = function () {
+    Window_FaceBox.prototype.update = function() {
         Window_Base.prototype.update.call(this);
         if (this._needClose) {
             this.close();
@@ -607,7 +607,7 @@
         this.updateMove();
     };
 
-    Window_FaceBox.prototype.updateMove = function () {
+    Window_FaceBox.prototype.updateMove = function() {
         if (this._moveDuration > 0) {
             const d = this._moveDuration;
             this.x = (this.x * (d - 1) + this._targetX) / d;
@@ -615,7 +615,7 @@
         }
     };
 
-    Window_FaceBox.prototype.start = function () {
+    Window_FaceBox.prototype.start = function() {
         this.updatePlacement();
         this.updateBackground();
         this.updateMirror();
@@ -623,14 +623,14 @@
         this.createContents();
     };
 
-    Window_FaceBox.prototype.appear = function () {
+    Window_FaceBox.prototype.appear = function() {
         this._targetX = this.windowX();
         const targetY = this.windowY();
         if (!this._onBox) {
             this.x = this._targetX;
             this._moveDuration = 0;
         } else if (this.isClosed() || this.x !== this._targetX ||
-            this.y !== targetY) {
+                this.y !== targetY) {
             const boxMarginX = (Graphics.width - Graphics.boxWidth) / 2
             this.x = (this._right ? Graphics.width : -this.width) - boxMarginX;
             this._moveDuration = 8;
@@ -641,18 +641,18 @@
         this._needClose = false;
     };
 
-    Window_FaceBox.prototype.updatePlacement = function () {
+    Window_FaceBox.prototype.updatePlacement = function() {
         this.padding = this._onBox
-            ? param_FaceWindow['Padding'] || 12
-            : this._messageWindow.padding;
+                        ? param_FaceWindow['Padding'] || 12
+                        : this._messageWindow.padding;
         this.width = this.windowWidth();
         this.height = this.windowHeight();
     };
 
-    Window_FaceBox.prototype.windowX = function () {
+    Window_FaceBox.prototype.windowX = function() {
         const messageWindow = this._messageWindow;
         const targetX = messageWindow.x
-            + (this._right ? messageWindow.width - this.width : 0);
+                + (this._right ? messageWindow.width - this.width : 0);
         if (this._onBox) {
             const offsetX = param_FaceWindow['Offset X'] || 0;
             return targetX + offsetX;
@@ -661,7 +661,7 @@
         }
     };
 
-    Window_FaceBox.prototype.windowY = function () {
+    Window_FaceBox.prototype.windowY = function() {
         const messageWindow = this._messageWindow;
         if (this._onBox) {
             const offsetY = param_FaceWindow['Offset Y'] || 0;
@@ -675,26 +675,26 @@
         }
     };
 
-    Window_FaceBox.prototype.updateBackground = function () {
+    Window_FaceBox.prototype.updateBackground = function() {
         const background = this._onBox ? $gameMessage.background() : 2;
         this.setBackgroundType(background);
         this._isWindow = this._onBox;
     };
 
-    Window_FaceBox.prototype.updateMirror = function () {
+    Window_FaceBox.prototype.updateMirror = function() {
         const contentsSprite = this._windowContentsSprite ||
-            this._contentsSprite;
+                                this._contentsSprite;
         contentsSprite.anchor.x = this._mirror ? 1 : 0;
         contentsSprite.scale.x = this._mirror ? -1 : 1;
     };
 
-    Window_FaceBox.prototype.windowWidth = function () {
+    Window_FaceBox.prototype.windowWidth = function() {
         const faceWidth = Window_Base._faceWidth || ImageManager.faceWidth;
         const padding = this.padding + (this._onBox ? 0 : 4);
         return faceWidth + padding * 2;
     };
 
-    Window_FaceBox.prototype.windowHeight = function () {
+    Window_FaceBox.prototype.windowHeight = function() {
         if (this._onBox) {
             const faceHeight = Window_Base._faceHeight || ImageManager.faceHeight;
             return faceHeight + this.padding * 2;
@@ -703,7 +703,7 @@
         }
     };
 
-    Window_FaceBox.prototype.refresh = function () {
+    Window_FaceBox.prototype.refresh = function() {
         this.contents.clear();
         const height = this.height - this.padding * 2;
         const faceHeight = Window_Base._faceHeight || ImageManager.faceHeight;
@@ -716,61 +716,61 @@
 
     //-------------------------------------------------------------------------
     // Window_NameBox
-
+    
     if (Utils.RPGMAKER_NAME === 'MZ') {
 
-        Window_NameBox.prototype.loadWindowskin = function () {
+        Window_NameBox.prototype.loadWindowskin = function() {
             const name = param_NameWindow['Windowskin'] || 'Window';
             this.windowskin = ImageManager.loadSystem(name);
         };
 
-        Window_NameBox.prototype.lineHeight = function () {
+        Window_NameBox.prototype.lineHeight = function() {
             const spacing = param_NameWindow['Offset Line Spacing'] || 0;
             return this.contents.fontSize + 10 + spacing;
         };
 
-        Window_NameBox.prototype.updatePadding = function () {
+        Window_NameBox.prototype.updatePadding = function() {
             this.padding = param_NameWindow['Padding']
-                || $gameSystem.windowPadding();
+                            ||$gameSystem.windowPadding();
         };
 
         const _Window_NameBox_resetFontSettings = Window_NameBox.prototype.resetFontSettings;
-        Window_NameBox.prototype.resetFontSettings = function () {
+        Window_NameBox.prototype.resetFontSettings = function() {
             _Window_NameBox_resetFontSettings.apply(this, arguments);
             this.contents.fontSize = param_NameWindow['Font Size'] || _fontSize.call(this);
             this.resetTextColor();
         };
 
         const _Window_NameBox_resetTextColor = __base(Window_NameBox.prototype, 'resetTextColor');
-        Window_NameBox.prototype.resetTextColor = function () {
+        Window_NameBox.prototype.resetTextColor = function() {
             _Window_NameBox_resetTextColor.apply(this, arguments);
             const color = _textColor.call(this, $gameMessage.nameColorIndex());
             this.changeTextColor(color);
         };
 
         // overwrite
-        Window_NameBox.prototype.windowHeight = function () {
+        Window_NameBox.prototype.windowHeight = function() {
             return this.itemHeight() + this.padding * 2 + this._rubyHeight;
         };
 
-        Window_NameBox.prototype.createTextState = function (text, x, y, width) {
+        Window_NameBox.prototype.createTextState = function(text, x, y, width) {
             const textState = Window_Base.prototype.createTextState.apply(this, arguments);
             textState.y += this._rubyHeight;
             return textState;
         };
 
         const _Window_NameBox_start = Window_NameBox.prototype.start;
-        Window_NameBox.prototype.start = function () {
+        Window_NameBox.prototype.start = function() {
             this.updateRubyHeight();
             _Window_NameBox_start.apply(this, arguments);
         };
 
-        Window_NameBox.prototype.updateRubyHeight = function () {
+        Window_NameBox.prototype.updateRubyHeight = function() {
             Window_NameBoxMV.prototype.updateRubyHeight.call(this);
         };
 
         const _Window_NameBox_processEscapeCharacter = __base(Window_NameBox.prototype, 'processEscapeCharacter');
-        Window_NameBox.prototype.processEscapeCharacter = function (code, textState) {
+        Window_NameBox.prototype.processEscapeCharacter = function(code, textState) {
             if (code === 'RB') {
                 this.processRubyCharacter(textState, this.obtainEscapeTexts(textState));
             } else {
@@ -778,11 +778,11 @@
             }
         };
 
-        Window_NameBox.prototype.obtainEscapeTexts = function (textState) {
+        Window_NameBox.prototype.obtainEscapeTexts = function(textState) {
             return Window_Message.prototype.obtainEscapeTexts.call(this, textState);
         };
 
-        Window_NameBox.prototype.processRubyCharacter = function (textState, texts) {
+        Window_NameBox.prototype.processRubyCharacter = function(textState, texts) {
             const c = texts[0];
             const cw = this.textWidth(c);
             const fontSize = this.contents.fontSize;
@@ -810,19 +810,19 @@
         };
 
         const _Window_NameBox_updatePlacement = Window_NameBox.prototype.updatePlacement;
-        Window_NameBox.prototype.updatePlacement = function () {
+        Window_NameBox.prototype.updatePlacement = function() {
             _Window_NameBox_updatePlacement.apply(this, arguments);
             const offsetX = param_NameWindow['Offset X'] || 0;
             const offsetY = param_NameWindow['Offset Y'] || 0;
             this.x += $gameMessage.isRTL() ? -offsetX : offsetX;
             this.y += this._messageWindow.y > 0 ? offsetY : -offsetY;
         };
-
+        
     }
 
     //-------------------------------------------------------------------------
     // Window_NameBoxMV
-
+    
     function Window_NameBoxMV() {
         this.initialize(...arguments);
     }
@@ -830,43 +830,43 @@
     Window_NameBoxMV.prototype = Object.create(Window_Base.prototype);
     Window_NameBoxMV.prototype.constructor = Window_NameBoxMV;
 
-    Window_NameBoxMV.prototype.initialize = function () {
+    Window_NameBoxMV.prototype.initialize = function() {
         Window_Base.prototype.initialize.call(this, 0, 0, 0, 0);
         this.openness = 0;
         this._name = '';
     };
 
-    Window_NameBoxMV.prototype.lineHeight = function () {
+    Window_NameBoxMV.prototype.lineHeight = function() {
         const spacing = param_NameWindow['Offset Line Spacing'] || 0;
         return this.contents.fontSize + 8 + spacing;
     };
 
-    Window_NameBoxMV.prototype.standardPadding = function () {
+    Window_NameBoxMV.prototype.standardPadding = function() {
         return param_NameWindow['Padding']
-            || Window_Base.prototype.standardPadding.call(this);
+                || Window_Base.prototype.standardPadding.call(this);
     };
 
-    Window_NameBoxMV.prototype.setMessageWindow = function (messageWindow) {
+    Window_NameBoxMV.prototype.setMessageWindow = function(messageWindow) {
         this._messageWindow = messageWindow;
     };
 
-    Window_NameBoxMV.prototype.loadWindowskin = function () {
+    Window_NameBoxMV.prototype.loadWindowskin = function() {
         const name = param_NameWindow['Windowskin'] || 'Window';
         this.windowskin = ImageManager.loadSystem(name);
     };
 
-    Window_NameBoxMV.prototype.setName = function (name) {
+    Window_NameBoxMV.prototype.setName = function(name) {
         if (this._name !== name) {
             this._name = name;
             this.refresh();
         }
     };
 
-    Window_NameBoxMV.prototype.clear = function () {
+    Window_NameBoxMV.prototype.clear = function() {
         this.setName('');
     };
 
-    Window_NameBoxMV.prototype.start = function () {
+    Window_NameBoxMV.prototype.start = function() {
         this.updateRubyHeight();
         this.updatePlacement();
         this.updateBackground();
@@ -874,7 +874,7 @@
         this.refresh();
     };
 
-    Window_NameBoxMV.prototype.updateRubyHeight = function () {
+    Window_NameBoxMV.prototype.updateRubyHeight = function() {
         this._rubyHeight = 0;
         const text = this.convertEscapeCharacters(this._name);
         const regExp = /\x1bRB\[.+?\]/i;
@@ -883,7 +883,7 @@
         }
     };
 
-    Window_NameBoxMV.prototype.updatePlacement = function () {
+    Window_NameBoxMV.prototype.updatePlacement = function() {
         this.width = this.windowWidth();
         this.height = this.windowHeight();
         const messageWindow = this._messageWindow;
@@ -897,11 +897,11 @@
         }
     };
 
-    Window_NameBoxMV.prototype.updateBackground = function () {
+    Window_NameBoxMV.prototype.updateBackground = function() {
         this.setBackgroundType($gameMessage.background());
     };
 
-    Window_NameBoxMV.prototype.windowWidth = function () {
+    Window_NameBoxMV.prototype.windowWidth = function() {
         if (this._name) {
             const textWidth = this.textWidthEx(this._name);
             const padding = this.padding + this.textPadding();
@@ -912,34 +912,34 @@
         }
     };
 
-    Window_NameBoxMV.prototype.windowHeight = function () {
+    Window_NameBoxMV.prototype.windowHeight = function() {
         return this.fittingHeight(1) + this._rubyHeight;
     };
 
-    Window_NameBoxMV.prototype.refresh = function () {
+    Window_NameBoxMV.prototype.refresh = function() {
         this.contents.clear();
         const pad = this.textPadding();
         const width = this.contents.width - pad * 2;
         this.drawTextEx(this._name, pad, this._rubyHeight, width);
     };
 
-    Window_NameBoxMV.prototype.textWidthEx = function (text) {
+    Window_NameBoxMV.prototype.textWidthEx = function(text) {
         return this.drawTextEx(text, 0, this.contents.height + this._rubyHeight);
     };
 
-    Window_NameBoxMV.prototype.resetFontSettings = function () {
+    Window_NameBoxMV.prototype.resetFontSettings = function() {
         Window_Base.prototype.resetFontSettings.call(this);
         this.contents.fontSize = param_NameWindow['Font Size'] || _fontSize.call(this);
         this.resetTextColor();
     };
 
-    Window_NameBoxMV.prototype.resetTextColor = function () {
+    Window_NameBoxMV.prototype.resetTextColor = function() {
         Window_Base.prototype.resetTextColor.call(this);
         const color = _textColor.call(this, $gameMessage.nameColorIndex());
         this.changeTextColor(color);
     };
-
-    Window_NameBoxMV.prototype.processEscapeCharacter = function (code, textState) {
+    
+    Window_NameBoxMV.prototype.processEscapeCharacter = function(code, textState) {
         if (code === 'RB') {
             this.processRubyCharacter(textState, this.obtainEscapeTexts(textState));
         } else {
@@ -947,11 +947,11 @@
         }
     };
 
-    Window_NameBoxMV.prototype.obtainEscapeTexts = function (textState) {
+    Window_NameBoxMV.prototype.obtainEscapeTexts = function(textState) {
         return Window_Message.prototype.obtainEscapeTexts.call(this, textState);
     };
 
-    Window_NameBoxMV.prototype.processRubyCharacter = function (textState, texts) {
+    Window_NameBoxMV.prototype.processRubyCharacter = function(textState, texts) {
         const c = texts[0];
         const cw = this.textWidth(c);
         const fontSize = this.contents.fontSize;
@@ -975,7 +975,7 @@
         textState.x += maxWidth;
     };
 
-    Window_NameBoxMV.prototype.calcTextHeight = function (textState, all) {
+    Window_NameBoxMV.prototype.calcTextHeight = function(textState, all) {
         const textHeight = Window_Base.prototype.calcTextHeight.call(this, textState, all);
         const spacing = param_NameWindow['Offset Line Spacing'] || 0;
         return textHeight + spacing;
@@ -983,89 +983,89 @@
 
     //-----------------------------------------------------------------------------
     // Scene_Message
-
+    
     if (Utils.RPGMAKER_NAME === 'MZ') {
 
         const _Scene_Message_createAllWindows = Scene_Message.prototype.createAllWindows;
-        Scene_Message.prototype.createAllWindows = function () {
+        Scene_Message.prototype.createAllWindows = function() {
             _Scene_Message_createAllWindows.apply(this, arguments);
             this.createFaceBoxWindow();
             this._messageWindow.setFaceBoxWindow(this._faceBoxWindow);
             this._faceBoxWindow.setMessageWindow(this._messageWindow);
         };
 
-        Scene_Message.prototype.createFaceBoxWindow = function () {
+        Scene_Message.prototype.createFaceBoxWindow = function() {
             this._faceBoxWindow = new Window_FaceBox();
             const index = this._windowLayer.children.indexOf(this._nameBoxWindow);
             this._windowLayer.addChildAt(this._faceBoxWindow, index);
         };
-
+        
     }
-
+    
     //-------------------------------------------------------------------------
     // Scene_Map
 
     if (Utils.RPGMAKER_NAME === 'MV') {
-
+        
         const _Scene_Map_createAllWindows = Scene_Map.prototype.createAllWindows;
-        Scene_Map.prototype.createAllWindows = function () {
+        Scene_Map.prototype.createAllWindows = function() {
             _Scene_Map_createAllWindows.apply(this, arguments);
             this.createFaceBoxWindowMV();
             this.createNameBoxWindowMV();
             this.associateWindowsMessageEx();
         };
 
-        Scene_Map.prototype.createFaceBoxWindowMV = function () {
+        Scene_Map.prototype.createFaceBoxWindowMV = function() {
             this._faceBoxWindow = new Window_FaceBox();
             this.addWindow(this._faceBoxWindow);
         };
 
-        Scene_Map.prototype.createNameBoxWindowMV = function () {
+        Scene_Map.prototype.createNameBoxWindowMV = function() {
             this._nameBoxWindow = new Window_NameBoxMV();
             this.addWindow(this._nameBoxWindow);
         };
 
-        Scene_Map.prototype.associateWindowsMessageEx = function () {
+        Scene_Map.prototype.associateWindowsMessageEx = function() {
             const messageWindow = this._messageWindow;
             messageWindow.setNameBoxWindow(this._nameBoxWindow);
             messageWindow.setFaceBoxWindow(this._faceBoxWindow);
             this._nameBoxWindow.setMessageWindow(messageWindow);
             this._faceBoxWindow.setMessageWindow(messageWindow);
         };
-
+        
     }
 
     //-------------------------------------------------------------------------
     // Scene_Battle
 
     if (Utils.RPGMAKER_NAME === 'MV') {
-
+        
         const _Scene_Battle_createAllWindows = Scene_Battle.prototype.createAllWindows;
-        Scene_Battle.prototype.createAllWindows = function () {
+        Scene_Battle.prototype.createAllWindows = function() {
             _Scene_Battle_createAllWindows.apply(this, arguments);
             this.createFaceBoxWindowMV();
             this.createNameBoxWindowMV();
             this.associateWindowsMessageEx();
         };
 
-        Scene_Battle.prototype.createFaceBoxWindowMV = function () {
+        Scene_Battle.prototype.createFaceBoxWindowMV = function() {
             this._faceBoxWindow = new Window_FaceBox();
             this.addWindow(this._faceBoxWindow);
         };
 
-        Scene_Battle.prototype.createNameBoxWindowMV = function () {
+        Scene_Battle.prototype.createNameBoxWindowMV = function() {
             this._nameBoxWindow = new Window_NameBoxMV();
             this.addWindow(this._nameBoxWindow);
         };
 
-        Scene_Battle.prototype.associateWindowsMessageEx = function () {
+        Scene_Battle.prototype.associateWindowsMessageEx = function() {
             const messageWindow = this._messageWindow;
             messageWindow.setNameBoxWindow(this._nameBoxWindow);
             messageWindow.setFaceBoxWindow(this._faceBoxWindow);
             this._nameBoxWindow.setMessageWindow(messageWindow);
             this._faceBoxWindow.setMessageWindow(messageWindow);
         };
-
+        
     }
-
+        
 })();

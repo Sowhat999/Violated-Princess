@@ -38,26 +38,26 @@
  *
  */
 
-(function () {
+(function() {
 
-    var parameters = PluginManager.parameters('MPP_MovePos');
+var parameters = PluginManager.parameters('MPP_MovePos');
 
-    var searchLimit = Number(parameters['Search Limit']);
+var searchLimit = Number(parameters['Search Limit']);
 
-    Game_Character.prototype.movePos = function (x, y, skippable) {
-        skippable = skippable || false;
-        var direction = this.findDirectionTo(x, y);
-        if (direction > 0) {
-            this.moveStraight(direction);
-            this.setMovementSuccess(false);
-        } else if (Math.abs(this._x - x) + Math.abs(this._y - y) < searchLimit) {
-            this.setMovementSuccess(skippable || this.pos(x, y));
-        }
-    };
+Game_Character.prototype.movePos = function(x, y, skippable) {
+    skippable = skippable || false;
+    var direction = this.findDirectionTo(x, y);
+    if (direction > 0) {
+        this.moveStraight(direction);
+        this.setMovementSuccess(false);
+    } else if (Math.abs(this._x - x) + Math.abs(this._y - y) < searchLimit) {
+        this.setMovementSuccess(skippable || this.pos(x, y));
+    }
+};
 
-    //558
-    Game_Character.prototype.searchLimit = function () {
-        return searchLimit;
-    };
+//558
+Game_Character.prototype.searchLimit = function() {
+    return searchLimit;
+};
 
 })();

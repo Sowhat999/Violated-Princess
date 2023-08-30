@@ -1,4 +1,4 @@
-{
+﻿{
     "autoplayBgm": false,
     "autoplayBgs": false,
     "battleback1Name": "",
@@ -3255,7 +3255,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<エリカ>……ハッ！？"
+                                "...Huh?!"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n< Erika >"
                             ]
                         },
                         {
@@ -3301,14 +3308,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "……あー…なんか見覚えのある天井だな…。"
+                                "...Ah, this ceiling looks familiar for some reason..."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<エリカ>"
+                                "\\n< Erika >"
                             ]
                         },
                         {
@@ -3500,21 +3507,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "あら、今度こそ目が覚めた？良かったわぁ。"
+                                "Oh, you're finally awake? That's good. You've been in"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "一週間も朦朧としてたから。"
+                                "a daze for a week."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<女性>"
+                                "\\n< Woman >"
                             ]
                         },
                         {
@@ -3531,14 +3538,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "すぐにマスターさん呼んでくるわね。"
+                                "I'll call the master right away."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<女性>"
+                                "\\n< Woman >"
                             ]
                         },
                         {
@@ -3943,14 +3950,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ようエリカ。元気か？"
+                                "Hey Erika, how are you doing?"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<ギルドマスター>"
+                                "\\n< Guild master >"
                             ]
                         },
                         {
@@ -3985,21 +3992,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "もうちっと気の利いた挨拶しやがれ。"
+                                "Come on, give me a more clever greeting. Can't you see"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "元気に見えるか、これが。"
+                                "I'm doing well?"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<エリカ>"
+                                "\\n< Erika >"
                             ]
                         },
                         {
@@ -4023,14 +4030,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "峠は越したようだな。結構結構。"
+                                "It seems you managed to survive. Good, good."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<ギルドマスター>"
+                                "\\n< Guild master >"
                             ]
                         },
                         {
@@ -4087,14 +4094,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "…そんなにマズかったか？"
+                                "...Was it really that bad?"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<エリカ>"
+                                "\\n< Erika >"
                             ]
                         },
                         {
@@ -4118,28 +4125,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "右腕が根っこからぶっとんでんだぞ。"
+                                "Your right arm was blown off from the root. Your"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "他も全身、内も外もボロボロよ。"
+                                "whole body, inside and out, is in shambles. If it weren't"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "てめーじゃなきゃとっくに死んでる。"
+                                "for you, I would have died a long time ago."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<ギルドマスター>"
+                                "\\n< Guild master >"
                             ]
                         },
                         {
@@ -4156,14 +4163,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "モンスター顔負けの生命力しやがって。"
+                                "You have a life force that rivals even that of a"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<ギルドマスター>"
+                                "monster."
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n< Guild master >"
                             ]
                         },
                         {
@@ -4220,14 +4234,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ミノタウロスの野郎は…。"
+                                "That Minotaur bastard..."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<エリカ>"
+                                "\\n< Erika >"
                             ]
                         },
                         {
@@ -4251,14 +4265,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ほらよ。"
+                                "Here you go."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<ギルドマスター>"
+                                "\\n< Guild master >"
                             ]
                         },
                         {
@@ -4374,21 +4388,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "いって、投げんな。なんだよ。"
+                                "Hey, don't throw it. What is it? A ring...?"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "指輪…？"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<エリカ>"
+                                "\\n< Erika >"
                             ]
                         },
                         {
@@ -4412,21 +4419,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "リコットの指輪だ。奴の腹ん中から出てきた。"
+                                "This is Ricott's ring. It came out of his stomach. Is"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "お前が探してたのはそれだろ？"
+                                "that what you were looking for?"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<ギルドマスター>"
+                                "\\n< Guild master >"
                             ]
                         },
                         {
@@ -4483,14 +4490,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "あぁ…じゃあ、全部片付いたわけだ。"
+                                "Ah... So I guess that means I've finished everything."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<エリカ>"
+                                "\\n< Erika >"
                             ]
                         },
                         {
@@ -4514,21 +4521,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "今まさに片付けてんだ。ほっといたら死肉を食いに"
+                                "I'm in the middle of cleaning up right now. If you"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "モンスターが湧くからな。"
+                                "leave it alone, monsters will come to eat the dead"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<ギルドマスター>"
+                                "flesh."
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n< Guild master >"
                             ]
                         },
                         {
@@ -4545,21 +4559,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "小分けにして焼却処分だ。人手がたりねえ。"
+                                "We need to divide and dispose of it through"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "盗賊共の死体も処分しねえとだしな。"
+                                "incineration. We don't have enough hands to do it. We"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<ギルドマスター>"
+                                "also need to dispose of the bodies of the thieves."
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n< Guild master >"
                             ]
                         },
                         {
@@ -4616,14 +4637,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "……で、あのちんまいのは？"
+                                "So, what about that small one?"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<エリカ>"
+                                "\\n< Erika >"
                             ]
                         },
                         {
@@ -4647,21 +4668,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "手形を発行してやった。"
+                                "I issued a promissory note. She must have arrived in"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "今頃は東の街に着いてるだろうな。"
+                                "the eastern town by now."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<ギルドマスター>"
+                                "\\n< Guild master >"
                             ]
                         },
                         {
@@ -4718,14 +4739,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "そうかよ。あーあ…。"
+                                "I see. Oh well..."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<エリカ>"
+                                "\\n< Erika >"
                             ]
                         },
                         {
@@ -4749,14 +4770,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "着いていく気だったのか？"
+                                "Did you plan on following her?"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<ギルドマスター>"
+                                "\\n< Guild master >"
                             ]
                         },
                         {
@@ -4791,21 +4812,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "悪いか。"
+                                "Is it bad? You must be worried... Especially with a"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "心配だろ…行き先があんな街じゃ、なおさらよ。"
+                                "destination like that city."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<エリカ>"
+                                "\\n< Erika >"
                             ]
                         },
                         {
@@ -4829,21 +4850,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "そのお人よしで右腕落っことしたんだろうが。"
+                                "I bet your right-hand fell for your kindness."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "少しは反省したらどうだ？"
+                                "How about reflecting on it a little?"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<ギルドマスター>"
+                                "\\n< Guild master >"
                             ]
                         },
                         {
@@ -4878,21 +4899,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "右腕なくすまでつっぱったんだ。"
+                                "I pushed myself until I lost my right arm. It would be"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "今更曲げたらそっちのほうが馬鹿みてーだろ。"
+                                "stupid to give up now."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<エリカ>"
+                                "\\n< Erika >"
                             ]
                         },
                         {
@@ -4916,14 +4937,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "…つまり、引退する気はないって事か。"
+                                "So, does that mean you don't have any intention of"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<ギルドマスター>"
+                                "retiring?"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n< Guild master >"
                             ]
                         },
                         {
@@ -4980,21 +5008,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "他の生き方なんか知らねえしな…。"
+                                "I don't know any other way to live... Unless there's"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "片腕の女を嫁に貰ってくれる変人がいりゃ、話は別だけど。"
+                                "some weirdo out there who'll marry a one-armed woman,"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<エリカ>"
+                                "but that's a different story."
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n< Erika >"
                             ]
                         },
                         {
@@ -5018,14 +5053,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "望み薄だな。"
+                                "It seems unlikely."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<ギルドマスター>"
+                                "\\n< Guild master >"
                             ]
                         },
                         {
@@ -5082,14 +5117,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "デリカシーってもんがねえのか！てめえは！"
+                                "Don't you have any sensitivity?! Who are you?!"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<エリカ>"
+                                "\\n< Erika >"
                             ]
                         },
                         {
@@ -5146,14 +5181,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "あーもう帰れ帰れ！仕事があんだろうが！"
+                                "Ah, just go home already! You have work to do, don't"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<エリカ>"
+                                "you!"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n< Erika >"
                             ]
                         },
                         {
@@ -5170,14 +5212,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "てめーの加齢臭かいでたら治るもんも治らねえ！"
+                                "Your body odor won't go away even if I try to treat"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<エリカ>"
+                                "it!"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n< Erika >"
                             ]
                         },
                         {
@@ -5221,14 +5270,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "あぁ、言われなくとも帰るが…。"
+                                "Oh, I'll go back even if you don't tell me to..."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<ギルドマスター>"
+                                "\\n< Guild master >"
                             ]
                         },
                         {
@@ -5285,14 +5334,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "あんだよ？"
+                                "What's up?"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<エリカ>"
+                                "\\n< Erika >"
                             ]
                         },
                         {
@@ -5316,14 +5365,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "渡した薬は飲んだんだな？"
+                                "Did you drink the medicine I gave you?"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<ギルドマスター>"
+                                "\\n< Guild master >"
                             ]
                         },
                         {
@@ -5380,21 +5429,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "チッ、それを聞きにきたのかよ。"
+                                "Tch, so you came to hear about that. You're such a"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "つくづく心配性だなてめーはよ。"
+                                "worrier, aren't you?"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<エリカ>"
+                                "\\n< Erika >"
                             ]
                         },
                         {
@@ -5451,14 +5500,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "飲んだよ。一滴残らず。右腕落っことす前にな。"
+                                "I drank it all. Not a drop left. Before my right arm"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<エリカ>"
+                                "falls off."
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "\\n< Erika >"
                             ]
                         },
                         {
@@ -5482,21 +5538,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "なら良かった。その怪我じゃ、今のお前には飲ませ"
+                                "That's good then. With that injury, I can't give you "
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "られねえからな。"
+                                "the medicine right now."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<ギルドマスター>"
+                                "\\n< Guild master >"
                             ]
                         },
                         {
@@ -5553,21 +5609,28 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "良かねえよ。クッソマズい思いしてよ。"
+                                "Not good at all. It's terrible and I feel sick. I"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "だいたい飲んでても一回当たった事あっ――ー…。"
+                                "mean, even when I'm drinking, I've only won once"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<エリカ>"
+                                "before..."
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "\\n< Erika >"
                             ]
                         },
                         {
@@ -5624,21 +5687,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "…にかく、まぁ、多分大丈夫だろ。"
+                                "Anyway, well, it'll probably be fine. After all, there"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "粗チン野郎ばっかだったしな。"
+                                "were only a bunch of rough guys."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<エリカ>"
+                                "\\n< Erika >"
                             ]
                         },
                         {
@@ -5695,14 +5758,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "…ありがとよ。"
+                                "...Thank you."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<エリカ>"
+                                "\\n< Erika >"
                             ]
                         },
                         {
@@ -5726,14 +5789,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "あぁ。"
+                                "Yeah."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<ギルドマスター>"
+                                "\\n< Guild master >"
                             ]
                         },
                         {
@@ -5829,21 +5892,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "あぁ、言われなくともそろそろお暇させてもらうつもりだ。"
+                                "Ah, even without being told, I intend to take my leave"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "だが帰る前に、これだけは渡しておくぞ。"
+                                "soon. But before I go, I'll give you this."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<ギルドマスター>"
+                                "\\n< Guild master >"
                             ]
                         },
                         {
@@ -5889,14 +5952,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "あんだよ？"
+                                "What's up?"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<エリカ>"
+                                "\\n< Erika >"
                             ]
                         },
                         {
@@ -5920,14 +5983,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "薬だ。中身は…わかんだろ？"
+                                "Here's the medicine. You know what's inside, right?"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<ギルドマスター>"
+                                "\\n< Guild master >"
                             ]
                         },
                         {
@@ -5944,14 +6007,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "劇薬だ。目を覚ますまでは飲ませられなかった。"
+                                "This is a powerful one."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<ギルドマスター>"
+                                "I wouldn't give this to you until you woke up."
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "\\n< Guild master >"
                             ]
                         },
                         {
@@ -5986,14 +6056,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "…。"
+                                "..."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<エリカ>"
+                                "\\n< Erika >"
                             ]
                         },
                         {
@@ -6017,21 +6087,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "『デキる前』なら効果はある。"
+                                "If you drink it before you're capable, it'll have an"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "早めに飲んどけ。"
+                                "effect. Drink it early."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<ギルドマスター>"
+                                "\\n< Guild master >"
                             ]
                         },
                         {
@@ -6066,14 +6136,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "できてたら？もう一週間は経ってんだろ。"
+                                "If it's done, it's been a week already, right?"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<エリカ>"
+                                "\\n< Erika >"
                             ]
                         },
                         {
@@ -6097,14 +6167,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "…。"
+                                "..."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<ギルドマスター>"
+                                "\\n< Guild master >"
                             ]
                         },
                         {
@@ -6161,14 +6231,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "…あー悪ぃ悪ぃ。んな顔すんなって。"
+                                "...Ah, sorry sorry. Don't make that kind of face."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<エリカ>"
+                                "\\n< Erika >"
                             ]
                         },
                         {
@@ -6185,21 +6255,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "もしもの場合はてめーで始末をつけるよ。"
+                                "If something happens, I'll take care of it myself."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "いい医者知ってんだ。"
+                                "I know a good doctor."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<エリカ>"
+                                "\\n< Erika >"
                             ]
                         },
                         {
@@ -6256,21 +6326,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "つーか！あの雑魚共のへにゃへにゃ種が当たってる"
+                                "Seriously! There's no way those small fry have the"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "わけねえし！"
+                                "right to act all meek and mild!"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<エリカ>"
+                                "\\n< Erika >"
                             ]
                         },
                         {
@@ -6294,14 +6364,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "…ああ。そう願う、そう願っている。"
+                                "...Ah. I hope so, I truly hope so."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<ギルドマスター>"
+                                "\\n< Guild master >"
                             ]
                         },
                         {
@@ -6328,21 +6398,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "じゃあな、今度こそ仕事に行く。"
+                                "Well then, I'm off to work now. Don't walk around too"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "あんまり歩きまわんなよ？"
+                                "much, okay?"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<ギルドマスター>"
+                                "\\n< Guild master >"
                             ]
                         },
                         {
@@ -6628,14 +6698,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "おう、帰れ帰れ！"
+                                "Hey, go home, go home!"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<エリカ>"
+                                "\\n< Erika >"
                             ]
                         },
                         {
@@ -6681,14 +6751,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "…はぁーーー…あ…いっつつ。"
+                                "...*sigh*...ahh...it hurts..."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<エリカ>"
+                                "\\n< Erika >"
                             ]
                         },
                         {
@@ -6846,28 +6916,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "悪い奴らをやっつけて、万事解決めでたしめでたし。"
+                                "We defeated the bad guys and everything was resolved."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "みんな末永く幸せに暮らしました…って、"
+                                "Everyone lived happily ever after... But it doesn't"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "お話みてぇにゃいかねえなぁ。"
+                                "really sound like a story, does it?"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<エリカ>"
+                                "\\n< Erika >"
                             ]
                         },
                         {
@@ -6976,21 +7046,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "でもま…嬉しいと悲しいが６：４で…"
+                                "But well… It's 60/40 between happiness and sadness..."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "かろうじてハッピーエンドって事にしといてやるか…。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<エリカ>"
+                                "I guess we can barely call it a happy ending... \\n< Erika >"
                             ]
                         },
                         {
@@ -7036,14 +7099,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "なぁー…セレナ…。ありがとよ…。"
+                                "Hey, Serena... Thanks."
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<エリカ>"
+                                "\\n< Erika >"
                             ]
                         },
                         {
@@ -7369,7 +7432,7 @@
         },
         {
             "id": 8,
-            "name": "農民",
+            "name": "Peasant",
             "note": "",
             "pages": [
                 {
