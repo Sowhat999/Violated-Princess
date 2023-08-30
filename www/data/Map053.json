@@ -3561,28 +3561,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Zキー：攻撃　押し続けるとチャージ攻撃"
+                                "  Z Key: Hold down to perform a charged attack.\nWhile charging, it is possible to defend against\nenemy attacks. X Key: While pressed, character\ndirection is fixed. While fixed, press Shift to\nperform an emergency evasion."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　　　 チャージ中は敵攻撃防御可能"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "Xキー：押している間キャラ方向固定"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　　　 固定中Shiftで緊急回避"
+                                ""
                             ]
                         },
                         {

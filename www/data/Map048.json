@@ -3844,7 +3844,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<盗賊>…なんか聞こえねえか？"
+                                "\\n< Thief >...Can't you hear something?"
                             ]
                         },
                         {
@@ -3892,7 +3892,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<盗賊>あぁ？動物かなんかの鳴き声じゃねえの？"
+                                "\\n< Thief >Huh? Isn't that the sound of some animal or\nsomething?"
                             ]
                         },
                         {
@@ -3940,7 +3940,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<盗賊>いや何か、遠鳴りみてえな……っ！？"
+                                "\\n< Thief >No, something like a distant roar...!?"
                             ]
                         },
                         {
@@ -4111,7 +4111,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>ぁあああああああああ！！！"
+                                "\\n< Serena >Aaaaaaaaahhhhhhhh!!!"
                             ]
                         },
                         {
@@ -4135,7 +4135,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<盗賊>おおぉッ！？"
+                                "\\n< Thief >Ohhh!?"
                             ]
                         },
                         {
@@ -4792,21 +4792,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "くぅ…つつ…アファービレ越しでも凄まじい衝撃だったな。"
+                                "\\n< Serena >Ugh... That... was an incredible impact even\nthrough the sofa. I'm glad there was a cushion."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "クッションがあって助かった。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -4854,7 +4854,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<盗賊>て、てめえ！？何モンだ！？"
+                                "\\n< Thief >Y-You! What the hell are you?!"
                             ]
                         },
                         {
@@ -4930,7 +4930,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>貴様に名乗る名など！"
+                                "\\n< Serena >I don't need to introduce myself to scum like you!"
                             ]
                         },
                         {
@@ -5595,7 +5595,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>ないッ！"
+                                "\\n< Serena >No way!"
                             ]
                         },
                         {
@@ -5711,21 +5711,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "…ふぅ。我ながら乱暴な手段だったが、どうやら首尾よく"
+                                "\\n< Serena >...Phew. Even though it was a rough method, it\nseems like I managed to infiltrate successfully."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "入り込めたな。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -5742,21 +5742,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "だが、すぐ騒ぎになるはずだ。"
+                                "\\n< Serena >However, it should become a commotion soon. I must\nfind Lady Erika as soon as possible."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "一刻も早くエリカ殿を探し出さねば。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -5984,21 +5984,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "床も壁もかなり傷んでいるな…。"
+                                "\\n< Serena >The floor and walls are quite damaged... They say\nit's the remains of an old fortress..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "古い砦の跡と言うが…。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -6067,21 +6067,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "む…。この階段はダメだな、人の声がする。"
+                                "\\n< Serena >Hmm... This staircase won't work. I can hear\nvoices. Is there anywhere I can go down without\nbeing noticed?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "どこか人目につかず下に降りられる場所はないか？"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {

@@ -5161,14 +5161,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "なっ！？スライムの群れに！？死ぬ気か！？"
+                                "\\n< Serena >What!? A swarm of slimes!? Are they trying to kill\nus!?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -5414,14 +5414,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "なんだと…！？"
+                                "\\n< Serena >What...!?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -5445,45 +5445,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "へーっへっへっへ……！"
+                                "\\n< ？？？ >Hehehehe...!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<？？？>"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "どうしたどうした？俺のスライムちゃんたちが"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "怖くて追ってこれねえかよ？"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<？？？>"
+                                ""
                             ]
                         },
                         {
@@ -5500,21 +5469,52 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "だったら帰りなァ！ガキが！"
+                                "\\n< ？？？ >What's wrong? Are you scared of my little slime\nfriends and trying to run away?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ここは俺の王国！誰も俺を捕まえれねえ！"
+                                "\\n< ？？？ >Then go home, you brat! This is my kingdom! No one\ncan capture me!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<？？？>"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5556,14 +5556,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "……うっ……。"
+                                "\\n< Serena >......Ugh......."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -5587,21 +5587,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "……あぁ……怖い…。"
+                                "\\n< Serena >......Ah......Scary....Indeed, slimes are\nscary...yes."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "確かに怖いぞ。スライムは…な。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -5670,21 +5670,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "へっへっへ？だったらどうする？"
+                                "\\n< Ghee >Hehehe...? Well then, what are you going to do?\nBesides running away with your tail between your\nlegs, do you have anything else you can do, huh?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "ケツまくって逃げる以外テメエにできる事があんのかよぉ？"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "\\n<ギー>"
+                                ""
                             ]
                         },
                         {
@@ -5746,14 +5746,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "そうだな……逃げ出したい気分では、ある。"
+                                "\\n< Serena >Yeah... I do feel like running away."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -5822,14 +5822,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "…ここまで来るのも相当勇気が必要だった。"
+                                "\\n< Serena >...It took a lot of courage to come this far."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -5846,21 +5846,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "だが元を正せば。"
+                                "\\n< Serena >But if we're being honest, all of this is your\nfault."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "それもこれも全て貴様のせいだ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -5884,14 +5884,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "はぁ～ん…？"
+                                "\\n< Ghee >Hmmm...?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "\\n<ギー>"
+                                ""
                             ]
                         },
                         {
@@ -5953,21 +5953,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "怒りと恐怖を天秤にかければ。"
+                                "\\n< Serena >If I were to weigh anger and fear on a scale,\nright now anger slightly outweighs."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "今はわずかに怒りが勝る。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -6029,21 +6029,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "だから踏み出せる。前に進める。"
+                                "\\n< Serena >That's why I can step forward. I can move forward.\nIf I don't give you a blow, I won't be satisfied."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "貴様に一撃くれてやらねば気が済まぬ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -6067,14 +6067,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ガキィ、俺のスライムちゃんが見えてねえのか？"
+                                "\\n< Ghee >Hey brat, can't you see my slime-chan?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "\\n<ギー>"
+                                ""
                             ]
                         },
                         {
@@ -6185,14 +6185,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "見えているとも。だがすぐに見えなくしてやる。"
+                                "\\n< Serena >I can see it. But I'll make it disappear soon."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -6264,14 +6264,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "……貴様がギーだな？"
+                                "\\n< Serena >......Are you Ghee?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -6340,21 +6340,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "へっへっへ？だったらどうする？"
+                                "\\n< Ghee >Hehehe...? Well then, what are you going to do?\nBesides running away with your tail between your\nlegs, do you have anything else you can do, huh?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "ケツまくって逃げる以外テメエにできる事があんのかよぉ？"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "\\n<ギー>"
+                                ""
                             ]
                         },
                         {
@@ -6423,14 +6423,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "…ふむ。"
+                                "\\n< Serena >...Hmmm."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -6447,21 +6447,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "まこと、世の中というのは広いものだ。"
+                                "\\n< Serena >Makoto, the world is truly vast. Since coming to\nthis town, it has been a series of surprises."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "この街に来てから驚きの連続であったが。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -6485,14 +6485,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "おい…？"
+                                "\\n< Ghee >Hey...?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "\\n<ギー>"
+                                ""
                             ]
                         },
                         {
@@ -6554,21 +6554,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "まさかスライムと意思疎通ができる人間までいるとはな。"
+                                "\\n< Serena >I never thought there would be a human who could\ncommunicate with slimes. No wonder they can make\nthe sewer their hideout."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "道理で下水を根倉にできるわけだ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -6592,14 +6592,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ガキィ、俺のスライムちゃんが見えてねえのか？"
+                                "\\n< Ghee >Hey brat, can't you see my slime-chan?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "\\n<ギー>"
+                                ""
                             ]
                         },
                         {
@@ -6738,14 +6738,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "無論見えている。が、すぐに見えなくなる。"
+                                "\\n< Serena >I can see it, of course. But it will disappear\nsoon."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -6838,14 +6838,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "いいや。やっぱりてめぇは見えてねえさ！"
+                                "\\n< Ghee >No, after all, you still can't see it!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<ギー>"
+                                ""
                             ]
                         },
                         {
@@ -7214,14 +7214,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "むっ！？"
+                                "\\n< Serena >Hmph!?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -7312,14 +7312,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "あァっく！？"
+                                "\\n< Ghee >Ahh...!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<ギー>"
+                                ""
                             ]
                         },
                         {
@@ -7343,21 +7343,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "…こんな巨大なものまで潜ませていたのか。"
+                                "\\n< Serena >...So you were hiding something this huge. But\neven though it was a surprise attack, it was a\nfailure."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "だがせっかくの不意打ちも失敗だったな。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -7423,28 +7423,28 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "くくゥー！チキショウ！"
+                                "\\n< Ghee >Kukuu! Dammit! Even though you're laughing your\nass off, you're surprisingly agile, aren't you?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "デケェ腹抱えてやがるくせに、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "意外とすばしっこいじゃねえか！"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "\\n<ギー>"
+                                ""
                             ]
                         },
                         {
@@ -7471,21 +7471,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "くくゥー！チキショウ！"
+                                "\\n< Ghee >Kukuu! Dammit! You're not just a brat after all,\nyou bastard!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "やっぱりただのガキじゃねえなてめぇ！"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "\\n<ギー>"
+                                ""
                             ]
                         },
                         {
@@ -7519,14 +7519,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "我が名はセレナ・フ……。"
+                                "\\n< Serena >My name is Serena..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -7571,14 +7571,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "……セレナ。我が名はセレナ。"
+                                "\\n< Serena >......Serena. My name is Serena."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -7595,21 +7595,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "犯罪者ギー。"
+                                "\\n< Serena >Criminal Ghee. I'm going to make you spill all the\ndetails about the source of the poison."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "貴様には毒の出所を洗いざらい喋ってもらうぞ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -7633,14 +7633,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "クソがァ…捕まってたまるか捕まってたまるか…！"
+                                "\\n< Ghee >Shit... There's no way I'm getting caught, no\nway...!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<ギー>"
+                                ""
                             ]
                         },
                         {
@@ -7710,14 +7710,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "スライム共ォ！俺を守れ！そのガキを殺せ！"
+                                "\\n< Ghee >Slimes, protect me! Kill that brat!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<ギー>"
+                                ""
                             ]
                         },
                         {
@@ -7734,21 +7734,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ケツから入り込んで内臓ぐっちゅぐちゅのジャム"
+                                "\\n< Ghee >I'm gonna melt you from the inside out, turning\nyour organs into mush like jam! I'll dissolve you\nand devour you!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "みてえによぉー！溶かし殺して喰い殺してやルァッ！"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<ギー>"
+                                ""
                             ]
                         },
                         {
@@ -7785,14 +7785,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "……゛！"
+                                "\\n<Giant Slime>......゛！"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<巨大スライム>"
+                                ""
                             ]
                         },
                         {
@@ -7837,14 +7837,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "かかってくるがいい！"
+                                "\\n< Serena >Bring it on!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -8423,14 +8423,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ぬっ、ぐ……こんな、スライム如きにっ…！"
+                                "\\n< Serena >Ngh... how could I be defeated by a mere slime...!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -8454,14 +8454,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ぐぅぅ…は、放せぇ！"
+                                "\\n< Serena >Ugh... L-let go!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -8485,21 +8485,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ギャーハッハッハ！見さらせクソガキィ！"
+                                "\\n< Ghee >Gyahaha! Take a good look, you little shit! This\nis my power! The military might of my kingdom!!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "これが俺の力！俺の王国の軍事力だ！！！"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<ギー>"
+                                ""
                             ]
                         },
                         {
@@ -8523,14 +8523,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "はぁ、はぁ…くっ、おのれぇ……っ！？"
+                                "\\n< Serena >Haa, haa... Kuh, you...!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -8585,52 +8585,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "さぁーいい子だ！よくやった！"
+                                "\\n< Ghee >Alright, good job! That's enough! Hand over that\nbrat to me!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "もういいぞ！そのガキを俺に寄越せ！"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<ギー>"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                2,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "俺の大人ちんぽでよぉ！グヒヒッ！"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "大人と！子供の！男と！女の！"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<ギー>"
+                                ""
                             ]
                         },
                         {
@@ -8647,21 +8616,52 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "立場の違いって奴を！"
+                                "\\n< Ghee >With my adult cock, you know! Ghehehe! Adults and\nchildren! Men and women!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                2,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "たぁっぷり刻み込んでやっからよォオーー！！"
+                                "\\n< Ghee >I'll engrave the difference in our positions into\nyou thoroughly!! Oooohhh!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<ギー>"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -8708,14 +8708,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "うっ…！？"
+                                "\\n< Serena >Ugh...!?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -8739,14 +8739,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "…オイ？"
+                                "\\n< Ghee >...Hey?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<ギー>"
+                                ""
                             ]
                         },
                         {
@@ -8811,14 +8811,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "んわわぁ！？"
+                                "\\n< Serena >Nwawaa!?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -8875,21 +8875,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "なっ…！お、しり…を！"
+                                "\\n< Serena >Ngh...! My, my ass...! Th-this person...!?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "こ、こいつ…っ！？"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -8913,21 +8913,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "おい！？くそ、言う事を聞け！"
+                                "\\n< Ghee >Hey!? Shit, listen to me! This low-intelligence\nmonster!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "この、低知能モンスターが！"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<ギー>"
+                                ""
                             ]
                         },
                         {
@@ -8990,14 +8990,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "せ、制御できていないのか…！？"
+                                "\\n< Serena >C-Could it be that you can't control it...!?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -9072,14 +9072,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "んぐっ！"
+                                "\\n< Serena >Ngh!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -9136,14 +9136,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "で、では、こいつは……！"
+                                "\\n< Serena >S-So, then, this person is...!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -9218,21 +9218,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "んっく！？…あっ！？"
+                                "\\n< Serena >Nnku!?... Ahh!? It's entering... little by\nlittle...!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "入って…少し、ずつ……っ！"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -9289,14 +9289,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "やだ…！こんな…！うぅうう！！"
+                                "\\n< Serena >No...! Like this...! Uuuuuhhh!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -9400,14 +9400,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "んぐあああ！？！？！？"
+                                "\\n< Serena >Nguuuaaa!?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -9504,21 +9504,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "あ、ぁああ…と、まらな…っ！"
+                                "\\n< Serena >Ah, aaah... I-it's going... deeper...! Deeper...!\nInside...!?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "どん…どん……！奥にっ……！？"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -9615,21 +9615,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "い、やぁ…あぁあ！？"
+                                "\\n< Serena >N-No... Ahh! This sensation... so intense...!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "この、感、かく……！"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -9704,21 +9704,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "うぅう……体の、内が、わ…！"
+                                "\\n< Serena >Uuuh... Inside my body... It's... like this...\nUghh...!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "こ、こんな……うくっ…！"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -9833,14 +9833,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "んぐぅううう！？？"
+                                "\\n< Serena >Nguuuu!?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -9897,21 +9897,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "あぁあ、駄目だ、駄目だ！"
+                                "\\n< Serena >Ahh, no, no! It won't stop...!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "と、止まらなっ……！"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -9979,14 +9979,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ど、どこまで入って……！？"
+                                "\\n< Serena >H-How far is it going...!?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -10054,14 +10054,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "体の…中……！蠢い…て……！"
+                                "\\n< Serena >Inside my... body...! It's... squirming...!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -10118,14 +10118,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "嫌だ、嫌だ……！"
+                                "\\n< Serena >No, no...!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -10182,14 +10182,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ンッ、ぐ…う……！"
+                                "\\n< Serena >Nngh... ugh...!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -10293,14 +10293,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "くは…！は……はぁあ……！"
+                                "\\n< Serena >Kuh...! Ha... haaa...!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -10357,14 +10357,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ンッ…ンッ……ンッ……！"
+                                "\\n< Serena >Nngh... Nngh... Nngh...!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -10421,21 +10421,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "こ、いつ…何が…！したい……のだ……！"
+                                "\\n< Serena >Wh-When... What is it...! You want... to do...!\nNot kill...! Not devour...!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "殺す、でもなく…！喰らうでも、なく…！"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -10492,14 +10492,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "気持ち悪い気持ち悪い気持ち悪い……！"
+                                "\\n< Serena >It's disgusting, it's disgusting, it's\ndisgusting...!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -10567,14 +10567,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ンッ……ン……？！"
+                                "\\n< Serena >Nngh... N...?!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -10631,14 +10631,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "なに……か……。"
+                                "\\n< Serena >What... is... it...?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -10655,21 +10655,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "何かを、探し、て……まさぐって"
+                                "\\n< Serena >Are you searching for something... touching...\nme... in that way...?!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "いる……のか。よう、な……！"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -10744,14 +10744,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "フッ……ンンッ……！"
+                                "\\n< Serena >Huh... Nngh...!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -10775,14 +10775,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "くっそぉー！自分だけ楽しみやがって！！！"
+                                "\\n< Ghee >Dammit! You're only enjoying yourself!!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<ギー>"
+                                ""
                             ]
                         },
                         {
@@ -10799,14 +10799,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "俺が王様だぞ！王様の命令は絶対だろうが！"
+                                "\\n< Ghee >I'm the king! The king's orders are absolute, you\nknow!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<ギー>"
+                                ""
                             ]
                         },
                         {
@@ -10862,21 +10862,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "いやさっきは殺せっつったが！あれははずみだ！"
+                                "\\n< Ghee >No, earlier I said to kill her! That was just a\nslip of the tongue! Cancel that! I'm the one who's\ngoing to enjoy it, you know! Hey!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "取り消し！俺が楽しむんだからよ！オイ！"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<ギー>"
+                                ""
                             ]
                         },
                         {
@@ -10932,14 +10932,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ふざっけんなこの野郎…！オイ！"
+                                "\\n< Ghee >Don't mess around, you bastard...! Hey!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<ギー>"
+                                ""
                             ]
                         },
                         {
@@ -10968,14 +10968,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "げっ！？"
+                                "\\n< Ghee >Gah!?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<ギー>"
+                                ""
                             ]
                         },
                         {
@@ -11374,14 +11374,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "…！？"
+                                "\\n< Serena >...！？"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -11438,14 +11438,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "なんだ…？…動きが止まった…？"
+                                "\\n< Serena >What...?... The movement stopped...?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -11502,14 +11502,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "これ、なら…！"
+                                "\\n< Serena >If it's this...!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -11597,14 +11597,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ッアアアーー！！！！"
+                                "\\n< Serena >Ahhhhhhhh!!!!!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -11971,14 +11971,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "プギィ！？"
+                                "\\n< Ghee >Pugi!?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<ギー>"
+                                ""
                             ]
                         },
                         {
@@ -12002,21 +12002,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ハァー……！"
+                                "\\n< Serena >*Haa...* *Haa...*"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "ハァー…………！"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -12065,14 +12065,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "くッ……！"
+                                "\\n< Serena >Ugh...!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -12202,21 +12202,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "……ホッ…スライムも逃げたか。"
+                                "\\n< Serena >......Hah... The slime escaped too. Should I say I\ngot lucky...?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "運が良かったと、言うべきか……。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -12278,21 +12278,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "それともこの男が気絶したおかげか？"
+                                "\\n< Serena >Or is it thanks to this man fainting? For a\nmoment, the slime's movement clearly stopped..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "一瞬、明らかにスライムの動きが止まった…。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -12354,14 +12354,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ンッ、痛ゥ。"
+                                "\\n< Serena >Nngh, it hurts."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -12385,14 +12385,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "思い出したら痛んできたぞ…。"
+                                "\\n< Serena >It started hurting when I remembered..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -12416,21 +12416,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "体の、内側から痛む…未知なる痛みだ。"
+                                "\\n< Serena >The pain... it's coming from inside my body...\nIt's an unfamiliar pain. Even though it was for a\nshort time, I was treated as they pleased..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "短時間とはいえ好き放題されたからな…。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -12454,21 +12454,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "お腹の中で動き回られるのは、凄まじく"
+                                "\\n< Serena >The sensation of being moved around inside my\nstomach was incredibly disgusting..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "おぞましい感覚であった…。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -12492,21 +12492,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "あのまま取り込まれていたらどうなっていたか"
+                                "\\n< Serena >Just imagining what would have happened if I had\nbeen completely engulfed is terrifying..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "想像するだに恐ろしい…。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -12530,14 +12530,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "はぁ…。"
+                                "\\n< Serena >*Haa...*"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -12561,14 +12561,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "しかし…さて。"
+                                "\\n< Serena >However... well."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -12616,21 +12616,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "この体力で。目の前には伸びた大男。"
+                                "\\n< Serena >With this stamina... There's a big man in front of\nme. In the end, I achieved my goal, so it's\nfine..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "結果的に目的は果たせたから良いものの…。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -12692,21 +12692,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "こいつをどうやって上に運ぶか。"
+                                "\\n< Serena >How to carry this person up. That's the difficult\npart..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "それが難題だ…。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -13071,14 +13071,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ふぅ。"
+                                "\\n< Serena >*sighs*"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -13102,21 +13102,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "……ヒヒィイ……俺のスライムちゃん達がぁあ…。"
+                                "\\n< Ghee >......Hehehe...... My slime-chan... my invincible\nkingdom... aaaaah......!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "俺の無敵の王国があああ……！"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<ギー>"
+                                ""
                             ]
                         },
                         {
@@ -13147,14 +13147,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "…さて次は貴様の番だぞ。"
+                                "\\n< Serena >...Well, it's your turn now."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -13178,14 +13178,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "うぐっ……へ、へへっ。"
+                                "\\n< Ghee >Ugh... H-heheh."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<ギー>"
+                                ""
                             ]
                         },
                         {
@@ -13317,21 +13317,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "いやぁ、若いのにお強いですねぇ！ホントにお強い！"
+                                "\\n< Ghee >Oh my, you're so strong even though you're young!\nYou're really strong! I-I'm impressed!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "お、御見それしましたぁ！！"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<ギー>"
+                                ""
                             ]
                         },
                         {
@@ -13362,14 +13362,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "調子のよい奴だな……。"
+                                "\\n< Serena >You're quite cocky, aren't you..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -13393,14 +13393,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "うぇっへっへ…それだけが取柄でやして…。"
+                                "\\n< Ghee >Uwehehe... That's the only thing I'm good at..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<ギー>"
+                                ""
                             ]
                         },
                         {
@@ -13424,21 +13424,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "はぁ…大人の男性というものはもっと"
+                                "\\n< Serena >*sigh* I used to think that adult men were more\nrespectable..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "尊敬できるものだと思っていたのだが…。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -13462,21 +13462,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "この街に来てからは失望が募るばかりだ。"
+                                "\\n< Serena >Since coming to this town, my disappointment has\nonly grown. Or perhaps the people in this town are\njust special?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "それともこの街の連中が特別なのであろうか？"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -13507,21 +13507,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "…特別と言えば。そう、貴様どうやって"
+                                "\\n< Serena >...Speaking of special. How exactly were you\ncontrolling the slime?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "スライムを操っていたのだ？"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -13538,14 +13538,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "あんな特技は聞いた事がない。"
+                                "\\n< Serena >I've never heard of such a special skill."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -13569,21 +13569,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "へっ？…あ、いやぁ…へへ、操るなんてそんな…。"
+                                "\\n< Ghee >Huh?... Ah, well... hehe, to control it like\nthat... I'm nothing special..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "あっしは何も…。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<ギー>"
+                                ""
                             ]
                         },
                         {
@@ -13607,14 +13607,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "？？？"
+                                "\\n< Serena >？？？"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -13638,21 +13638,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "えへぁへぁ…じゃあ姐さんにだけ、こっそりですよ？"
+                                "\\n< Ghee >Ehehe... Then, just between us, sister, shall I\ntell you my trade secret?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "あっしの企業秘密を教えてさしあげまさぁ…。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<ギー>"
+                                ""
                             ]
                         },
                         {
@@ -13676,14 +13676,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "姐…。"
+                                "\\n< Serena >Sister..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -13774,14 +13774,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "この瓶の中にね…ちょいとした秘密が詰まってやして。"
+                                "\\n< Ghee >Inside this bottle... there's a little secret\npacked in there."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<ギー>"
+                                ""
                             ]
                         },
                         {
@@ -13798,21 +13798,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "これを持っているとスライムが俺…つまり持ち主…"
+                                "\\n< Ghee >If I have this, the slime won't attack me... or\nrather, the owner... no, more accurately, as long\nas I have this bottle, it won't attack."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "いや正確にはこの瓶を、襲わねえんでさ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<ギー>"
+                                ""
                             ]
                         },
                         {
@@ -13836,14 +13836,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ふぅうー…む……？"
+                                "\\n< Serena >*sigh*... Hm...?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -13867,14 +13867,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "黒い液体…？なんだろう？何らかの薬液か？"
+                                "\\n< Serena >Black liquid...? I wonder what it is? Some kind of\nchemical?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -13898,14 +13898,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "へぇ。そんなようなもんでがす。"
+                                "\\n< Ghee >Oh, really? It's just something like that."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<ギー>"
+                                ""
                             ]
                         },
                         {
@@ -13929,21 +13929,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "はぁ…。しかしこんなもの大発見ではないのか。"
+                                "\\n< Serena >Sigh... But is this really such a groundbreaking\ndiscovery? This town must have struggled a lot\nwith controlling slimes too."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "この街もスライムの制御には相当に苦労しているはず。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -13960,21 +13960,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "この液体があればどれほどその苦労が軽減するだろう。"
+                                "\\n< Serena >With this liquid, I wonder how much those\nstruggles would be alleviated. No, there are\ncountless ways to utilize it..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "いや活用法はもっといくらでも…。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -13998,21 +13998,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "…こんなものがあるなら、毒の流通に加担する事など"
+                                "\\n< Serena >...If there was something like this, wouldn't\nthere have been no need to participate in the\ndistribution of poison?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "なかったのではないか。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -14029,14 +14029,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "いくらでも巨万の富を稼ぎ出せたであろうに。"
+                                "\\n< Serena >We could have made an enormous fortune no matter\nhow much."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -14060,52 +14060,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "いやぁ。こいつは拾いもんでして。"
+                                "\\n< Ghee >Oh, well. This is just something I picked up. It's\nnot like I made it or anything."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "別に俺が作ったわけじゃないんでさ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<ギー>"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "なんでこの瓶一本これっきり。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "となると売っても小金にしかなりゃあせんでしょう？"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<ギー>"
+                                ""
                             ]
                         },
                         {
@@ -14122,14 +14091,45 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "何かに使うっても、俺の頭じゃあねぇ…。"
+                                "\\n< Ghee >Why would selling just this one bottle be worth\nonly a small amount of money?"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<ギー>"
+                                "\\n< Ghee >Even if I were to use it for something, it's\nbeyond my capabilities..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -14153,14 +14153,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "それで、下水に潜んで毒の販売に活用する事にしたのか。"
+                                "\\n< Serena >So, did you decide to use it to engage in poison\ndistribution by lurking in the sewers?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -14184,21 +14184,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "救いようのない愚かさだ。世界を変えうる発見が。"
+                                "\\n< Serena >It's an unfathomable foolishness. A discovery that\ncould change the world... packed into such a cheap\nbottle..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "こんな安物の瓶に詰められて…。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -14222,21 +14222,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "いえいえ、それがですね。"
+                                "\\n< Ghee >Oh no, that's not it. The fact that this bottle is\ncheap is what's gross about it, you know?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "この瓶が安物って部分がまたキモでやしてね？"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<ギー>"
+                                ""
                             ]
                         },
                         {
@@ -14260,14 +14260,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ふむ。"
+                                "\\n< Serena >Hmmm."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -14291,21 +14291,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "これがもう見るからに不出来で脆そうじゃないですか。"
+                                "\\n< Ghee >Doesn't this look unfinished and fragile just by\nlooking at it? That's why I'm doing this."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "だからこうして。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<ギー>"
+                                ""
                             ]
                         },
                         {
@@ -14322,14 +14322,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "投げつけて目くらましにできんだよなぁ！"
+                                "\\n< Ghee >I could use it to blindside and confuse them by\nthrowing it!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<ギー>"
+                                ""
                             ]
                         },
                         {
@@ -14497,14 +14497,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ムッ！？"
+                                "\\n< Serena >Huh?!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -15050,14 +15050,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "おげ…ぷぉ…なんでへぇ……？"
+                                "\\n< Ghee >Oh...puh...why is it so...amazing...?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<ギー>"
+                                ""
                             ]
                         },
                         {
@@ -15307,14 +15307,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "どうせそんな事だろうと思っていただけだ。"
+                                "\\n< Serena >I just thought it would be something like that\nanyway."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -15338,21 +15338,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "備えていれば、見えずとも"
+                                "\\n< Serena >If you're prepared, it's no big deal to throw a\npunch in the direction where you hear the sound,\neven if you can't see it."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "音のする方に音拳を撃つ事くらい造作もない。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -15376,14 +15376,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ヂ…畜生ォ……ぐへっ！"
+                                "\\n< Ghee >D...damn it...guh!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<ギー>"
+                                ""
                             ]
                         },
                         {
@@ -15407,14 +15407,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ふん……。"
+                                "\\n< Serena >Hmph..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -15438,14 +15438,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "…しかし今浴びせられた瓶の中身……。"
+                                "\\n< Serena >...However, the contents of the bottle that was\njust thrown at me..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -15462,21 +15462,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "自分で逃げたという事は、スライムだったのか？"
+                                "\\n< Serena >So you're saying it escaped on its own, meaning it\nwas a slime? It had the power to control other\nslimes..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "他のスライムを操る力を持った……。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -15500,21 +15500,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "…逃がすべきではなかったか。"
+                                "\\n< Serena >...Shouldn't we have not let it escape? But even\nif we were to chase after it now..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "とはいえ今から追いかけようにもな……。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -15538,14 +15538,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "……。"
+                                "\\n< Serena >......."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {

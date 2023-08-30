@@ -4504,21 +4504,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "失礼する。部屋は空いているだろうか？"
+                                "\\n< Serena >Excuse me. Is the room available? I would like to\nborrow accommodations for a while."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "しばらく宿を借りたいのだが。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -4542,21 +4542,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "はぁ、部屋は空いておりますが…"
+                                "\\n< Innkeeper >Ah, the room is available... How many days are you\nplanning to stay?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "ご滞在の予定は幾日ほどでしょうか？"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<宿屋の店主>"
+                                ""
                             ]
                         },
                         {
@@ -4587,14 +4587,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "未定だ。とりあえずこれで頼みたい。"
+                                "\\n< Serena >I'm not sure yet. For now, I'd like to go with\nthis."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -4716,14 +4716,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "おお？！…これはこれは。"
+                                "\\n< Innkeeper >Oh?!... Well, well."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<宿屋の店主>"
+                                ""
                             ]
                         },
                         {
@@ -4747,21 +4747,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "食事やベッドの用意も頼む。"
+                                "\\n< Serena >Please also prepare meals and a bed. If there are\nany shortages, I will pay for them separately."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "不足が出ればまた追加で支払おう。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -4785,21 +4785,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "不足など…１００日滞在いただいても"
+                                "\\n< Innkeeper >Don't worry about any shortages... Even if you\nstay for 100 days, the price will be more than\nenough."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "十分の金額でございますよ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<宿屋の店主>"
+                                ""
                             ]
                         },
                         {
@@ -4823,14 +4823,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "そのようなものか。"
+                                "\\n< Serena >Is that so?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -4847,21 +4847,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ところで湯あみをしたいのだが、"
+                                "\\n< Serena >By the way, I want to take a bath. Is there a bath\nin this inn?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "こちらの宿にはお風呂は置かれてあるだろうか？"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -4885,21 +4885,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "この街には温泉がございまして、湯あみにはそちらを"
+                                "\\n< Innkeeper >In this town, we have hot springs available, and\nwe guide guests to the bathing area."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "ご案内しております。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<宿屋の店主>"
+                                ""
                             ]
                         },
                         {
@@ -4923,14 +4923,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "温泉？そんなものがあるのか。"
+                                "\\n< Serena >Hot springs? Is there such a thing?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -4961,14 +4961,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<宿屋の店主>温泉は街南西の建物になります。"
+                                "\\n< Innkeeper >The hot springs are located in a building to the\nsouthwest of the town. If you leave the inn and\nwalk along the road, you will arrive there\nquickly."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "宿を出て道沿いに歩けばすぐにつきますよ。"
+                                ""
                             ]
                         },
                         {
@@ -4985,14 +4985,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<宿屋の店主>帰ってこられるまでに、"
+                                "\\n< Innkeeper >I will prepare the room until you come back."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "お部屋のご用意は整えさせていただきます。"
+                                ""
                             ]
                         },
                         {
@@ -5016,14 +5016,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>ふむ、では行ってくるとしよう。"
+                                "\\n< Serena >Hmm, then I'll be off. I've asked for the room."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "部屋の方は頼んだぞ。"
+                                ""
                             ]
                         },
                         {
@@ -5158,14 +5158,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<宿屋の店主>お部屋はまだ準備出来ておりませんので、"
+                                "\\n< Innkeeper >The room is not ready yet, so please enjoy the hot\nsprings."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "どうぞ温泉をお楽しみください。"
+                                ""
                             ]
                         },
                         {
@@ -5358,14 +5358,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<宿屋の店主>おはようございます。"
+                                "\\n< Innkeeper >Good morning. Did you sleep well yesterday?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "昨日はよく眠れましたでしょうか？"
+                                ""
                             ]
                         },
                         {
@@ -5465,21 +5465,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ご機嫌よう。そなたに神の祝福がありますように。"
+                                "\\n< Serena >Good day. May the blessings of the gods be upon\nyou... Yes, I suppose I slept a bit too much."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "…そうだな、少し眠りすぎたくらいだ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -5503,14 +5503,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<宿屋の店主>それはそれは…"
+                                "\\n< Innkeeper >Oh my... Do you have some urgent plans, perhaps?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "何か急ぎのご予定でもありますのでしょうか？"
+                                ""
                             ]
                         },
                         {
@@ -5534,14 +5534,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "道具屋にな。少し寄らねばならぬ。"
+                                "\\n< Serena >I'm going to the item shop. I need to stop by for\na bit."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -5565,14 +5565,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<宿屋の店主>…左様でございますか。"
+                                "\\n< Innkeeper >...Is that so. The item shop is located on the\nsouth side of this town."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "道具屋はこの街の南側にあります。"
+                                ""
                             ]
                         },
                         {
@@ -5589,21 +5589,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "当宿を出てそのまままっすぐ歩いていただければ、"
+                                "\\n< Innkeeper >If you just walk straight out of this inn, you\nwill arrive soon."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "じきに着きますよ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<宿屋の店主>"
+                                ""
                             ]
                         },
                         {
@@ -5627,14 +5627,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>そうか、ありがとう。"
+                                "\\n< Serena >I see, thank you. Well then, I'll be going."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "では行ってくる。"
+                                ""
                             ]
                         },
                         {
@@ -5658,7 +5658,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<宿屋の店主>お気をつけて。"
+                                "\\n< Innkeeper >Take care."
                             ]
                         },
                         {
@@ -5819,14 +5819,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "お休みになられますか？"
+                                "\\n< Innkeeper >Are you going to rest?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "\\n<宿屋の店主>"
+                                ""
                             ]
                         },
                         {
@@ -5834,8 +5834,8 @@
                             "indent": 1,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -5924,21 +5924,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "代金は既にいただいておりますので、"
+                                "\\n< Innkeeper >We have already received the payment, so please\nfeel free to use it as you wish."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "どうぞご自由にお使いください。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "\\n<宿屋の店主>"
+                                ""
                             ]
                         },
                         {
@@ -6255,7 +6255,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>さて…真南にあるといって言っていたか。"
+                                "\\n< Serena >Well... Did they say it's located due south?"
                             ]
                         },
                         {
@@ -6279,21 +6279,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>まぁ、そう広い町でもない。"
+                                "\\n< Serena >Well... It's not that big of a town. Even if we\ndon't know, if we walk around and ask, we'll\nprobably find it soon enough."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "分からなくても訪ねながら歩いていれば、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "すぐにでも見つかるだろう。"
+                                ""
                             ]
                         },
                         {
@@ -6674,7 +6674,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>さて…真南にあるといって言っていたか。"
+                                "\\n< Serena >Well... Did they say it's located due south?"
                             ]
                         },
                         {
@@ -6698,21 +6698,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>まぁ、そう広い町でもない。"
+                                "\\n< Serena >Well... It's not that big of a town. Even if we\ndon't know, if we walk around and ask, we'll\nprobably find it soon enough."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "分からなくても訪ねながら歩いていれば、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "すぐにでも見つかるだろう。"
+                                ""
                             ]
                         },
                         {
@@ -7364,7 +7364,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>さて…真南にあるといって言っていたか。"
+                                "\\n< Serena >Well... Did they say it's located due south?"
                             ]
                         },
                         {
@@ -7388,21 +7388,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>まぁ、そう広い町でもない。"
+                                "\\n< Serena >Well... It's not that big of a town. Even if we\ndon't know, if we walk around and ask, we should\nbe able to find it soon enough."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "分からなくても訪ねながら歩いていれば、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "すぐにでも見つかるだろう。"
+                                ""
                             ]
                         },
                         {
@@ -7626,14 +7626,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "お客様、先に受付を済ませて"
+                                "\\n< Innkeeper >Please complete the check-in process before using\nyour room."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "からお部屋をご利用ください。\\n<宿屋の店主>"
+                                ""
                             ]
                         },
                         {
@@ -7805,21 +7805,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "お部屋はまだ準備出来ており"
+                                "\\n< Innkeeper >The room is not ready yet, so please enjoy the hot\nsprings for now."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "ませんので、どうぞ温泉を"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "楽しんできてください。\\n<宿屋の店主>"
+                                ""
                             ]
                         },
                         {
@@ -8119,14 +8119,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<宿屋のおかみさん>ごめんなさいね。この時間帯になっちゃうと"
+                                "\\n< Innkeeper >I'm sorry. It might take longer to prepare a\nproper meal at this time."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "ちゃんとしたご飯を用意するのが遅くなるかも。"
+                                ""
                             ]
                         },
                         {
@@ -8143,14 +8143,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<宿屋のおかみさん>近くの酒場のご飯は美味しいから、"
+                                "\\n< Innkeeper >The food at the nearby tavern is delicious, so it\nmight be better to have your meal there today."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "今日はあっちで済ませてきた方がいいかもしれないわね。"
+                                ""
                             ]
                         },
                         {
@@ -8299,14 +8299,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<宿屋のおかみさん>お食事を用意してありますから、"
+                                "\\n< Innkeeper >We have prepared a meal, so please feel free to\neat."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "良かったら食べていってね。"
+                                ""
                             ]
                         },
                         {
@@ -8395,14 +8395,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<宿屋のおかみさん>お食事を用意してありますから、"
+                                "\\n< Innkeeper >We have prepared a meal, so please feel free to\neat."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "良かったら食べていってね。"
+                                ""
                             ]
                         },
                         {
@@ -8552,14 +8552,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "お客様、先に受付を済ませて"
+                                "\\n< Innkeeper >Guests, please complete the check-in process\nbefore using your rooms."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "からお部屋をご利用ください。\\n<宿屋の店主>"
+                                ""
                             ]
                         },
                         {
@@ -8731,21 +8731,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "お部屋はまだ準備出来ており"
+                                "\\n< Innkeeper >The room is not ready yet, so please enjoy the hot\nsprings in the meantime."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "ませんので、どうぞ温泉を"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "楽しんできてください。\\n<宿屋の店主>"
+                                ""
                             ]
                         },
                         {
@@ -9294,8 +9294,8 @@
                             "indent": 2,
                             "parameters": [
                                 [
-                                    "食べる",
-                                    "食べない"
+                                    "Eat",
+                                    "Not eating"
                                 ],
                                 1,
                                 0,
@@ -9667,7 +9667,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\n<セレナ>美味しそうだが、今はお腹が減っていない。"
+                                "\\n< Serena >It looks delicious, but I'm not hungry right now."
                             ]
                         },
                         {
@@ -9881,14 +9881,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>こっちは店主殿達の個室だな。"
+                                "\\n< Serena >This is the private room for the shop owners.\nLet's not go in..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "立ち入るのはやめておこう…。"
+                                ""
                             ]
                         },
                         {
@@ -10170,14 +10170,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "箱だ。"
+                                "\\n< Serena >It's a box."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -10194,14 +10194,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "うむ…なぜこんなものを調べているのだ？"
+                                "\\n< Serena >Hmmm... Why are you investigating something like\nthis?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -10313,14 +10313,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "箱だ。"
+                                "\\n< Serena >It's a box."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -10337,14 +10337,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "特に有用な物は見当たらない。"
+                                "\\n< Serena >I don't see anything particularly useful."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -10456,14 +10456,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "樽だ。"
+                                "\\n< Serena >It's a barrel."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -10480,21 +10480,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "飲用水が入っているようだ。"
+                                "\\n< Serena >It seems to contain drinking water. Let's not\ntouch it."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "触らないでおこう。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -10606,45 +10606,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "暖炉だ。"
+                                "\\n< Serena >It's a fireplace."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "先ほど宿泊簿をチラリと見たのだが、どうもこの暖炉の"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "前のスペースで泊まる者もいるらしい。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -10661,21 +10630,52 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "そんな場所を貸しているほうも驚きだが、泊まるほうは"
+                                "\\n< Serena >Earlier, I glanced at the guestbook and it seems\nthat some people stay in the space in front of\nthis fireplace."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "もっと驚きだ。どうやって寝るのだろう…。"
+                                "\\n< Serena >It's surprising that they're renting out a place\nlike this, but it's even more surprising for those\nwho stay here. I wonder how they sleep..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -10796,38 +10796,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "メニューなどが書かれている。"
+                                "\\n< Serena >There's a menu and other things written here."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "\\n<セレナ>"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 1,
-                            "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "ブリオッシュは…ない。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -10844,21 +10820,45 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "投資してラインナップに増やしてもらうべきだろうか。"
+                                "\\n< Serena >There's no brioche."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "真剣に悩む。"
+                                "\\n< Serena >Should I invest and increase the lineup? I'm\nseriously considering it."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -10980,14 +10980,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ご使用前にノックをどうぞ。"
+                                "\\n< Serena >Please knock before entering."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -11011,14 +11011,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "…。"
+                                "\\n< Serena >...."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -11042,14 +11042,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "あぁ、なるほど。誰か入っていないか確認のためか。"
+                                "\\n< Serena >Ah, I see. Is someone checking to see if anyone's\ninside?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -11161,14 +11161,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "小麦粉か何かだ。"
+                                "\\n< Serena >Is it flour or something?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -11185,21 +11185,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "よくひかれている。"
+                                "\\n< Serena >It's being kneaded well. It will probably become\ndelicious bread."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "美味しいパンになるのだろう。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -11311,14 +11311,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "リンゴだ。まだ青い。"
+                                "\\n< Serena >It's an apple. It's still green."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -11335,14 +11335,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "け、ケーキになるのだろうか…。"
+                                "\\n< Serena >I wonder if it will become a cake..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -11454,14 +11454,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "かまどだ。"
+                                "\\n< Serena >It's the stove."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -11478,21 +11478,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "料理か。"
+                                "\\n< Serena >Cooking, huh? Mother might not be pleased, but I'm\na little interested."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "母上は良い顔をされぬかもしれぬが、私は少し興味がある。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -11604,45 +11604,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "にんにくとたまねぎが吊られている。"
+                                "\\n< Serena >Garlic and onions are hanging."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "こやつらは悪い連中だ。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "おそらくは見せしめの刑罰を受けているに違いない。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -11659,14 +11628,45 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "これに懲りて少しは甘くなってくれる事を願う。"
+                                "\\n< Serena >These guys are a bad bunch. They must have\nreceived some kind of punishment as a warning."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                "\\n< Serena >I hope they learn their lesson from this and\nbecome a little sweeter."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -11778,14 +11778,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "お酒が置かれているぞ。"
+                                "\\n< Serena >There's alcohol placed here."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -11802,21 +11802,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "別に興味はないが、ああやってこれ見よがしに"
+                                "\\n< Serena >I'm not particularly interested, but it does annoy\nme a bit when it's placed in a spot that's clearly\nout of reach like that."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "手の届かない場所へ置かれると少し腹が立つ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -12021,14 +12021,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "小麦粉の袋だ。"
+                                "\\n< Serena >It's a bag of flour."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -12045,14 +12045,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "私にはとても持ち上げられそうにない。"
+                                "\\n< Serena >It doesn't seem like I can lift it."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -12164,14 +12164,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "おだいどこーだ。"
+                                "\\n< Serena >Where is the big dick?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -12188,14 +12188,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "料理中。触るべきではないだろう。"
+                                "\\n< Serena >I'm cooking. You shouldn't touch it."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {

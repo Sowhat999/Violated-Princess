@@ -9807,14 +9807,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "助けて！誰か助けてぇ―！！"
+                                "\\n< Marilou >Help me! Someone, please help me!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "\\n<マリルー>"
+                                ""
                             ]
                         },
                         {
@@ -9914,14 +9914,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "たす、けてぇ……。"
+                                "\\n< Marilou >Help, please..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "\\n<マリルー>"
+                                ""
                             ]
                         },
                         {
@@ -10110,14 +10110,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "はぁ、はぁ…出口だ！"
+                                "\\n< Serena >Haa, haa... The exit!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -10374,14 +10374,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "……赤ちゃんが。"
+                                "\\n< Serena >......The baby..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -10389,8 +10389,8 @@
                             "indent": 1,
                             "parameters": [
                                 [
-                                    "戻る",
-                                    "戻れない"
+                                    "Return",
+                                    "Can't go back"
                                 ],
                                 1,
                                 0,
@@ -10438,14 +10438,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "……どうして。ゴブリンの赤ちゃんなのに…なんで…私…。"
+                                "\\n< Serena >......Why... is it a goblin baby... why... me...."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -10531,14 +10531,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "戻ってたまるか！"
+                                "\\n< Serena >I won't go back!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -10627,14 +10627,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "戻ってたまるか！"
+                                "\\n< Serena >I won't go back!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
