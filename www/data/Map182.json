@@ -13746,13 +13746,6 @@
                             ]
                         },
                         {
-                            "code": 117,
-                            "indent": 0,
-                            "parameters": [
-                                174
-                            ]
-                        },
-                        {
                             "code": 122,
                             "indent": 0,
                             "parameters": [
@@ -13773,11 +13766,6 @@
                             ]
                         },
                         {
-                            "code": 222,
-                            "indent": 0,
-                            "parameters": []
-                        },
-                        {
                             "code": 117,
                             "indent": 0,
                             "parameters": [
@@ -13790,6 +13778,18 @@
                             "parameters": [
                                 151
                             ]
+                        },
+                        {
+                            "code": 117,
+                            "indent": 0,
+                            "parameters": [
+                                174
+                            ]
+                        },
+                        {
+                            "code": 222,
+                            "indent": 0,
+                            "parameters": []
                         },
                         {
                             "code": 0,
@@ -25442,6 +25442,20 @@
                             ]
                         },
                         {
+                            "code": 117,
+                            "indent": 1,
+                            "parameters": [
+                                7
+                            ]
+                        },
+                        {
+                            "code": 117,
+                            "indent": 1,
+                            "parameters": [
+                                151
+                            ]
+                        },
+                        {
                             "code": 0,
                             "indent": 1,
                             "parameters": []
@@ -25615,13 +25629,6 @@
                             ]
                         },
                         {
-                            "code": 117,
-                            "indent": 1,
-                            "parameters": [
-                                174
-                            ]
-                        },
-                        {
                             "code": 121,
                             "indent": 1,
                             "parameters": [
@@ -25651,6 +25658,27 @@
                             ]
                         },
                         {
+                            "code": 117,
+                            "indent": 1,
+                            "parameters": [
+                                7
+                            ]
+                        },
+                        {
+                            "code": 117,
+                            "indent": 1,
+                            "parameters": [
+                                151
+                            ]
+                        },
+                        {
+                            "code": 117,
+                            "indent": 1,
+                            "parameters": [
+                                174
+                            ]
+                        },
+                        {
                             "code": 222,
                             "indent": 1,
                             "parameters": []
@@ -25670,20 +25698,6 @@
                             "indent": 0,
                             "parameters": [
                                 "終了"
-                            ]
-                        },
-                        {
-                            "code": 117,
-                            "indent": 0,
-                            "parameters": [
-                                7
-                            ]
-                        },
-                        {
-                            "code": 117,
-                            "indent": 0,
-                            "parameters": [
-                                151
                             ]
                         },
                         {

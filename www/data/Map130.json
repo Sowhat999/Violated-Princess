@@ -8850,7 +8850,7 @@
                     "moveType": 0,
                     "priorityType": 0,
                     "stepAnime": false,
-                    "through": false,
+                    "through": true,
                     "trigger": 0,
                     "walkAnime": true
                 },
@@ -8901,7 +8901,7 @@
                     "moveType": 0,
                     "priorityType": 1,
                     "stepAnime": true,
-                    "through": false,
+                    "through": true,
                     "trigger": 0,
                     "walkAnime": true
                 },
@@ -8952,7 +8952,7 @@
                     "moveType": 0,
                     "priorityType": 0,
                     "stepAnime": false,
-                    "through": false,
+                    "through": true,
                     "trigger": 0,
                     "walkAnime": true
                 }
