@@ -2350,15 +2350,19 @@
                     },
                     "list": [
                         {
-                            "code": 250,
+                            "code": 117,
                             "indent": 0,
                             "parameters": [
-                                {
-                                    "name": "Move1",
-                                    "pan": 0,
-                                    "pitch": 100,
-                                    "volume": 90
-                                }
+                                19
+                            ]
+                        },
+                        {
+                            "code": 121,
+                            "indent": 0,
+                            "parameters": [
+                                51,
+                                51,
+                                1
                             ]
                         },
                         {
