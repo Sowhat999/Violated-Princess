@@ -3725,7 +3725,7 @@
         },
         {
             "id": 2,
-            "name": "EV002",
+            "name": "階段１",
             "note": "",
             "pages": [
                 {
@@ -3753,6 +3753,24 @@
                         "tileId": 0
                     },
                     "list": [
+                        {
+                            "code": 121,
+                            "indent": 0,
+                            "parameters": [
+                                1026,
+                                1026,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 121,
+                            "indent": 0,
+                            "parameters": [
+                                1040,
+                                1040,
+                                1
+                            ]
+                        },
                         {
                             "code": 250,
                             "indent": 0,
@@ -4528,6 +4546,13 @@
                             "indent": 0,
                             "parameters": [
                                 ""
+                            ]
+                        },
+                        {
+                            "code": 118,
+                            "indent": 0,
+                            "parameters": [
+                                "終了"
                             ]
                         },
                         {
@@ -5418,13 +5443,6 @@
                             "code": 412,
                             "indent": 0,
                             "parameters": []
-                        },
-                        {
-                            "code": 118,
-                            "indent": 0,
-                            "parameters": [
-                                "終了"
-                            ]
                         },
                         {
                             "code": 117,
@@ -9701,7 +9719,7 @@
         },
         {
             "id": 6,
-            "name": "EV006",
+            "name": "階段２",
             "note": "",
             "pages": [
                 {
@@ -9729,6 +9747,24 @@
                         "tileId": 0
                     },
                     "list": [
+                        {
+                            "code": 121,
+                            "indent": 0,
+                            "parameters": [
+                                1026,
+                                1026,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 121,
+                            "indent": 0,
+                            "parameters": [
+                                1040,
+                                1040,
+                                1
+                            ]
+                        },
                         {
                             "code": 250,
                             "indent": 0,
@@ -45716,6 +45752,15 @@
                             ]
                         },
                         {
+                            "code": 121,
+                            "indent": 2,
+                            "parameters": [
+                                1383,
+                                1383,
+                                0
+                            ]
+                        },
+                        {
                             "code": 356,
                             "indent": 2,
                             "parameters": [
@@ -45835,6 +45880,15 @@
                             ]
                         },
                         {
+                            "code": 121,
+                            "indent": 2,
+                            "parameters": [
+                                1379,
+                                1379,
+                                0
+                            ]
+                        },
+                        {
                             "code": 356,
                             "indent": 2,
                             "parameters": [
@@ -45866,6 +45920,15 @@
                                 1906,
                                 0,
                                 1,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 121,
+                            "indent": 2,
+                            "parameters": [
+                                1380,
+                                1380,
                                 0
                             ]
                         },
@@ -45905,6 +45968,15 @@
                             ]
                         },
                         {
+                            "code": 121,
+                            "indent": 2,
+                            "parameters": [
+                                1381,
+                                1381,
+                                0
+                            ]
+                        },
+                        {
                             "code": 356,
                             "indent": 2,
                             "parameters": [
@@ -45937,6 +46009,15 @@
                                 0,
                                 3,
                                 1
+                            ]
+                        },
+                        {
+                            "code": 121,
+                            "indent": 2,
+                            "parameters": [
+                                1382,
+                                1382,
+                                0
                             ]
                         },
                         {
@@ -45978,6 +46059,106 @@
                             "indent": 0,
                             "parameters": [
                                 "終了"
+                            ]
+                        },
+                        {
+                            "code": 250,
+                            "indent": 0,
+                            "parameters": [
+                                {
+                                    "name": "Coin",
+                                    "volume": 90,
+                                    "pitch": 100,
+                                    "pan": 0
+                                }
+                            ]
+                        },
+                        {
+                            "code": 111,
+                            "indent": 0,
+                            "parameters": [
+                                10,
+                                3,
+                                true
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                814,
+                                814,
+                                0,
+                                0,
+                                400
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 1,
+                            "parameters": [
+                                "CommonPopupManager.showInfo({},'400Ｓ手に入れた。',null)"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 411,
+                            "indent": 0,
+                            "parameters": []
+                        },
+                        {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                814,
+                                814,
+                                0,
+                                0,
+                                200
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 1,
+                            "parameters": [
+                                "CommonPopupManager.showInfo({},'200Ｓ手に入れた。',null)"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
+                        },
+                        {
+                            "code": 125,
+                            "indent": 0,
+                            "parameters": [
+                                0,
+                                1,
+                                814
+                            ]
+                        },
+                        {
+                            "code": 117,
+                            "indent": 0,
+                            "parameters": [
+                                552
+                            ]
+                        },
+                        {
+                            "code": 117,
+                            "indent": 0,
+                            "parameters": [
+                                16
                             ]
                         },
                         {
@@ -46296,11 +46477,30 @@
                             "parameters": []
                         },
                         {
-                            "code": 356,
+                            "code": 111,
                             "indent": 0,
                             "parameters": [
-                                "回想セーブ Waitress_Rape_1"
+                                0,
+                                1300,
+                                1
                             ]
+                        },
+                        {
+                            "code": 356,
+                            "indent": 1,
+                            "parameters": [
+                                "回想セーブ ウェイトレス凌辱　１"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
                         },
                         {
                             "code": 111,
@@ -53794,6 +53994,32 @@
                             "parameters": []
                         },
                         {
+                            "code": 111,
+                            "indent": 0,
+                            "parameters": [
+                                0,
+                                1300,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 1,
+                            "parameters": [
+                                "Scene_Recollection.prototype.rngd_exit_scene();"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
+                        },
+                        {
                             "code": 201,
                             "indent": 0,
                             "parameters": [
@@ -54133,34 +54359,6 @@
                             "code": 222,
                             "indent": 0,
                             "parameters": []
-                        },
-                        {
-                            "code": 250,
-                            "indent": 0,
-                            "parameters": [
-                                {
-                                    "name": "Coin",
-                                    "volume": 90,
-                                    "pitch": 100,
-                                    "pan": 0
-                                }
-                            ]
-                        },
-                        {
-                            "code": 125,
-                            "indent": 0,
-                            "parameters": [
-                                0,
-                                0,
-                                200
-                            ]
-                        },
-                        {
-                            "code": 355,
-                            "indent": 0,
-                            "parameters": [
-                                "CommonPopupManager.showInfo({},\"I got 200S.\",null)"
-                            ]
                         },
                         {
                             "code": 117,
@@ -55177,17 +55375,6 @@
                             "code": 122,
                             "indent": 0,
                             "parameters": [
-                                814,
-                                814,
-                                1,
-                                0,
-                                200
-                            ]
-                        },
-                        {
-                            "code": 122,
-                            "indent": 0,
-                            "parameters": [
                                 943,
                                 943,
                                 0,
@@ -55494,11 +55681,30 @@
                             "parameters": []
                         },
                         {
-                            "code": 356,
+                            "code": 111,
                             "indent": 0,
                             "parameters": [
-                                "回想セーブ Waitress_Rape_2"
+                                0,
+                                1300,
+                                1
                             ]
+                        },
+                        {
+                            "code": 356,
+                            "indent": 1,
+                            "parameters": [
+                                "回想セーブ ウェイトレス凌辱　２"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
                         },
                         {
                             "code": 205,
@@ -57610,6 +57816,32 @@
                             "parameters": []
                         },
                         {
+                            "code": 111,
+                            "indent": 0,
+                            "parameters": [
+                                0,
+                                1300,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 1,
+                            "parameters": [
+                                "Scene_Recollection.prototype.rngd_exit_scene();"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
+                        },
+                        {
                             "code": 201,
                             "indent": 0,
                             "parameters": [
@@ -57942,34 +58174,6 @@
                             "parameters": []
                         },
                         {
-                            "code": 250,
-                            "indent": 0,
-                            "parameters": [
-                                {
-                                    "name": "Coin",
-                                    "volume": 90,
-                                    "pitch": 100,
-                                    "pan": 0
-                                }
-                            ]
-                        },
-                        {
-                            "code": 125,
-                            "indent": 0,
-                            "parameters": [
-                                0,
-                                0,
-                                200
-                            ]
-                        },
-                        {
-                            "code": 355,
-                            "indent": 0,
-                            "parameters": [
-                                "CommonPopupManager.showInfo({},\"I got 200S.\",null)"
-                            ]
-                        },
-                        {
                             "code": 101,
                             "indent": 0,
                             "parameters": [
@@ -58067,17 +58271,6 @@
                             "indent": 0,
                             "parameters": [
                                 552
-                            ]
-                        },
-                        {
-                            "code": 122,
-                            "indent": 0,
-                            "parameters": [
-                                814,
-                                814,
-                                1,
-                                0,
-                                200
                             ]
                         },
                         {
@@ -58577,11 +58770,30 @@
                             "parameters": []
                         },
                         {
-                            "code": 356,
+                            "code": 111,
                             "indent": 0,
                             "parameters": [
-                                "回想セーブ Waitress_Rape_3"
+                                0,
+                                1300,
+                                1
                             ]
+                        },
+                        {
+                            "code": 356,
+                            "indent": 1,
+                            "parameters": [
+                                "回想セーブ ウェイトレス凌辱　３"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
                         },
                         {
                             "code": 205,
@@ -60860,6 +61072,32 @@
                             "parameters": []
                         },
                         {
+                            "code": 111,
+                            "indent": 0,
+                            "parameters": [
+                                0,
+                                1300,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 1,
+                            "parameters": [
+                                "Scene_Recollection.prototype.rngd_exit_scene();"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
+                        },
+                        {
                             "code": 201,
                             "indent": 0,
                             "parameters": [
@@ -61320,34 +61558,6 @@
                             "parameters": []
                         },
                         {
-                            "code": 250,
-                            "indent": 0,
-                            "parameters": [
-                                {
-                                    "name": "Coin",
-                                    "volume": 90,
-                                    "pitch": 100,
-                                    "pan": 0
-                                }
-                            ]
-                        },
-                        {
-                            "code": 125,
-                            "indent": 0,
-                            "parameters": [
-                                0,
-                                0,
-                                200
-                            ]
-                        },
-                        {
-                            "code": 355,
-                            "indent": 0,
-                            "parameters": [
-                                "CommonPopupManager.showInfo({},\"I got 200S.\",null)"
-                            ]
-                        },
-                        {
                             "code": 117,
                             "indent": 0,
                             "parameters": [
@@ -61673,17 +61883,6 @@
                             "indent": 0,
                             "parameters": [
                                 552
-                            ]
-                        },
-                        {
-                            "code": 122,
-                            "indent": 0,
-                            "parameters": [
-                                814,
-                                814,
-                                1,
-                                0,
-                                200
                             ]
                         },
                         {
@@ -63673,34 +63872,6 @@
                             "parameters": []
                         },
                         {
-                            "code": 250,
-                            "indent": 0,
-                            "parameters": [
-                                {
-                                    "name": "Coin",
-                                    "volume": 90,
-                                    "pitch": 100,
-                                    "pan": 0
-                                }
-                            ]
-                        },
-                        {
-                            "code": 125,
-                            "indent": 0,
-                            "parameters": [
-                                0,
-                                0,
-                                200
-                            ]
-                        },
-                        {
-                            "code": 355,
-                            "indent": 0,
-                            "parameters": [
-                                "CommonPopupManager.showInfo({},\"I got 200S.\",null)"
-                            ]
-                        },
-                        {
                             "code": 205,
                             "indent": 0,
                             "parameters": [
@@ -63805,17 +63976,6 @@
                             "indent": 0,
                             "parameters": [
                                 552
-                            ]
-                        },
-                        {
-                            "code": 122,
-                            "indent": 0,
-                            "parameters": [
-                                814,
-                                814,
-                                1,
-                                0,
-                                200
                             ]
                         },
                         {
@@ -64442,11 +64602,30 @@
                             "parameters": []
                         },
                         {
-                            "code": 356,
+                            "code": 111,
                             "indent": 0,
                             "parameters": [
-                                "回想セーブ Waitress_Rape_4"
+                                0,
+                                1300,
+                                1
                             ]
+                        },
+                        {
+                            "code": 356,
+                            "indent": 1,
+                            "parameters": [
+                                "回想セーブ ウェイトレス凌辱　４"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
                         },
                         {
                             "code": 205,
@@ -67213,6 +67392,32 @@
                             "parameters": []
                         },
                         {
+                            "code": 111,
+                            "indent": 0,
+                            "parameters": [
+                                0,
+                                1300,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 1,
+                            "parameters": [
+                                "Scene_Recollection.prototype.rngd_exit_scene();"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
+                        },
+                        {
                             "code": 122,
                             "indent": 0,
                             "parameters": [
@@ -67878,34 +68083,6 @@
                             "parameters": []
                         },
                         {
-                            "code": 250,
-                            "indent": 0,
-                            "parameters": [
-                                {
-                                    "name": "Coin",
-                                    "volume": 90,
-                                    "pitch": 100,
-                                    "pan": 0
-                                }
-                            ]
-                        },
-                        {
-                            "code": 125,
-                            "indent": 0,
-                            "parameters": [
-                                0,
-                                0,
-                                200
-                            ]
-                        },
-                        {
-                            "code": 355,
-                            "indent": 0,
-                            "parameters": [
-                                "CommonPopupManager.showInfo({},\"I got 200S.\",null)"
-                            ]
-                        },
-                        {
                             "code": 117,
                             "indent": 0,
                             "parameters": [
@@ -68186,17 +68363,6 @@
                             "indent": 0,
                             "parameters": [
                                 552
-                            ]
-                        },
-                        {
-                            "code": 122,
-                            "indent": 0,
-                            "parameters": [
-                                814,
-                                814,
-                                1,
-                                0,
-                                200
                             ]
                         },
                         {
@@ -68855,11 +69021,30 @@
                             "parameters": []
                         },
                         {
-                            "code": 356,
+                            "code": 111,
                             "indent": 0,
                             "parameters": [
-                                "回想セーブ Waitress_Rape_5"
+                                0,
+                                1300,
+                                1
                             ]
+                        },
+                        {
+                            "code": 356,
+                            "indent": 1,
+                            "parameters": [
+                                "回想セーブ ウェイトレス凌辱　５"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
                         },
                         {
                             "code": 203,
@@ -71608,6 +71793,32 @@
                             "parameters": []
                         },
                         {
+                            "code": 111,
+                            "indent": 0,
+                            "parameters": [
+                                0,
+                                1300,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 1,
+                            "parameters": [
+                                "Scene_Recollection.prototype.rngd_exit_scene();"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
+                        },
+                        {
                             "code": 205,
                             "indent": 0,
                             "parameters": [
@@ -71730,17 +71941,6 @@
                             "indent": 0,
                             "parameters": [
                                 552
-                            ]
-                        },
-                        {
-                            "code": 122,
-                            "indent": 0,
-                            "parameters": [
-                                814,
-                                814,
-                                1,
-                                0,
-                                200
                             ]
                         },
                         {
@@ -72347,34 +72547,6 @@
                             "code": 222,
                             "indent": 0,
                             "parameters": []
-                        },
-                        {
-                            "code": 250,
-                            "indent": 0,
-                            "parameters": [
-                                {
-                                    "name": "Coin",
-                                    "volume": 90,
-                                    "pitch": 100,
-                                    "pan": 0
-                                }
-                            ]
-                        },
-                        {
-                            "code": 125,
-                            "indent": 0,
-                            "parameters": [
-                                0,
-                                0,
-                                200
-                            ]
-                        },
-                        {
-                            "code": 355,
-                            "indent": 0,
-                            "parameters": [
-                                "CommonPopupManager.showInfo({},\"I got 200S.\",null)"
-                            ]
                         },
                         {
                             "code": 205,
@@ -74565,34 +74737,6 @@
                             "parameters": []
                         },
                         {
-                            "code": 250,
-                            "indent": 0,
-                            "parameters": [
-                                {
-                                    "name": "Coin",
-                                    "volume": 90,
-                                    "pitch": 100,
-                                    "pan": 0
-                                }
-                            ]
-                        },
-                        {
-                            "code": 125,
-                            "indent": 0,
-                            "parameters": [
-                                0,
-                                0,
-                                200
-                            ]
-                        },
-                        {
-                            "code": 355,
-                            "indent": 0,
-                            "parameters": [
-                                "CommonPopupManager.showInfo({},\"I got 200S.\",null)"
-                            ]
-                        },
-                        {
                             "code": 205,
                             "indent": 0,
                             "parameters": [
@@ -74697,17 +74841,6 @@
                             "indent": 0,
                             "parameters": [
                                 552
-                            ]
-                        },
-                        {
-                            "code": 122,
-                            "indent": 0,
-                            "parameters": [
-                                814,
-                                814,
-                                1,
-                                0,
-                                200
                             ]
                         },
                         {

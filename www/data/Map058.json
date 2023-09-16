@@ -6667,6 +6667,32 @@
                             ]
                         },
                         {
+                            "code": 111,
+                            "indent": 0,
+                            "parameters": [
+                                0,
+                                1300,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 119,
+                            "indent": 1,
+                            "parameters": [
+                                "回想用"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
+                        },
+                        {
                             "code": 108,
                             "indent": 0,
                             "parameters": [
@@ -10362,10 +10388,45 @@
                             ]
                         },
                         {
-                            "code": 356,
+                            "code": 121,
                             "indent": 4,
                             "parameters": [
-                                "回想セーブ Raped_by_Arms_dealer_1"
+                                1378,
+                                1378,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 111,
+                            "indent": 4,
+                            "parameters": [
+                                0,
+                                1300,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 356,
+                            "indent": 5,
+                            "parameters": [
+                                "回想セーブ 武器屋凌辱　１"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 5,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 4,
+                            "parameters": []
+                        },
+                        {
+                            "code": 118,
+                            "indent": 4,
+                            "parameters": [
+                                "回想用"
                             ]
                         },
                         {
@@ -17807,6 +17868,32 @@
                             "parameters": []
                         },
                         {
+                            "code": 111,
+                            "indent": 4,
+                            "parameters": [
+                                0,
+                                1300,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 5,
+                            "parameters": [
+                                "Scene_Recollection.prototype.rngd_exit_scene();"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 5,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 4,
+                            "parameters": []
+                        },
+                        {
                             "code": 201,
                             "indent": 4,
                             "parameters": [
@@ -19022,6 +19109,32 @@
                             ]
                         },
                         {
+                            "code": 111,
+                            "indent": 0,
+                            "parameters": [
+                                0,
+                                1300,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 119,
+                            "indent": 1,
+                            "parameters": [
+                                "回想用"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
+                        },
+                        {
                             "code": 108,
                             "indent": 0,
                             "parameters": [
@@ -19565,6 +19678,15 @@
                             ]
                         },
                         {
+                            "code": 121,
+                            "indent": 2,
+                            "parameters": [
+                                1421,
+                                1421,
+                                0
+                            ]
+                        },
+                        {
                             "code": 111,
                             "indent": 2,
                             "parameters": [
@@ -19576,10 +19698,36 @@
                             ]
                         },
                         {
-                            "code": 356,
+                            "code": 111,
                             "indent": 3,
                             "parameters": [
-                                "回想セーブ Raped_by_Arms_dealer_2"
+                                0,
+                                1300,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 356,
+                            "indent": 4,
+                            "parameters": [
+                                "回想セーブ 武器屋凌辱　２"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 4,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 3,
+                            "parameters": []
+                        },
+                        {
+                            "code": 118,
+                            "indent": 3,
+                            "parameters": [
+                                "回想用"
                             ]
                         },
                         {
@@ -21214,6 +21362,32 @@
                             "parameters": [
                                 ""
                             ]
+                        },
+                        {
+                            "code": 111,
+                            "indent": 3,
+                            "parameters": [
+                                0,
+                                1300,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 4,
+                            "parameters": [
+                                "Scene_Recollection.prototype.rngd_exit_scene();"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 4,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 3,
+                            "parameters": []
                         },
                         {
                             "code": 117,
@@ -25834,6 +26008,18 @@
                                 2,
                                 2,
                                 5
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 7,
+                            "parameters": [
+                                812,
+                                812,
+                                0,
+                                2,
+                                0,
+                                1
                             ]
                         },
                         {

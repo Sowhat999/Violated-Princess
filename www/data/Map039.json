@@ -3811,6 +3811,15 @@
                     },
                     "list": [
                         {
+                            "code": 121,
+                            "indent": 0,
+                            "parameters": [
+                                1408,
+                                1408,
+                                0
+                            ]
+                        },
+                        {
                             "code": 201,
                             "indent": 0,
                             "parameters": [
@@ -3973,11 +3982,30 @@
                             "parameters": []
                         },
                         {
-                            "code": 356,
+                            "code": 111,
                             "indent": 0,
                             "parameters": [
-                                "回想セーブ In_the_alley_with_Police_1"
+                                0,
+                                1300,
+                                1
                             ]
+                        },
+                        {
+                            "code": 356,
+                            "indent": 1,
+                            "parameters": [
+                                "回想セーブ 市警と路地裏で　１"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
                         },
                         {
                             "code": 117,
@@ -6105,6 +6133,32 @@
                             ]
                         },
                         {
+                            "code": 111,
+                            "indent": 0,
+                            "parameters": [
+                                0,
+                                1300,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 1,
+                            "parameters": [
+                                "Scene_Recollection.prototype.rngd_exit_scene();"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
+                        },
+                        {
                             "code": 122,
                             "indent": 0,
                             "parameters": [
@@ -6354,6 +6408,84 @@
                             "indent": 0,
                             "parameters": [
                                 44
+                            ]
+                        },
+                        {
+                            "code": 108,
+                            "indent": 0,
+                            "parameters": [
+                                "ーーーーーーーーーーーーーーーーーー"
+                            ]
+                        },
+                        {
+                            "code": 408,
+                            "indent": 0,
+                            "parameters": [
+                                "００５１：３　市警"
+                            ]
+                        },
+                        {
+                            "code": 408,
+                            "indent": 0,
+                            "parameters": [
+                                "ーーーーーーーーーーーーーーーーーー"
+                            ]
+                        },
+                        {
+                            "code": 108,
+                            "indent": 0,
+                            "parameters": [
+                                "ーーーーーーーーーーーーーーーーーー"
+                            ]
+                        },
+                        {
+                            "code": 408,
+                            "indent": 0,
+                            "parameters": [
+                                "００４１：０　ペッティング"
+                            ]
+                        },
+                        {
+                            "code": 408,
+                            "indent": 0,
+                            "parameters": [
+                                "　　　　　１　クンニ"
+                            ]
+                        },
+                        {
+                            "code": 408,
+                            "indent": 0,
+                            "parameters": [
+                                "　　　　　２　セックス"
+                            ]
+                        },
+                        {
+                            "code": 408,
+                            "indent": 0,
+                            "parameters": [
+                                "ーーーーーーーーーーーーーーーーーー"
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 0,
+                            "parameters": [
+                                51,
+                                51,
+                                0,
+                                0,
+                                3
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 0,
+                            "parameters": [
+                                41,
+                                41,
+                                0,
+                                0,
+                                1
                             ]
                         },
                         {
@@ -6796,6 +6928,32 @@
                             "parameters": []
                         },
                         {
+                            "code": 111,
+                            "indent": 1,
+                            "parameters": [
+                                0,
+                                1300,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 2,
+                            "parameters": [
+                                "Scene_Recollection.prototype.rngd_exit_scene();"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
                             "code": 250,
                             "indent": 1,
                             "parameters": [
@@ -7072,6 +7230,28 @@
                             ]
                         },
                         {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                51,
+                                51,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                41,
+                                41,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        {
                             "code": 0,
                             "indent": 1,
                             "parameters": []
@@ -7241,11 +7421,30 @@
                             "parameters": []
                         },
                         {
-                            "code": 356,
+                            "code": 111,
                             "indent": 0,
                             "parameters": [
-                                "回想セーブ In_the_alley_with_Police_2"
+                                0,
+                                1300,
+                                1
                             ]
+                        },
+                        {
+                            "code": 356,
+                            "indent": 1,
+                            "parameters": [
+                                "回想セーブ 市警と路地裏で　２"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
                         },
                         {
                             "code": 205,
@@ -17565,6 +17764,18 @@
                             ]
                         },
                         {
+                            "code": 122,
+                            "indent": 0,
+                            "parameters": [
+                                812,
+                                812,
+                                0,
+                                2,
+                                0,
+                                1
+                            ]
+                        },
+                        {
                             "code": 121,
                             "indent": 0,
                             "parameters": [
@@ -17649,6 +17860,32 @@
                         },
                         {
                             "code": 221,
+                            "indent": 0,
+                            "parameters": []
+                        },
+                        {
+                            "code": 111,
+                            "indent": 0,
+                            "parameters": [
+                                0,
+                                1300,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 1,
+                            "parameters": [
+                                "Scene_Recollection.prototype.rngd_exit_scene();"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
                             "indent": 0,
                             "parameters": []
                         },

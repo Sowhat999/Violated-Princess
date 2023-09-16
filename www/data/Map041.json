@@ -8854,6 +8854,15 @@
                     },
                     "list": [
                         {
+                            "code": 121,
+                            "indent": 0,
+                            "parameters": [
+                                1335,
+                                1335,
+                                0
+                            ]
+                        },
+                        {
                             "code": 117,
                             "indent": 0,
                             "parameters": [
@@ -9336,11 +9345,30 @@
                             "parameters": []
                         },
                         {
-                            "code": 356,
+                            "code": 111,
                             "indent": 0,
                             "parameters": [
-                                "回想セーブ Defeated_by_Vagrant_1"
+                                0,
+                                1300,
+                                1
                             ]
+                        },
+                        {
+                            "code": 356,
+                            "indent": 1,
+                            "parameters": [
+                                "回想セーブ 浮浪者敗北　１"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
                         },
                         {
                             "code": 122,
@@ -9846,8 +9874,19 @@
                             ]
                         },
                         {
-                            "code": 101,
+                            "code": 111,
                             "indent": 0,
+                            "parameters": [
+                                1,
+                                1163,
+                                0,
+                                6,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
                             "parameters": [
                                 "",
                                 0,
@@ -9857,28 +9896,28 @@
                         },
                         {
                             "code": 401,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 "\\n< Vagabond >Above all, the fact that it's free is\nirresistible. But your ass needs a bit\nmore development, you know."
                             ]
                         },
                         {
-                            "code": 0,
-                            "indent": 0,
+                            "code": 401,
+                            "indent": 1,
                             "parameters": [
-                                ""
+                                "腹ボテってのが玉に瑕だがなぁ。"
                             ]
                         },
                         {
-                            "code": 0,
-                            "indent": 0,
+                            "code": 401,
+                            "indent": 1,
                             "parameters": [
                                 ""
                             ]
                         },
                         {
                             "code": 101,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 "",
                                 0,
@@ -9888,24 +9927,247 @@
                         },
                         {
                             "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "いひひ、どこで孕まされてきたんだか。"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "こんなちっちぇえくせしてよぉ。"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "\\n<浮浪者>"
+                            ]
+                        },
+                        {
+                            "code": 111,
+                            "indent": 1,
+                            "parameters": [
+                                0,
+                                118,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 2,
+                            "parameters": [
+                                "",
+                                0,
+                                2,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "おんまけにモンモンまで彫り込みゃぁて。"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "父ちゃん母ちゃん泣いてまうどー？"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "\\n<浮浪者>"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 411,
                             "indent": 0,
+                            "parameters": []
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "",
+                                0,
+                                2,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "何よりタダってのがたまんねェでよ。"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "ちと尻ケツの育ちが足りねえがなぁ。"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "\\n<浮浪者>"
+                            ]
+                        },
+                        {
+                            "code": 111,
+                            "indent": 1,
+                            "parameters": [
+                                0,
+                                118,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 2,
+                            "parameters": [
+                                "",
+                                0,
+                                2,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "モンモンもなぁ。"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "こりゃどこぞのヤクザモンの情婦かって…。"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "\\n<浮浪者>"
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 2,
+                            "parameters": [
+                                "",
+                                0,
+                                2,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "捨てられてよぅ、流れ流れてよ、"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "こがい場所まで落ちてきよんじゃのぉー？"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "\\n<浮浪者>"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": []
+                        },
+                        {
+                            "code": 411,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 101,
+                            "indent": 2,
+                            "parameters": [
+                                "",
+                                0,
+                                2,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
                             "parameters": [
                                 "\\n< Vagabond >Oh, it's nothing. From now on, we'll just\nhave to raise it. Right, miss?"
                             ]
                         },
                         {
-                            "code": 0,
-                            "indent": 0,
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
                             "parameters": [
                                 ""
                             ]
                         },
                         {
                             "code": 0,
+                            "indent": 2,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
                             "indent": 0,
-                            "parameters": [
-                                ""
-                            ]
+                            "parameters": []
                         },
                         {
                             "code": 122,
@@ -9997,8 +10259,19 @@
                             ]
                         },
                         {
-                            "code": 101,
+                            "code": 111,
                             "indent": 0,
+                            "parameters": [
+                                1,
+                                1163,
+                                0,
+                                6,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
                             "parameters": [
                                 "",
                                 0,
@@ -10008,24 +10281,82 @@
                         },
                         {
                             "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "安心せ安心せ。腹んガキは毎日でも"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "こうして俺らでこねくり回してよ、"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "丈夫なガキにしてやるからなぁ？"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "\\n<浮浪者>"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 411,
                             "indent": 0,
+                            "parameters": []
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "",
+                                0,
+                                2,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
                             "parameters": [
                                 "\\n< Vagabond >Let's knead and play with it every day, and\nmake it grow big, okay?"
                             ]
                         },
                         {
-                            "code": 0,
-                            "indent": 0,
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
                             "parameters": [
                                 ""
                             ]
                         },
                         {
                             "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
                             "indent": 0,
-                            "parameters": [
-                                ""
-                            ]
+                            "parameters": []
                         },
                         {
                             "code": 122,
@@ -10885,6 +11216,58 @@
                             ]
                         },
                         {
+                            "code": 111,
+                            "indent": 0,
+                            "parameters": [
+                                1,
+                                1163,
+                                0,
+                                6,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "",
+                                0,
+                                2,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "腹のガキもそうやってよ！"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "男ん媚びて当ててもろたじゃが！？"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "\\n<浮浪者>"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
+                        },
+                        {
                             "code": 101,
                             "indent": 0,
                             "parameters": [
@@ -11193,8 +11576,19 @@
                             ]
                         },
                         {
-                            "code": 101,
+                            "code": 111,
                             "indent": 0,
+                            "parameters": [
+                                1,
+                                1163,
+                                0,
+                                6,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
                             "parameters": [
                                 "",
                                 0,
@@ -11204,24 +11598,75 @@
                         },
                         {
                             "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "どーせ孕み腹じゃで。"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "変わりゃーせんでよぉ。"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "\\n<浮浪者>"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 411,
                             "indent": 0,
+                            "parameters": []
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "",
+                                0,
+                                2,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
                             "parameters": [
                                 "\\n< Vagabond >I want to fill this brat's pussy with my\ncum and make it swell up!"
                             ]
                         },
                         {
-                            "code": 0,
-                            "indent": 0,
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
                             "parameters": [
                                 ""
                             ]
                         },
                         {
                             "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
                             "indent": 0,
-                            "parameters": [
-                                ""
-                            ]
+                            "parameters": []
                         },
                         {
                             "code": 122,
@@ -13052,6 +13497,32 @@
                             "parameters": []
                         },
                         {
+                            "code": 111,
+                            "indent": 0,
+                            "parameters": [
+                                0,
+                                1300,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 1,
+                            "parameters": [
+                                "Scene_Recollection.prototype.rngd_exit_scene();"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
+                        },
+                        {
                             "code": 117,
                             "indent": 0,
                             "parameters": [
@@ -13448,6 +13919,39 @@
                             ]
                         },
                         {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                809,
+                                809,
+                                0,
+                                2,
+                                1,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                812,
+                                812,
+                                0,
+                                2,
+                                0,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 121,
+                            "indent": 1,
+                            "parameters": [
+                                808,
+                                808,
+                                0
+                            ]
+                        },
+                        {
                             "code": 121,
                             "indent": 1,
                             "parameters": [
@@ -13613,6 +14117,15 @@
                         "tileId": 0
                     },
                     "list": [
+                        {
+                            "code": 121,
+                            "indent": 0,
+                            "parameters": [
+                                1336,
+                                1336,
+                                0
+                            ]
+                        },
                         {
                             "code": 117,
                             "indent": 0,
@@ -14055,11 +14568,30 @@
                             "parameters": []
                         },
                         {
-                            "code": 356,
+                            "code": 111,
                             "indent": 0,
                             "parameters": [
-                                "回想セーブ Defeated_by_Vagrant_2"
+                                0,
+                                1300,
+                                1
                             ]
+                        },
+                        {
+                            "code": 356,
+                            "indent": 1,
+                            "parameters": [
+                                "回想セーブ 浮浪者敗北　２"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
                         },
                         {
                             "code": 122,
@@ -14365,14 +14897,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Vagabond >Gyahaha! Disgusting! Is my mouth worse than a\nbutthole?"
+                                "ぎゃはは！ぶちよんのォ！"
                             ]
                         },
                         {
                             "code": 0,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "俺ン口はケツ穴以下かぁ？"
                             ]
                         },
                         {
@@ -14830,6 +15362,58 @@
                             ]
                         },
                         {
+                            "code": 111,
+                            "indent": 0,
+                            "parameters": [
+                                1,
+                                1163,
+                                0,
+                                6,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "",
+                                0,
+                                2,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "腹んやや子もよぉ。"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "ギュッ！としめとんごなぁ？"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "\\n<浮浪者>"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
+                        },
+                        {
                             "code": 122,
                             "indent": 0,
                             "parameters": [
@@ -14954,6 +15538,58 @@
                             "parameters": [
                                 ""
                             ]
+                        },
+                        {
+                            "code": 111,
+                            "indent": 0,
+                            "parameters": [
+                                1,
+                                1163,
+                                0,
+                                6,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "",
+                                0,
+                                2,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "じゃじゃじゃ、つわりやんで？"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "腹こぉな大きしげなぁ？"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "\\n<浮浪者>"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
                         },
                         {
                             "code": 101,
@@ -16558,6 +17194,32 @@
                             "parameters": []
                         },
                         {
+                            "code": 111,
+                            "indent": 0,
+                            "parameters": [
+                                0,
+                                1300,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 1,
+                            "parameters": [
+                                "Scene_Recollection.prototype.rngd_exit_scene();"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
+                        },
+                        {
                             "code": 242,
                             "indent": 0,
                             "parameters": [
@@ -17424,6 +18086,39 @@
                             ]
                         },
                         {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                809,
+                                809,
+                                0,
+                                2,
+                                1,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                812,
+                                812,
+                                0,
+                                2,
+                                0,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 121,
+                            "indent": 1,
+                            "parameters": [
+                                808,
+                                808,
+                                0
+                            ]
+                        },
+                        {
                             "code": 121,
                             "indent": 1,
                             "parameters": [
@@ -17589,6 +18284,15 @@
                         "tileId": 0
                     },
                     "list": [
+                        {
+                            "code": 121,
+                            "indent": 0,
+                            "parameters": [
+                                1337,
+                                1337,
+                                0
+                            ]
+                        },
                         {
                             "code": 117,
                             "indent": 0,
@@ -18062,11 +18766,30 @@
                             "parameters": []
                         },
                         {
-                            "code": 356,
+                            "code": 111,
                             "indent": 0,
                             "parameters": [
-                                "回想セーブ Defeated_by_Vagrant_3"
+                                0,
+                                1300,
+                                1
                             ]
+                        },
+                        {
+                            "code": 356,
+                            "indent": 1,
+                            "parameters": [
+                                "回想セーブ 浮浪者敗北　３"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
                         },
                         {
                             "code": 122,
@@ -21281,8 +22004,19 @@
                             ]
                         },
                         {
-                            "code": 101,
+                            "code": 111,
                             "indent": 0,
+                            "parameters": [
+                                1,
+                                1163,
+                                0,
+                                6,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
                             "parameters": [
                                 "",
                                 0,
@@ -21292,24 +22026,75 @@
                         },
                         {
                             "code": 401,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 "\\n< Vagabond >You're still just a child. Your self-control\nis admirable, little one."
                             ]
                         },
                         {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "腹にやや子まで仕込まれた上で……。"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "\\n<浮浪者>"
+                            ]
+                        },
+                        {
                             "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 411,
                             "indent": 0,
+                            "parameters": []
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "",
+                                0,
+                                2,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "まっだ子供じゃろに。見上げた自制心。"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
                             "parameters": [
                                 ""
                             ]
                         },
                         {
                             "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
                             "indent": 0,
-                            "parameters": [
-                                ""
-                            ]
+                            "parameters": []
                         },
                         {
                             "code": 101,
@@ -25600,6 +26385,32 @@
                             ]
                         },
                         {
+                            "code": 111,
+                            "indent": 0,
+                            "parameters": [
+                                0,
+                                1300,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 1,
+                            "parameters": [
+                                "Scene_Recollection.prototype.rngd_exit_scene();"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
+                        },
+                        {
                             "code": 112,
                             "indent": 0,
                             "parameters": []
@@ -25621,6 +26432,39 @@
                                 2,
                                 2,
                                 4
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                809,
+                                809,
+                                0,
+                                2,
+                                1,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                812,
+                                812,
+                                0,
+                                2,
+                                0,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 121,
+                            "indent": 1,
+                            "parameters": [
+                                808,
+                                808,
+                                0
                             ]
                         },
                         {
@@ -25822,6 +26666,15 @@
                         "tileId": 0
                     },
                     "list": [
+                        {
+                            "code": 121,
+                            "indent": 0,
+                            "parameters": [
+                                1338,
+                                1338,
+                                0
+                            ]
+                        },
                         {
                             "code": 117,
                             "indent": 0,
@@ -26324,11 +27177,30 @@
                             "parameters": []
                         },
                         {
-                            "code": 356,
+                            "code": 111,
                             "indent": 0,
                             "parameters": [
-                                "回想セーブ Defeated_by_Vagrant_4"
+                                0,
+                                1300,
+                                1
                             ]
+                        },
+                        {
+                            "code": 356,
+                            "indent": 1,
+                            "parameters": [
+                                "回想セーブ 浮浪者敗北　４"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
                         },
                         {
                             "code": 122,
@@ -27879,6 +28751,166 @@
                             "parameters": [
                                 ""
                             ]
+                        },
+                        {
+                            "code": 111,
+                            "indent": 0,
+                            "parameters": [
+                                1,
+                                1163,
+                                0,
+                                6,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "",
+                                0,
+                                2,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "この歳で孕んどるよなガキに、"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "まともな人生なぞ元からあるもんかイ！"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "\\n<浮浪者>"
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "",
+                                0,
+                                2,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "ギャハハ！そりゃそうじゃ！ギャハハ！"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "\\n<浮浪者>"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 411,
+                            "indent": 0,
+                            "parameters": []
+                        },
+                        {
+                            "code": 111,
+                            "indent": 1,
+                            "parameters": [
+                                0,
+                                118,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 2,
+                            "parameters": [
+                                "",
+                                0,
+                                2,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "全身こげな入れ墨彫っとるガキに"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "まともな人生なぞ元からあるもんかイ！"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "\\n<浮浪者>"
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 2,
+                            "parameters": [
+                                "",
+                                0,
+                                2,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "ギャハハ！そりゃそうじゃ！ギャハハ！"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "\\n<浮浪者>"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
                         },
                         {
                             "code": 101,
@@ -29984,6 +31016,32 @@
                             ]
                         },
                         {
+                            "code": 111,
+                            "indent": 0,
+                            "parameters": [
+                                0,
+                                1300,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 1,
+                            "parameters": [
+                                "Scene_Recollection.prototype.rngd_exit_scene();"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
+                        },
+                        {
                             "code": 112,
                             "indent": 0,
                             "parameters": []
@@ -30005,6 +31063,39 @@
                                 2,
                                 2,
                                 4
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                809,
+                                809,
+                                0,
+                                2,
+                                1,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                812,
+                                812,
+                                0,
+                                2,
+                                0,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 121,
+                            "indent": 1,
+                            "parameters": [
+                                808,
+                                808,
+                                0
                             ]
                         },
                         {

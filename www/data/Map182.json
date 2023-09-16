@@ -13864,6 +13864,15 @@
                             ]
                         },
                         {
+                            "code": 121,
+                            "indent": 0,
+                            "parameters": [
+                                1312,
+                                1312,
+                                0
+                            ]
+                        },
+                        {
                             "code": 241,
                             "indent": 0,
                             "parameters": [
@@ -13881,11 +13890,30 @@
                             "parameters": []
                         },
                         {
-                            "code": 356,
+                            "code": 111,
                             "indent": 0,
                             "parameters": [
-                                "回想セーブ Raped_in_Bathhouse_1"
+                                0,
+                                1300,
+                                1
                             ]
+                        },
+                        {
+                            "code": 356,
+                            "indent": 1,
+                            "parameters": [
+                                "回想セーブ 東の町浴場レイプ　１"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
                         },
                         {
                             "code": 117,
@@ -14612,6 +14640,17 @@
                             "parameters": [
                                 235,
                                 235,
+                                0,
+                                0,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 0,
+                            "parameters": [
+                                104,
+                                104,
                                 0,
                                 0,
                                 1
@@ -21720,6 +21759,60 @@
                             "parameters": []
                         },
                         {
+                            "code": 111,
+                            "indent": 0,
+                            "parameters": [
+                                0,
+                                118,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 119,
+                            "indent": 1,
+                            "parameters": [
+                                "シーンスキップ"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
+                        },
+                        {
+                            "code": 111,
+                            "indent": 0,
+                            "parameters": [
+                                1,
+                                1163,
+                                0,
+                                6,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 119,
+                            "indent": 1,
+                            "parameters": [
+                                "シーンスキップ"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
+                        },
+                        {
                             "code": 201,
                             "indent": 0,
                             "parameters": [
@@ -22723,6 +22816,32 @@
                             "parameters": [
                                 "シーンスキップ"
                             ]
+                        },
+                        {
+                            "code": 111,
+                            "indent": 0,
+                            "parameters": [
+                                0,
+                                1300,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 1,
+                            "parameters": [
+                                "Scene_Recollection.prototype.rngd_exit_scene();"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
                         },
                         {
                             "code": 122,
@@ -25773,6 +25892,15 @@
                             ]
                         },
                         {
+                            "code": 121,
+                            "indent": 0,
+                            "parameters": [
+                                1314,
+                                1314,
+                                0
+                            ]
+                        },
+                        {
                             "code": 221,
                             "indent": 0,
                             "parameters": []
@@ -26195,11 +26323,30 @@
                             "parameters": []
                         },
                         {
-                            "code": 356,
+                            "code": 111,
                             "indent": 0,
                             "parameters": [
-                                "回想セーブ Blowjob_prostitution"
+                                0,
+                                1300,
+                                1
                             ]
+                        },
+                        {
+                            "code": 356,
+                            "indent": 1,
+                            "parameters": [
+                                "回想セーブ 浴場　フェラ売春"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
                         },
                         {
                             "code": 205,
@@ -31734,6 +31881,32 @@
                             "parameters": []
                         },
                         {
+                            "code": 111,
+                            "indent": 0,
+                            "parameters": [
+                                0,
+                                1300,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 1,
+                            "parameters": [
+                                "Scene_Recollection.prototype.rngd_exit_scene();"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
+                        },
+                        {
                             "code": 205,
                             "indent": 0,
                             "parameters": [
@@ -32616,6 +32789,27 @@
                             "code": 121,
                             "indent": 0,
                             "parameters": [
+                                1313,
+                                1313,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 241,
+                            "indent": 0,
+                            "parameters": [
+                                {
+                                    "name": "M16_Ero2 ",
+                                    "volume": 90,
+                                    "pitch": 100,
+                                    "pan": 0
+                                }
+                            ]
+                        },
+                        {
+                            "code": 121,
+                            "indent": 0,
+                            "parameters": [
                                 50,
                                 50,
                                 0
@@ -33121,11 +33315,30 @@
                             "parameters": []
                         },
                         {
-                            "code": 356,
+                            "code": 111,
                             "indent": 0,
                             "parameters": [
-                                "回想セーブ Raped_in_Bathhouse_2"
+                                0,
+                                1300,
+                                1
                             ]
+                        },
+                        {
+                            "code": 356,
+                            "indent": 1,
+                            "parameters": [
+                                "回想セーブ 浴場レイプ　二回目"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
                         },
                         {
                             "code": 205,
@@ -35778,6 +35991,32 @@
                             ]
                         },
                         {
+                            "code": 111,
+                            "indent": 0,
+                            "parameters": [
+                                0,
+                                1300,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 1,
+                            "parameters": [
+                                "Scene_Recollection.prototype.rngd_exit_scene();"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
+                        },
+                        {
                             "code": 122,
                             "indent": 0,
                             "parameters": [
@@ -35830,6 +36069,18 @@
                             "parameters": [
                                 809,
                                 809,
+                                0,
+                                2,
+                                0,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                812,
+                                812,
                                 0,
                                 2,
                                 0,
@@ -38612,6 +38863,20 @@
                             "code": 117,
                             "indent": 1,
                             "parameters": [
+                                7
+                            ]
+                        },
+                        {
+                            "code": 117,
+                            "indent": 1,
+                            "parameters": [
+                                151
+                            ]
+                        },
+                        {
+                            "code": 117,
+                            "indent": 1,
+                            "parameters": [
                                 174
                             ]
                         },
@@ -38641,6 +38906,13 @@
                             "parameters": []
                         },
                         {
+                            "code": 119,
+                            "indent": 1,
+                            "parameters": [
+                                "戦闘"
+                            ]
+                        },
+                        {
                             "code": 0,
                             "indent": 1,
                             "parameters": []
@@ -38651,6 +38923,13 @@
                             "parameters": []
                         },
                         {
+                            "code": 118,
+                            "indent": 0,
+                            "parameters": [
+                                "終了"
+                            ]
+                        },
+                        {
                             "code": 122,
                             "indent": 0,
                             "parameters": [
@@ -38659,13 +38938,6 @@
                                 0,
                                 0,
                                 0
-                            ]
-                        },
-                        {
-                            "code": 118,
-                            "indent": 0,
-                            "parameters": [
-                                "終了"
                             ]
                         },
                         {
@@ -38698,6 +38970,13 @@
                                 48,
                                 48,
                                 1
+                            ]
+                        },
+                        {
+                            "code": 118,
+                            "indent": 0,
+                            "parameters": [
+                                "戦闘"
                             ]
                         },
                         {
@@ -38770,6 +39049,53 @@
                             "indent": 0,
                             "parameters": [
                                 "--------------------------------------------"
+                            ]
+                        },
+                        {
+                            "code": 111,
+                            "indent": 0,
+                            "parameters": [
+                                0,
+                                1300,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 119,
+                            "indent": 1,
+                            "parameters": [
+                                "回想スキップ"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
+                        },
+                        {
+                            "code": 121,
+                            "indent": 0,
+                            "parameters": [
+                                1315,
+                                1315,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 241,
+                            "indent": 0,
+                            "parameters": [
+                                {
+                                    "name": "M16_Ero2 ",
+                                    "volume": 90,
+                                    "pitch": 100,
+                                    "pan": 0
+                                }
                             ]
                         },
                         {
@@ -39057,11 +39383,30 @@
                             "parameters": []
                         },
                         {
-                            "code": 356,
+                            "code": 111,
                             "indent": 0,
                             "parameters": [
-                                "回想セーブ Second_prostitution"
+                                0,
+                                1300,
+                                1
                             ]
+                        },
+                        {
+                            "code": 356,
+                            "indent": 1,
+                            "parameters": [
+                                "回想セーブ 浴場　二度目の売春"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
                         },
                         {
                             "code": 205,
@@ -41683,6 +42028,13 @@
                             "parameters": []
                         },
                         {
+                            "code": 118,
+                            "indent": 0,
+                            "parameters": [
+                                "回想スキップ"
+                            ]
+                        },
+                        {
                             "code": 117,
                             "indent": 0,
                             "parameters": [
@@ -41793,6 +42145,10 @@
                                             "indent": null
                                         },
                                         {
+                                            "code": 37,
+                                            "indent": null
+                                        },
+                                        {
                                             "code": 0
                                         }
                                     ],
@@ -41827,6 +42183,16 @@
                             ]
                         },
                         {
+                            "code": 505,
+                            "indent": 0,
+                            "parameters": [
+                                {
+                                    "code": 37,
+                                    "indent": null
+                                }
+                            ]
+                        },
+                        {
                             "code": 205,
                             "indent": 0,
                             "parameters": [
@@ -41843,6 +42209,10 @@
                                         },
                                         {
                                             "code": 33,
+                                            "indent": null
+                                        },
+                                        {
+                                            "code": 37,
                                             "indent": null
                                         },
                                         {
@@ -41880,6 +42250,16 @@
                             ]
                         },
                         {
+                            "code": 505,
+                            "indent": 0,
+                            "parameters": [
+                                {
+                                    "code": 37,
+                                    "indent": null
+                                }
+                            ]
+                        },
+                        {
                             "code": 205,
                             "indent": 0,
                             "parameters": [
@@ -41896,6 +42276,10 @@
                                         },
                                         {
                                             "code": 33,
+                                            "indent": null
+                                        },
+                                        {
+                                            "code": 37,
                                             "indent": null
                                         },
                                         {
@@ -41933,6 +42317,16 @@
                             ]
                         },
                         {
+                            "code": 505,
+                            "indent": 0,
+                            "parameters": [
+                                {
+                                    "code": 37,
+                                    "indent": null
+                                }
+                            ]
+                        },
+                        {
                             "code": 205,
                             "indent": 0,
                             "parameters": [
@@ -41949,6 +42343,10 @@
                                         },
                                         {
                                             "code": 33,
+                                            "indent": null
+                                        },
+                                        {
+                                            "code": 37,
                                             "indent": null
                                         },
                                         {
@@ -41981,6 +42379,16 @@
                             "parameters": [
                                 {
                                     "code": 33,
+                                    "indent": null
+                                }
+                            ]
+                        },
+                        {
+                            "code": 505,
+                            "indent": 0,
+                            "parameters": [
+                                {
+                                    "code": 37,
                                     "indent": null
                                 }
                             ]
@@ -42489,6 +42897,10 @@
                                             "indent": null
                                         },
                                         {
+                                            "code": 37,
+                                            "indent": null
+                                        },
+                                        {
                                             "code": 19,
                                             "indent": null
                                         },
@@ -42544,6 +42956,16 @@
                                         "モブ HK_市民若者01-1",
                                         4
                                     ],
+                                    "indent": null
+                                }
+                            ]
+                        },
+                        {
+                            "code": 505,
+                            "indent": 0,
+                            "parameters": [
+                                {
+                                    "code": 37,
                                     "indent": null
                                 }
                             ]
@@ -45900,6 +46322,32 @@
                             "parameters": []
                         },
                         {
+                            "code": 111,
+                            "indent": 0,
+                            "parameters": [
+                                0,
+                                1300,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 1,
+                            "parameters": [
+                                "Scene_Recollection.prototype.rngd_exit_scene();"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
+                        },
+                        {
                             "code": 230,
                             "indent": 0,
                             "parameters": [
@@ -46300,6 +46748,18 @@
                                 2,
                                 0,
                                 2
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 0,
+                            "parameters": [
+                                812,
+                                812,
+                                0,
+                                2,
+                                0,
+                                1
                             ]
                         },
                         {
@@ -46833,6 +47293,58 @@
                             ]
                         },
                         {
+                            "code": 111,
+                            "indent": 0,
+                            "parameters": [
+                                0,
+                                1300,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 201,
+                            "indent": 1,
+                            "parameters": [
+                                0,
+                                182,
+                                27,
+                                18,
+                                8,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 241,
+                            "indent": 1,
+                            "parameters": [
+                                {
+                                    "name": "M06_Bathhouse ",
+                                    "volume": 90,
+                                    "pitch": 100,
+                                    "pan": 0
+                                }
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
+                        },
+                        {
+                            "code": 121,
+                            "indent": 0,
+                            "parameters": [
+                                1316,
+                                1316,
+                                0
+                            ]
+                        },
+                        {
                             "code": 121,
                             "indent": 0,
                             "parameters": [
@@ -47329,11 +47841,30 @@
                             "parameters": []
                         },
                         {
-                            "code": 356,
+                            "code": 111,
                             "indent": 0,
                             "parameters": [
-                                "回想セーブ Raped_by_even_the_public..."
+                                0,
+                                1300,
+                                1
                             ]
+                        },
+                        {
+                            "code": 356,
+                            "indent": 1,
+                            "parameters": [
+                                "回想セーブ 浴場　一般客にまで…"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
                         },
                         {
                             "code": 205,
@@ -52058,6 +52589,32 @@
                             "parameters": []
                         },
                         {
+                            "code": 111,
+                            "indent": 0,
+                            "parameters": [
+                                0,
+                                1300,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 1,
+                            "parameters": [
+                                "Scene_Recollection.prototype.rngd_exit_scene();"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
+                        },
+                        {
                             "code": 117,
                             "indent": 0,
                             "parameters": [
@@ -52210,6 +52767,18 @@
                                 2,
                                 -3,
                                 -1
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 0,
+                            "parameters": [
+                                812,
+                                812,
+                                0,
+                                2,
+                                0,
+                                1
                             ]
                         },
                         {
@@ -54680,6 +55249,18 @@
                                 2,
                                 1,
                                 2
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                812,
+                                812,
+                                0,
+                                2,
+                                0,
+                                1
                             ]
                         },
                         {
@@ -58984,6 +59565,24 @@
                             ]
                         },
                         {
+                            "code": 121,
+                            "indent": 0,
+                            "parameters": [
+                                1375,
+                                1375,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 121,
+                            "indent": 0,
+                            "parameters": [
+                                1377,
+                                1377,
+                                0
+                            ]
+                        },
+                        {
                             "code": 242,
                             "indent": 0,
                             "parameters": [
@@ -59699,11 +60298,30 @@
                             "parameters": []
                         },
                         {
-                            "code": 356,
+                            "code": 111,
                             "indent": 0,
                             "parameters": [
-                                "回想セーブ With_Guesclin"
+                                0,
+                                1300,
+                                1
                             ]
+                        },
+                        {
+                            "code": 356,
+                            "indent": 1,
+                            "parameters": [
+                                "回想セーブ ゲクランと浴場で"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
                         },
                         {
                             "code": 101,
@@ -65572,6 +66190,32 @@
                         },
                         {
                             "code": 221,
+                            "indent": 0,
+                            "parameters": []
+                        },
+                        {
+                            "code": 111,
+                            "indent": 0,
+                            "parameters": [
+                                0,
+                                1300,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 1,
+                            "parameters": [
+                                "Scene_Recollection.prototype.rngd_exit_scene();"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
                             "indent": 0,
                             "parameters": []
                         },

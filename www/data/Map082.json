@@ -21289,15 +21289,24 @@
                             ]
                         },
                         {
-                            "code": 117,
+                            "code": 111,
                             "indent": 0,
+                            "parameters": [
+                                0,
+                                1036,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 117,
+                            "indent": 1,
                             "parameters": [
                                 72
                             ]
                         },
                         {
                             "code": 101,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 "",
                                 0,
@@ -21307,7 +21316,7 @@
                         },
                         {
                             "code": 401,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 "\\n< Serena >...Is this... a loan document? Did I... do\nthis to the mansion lord..."
                             ]
@@ -21328,14 +21337,14 @@
                         },
                         {
                             "code": 117,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 64
                             ]
                         },
                         {
                             "code": 101,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 "",
                                 0,
@@ -21345,7 +21354,7 @@
                         },
                         {
                             "code": 401,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 "\\n< Serena >I was a little curious about where it\nwent, indeed."
                             ]
@@ -21359,14 +21368,14 @@
                         },
                         {
                             "code": 117,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 245
                             ]
                         },
                         {
                             "code": 101,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 "",
                                 0,
@@ -21376,7 +21385,7 @@
                         },
                         {
                             "code": 401,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 "\\n< Nicola >It seems that they found that document\namong the materials confiscated at the\nbrothel..."
                             ]
@@ -21397,7 +21406,7 @@
                         },
                         {
                             "code": 101,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 "",
                                 0,
@@ -21407,7 +21416,193 @@
                         },
                         {
                             "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "娼館のマダムがどういうつもりでその証文を"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "破棄もせず保管していたのかは知らないが…"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "第三者に渡ると非常に面倒な事になる。"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "\\n<ニコラ>"
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "事実、なりかけていた。"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "連中これを娼館で見つけたらしくてね。"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "\\n<ニコラ>"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 411,
                             "indent": 0,
+                            "parameters": []
+                        },
+                        {
+                            "code": 117,
+                            "indent": 1,
+                            "parameters": [
+                                72
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "…これは。借金の証文？"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "私が館長殿にした……。"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "\\n<セレナ>"
+                            ]
+                        },
+                        {
+                            "code": 117,
+                            "indent": 1,
+                            "parameters": [
+                                64
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "確かにどこへ行ったものか、少し気にはなっていたが。"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "\\n<セレナ>"
+                            ]
+                        },
+                        {
+                            "code": 117,
+                            "indent": 1,
+                            "parameters": [
+                                245
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "連中、娼館で押収した資料の中から"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "その証文を見つけたらしくてな……。"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "\\n<ニコラ>"
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
                             "parameters": [
                                 "\\n< Nicola >If something like this were to fall into\nthe hands of those unscrupulous people,\nyou would be in quite a predicament,\nwouldn't you?"
                             ]
@@ -21425,6 +21620,16 @@
                             "parameters": [
                                 ""
                             ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
                         },
                         {
                             "code": 117,

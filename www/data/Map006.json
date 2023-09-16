@@ -10314,6 +10314,24 @@
                             ]
                         },
                         {
+                            "code": 121,
+                            "indent": 1,
+                            "parameters": [
+                                1309,
+                                1309,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 121,
+                            "indent": 1,
+                            "parameters": [
+                                1308,
+                                1308,
+                                0
+                            ]
+                        },
+                        {
                             "code": 122,
                             "indent": 1,
                             "parameters": [
@@ -10737,6 +10755,15 @@
                             ]
                         },
                         {
+                            "code": 121,
+                            "indent": 2,
+                            "parameters": [
+                                1311,
+                                1311,
+                                0
+                            ]
+                        },
+                        {
                             "code": 241,
                             "indent": 2,
                             "parameters": [
@@ -10754,6 +10781,32 @@
                             "parameters": [
                                 "TEマップイベント呼び出し ゴブリン苗床出産 1"
                             ]
+                        },
+                        {
+                            "code": 111,
+                            "indent": 2,
+                            "parameters": [
+                                0,
+                                1300,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 3,
+                            "parameters": [
+                                "Scene_Recollection.prototype.rngd_exit_scene();"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 3,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 2,
+                            "parameters": []
                         },
                         {
                             "code": 121,
@@ -10977,6 +11030,15 @@
                             ]
                         },
                         {
+                            "code": 121,
+                            "indent": 1,
+                            "parameters": [
+                                1310,
+                                1310,
+                                0
+                            ]
+                        },
+                        {
                             "code": 356,
                             "indent": 1,
                             "parameters": [
@@ -11024,6 +11086,32 @@
                             "parameters": [
                                 "TEマップイベント呼び出し ゴブリン苗床輪姦 1"
                             ]
+                        },
+                        {
+                            "code": 111,
+                            "indent": 1,
+                            "parameters": [
+                                0,
+                                1300,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 2,
+                            "parameters": [
+                                "Scene_Recollection.prototype.rngd_exit_scene();"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 1,
+                            "parameters": []
                         },
                         {
                             "code": 119,
@@ -11381,9 +11469,9 @@
                         "selfSwitchCh": "A",
                         "selfSwitchValid": false,
                         "switch1Id": 1998,
-                        "switch1Valid": false,
+                        "switch1Valid": true,
                         "switch2Id": 1,
-                        "switch2Valid": true,
+                        "switch2Valid": false,
                         "variableId": 1,
                         "variableValid": false,
                         "variableValue": 0
@@ -12296,11 +12384,30 @@
                             ]
                         },
                         {
-                            "code": 356,
+                            "code": 111,
                             "indent": 2,
                             "parameters": [
-                                "回想セーブ Defeated_by_Goblin_with_Maril"
+                                0,
+                                1300,
+                                1
                             ]
+                        },
+                        {
+                            "code": 356,
+                            "indent": 3,
+                            "parameters": [
+                                "回想セーブ ゴブリン敗北　マリルーと"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 3,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 2,
+                            "parameters": []
                         },
                         {
                             "code": 203,
@@ -15356,11 +15463,33 @@
                             "code": 122,
                             "indent": 2,
                             "parameters": [
+                                441,
+                                441,
+                                0,
+                                0,
+                                3
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 2,
+                            "parameters": [
                                 443,
                                 443,
                                 0,
                                 0,
                                 2
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 2,
+                            "parameters": [
+                                442,
+                                442,
+                                0,
+                                0,
+                                1
                             ]
                         },
                         {
@@ -15584,11 +15713,30 @@
                             ]
                         },
                         {
-                            "code": 356,
+                            "code": 111,
                             "indent": 2,
                             "parameters": [
-                                "回想セーブ Defeated_by_Goblin"
+                                0,
+                                1300,
+                                1
                             ]
+                        },
+                        {
+                            "code": 356,
+                            "indent": 3,
+                            "parameters": [
+                                "回想セーブ ゴブリン敗北　一人で"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 3,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 2,
+                            "parameters": []
                         },
                         {
                             "code": 205,
@@ -20585,11 +20733,30 @@
                             ]
                         },
                         {
-                            "code": 356,
+                            "code": 111,
                             "indent": 2,
                             "parameters": [
-                                "回想セーブ Defeated_by_Goblin_with_Maril"
+                                0,
+                                1300,
+                                1
                             ]
+                        },
+                        {
+                            "code": 356,
+                            "indent": 3,
+                            "parameters": [
+                                "回想セーブ ゴブリン敗北　マリルーと"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 3,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 2,
+                            "parameters": []
                         },
                         {
                             "code": 203,
@@ -26624,6 +26791,35 @@
                             ]
                         },
                         {
+                            "code": 122,
+                            "indent": 2,
+                            "parameters": [
+                                441,
+                                441,
+                                0,
+                                0,
+                                3
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 2,
+                            "parameters": [
+                                442,
+                                442,
+                                0,
+                                0,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 117,
+                            "indent": 2,
+                            "parameters": [
+                                371
+                            ]
+                        },
+                        {
                             "code": 117,
                             "indent": 2,
                             "parameters": [
@@ -26844,11 +27040,30 @@
                             ]
                         },
                         {
-                            "code": 356,
+                            "code": 111,
                             "indent": 2,
                             "parameters": [
-                                "回想セーブ Defeated_by_Goblin"
+                                0,
+                                1300,
+                                1
                             ]
+                        },
+                        {
+                            "code": 356,
+                            "indent": 3,
+                            "parameters": [
+                                "回想セーブ ゴブリン敗北　一人で"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 3,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 2,
+                            "parameters": []
                         },
                         {
                             "code": 205,
@@ -31530,6 +31745,32 @@
                         },
                         {
                             "code": 221,
+                            "indent": 0,
+                            "parameters": []
+                        },
+                        {
+                            "code": 111,
+                            "indent": 0,
+                            "parameters": [
+                                0,
+                                1300,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 1,
+                            "parameters": [
+                                "Scene_Recollection.prototype.rngd_exit_scene();"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
                             "indent": 0,
                             "parameters": []
                         },
@@ -48739,6 +48980,28 @@
                             ]
                         },
                         {
+                            "code": 122,
+                            "indent": 0,
+                            "parameters": [
+                                239,
+                                239,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 0,
+                            "parameters": [
+                                234,
+                                234,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        {
                             "code": 111,
                             "indent": 0,
                             "parameters": [
@@ -49382,11 +49645,30 @@
                     },
                     "list": [
                         {
-                            "code": 356,
+                            "code": 111,
                             "indent": 0,
                             "parameters": [
-                                "回想セーブ Birth_At_Goblin's_cave"
+                                0,
+                                1300,
+                                1
                             ]
+                        },
+                        {
+                            "code": 356,
+                            "indent": 1,
+                            "parameters": [
+                                "回想セーブ 出産　ゴブリン洞窟で"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
                         },
                         {
                             "code": 111,
@@ -79857,6 +80139,7 @@
             ],
             "x": 2,
             "y": 4
-        }
+        },
+        null
     ]
 }

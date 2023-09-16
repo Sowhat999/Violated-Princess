@@ -3766,11 +3766,9 @@
                             "code": 111,
                             "indent": 0,
                             "parameters": [
-                                1,
-                                2301,
                                 0,
-                                160,
-                                1
+                                1088,
+                                0
                             ]
                         },
                         {
@@ -5585,634 +5583,11 @@
                             "parameters": []
                         },
                         {
-                            "code": 111,
+                            "code": 117,
                             "indent": 0,
                             "parameters": [
-                                6,
-                                -1,
-                                2
+                                135
                             ]
-                        },
-                        {
-                            "code": 205,
-                            "indent": 1,
-                            "parameters": [
-                                3,
-                                {
-                                    "list": [
-                                        {
-                                            "code": 36,
-                                            "indent": null
-                                        },
-                                        {
-                                            "code": 44,
-                                            "parameters": [
-                                                {
-                                                    "name": "Open1",
-                                                    "volume": 90,
-                                                    "pitch": 100,
-                                                    "pan": 0
-                                                }
-                                            ],
-                                            "indent": null
-                                        },
-                                        {
-                                            "code": 17,
-                                            "indent": null
-                                        },
-                                        {
-                                            "code": 15,
-                                            "parameters": [
-                                                5
-                                            ],
-                                            "indent": null
-                                        },
-                                        {
-                                            "code": 18,
-                                            "indent": null
-                                        },
-                                        {
-                                            "code": 15,
-                                            "parameters": [
-                                                5
-                                            ],
-                                            "indent": null
-                                        },
-                                        {
-                                            "code": 19,
-                                            "indent": null
-                                        },
-                                        {
-                                            "code": 0
-                                        }
-                                    ],
-                                    "repeat": false,
-                                    "skippable": false,
-                                    "wait": true
-                                }
-                            ]
-                        },
-                        {
-                            "code": 505,
-                            "indent": 1,
-                            "parameters": [
-                                {
-                                    "code": 36,
-                                    "indent": null
-                                }
-                            ]
-                        },
-                        {
-                            "code": 505,
-                            "indent": 1,
-                            "parameters": [
-                                {
-                                    "code": 44,
-                                    "parameters": [
-                                        {
-                                            "name": "Open1",
-                                            "volume": 90,
-                                            "pitch": 100,
-                                            "pan": 0
-                                        }
-                                    ],
-                                    "indent": null
-                                }
-                            ]
-                        },
-                        {
-                            "code": 505,
-                            "indent": 1,
-                            "parameters": [
-                                {
-                                    "code": 17,
-                                    "indent": null
-                                }
-                            ]
-                        },
-                        {
-                            "code": 505,
-                            "indent": 1,
-                            "parameters": [
-                                {
-                                    "code": 15,
-                                    "parameters": [
-                                        5
-                                    ],
-                                    "indent": null
-                                }
-                            ]
-                        },
-                        {
-                            "code": 505,
-                            "indent": 1,
-                            "parameters": [
-                                {
-                                    "code": 18,
-                                    "indent": null
-                                }
-                            ]
-                        },
-                        {
-                            "code": 505,
-                            "indent": 1,
-                            "parameters": [
-                                {
-                                    "code": 15,
-                                    "parameters": [
-                                        5
-                                    ],
-                                    "indent": null
-                                }
-                            ]
-                        },
-                        {
-                            "code": 505,
-                            "indent": 1,
-                            "parameters": [
-                                {
-                                    "code": 19,
-                                    "indent": null
-                                }
-                            ]
-                        },
-                        {
-                            "code": 205,
-                            "indent": 1,
-                            "parameters": [
-                                -1,
-                                {
-                                    "list": [
-                                        {
-                                            "code": 37,
-                                            "indent": null
-                                        },
-                                        {
-                                            "code": 1,
-                                            "indent": null
-                                        },
-                                        {
-                                            "code": 1,
-                                            "indent": null
-                                        },
-                                        {
-                                            "code": 38,
-                                            "indent": null
-                                        },
-                                        {
-                                            "code": 0
-                                        }
-                                    ],
-                                    "repeat": false,
-                                    "skippable": false,
-                                    "wait": true
-                                }
-                            ]
-                        },
-                        {
-                            "code": 505,
-                            "indent": 1,
-                            "parameters": [
-                                {
-                                    "code": 37,
-                                    "indent": null
-                                }
-                            ]
-                        },
-                        {
-                            "code": 505,
-                            "indent": 1,
-                            "parameters": [
-                                {
-                                    "code": 1,
-                                    "indent": null
-                                }
-                            ]
-                        },
-                        {
-                            "code": 505,
-                            "indent": 1,
-                            "parameters": [
-                                {
-                                    "code": 1,
-                                    "indent": null
-                                }
-                            ]
-                        },
-                        {
-                            "code": 505,
-                            "indent": 1,
-                            "parameters": [
-                                {
-                                    "code": 38,
-                                    "indent": null
-                                }
-                            ]
-                        },
-                        {
-                            "code": 205,
-                            "indent": 1,
-                            "parameters": [
-                                3,
-                                {
-                                    "list": [
-                                        {
-                                            "code": 16,
-                                            "indent": null
-                                        },
-                                        {
-                                            "code": 44,
-                                            "parameters": [
-                                                {
-                                                    "name": "Open4",
-                                                    "volume": 90,
-                                                    "pitch": 100,
-                                                    "pan": 0
-                                                }
-                                            ],
-                                            "indent": null
-                                        },
-                                        {
-                                            "code": 35,
-                                            "indent": null
-                                        },
-                                        {
-                                            "code": 0
-                                        }
-                                    ],
-                                    "repeat": false,
-                                    "skippable": false,
-                                    "wait": true
-                                }
-                            ]
-                        },
-                        {
-                            "code": 505,
-                            "indent": 1,
-                            "parameters": [
-                                {
-                                    "code": 16,
-                                    "indent": null
-                                }
-                            ]
-                        },
-                        {
-                            "code": 505,
-                            "indent": 1,
-                            "parameters": [
-                                {
-                                    "code": 44,
-                                    "parameters": [
-                                        {
-                                            "name": "Open4",
-                                            "volume": 90,
-                                            "pitch": 100,
-                                            "pan": 0
-                                        }
-                                    ],
-                                    "indent": null
-                                }
-                            ]
-                        },
-                        {
-                            "code": 505,
-                            "indent": 1,
-                            "parameters": [
-                                {
-                                    "code": 35,
-                                    "indent": null
-                                }
-                            ]
-                        },
-                        {
-                            "code": 0,
-                            "indent": 1,
-                            "parameters": []
-                        },
-                        {
-                            "code": 411,
-                            "indent": 0,
-                            "parameters": []
-                        },
-                        {
-                            "code": 111,
-                            "indent": 1,
-                            "parameters": [
-                                6,
-                                -1,
-                                8
-                            ]
-                        },
-                        {
-                            "code": 205,
-                            "indent": 2,
-                            "parameters": [
-                                3,
-                                {
-                                    "list": [
-                                        {
-                                            "code": 44,
-                                            "parameters": [
-                                                {
-                                                    "name": "Open1",
-                                                    "volume": 90,
-                                                    "pitch": 100,
-                                                    "pan": 0
-                                                }
-                                            ],
-                                            "indent": 0
-                                        },
-                                        {
-                                            "code": 36,
-                                            "indent": null
-                                        },
-                                        {
-                                            "code": 17,
-                                            "indent": null
-                                        },
-                                        {
-                                            "code": 15,
-                                            "parameters": [
-                                                5
-                                            ],
-                                            "indent": null
-                                        },
-                                        {
-                                            "code": 18,
-                                            "indent": null
-                                        },
-                                        {
-                                            "code": 15,
-                                            "parameters": [
-                                                5
-                                            ],
-                                            "indent": null
-                                        },
-                                        {
-                                            "code": 19,
-                                            "indent": null
-                                        },
-                                        {
-                                            "code": 0
-                                        }
-                                    ],
-                                    "repeat": false,
-                                    "skippable": false,
-                                    "wait": true
-                                }
-                            ]
-                        },
-                        {
-                            "code": 505,
-                            "indent": 2,
-                            "parameters": [
-                                {
-                                    "code": 44,
-                                    "parameters": [
-                                        {
-                                            "name": "Open1",
-                                            "volume": 90,
-                                            "pitch": 100,
-                                            "pan": 0
-                                        }
-                                    ],
-                                    "indent": 0
-                                }
-                            ]
-                        },
-                        {
-                            "code": 505,
-                            "indent": 2,
-                            "parameters": [
-                                {
-                                    "code": 36,
-                                    "indent": null
-                                }
-                            ]
-                        },
-                        {
-                            "code": 505,
-                            "indent": 2,
-                            "parameters": [
-                                {
-                                    "code": 17,
-                                    "indent": null
-                                }
-                            ]
-                        },
-                        {
-                            "code": 505,
-                            "indent": 2,
-                            "parameters": [
-                                {
-                                    "code": 15,
-                                    "parameters": [
-                                        5
-                                    ],
-                                    "indent": null
-                                }
-                            ]
-                        },
-                        {
-                            "code": 505,
-                            "indent": 2,
-                            "parameters": [
-                                {
-                                    "code": 18,
-                                    "indent": null
-                                }
-                            ]
-                        },
-                        {
-                            "code": 505,
-                            "indent": 2,
-                            "parameters": [
-                                {
-                                    "code": 15,
-                                    "parameters": [
-                                        5
-                                    ],
-                                    "indent": null
-                                }
-                            ]
-                        },
-                        {
-                            "code": 505,
-                            "indent": 2,
-                            "parameters": [
-                                {
-                                    "code": 19,
-                                    "indent": null
-                                }
-                            ]
-                        },
-                        {
-                            "code": 205,
-                            "indent": 2,
-                            "parameters": [
-                                -1,
-                                {
-                                    "list": [
-                                        {
-                                            "code": 37,
-                                            "indent": null
-                                        },
-                                        {
-                                            "code": 4,
-                                            "indent": null
-                                        },
-                                        {
-                                            "code": 4,
-                                            "indent": null
-                                        },
-                                        {
-                                            "code": 38,
-                                            "indent": null
-                                        },
-                                        {
-                                            "code": 0
-                                        }
-                                    ],
-                                    "repeat": false,
-                                    "skippable": false,
-                                    "wait": true
-                                }
-                            ]
-                        },
-                        {
-                            "code": 505,
-                            "indent": 2,
-                            "parameters": [
-                                {
-                                    "code": 37,
-                                    "indent": null
-                                }
-                            ]
-                        },
-                        {
-                            "code": 505,
-                            "indent": 2,
-                            "parameters": [
-                                {
-                                    "code": 4,
-                                    "indent": null
-                                }
-                            ]
-                        },
-                        {
-                            "code": 505,
-                            "indent": 2,
-                            "parameters": [
-                                {
-                                    "code": 4,
-                                    "indent": null
-                                }
-                            ]
-                        },
-                        {
-                            "code": 505,
-                            "indent": 2,
-                            "parameters": [
-                                {
-                                    "code": 38,
-                                    "indent": null
-                                }
-                            ]
-                        },
-                        {
-                            "code": 205,
-                            "indent": 2,
-                            "parameters": [
-                                3,
-                                {
-                                    "list": [
-                                        {
-                                            "code": 16,
-                                            "indent": null
-                                        },
-                                        {
-                                            "code": 44,
-                                            "parameters": [
-                                                {
-                                                    "name": "Open4",
-                                                    "volume": 90,
-                                                    "pitch": 100,
-                                                    "pan": 0
-                                                }
-                                            ],
-                                            "indent": null
-                                        },
-                                        {
-                                            "code": 35,
-                                            "indent": null
-                                        },
-                                        {
-                                            "code": 0
-                                        }
-                                    ],
-                                    "repeat": false,
-                                    "skippable": false,
-                                    "wait": true
-                                }
-                            ]
-                        },
-                        {
-                            "code": 505,
-                            "indent": 2,
-                            "parameters": [
-                                {
-                                    "code": 16,
-                                    "indent": null
-                                }
-                            ]
-                        },
-                        {
-                            "code": 505,
-                            "indent": 2,
-                            "parameters": [
-                                {
-                                    "code": 44,
-                                    "parameters": [
-                                        {
-                                            "name": "Open4",
-                                            "volume": 90,
-                                            "pitch": 100,
-                                            "pan": 0
-                                        }
-                                    ],
-                                    "indent": null
-                                }
-                            ]
-                        },
-                        {
-                            "code": 505,
-                            "indent": 2,
-                            "parameters": [
-                                {
-                                    "code": 35,
-                                    "indent": null
-                                }
-                            ]
-                        },
-                        {
-                            "code": 0,
-                            "indent": 2,
-                            "parameters": []
-                        },
-                        {
-                            "code": 412,
-                            "indent": 1,
-                            "parameters": []
-                        },
-                        {
-                            "code": 0,
-                            "indent": 1,
-                            "parameters": []
-                        },
-                        {
-                            "code": 412,
-                            "indent": 0,
-                            "parameters": []
                         },
                         {
                             "code": 111,
@@ -9358,6 +8733,41 @@
                             ]
                         },
                         {
+                            "code": 111,
+                            "indent": 0,
+                            "parameters": [
+                                0,
+                                1300,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 356,
+                            "indent": 1,
+                            "parameters": [
+                                "回想セーブ セレナ睡眠姦　１"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
+                        },
+                        {
+                            "code": 121,
+                            "indent": 0,
+                            "parameters": [
+                                1385,
+                                1385,
+                                0
+                            ]
+                        },
+                        {
                             "code": 121,
                             "indent": 0,
                             "parameters": [
@@ -9814,13 +9224,6 @@
                             "indent": 0,
                             "parameters": [
                                 17
-                            ]
-                        },
-                        {
-                            "code": 356,
-                            "indent": 0,
-                            "parameters": [
-                                "回想セーブ  Serena_Sleep_Rape_1"
                             ]
                         },
                         {
@@ -19277,6 +18680,32 @@
                             "parameters": []
                         },
                         {
+                            "code": 111,
+                            "indent": 0,
+                            "parameters": [
+                                0,
+                                1300,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 1,
+                            "parameters": [
+                                "Scene_Recollection.prototype.rngd_exit_scene();"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
+                        },
+                        {
                             "code": 117,
                             "indent": 0,
                             "parameters": [
@@ -20637,6 +20066,41 @@
                             ]
                         },
                         {
+                            "code": 111,
+                            "indent": 0,
+                            "parameters": [
+                                0,
+                                1300,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 356,
+                            "indent": 1,
+                            "parameters": [
+                                "回想セーブ セレナ睡眠姦　２"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
+                        },
+                        {
+                            "code": 121,
+                            "indent": 0,
+                            "parameters": [
+                                1386,
+                                1386,
+                                0
+                            ]
+                        },
+                        {
                             "code": 117,
                             "indent": 0,
                             "parameters": [
@@ -21267,13 +20731,6 @@
                             "indent": 0,
                             "parameters": [
                                 17
-                            ]
-                        },
-                        {
-                            "code": 356,
-                            "indent": 0,
-                            "parameters": [
-                                "回想セーブ  Serena_Sleep_Rape_2"
                             ]
                         },
                         {
@@ -31131,6 +30588,32 @@
                         },
                         {
                             "code": 221,
+                            "indent": 0,
+                            "parameters": []
+                        },
+                        {
+                            "code": 111,
+                            "indent": 0,
+                            "parameters": [
+                                0,
+                                1300,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 1,
+                            "parameters": [
+                                "Scene_Recollection.prototype.rngd_exit_scene();"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
                             "indent": 0,
                             "parameters": []
                         },

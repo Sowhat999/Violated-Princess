@@ -1996,11 +1996,30 @@
                             "parameters": []
                         },
                         {
-                            "code": 356,
+                            "code": 111,
                             "indent": 0,
                             "parameters": [
-                                "回想セーブ Confined_by_Thug"
+                                0,
+                                1300,
+                                1
                             ]
+                        },
+                        {
+                            "code": 356,
+                            "indent": 1,
+                            "parameters": [
+                                "回想セーブ ごろつき監禁"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
                         },
                         {
                             "code": 101,
@@ -5344,6 +5363,32 @@
                             "parameters": []
                         },
                         {
+                            "code": 111,
+                            "indent": 0,
+                            "parameters": [
+                                0,
+                                1300,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 1,
+                            "parameters": [
+                                "Scene_Recollection.prototype.rngd_exit_scene();"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
+                        },
+                        {
                             "code": 121,
                             "indent": 0,
                             "parameters": [
@@ -7738,6 +7783,15 @@
                             "code": 121,
                             "indent": 2,
                             "parameters": [
+                                1341,
+                                1341,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 121,
+                            "indent": 2,
+                            "parameters": [
                                 50,
                                 50,
                                 0
@@ -7847,6 +7901,32 @@
                             "parameters": [
                                 "TEマップイベント呼び出し ごろつき監禁　出産 1"
                             ]
+                        },
+                        {
+                            "code": 111,
+                            "indent": 3,
+                            "parameters": [
+                                0,
+                                1300,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 4,
+                            "parameters": [
+                                "Scene_Recollection.prototype.rngd_exit_scene();"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 4,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 3,
+                            "parameters": []
                         },
                         {
                             "code": 0,
@@ -8151,6 +8231,15 @@
                             "parameters": []
                         },
                         {
+                            "code": 121,
+                            "indent": 2,
+                            "parameters": [
+                                1340,
+                                1340,
+                                0
+                            ]
+                        },
+                        {
                             "code": 111,
                             "indent": 2,
                             "parameters": [
@@ -8266,6 +8355,32 @@
                             "parameters": []
                         },
                         {
+                            "code": 111,
+                            "indent": 2,
+                            "parameters": [
+                                0,
+                                1300,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 3,
+                            "parameters": [
+                                "Scene_Recollection.prototype.rngd_exit_scene();"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 3,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 2,
+                            "parameters": []
+                        },
+                        {
                             "code": 0,
                             "indent": 2,
                             "parameters": []
@@ -8321,6 +8436,18 @@
                                 2,
                                 0,
                                 2
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 2,
+                            "parameters": [
+                                812,
+                                812,
+                                0,
+                                2,
+                                0,
+                                1
                             ]
                         },
                         {
@@ -57628,11 +57755,30 @@
                             ]
                         },
                         {
-                            "code": 356,
+                            "code": 111,
                             "indent": 0,
                             "parameters": [
-                                "回想セーブ Gangster's_Kidnapping_and_Childbirth"
+                                0,
+                                1300,
+                                1
                             ]
+                        },
+                        {
+                            "code": 356,
+                            "indent": 1,
+                            "parameters": [
+                                "回想セーブ ごろつき監禁出産"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
                         },
                         {
                             "code": 201,

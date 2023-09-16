@@ -3199,6 +3199,15 @@
                             ]
                         },
                         {
+                            "code": 121,
+                            "indent": 1,
+                            "parameters": [
+                                1349,
+                                1349,
+                                0
+                            ]
+                        },
+                        {
                             "code": 356,
                             "indent": 1,
                             "parameters": [
@@ -3238,6 +3247,15 @@
                             ]
                         },
                         {
+                            "code": 121,
+                            "indent": 2,
+                            "parameters": [
+                                1351,
+                                1351,
+                                0
+                            ]
+                        },
+                        {
                             "code": 356,
                             "indent": 2,
                             "parameters": [
@@ -3273,6 +3291,15 @@
                                 3359,
                                 0,
                                 2,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 121,
+                            "indent": 3,
+                            "parameters": [
+                                1352,
+                                1352,
                                 0
                             ]
                         },
@@ -3321,6 +3348,15 @@
                             "parameters": [
                                 8,
                                 92
+                            ]
+                        },
+                        {
+                            "code": 121,
+                            "indent": 5,
+                            "parameters": [
+                                1353,
+                                1353,
+                                0
                             ]
                         },
                         {
@@ -12716,6 +12752,32 @@
                             "parameters": []
                         },
                         {
+                            "code": 111,
+                            "indent": 0,
+                            "parameters": [
+                                0,
+                                1300,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 1,
+                            "parameters": [
+                                "Scene_Recollection.prototype.rngd_exit_scene();"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
+                        },
+                        {
                             "code": 108,
                             "indent": 0,
                             "parameters": [
@@ -12804,6 +12866,18 @@
                                 2,
                                 0,
                                 1
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                812,
+                                812,
+                                0,
+                                2,
+                                1,
+                                3
                             ]
                         },
                         {
@@ -13927,11 +14001,30 @@
                             "parameters": []
                         },
                         {
-                            "code": 356,
+                            "code": 111,
                             "indent": 0,
                             "parameters": [
-                                "回想セーブ Serving_to_Bardon"
+                                0,
+                                1300,
+                                1
                             ]
+                        },
+                        {
+                            "code": 356,
+                            "indent": 1,
+                            "parameters": [
+                                "回想セーブ バーダンに奉仕"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
                         },
                         {
                             "code": 203,
@@ -15834,6 +15927,32 @@
                             "parameters": []
                         },
                         {
+                            "code": 111,
+                            "indent": 0,
+                            "parameters": [
+                                0,
+                                1300,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 1,
+                            "parameters": [
+                                "Scene_Recollection.prototype.rngd_exit_scene();"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
+                        },
+                        {
                             "code": 108,
                             "indent": 0,
                             "parameters": [
@@ -16847,11 +16966,30 @@
                             "parameters": []
                         },
                         {
-                            "code": 356,
+                            "code": 111,
                             "indent": 0,
                             "parameters": [
-                                "回想セーブ Normal_position_on_Bardon"
+                                0,
+                                1300,
+                                1
                             ]
+                        },
+                        {
+                            "code": 356,
+                            "indent": 1,
+                            "parameters": [
+                                "回想セーブ バーダンに正常位"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
                         },
                         {
                             "code": 203,
@@ -17116,15 +17254,26 @@
                             ]
                         },
                         {
-                            "code": 117,
+                            "code": 111,
                             "indent": 0,
+                            "parameters": [
+                                1,
+                                1163,
+                                0,
+                                6,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 117,
+                            "indent": 1,
                             "parameters": [
                                 6
                             ]
                         },
                         {
                             "code": 101,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 "",
                                 0,
@@ -17134,7 +17283,7 @@
                         },
                         {
                             "code": 401,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 "\\n< Barden >Shishi! All talk, all talk. Make your cute\nnipples perky for me."
                             ]
@@ -17162,7 +17311,7 @@
                         },
                         {
                             "code": 122,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 236,
                                 236,
@@ -17173,21 +17322,32 @@
                         },
                         {
                             "code": 117,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 764
                             ]
                         },
                         {
                             "code": 117,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 6
                             ]
                         },
                         {
+                            "code": 111,
+                            "indent": 1,
+                            "parameters": [
+                                1,
+                                1164,
+                                0,
+                                30,
+                                0
+                            ]
+                        },
+                        {
                             "code": 101,
-                            "indent": 0,
+                            "indent": 2,
                             "parameters": [
                                 "",
                                 0,
@@ -17197,7 +17357,7 @@
                         },
                         {
                             "code": 401,
-                            "indent": 0,
+                            "indent": 2,
                             "parameters": [
                                 "\\n< Barden >Or is it that you want me to tease you?\nHmmm?"
                             ]
@@ -17217,8 +17377,52 @@
                             ]
                         },
                         {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": []
+                        },
+                        {
+                            "code": 411,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 101,
+                            "indent": 2,
+                            "parameters": [
+                                "",
+                                0,
+                                2,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "あんまり怒ると腹のガキによくねえぜ？"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "\\n<バーダン>"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
                             "code": 122,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 461,
                                 461,
@@ -17229,7 +17433,7 @@
                         },
                         {
                             "code": 122,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 221,
                                 221,
@@ -17240,7 +17444,7 @@
                         },
                         {
                             "code": 122,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 473,
                                 473,
@@ -17251,7 +17455,7 @@
                         },
                         {
                             "code": 122,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 105,
                                 105,
@@ -17262,7 +17466,7 @@
                         },
                         {
                             "code": 122,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 106,
                                 106,
@@ -17273,7 +17477,7 @@
                         },
                         {
                             "code": 122,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 107,
                                 107,
@@ -17284,7 +17488,7 @@
                         },
                         {
                             "code": 122,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 236,
                                 236,
@@ -17295,21 +17499,21 @@
                         },
                         {
                             "code": 117,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 764
                             ]
                         },
                         {
                             "code": 230,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 30
                             ]
                         },
                         {
                             "code": 122,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 236,
                                 236,
@@ -17320,21 +17524,21 @@
                         },
                         {
                             "code": 117,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 764
                             ]
                         },
                         {
                             "code": 230,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 30
                             ]
                         },
                         {
                             "code": 122,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 236,
                                 236,
@@ -17345,14 +17549,14 @@
                         },
                         {
                             "code": 117,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 764
                             ]
                         },
                         {
                             "code": 122,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 932,
                                 932,
@@ -17363,10 +17567,10 @@
                         },
                         {
                             "code": 122,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
-                                927,
-                                927,
+                                928,
+                                928,
                                 0,
                                 0,
                                 111
@@ -17374,21 +17578,21 @@
                         },
                         {
                             "code": 117,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
-                                393
+                                394
                             ]
                         },
                         {
                             "code": 230,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 30
                             ]
                         },
                         {
                             "code": 101,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 "",
                                 0,
@@ -17398,7 +17602,7 @@
                         },
                         {
                             "code": 401,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 "\\n< Serena >Nnngghh!!"
                             ]
@@ -17412,7 +17616,7 @@
                         },
                         {
                             "code": 122,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 221,
                                 221,
@@ -17423,7 +17627,7 @@
                         },
                         {
                             "code": 122,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 236,
                                 236,
@@ -17434,21 +17638,21 @@
                         },
                         {
                             "code": 117,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 764
                             ]
                         },
                         {
                             "code": 117,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 6
                             ]
                         },
                         {
                             "code": 101,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 "",
                                 0,
@@ -17458,7 +17662,7 @@
                         },
                         {
                             "code": 401,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 "\\n< Barden >Shishi. Super sensitive."
                             ]
@@ -17472,7 +17676,7 @@
                         },
                         {
                             "code": 122,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 221,
                                 221,
@@ -17483,7 +17687,7 @@
                         },
                         {
                             "code": 122,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 236,
                                 236,
@@ -17495,7 +17699,7 @@
                         },
                         {
                             "code": 122,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 237,
                                 237,
@@ -17507,7 +17711,7 @@
                         },
                         {
                             "code": 122,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 105,
                                 105,
@@ -17518,7 +17722,7 @@
                         },
                         {
                             "code": 122,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 106,
                                 106,
@@ -17529,7 +17733,7 @@
                         },
                         {
                             "code": 122,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 107,
                                 107,
@@ -17540,14 +17744,14 @@
                         },
                         {
                             "code": 117,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 764
                             ]
                         },
                         {
                             "code": 122,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 932,
                                 932,
@@ -17558,10 +17762,10 @@
                         },
                         {
                             "code": 122,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
-                                927,
-                                927,
+                                928,
+                                928,
                                 0,
                                 0,
                                 111
@@ -17569,14 +17773,14 @@
                         },
                         {
                             "code": 117,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
-                                393
+                                394
                             ]
                         },
                         {
                             "code": 101,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 "",
                                 0,
@@ -17586,7 +17790,7 @@
                         },
                         {
                             "code": 401,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 "\\n< Serena >Ah! Stop...!"
                             ]
@@ -17600,7 +17804,7 @@
                         },
                         {
                             "code": 122,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 236,
                                 236,
@@ -17612,21 +17816,21 @@
                         },
                         {
                             "code": 117,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 764
                             ]
                         },
                         {
                             "code": 117,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 6
                             ]
                         },
                         {
                             "code": 101,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 "",
                                 0,
@@ -17636,7 +17840,7 @@
                         },
                         {
                             "code": 401,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 "\\n< Barden >Hm... Lulululul..."
                             ]
@@ -17650,7 +17854,7 @@
                         },
                         {
                             "code": 122,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 236,
                                 236,
@@ -17662,7 +17866,7 @@
                         },
                         {
                             "code": 122,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 237,
                                 237,
@@ -17674,7 +17878,7 @@
                         },
                         {
                             "code": 122,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 105,
                                 105,
@@ -17685,7 +17889,7 @@
                         },
                         {
                             "code": 122,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 106,
                                 106,
@@ -17696,7 +17900,7 @@
                         },
                         {
                             "code": 122,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 107,
                                 107,
@@ -17707,14 +17911,14 @@
                         },
                         {
                             "code": 117,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 764
                             ]
                         },
                         {
                             "code": 122,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 932,
                                 932,
@@ -17725,10 +17929,10 @@
                         },
                         {
                             "code": 122,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
-                                927,
-                                927,
+                                928,
+                                928,
                                 0,
                                 0,
                                 111
@@ -17736,14 +17940,14 @@
                         },
                         {
                             "code": 117,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
-                                393
+                                394
                             ]
                         },
                         {
                             "code": 101,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 "",
                                 0,
@@ -17753,7 +17957,7 @@
                         },
                         {
                             "code": 401,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 "\\n< Serena >Uuuuuu!!!!"
                             ]
@@ -17767,7 +17971,7 @@
                         },
                         {
                             "code": 122,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 236,
                                 236,
@@ -17779,21 +17983,32 @@
                         },
                         {
                             "code": 117,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 764
                             ]
                         },
                         {
                             "code": 117,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 6
                             ]
                         },
                         {
+                            "code": 111,
+                            "indent": 1,
+                            "parameters": [
+                                1,
+                                1164,
+                                0,
+                                30,
+                                0
+                            ]
+                        },
+                        {
                             "code": 101,
-                            "indent": 0,
+                            "indent": 2,
                             "parameters": [
                                 "",
                                 0,
@@ -17803,7 +18018,7 @@
                         },
                         {
                             "code": 401,
-                            "indent": 0,
+                            "indent": 2,
                             "parameters": [
                                 "\\n< Barden >Chu chu chu chu chu chu..."
                             ]
@@ -17816,8 +18031,66 @@
                             ]
                         },
                         {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": []
+                        },
+                        {
+                            "code": 411,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 101,
+                            "indent": 2,
+                            "parameters": [
+                                "",
+                                0,
+                                2,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "この白い腹の中にどんなガキが入って"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "るんだ？気になるよなぁ…早く産んで"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "みてくれよー。"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "\\n<バーダン>"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
                             "code": 122,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 236,
                                 236,
@@ -17829,7 +18102,7 @@
                         },
                         {
                             "code": 122,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 237,
                                 237,
@@ -17841,47 +18114,47 @@
                         },
                         {
                             "code": 122,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 105,
                                 105,
                                 0,
                                 0,
-                                7
+                                2
                             ]
                         },
                         {
                             "code": 122,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 106,
                                 106,
+                                0,
+                                0,
+                                3
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                107,
+                                107,
                                 0,
                                 0,
                                 11
                             ]
                         },
                         {
-                            "code": 122,
-                            "indent": 0,
-                            "parameters": [
-                                107,
-                                107,
-                                0,
-                                0,
-                                10
-                            ]
-                        },
-                        {
                             "code": 117,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 764
                             ]
                         },
                         {
                             "code": 122,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 932,
                                 932,
@@ -17892,10 +18165,10 @@
                         },
                         {
                             "code": 122,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
-                                927,
-                                927,
+                                928,
+                                928,
                                 0,
                                 0,
                                 111
@@ -17903,14 +18176,14 @@
                         },
                         {
                             "code": 117,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
-                                393
+                                394
                             ]
                         },
                         {
                             "code": 101,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 "",
                                 0,
@@ -17920,7 +18193,7 @@
                         },
                         {
                             "code": 401,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 "\\n< Serena >Ah! Ah! Ahhhhhh!!!"
                             ]
@@ -17934,7 +18207,7 @@
                         },
                         {
                             "code": 121,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 94,
                                 94,
@@ -17943,7 +18216,7 @@
                         },
                         {
                             "code": 122,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 236,
                                 236,
@@ -17954,7 +18227,7 @@
                         },
                         {
                             "code": 122,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 237,
                                 237,
@@ -17965,7 +18238,7 @@
                         },
                         {
                             "code": 122,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 221,
                                 221,
@@ -17976,21 +18249,21 @@
                         },
                         {
                             "code": 117,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 764
                             ]
                         },
                         {
                             "code": 117,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 6
                             ]
                         },
                         {
                             "code": 101,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 "",
                                 0,
@@ -18000,7 +18273,7 @@
                         },
                         {
                             "code": 401,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 "\\n< Barden >Puff..."
                             ]
@@ -18014,7 +18287,7 @@
                         },
                         {
                             "code": 122,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 236,
                                 236,
@@ -18025,21 +18298,21 @@
                         },
                         {
                             "code": 117,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 764
                             ]
                         },
                         {
                             "code": 117,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 6
                             ]
                         },
                         {
                             "code": 101,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 "",
                                 0,
@@ -18049,7 +18322,977 @@
                         },
                         {
                             "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "ししし！悪い悪い。セレナが可愛すぎて"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "つい、な！あんまり怒りすぎるのも腹の"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "ガキによくないぜー。"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "\\n<バーダン>"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 411,
                             "indent": 0,
+                            "parameters": []
+                        },
+                        {
+                            "code": 117,
+                            "indent": 1,
+                            "parameters": [
+                                6
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "",
+                                0,
+                                2,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "ししし！"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "口だけ口だけ。"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "可愛い乳首ピンッピンにしといてよ。"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "\\n<バーダン>"
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                236,
+                                236,
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 117,
+                            "indent": 1,
+                            "parameters": [
+                                764
+                            ]
+                        },
+                        {
+                            "code": 117,
+                            "indent": 1,
+                            "parameters": [
+                                6
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "",
+                                0,
+                                2,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "それともいじめてほしいって事かぁ？"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "んんーー？"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "\\n<バーダン>"
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                461,
+                                461,
+                                0,
+                                0,
+                                3
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                221,
+                                221,
+                                0,
+                                0,
+                                3
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                473,
+                                473,
+                                0,
+                                0,
+                                20
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                105,
+                                105,
+                                0,
+                                0,
+                                3
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                106,
+                                106,
+                                0,
+                                0,
+                                11
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                107,
+                                107,
+                                0,
+                                0,
+                                6
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                236,
+                                236,
+                                0,
+                                0,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 117,
+                            "indent": 1,
+                            "parameters": [
+                                764
+                            ]
+                        },
+                        {
+                            "code": 230,
+                            "indent": 1,
+                            "parameters": [
+                                30
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                236,
+                                236,
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 117,
+                            "indent": 1,
+                            "parameters": [
+                                764
+                            ]
+                        },
+                        {
+                            "code": 230,
+                            "indent": 1,
+                            "parameters": [
+                                30
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                236,
+                                236,
+                                0,
+                                0,
+                                3
+                            ]
+                        },
+                        {
+                            "code": 117,
+                            "indent": 1,
+                            "parameters": [
+                                764
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                932,
+                                932,
+                                0,
+                                0,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                927,
+                                927,
+                                0,
+                                0,
+                                111
+                            ]
+                        },
+                        {
+                            "code": 117,
+                            "indent": 1,
+                            "parameters": [
+                                393
+                            ]
+                        },
+                        {
+                            "code": 230,
+                            "indent": 1,
+                            "parameters": [
+                                30
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "",
+                                0,
+                                2,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "んん゛っ！！"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "\\n<セレナ>"
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                221,
+                                221,
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                236,
+                                236,
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 117,
+                            "indent": 1,
+                            "parameters": [
+                                764
+                            ]
+                        },
+                        {
+                            "code": 117,
+                            "indent": 1,
+                            "parameters": [
+                                6
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "",
+                                0,
+                                2,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "ししし。感度抜群。"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "\\n<バーダン>"
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                221,
+                                221,
+                                0,
+                                0,
+                                3
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                236,
+                                236,
+                                0,
+                                2,
+                                1,
+                                5
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                237,
+                                237,
+                                0,
+                                2,
+                                1,
+                                5
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                105,
+                                105,
+                                0,
+                                0,
+                                7
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                106,
+                                106,
+                                0,
+                                0,
+                                12
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                107,
+                                107,
+                                0,
+                                0,
+                                10
+                            ]
+                        },
+                        {
+                            "code": 117,
+                            "indent": 1,
+                            "parameters": [
+                                764
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                932,
+                                932,
+                                0,
+                                0,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                927,
+                                927,
+                                0,
+                                0,
+                                111
+                            ]
+                        },
+                        {
+                            "code": 117,
+                            "indent": 1,
+                            "parameters": [
+                                393
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "",
+                                0,
+                                2,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "あっ！や！やめ……！"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "\\n<セレナ>"
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                236,
+                                236,
+                                0,
+                                2,
+                                1,
+                                5
+                            ]
+                        },
+                        {
+                            "code": 117,
+                            "indent": 1,
+                            "parameters": [
+                                764
+                            ]
+                        },
+                        {
+                            "code": 117,
+                            "indent": 1,
+                            "parameters": [
+                                6
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "",
+                                0,
+                                2,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "はむ……ルロロロ……。"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "\\n<バーダン>"
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                236,
+                                236,
+                                0,
+                                2,
+                                1,
+                                5
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                237,
+                                237,
+                                0,
+                                2,
+                                1,
+                                5
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                105,
+                                105,
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                106,
+                                106,
+                                0,
+                                0,
+                                6
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                107,
+                                107,
+                                0,
+                                0,
+                                7
+                            ]
+                        },
+                        {
+                            "code": 117,
+                            "indent": 1,
+                            "parameters": [
+                                764
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                932,
+                                932,
+                                0,
+                                0,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                927,
+                                927,
+                                0,
+                                0,
+                                111
+                            ]
+                        },
+                        {
+                            "code": 117,
+                            "indent": 1,
+                            "parameters": [
+                                393
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "",
+                                0,
+                                2,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "うぅうううう！！！！"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "\\n<セレナ>"
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                236,
+                                236,
+                                0,
+                                2,
+                                1,
+                                5
+                            ]
+                        },
+                        {
+                            "code": 117,
+                            "indent": 1,
+                            "parameters": [
+                                764
+                            ]
+                        },
+                        {
+                            "code": 117,
+                            "indent": 1,
+                            "parameters": [
+                                6
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "",
+                                0,
+                                2,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "ちゅちゅちゅちゅっちゅちゅ……。"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "\\n<バーダン>"
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                236,
+                                236,
+                                0,
+                                2,
+                                1,
+                                5
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                237,
+                                237,
+                                0,
+                                2,
+                                1,
+                                5
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                105,
+                                105,
+                                0,
+                                0,
+                                7
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                106,
+                                106,
+                                0,
+                                0,
+                                11
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                107,
+                                107,
+                                0,
+                                0,
+                                10
+                            ]
+                        },
+                        {
+                            "code": 117,
+                            "indent": 1,
+                            "parameters": [
+                                764
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                932,
+                                932,
+                                0,
+                                0,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                927,
+                                927,
+                                0,
+                                0,
+                                111
+                            ]
+                        },
+                        {
+                            "code": 117,
+                            "indent": 1,
+                            "parameters": [
+                                393
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "",
+                                0,
+                                2,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "んぁ！あ！んんんん！！！"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "\\n<セレナ>"
+                            ]
+                        },
+                        {
+                            "code": 121,
+                            "indent": 1,
+                            "parameters": [
+                                94,
+                                94,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                236,
+                                236,
+                                0,
+                                0,
+                                6
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                237,
+                                237,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                221,
+                                221,
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 117,
+                            "indent": 1,
+                            "parameters": [
+                                764
+                            ]
+                        },
+                        {
+                            "code": 117,
+                            "indent": 1,
+                            "parameters": [
+                                6
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "",
+                                0,
+                                2,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "ぷふっ……。"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "\\n<バーダン>"
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                236,
+                                236,
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 117,
+                            "indent": 1,
+                            "parameters": [
+                                764
+                            ]
+                        },
+                        {
+                            "code": 117,
+                            "indent": 1,
+                            "parameters": [
+                                6
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "",
+                                0,
+                                2,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
                             "parameters": [
                                 "\\n< Barden >Shishi! I'm happy that you're making such loud\nnoises and feeling it so much, but..."
                             ]
@@ -18067,6 +19310,16 @@
                             "parameters": [
                                 ""
                             ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
                         },
                         {
                             "code": 122,
@@ -20818,6 +22071,32 @@
                             "parameters": []
                         },
                         {
+                            "code": 111,
+                            "indent": 0,
+                            "parameters": [
+                                0,
+                                1300,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 1,
+                            "parameters": [
+                                "Scene_Recollection.prototype.rngd_exit_scene();"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
+                        },
+                        {
                             "code": 108,
                             "indent": 0,
                             "parameters": [
@@ -20906,6 +22185,18 @@
                                 2,
                                 0,
                                 1
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                812,
+                                812,
+                                0,
+                                2,
+                                1,
+                                3
                             ]
                         },
                         {
@@ -21824,11 +23115,30 @@
                             "parameters": []
                         },
                         {
-                            "code": 356,
+                            "code": 111,
                             "indent": 0,
                             "parameters": [
-                                "回想セーブ With_child_and_Bardon"
+                                0,
+                                1300,
+                                1
                             ]
+                        },
+                        {
+                            "code": 356,
+                            "indent": 1,
+                            "parameters": [
+                                "回想セーブ バーダンと子供と"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
                         },
                         {
                             "code": 203,
@@ -25549,6 +26859,32 @@
                             "parameters": []
                         },
                         {
+                            "code": 111,
+                            "indent": 0,
+                            "parameters": [
+                                0,
+                                1300,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 1,
+                            "parameters": [
+                                "Scene_Recollection.prototype.rngd_exit_scene();"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
+                        },
+                        {
                             "code": 108,
                             "indent": 0,
                             "parameters": [
@@ -25637,6 +26973,18 @@
                                 2,
                                 0,
                                 1
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                812,
+                                812,
+                                0,
+                                2,
+                                1,
+                                3
                             ]
                         },
                         {
@@ -28143,6 +29491,18 @@
                                 2,
                                 0,
                                 1
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                812,
+                                812,
+                                0,
+                                2,
+                                1,
+                                3
                             ]
                         },
                         {

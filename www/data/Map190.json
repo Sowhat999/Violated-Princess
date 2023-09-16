@@ -3643,6 +3643,13 @@
                             ]
                         },
                         {
+                            "code": 117,
+                            "indent": 0,
+                            "parameters": [
+                                195
+                            ]
+                        },
+                        {
                             "code": 241,
                             "indent": 0,
                             "parameters": [
@@ -4009,11 +4016,46 @@
                             ]
                         },
                         {
+                            "code": 121,
+                            "indent": 1,
+                            "parameters": [
+                                1346,
+                                1346,
+                                0
+                            ]
+                        },
+                        {
                             "code": 356,
                             "indent": 1,
                             "parameters": [
                                 "TEマップイベント呼び出し ピッグマン苗床敗北 1"
                             ]
+                        },
+                        {
+                            "code": 111,
+                            "indent": 1,
+                            "parameters": [
+                                0,
+                                1300,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 2,
+                            "parameters": [
+                                "Scene_Recollection.prototype.rngd_exit_scene();"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 1,
+                            "parameters": []
                         },
                         {
                             "code": 121,
@@ -4449,11 +4491,46 @@
                             ]
                         },
                         {
+                            "code": 121,
+                            "indent": 2,
+                            "parameters": [
+                                1347,
+                                1347,
+                                0
+                            ]
+                        },
+                        {
                             "code": 356,
                             "indent": 2,
                             "parameters": [
                                 "TEマップイベント呼び出し ピッグマン苗床出産 1"
                             ]
+                        },
+                        {
+                            "code": 111,
+                            "indent": 2,
+                            "parameters": [
+                                0,
+                                1300,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 3,
+                            "parameters": [
+                                "Scene_Recollection.prototype.rngd_exit_scene();"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 3,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 2,
+                            "parameters": []
                         },
                         {
                             "code": 111,
@@ -8698,11 +8775,30 @@
                             ]
                         },
                         {
-                            "code": 356,
+                            "code": 111,
                             "indent": 1,
                             "parameters": [
-                                "回想セーブ Defeated_by_Pigman"
+                                0,
+                                1300,
+                                1
                             ]
+                        },
+                        {
+                            "code": 356,
+                            "indent": 2,
+                            "parameters": [
+                                "回想セーブ ピッグマン敗北"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 1,
+                            "parameters": []
                         },
                         {
                             "code": 203,
@@ -24213,11 +24309,30 @@
                             "parameters": []
                         },
                         {
-                            "code": 356,
+                            "code": 111,
                             "indent": 0,
                             "parameters": [
-                                "回想セーブ Birth_in_Pigman_Cave"
+                                0,
+                                1300,
+                                1
                             ]
+                        },
+                        {
+                            "code": 356,
+                            "indent": 1,
+                            "parameters": [
+                                "回想セーブ 出産　ピッグマン洞窟で"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
                         },
                         {
                             "code": 111,

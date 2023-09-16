@@ -4380,6 +4380,10 @@
                                             "indent": null
                                         },
                                         {
+                                            "code": 37,
+                                            "indent": null
+                                        },
+                                        {
                                             "code": 0
                                         }
                                     ],
@@ -4474,6 +4478,16 @@
                             ]
                         },
                         {
+                            "code": 505,
+                            "indent": 1,
+                            "parameters": [
+                                {
+                                    "code": 37,
+                                    "indent": null
+                                }
+                            ]
+                        },
+                        {
                             "code": 205,
                             "indent": 1,
                             "parameters": [
@@ -4481,19 +4495,11 @@
                                 {
                                     "list": [
                                         {
-                                            "code": 37,
-                                            "indent": null
-                                        },
-                                        {
                                             "code": 1,
                                             "indent": null
                                         },
                                         {
                                             "code": 1,
-                                            "indent": null
-                                        },
-                                        {
-                                            "code": 38,
                                             "indent": null
                                         },
                                         {
@@ -4511,16 +4517,6 @@
                             "indent": 1,
                             "parameters": [
                                 {
-                                    "code": 37,
-                                    "indent": null
-                                }
-                            ]
-                        },
-                        {
-                            "code": 505,
-                            "indent": 1,
-                            "parameters": [
-                                {
                                     "code": 1,
                                     "indent": null
                                 }
@@ -4532,16 +4528,6 @@
                             "parameters": [
                                 {
                                     "code": 1,
-                                    "indent": null
-                                }
-                            ]
-                        },
-                        {
-                            "code": 505,
-                            "indent": 1,
-                            "parameters": [
-                                {
-                                    "code": 38,
                                     "indent": null
                                 }
                             ]
@@ -4553,6 +4539,10 @@
                                 0,
                                 {
                                     "list": [
+                                        {
+                                            "code": 38,
+                                            "indent": null
+                                        },
                                         {
                                             "code": 16,
                                             "indent": null
@@ -4580,6 +4570,16 @@
                                     "repeat": false,
                                     "skippable": false,
                                     "wait": true
+                                }
+                            ]
+                        },
+                        {
+                            "code": 505,
+                            "indent": 1,
+                            "parameters": [
+                                {
+                                    "code": 38,
+                                    "indent": null
                                 }
                             ]
                         },
@@ -4690,6 +4690,10 @@
                                             "indent": null
                                         },
                                         {
+                                            "code": 37,
+                                            "indent": null
+                                        },
+                                        {
                                             "code": 0
                                         }
                                     ],
@@ -4784,6 +4788,16 @@
                             ]
                         },
                         {
+                            "code": 505,
+                            "indent": 2,
+                            "parameters": [
+                                {
+                                    "code": 37,
+                                    "indent": null
+                                }
+                            ]
+                        },
+                        {
                             "code": 205,
                             "indent": 2,
                             "parameters": [
@@ -4791,19 +4805,11 @@
                                 {
                                     "list": [
                                         {
-                                            "code": 37,
-                                            "indent": null
-                                        },
-                                        {
                                             "code": 4,
                                             "indent": null
                                         },
                                         {
                                             "code": 4,
-                                            "indent": null
-                                        },
-                                        {
-                                            "code": 38,
                                             "indent": null
                                         },
                                         {
@@ -4821,16 +4827,6 @@
                             "indent": 2,
                             "parameters": [
                                 {
-                                    "code": 37,
-                                    "indent": null
-                                }
-                            ]
-                        },
-                        {
-                            "code": 505,
-                            "indent": 2,
-                            "parameters": [
-                                {
                                     "code": 4,
                                     "indent": null
                                 }
@@ -4842,16 +4838,6 @@
                             "parameters": [
                                 {
                                     "code": 4,
-                                    "indent": null
-                                }
-                            ]
-                        },
-                        {
-                            "code": 505,
-                            "indent": 2,
-                            "parameters": [
-                                {
-                                    "code": 38,
                                     "indent": null
                                 }
                             ]
@@ -4863,6 +4849,10 @@
                                 0,
                                 {
                                     "list": [
+                                        {
+                                            "code": 38,
+                                            "indent": null
+                                        },
                                         {
                                             "code": 16,
                                             "indent": null
@@ -4890,6 +4880,16 @@
                                     "repeat": false,
                                     "skippable": false,
                                     "wait": true
+                                }
+                            ]
+                        },
+                        {
+                            "code": 505,
+                            "indent": 2,
+                            "parameters": [
+                                {
+                                    "code": 38,
+                                    "indent": null
                                 }
                             ]
                         },
@@ -23352,6 +23352,15 @@
                     },
                     "list": [
                         {
+                            "code": 121,
+                            "indent": 0,
+                            "parameters": [
+                                1400,
+                                1400,
+                                0
+                            ]
+                        },
+                        {
                             "code": 108,
                             "indent": 0,
                             "parameters": [
@@ -23850,11 +23859,30 @@
                             "parameters": []
                         },
                         {
-                            "code": 356,
+                            "code": 111,
                             "indent": 0,
                             "parameters": [
-                                "回想セーブ Forced_Prostitution"
+                                0,
+                                1300,
+                                1
                             ]
+                        },
+                        {
+                            "code": 356,
+                            "indent": 1,
+                            "parameters": [
+                                "回想セーブ スラム娼館　強制売春"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
                         },
                         {
                             "code": 203,
@@ -26940,6 +26968,32 @@
                             "parameters": []
                         },
                         {
+                            "code": 111,
+                            "indent": 0,
+                            "parameters": [
+                                0,
+                                1300,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 1,
+                            "parameters": [
+                                "Scene_Recollection.prototype.rngd_exit_scene();"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
+                        },
+                        {
                             "code": 108,
                             "indent": 0,
                             "parameters": [
@@ -29589,6 +29643,15 @@
                             ]
                         },
                         {
+                            "code": 121,
+                            "indent": 0,
+                            "parameters": [
+                                1401,
+                                1401,
+                                0
+                            ]
+                        },
+                        {
                             "code": 241,
                             "indent": 0,
                             "parameters": [
@@ -29892,11 +29955,30 @@
                             "parameters": []
                         },
                         {
-                            "code": 356,
+                            "code": 111,
                             "indent": 0,
                             "parameters": [
-                                "回想セーブ Endurance_Prostitution"
+                                0,
+                                1300,
+                                1
                             ]
+                        },
+                        {
+                            "code": 356,
+                            "indent": 1,
+                            "parameters": [
+                                "回想セーブ スラム娼館　耐久売春"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
                         },
                         {
                             "code": 203,
@@ -33446,6 +33528,32 @@
                             "parameters": []
                         },
                         {
+                            "code": 111,
+                            "indent": 0,
+                            "parameters": [
+                                0,
+                                1300,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 1,
+                            "parameters": [
+                                "Scene_Recollection.prototype.rngd_exit_scene();"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
+                        },
+                        {
                             "code": 121,
                             "indent": 0,
                             "parameters": [
@@ -34426,6 +34534,15 @@
                             ]
                         },
                         {
+                            "code": 121,
+                            "indent": 0,
+                            "parameters": [
+                                1402,
+                                1402,
+                                0
+                            ]
+                        },
+                        {
                             "code": 241,
                             "indent": 0,
                             "parameters": [
@@ -34900,11 +35017,30 @@
                             "parameters": []
                         },
                         {
-                            "code": 356,
+                            "code": 111,
                             "indent": 0,
                             "parameters": [
-                                "回想セーブ Childbirth_Dance"
+                                0,
+                                1300,
+                                1
                             ]
+                        },
+                        {
+                            "code": 356,
+                            "indent": 1,
+                            "parameters": [
+                                "回想セーブ スラム娼館　出産ダンス"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
                         },
                         {
                             "code": 203,
@@ -39956,6 +40092,32 @@
                         },
                         {
                             "code": 221,
+                            "indent": 0,
+                            "parameters": []
+                        },
+                        {
+                            "code": 111,
+                            "indent": 0,
+                            "parameters": [
+                                0,
+                                1300,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 1,
+                            "parameters": [
+                                "Scene_Recollection.prototype.rngd_exit_scene();"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
                             "indent": 0,
                             "parameters": []
                         },
@@ -52045,6 +52207,15 @@
                             ]
                         },
                         {
+                            "code": 121,
+                            "indent": 1,
+                            "parameters": [
+                                1403,
+                                1403,
+                                0
+                            ]
+                        },
+                        {
                             "code": 356,
                             "indent": 1,
                             "parameters": [
@@ -52073,6 +52244,15 @@
                             ]
                         },
                         {
+                            "code": 121,
+                            "indent": 2,
+                            "parameters": [
+                                1404,
+                                1404,
+                                0
+                            ]
+                        },
+                        {
                             "code": 356,
                             "indent": 2,
                             "parameters": [
@@ -52097,6 +52277,15 @@
                                 2355,
                                 0,
                                 3,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 121,
+                            "indent": 3,
+                            "parameters": [
+                                1405,
+                                1405,
                                 0
                             ]
                         },
@@ -52366,11 +52555,30 @@
                             "parameters": []
                         },
                         {
-                            "code": 356,
+                            "code": 111,
                             "indent": 0,
                             "parameters": [
-                                "回想セーブ Meeting_with_Tim_1"
+                                0,
+                                1300,
+                                1
                             ]
+                        },
+                        {
+                            "code": 356,
+                            "indent": 1,
+                            "parameters": [
+                                "回想セーブ ティムとの逢瀬　１"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
                         },
                         {
                             "code": 203,
@@ -61053,6 +61261,32 @@
                             "parameters": []
                         },
                         {
+                            "code": 111,
+                            "indent": 0,
+                            "parameters": [
+                                0,
+                                1300,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 1,
+                            "parameters": [
+                                "Scene_Recollection.prototype.rngd_exit_scene();"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
+                        },
+                        {
                             "code": 122,
                             "indent": 0,
                             "parameters": [
@@ -61214,6 +61448,28 @@
                                 0,
                                 0,
                                 1
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 0,
+                            "parameters": [
+                                821,
+                                821,
+                                0,
+                                0,
+                                100
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 0,
+                            "parameters": [
+                                826,
+                                826,
+                                0,
+                                0,
+                                0
                             ]
                         },
                         {
@@ -62581,11 +62837,30 @@
                             "parameters": []
                         },
                         {
-                            "code": 356,
+                            "code": 111,
                             "indent": 0,
                             "parameters": [
-                                "回想セーブ Meeting_with_Tim_2"
+                                0,
+                                1300,
+                                1
                             ]
+                        },
+                        {
+                            "code": 356,
+                            "indent": 1,
+                            "parameters": [
+                                "回想セーブ ティムとの逢瀬　２"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
                         },
                         {
                             "code": 203,
@@ -67743,6 +68018,32 @@
                             "parameters": []
                         },
                         {
+                            "code": 111,
+                            "indent": 0,
+                            "parameters": [
+                                0,
+                                1300,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 1,
+                            "parameters": [
+                                "Scene_Recollection.prototype.rngd_exit_scene();"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
+                        },
+                        {
                             "code": 122,
                             "indent": 0,
                             "parameters": [
@@ -68704,11 +69005,30 @@
                             "parameters": []
                         },
                         {
-                            "code": 356,
+                            "code": 111,
                             "indent": 0,
                             "parameters": [
-                                "回想セーブ Meeting_with_Tim_3"
+                                0,
+                                1300,
+                                1
                             ]
+                        },
+                        {
+                            "code": 356,
+                            "indent": 1,
+                            "parameters": [
+                                "回想セーブ ティムとの逢瀬　３"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
                         },
                         {
                             "code": 203,
@@ -74560,6 +74880,32 @@
                             "parameters": []
                         },
                         {
+                            "code": 111,
+                            "indent": 0,
+                            "parameters": [
+                                0,
+                                1300,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 1,
+                            "parameters": [
+                                "Scene_Recollection.prototype.rngd_exit_scene();"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
+                        },
+                        {
                             "code": 122,
                             "indent": 0,
                             "parameters": [
@@ -74701,6 +75047,28 @@
                                 1,
                                 0,
                                 1
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 0,
+                            "parameters": [
+                                821,
+                                821,
+                                0,
+                                0,
+                                100
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 0,
+                            "parameters": [
+                                826,
+                                826,
+                                0,
+                                0,
+                                0
                             ]
                         },
                         {

@@ -8115,6 +8115,15 @@
                             ]
                         },
                         {
+                            "code": 121,
+                            "indent": 0,
+                            "parameters": [
+                                1420,
+                                1420,
+                                0
+                            ]
+                        },
+                        {
                             "code": 201,
                             "indent": 0,
                             "parameters": [
@@ -8996,6 +9005,13 @@
                                 false,
                                 0,
                                 0
+                            ]
+                        },
+                        {
+                            "code": 242,
+                            "indent": 0,
+                            "parameters": [
+                                3
                             ]
                         },
                         {
@@ -10163,13 +10179,6 @@
                             ]
                         },
                         {
-                            "code": 242,
-                            "indent": 0,
-                            "parameters": [
-                                3
-                            ]
-                        },
-                        {
                             "code": 101,
                             "indent": 0,
                             "parameters": [
@@ -10518,6 +10527,18 @@
                             "indent": 0,
                             "parameters": [
                                 422
+                            ]
+                        },
+                        {
+                            "code": 241,
+                            "indent": 0,
+                            "parameters": [
+                                {
+                                    "name": "M32_ED2",
+                                    "volume": 90,
+                                    "pitch": 100,
+                                    "pan": 0
+                                }
                             ]
                         },
                         {
