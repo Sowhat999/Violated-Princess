@@ -4717,16 +4717,68 @@
                     },
                     "list": [
                         {
-                            "code": 241,
+                            "code": 121,
                             "indent": 0,
                             "parameters": [
-                                {
-                                    "name": "M30_ED ",
-                                    "volume": 90,
-                                    "pitch": 100,
-                                    "pan": 0
-                                }
+                                1301,
+                                1423,
+                                0
                             ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "回想シーン全開放データを作成します。"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "このデータがセーブされたファイルがあれば"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "全ての回想シーンが解放されます。"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "セーブされたデータを消せば未開放に戻ります。"
+                            ]
+                        },
+                        {
+                            "code": 356,
+                            "indent": 0,
+                            "parameters": [
+                                "Nore_AutoSave autoSave"
+                            ]
+                        },
+                        {
+                            "code": 352,
+                            "indent": 0,
+                            "parameters": []
+                        },
+                        {
+                            "code": 222,
+                            "indent": 0,
+                            "parameters": []
                         },
                         {
                             "code": 223,
@@ -4839,7 +4891,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "回想セーブ ハッピーエンド"
+                                "回想セーブ グッドエンド"
                             ]
                         },
                         {
@@ -8941,6 +8993,18 @@
                             ]
                         },
                         {
+                            "code": 241,
+                            "indent": 0,
+                            "parameters": [
+                                {
+                                    "name": "M33_ED3",
+                                    "volume": 90,
+                                    "pitch": 100,
+                                    "pan": 0
+                                }
+                            ]
+                        },
+                        {
                             "code": 122,
                             "indent": 0,
                             "parameters": [
@@ -9397,16 +9461,68 @@
                     },
                     "list": [
                         {
-                            "code": 241,
+                            "code": 121,
                             "indent": 0,
                             "parameters": [
-                                {
-                                    "name": "M30_ED ",
-                                    "volume": 90,
-                                    "pitch": 100,
-                                    "pan": 0
-                                }
+                                1301,
+                                1423,
+                                0
                             ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "回想シーン全開放データを作成します。"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "このデータがセーブされたファイルがあれば"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "全ての回想シーンが解放されます。"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "セーブされたデータを消せば未開放に戻ります。"
+                            ]
+                        },
+                        {
+                            "code": 356,
+                            "indent": 0,
+                            "parameters": [
+                                "Nore_AutoSave autoSave"
+                            ]
+                        },
+                        {
+                            "code": 352,
+                            "indent": 0,
+                            "parameters": []
+                        },
+                        {
+                            "code": 222,
+                            "indent": 0,
+                            "parameters": []
                         },
                         {
                             "code": 223,
@@ -13871,6 +13987,18 @@
                                         2
                                     ],
                                     "indent": null
+                                }
+                            ]
+                        },
+                        {
+                            "code": 241,
+                            "indent": 0,
+                            "parameters": [
+                                {
+                                    "name": "M33_ED3",
+                                    "volume": 90,
+                                    "pitch": 100,
+                                    "pan": 0
                                 }
                             ]
                         },

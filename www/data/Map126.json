@@ -3587,6 +3587,15 @@
                             "parameters": []
                         },
                         {
+                            "code": 121,
+                            "indent": 0,
+                            "parameters": [
+                                1304,
+                                1304,
+                                0
+                            ]
+                        },
+                        {
                             "code": 241,
                             "indent": 0,
                             "parameters": [
@@ -3606,7 +3615,7 @@
                                 126,
                                 4,
                                 4,
-                                0,
+                                6,
                                 0
                             ]
                         },
@@ -3816,11 +3825,30 @@
                             "parameters": []
                         },
                         {
-                            "code": 356,
+                            "code": 111,
                             "indent": 0,
+                            "parameters": [
+                                0,
+                                1300,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 356,
+                            "indent": 1,
                             "parameters": [
                                 "回想セーブ 温泉街エリカ輪姦"
                             ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
                         },
                         {
                             "code": 204,
@@ -7038,19 +7066,8 @@
                             ]
                         },
                         {
-                            "code": 111,
-                            "indent": 1,
-                            "parameters": [
-                                1,
-                                2283,
-                                0,
-                                101,
-                                0
-                            ]
-                        },
-                        {
                             "code": 224,
-                            "indent": 2,
+                            "indent": 1,
                             "parameters": [
                                 [
                                     255,
@@ -7064,7 +7081,7 @@
                         },
                         {
                             "code": 122,
-                            "indent": 2,
+                            "indent": 1,
                             "parameters": [
                                 246,
                                 246,
@@ -7075,28 +7092,28 @@
                         },
                         {
                             "code": 117,
-                            "indent": 2,
+                            "indent": 1,
                             "parameters": [
                                 668
                             ]
                         },
                         {
                             "code": 230,
-                            "indent": 2,
+                            "indent": 1,
                             "parameters": [
                                 60
                             ]
                         },
                         {
                             "code": 117,
-                            "indent": 2,
+                            "indent": 1,
                             "parameters": [
                                 74
                             ]
                         },
                         {
                             "code": 224,
-                            "indent": 2,
+                            "indent": 1,
                             "parameters": [
                                 [
                                     255,
@@ -7110,7 +7127,7 @@
                         },
                         {
                             "code": 122,
-                            "indent": 2,
+                            "indent": 1,
                             "parameters": [
                                 246,
                                 246,
@@ -7121,27 +7138,17 @@
                         },
                         {
                             "code": 117,
-                            "indent": 2,
+                            "indent": 1,
                             "parameters": [
                                 668
                             ]
                         },
                         {
                             "code": 230,
-                            "indent": 2,
+                            "indent": 1,
                             "parameters": [
                                 20
                             ]
-                        },
-                        {
-                            "code": 0,
-                            "indent": 2,
-                            "parameters": []
-                        },
-                        {
-                            "code": 412,
-                            "indent": 1,
-                            "parameters": []
                         },
                         {
                             "code": 117,
@@ -10929,6 +10936,32 @@
                             "parameters": []
                         },
                         {
+                            "code": 111,
+                            "indent": 0,
+                            "parameters": [
+                                0,
+                                1300,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 1,
+                            "parameters": [
+                                "Scene_Recollection.prototype.rngd_exit_scene();"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
+                        },
+                        {
                             "code": 230,
                             "indent": 0,
                             "parameters": [
@@ -13837,6 +13870,15 @@
                                 9,
                                 6,
                                 2,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 121,
+                            "indent": 0,
+                            "parameters": [
+                                1304,
+                                1304,
                                 0
                             ]
                         },

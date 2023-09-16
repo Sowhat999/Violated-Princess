@@ -3275,294 +3275,10 @@
                             ]
                         },
                         {
-                            "code": 205,
+                            "code": 117,
                             "indent": 0,
                             "parameters": [
-                                0,
-                                {
-                                    "list": [
-                                        {
-                                            "code": 36,
-                                            "indent": null
-                                        },
-                                        {
-                                            "code": 44,
-                                            "parameters": [
-                                                {
-                                                    "name": "Open1",
-                                                    "volume": 90,
-                                                    "pitch": 100,
-                                                    "pan": 0
-                                                }
-                                            ],
-                                            "indent": null
-                                        },
-                                        {
-                                            "code": 17,
-                                            "indent": null
-                                        },
-                                        {
-                                            "code": 15,
-                                            "parameters": [
-                                                5
-                                            ],
-                                            "indent": null
-                                        },
-                                        {
-                                            "code": 18,
-                                            "indent": null
-                                        },
-                                        {
-                                            "code": 15,
-                                            "parameters": [
-                                                5
-                                            ],
-                                            "indent": null
-                                        },
-                                        {
-                                            "code": 19,
-                                            "indent": null
-                                        },
-                                        {
-                                            "code": 0
-                                        }
-                                    ],
-                                    "repeat": false,
-                                    "skippable": false,
-                                    "wait": true
-                                }
-                            ]
-                        },
-                        {
-                            "code": 505,
-                            "indent": 0,
-                            "parameters": [
-                                {
-                                    "code": 36,
-                                    "indent": null
-                                }
-                            ]
-                        },
-                        {
-                            "code": 505,
-                            "indent": 0,
-                            "parameters": [
-                                {
-                                    "code": 44,
-                                    "parameters": [
-                                        {
-                                            "name": "Open1",
-                                            "volume": 90,
-                                            "pitch": 100,
-                                            "pan": 0
-                                        }
-                                    ],
-                                    "indent": null
-                                }
-                            ]
-                        },
-                        {
-                            "code": 505,
-                            "indent": 0,
-                            "parameters": [
-                                {
-                                    "code": 17,
-                                    "indent": null
-                                }
-                            ]
-                        },
-                        {
-                            "code": 505,
-                            "indent": 0,
-                            "parameters": [
-                                {
-                                    "code": 15,
-                                    "parameters": [
-                                        5
-                                    ],
-                                    "indent": null
-                                }
-                            ]
-                        },
-                        {
-                            "code": 505,
-                            "indent": 0,
-                            "parameters": [
-                                {
-                                    "code": 18,
-                                    "indent": null
-                                }
-                            ]
-                        },
-                        {
-                            "code": 505,
-                            "indent": 0,
-                            "parameters": [
-                                {
-                                    "code": 15,
-                                    "parameters": [
-                                        5
-                                    ],
-                                    "indent": null
-                                }
-                            ]
-                        },
-                        {
-                            "code": 505,
-                            "indent": 0,
-                            "parameters": [
-                                {
-                                    "code": 19,
-                                    "indent": null
-                                }
-                            ]
-                        },
-                        {
-                            "code": 205,
-                            "indent": 0,
-                            "parameters": [
-                                -1,
-                                {
-                                    "list": [
-                                        {
-                                            "code": 37,
-                                            "indent": null
-                                        },
-                                        {
-                                            "code": 4,
-                                            "indent": null
-                                        },
-                                        {
-                                            "code": 4,
-                                            "indent": null
-                                        },
-                                        {
-                                            "code": 38,
-                                            "indent": null
-                                        },
-                                        {
-                                            "code": 0
-                                        }
-                                    ],
-                                    "repeat": false,
-                                    "skippable": false,
-                                    "wait": true
-                                }
-                            ]
-                        },
-                        {
-                            "code": 505,
-                            "indent": 0,
-                            "parameters": [
-                                {
-                                    "code": 37,
-                                    "indent": null
-                                }
-                            ]
-                        },
-                        {
-                            "code": 505,
-                            "indent": 0,
-                            "parameters": [
-                                {
-                                    "code": 4,
-                                    "indent": null
-                                }
-                            ]
-                        },
-                        {
-                            "code": 505,
-                            "indent": 0,
-                            "parameters": [
-                                {
-                                    "code": 4,
-                                    "indent": null
-                                }
-                            ]
-                        },
-                        {
-                            "code": 505,
-                            "indent": 0,
-                            "parameters": [
-                                {
-                                    "code": 38,
-                                    "indent": null
-                                }
-                            ]
-                        },
-                        {
-                            "code": 205,
-                            "indent": 0,
-                            "parameters": [
-                                0,
-                                {
-                                    "list": [
-                                        {
-                                            "code": 16,
-                                            "indent": null
-                                        },
-                                        {
-                                            "code": 44,
-                                            "parameters": [
-                                                {
-                                                    "name": "Open4",
-                                                    "volume": 90,
-                                                    "pitch": 100,
-                                                    "pan": 0
-                                                }
-                                            ],
-                                            "indent": null
-                                        },
-                                        {
-                                            "code": 35,
-                                            "indent": null
-                                        },
-                                        {
-                                            "code": 0
-                                        }
-                                    ],
-                                    "repeat": false,
-                                    "skippable": false,
-                                    "wait": true
-                                }
-                            ]
-                        },
-                        {
-                            "code": 505,
-                            "indent": 0,
-                            "parameters": [
-                                {
-                                    "code": 16,
-                                    "indent": null
-                                }
-                            ]
-                        },
-                        {
-                            "code": 505,
-                            "indent": 0,
-                            "parameters": [
-                                {
-                                    "code": 44,
-                                    "parameters": [
-                                        {
-                                            "name": "Open4",
-                                            "volume": 90,
-                                            "pitch": 100,
-                                            "pan": 0
-                                        }
-                                    ],
-                                    "indent": null
-                                }
-                            ]
-                        },
-                        {
-                            "code": 505,
-                            "indent": 0,
-                            "parameters": [
-                                {
-                                    "code": 35,
-                                    "indent": null
-                                }
+                                135
                             ]
                         },
                         {
@@ -5138,11 +4854,39 @@
                     },
                     "list": [
                         {
-                            "code": 356,
+                            "code": 121,
                             "indent": 0,
+                            "parameters": [
+                                1317,
+                                1317,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 111,
+                            "indent": 0,
+                            "parameters": [
+                                0,
+                                1300,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 356,
+                            "indent": 1,
                             "parameters": [
                                 "回想セーブ トイレスタリオンレイプ　１"
                             ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
                         },
                         {
                             "code": 122,
@@ -5255,294 +4999,10 @@
                             ]
                         },
                         {
-                            "code": 205,
+                            "code": 117,
                             "indent": 0,
                             "parameters": [
-                                0,
-                                {
-                                    "list": [
-                                        {
-                                            "code": 36,
-                                            "indent": null
-                                        },
-                                        {
-                                            "code": 44,
-                                            "parameters": [
-                                                {
-                                                    "name": "Open1",
-                                                    "volume": 90,
-                                                    "pitch": 100,
-                                                    "pan": 0
-                                                }
-                                            ],
-                                            "indent": null
-                                        },
-                                        {
-                                            "code": 17,
-                                            "indent": null
-                                        },
-                                        {
-                                            "code": 15,
-                                            "parameters": [
-                                                5
-                                            ],
-                                            "indent": null
-                                        },
-                                        {
-                                            "code": 18,
-                                            "indent": null
-                                        },
-                                        {
-                                            "code": 15,
-                                            "parameters": [
-                                                5
-                                            ],
-                                            "indent": null
-                                        },
-                                        {
-                                            "code": 19,
-                                            "indent": null
-                                        },
-                                        {
-                                            "code": 0
-                                        }
-                                    ],
-                                    "repeat": false,
-                                    "skippable": false,
-                                    "wait": true
-                                }
-                            ]
-                        },
-                        {
-                            "code": 505,
-                            "indent": 0,
-                            "parameters": [
-                                {
-                                    "code": 36,
-                                    "indent": null
-                                }
-                            ]
-                        },
-                        {
-                            "code": 505,
-                            "indent": 0,
-                            "parameters": [
-                                {
-                                    "code": 44,
-                                    "parameters": [
-                                        {
-                                            "name": "Open1",
-                                            "volume": 90,
-                                            "pitch": 100,
-                                            "pan": 0
-                                        }
-                                    ],
-                                    "indent": null
-                                }
-                            ]
-                        },
-                        {
-                            "code": 505,
-                            "indent": 0,
-                            "parameters": [
-                                {
-                                    "code": 17,
-                                    "indent": null
-                                }
-                            ]
-                        },
-                        {
-                            "code": 505,
-                            "indent": 0,
-                            "parameters": [
-                                {
-                                    "code": 15,
-                                    "parameters": [
-                                        5
-                                    ],
-                                    "indent": null
-                                }
-                            ]
-                        },
-                        {
-                            "code": 505,
-                            "indent": 0,
-                            "parameters": [
-                                {
-                                    "code": 18,
-                                    "indent": null
-                                }
-                            ]
-                        },
-                        {
-                            "code": 505,
-                            "indent": 0,
-                            "parameters": [
-                                {
-                                    "code": 15,
-                                    "parameters": [
-                                        5
-                                    ],
-                                    "indent": null
-                                }
-                            ]
-                        },
-                        {
-                            "code": 505,
-                            "indent": 0,
-                            "parameters": [
-                                {
-                                    "code": 19,
-                                    "indent": null
-                                }
-                            ]
-                        },
-                        {
-                            "code": 205,
-                            "indent": 0,
-                            "parameters": [
-                                -1,
-                                {
-                                    "list": [
-                                        {
-                                            "code": 37,
-                                            "indent": null
-                                        },
-                                        {
-                                            "code": 4,
-                                            "indent": null
-                                        },
-                                        {
-                                            "code": 4,
-                                            "indent": null
-                                        },
-                                        {
-                                            "code": 38,
-                                            "indent": null
-                                        },
-                                        {
-                                            "code": 0
-                                        }
-                                    ],
-                                    "repeat": false,
-                                    "skippable": false,
-                                    "wait": true
-                                }
-                            ]
-                        },
-                        {
-                            "code": 505,
-                            "indent": 0,
-                            "parameters": [
-                                {
-                                    "code": 37,
-                                    "indent": null
-                                }
-                            ]
-                        },
-                        {
-                            "code": 505,
-                            "indent": 0,
-                            "parameters": [
-                                {
-                                    "code": 4,
-                                    "indent": null
-                                }
-                            ]
-                        },
-                        {
-                            "code": 505,
-                            "indent": 0,
-                            "parameters": [
-                                {
-                                    "code": 4,
-                                    "indent": null
-                                }
-                            ]
-                        },
-                        {
-                            "code": 505,
-                            "indent": 0,
-                            "parameters": [
-                                {
-                                    "code": 38,
-                                    "indent": null
-                                }
-                            ]
-                        },
-                        {
-                            "code": 205,
-                            "indent": 0,
-                            "parameters": [
-                                0,
-                                {
-                                    "list": [
-                                        {
-                                            "code": 16,
-                                            "indent": null
-                                        },
-                                        {
-                                            "code": 44,
-                                            "parameters": [
-                                                {
-                                                    "name": "Open4",
-                                                    "volume": 90,
-                                                    "pitch": 100,
-                                                    "pan": 0
-                                                }
-                                            ],
-                                            "indent": null
-                                        },
-                                        {
-                                            "code": 35,
-                                            "indent": null
-                                        },
-                                        {
-                                            "code": 0
-                                        }
-                                    ],
-                                    "repeat": false,
-                                    "skippable": false,
-                                    "wait": true
-                                }
-                            ]
-                        },
-                        {
-                            "code": 505,
-                            "indent": 0,
-                            "parameters": [
-                                {
-                                    "code": 16,
-                                    "indent": null
-                                }
-                            ]
-                        },
-                        {
-                            "code": 505,
-                            "indent": 0,
-                            "parameters": [
-                                {
-                                    "code": 44,
-                                    "parameters": [
-                                        {
-                                            "name": "Open4",
-                                            "volume": 90,
-                                            "pitch": 100,
-                                            "pan": 0
-                                        }
-                                    ],
-                                    "indent": null
-                                }
-                            ]
-                        },
-                        {
-                            "code": 505,
-                            "indent": 0,
-                            "parameters": [
-                                {
-                                    "code": 35,
-                                    "indent": null
-                                }
+                                135
                             ]
                         },
                         {
@@ -9009,8 +8469,19 @@
                             ]
                         },
                         {
-                            "code": 101,
+                            "code": 111,
                             "indent": 2,
+                            "parameters": [
+                                1,
+                                1211,
+                                0,
+                                3,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 3,
                             "parameters": [
                                 "",
                                 0,
@@ -9020,17 +8491,68 @@
                         },
                         {
                             "code": 401,
-                            "indent": 2,
+                            "indent": 3,
                             "parameters": [
                                 "お腹の……！赤ちゃんが……！"
                             ]
                         },
                         {
                             "code": 401,
-                            "indent": 2,
+                            "indent": 3,
                             "parameters": [
                                 "\\n<セレナ>"
                             ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 3,
+                            "parameters": []
+                        },
+                        {
+                            "code": 411,
+                            "indent": 2,
+                            "parameters": []
+                        },
+                        {
+                            "code": 101,
+                            "indent": 3,
+                            "parameters": [
+                                "",
+                                0,
+                                2,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 3,
+                            "parameters": [
+                                "だ、ダメだ……！"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 3,
+                            "parameters": [
+                                "何か、何かダメだ……！"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 3,
+                            "parameters": [
+                                "\\n<セレナ>"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 3,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 2,
+                            "parameters": []
                         },
                         {
                             "code": 117,
@@ -9866,8 +9388,19 @@
                             ]
                         },
                         {
-                            "code": 101,
+                            "code": 111,
                             "indent": 2,
+                            "parameters": [
+                                1,
+                                1211,
+                                0,
+                                3,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 3,
                             "parameters": [
                                 "",
                                 0,
@@ -9877,28 +9410,28 @@
                         },
                         {
                             "code": 401,
-                            "indent": 2,
+                            "indent": 3,
                             "parameters": [
                                 "ごめ……ごめんなさ……。"
                             ]
                         },
                         {
                             "code": 401,
-                            "indent": 2,
+                            "indent": 3,
                             "parameters": [
                                 "\\n<セレナ>"
                             ]
                         },
                         {
                             "code": 117,
-                            "indent": 2,
+                            "indent": 3,
                             "parameters": [
                                 6
                             ]
                         },
                         {
                             "code": 101,
-                            "indent": 2,
+                            "indent": 3,
                             "parameters": [
                                 "",
                                 0,
@@ -9908,21 +9441,21 @@
                         },
                         {
                             "code": 401,
-                            "indent": 2,
+                            "indent": 3,
                             "parameters": [
                                 "だーれへの謝罪かなーそれは？"
                             ]
                         },
                         {
                             "code": 401,
-                            "indent": 2,
+                            "indent": 3,
                             "parameters": [
                                 "\\n<種馬のスタリオン>"
                             ]
                         },
                         {
                             "code": 101,
-                            "indent": 2,
+                            "indent": 3,
                             "parameters": [
                                 "",
                                 0,
@@ -9932,28 +9465,28 @@
                         },
                         {
                             "code": 401,
-                            "indent": 2,
+                            "indent": 3,
                             "parameters": [
                                 "もしかしてお腹の赤ちゃんに？"
                             ]
                         },
                         {
                             "code": 401,
-                            "indent": 2,
+                            "indent": 3,
                             "parameters": [
                                 "おいおいやめておくんない。"
                             ]
                         },
                         {
                             "code": 401,
-                            "indent": 2,
+                            "indent": 3,
                             "parameters": [
                                 "\\n<種馬のスタリオン>"
                             ]
                         },
                         {
                             "code": 101,
-                            "indent": 2,
+                            "indent": 3,
                             "parameters": [
                                 "",
                                 0,
@@ -9963,35 +9496,35 @@
                         },
                         {
                             "code": 401,
-                            "indent": 2,
+                            "indent": 3,
                             "parameters": [
                                 "まるで俺がさァ！"
                             ]
                         },
                         {
                             "code": 401,
-                            "indent": 2,
+                            "indent": 3,
                             "parameters": [
                                 "赤ちゃんをいじめる外道みたいに！"
                             ]
                         },
                         {
                             "code": 401,
-                            "indent": 2,
+                            "indent": 3,
                             "parameters": [
                                 "なっちゃうジャン！！"
                             ]
                         },
                         {
                             "code": 401,
-                            "indent": 2,
+                            "indent": 3,
                             "parameters": [
                                 "\\n<種馬のスタリオン>"
                             ]
                         },
                         {
                             "code": 101,
-                            "indent": 2,
+                            "indent": 3,
                             "parameters": [
                                 "",
                                 0,
@@ -10001,28 +9534,28 @@
                         },
                         {
                             "code": 401,
-                            "indent": 2,
+                            "indent": 3,
                             "parameters": [
                                 "俺を、責めてんのか！"
                             ]
                         },
                         {
                             "code": 401,
-                            "indent": 2,
+                            "indent": 3,
                             "parameters": [
                                 "責めてんのか責めてんのか！"
                             ]
                         },
                         {
                             "code": 401,
-                            "indent": 2,
+                            "indent": 3,
                             "parameters": [
                                 "\\n<種馬のスタリオン>"
                             ]
                         },
                         {
                             "code": 101,
-                            "indent": 2,
+                            "indent": 3,
                             "parameters": [
                                 "",
                                 0,
@@ -10032,24 +9565,120 @@
                         },
                         {
                             "code": 401,
-                            "indent": 2,
+                            "indent": 3,
                             "parameters": [
                                 "このガキマママンコで！"
                             ]
                         },
                         {
                             "code": 401,
-                            "indent": 2,
+                            "indent": 3,
                             "parameters": [
                                 "俺を責めて…ムほッ！"
                             ]
                         },
                         {
                             "code": 401,
-                            "indent": 2,
+                            "indent": 3,
                             "parameters": [
                                 "\\n<種馬のスタリオン>"
                             ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 3,
+                            "parameters": []
+                        },
+                        {
+                            "code": 411,
+                            "indent": 2,
+                            "parameters": []
+                        },
+                        {
+                            "code": 117,
+                            "indent": 3,
+                            "parameters": [
+                                6
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 3,
+                            "parameters": [
+                                "",
+                                0,
+                                2,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 3,
+                            "parameters": [
+                                "ひでぇのはそっちだろうが！"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 3,
+                            "parameters": [
+                                "俺のガキを…ッ！"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 3,
+                            "parameters": [
+                                "俺のガキを作れなくしやがって！"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 3,
+                            "parameters": [
+                                "\\n<種馬のスタリオン>"
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 3,
+                            "parameters": [
+                                "",
+                                0,
+                                2,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 3,
+                            "parameters": [
+                                "畜生！こんなに狭くていいマンコから！"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 3,
+                            "parameters": [
+                                "俺のガキが出てこれねぇなんて…ムほッ！"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 3,
+                            "parameters": [
+                                "\\n<種馬のスタリオン>"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 3,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 2,
+                            "parameters": []
                         },
                         {
                             "code": 122,
@@ -26492,81 +26121,6 @@
                             "code": 205,
                             "indent": 0,
                             "parameters": [
-                                0,
-                                {
-                                    "list": [
-                                        {
-                                            "code": 16,
-                                            "indent": null
-                                        },
-                                        {
-                                            "code": 44,
-                                            "parameters": [
-                                                {
-                                                    "name": "Open4",
-                                                    "volume": 90,
-                                                    "pitch": 100,
-                                                    "pan": 0
-                                                }
-                                            ],
-                                            "indent": null
-                                        },
-                                        {
-                                            "code": 35,
-                                            "indent": null
-                                        },
-                                        {
-                                            "code": 0
-                                        }
-                                    ],
-                                    "repeat": false,
-                                    "skippable": false,
-                                    "wait": true
-                                }
-                            ]
-                        },
-                        {
-                            "code": 505,
-                            "indent": 0,
-                            "parameters": [
-                                {
-                                    "code": 16,
-                                    "indent": null
-                                }
-                            ]
-                        },
-                        {
-                            "code": 505,
-                            "indent": 0,
-                            "parameters": [
-                                {
-                                    "code": 44,
-                                    "parameters": [
-                                        {
-                                            "name": "Open4",
-                                            "volume": 90,
-                                            "pitch": 100,
-                                            "pan": 0
-                                        }
-                                    ],
-                                    "indent": null
-                                }
-                            ]
-                        },
-                        {
-                            "code": 505,
-                            "indent": 0,
-                            "parameters": [
-                                {
-                                    "code": 35,
-                                    "indent": null
-                                }
-                            ]
-                        },
-                        {
-                            "code": 205,
-                            "indent": 0,
-                            "parameters": [
                                 5,
                                 {
                                     "list": [
@@ -26757,6 +26311,77 @@
                             "code": 221,
                             "indent": 0,
                             "parameters": []
+                        },
+                        {
+                            "code": 111,
+                            "indent": 0,
+                            "parameters": [
+                                0,
+                                1300,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 1,
+                            "parameters": [
+                                "Scene_Recollection.prototype.rngd_exit_scene();"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
+                        },
+                        {
+                            "code": 205,
+                            "indent": 0,
+                            "parameters": [
+                                0,
+                                {
+                                    "list": [
+                                        {
+                                            "code": 16,
+                                            "indent": null
+                                        },
+                                        {
+                                            "code": 35,
+                                            "indent": null
+                                        },
+                                        {
+                                            "code": 0
+                                        }
+                                    ],
+                                    "repeat": false,
+                                    "skippable": false,
+                                    "wait": true
+                                }
+                            ]
+                        },
+                        {
+                            "code": 505,
+                            "indent": 0,
+                            "parameters": [
+                                {
+                                    "code": 16,
+                                    "indent": null
+                                }
+                            ]
+                        },
+                        {
+                            "code": 505,
+                            "indent": 0,
+                            "parameters": [
+                                {
+                                    "code": 35,
+                                    "indent": null
+                                }
+                            ]
                         },
                         {
                             "code": 242,

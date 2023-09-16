@@ -2637,6 +2637,13 @@
                             "code": 117,
                             "indent": 0,
                             "parameters": [
+                                322
+                            ]
+                        },
+                        {
+                            "code": 117,
+                            "indent": 0,
+                            "parameters": [
                                 2
                             ]
                         },
@@ -3469,6 +3476,13 @@
                             ]
                         },
                         {
+                            "code": 118,
+                            "indent": 2,
+                            "parameters": [
+                                "やめる"
+                            ]
+                        },
+                        {
                             "code": 101,
                             "indent": 2,
                             "parameters": [
@@ -3521,14 +3535,127 @@
                             ]
                         },
                         {
-                            "code": 126,
+                            "code": 111,
                             "indent": 3,
+                            "parameters": [
+                                8,
+                                111
+                            ]
+                        },
+                        {
+                            "code": 102,
+                            "indent": 4,
+                            "parameters": [
+                                [
+                                    "ゴブリンの子",
+                                    "ゴブリンの仔の子"
+                                ],
+                                -2,
+                                -1,
+                                1,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 402,
+                            "indent": 4,
+                            "parameters": [
+                                0,
+                                "ゴブリンの子"
+                            ]
+                        },
+                        {
+                            "code": 126,
+                            "indent": 5,
                             "parameters": [
                                 51,
                                 1,
                                 0,
                                 1
                             ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 5,
+                            "parameters": []
+                        },
+                        {
+                            "code": 402,
+                            "indent": 4,
+                            "parameters": [
+                                1,
+                                "ゴブリンの仔の子"
+                            ]
+                        },
+                        {
+                            "code": 126,
+                            "indent": 5,
+                            "parameters": [
+                                111,
+                                1,
+                                0,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 5,
+                            "parameters": []
+                        },
+                        {
+                            "code": 403,
+                            "indent": 4,
+                            "parameters": [
+                                6,
+                                null
+                            ]
+                        },
+                        {
+                            "code": 119,
+                            "indent": 5,
+                            "parameters": [
+                                "やめる"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 5,
+                            "parameters": []
+                        },
+                        {
+                            "code": 404,
+                            "indent": 4,
+                            "parameters": []
+                        },
+                        {
+                            "code": 0,
+                            "indent": 4,
+                            "parameters": []
+                        },
+                        {
+                            "code": 411,
+                            "indent": 3,
+                            "parameters": []
+                        },
+                        {
+                            "code": 126,
+                            "indent": 4,
+                            "parameters": [
+                                51,
+                                1,
+                                0,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 4,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 3,
+                            "parameters": []
                         },
                         {
                             "code": 0,
@@ -3559,17 +3686,6 @@
                             "code": 412,
                             "indent": 2,
                             "parameters": []
-                        },
-                        {
-                            "code": 122,
-                            "indent": 2,
-                            "parameters": [
-                                1701,
-                                1701,
-                                2,
-                                0,
-                                1
-                            ]
                         },
                         {
                             "code": 122,
@@ -3622,14 +3738,127 @@
                             ]
                         },
                         {
-                            "code": 126,
+                            "code": 111,
                             "indent": 3,
+                            "parameters": [
+                                8,
+                                112
+                            ]
+                        },
+                        {
+                            "code": 102,
+                            "indent": 4,
+                            "parameters": [
+                                [
+                                    "オークの子",
+                                    "オークの仔の子"
+                                ],
+                                -2,
+                                -1,
+                                1,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 402,
+                            "indent": 4,
+                            "parameters": [
+                                0,
+                                "オークの子"
+                            ]
+                        },
+                        {
+                            "code": 126,
+                            "indent": 5,
                             "parameters": [
                                 52,
                                 1,
                                 0,
                                 1
                             ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 5,
+                            "parameters": []
+                        },
+                        {
+                            "code": 402,
+                            "indent": 4,
+                            "parameters": [
+                                1,
+                                "オークの仔の子"
+                            ]
+                        },
+                        {
+                            "code": 126,
+                            "indent": 5,
+                            "parameters": [
+                                112,
+                                1,
+                                0,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 5,
+                            "parameters": []
+                        },
+                        {
+                            "code": 403,
+                            "indent": 4,
+                            "parameters": [
+                                6,
+                                null
+                            ]
+                        },
+                        {
+                            "code": 119,
+                            "indent": 5,
+                            "parameters": [
+                                "やめる"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 5,
+                            "parameters": []
+                        },
+                        {
+                            "code": 404,
+                            "indent": 4,
+                            "parameters": []
+                        },
+                        {
+                            "code": 0,
+                            "indent": 4,
+                            "parameters": []
+                        },
+                        {
+                            "code": 411,
+                            "indent": 3,
+                            "parameters": []
+                        },
+                        {
+                            "code": 126,
+                            "indent": 4,
+                            "parameters": [
+                                52,
+                                1,
+                                0,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 4,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 3,
+                            "parameters": []
                         },
                         {
                             "code": 0,
@@ -3660,17 +3889,6 @@
                             "code": 412,
                             "indent": 2,
                             "parameters": []
-                        },
-                        {
-                            "code": 122,
-                            "indent": 2,
-                            "parameters": [
-                                1702,
-                                1702,
-                                2,
-                                0,
-                                1
-                            ]
                         },
                         {
                             "code": 122,
@@ -3723,14 +3941,127 @@
                             ]
                         },
                         {
-                            "code": 126,
+                            "code": 111,
                             "indent": 3,
+                            "parameters": [
+                                8,
+                                113
+                            ]
+                        },
+                        {
+                            "code": 102,
+                            "indent": 4,
+                            "parameters": [
+                                [
+                                    "ワーグの子",
+                                    "ワーグの仔の子"
+                                ],
+                                -2,
+                                -1,
+                                1,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 402,
+                            "indent": 4,
+                            "parameters": [
+                                0,
+                                "ワーグの子"
+                            ]
+                        },
+                        {
+                            "code": 126,
+                            "indent": 5,
                             "parameters": [
                                 53,
                                 1,
                                 0,
                                 1
                             ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 5,
+                            "parameters": []
+                        },
+                        {
+                            "code": 402,
+                            "indent": 4,
+                            "parameters": [
+                                1,
+                                "ワーグの仔の子"
+                            ]
+                        },
+                        {
+                            "code": 126,
+                            "indent": 5,
+                            "parameters": [
+                                113,
+                                1,
+                                0,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 5,
+                            "parameters": []
+                        },
+                        {
+                            "code": 403,
+                            "indent": 4,
+                            "parameters": [
+                                6,
+                                null
+                            ]
+                        },
+                        {
+                            "code": 119,
+                            "indent": 5,
+                            "parameters": [
+                                "やめる"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 5,
+                            "parameters": []
+                        },
+                        {
+                            "code": 404,
+                            "indent": 4,
+                            "parameters": []
+                        },
+                        {
+                            "code": 0,
+                            "indent": 4,
+                            "parameters": []
+                        },
+                        {
+                            "code": 411,
+                            "indent": 3,
+                            "parameters": []
+                        },
+                        {
+                            "code": 126,
+                            "indent": 4,
+                            "parameters": [
+                                53,
+                                1,
+                                0,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 4,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 3,
+                            "parameters": []
                         },
                         {
                             "code": 0,
@@ -3761,17 +4092,6 @@
                             "code": 412,
                             "indent": 2,
                             "parameters": []
-                        },
-                        {
-                            "code": 122,
-                            "indent": 2,
-                            "parameters": [
-                                1703,
-                                1703,
-                                2,
-                                0,
-                                1
-                            ]
                         },
                         {
                             "code": 122,
@@ -3824,14 +4144,127 @@
                             ]
                         },
                         {
-                            "code": 126,
+                            "code": 111,
                             "indent": 3,
+                            "parameters": [
+                                8,
+                                114
+                            ]
+                        },
+                        {
+                            "code": 102,
+                            "indent": 4,
+                            "parameters": [
+                                [
+                                    "ピッグマンの子",
+                                    "ピッグマンの仔の子"
+                                ],
+                                -2,
+                                -1,
+                                1,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 402,
+                            "indent": 4,
+                            "parameters": [
+                                0,
+                                "ピッグマンの子"
+                            ]
+                        },
+                        {
+                            "code": 126,
+                            "indent": 5,
                             "parameters": [
                                 54,
                                 1,
                                 0,
                                 1
                             ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 5,
+                            "parameters": []
+                        },
+                        {
+                            "code": 402,
+                            "indent": 4,
+                            "parameters": [
+                                1,
+                                "ピッグマンの仔の子"
+                            ]
+                        },
+                        {
+                            "code": 126,
+                            "indent": 5,
+                            "parameters": [
+                                114,
+                                1,
+                                0,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 5,
+                            "parameters": []
+                        },
+                        {
+                            "code": 403,
+                            "indent": 4,
+                            "parameters": [
+                                6,
+                                null
+                            ]
+                        },
+                        {
+                            "code": 119,
+                            "indent": 5,
+                            "parameters": [
+                                "やめる"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 5,
+                            "parameters": []
+                        },
+                        {
+                            "code": 404,
+                            "indent": 4,
+                            "parameters": []
+                        },
+                        {
+                            "code": 0,
+                            "indent": 4,
+                            "parameters": []
+                        },
+                        {
+                            "code": 411,
+                            "indent": 3,
+                            "parameters": []
+                        },
+                        {
+                            "code": 126,
+                            "indent": 4,
+                            "parameters": [
+                                54,
+                                1,
+                                0,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 4,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 3,
+                            "parameters": []
                         },
                         {
                             "code": 0,
@@ -3862,17 +4295,6 @@
                             "code": 412,
                             "indent": 2,
                             "parameters": []
-                        },
-                        {
-                            "code": 122,
-                            "indent": 2,
-                            "parameters": [
-                                1704,
-                                1704,
-                                2,
-                                0,
-                                1
-                            ]
                         },
                         {
                             "code": 122,
@@ -3925,14 +4347,127 @@
                             ]
                         },
                         {
-                            "code": 126,
+                            "code": 111,
                             "indent": 3,
+                            "parameters": [
+                                8,
+                                115
+                            ]
+                        },
+                        {
+                            "code": 102,
+                            "indent": 4,
+                            "parameters": [
+                                [
+                                    "スタリオンの子",
+                                    "スタリオンの仔の子"
+                                ],
+                                -2,
+                                -1,
+                                1,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 402,
+                            "indent": 4,
+                            "parameters": [
+                                0,
+                                "スタリオンの子"
+                            ]
+                        },
+                        {
+                            "code": 126,
+                            "indent": 5,
                             "parameters": [
                                 55,
                                 1,
                                 0,
                                 1
                             ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 5,
+                            "parameters": []
+                        },
+                        {
+                            "code": 402,
+                            "indent": 4,
+                            "parameters": [
+                                1,
+                                "スタリオンの仔の子"
+                            ]
+                        },
+                        {
+                            "code": 126,
+                            "indent": 5,
+                            "parameters": [
+                                115,
+                                1,
+                                0,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 5,
+                            "parameters": []
+                        },
+                        {
+                            "code": 403,
+                            "indent": 4,
+                            "parameters": [
+                                6,
+                                null
+                            ]
+                        },
+                        {
+                            "code": 119,
+                            "indent": 5,
+                            "parameters": [
+                                "やめる"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 5,
+                            "parameters": []
+                        },
+                        {
+                            "code": 404,
+                            "indent": 4,
+                            "parameters": []
+                        },
+                        {
+                            "code": 0,
+                            "indent": 4,
+                            "parameters": []
+                        },
+                        {
+                            "code": 411,
+                            "indent": 3,
+                            "parameters": []
+                        },
+                        {
+                            "code": 126,
+                            "indent": 4,
+                            "parameters": [
+                                55,
+                                1,
+                                0,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 4,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 3,
+                            "parameters": []
                         },
                         {
                             "code": 0,
@@ -3963,17 +4498,6 @@
                             "code": 412,
                             "indent": 2,
                             "parameters": []
-                        },
-                        {
-                            "code": 122,
-                            "indent": 2,
-                            "parameters": [
-                                1705,
-                                1705,
-                                2,
-                                0,
-                                1
-                            ]
                         },
                         {
                             "code": 122,
@@ -4486,17 +5010,6 @@
                             "code": 122,
                             "indent": 2,
                             "parameters": [
-                                1706,
-                                1706,
-                                2,
-                                0,
-                                1
-                            ]
-                        },
-                        {
-                            "code": 122,
-                            "indent": 2,
-                            "parameters": [
                                 176,
                                 176,
                                 1,
@@ -4551,14 +5064,127 @@
                             ]
                         },
                         {
-                            "code": 126,
+                            "code": 111,
                             "indent": 3,
+                            "parameters": [
+                                8,
+                                116
+                            ]
+                        },
+                        {
+                            "code": 102,
+                            "indent": 4,
+                            "parameters": [
+                                [
+                                    "ローパーの子",
+                                    "ローパーの仔の子"
+                                ],
+                                -2,
+                                -1,
+                                1,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 402,
+                            "indent": 4,
+                            "parameters": [
+                                0,
+                                "ローパーの子"
+                            ]
+                        },
+                        {
+                            "code": 126,
+                            "indent": 5,
                             "parameters": [
                                 57,
                                 1,
                                 0,
                                 1
                             ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 5,
+                            "parameters": []
+                        },
+                        {
+                            "code": 402,
+                            "indent": 4,
+                            "parameters": [
+                                1,
+                                "ローパーの仔の子"
+                            ]
+                        },
+                        {
+                            "code": 126,
+                            "indent": 5,
+                            "parameters": [
+                                116,
+                                1,
+                                0,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 5,
+                            "parameters": []
+                        },
+                        {
+                            "code": 403,
+                            "indent": 4,
+                            "parameters": [
+                                6,
+                                null
+                            ]
+                        },
+                        {
+                            "code": 119,
+                            "indent": 5,
+                            "parameters": [
+                                "やめる"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 5,
+                            "parameters": []
+                        },
+                        {
+                            "code": 404,
+                            "indent": 4,
+                            "parameters": []
+                        },
+                        {
+                            "code": 0,
+                            "indent": 4,
+                            "parameters": []
+                        },
+                        {
+                            "code": 411,
+                            "indent": 3,
+                            "parameters": []
+                        },
+                        {
+                            "code": 126,
+                            "indent": 4,
+                            "parameters": [
+                                57,
+                                1,
+                                0,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 4,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 3,
+                            "parameters": []
                         },
                         {
                             "code": 0,
@@ -4589,17 +5215,6 @@
                             "code": 412,
                             "indent": 2,
                             "parameters": []
-                        },
-                        {
-                            "code": 122,
-                            "indent": 2,
-                            "parameters": [
-                                1707,
-                                1707,
-                                2,
-                                0,
-                                1
-                            ]
                         },
                         {
                             "code": 122,

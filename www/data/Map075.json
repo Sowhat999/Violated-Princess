@@ -11072,6 +11072,13 @@
                             ]
                         },
                         {
+                            "code": 230,
+                            "indent": 0,
+                            "parameters": [
+                                30
+                            ]
+                        },
+                        {
                             "code": 221,
                             "indent": 0,
                             "parameters": []
@@ -22223,6 +22230,15 @@
                             ]
                         },
                         {
+                            "code": 121,
+                            "indent": 0,
+                            "parameters": [
+                                1356,
+                                1356,
+                                0
+                            ]
+                        },
+                        {
                             "code": 221,
                             "indent": 0,
                             "parameters": []
@@ -22762,11 +22778,30 @@
                             "parameters": []
                         },
                         {
-                            "code": 356,
+                            "code": 111,
                             "indent": 0,
+                            "parameters": [
+                                0,
+                                1300,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 356,
+                            "indent": 1,
                             "parameters": [
                                 "回想セーブ カトリーヌ敗北"
                             ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
                         },
                         {
                             "code": 203,
@@ -32037,6 +32072,32 @@
                             "parameters": []
                         },
                         {
+                            "code": 111,
+                            "indent": 0,
+                            "parameters": [
+                                0,
+                                1300,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 1,
+                            "parameters": [
+                                "Scene_Recollection.prototype.rngd_exit_scene();"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
+                        },
+                        {
                             "code": 117,
                             "indent": 0,
                             "parameters": [
@@ -32578,6 +32639,15 @@
                                 1,
                                 0,
                                 20
+                            ]
+                        },
+                        {
+                            "code": 121,
+                            "indent": 0,
+                            "parameters": [
+                                157,
+                                157,
+                                0
                             ]
                         },
                         {
@@ -39671,11 +39741,9 @@
                             "code": 111,
                             "indent": 0,
                             "parameters": [
-                                1,
-                                1163,
                                 0,
-                                1,
-                                1
+                                154,
+                                0
                             ]
                         },
                         {
@@ -44342,8 +44410,8 @@
                                     "まだ考えたい"
                                 ],
                                 1,
-                                0,
-                                2,
+                                -1,
+                                1,
                                 0
                             ]
                         },
@@ -44601,8 +44669,8 @@
                                     "そんな事はできない…"
                                 ],
                                 1,
-                                0,
-                                2,
+                                -1,
+                                1,
                                 0
                             ]
                         },
@@ -45909,15 +45977,6 @@
                             "parameters": []
                         },
                         {
-                            "code": 121,
-                            "indent": 1,
-                            "parameters": [
-                                99,
-                                99,
-                                0
-                            ]
-                        },
-                        {
                             "code": 0,
                             "indent": 1,
                             "parameters": []
@@ -46552,6 +46611,15 @@
                     },
                     "list": [
                         {
+                            "code": 121,
+                            "indent": 0,
+                            "parameters": [
+                                1355,
+                                1355,
+                                0
+                            ]
+                        },
+                        {
                             "code": 221,
                             "indent": 0,
                             "parameters": []
@@ -46608,6 +46676,10 @@
                                             "indent": null
                                         },
                                         {
+                                            "code": 37,
+                                            "indent": null
+                                        },
+                                        {
                                             "code": 0
                                         }
                                     ],
@@ -46637,6 +46709,16 @@
                             "parameters": [
                                 {
                                     "code": 33,
+                                    "indent": null
+                                }
+                            ]
+                        },
+                        {
+                            "code": 505,
+                            "indent": 0,
+                            "parameters": [
+                                {
+                                    "code": 37,
                                     "indent": null
                                 }
                             ]
@@ -46998,6 +47080,32 @@
                         },
                         {
                             "code": 221,
+                            "indent": 0,
+                            "parameters": []
+                        },
+                        {
+                            "code": 111,
+                            "indent": 0,
+                            "parameters": [
+                                0,
+                                1300,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 1,
+                            "parameters": [
+                                "Scene_Recollection.prototype.rngd_exit_scene();"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
                             "indent": 0,
                             "parameters": []
                         },
@@ -47819,11 +47927,30 @@
                             "parameters": []
                         },
                         {
-                            "code": 356,
+                            "code": 111,
                             "indent": 0,
+                            "parameters": [
+                                0,
+                                1300,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 356,
+                            "indent": 1,
                             "parameters": [
                                 "回想セーブ 出産　カトリーヌ医院"
                             ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
                         },
                         {
                             "code": 203,
@@ -52588,15 +52715,68 @@
                             ]
                         },
                         {
-                            "code": 122,
+                            "code": 111,
                             "indent": 0,
+                            "parameters": [
+                                1,
+                                1166,
+                                0,
+                                2,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 1,
                             "parameters": [
                                 239,
                                 239,
                                 0,
                                 0,
-                                0
+                                2
                             ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                234,
+                                234,
+                                0,
+                                0,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 411,
+                            "indent": 0,
+                            "parameters": []
+                        },
+                        {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                239,
+                                239,
+                                0,
+                                0,
+                                8
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
                         },
                         {
                             "code": 122,
@@ -52607,17 +52787,6 @@
                                 0,
                                 0,
                                 4
-                            ]
-                        },
-                        {
-                            "code": 122,
-                            "indent": 0,
-                            "parameters": [
-                                234,
-                                234,
-                                0,
-                                0,
-                                1
                             ]
                         },
                         {
@@ -61011,7 +61180,7 @@
                                     "処分してもらう"
                                 ],
                                 -1,
-                                0,
+                                -1,
                                 1,
                                 0
                             ]
@@ -61763,44 +61932,6 @@
                             ]
                         },
                         {
-                            "code": 111,
-                            "indent": 3,
-                            "parameters": [
-                                8,
-                                7
-                            ]
-                        },
-                        {
-                            "code": 0,
-                            "indent": 4,
-                            "parameters": []
-                        },
-                        {
-                            "code": 411,
-                            "indent": 3,
-                            "parameters": []
-                        },
-                        {
-                            "code": 126,
-                            "indent": 4,
-                            "parameters": [
-                                7,
-                                0,
-                                0,
-                                1
-                            ]
-                        },
-                        {
-                            "code": 0,
-                            "indent": 4,
-                            "parameters": []
-                        },
-                        {
-                            "code": 412,
-                            "indent": 3,
-                            "parameters": []
-                        },
-                        {
                             "code": 126,
                             "indent": 3,
                             "parameters": [
@@ -61850,8 +61981,16 @@
                             ]
                         },
                         {
-                            "code": 101,
+                            "code": 111,
                             "indent": 3,
+                            "parameters": [
+                                8,
+                                7
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 4,
                             "parameters": [
                                 "",
                                 0,
@@ -61861,35 +62000,86 @@
                         },
                         {
                             "code": 401,
+                            "indent": 4,
+                            "parameters": [
+                                "赤ちゃん用のミルクを持って行ってください。"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 4,
+                            "parameters": [
+                                "きっと必要になると思います。"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 4,
+                            "parameters": [
+                                "\\n<カトリーヌ>"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 4,
+                            "parameters": []
+                        },
+                        {
+                            "code": 411,
                             "indent": 3,
+                            "parameters": []
+                        },
+                        {
+                            "code": 126,
+                            "indent": 4,
+                            "parameters": [
+                                7,
+                                0,
+                                0,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 4,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 4,
                             "parameters": [
                                 "このアミュレットと、赤ちゃん用の"
                             ]
                         },
                         {
                             "code": 401,
-                            "indent": 3,
+                            "indent": 4,
                             "parameters": [
                                 "ミルクを持って行ってください。"
                             ]
                         },
                         {
                             "code": 401,
-                            "indent": 3,
+                            "indent": 4,
                             "parameters": [
                                 "きっと必要になると思いますので。"
                             ]
                         },
                         {
                             "code": 401,
-                            "indent": 3,
+                            "indent": 4,
                             "parameters": [
                                 "\\n<カトリーヌ>"
                             ]
                         },
                         {
                             "code": 101,
-                            "indent": 3,
+                            "indent": 4,
                             "parameters": [
                                 "",
                                 0,
@@ -61899,35 +62089,35 @@
                         },
                         {
                             "code": 401,
-                            "indent": 3,
+                            "indent": 4,
                             "parameters": [
                                 "アミュレットは少しの魔力を込めるだけで、"
                             ]
                         },
                         {
                             "code": 401,
-                            "indent": 3,
+                            "indent": 4,
                             "parameters": [
                                 "抵抗力のない赤ちゃんならいくらでも眠らせて"
                             ]
                         },
                         {
                             "code": 401,
-                            "indent": 3,
+                            "indent": 4,
                             "parameters": [
                                 "おけます。"
                             ]
                         },
                         {
                             "code": 401,
-                            "indent": 3,
+                            "indent": 4,
                             "parameters": [
                                 "\\n<カトリーヌ>"
                             ]
                         },
                         {
                             "code": 101,
-                            "indent": 3,
+                            "indent": 4,
                             "parameters": [
                                 "",
                                 0,
@@ -61937,24 +62127,34 @@
                         },
                         {
                             "code": 401,
-                            "indent": 3,
+                            "indent": 4,
                             "parameters": [
                                 "ただ、モンスターの成長はとても早いです。"
                             ]
                         },
                         {
                             "code": 401,
-                            "indent": 3,
+                            "indent": 4,
                             "parameters": [
                                 "直にアミュレットの魔法もレジストするようになります。"
                             ]
                         },
                         {
                             "code": 401,
-                            "indent": 3,
+                            "indent": 4,
                             "parameters": [
                                 "\\n<カトリーヌ>"
                             ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 4,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 3,
+                            "parameters": []
                         },
                         {
                             "code": 117,
@@ -62243,6 +62443,13 @@
                             ]
                         },
                         {
+                            "code": 117,
+                            "indent": 3,
+                            "parameters": [
+                                11
+                            ]
+                        },
+                        {
                             "code": 205,
                             "indent": 3,
                             "parameters": [
@@ -62371,13 +62578,6 @@
                                     ],
                                     "indent": null
                                 }
-                            ]
-                        },
-                        {
-                            "code": 117,
-                            "indent": 3,
-                            "parameters": [
-                                11
                             ]
                         },
                         {
@@ -64385,8 +64585,19 @@
                             ]
                         },
                         {
-                            "code": 122,
+                            "code": 111,
                             "indent": 0,
+                            "parameters": [
+                                1,
+                                1166,
+                                0,
+                                2,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 1,
                             "parameters": [
                                 239,
                                 239,
@@ -64397,7 +64608,7 @@
                         },
                         {
                             "code": 122,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": [
                                 234,
                                 234,
@@ -64405,6 +64616,37 @@
                                 0,
                                 1
                             ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 411,
+                            "indent": 0,
+                            "parameters": []
+                        },
+                        {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                239,
+                                239,
+                                0,
+                                0,
+                                8
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
                         },
                         {
                             "code": 122,
@@ -67351,14 +67593,42 @@
                             ]
                         },
                         {
-                            "code": 126,
+                            "code": 111,
                             "indent": 1,
+                            "parameters": [
+                                8,
+                                7
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": []
+                        },
+                        {
+                            "code": 411,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 126,
+                            "indent": 2,
                             "parameters": [
                                 7,
                                 0,
                                 0,
                                 1
                             ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 1,
+                            "parameters": []
                         },
                         {
                             "code": 121,
@@ -67576,7 +67846,7 @@
                                     "処分してもらう"
                                 ],
                                 -1,
-                                0,
+                                -1,
                                 1,
                                 0
                             ]
@@ -67835,10 +68105,6 @@
                                 {
                                     "list": [
                                         {
-                                            "code": 37,
-                                            "indent": null
-                                        },
-                                        {
                                             "code": 2,
                                             "indent": null
                                         },
@@ -67861,16 +68127,6 @@
                                     "repeat": false,
                                     "skippable": false,
                                     "wait": true
-                                }
-                            ]
-                        },
-                        {
-                            "code": 505,
-                            "indent": 3,
-                            "parameters": [
-                                {
-                                    "code": 37,
-                                    "indent": null
                                 }
                             ]
                         },
@@ -68345,16 +68601,6 @@
                             "code": 126,
                             "indent": 3,
                             "parameters": [
-                                7,
-                                0,
-                                0,
-                                1
-                            ]
-                        },
-                        {
-                            "code": 126,
-                            "indent": 3,
-                            "parameters": [
                                 42,
                                 0,
                                 1,
@@ -68401,8 +68647,16 @@
                             ]
                         },
                         {
-                            "code": 101,
+                            "code": 111,
                             "indent": 3,
+                            "parameters": [
+                                8,
+                                7
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 4,
                             "parameters": [
                                 "",
                                 0,
@@ -68412,35 +68666,86 @@
                         },
                         {
                             "code": 401,
+                            "indent": 4,
+                            "parameters": [
+                                "赤ちゃん用のミルクを持って行ってください。"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 4,
+                            "parameters": [
+                                "きっと必要になると思います。"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 4,
+                            "parameters": [
+                                "\\n<カトリーヌ>"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 4,
+                            "parameters": []
+                        },
+                        {
+                            "code": 411,
                             "indent": 3,
+                            "parameters": []
+                        },
+                        {
+                            "code": 126,
+                            "indent": 4,
+                            "parameters": [
+                                7,
+                                0,
+                                0,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 4,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 4,
                             "parameters": [
                                 "このアミュレットと、赤ちゃん用の"
                             ]
                         },
                         {
                             "code": 401,
-                            "indent": 3,
+                            "indent": 4,
                             "parameters": [
                                 "ミルクを持って行ってください。"
                             ]
                         },
                         {
                             "code": 401,
-                            "indent": 3,
+                            "indent": 4,
                             "parameters": [
                                 "きっと必要になると思いますので。"
                             ]
                         },
                         {
                             "code": 401,
-                            "indent": 3,
+                            "indent": 4,
                             "parameters": [
                                 "\\n<カトリーヌ>"
                             ]
                         },
                         {
                             "code": 101,
-                            "indent": 3,
+                            "indent": 4,
                             "parameters": [
                                 "",
                                 0,
@@ -68450,35 +68755,35 @@
                         },
                         {
                             "code": 401,
-                            "indent": 3,
+                            "indent": 4,
                             "parameters": [
                                 "アミュレットは少しの魔力を込めるだけで、"
                             ]
                         },
                         {
                             "code": 401,
-                            "indent": 3,
+                            "indent": 4,
                             "parameters": [
                                 "抵抗力のない赤ちゃんならいくらでも眠らせて"
                             ]
                         },
                         {
                             "code": 401,
-                            "indent": 3,
+                            "indent": 4,
                             "parameters": [
                                 "おけます。"
                             ]
                         },
                         {
                             "code": 401,
-                            "indent": 3,
+                            "indent": 4,
                             "parameters": [
                                 "\\n<カトリーヌ>"
                             ]
                         },
                         {
                             "code": 101,
-                            "indent": 3,
+                            "indent": 4,
                             "parameters": [
                                 "",
                                 0,
@@ -68488,24 +68793,34 @@
                         },
                         {
                             "code": 401,
-                            "indent": 3,
+                            "indent": 4,
                             "parameters": [
                                 "ただ、モンスターの成長はとても早いです。"
                             ]
                         },
                         {
                             "code": 401,
-                            "indent": 3,
+                            "indent": 4,
                             "parameters": [
                                 "直にアミュレットの魔法もレジストするようになります。"
                             ]
                         },
                         {
                             "code": 401,
-                            "indent": 3,
+                            "indent": 4,
                             "parameters": [
                                 "\\n<カトリーヌ>"
                             ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 4,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 3,
+                            "parameters": []
                         },
                         {
                             "code": 117,
@@ -68794,12 +69109,23 @@
                             ]
                         },
                         {
+                            "code": 117,
+                            "indent": 3,
+                            "parameters": [
+                                11
+                            ]
+                        },
+                        {
                             "code": 205,
                             "indent": 3,
                             "parameters": [
                                 1,
                                 {
                                     "list": [
+                                        {
+                                            "code": 31,
+                                            "indent": null
+                                        },
                                         {
                                             "code": 4,
                                             "indent": null
@@ -68839,6 +69165,16 @@
                                     "repeat": false,
                                     "skippable": false,
                                     "wait": true
+                                }
+                            ]
+                        },
+                        {
+                            "code": 505,
+                            "indent": 3,
+                            "parameters": [
+                                {
+                                    "code": 31,
+                                    "indent": null
                                 }
                             ]
                         },

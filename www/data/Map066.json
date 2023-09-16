@@ -3144,15 +3144,11 @@
                             "code": 205,
                             "indent": 0,
                             "parameters": [
-                                -1,
+                                0,
                                 {
                                     "list": [
                                         {
                                             "code": 37,
-                                            "indent": null
-                                        },
-                                        {
-                                            "code": 1,
                                             "indent": null
                                         },
                                         {
@@ -3172,6 +3168,27 @@
                                 {
                                     "code": 37,
                                     "indent": null
+                                }
+                            ]
+                        },
+                        {
+                            "code": 205,
+                            "indent": 0,
+                            "parameters": [
+                                -1,
+                                {
+                                    "list": [
+                                        {
+                                            "code": 1,
+                                            "indent": null
+                                        },
+                                        {
+                                            "code": 0
+                                        }
+                                    ],
+                                    "repeat": false,
+                                    "skippable": false,
+                                    "wait": true
                                 }
                             ]
                         },
@@ -3308,10 +3325,6 @@
                                             "indent": null
                                         },
                                         {
-                                            "code": 38,
-                                            "indent": null
-                                        },
-                                        {
                                             "code": 0
                                         }
                                     ],
@@ -3380,6 +3393,27 @@
                                 {
                                     "code": 36,
                                     "indent": null
+                                }
+                            ]
+                        },
+                        {
+                            "code": 205,
+                            "indent": 0,
+                            "parameters": [
+                                0,
+                                {
+                                    "list": [
+                                        {
+                                            "code": 38,
+                                            "indent": null
+                                        },
+                                        {
+                                            "code": 0
+                                        }
+                                    ],
+                                    "repeat": false,
+                                    "skippable": false,
+                                    "wait": true
                                 }
                             ]
                         },

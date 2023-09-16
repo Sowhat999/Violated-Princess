@@ -17,11 +17,27 @@ var __extends = (this && this.__extends) || (function () {
  * @param rightTreeOffset
  * @desc 右側のツリーは、この値だけずれます
  * @default 15
+ * 
+ * @param closeRelativeX
+ * @desc 近親マークのx座標
+ * @default 0
+ * 
+ * @param closeRelativeY
+ * @desc 近親マークのy座標
+ * @default 0
+ * 
+ * @param closeRelativeNameY
+ * @desc 近親マークつきの家系図の名前のy座標
+ * @default 0
+ * 
  */
 var Nore;
 (function (Nore) {
     var Parameters = PluginManager.parameters('Nore_FamilyTree2');
     Nore.RIGHT_TREE_OFFSET = Parameters['rightTreeOffset'] ? Math.trunc(Parameters['rightTreeOffset']) : 15;
+    Nore.CLOSE_RELATIVE_X = Parameters['closeRelativeX'] ? Math.trunc(Parameters['closeRelativeX']) : 0;
+    Nore.CLOSE_RELATIVE_Y = Parameters['closeRelativeY'] ? Math.trunc(Parameters['closeRelativeY']) : 0;
+    Nore.CLOSE_RELATIVE_NAME_Y = Parameters['closeRelativeNameY'] ? Math.trunc(Parameters['closeRelativeNameY']) : 0;
     // 設定
     var FONT_NAME = '游ゴシック';
     var FONT_SIZE = 18;
@@ -379,17 +395,30 @@ Game_System.prototype.countChild = function (taneoyaId) {
             _this._maxHeight = 0;
             return _this;
         }
-        Sprite_Child.prototype.createNameSprite = function (taneoyaId, x, y, isChild) {
+        Sprite_Child.prototype.createNameSprite = function (taneoyaId, x, y, isChild, isCloseRelative) {
             if (isChild) {
                 var type = getBabyPic(taneoyaId);
                 var babyPic = new Sprite_Pic('menu_P04 PC001 子孫-' + type);
                 babyPic.x = x;
                 babyPic.y = y - 82;
                 this.addChild(babyPic);
+
+                if (isCloseRelative) {
+                    var closePic = new Sprite_Pic('menu_P04 PC001 家系図_子_近親マーク');
+                    closePic.x = x + Nore.CLOSE_RELATIVE_X;
+                    closePic.y = y - 26 + Nore.CLOSE_RELATIVE_Y;
+                    this.addChild(closePic);
+                }
+
                 var sprite = new Sprite_Name(taneoyaId, true);
                 sprite.x = x;
-                sprite.y = y;
+                if (isCloseRelative) {
+                    sprite.y = y + 6 + Nore.CLOSE_RELATIVE_NAME_Y;
+                } else {
+                    sprite.y = y;
+                }
                 this.addChild(sprite);
+
             }
             else {
                 var sprite = new Sprite_Name(taneoyaId, false);
@@ -397,6 +426,7 @@ Game_System.prototype.countChild = function (taneoyaId) {
                 sprite.y = y;
                 this.addChild(sprite);
             }
+
         };
         Sprite_Child.prototype.calcGrandChildCount = function () {
             var n = 0;
@@ -494,7 +524,8 @@ Game_System.prototype.countChild = function (taneoyaId) {
                         childPic.y = MARGIN_BETWEEN_FATHER_AND_CHILDREN + yy;
                     }
                     this.addChild(childPic);
-                    this.createNameSprite(child.taneoyaId(), childPic.x, childPic.y + 26, true);
+
+                    this.createNameSprite(child.taneoyaId(), childPic.x, childPic.y + 26, true, child.generation() > 1);
                 }
                 if (child.brotherCount() > this.maxChildren()) {
                     this.addOmitPic(child.brotherCount() - this.maxChildren(), y);
@@ -521,7 +552,7 @@ Game_System.prototype.countChild = function (taneoyaId) {
             childPic.x = 3 * INTERBAL_X;
             childPic.y = y + 20 + hh + GRAND_CHILD_Y;
             this.addChild(childPic);
-            this.createNameSprite(child.taneoyaId(), childPic.x, childPic.y, true);
+            this.createNameSprite(child.taneoyaId(), childPic.x, childPic.y, true, child.generation() > 1);
             if (!this._maxHeight) {
                 this._maxHeight = 190;
             }
@@ -537,7 +568,7 @@ Game_System.prototype.countChild = function (taneoyaId) {
                     childPic_1.x = 237 - INTERBAL_X * i + xx_1;
                     childPic_1.y = MARGIN_BETWEEN_FATHER_AND_CHILDREN + yy;
                     this.addChild(childPic_1);
-                    this.createNameSprite(child.taneoyaId(), childPic_1.x, childPic_1.y + 26, true);
+                    this.createNameSprite(child.taneoyaId(), childPic_1.x, childPic_1.y + 26, true, child.generation() > 1);
                 }
                 this.putDot(409 - INTERBAL_X * maxChild, y + 70, LINE_COLOR);
             }
@@ -611,7 +642,7 @@ Game_System.prototype.countChild = function (taneoyaId) {
                         childPic.y = MARGIN_BETWEEN_FATHER_AND_CHILDREN + yy;
                     }
                     this.addChild(childPic);
-                    this.createNameSprite(child.taneoyaId(), childPic.x, childPic.y + 26, true);
+                    this.createNameSprite(child.taneoyaId(), childPic.x, childPic.y + 26, true, child.generation() > 1);
                 }
                 if (child.brotherCount() > this.maxChildren()) {
                     this.addOmitPic(child.brotherCount() - this.maxChildren(), y);
@@ -638,7 +669,8 @@ Game_System.prototype.countChild = function (taneoyaId) {
             childPic.x = 0;
             childPic.y = y + 20 + hh + GRAND_CHILD_Y;
             this.addChild(childPic);
-            this.createNameSprite(child.taneoyaId(), childPic.x + 45, childPic.y, true);
+
+            this.createNameSprite(child.taneoyaId(), childPic.x + 45, childPic.y, true, child.generation() > 1);
             if (!this._maxHeight) {
                 this._maxHeight = 190;
             }
@@ -655,7 +687,7 @@ Game_System.prototype.countChild = function (taneoyaId) {
                     childPic_2.x = 167 + INTERBAL_X * i + xx_2;
                     childPic_2.y = MARGIN_BETWEEN_FATHER_AND_CHILDREN + yy;
                     this.addChild(childPic_2);
-                    this.createNameSprite(child.taneoyaId(), childPic_2.x, childPic_2.y + 26, true);
+                    this.createNameSprite(child.taneoyaId(), childPic_2.x, childPic_2.y + 26, true, child.generation() > 1);
                 }
             }
             else {
