@@ -9410,12 +9410,12 @@
                             "indent": 3,
                             "parameters": [
                                 [
-                                    "トムの子供if(v[1727])",
-                                    "ゴブログの子供if(v[1728])",
-                                    "ギーの子供if(v[1729])",
-                                    "ビョーンの子供if(v[1730])",
-                                    "ギニューの子供if(v[1731])",
-                                    "ヴァンサンの子供if(v[1732])"
+                                    "Tom's childif(v[1727])",
+                                    "Goblog's childif(v[1728])",
+                                    "G's childif(v[1729])",
+                                    "Byon's childif(v[1730])",
+                                    "Ginyu's childif(v[1731])",
+                                    "Vincent's childif(v[1732])"
                                 ],
                                 -1,
                                 -1,
@@ -9571,12 +9571,12 @@
                             "indent": 3,
                             "parameters": [
                                 [
-                                    "アルベールの子供if(v[1733])",
-                                    "サミュエルの子供if(v[1734])",
-                                    "ドニの子供if(v[1735])",
-                                    "マチアスの子供if(v[1736])",
-                                    "ディーコンの子供if(v[1737])",
-                                    "グービルの子供if(v[1738])"
+                                    "Albert's childif(v[1733])",
+                                    "Samuel's childif(v[1734])",
+                                    "Doni's childif(v[1735])",
+                                    "Matthias' childif(v[1736])",
+                                    "Deacon's childif(v[1737])",
+                                    "Gubiru's childif(v[1738])"
                                 ],
                                 -1,
                                 -1,
@@ -9893,12 +9893,12 @@
                             "indent": 3,
                             "parameters": [
                                 [
-                                    "ゲクランの子供if(v[1745])",
-                                    "マルセルの子供if(v[1746])",
-                                    "ティムの子供if(v[1747])",
-                                    "ガヌロンの子供if(v[1748])",
-                                    "バーダンの子供if(v[1749])",
-                                    "マクシスの子供if(v[1750])"
+                                    "Gekuran's childif(v[1745])",
+                                    "Marcel's childif(v[1746])",
+                                    "Tim's childif(v[1747])",
+                                    "Ganuron's childif(v[1748])",
+                                    "Bardan's childif(v[1749])",
+                                    "Maxis' childif(v[1750])"
                                 ],
                                 -1,
                                 -1,
@@ -10215,12 +10215,12 @@
                             "indent": 3,
                             "parameters": [
                                 [
-                                    "市警隊員の子供if(v[1757])",
-                                    "冒険者の子供if(v[1758])",
-                                    "ごろつきの子供if(v[1759])",
-                                    "チンピラの子供if(v[1760])",
-                                    "異教徒の子供if(v[1761])",
-                                    "孤児の子供if(v[1762])"
+                                    "Child of a police officerif(v[1757])",
+                                    "Adventurer's Childif(v[1758])",
+                                    "Troublemaker childif(v[1759])",
+                                    "Delinquent's childif(v[1760])",
+                                    "Child of a hereticif(v[1761])",
+                                    "Orphan childif(v[1762])"
                                 ],
                                 -1,
                                 -1,
@@ -10376,12 +10376,12 @@
                             "indent": 3,
                             "parameters": [
                                 [
-                                    "売春客の子供if(v[1763])",
-                                    "異人の子供if(v[1764])",
-                                    "囚人の子供if(v[1765])",
-                                    "種馬スタリオンの子供if(v[1766])",
-                                    "ガヌロンの孫if(v[1767])",
-                                    "誰かの子供if(v[1768])"
+                                    "Child of a prostitute clientif(v[1763])",
+                                    "Foreigner's Childif(v[1764])",
+                                    "Prisoner's Childif(v[1765])",
+                                    "Offspring of a stallionif(v[1766])",
+                                    "Ganuron's Grandchildif(v[1767])",
+                                    "Someone's childif(v[1768])"
                                 ],
                                 -1,
                                 -1,
@@ -10537,7 +10537,7 @@
                             "indent": 3,
                             "parameters": [
                                 [
-                                    "父親不明の子供if(v[1769])"
+                                    "Child with unknown fatherif(v[1769])"
                                 ],
                                 -1,
                                 -1,
@@ -11475,21 +11475,21 @@
                             "code": 401,
                             "indent": 3,
                             "parameters": [
-                                "……ハッ。オッケー。オッケー。"
+                                "\\n< Cecilia >......Hah. Okay. Okay. The payment is 500 S. So,\nwhich girl do you choose?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 3,
                             "parameters": [
-                                "代金は５００Ｓね。それで、どの子にする？"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 3,
                             "parameters": [
-                                "\\n<シシリア>"
+                                ""
                             ]
                         },
                         {
@@ -11522,21 +11522,21 @@
                             "code": 401,
                             "indent": 4,
                             "parameters": [
-                                "…ってあんた、お金ないじゃない。アタシも慈善事業でやっ"
+                                "\\n< Cecilia >...Hey, you don't have any money, do you? I'm\nnot doing this as a charity, so make\nsure you have some money prepared."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 4,
                             "parameters": [
-                                "てるわけじゃないんだから、お金ぐらい用意してきなさい。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 4,
                             "parameters": [
-                                "\\n<シシリア>"
+                                ""
                             ]
                         },
                         {
@@ -11554,9 +11554,9 @@
                             "indent": 3,
                             "parameters": [
                                 [
-                                    "人間の子供if(v[1139])",
-                                    "モンスターの子供if(v[1138])",
-                                    "やめる"
+                                    "Human childif(v[1139])",
+                                    "Monster's Childif(v[1138])",
+                                    "Stop"
                                 ],
                                 -2,
                                 -1,
@@ -11814,12 +11814,12 @@
                             "indent": 4,
                             "parameters": [
                                 [
-                                    "トムの子供if(v[1727])",
-                                    "ゴブログの子供if(v[1728])",
-                                    "ギーの子供if(v[1729])",
-                                    "ビョーンの子供if(v[1730])",
-                                    "ギニューの子供if(v[1731])",
-                                    "ヴァンサンの子供if(v[1732])"
+                                    "Tom's childif(v[1727])",
+                                    "Goblog's childif(v[1728])",
+                                    "Ghee's childif(v[1729])",
+                                    "Byon's childif(v[1730])",
+                                    "Ginyu's childif(v[1731])",
+                                    "Vincent's childif(v[1732])"
                                 ],
                                 -1,
                                 -1,
@@ -12458,12 +12458,12 @@
                             "indent": 4,
                             "parameters": [
                                 [
-                                    "モリスの子供if(v[1751])",
-                                    "ピエールの子供if(v[1752])",
-                                    "ブリュノの子供if(v[1753])",
-                                    "マセルの子供if(v[1754])",
-                                    "ボンドの子供if(v[1755])",
-                                    "孤児の子供if(v[1756])"
+                                    "Morris' childif(v[1751])",
+                                    "Pierre's childif(v[1752])",
+                                    "Bruno's childif(v[1753])",
+                                    "Marcel's childif(v[1754])",
+                                    "Bond's childif(v[1755])",
+                                    "Orphan childif(v[1756])"
                                 ],
                                 -1,
                                 -1,
@@ -12619,12 +12619,12 @@
                             "indent": 4,
                             "parameters": [
                                 [
-                                    "市警隊員の子供if(v[1757])",
-                                    "冒険者の子供if(v[1758])",
-                                    "ごろつきの子供if(v[1759])",
-                                    "チンピラの子供if(v[1760])",
-                                    "異教徒の子供if(v[1761])",
-                                    "孤児の子供if(v[1762])"
+                                    "Child of a police officerif(v[1757])",
+                                    "Adventurer's Childif(v[1758])",
+                                    "Delinquent childif(v[1759])",
+                                    "Delinquent childif(v[1760])",
+                                    "Child of a hereticif(v[1761])",
+                                    "Orphan childif(v[1762])"
                                 ],
                                 -1,
                                 -1,
@@ -12941,7 +12941,7 @@
                             "indent": 4,
                             "parameters": [
                                 [
-                                    "父親不明の子供if(v[1769])"
+                                    "Child with unknown fatherif(v[1769])"
                                 ],
                                 -1,
                                 -1,
@@ -13151,8 +13151,8 @@
                             "indent": 7,
                             "parameters": [
                                 [
-                                    "ゴブリンの子",
-                                    "ゴブリンの仔の子"
+                                    "Goblin children",
+                                    "Goblin offspring"
                                 ],
                                 -2,
                                 -1,
@@ -13400,8 +13400,8 @@
                             "indent": 7,
                             "parameters": [
                                 [
-                                    "オークの子",
-                                    "オークの仔の子"
+                                    "Orc child",
+                                    "Orc offspring"
                                 ],
                                 -2,
                                 -1,
@@ -13656,8 +13656,8 @@
                             "indent": 7,
                             "parameters": [
                                 [
-                                    "ワーグの子",
-                                    "ワーグの仔の子"
+                                    "Werewolf child",
+                                    "Baby werewolf"
                                 ],
                                 -2,
                                 -1,
@@ -13874,14 +13874,14 @@
                             "code": 401,
                             "indent": 5,
                             "parameters": [
-                                "豚のガキかぁ。こいつしぶといから手間なのよね。"
+                                "\\n< Cecilia >Ugh, this pig's brat. They're so persistent,\nit's such a hassle."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 5,
                             "parameters": [
-                                "\\n<シシリア>"
+                                ""
                             ]
                         },
                         {
@@ -14123,21 +14123,21 @@
                             "code": 401,
                             "indent": 5,
                             "parameters": [
-                                "馬？いやスタリオンの子供か。"
+                                "\\n< Cecilia >A horse? No, it's a child of a stallion.\nHuh, you managed to survive quite well,\nhuh?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 5,
                             "parameters": [
-                                "はぁ、よく生きてたわねあんた。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 5,
                             "parameters": [
-                                "\\n<シシリア>"
+                                ""
                             ]
                         },
                         {
@@ -14161,8 +14161,8 @@
                             "indent": 7,
                             "parameters": [
                                 [
-                                    "スタリオンの子",
-                                    "スタリオンの仔の子"
+                                    "Child of a stallion",
+                                    "Child of a stallion"
                                 ],
                                 -2,
                                 -1,
@@ -14360,9 +14360,9 @@
                             "indent": 4,
                             "parameters": [
                                 [
-                                    "スライムの子供if(v[1706])",
-                                    "ローパーの子供if(v[1707])",
-                                    "キメラの子供if(v[1708])"
+                                    "Slime's childif(v[1706])",
+                                    "Roper's childif(v[1707])",
+                                    "Chimera's childif(v[1708])"
                                 ],
                                 -1,
                                 -1,
@@ -14399,21 +14399,21 @@
                             "code": 401,
                             "indent": 5,
                             "parameters": [
-                                "スライムゥ？こんなもん下水に流しゃいいでしょ。"
+                                "\\n< Cecilia >Slimes? It's fine to just flush them down the\nsewer. Well, if you want it, take it."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 5,
                             "parameters": [
-                                "まー持ってけっつうなら持ってくけど。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 5,
                             "parameters": [
-                                "\\n<シシリア>"
+                                ""
                             ]
                         },
                         {
@@ -14471,21 +14471,21 @@
                             "code": 401,
                             "indent": 5,
                             "parameters": [
-                                "ローパーの幼虫？……うわ、ゲロゲロ。"
+                                "\\n< Cecilia >Roper larvae? ...Ew, gross. You can handle\nthem pretty well, huh..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 5,
                             "parameters": [
-                                "あんたよく持ってられるよね…。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 5,
                             "parameters": [
-                                "\\n<シシリア>"
+                                ""
                             ]
                         },
                         {
@@ -14509,8 +14509,8 @@
                             "indent": 7,
                             "parameters": [
                                 [
-                                    "ローパーの子",
-                                    "ローパーの仔の子"
+                                    "Roper larvae",
+                                    "Roper larvae"
                                 ],
                                 -2,
                                 -1,
@@ -14727,14 +14727,14 @@
                             "code": 401,
                             "indent": 5,
                             "parameters": [
-                                "なんの子供？紫色の……気っ色わる……。"
+                                "\\n< Cecilia >Whose child is this? Purple... it's so\nweird..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 5,
                             "parameters": [
-                                "\\n<シシリア>"
+                                ""
                             ]
                         },
                         {
@@ -17031,21 +17031,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ちょっと、そんな所にいられたら喋り辛いじゃない。"
+                                "\\n< Cecilia >Hey, it's hard to talk if you stay in a\nplace like that. If you have something\nyou want to talk about, come over here."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "話したい事があるならこっち来なさいよ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "\\n<シシリア>"
+                                ""
                             ]
                         },
                         {
@@ -17429,21 +17429,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ちょっと、そんな所にいられたら喋り辛いじゃない。"
+                                "\\n< Cecilia >Hey, it's difficult to talk in a place like\nthis. If you have something you want to\ntalk about, come over here."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "話したい事があるならこっち来なさいよ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "\\n<シシリア>"
+                                ""
                             ]
                         },
                         {
@@ -19502,21 +19502,21 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "そ。じゃあ準備できたら話しかけて。"
+                                "\\n< Cecilia >So, when you're ready, talk to me. I think\nit's going to be a big battle, so make\nsure to buy things like medicine."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "大勝負になると思うから、薬とか買っときなよ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "\\n<シシリア>"
+                                ""
                             ]
                         },
                         {

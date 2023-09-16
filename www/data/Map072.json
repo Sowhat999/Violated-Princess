@@ -4739,28 +4739,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "回想シーン全開放データを作成します。"
+                                "I will create a data file that unlocks\nall the flashback scenes. If there is a\nsaved file with this data, all the\nflashback scenes will be unlocked. If\nyou delete the saved data, it will\nreturn to being locked."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "このデータがセーブされたファイルがあれば"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "全ての回想シーンが解放されます。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "セーブされたデータを消せば未開放に戻ります。"
+                                ""
                             ]
                         },
                         {
@@ -9483,28 +9483,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "回想シーン全開放データを作成します。"
+                                "I will create a data file that unlocks\nall the flashback scenes. If there is a\nsaved file with this data, all the\nflashback scenes will be unlocked. If\nyou delete the saved data, it will\nreturn to being locked."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "このデータがセーブされたファイルがあれば"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "全ての回想シーンが解放されます。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "セーブされたデータを消せば未開放に戻ります。"
+                                ""
                             ]
                         },
                         {

@@ -7193,21 +7193,21 @@
                             "code": 401,
                             "indent": 4,
                             "parameters": [
-                                "何日分払ってくれるんだ？"
+                                "\\n< Innkeeper >How many nights will you be paying for? (If\nyou're in Friendly Mode, you can stay\nfor 0S)"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 4,
                             "parameters": [
-                                "（フレンドリーモードなら０Ｓで宿泊可能）"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 4,
                             "parameters": [
-                                "\\n<宿屋店主>"
+                                ""
                             ]
                         },
                         {
@@ -7243,14 +7243,14 @@
                             "code": 401,
                             "indent": 5,
                             "parameters": [
-                                "なんだい、ひやかしかい……。"
+                                "\\n< Innkeeper >What's the matter, are you teasing me..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 5,
                             "parameters": [
-                                "\\n<宿屋店主>"
+                                ""
                             ]
                         },
                         {
@@ -7288,14 +7288,14 @@
                             "code": 401,
                             "indent": 6,
                             "parameters": [
-                                "\\V[2416]日分。\\V[2417]Ｓかかるが…どうする？"
+                                "\\n< Serena >\\V[2416]It costs 0S per day... What will you do?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 6,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -7327,8 +7327,8 @@
                             "indent": 6,
                             "parameters": [
                                 [
-                                    "払う",
-                                    "やめる"
+                                    "Pay",
+                                    "I'll quit"
                                 ],
                                 1,
                                 -1,
@@ -7370,14 +7370,14 @@
                             "code": 401,
                             "indent": 7,
                             "parameters": [
-                                "毎度。ドア横の部屋を使ってくれ。"
+                                "\\n< Innkeeper >Welcome. Please use the room next to the door."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 7,
                             "parameters": [
-                                "\\n<宿屋店主>"
+                                ""
                             ]
                         },
                         {
@@ -7449,14 +7449,14 @@
                             "code": 401,
                             "indent": 6,
                             "parameters": [
-                                "（お金が足りない…。）"
+                                "\\n< Serena >(I don't have enough money...)"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 6,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -7503,14 +7503,14 @@
                             "code": 401,
                             "indent": 4,
                             "parameters": [
-                                "何日分払ってくれるんだ？"
+                                "\\n< Innkeeper >How many nights will you be paying for?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 4,
                             "parameters": [
-                                "\\n<宿屋店主>"
+                                ""
                             ]
                         },
                         {
@@ -7581,14 +7581,14 @@
                             "code": 401,
                             "indent": 5,
                             "parameters": [
-                                "なんだい、ひやかしかい……。"
+                                "\\n< Innkeeper >What's the matter, are you teasing me..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 5,
                             "parameters": [
-                                "\\n<宿屋店主>"
+                                ""
                             ]
                         },
                         {
@@ -7626,14 +7626,14 @@
                             "code": 401,
                             "indent": 6,
                             "parameters": [
-                                "\\V[2416]日分。\\V[2417]Ｓかかるが…どうする？"
+                                "\\n< Serena >\\V[2416]It costs 0S per day... What will you do?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 6,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -7641,8 +7641,8 @@
                             "indent": 6,
                             "parameters": [
                                 [
-                                    "払う",
-                                    "やめる"
+                                    "Pay",
+                                    "I'll quit"
                                 ],
                                 1,
                                 -1,
@@ -7693,14 +7693,14 @@
                             "code": 401,
                             "indent": 7,
                             "parameters": [
-                                "毎度。ドア横の部屋を使ってくれ。"
+                                "\\n< Innkeeper >Welcome. Please use the room next to the door."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 7,
                             "parameters": [
-                                "\\n<宿屋店主>"
+                                ""
                             ]
                         },
                         {
@@ -7772,14 +7772,14 @@
                             "code": 401,
                             "indent": 6,
                             "parameters": [
-                                "（お金が足りない…。）"
+                                "\\n< Serena >(I don't have enough money...)"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 6,
                             "parameters": [
-                                "\\n<セレナ>"
+                                ""
                             ]
                         },
                         {
@@ -7891,7 +7891,7 @@
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
                                 ""
@@ -7928,21 +7928,21 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\V[2416]日分もらってるよ。"
+                                "\\n< Innkeeper >\\V[2416]I'll take the payment for the day. Please\nuse the room next to the door."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "ドア横の部屋を使ってくれ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "\\n<宿屋店主>"
+                                ""
                             ]
                         },
                         {
@@ -13981,7 +13981,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\n<Serena>Should I let it down today?"
+                                "\\n< Serena >Should I let it down today?"
                             ]
                         },
                         {
@@ -14038,7 +14038,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\n<Serena>This should do."
+                                "\\n< Serena >This should do."
                             ]
                         },
                         {
@@ -20505,12 +20505,12 @@
                             "indent": 3,
                             "parameters": [
                                 [
-                                    "アルベールの子供if(v[1733])",
-                                    "サミュエルの子供if(v[1734])",
-                                    "ドニの子供if(v[1735])",
-                                    "マチアスの子供if(v[1736])",
-                                    "ディーコンの子供if(v[1737])",
-                                    "グービルの子供if(v[1738])"
+                                    "Albert's childif(v[1733])",
+                                    "Samuel's childif(v[1734])",
+                                    "Doni's childif(v[1735])",
+                                    "Matthias' childif(v[1736])",
+                                    "Deacon's childif(v[1737])",
+                                    "Gubiru's childif(v[1738])"
                                 ],
                                 -1,
                                 -1,
@@ -20672,12 +20672,12 @@
                             "indent": 3,
                             "parameters": [
                                 [
-                                    "デムーランの子供if(v[1739])",
-                                    "ロドリグの子供if(v[1740])",
-                                    "オリバーの子供if(v[1741])",
-                                    "ガエタンの子供if(v[1742])",
-                                    "ジョエルの子供if(v[1743])",
-                                    "トリスタンの子供if(v[1744])"
+                                    "Child of Demuranif(v[1739])",
+                                    "Rodrigo's childif(v[1740])",
+                                    "Oliver's childif(v[1741])",
+                                    "Gaetan's childif(v[1742])",
+                                    "Joel's childif(v[1743])",
+                                    "Tristan's childif(v[1744])"
                                 ],
                                 -1,
                                 -1,
@@ -20839,12 +20839,12 @@
                             "indent": 3,
                             "parameters": [
                                 [
-                                    "ゲクランの子供if(v[1745])",
-                                    "マルセルの子供if(v[1746])",
-                                    "ティムの子供if(v[1747])",
-                                    "ガヌロンの子供if(v[1748])",
-                                    "バーダンの子供if(v[1749])",
-                                    "マクシスの子供if(v[1750])"
+                                    "Child of Gekuranif(v[1745])",
+                                    "Marcel's childif(v[1746])",
+                                    "Tim's childif(v[1747])",
+                                    "Ganuron's childif(v[1748])",
+                                    "Bardan's childif(v[1749])",
+                                    "Maxis' childif(v[1750])"
                                 ],
                                 -1,
                                 -1,
@@ -21340,12 +21340,12 @@
                             "indent": 3,
                             "parameters": [
                                 [
-                                    "売春客の子供if(v[1763])",
-                                    "異人の子供if(v[1764])",
-                                    "囚人の子供if(v[1765])",
-                                    "種馬スタリオンの子供if(v[1766])",
-                                    "ガヌロンの孫if(v[1767])",
-                                    "誰かの子供if(v[1768])"
+                                    "Child of a prostituteif(v[1763])",
+                                    "Foreigner's Childif(v[1764])",
+                                    "Prisoner's Childif(v[1765])",
+                                    "Offspring of a stallionif(v[1766])",
+                                    "Ganuron's grandchildif(v[1767])",
+                                    "Someone's childif(v[1768])"
                                 ],
                                 -1,
                                 -1,
@@ -21507,7 +21507,7 @@
                             "indent": 3,
                             "parameters": [
                                 [
-                                    "父親不明の子供if(v[1769])"
+                                    "Child with unknown fatherif(v[1769])"
                                 ],
                                 -1,
                                 -1,
