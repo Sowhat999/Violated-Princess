@@ -5307,7 +5307,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\n< Serena >If you want to stay in the room, you must\npay the accommodation fee first. I\nunderstand that basic common sense."
+                                "\\n< Serena >If I want to stay in the room, I must\npay the accommodation fee first. I\nunderstand that basic common sense."
                             ]
                         },
                         {
@@ -6473,7 +6473,7 @@
                             "code": 401,
                             "indent": 3,
                             "parameters": [
-                                "\\n< Innkeeper >Our rate is 100S per night. Do you have\nenough money for that appearance?"
+                                "\\n< Innkeeper >Our rate is 100S per night. Do you have\nenough money with that appearance?"
                             ]
                         },
                         {
@@ -6714,7 +6714,7 @@
                             "code": 355,
                             "indent": 3,
                             "parameters": [
-                                "CommonPopupManager.showInfo({},\"I paid 100S.\",null)"
+                                "CommonPopupManager.showInfo({},'100Ｓ支払った。',null)"
                             ]
                         },
                         {
@@ -7002,8 +7002,8 @@
                             "parameters": [
                                 [
                                     "Stay",
-                                    "Pay the accommodation fee in one lump sum",
-                                    "Stop"
+                                    "Pay the accommodation fee all at once",
+                                    "Leave"
                                 ],
                                 2,
                                 -1,
@@ -7167,7 +7167,7 @@
                             "indent": 2,
                             "parameters": [
                                 1,
-                                "まとめて宿泊料金を払う"
+                                "Pay for lodging in bulk."
                             ]
                         },
                         {
@@ -7193,7 +7193,7 @@
                             "code": 401,
                             "indent": 4,
                             "parameters": [
-                                "\\n< Innkeeper >How many nights will you be paying for? (If\nyou're in Friendly Mode, you can stay\nfor 0S)"
+                                "\\n< Innkeeper >How many days will you pay me for?\n(If you're in friendly mode,\nyou can stay for 0s)"
                             ]
                         },
                         {
@@ -7243,7 +7243,7 @@
                             "code": 401,
                             "indent": 5,
                             "parameters": [
-                                "\\n< Innkeeper >What's the matter, are you teasing me..."
+                                "\\n< Innkeeper >So wha'ts it's gonna be?"
                             ]
                         },
                         {
@@ -7288,7 +7288,7 @@
                             "code": 401,
                             "indent": 6,
                             "parameters": [
-                                "\\n< Serena >\\V[2416]It costs 0S per day... What will you do?"
+                                "\\n< Serena >\\V[2416]It costs 0S per day... What will I do?"
                             ]
                         },
                         {
@@ -7328,7 +7328,7 @@
                             "parameters": [
                                 [
                                     "Pay",
-                                    "I'll quit"
+                                "Cancel"
                                 ],
                                 1,
                                 -1,
@@ -7341,7 +7341,7 @@
                             "indent": 6,
                             "parameters": [
                                 0,
-                                "払う"
+                                "pay"
                             ]
                         },
                         {
@@ -7370,7 +7370,7 @@
                             "code": 401,
                             "indent": 7,
                             "parameters": [
-                                "\\n< Innkeeper >Welcome. Please use the room next to the door."
+                                "\\n< Innkeeper >Every time.\nPlease use the room next to the door."
                             ]
                         },
                         {
@@ -7390,7 +7390,7 @@
                             "indent": 6,
                             "parameters": [
                                 1,
-                                "やめる"
+                                "cancel"
                             ]
                         },
                         {
@@ -7503,7 +7503,7 @@
                             "code": 401,
                             "indent": 4,
                             "parameters": [
-                                "\\n< Innkeeper >How many nights will you be paying for?"
+                                "\\n< Innkeeper >How many days will you pay me for?"
                             ]
                         },
                         {
@@ -7581,7 +7581,7 @@
                             "code": 401,
                             "indent": 5,
                             "parameters": [
-                                "\\n< Innkeeper >What's the matter, are you teasing me..."
+                                "\\n< Innkeeper >So wha'ts it's gonna be?"
                             ]
                         },
                         {
@@ -7626,7 +7626,7 @@
                             "code": 401,
                             "indent": 6,
                             "parameters": [
-                                "\\n< Serena >\\V[2416]It costs 0S per day... What will you do?"
+                                "\\V[2416]For the day.\\V[2417]ＳIt's going to cost...\nwhat I'm going to do?"
                             ]
                         },
                         {
@@ -7642,7 +7642,7 @@
                             "parameters": [
                                 [
                                     "Pay",
-                                    "I'll quit"
+                                    "Cancel"
                                 ],
                                 1,
                                 -1,
@@ -7655,7 +7655,7 @@
                             "indent": 6,
                             "parameters": [
                                 0,
-                                "払う"
+                                "Pay"
                             ]
                         },
                         {
@@ -7693,7 +7693,7 @@
                             "code": 401,
                             "indent": 7,
                             "parameters": [
-                                "\\n< Innkeeper >Welcome. Please use the room next to the door."
+                                "\\n< Innkeeper >Every time.\nPlease use the room next to the door."
                             ]
                         },
                         {
@@ -7887,7 +7887,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\n< Innkeeper >Welcome. Please use the room next to the door."
+                                "\\n< Innkeeper >Every time.\nPlease use the room next to the door."
                             ]
                         },
                         {
@@ -7928,7 +7928,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\n< Innkeeper >\\V[2416]I'll take the payment for the day. Please\nuse the room next to the door."
+                                "\\V[2416]is for tha day"
                             ]
                         },
                         {
@@ -9850,7 +9850,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >Lord Nicola, are you here?"
+                                "\\n< Serena >Nicola-dono, are you here?"
                             ]
                         },
                         {
@@ -9912,7 +9912,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >It's me, Lord Nicola. I heard you weren't\nfeeling well, so I came to visit..."
+                                "\\n< Serena >It's me, Nicola-dono. I heard you weren't\nfeeling well, so I came to visit..."
                             ]
                         },
                         {
@@ -10891,7 +10891,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >Power?"
+                                "\\n< Serena >Weak?"
                             ]
                         },
                         {
@@ -11314,7 +11314,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Nicola >That suspicious liquid... was it an\naphrodisiac? But you should have soaked\nyour entire body in the pot filled to\nthe brim with it."
+                                "\\n< Nicola >That suspicious liquid... was it an\naphrodisiac? You should have soaked\nyour entire body in the pot filled to\nthe brim with it."
                             ]
                         },
                         {
@@ -11553,7 +11553,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Nicola >...I see. Because I don't know how to do it."
+                                "\\n< Nicola >...I see. Because You don't know how to do it."
                             ]
                         },
                         {
@@ -11617,7 +11617,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Nicola >Speaking of ways to relieve it..."
+                                "\\n< Nicola >The ways to relieve it..."
                             ]
                         },
                         {
@@ -11728,7 +11728,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n< Serena >Lord Nicola?"
+                                "\\n< Serena >Nicola-dono?"
                             ]
                         },
                         {
@@ -11807,7 +11807,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n< Serena >Lord Nicola?"
+                                "\\n< Serena >Nicola-dono?"
                             ]
                         },
                         {
@@ -11949,7 +11949,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >Is Lord Nicola obsessed with it?"
+                                "\\n< Serena >Is Nicola-dono obsessed with it?"
                             ]
                         },
                         {
@@ -11980,7 +11980,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Nicola >......Yes, when it's spoken out loud, it...makes\nme feel really strange..."
+                                "\\n< Nicola >......Yes, when you speak\nabout it out loud, it...makes\nme feel really strange..."
                             ]
                         },
                         {
@@ -12018,7 +12018,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Nicola >Well... that's right. When I was young, I had\nplenty of bad friends who taught me\nabout those things..."
+                                "\\n< Nicola >Well... that's allright. When I was young, I had\nplenty of bad friends who taught me\nabout those things..."
                             ]
                         },
                         {
@@ -12102,7 +12102,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >U-um... I don't really understand, but in my\neyes, Lord Nicola appears to be a very\nrespectable adult."
+                                "\\n< Serena >U-um... I don't really understand, but in my\neyes, Nicola-dono appears to be a very\nrespectable adult."
                             ]
                         },
                         {
@@ -12203,7 +12203,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >Yes. I am acquainted with a victim of a\ncertain murder case. Because of that,\nthey falsely accused you of being the\nculprit."
+                                "\\n< Serena >Hmm. I know the victim of a certain murder case.\nThat's why they accused me of being the culprit."
                             ]
                         },
                         {
@@ -12241,7 +12241,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Nicola >So?"
+                                "\\n< Nicola >And?"
                             ]
                         },
                         {
@@ -12272,7 +12272,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >They demanded that I accuse Lord Nicola in\norder to escape punishment... I was\nthreatened. They told me to testify that\nLord Nicola is the culprit of the murder\ncase."
+                                "\\n< Serena >They demanded that I accuse Nicola-dono in\norder to escape punishment... I was\nthreatened. They told me to testify that\nNicola-dono is the culprit of the murder\ncase."
                             ]
                         },
                         {
@@ -12511,7 +12511,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Nicola >No, I'm sorry. I caused you trouble with\nthis matter as well. The city police\nmust be in a hurry too. Because we\nrevealed our relationship in front of\nthem."
+                                "\\n< Nicola >No, I'm sorry. I caused you trouble with\nthis matter as well. The city police\nmust be in a hurry too."
                             ]
                         },
                         {
@@ -12556,7 +12556,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >Yes. It seems like they want to do whatever\nit takes to frame you in front of the\npolice."
+                                "\\n< Serena >Hmmm.\nThey want to make the patrolmen look like dirt at all costs."
                             ]
                         },
                         {
@@ -12715,7 +12715,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Nicola >The reputation of the patrol team has\ndeclined, and the voices blaming the\ncity police are being drowned out."
+                                "\\n< Nicola >The reputation of the patrol team will\ndecline, and the voices blaming the\ncity police awill be drowned out."
                             ]
                         },
                         {
@@ -12884,7 +12884,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >...I feel a little lonely."
+                                "\\n< Serena >...I'll feel a little lonely."
                             ]
                         },
                         {
@@ -13022,7 +13022,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Nicola >Oh no. I made a mistake in how I steered\nthe conversation..."
+                                "\\n< Nicola >This wasput away. I took the topic in the wrong direction..."
                             ]
                         },
                         {
@@ -13053,7 +13053,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Nicola >...Well, let's stop around here."
+                                "\\n< Nicola >...Well, let's stop here."
                             ]
                         },
                         {
@@ -13364,7 +13364,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >......Nicola, I'm glad to see you're doing well. I\nstill have feelings for that person."
+                                "\\n< Serena >......Nicola, I'm glad to see you're doing well.\nI guess i like him after all."
                             ]
                         },
                         {
@@ -13981,7 +13981,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\n< Serena >Should I let it down today?"
+                                "\\n<Serena>Should I let it down today?"
                             ]
                         },
                         {
@@ -14038,7 +14038,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\n< Serena >This should do."
+                                "\\n<Serena>This should do."
                             ]
                         },
                         {
@@ -16338,7 +16338,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >Lord Nicola, are you here?"
+                                "\\n< Serena >Nicola-dono, are you here?"
                             ]
                         },
                         {
@@ -16363,7 +16363,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >Lord Nicola, are you absent?"
+                                "\\n< Serena >Nicola-dono, are you absent?"
                             ]
                         },
                         {
@@ -16499,7 +16499,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >No, I heard that Lord Nicola fell ill when\nI stopped by the patrol office."
+                                "\\n< Serena >No, I heard that Nicola-dono fell ill when\nI stopped by the patrol office."
                             ]
                         },
                         {
@@ -16809,7 +16809,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Nicola >I see. It's because I don't know how to\ndo it."
+                                "\\n< Nicola >I see.\nIt's because you don't know the method to do it."
                             ]
                         },
                         {
@@ -16859,7 +16859,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Nicola >Speaking of methods to relieve it..."
+                                "\\n< Nicola >I'm Speaking of methods to relieve it..."
                             ]
                         },
                         {
@@ -16966,7 +16966,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >Nicola, are you obsessed with it?"
+                                "\\n< Serena >Nicola-dono, are you obsessed with it?"
                             ]
                         },
                         {
@@ -17094,7 +17094,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >U-um... I don't really understand, but in my\neyes, Lord Nicola appears to be a very\nrespectable adult."
+                                "\\n< Serena >U-um... I don't really understand, but in my\neyes, Nicola-dono appears to be a very\nrespectable adult."
                             ]
                         },
                         {
@@ -17176,7 +17176,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >Yes. I know someone who was a victim of a\nmurder case. Because of that, they\nfalsely accused you of being the\nculprit."
+                                "\\n< Serena >Yes. I know someone who was a victim of a\nmurder case. Because of that, they\nfalsely accused me of being the\nculprit."
                             ]
                         },
                         {
@@ -17539,7 +17539,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Nicola >I planned to make Catherine vomit and\ncatch those guys one by one."
+                                "\\n< Nicola >I was planning to make Catherine vomit and\ncatch those guys one by one."
                             ]
                         },
                         {
@@ -17621,7 +17621,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Nicola >Not just smiling no matter what they do to\nyou."
+                                "\\n< Nicola >Just smiling no matter what we do to\nher."
                             ]
                         },
                         {
@@ -17931,7 +17931,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Nicola >We will leave the personnel behind, but I\nintend to leave the town soon. It's not\nby His Majesty's order. I will escort\nCatherine to the capital."
+                                "\\n< Nicola >I will keep my personnel here,\nbut I will be leaving town soon.\nBy order of His Majesty.\nI will escort Catherine to the capital."
                             ]
                         },
                         {
@@ -17963,7 +17963,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >Are you taking her to the capital?"
+                                "\\n< Serena >You taking her to the capital?"
                             ]
                         },
                         {
@@ -17988,7 +17988,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Nicola >They will be executed by burning at the\nstake. It seems that His Majesty the\nKing will personally carry out the\nexecution."
+                                "\\n< Nicola >She will be executed by burning at the\nstake. It seems that His Majesty the\nKing will personally carry out the\nexecution."
                             ]
                         },
                         {
@@ -19607,7 +19607,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n< Serena >...I don't want to give my breasts to such a\ncreature..."
+                                "\\n< Serena >...I don't want to give my breastsmilk\nto a creature like this..."
                             ]
                         },
                         {
@@ -19659,7 +19659,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\n< Serena >I still have some breasts left... What\nshould I do?"
+                                "\\n< Serena >I still have breastmilk...what should I do?"
                             ]
                         },
                         {
@@ -19674,8 +19674,8 @@
                             "indent": 2,
                             "parameters": [
                                 [
-                                    "Giving breast milk to a baby",
-                                    "I won't give them to you"
+                                    "breastfeed the baby",
+                                    "I won't give him"
                                 ],
                                 -2,
                                 -1,
@@ -19688,7 +19688,7 @@
                             "indent": 2,
                             "parameters": [
                                 0,
-                                "Giving breast milk to a baby"
+                                "breastfeed the baby"
                             ]
                         },
                         {
@@ -20131,21 +20131,21 @@
                             "code": 408,
                             "indent": 3,
                             "parameters": [
-                                "０：人（白）　１：人（黒）　２：人（浅黒）"
+                                "０：baby (white)　１：baby (black)　２：baby (tanned)）"
                             ]
                         },
                         {
                             "code": 408,
                             "indent": 3,
                             "parameters": [
-                                "３：ゴブリン　４：オーク　５：狼"
+                                "３：goblin　４：orc　５：warg"
                             ]
                         },
                         {
                             "code": 408,
                             "indent": 3,
                             "parameters": [
-                                "６：スタリオン　７：ピッグマン　８：キメラ"
+                                "６：stallion　７：pigman　８：chiemra"
                             ]
                         },
                         {
@@ -20171,12 +20171,12 @@
                             "indent": 3,
                             "parameters": [
                                 [
-                                    "Child of Jack if(v[1721])",
-                                    "Child of Henry if(v[1722])",
-                                    "Child of Gordon if(v[1723])",
-                                    "Child of Dodge if(v[1724])",
-                                    "Child of John if(v[1725])",
-                                    "Child of Bly if(v[1726])"
+                                    "Jack's Childif(v[1721])",
+                                    "Henry's childif(v[1722])",
+                                    "Gordon's childif(v[1723])",
+                                    "Dodge's childif(v[1724])",
+                                    "John's childif(v[1725])",
+                                    "Bry's childif(v[1726])"
                                 ],
                                 -1,
                                 -1,
@@ -20189,7 +20189,7 @@
                             "indent": 3,
                             "parameters": [
                                 0,
-                                "ジャックの子供if(v[1721])"
+                                "Jack's Childif(v[1721])"
                             ]
                         },
                         {
@@ -20213,7 +20213,7 @@
                             "indent": 3,
                             "parameters": [
                                 1,
-                                "ヘンリーの子供if(v[1722])"
+                                "Henry's childif(v[1722])"
                             ]
                         },
                         {
@@ -20237,7 +20237,7 @@
                             "indent": 3,
                             "parameters": [
                                 2,
-                                "ゴードンの子供if(v[1723])"
+                                "Gordon's childif(v[1723])"
                             ]
                         },
                         {
@@ -20261,7 +20261,7 @@
                             "indent": 3,
                             "parameters": [
                                 3,
-                                "ドッヂの子供if(v[1724])"
+                                "Dodge's childif(v[1724])"
                             ]
                         },
                         {
@@ -20285,7 +20285,7 @@
                             "indent": 3,
                             "parameters": [
                                 4,
-                                "ジョンの子供if(v[1725])"
+                                "John's childif(v[1725])"
                             ]
                         },
                         {
@@ -20309,7 +20309,7 @@
                             "indent": 3,
                             "parameters": [
                                 5,
-                                "ブライの子供if(v[1726])"
+                                "Bry's childif(v[1726])"
                             ]
                         },
                         {
@@ -20338,12 +20338,12 @@
                             "indent": 3,
                             "parameters": [
                                 [
-                                    "Tom's child if(v[1727])",
-                                    "Child of Goblog if(v[1728])",
-                                    "Gee's child if(v[1729])",
-                                    "Bjorn's child if(v[1730])",
-                                    "Ginyu's child if(v[1731])",
-                                    "Vansan's child if(v[1732])"
+                                    "Tom's childif(v[1727])",
+                                    "Goblog's Childif(v[1728])",
+                                    "Guy's Childif(v[1729])",
+                                    "Bjorn's childif(v[1730])",
+                                    "Ginyu's childif(v[1731])",
+                                    "Vincent's childif(v[1732])"
                                 ],
                                 -1,
                                 -1,
@@ -20356,7 +20356,7 @@
                             "indent": 3,
                             "parameters": [
                                 0,
-                                "トムの子供if(v[1727])"
+                                "Tom's childif(v[1727])"
                             ]
                         },
                         {
@@ -20380,7 +20380,7 @@
                             "indent": 3,
                             "parameters": [
                                 1,
-                                "ゴブログの子供if(v[1728])"
+                                "Goblog's Childif(v[1728])"
                             ]
                         },
                         {
@@ -20404,7 +20404,7 @@
                             "indent": 3,
                             "parameters": [
                                 2,
-                                "ギーの子供if(v[1729])"
+                                "Guy's Childif(v[1729])"
                             ]
                         },
                         {
@@ -20428,7 +20428,7 @@
                             "indent": 3,
                             "parameters": [
                                 3,
-                                "ビョーンの子供if(v[1730])"
+                                "Bjorn's childif(v[1730])"
                             ]
                         },
                         {
@@ -20452,7 +20452,7 @@
                             "indent": 3,
                             "parameters": [
                                 4,
-                                "ギニューの子供if(v[1731])"
+                                "Ginyu's childif(v[1731])"
                             ]
                         },
                         {
@@ -20476,7 +20476,7 @@
                             "indent": 3,
                             "parameters": [
                                 5,
-                                "ヴァンサンの子供if(v[1732])"
+                                "Vincent's childif(v[1732])"
                             ]
                         },
                         {
@@ -20506,11 +20506,11 @@
                             "parameters": [
                                 [
                                     "Albert's childif(v[1733])",
-                                    "Samuel's childif(v[1734])",
+                                    "Samuel's Childif(v[1734])",
                                     "Doni's childif(v[1735])",
-                                    "Matthias' childif(v[1736])",
-                                    "Deacon's childif(v[1737])",
-                                    "Gubiru's childif(v[1738])"
+                                    "Mathias Chlidif(v[1736])",
+                                    "Deacon's Childif(v[1737])",
+                                    "Gouville's Childif(v[1738])"
                                 ],
                                 -1,
                                 -1,
@@ -20523,7 +20523,7 @@
                             "indent": 3,
                             "parameters": [
                                 0,
-                                "アルベールの子供if(v[1733])"
+                                "Albert's childif(v[1733])"
                             ]
                         },
                         {
@@ -20547,7 +20547,7 @@
                             "indent": 3,
                             "parameters": [
                                 1,
-                                "サミュエルの子供if(v[1734])"
+                                "Samuel's Childif(v[1734])"
                             ]
                         },
                         {
@@ -20571,7 +20571,7 @@
                             "indent": 3,
                             "parameters": [
                                 2,
-                                "ドニの子供if(v[1735])"
+                                "Doni's childif(v[1735])"
                             ]
                         },
                         {
@@ -20595,7 +20595,7 @@
                             "indent": 3,
                             "parameters": [
                                 3,
-                                "マチアスの子供if(v[1736])"
+                                "Mathias Chlidif(v[1736])"
                             ]
                         },
                         {
@@ -20619,7 +20619,7 @@
                             "indent": 3,
                             "parameters": [
                                 4,
-                                "ディーコンの子供if(v[1737])"
+                                "Deacon's Childif(v[1737])"
                             ]
                         },
                         {
@@ -20643,7 +20643,7 @@
                             "indent": 3,
                             "parameters": [
                                 5,
-                                "グービルの子供if(v[1738])"
+                                "Gouville's Childif(v[1738])"
                             ]
                         },
                         {
@@ -20672,11 +20672,11 @@
                             "indent": 3,
                             "parameters": [
                                 [
-                                    "Child of Demuranif(v[1739])",
-                                    "Rodrigo's childif(v[1740])",
+                                    "Demoulin's childif(v[1739])",
+                                    "Rodrigue's childif(v[1740])",
                                     "Oliver's childif(v[1741])",
-                                    "Gaetan's childif(v[1742])",
-                                    "Joel's childif(v[1743])",
+                                    "Gaetan's Childif(v[1742])",
+                                    "Joel's Childif(v[1743])",
                                     "Tristan's childif(v[1744])"
                                 ],
                                 -1,
@@ -20690,7 +20690,7 @@
                             "indent": 3,
                             "parameters": [
                                 0,
-                                "デムーランの子供if(v[1739])"
+                                "Demoulin's childif(v[1739])"
                             ]
                         },
                         {
@@ -20714,7 +20714,7 @@
                             "indent": 3,
                             "parameters": [
                                 1,
-                                "ロドリグの子供if(v[1740])"
+                                "Rodrigue's childif(v[1740])"
                             ]
                         },
                         {
@@ -20738,7 +20738,7 @@
                             "indent": 3,
                             "parameters": [
                                 2,
-                                "オリバーの子供if(v[1741])"
+                                "Oliver's childif(v[1741])"
                             ]
                         },
                         {
@@ -20762,7 +20762,7 @@
                             "indent": 3,
                             "parameters": [
                                 3,
-                                "ガエタンの子供if(v[1742])"
+                                "Gaetan's Childif(v[1742])"
                             ]
                         },
                         {
@@ -20786,7 +20786,7 @@
                             "indent": 3,
                             "parameters": [
                                 4,
-                                "ジョエルの子供if(v[1743])"
+                                "Joel's Childif(v[1743])"
                             ]
                         },
                         {
@@ -20810,7 +20810,7 @@
                             "indent": 3,
                             "parameters": [
                                 5,
-                                "トリスタンの子供if(v[1744])"
+                                "Tristan's childif(v[1744])"
                             ]
                         },
                         {
@@ -20839,12 +20839,12 @@
                             "indent": 3,
                             "parameters": [
                                 [
-                                    "Child of Gekuranif(v[1745])",
+                                    "Gekran's childif(v[1745])",
                                     "Marcel's childif(v[1746])",
                                     "Tim's childif(v[1747])",
-                                    "Ganuron's childif(v[1748])",
-                                    "Bardan's childif(v[1749])",
-                                    "Maxis' childif(v[1750])"
+                                    "Ganuron Childif(v[1748])",
+                                    "Verdun's childif(v[1749])",
+                                    "Maxis's child.if(v[1750])"
                                 ],
                                 -1,
                                 -1,
@@ -20857,7 +20857,7 @@
                             "indent": 3,
                             "parameters": [
                                 0,
-                                "ゲクランの子供if(v[1745])"
+                                "Gekran's childif(v[1745])"
                             ]
                         },
                         {
@@ -20881,7 +20881,7 @@
                             "indent": 3,
                             "parameters": [
                                 1,
-                                "マルセルの子供if(v[1746])"
+                                "Marcel's childif(v[1746])"
                             ]
                         },
                         {
@@ -20905,7 +20905,7 @@
                             "indent": 3,
                             "parameters": [
                                 2,
-                                "Tim's child if(v[1747])"
+                                "Tim's childif(v[1747])"
                             ]
                         },
                         {
@@ -20929,7 +20929,7 @@
                             "indent": 3,
                             "parameters": [
                                 3,
-                                "Ganelon's child if(v[1748])"
+                                "Ganuron Childif(v[1748])"
                             ]
                         },
                         {
@@ -20953,7 +20953,7 @@
                             "indent": 3,
                             "parameters": [
                                 4,
-                                "Bardon's child if(v[1749])"
+                                "Verdun's childif(v[1749])"
                             ]
                         },
                         {
@@ -20977,7 +20977,7 @@
                             "indent": 3,
                             "parameters": [
                                 5,
-                                "マクシスの子供if(v[1750])"
+                                "Maxis's child.if(v[1750])"
                             ]
                         },
                         {
@@ -21006,12 +21006,12 @@
                             "indent": 3,
                             "parameters": [
                                 [
-                                    "Morris's child if(v[1751])",
-                                    "Pierre's child if(v[1752])",
-                                    "Bruno's child if(v[1753])",
-                                    "Maser's child if(v[1754])",
-                                    "Bond's child if(v[1755])",
-                                    "Child of an orphan if(v[1756])"
+                                    "Morris's Childif(v[1751])",
+                                    "Pierre's childif(v[1752])",
+                                    "Bruno's Childif(v[1753])",
+                                    "Maseru Childif(v[1754])",
+                                    "Bond's childif(v[1755])",
+                                    "Orphan Childif(v[1756])"
                                 ],
                                 -1,
                                 -1,
@@ -21024,7 +21024,7 @@
                             "indent": 3,
                             "parameters": [
                                 0,
-                                "モリスの子供if(v[1751])"
+                                "Morris's Childif(v[1751])"
                             ]
                         },
                         {
@@ -21048,7 +21048,7 @@
                             "indent": 3,
                             "parameters": [
                                 1,
-                                "ピエールの子供if(v[1752])"
+                                "Pierre's childif(v[1752])"
                             ]
                         },
                         {
@@ -21072,7 +21072,7 @@
                             "indent": 3,
                             "parameters": [
                                 2,
-                                "ブリュノの子供if(v[1753])"
+                                "Bruno's Childif(v[1753])"
                             ]
                         },
                         {
@@ -21096,7 +21096,7 @@
                             "indent": 3,
                             "parameters": [
                                 3,
-                                "マセルの子供if(v[1754])"
+                                "Maseru Childif(v[1754])"
                             ]
                         },
                         {
@@ -21120,7 +21120,7 @@
                             "indent": 3,
                             "parameters": [
                                 4,
-                                "ボンドの子供if(v[1755])"
+                                "Bond's childif(v[1755])"
                             ]
                         },
                         {
@@ -21144,7 +21144,7 @@
                             "indent": 3,
                             "parameters": [
                                 5,
-                                "孤児の子供if(v[1756])"
+                                "Orphan Childif(v[1756])"
                             ]
                         },
                         {
@@ -21173,12 +21173,12 @@
                             "indent": 3,
                             "parameters": [
                                 [
-                                    "Child of a city police officer if(v[1757])",
-                                    "Child of an adventurer if(v[1758])",
-                                    "Child of a thug if(v[1759])",
-                                    "Child of a punk if(v[1760])",
-                                    "Child of a nonbeliever if(v[1761])",
-                                    "Child of an orphan if(v[1762])"
+                                    "City police officer's childif(v[1757])",
+                                    "Adventurer's Childif(v[1758])",
+                                    "Punk childif(v[1759])",
+                                    "Thug childif(v[1760])",
+                                    "Pagan childrenif(v[1761])",
+                                    "Orphan Childif(v[1762])"
                                 ],
                                 -1,
                                 -1,
@@ -21191,7 +21191,7 @@
                             "indent": 3,
                             "parameters": [
                                 0,
-                                "市警隊員の子供if(v[1757])"
+                                "City police officer's childif(v[1757])"
                             ]
                         },
                         {
@@ -21215,7 +21215,7 @@
                             "indent": 3,
                             "parameters": [
                                 1,
-                                "冒険者の子供if(v[1758])"
+                                "Adventurer's Childif(v[1758])"
                             ]
                         },
                         {
@@ -21239,7 +21239,7 @@
                             "indent": 3,
                             "parameters": [
                                 2,
-                                "ごろつきの子供if(v[1759])"
+                                "Thug childif(v[1759])"
                             ]
                         },
                         {
@@ -21263,7 +21263,7 @@
                             "indent": 3,
                             "parameters": [
                                 3,
-                                "チンピラの子供if(v[1760])"
+                                "Thug childif(v[1760])"
                             ]
                         },
                         {
@@ -21287,7 +21287,7 @@
                             "indent": 3,
                             "parameters": [
                                 4,
-                                "異教徒の子供if(v[1761])"
+                                "Pagan childrenif(v[1761])"
                             ]
                         },
                         {
@@ -21311,7 +21311,7 @@
                             "indent": 3,
                             "parameters": [
                                 5,
-                                "孤児の子供if(v[1762])"
+                                "Orphan Childif(v[1762])"
                             ]
                         },
                         {
@@ -21340,12 +21340,12 @@
                             "indent": 3,
                             "parameters": [
                                 [
-                                    "Child of a prostituteif(v[1763])",
-                                    "Foreigner's Childif(v[1764])",
-                                    "Prisoner's Childif(v[1765])",
-                                    "Offspring of a stallionif(v[1766])",
-                                    "Ganuron's grandchildif(v[1767])",
-                                    "Someone's childif(v[1768])"
+                                    "prostitute Childif(v[1763])",
+                                    "foreigner Childif(v[1764])",
+                                    "Prisoner's childif(v[1765])",
+                                    "Stallion babyif(v[1766])",
+                                    "Ganuron Grandsonif(v[1767])",
+                                    "someone's childif(v[1768])"
                                 ],
                                 -1,
                                 -1,
@@ -21358,7 +21358,7 @@
                             "indent": 3,
                             "parameters": [
                                 0,
-                                "売春客の子供if(v[1763])"
+                                "prostitute Childif(v[1763])"
                             ]
                         },
                         {
@@ -21382,7 +21382,7 @@
                             "indent": 3,
                             "parameters": [
                                 1,
-                                "異人の子供if(v[1764])"
+                                "foreigner Childif(v[1764])"
                             ]
                         },
                         {
@@ -21406,7 +21406,7 @@
                             "indent": 3,
                             "parameters": [
                                 2,
-                                "囚人の子供if(v[1765])"
+                                "Prisoner's childif(v[1765])"
                             ]
                         },
                         {
@@ -21430,7 +21430,7 @@
                             "indent": 3,
                             "parameters": [
                                 3,
-                                "種馬スタリオンの子供if(v[1766])"
+                                "Stallion babyif(v[1766])"
                             ]
                         },
                         {
@@ -21454,7 +21454,7 @@
                             "indent": 3,
                             "parameters": [
                                 4,
-                                "ガヌロンの孫if(v[1767])"
+                                "Ganuron Grandsonif(v[1767])"
                             ]
                         },
                         {
@@ -21478,7 +21478,7 @@
                             "indent": 3,
                             "parameters": [
                                 5,
-                                "誰かの子供if(v[1768])"
+                                "someone's childif(v[1768])"
                             ]
                         },
                         {
@@ -21520,7 +21520,7 @@
                             "indent": 3,
                             "parameters": [
                                 0,
-                                "父親不明の子供if(v[1769])"
+                                "Child with unknown fatherif(v[1769])"
                             ]
                         },
                         {
@@ -22042,7 +22042,7 @@
                             "code": 118,
                             "indent": 4,
                             "parameters": [
-                                "人授乳終わり"
+                                "End of human breastfeeding"
                             ]
                         },
                         {
@@ -22354,7 +22354,7 @@
                             "code": 118,
                             "indent": 4,
                             "parameters": [
-                                "モンスター授乳終わり"
+                                "Monster breastfeeding end"
                             ]
                         },
                         {
@@ -22671,7 +22671,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\n< Serena >I don't have any breasts left..."
+                                "\\n< Serena >I don't have any breastsmilk left..."
                             ]
                         },
                         {
@@ -26860,7 +26860,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n< Serena >When it comes to this, Sleep doesn't work, I\ngive up."
+                                "\\n< Serena >When this happens,\n`sleep' doesn't work, and I'm exhausted."
                             ]
                         },
                         {
@@ -27836,7 +27836,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n< Serena >Somehow... I managed to make them sleep..."
+                                "\\n< Serena >Somehow... I managed to make it sleep..."
                             ]
                         },
                         {
@@ -27868,7 +27868,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n< Serena >I wasted... such foolish time..."
+                                "\\n< Serena >I've reached my limit..."
                             ]
                         },
                         {
@@ -28429,7 +28429,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\n< Serena >Please stop crying... and set me free..."
+                                "\\n< Serena >Please stop crying... and let me go..."
                             ]
                         },
                         {
@@ -28614,7 +28614,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\n< Serena >Sleep, sleep."
+                                "\\n< Serena >'Sleep', 'sleep'."
                             ]
                         },
                         {
@@ -29055,7 +29055,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\n< Serena >Should I say that I've given birth and all..."
+                                "\\n< Serena >Should I say 'Children that I've given birth'..."
                             ]
                         },
                         {
@@ -29431,7 +29431,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\n< Serena >Sleep."
+                                "\\n< Serena >'Sleep'."
                             ]
                         },
                         {
@@ -29836,7 +29836,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\n< Serena >No, they are not children who were\nlegitimately born. Are they not even\nrecorded in the family tree?"
+                                "\\n< Serena >No, they are not children who were\nlegitimately born. They wont even\nbe recorded in the family tree."
                             ]
                         },
                         {
@@ -30881,7 +30881,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\n< Serena >If the children were made from I love you\nand I like you... would they have been\neven cuter?"
+                                "\\n< Serena >If the children were made from 'I love you'\nand 'I like you'... would they have been\neven cuter?"
                             ]
                         },
                         {
@@ -31571,7 +31571,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\n< Serena >Sleep, sleep."
+                                "\\n< Serena >'Sleep', 'sleep'."
                             ]
                         },
                         {
@@ -32055,7 +32055,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\n< Serena >Should I say that I've given birth and all..."
+                                "\\n< Serena >Should I say 'Children that I've given birth'..."
                             ]
                         },
                         {
@@ -32806,7 +32806,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\n< Serena >No, they are not legitimate children. Are\nthey not even recorded in the family\ntree?"
+                                "\\n< Serena >No, they are not legitimate children. They won't be even recorded in the family\ntree."
                             ]
                         },
                         {
@@ -33399,7 +33399,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\n< Serena >...Did you sleep? Did you manage to sleep?"
+                                "\\n< Serena >...Did I sleep? Did I manage to sleep?"
                             ]
                         },
                         {
@@ -33851,7 +33851,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\n< Serena >If they were children born from I love you\nand I love you... would they have been\neven cuter?"
+                                "\\n< Serena >If they were children born from 'I love you'\nand 'I love you'... would they have been\neven cuter?"
                             ]
                         },
                         {
@@ -34684,7 +34684,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\n< Serena >Sleep."
+                                "\\n< Serena >'Sleep'."
                             ]
                         },
                         {
@@ -34790,7 +34790,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\n< Serena >I thought that if I slept, I would become\na little cuter... but..."
+                                "\\n< Serena >I thought that if Ii slept, Ii would become\na little cuter... but..."
                             ]
                         },
                         {
@@ -35175,7 +35175,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\n< Serena >Are you hostile towards me...? No, there's\nsomething more..."
+                                "\\n< Serena >Are you hostile towards me...? No, it's\nsomething more..."
                             ]
                         },
                         {
@@ -35539,7 +35539,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\n< Serena >No matter what, there are things that just\nwon't come out..."
+                                "\\n< Serena >No matter what is done,\nwhat doesn't come out any more,\ndoesn't come out. ......"
                             ]
                         },
                         {
@@ -35610,7 +35610,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\n< Serena >Ugh... Sleep, Sleep!"
+                                "\\n< Serena >Ugh... 'Sleep', 'Sleep'!"
                             ]
                         },
                         {
@@ -35760,7 +35760,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\n< Serena >I don't know how to interact with the\nmonster's... baby..."
+                                "\\n< Serena >I don't know how to interact with this\nmonster's... baby..."
                             ]
                         },
                         {
@@ -36543,7 +36543,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\n< Serena >The monster's child... and the mother of a\nmonster, huh?"
+                                "\\n< Serena >A monster's child... and the mother of a\nmonster, huh?"
                             ]
                         },
                         {
@@ -37248,7 +37248,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\n< Serena >I'm powerless now. Just by channeling a\nlittle magic into this Scepter..."
+                                "\\n< Serena >It's powerless now. Just by channeling a\nlittle magic into this Scepter..."
                             ]
                         },
                         {
@@ -37535,7 +37535,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\n< Serena >I just can't bring myself to kill..."
+                                "\\n< Serena >But I just can't bring myself to kill..."
                             ]
                         },
                         {
@@ -37802,7 +37802,7 @@
                             "code": 401,
                             "indent": 3,
                             "parameters": [
-                                "\\n< Serena >Is it saying that it's my child? Mine..."
+                                "\\n< Serena >Is it because it's my child? Mine..."
                             ]
                         },
                         {
@@ -38297,7 +38297,7 @@
                             "code": 401,
                             "indent": 3,
                             "parameters": [
-                                "\\n< Serena >The goblin's baby, mine..."
+                                "\\n< Serena >A goblin's baby, mine..."
                             ]
                         },
                         {
@@ -38489,7 +38489,7 @@
                             "code": 401,
                             "indent": 3,
                             "parameters": [
-                                "\\n< Serena >H-Have I gained a little weight since last\nnight?"
+                                "\\n< Serena >D-did it gain a little weight since last\nnight?"
                             ]
                         },
                         {
@@ -38854,7 +38854,7 @@
                             "code": 401,
                             "indent": 3,
                             "parameters": [
-                                "\\n< Serena >Hana...sse!"
+                                "\\n< Serena >Let...go!"
                             ]
                         },
                         {
@@ -38929,7 +38929,7 @@
                             "code": 401,
                             "indent": 3,
                             "parameters": [
-                                "\\n< Serena >T-tsuu... What kind of power is this..."
+                                "\\n< Serena >T-tsuu... What kind of strength is this..."
                             ]
                         },
                         {
@@ -39525,7 +39525,7 @@
                             "code": 401,
                             "indent": 3,
                             "parameters": [
-                                "\\n< Serena >If it were a puppy, it should be even\ncuter..."
+                                "\\n< Serena >If it is a puppy, it should be even\ncuter..."
                             ]
                         },
                         {
@@ -39578,7 +39578,7 @@
                             "code": 401,
                             "indent": 3,
                             "parameters": [
-                                "\\n< Serena >I don't feel that way at all."
+                                "\\n< Serena >But It doesn't look that way at all."
                             ]
                         },
                         {
@@ -39642,7 +39642,7 @@
                             "code": 401,
                             "indent": 3,
                             "parameters": [
-                                "\\n< Serena >Every day, every hour, my body is getting\nbigger. I can even hear the sound of my\nbones stretching."
+                                "\\n< Serena >Every day, every hour, his body is getting\nbigger. I can even hear the sound of his\nbones stretching."
                             ]
                         },
                         {
@@ -40925,7 +40925,7 @@
                             "code": 401,
                             "indent": 3,
                             "parameters": [
-                                "\\n< Serena >Every time I suck on {my} breasts, {my} body\ngrows bigger..."
+                                "\\n< Serena >Every time It sucks on my breasts, it's body\ngrows bigger..."
                             ]
                         },
                         {
@@ -41207,7 +41207,7 @@
                             "code": 401,
                             "indent": 3,
                             "parameters": [
-                                "\\n< Serena >Is this the appearance of the descendant\nof Gracia?"
+                                "\\n< Serena >Is this the appearance of a descendant\nof the Gracia familly?"
                             ]
                         },
                         {
@@ -42321,7 +42321,7 @@
                             "code": 401,
                             "indent": 3,
                             "parameters": [
-                                "\\n< Serena >Ugh... What's so sad that I ended up with\nsomething like this..."
+                                "\\n< Serena >Ugh ......\nwhat a sad thing ...... \nto see something like this."
                             ]
                         },
                         {
@@ -44163,7 +44163,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\n< Serena >Good girl..."
+                                "\\n< Serena >There there..."
                             ]
                         },
                         {
@@ -44357,7 +44357,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\n< Serena >Sleep."
+                                "\\n< Serena >'Sleep'."
                             ]
                         },
                         {
@@ -45184,7 +45184,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\n< Serena >Ugh, Sleep...."
+                                "\\n< Serena >Ugh, 'Sleep'...."
                             ]
                         },
                         {
@@ -45482,7 +45482,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\n< Serena >I can't make you into a Gracia human."
+                                "\\n< Serena >I can't make you into a Gracia familly member."
                             ]
                         },
                         {
@@ -45506,7 +45506,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\n< Serena >Since this is an illegitimate child... will\nthey be treated as a bastard?"
+                                "\\n< Serena >He was born out of wedlock...\nWill he be treated as an illegitimate child?"
                             ]
                         },
                         {
@@ -46586,7 +46586,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\n< Serena >The only thing left is whether you're\nsleeping or crying..."
+                                "\\n< Serena >The rest is either sleeping or crying..."
                             ]
                         },
                         {
@@ -47288,7 +47288,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\n< Serena >Sleep."
+                                "\\n< Serena >'Sleep'."
                             ]
                         },
                         {
@@ -47772,7 +47772,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\n< Serena >The feeling of love...the warm feeling that\nMary- sama talks about, it's nowhere to\nbe found in my heart..."
+                                "\\n< Serena >The feeling of love...the warm feeling that\nMarilou-dono talks about, it's nowhere to\nbe found in my heart..."
                             ]
                         },
                         {
@@ -48115,7 +48115,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\n< Serena >Ugh, Sleep...."
+                                "\\n< Serena >Ugh, 'Sleep'...."
                             ]
                         },
                         {
@@ -49557,7 +49557,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\n< Serena >The only options left are sleeping or\ncrying..."
+                                "\\n< Serena >The rest is sleeping or crying. ......"
                             ]
                         },
                         {
@@ -49681,7 +49681,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "-------------------------------------------------- ---"
+                                "-----------------------------------------------------"
                             ]
                         },
                         {
@@ -50051,7 +50051,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n< Serena >Through this child, I will be revived..."
+                                "\\n< Serena >Through this child, It will be relived..."
                             ]
                         },
                         {
@@ -50092,7 +50092,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n< Serena >I love you, I really do......"
+                                "'I love you', 'I like you'..."
                             ]
                         },
                         {
@@ -50116,38 +50116,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n< Serena >When you were able to, I couldn't say a\nsingle word. I couldn't say it."
-                            ]
-                        },
-                        {
-                            "code": 0,
-                            "indent": 1,
-                            "parameters": [
-                                ""
-                            ]
-                        },
-                        {
-                            "code": 0,
-                            "indent": 1,
-                            "parameters": [
-                                ""
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 1,
-                            "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "\\n< Serena >I was told that expressing love for a\nchild is something that Mary-sama should\ndo..."
+                                "\\n< Serena >I never said those words\nwhen I could have. I could not say it."
                             ]
                         },
                         {
@@ -50178,7 +50147,38 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n< Serena >And what about you?"
+                                "\\n< Serena >I was told by Marilou-dono that expressing love for a\nchild is something that I should\ndo..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "\\n< Serena >But what about you?"
                             ]
                         },
                         {
@@ -50490,21 +50490,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "-------------------------------------------------- ---＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝\n＝I have experience disposing of\nchildren."
+                                "-----------------------------------------------------"
                             ]
                         },
                         {
-                            "code": 0,
+                            "code": 401,
                             "indent": 1,
                             "parameters": [
-                                ""
+                                "＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝"
                             ]
                         },
                         {
-                            "code": 0,
+                            "code": 401,
                             "indent": 1,
                             "parameters": [
-                                ""
+                                "Experience child disposal"
                             ]
                         },
                         {
@@ -50970,7 +50970,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\n< Serena >Should I use a breast pump and squeeze them?\nThey say this can also be sold."
+                                "\\n< Serena >Should I use a breast pump and squeeze them?\nThey say it can also be sold."
                             ]
                         },
                         {
@@ -51566,7 +51566,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\n< Serena >Even though they are no longer needed by\nme... I wonder if there is someone out\nthere who still needs my breasts..."
+                                "\\n< Serena >Even though it isd no longer needed by\nme... I wonder if there is someone out\nthere who still needs my breastsmilk..."
                             ]
                         },
                         {
@@ -51713,7 +51713,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\n< Serena >Well, should I squeeze them out before going\nout..."
+                                "\\n< Serena >Well, I should squeeze them out before going\nout..."
                             ]
                         },
                         {
@@ -52239,7 +52239,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n< Serena >Huh...? I'm not finished yet..."
+                                "\\n< Serena >Ummm ...... mine is still coming out. ......"
                             ]
                         },
                         {
@@ -52304,7 +52304,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n< Serena >Ugh, this seat is so uncomfortable. Should I\njust squeeze it out?"
+                                "\\n< Serena >Wow, it's really uncomfortable to sit on.\nShall I squeeze it out?"
                             ]
                         },
                         {
@@ -52430,7 +52430,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n< Serena >Where did I hear the saying Excess is the\nenemy of success?"
+                                "\\n< Serena >Where did I hear the saying, `Too much is still not enough?'"
                             ]
                         },
                         {
