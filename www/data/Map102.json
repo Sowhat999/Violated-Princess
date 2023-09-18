@@ -5359,7 +5359,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Cecilia >Is that black one chasing us!? Why!?"
+                                "\\n< Cecilia >That black thing is following us! Why?"
                             ]
                         },
                         {
@@ -7445,7 +7445,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Serena >Is this... the prize storage room?!"
+                                "\\n< Serena >Is this... the treasure storage room?!"
                             ]
                         },
                         {
@@ -7476,7 +7476,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Cecilia >Hurry up and keep going! They're chasing us!!"
+                                "\\n< Cecilia >Okay, move on, move on! They're coming after us! !"
                             ]
                         },
                         {
@@ -7961,7 +7961,7 @@
                                             "code": 37,
                                             "indent": null
                                         },
-                                        {
+                                                                                {
                                             "code": 0
                                         }
                                     ],
@@ -7985,13 +7985,13 @@
                             "code": 205,
                             "indent": 0,
                             "parameters": [
-                                -1,
+-1,
                                 {
                                     "list": [
                                         {
                                             "code": 2,
                                             "indent": null
-                                        },
+},
                                         {
                                             "code": 0
                                         }
@@ -8012,7 +8012,7 @@
                                 }
                             ]
                         },
-                        {
+{
                             "code": 205,
                             "indent": 0,
                             "parameters": [
