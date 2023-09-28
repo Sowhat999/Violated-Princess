@@ -4371,6 +4371,17 @@
                             ]
                         },
                         {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                172,
+                                172,
+                                0,
+                                0,
+                                206
+                            ]
+                        },
+                        {
                             "code": 0,
                             "indent": 1,
                             "parameters": []
@@ -4519,6 +4530,17 @@
                             ]
                         },
                         {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                172,
+                                172,
+                                0,
+                                0,
+                                206
+                            ]
+                        },
+                        {
                             "code": 0,
                             "indent": 1,
                             "parameters": []
@@ -4664,6 +4686,17 @@
                                 10,
                                 0,
                                 0
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                172,
+                                172,
+                                0,
+                                0,
+                                206
                             ]
                         },
                         {
@@ -7976,6 +8009,15 @@
                             ]
                         },
                         {
+                            "code": 121,
+                            "indent": 0,
+                            "parameters": [
+                                1318,
+                                1318,
+                                0
+                            ]
+                        },
+                        {
                             "code": 117,
                             "indent": 0,
                             "parameters": [
@@ -8297,11 +8339,28 @@
                             "parameters": []
                         },
                         {
-                            "code": 356,
+                            "code": 111,
                             "indent": 0,
                             "parameters": [
                                 "回想セーブ Defeated_by_Boss_Slime"
                             ]
+                        },
+                        {
+                            "code": 356,
+                            "indent": 1,
+                            "parameters": [
+                                "回想セーブ ボススライム敗北"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
                         },
                         {
                             "code": 203,
@@ -12711,6 +12770,32 @@
                         },
                         {
                             "code": 221,
+                            "indent": 0,
+                            "parameters": []
+                        },
+                        {
+                            "code": 111,
+                            "indent": 0,
+                            "parameters": [
+                                0,
+                                1300,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 1,
+                            "parameters": [
+                                "Scene_Recollection.prototype.rngd_exit_scene();"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
                             "indent": 0,
                             "parameters": []
                         },

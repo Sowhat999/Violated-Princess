@@ -3295,6 +3295,15 @@
                             ]
                         },
                         {
+                            "code": 121,
+                            "indent": 0,
+                            "parameters": [
+                                1339,
+                                1339,
+                                0
+                            ]
+                        },
+                        {
                             "code": 117,
                             "indent": 0,
                             "parameters": [
@@ -3404,11 +3413,21 @@
                             ]
                         },
                         {
-                            "code": 356,
+                            "code": 111,
                             "indent": 0,
                             "parameters": [
                                 "回想セーブ Defeated_by_Thug"
                             ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
                         },
                         {
                             "code": 111,
@@ -5059,18 +5078,8 @@
                             ]
                         },
                         {
-                            "code": 0,
-                            "indent": 2,
-                            "parameters": []
-                        },
-                        {
-                            "code": 412,
-                            "indent": 1,
-                            "parameters": []
-                        },
-                        {
                             "code": 101,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 "",
                                 0,
@@ -5080,7 +5089,7 @@
                         },
                         {
                             "code": 401,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 "\\n< Thug >Hand in hand, isn't it fun?"
                             ]
@@ -5091,6 +5100,16 @@
                             "parameters": [
                                 ""
                             ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 1,
+                            "parameters": []
                         },
                         {
                             "code": 122,
@@ -6133,11 +6152,21 @@
                             ]
                         },
                         {
-                            "code": 356,
+                            "code": 111,
                             "indent": 1,
                             "parameters": [
                                 "回想セーブ Defeated_by_Thug,_Virgin"
                             ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 1,
+                            "parameters": []
                         },
                         {
                             "code": 101,
@@ -6215,7 +6244,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n< Thug >Quite a well-behaved brat, huh? This is a\ntop- notch specimen that I've never seen\nbefore."
+                                "\\n< Thug >Quite a well-behaved brat, huh? This is a\ntop-notch specimen that I've never seen\nbefore."
                             ]
                         },
                         {
@@ -6485,7 +6514,7 @@
                                 106,
                                 0,
                                 0,
-                                3
+                                12
                             ]
                         },
                         {
@@ -6643,17 +6672,6 @@
                                 105,
                                 0,
                                 0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 122,
-                            "indent": 1,
-                            "parameters": [
-                                106,
-                                106,
-                                0,
-                                0,
                                 3
                             ]
                         },
@@ -6661,11 +6679,22 @@
                             "code": 122,
                             "indent": 1,
                             "parameters": [
+                                106,
+                                106,
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
                                 107,
                                 107,
                                 0,
                                 0,
-                                6
+                                9
                             ]
                         },
                         {
@@ -7071,7 +7100,7 @@
                                 105,
                                 0,
                                 0,
-                                2
+                                1
                             ]
                         },
                         {
@@ -7495,406 +7524,7 @@
                             "code": 0,
                             "indent": 1,
                             "parameters": [
-                                ""
-                            ]
-                        },
-                        {
-                            "code": 0,
-                            "indent": 1,
-                            "parameters": [
-                                ""
-                            ]
-                        },
-                        {
-                            "code": 122,
-                            "indent": 1,
-                            "parameters": [
-                                105,
-                                105,
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 122,
-                            "indent": 1,
-                            "parameters": [
-                                106,
-                                106,
-                                0,
-                                0,
-                                6
-                            ]
-                        },
-                        {
-                            "code": 122,
-                            "indent": 1,
-                            "parameters": [
-                                107,
-                                107,
-                                0,
-                                0,
-                                11
-                            ]
-                        },
-                        {
-                            "code": 117,
-                            "indent": 1,
-                            "parameters": [
-                                747
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 1,
-                            "parameters": [
-                                "",
-                                0,
-                                2,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "\\n< Serena >Iyaaaahhh!? Ahh, ahh, ahh!? What, what are you\ndoing... iyaaaahhh!?"
-                            ]
-                        },
-                        {
-                            "code": 0,
-                            "indent": 1,
-                            "parameters": [
-                                ""
-                            ]
-                        },
-                        {
-                            "code": 0,
-                            "indent": 1,
-                            "parameters": [
-                                ""
-                            ]
-                        },
-                        {
-                            "code": 122,
-                            "indent": 1,
-                            "parameters": [
-                                105,
-                                105,
-                                0,
-                                0,
-                                7
-                            ]
-                        },
-                        {
-                            "code": 122,
-                            "indent": 1,
-                            "parameters": [
-                                106,
-                                106,
-                                0,
-                                0,
-                                7
-                            ]
-                        },
-                        {
-                            "code": 122,
-                            "indent": 1,
-                            "parameters": [
-                                107,
-                                107,
-                                0,
-                                0,
-                                9
-                            ]
-                        },
-                        {
-                            "code": 117,
-                            "indent": 1,
-                            "parameters": [
-                                747
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 1,
-                            "parameters": [
-                                "",
-                                0,
-                                2,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "\\n< Serena >(Huh... I feel like I've seen something like\nthis somewhere...)"
-                            ]
-                        },
-                        {
-                            "code": 0,
-                            "indent": 1,
-                            "parameters": [
-                                ""
-                            ]
-                        },
-                        {
-                            "code": 122,
-                            "indent": 1,
-                            "parameters": [
-                                246,
-                                246,
-                                0,
-                                0,
-                                5
-                            ]
-                        },
-                        {
-                            "code": 117,
-                            "indent": 1,
-                            "parameters": [
-                                668
-                            ]
-                        },
-                        {
-                            "code": 122,
-                            "indent": 1,
-                            "parameters": [
-                                105,
-                                105,
-                                0,
-                                0,
-                                7
-                            ]
-                        },
-                        {
-                            "code": 122,
-                            "indent": 1,
-                            "parameters": [
-                                106,
-                                106,
-                                0,
-                                0,
-                                10
-                            ]
-                        },
-                        {
-                            "code": 122,
-                            "indent": 1,
-                            "parameters": [
-                                107,
-                                107,
-                                0,
-                                0,
-                                7
-                            ]
-                        },
-                        {
-                            "code": 122,
-                            "indent": 1,
-                            "parameters": [
-                                109,
-                                109,
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 117,
-                            "indent": 1,
-                            "parameters": [
-                                747
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 1,
-                            "parameters": [
-                                "",
-                                0,
-                                2,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "\\n< Serena >Hii!? Nooooooo!!"
-                            ]
-                        },
-                        {
-                            "code": 0,
-                            "indent": 1,
-                            "parameters": [
-                                ""
-                            ]
-                        },
-                        {
-                            "code": 122,
-                            "indent": 1,
-                            "parameters": [
-                                105,
-                                105,
-                                0,
-                                0,
-                                7
-                            ]
-                        },
-                        {
-                            "code": 122,
-                            "indent": 1,
-                            "parameters": [
-                                106,
-                                106,
-                                0,
-                                0,
-                                6
-                            ]
-                        },
-                        {
-                            "code": 122,
-                            "indent": 1,
-                            "parameters": [
-                                107,
-                                107,
-                                0,
-                                0,
-                                11
-                            ]
-                        },
-                        {
-                            "code": 117,
-                            "indent": 1,
-                            "parameters": [
-                                747
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 1,
-                            "parameters": [
-                                "",
-                                0,
-                                2,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "\\n< Serena >No! Let go! Stop it! If you keep thrusting\nlike that, I'll break! It won't go in!\nStop it!"
-                            ]
-                        },
-                        {
-                            "code": 0,
-                            "indent": 1,
-                            "parameters": [
-                                ""
-                            ]
-                        },
-                        {
-                            "code": 0,
-                            "indent": 1,
-                            "parameters": [
-                                ""
-                            ]
-                        },
-                        {
-                            "code": 117,
-                            "indent": 1,
-                            "parameters": [
-                                6
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 1,
-                            "parameters": [
-                                "",
-                                0,
-                                2,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "\\n< Thug >Hmph, you just realized it now? You stupid\nbrat!"
-                            ]
-                        },
-                        {
-                            "code": 0,
-                            "indent": 1,
-                            "parameters": [
-                                ""
-                            ]
-                        },
-                        {
-                            "code": 117,
-                            "indent": 1,
-                            "parameters": [
-                                747
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 1,
-                            "parameters": [
-                                "",
-                                0,
-                                2,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "\\n< Serena >Nooo, nooo, noooo!! Help me, Erika-sama! I\ndon't want this!!"
-                            ]
-                        },
-                        {
-                            "code": 0,
-                            "indent": 1,
-                            "parameters": [
-                                ""
-                            ]
-                        },
-                        {
-                            "code": 0,
-                            "indent": 1,
-                            "parameters": [
-                                ""
-                            ]
-                        },
-                        {
-                            "code": 117,
-                            "indent": 1,
-                            "parameters": [
-                                6
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 1,
-                            "parameters": [
-                                "",
-                                0,
-                                2,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "\\n< Thug >Hehehe, here it comes, skewering time!!"
+                                "一周くらいは……。"
                             ]
                         },
                         {
@@ -7949,6 +7579,30 @@
                             "indent": 1,
                             "parameters": [
                                 397
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "",
+                                0,
+                                2,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "保つっ！"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "\\n<ごろつき>"
                             ]
                         },
                         {
@@ -8275,6 +7929,183 @@
                             "indent": 1,
                             "parameters": [
                                 ""
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                105,
+                                105,
+                                0,
+                                0,
+                                7
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                106,
+                                106,
+                                0,
+                                0,
+                                7
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                107,
+                                107,
+                                0,
+                                0,
+                                9
+                            ]
+                        },
+                        {
+                            "code": 117,
+                            "indent": 1,
+                            "parameters": [
+                                747
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "",
+                                0,
+                                2,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "（あれ…こんなのをどこかで…。）"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "\\n<セレナ>"
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                246,
+                                246,
+                                0,
+                                0,
+                                5
+                            ]
+                        },
+                        {
+                            "code": 117,
+                            "indent": 1,
+                            "parameters": [
+                                668
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                105,
+                                105,
+                                0,
+                                0,
+                                7
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                106,
+                                106,
+                                0,
+                                0,
+                                10
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                107,
+                                107,
+                                0,
+                                0,
+                                7
+                            ]
+                        },
+                        {
+                            "code": 117,
+                            "indent": 1,
+                            "parameters": [
+                                747
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "",
+                                0,
+                                2,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "あっ……あぁ……っ！！"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "\\n<セレナ>"
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "",
+                                0,
+                                2,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "今…！まさか……！"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "私、はっ……！私がっ……！"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "\\n<セレナ>"
                             ]
                         },
                         {
@@ -12795,6 +12626,32 @@
                         },
                         {
                             "code": 221,
+                            "indent": 0,
+                            "parameters": []
+                        },
+                        {
+                            "code": 111,
+                            "indent": 0,
+                            "parameters": [
+                                0,
+                                1300,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 1,
+                            "parameters": [
+                                "Scene_Recollection.prototype.rngd_exit_scene();"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
                             "indent": 0,
                             "parameters": []
                         },

@@ -4529,6 +4529,13 @@
                             ]
                         },
                         {
+                            "code": 117,
+                            "indent": 1,
+                            "parameters": [
+                                19
+                            ]
+                        },
+                        {
                             "code": 241,
                             "indent": 1,
                             "parameters": [
@@ -4538,6 +4545,13 @@
                                     "pitch": 100,
                                     "pan": 0
                                 }
+                            ]
+                        },
+                        {
+                            "code": 119,
+                            "indent": 1,
+                            "parameters": [
+                                "ティムイベント用措置"
                             ]
                         },
                         {
@@ -4555,6 +4569,22 @@
                             "indent": 0,
                             "parameters": [
                                 19
+                            ]
+                        },
+                        {
+                            "code": 121,
+                            "indent": 0,
+                            "parameters": [
+                                51,
+                                51,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 118,
+                            "indent": 0,
+                            "parameters": [
+                                "ティムイベント用措置"
                             ]
                         },
                         {
@@ -6827,7 +6857,7 @@
                             "code": 401,
                             "indent": 4,
                             "parameters": [
-                                "The male customer offered Serena a drink."
+                                "_pum[1,0,150,1,Normal]The customer offered Serena a drink."
                             ]
                         },
                         {

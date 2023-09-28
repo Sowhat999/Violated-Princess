@@ -4803,8 +4803,17 @@
                             ]
                         },
                         {
-                            "code": 101,
+                            "code": 111,
                             "indent": 0,
+                            "parameters": [
+                                0,
+                                1126,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
                             "parameters": [
                                 "",
                                 0,
@@ -4814,7 +4823,79 @@
                         },
                         {
                             "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "そっちじゃねえ。"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "仕事する気ならまず俺に話しかけろ。"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "\\n<ディーコン>"
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "もうマダムがいた時とは違うんだよ。"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "何もかもな。"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "\\n<ディーコン>"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 411,
                             "indent": 0,
+                            "parameters": []
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
                             "parameters": [
                                 "\\n< Deacon >Hey, outsiders are not allowed to enter without permission."
                             ]
@@ -4825,6 +4906,16 @@
                             "parameters": [
                                 ""
                             ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
                         },
                         {
                             "code": 205,
@@ -14258,22 +14349,31 @@
                             ]
                         },
                         {
-                            "code": 117,
+                            "code": 111,
                             "indent": 2,
+                            "parameters": [
+                                0,
+                                1096,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 117,
+                            "indent": 3,
                             "parameters": [
                                 23
                             ]
                         },
                         {
                             "code": 117,
-                            "indent": 2,
+                            "indent": 3,
                             "parameters": [
                                 65
                             ]
                         },
                         {
                             "code": 101,
-                            "indent": 2,
+                            "indent": 3,
                             "parameters": [
                                 "",
                                 0,
@@ -14283,7 +14383,7 @@
                         },
                         {
                             "code": 401,
-                            "indent": 2,
+                            "indent": 3,
                             "parameters": [
                                 "\\n< Serena >Ah...\nHowever, it's not going to be all the time.\nBasically, they told me to prioritize over there."
                             ]
@@ -14304,14 +14404,14 @@
                         },
                         {
                             "code": 117,
-                            "indent": 2,
+                            "indent": 3,
                             "parameters": [
                                 6
                             ]
                         },
                         {
                             "code": 101,
-                            "indent": 2,
+                            "indent": 3,
                             "parameters": [
                                 "",
                                 0,
@@ -14321,7 +14421,7 @@
                         },
                         {
                             "code": 401,
-                            "indent": 2,
+                            "indent": 3,
                             "parameters": [
                                 "\\n< Deacon >Over there?"
                             ]
@@ -14335,14 +14435,14 @@
                         },
                         {
                             "code": 117,
-                            "indent": 2,
+                            "indent": 3,
                             "parameters": [
-                                65
+                                64
                             ]
                         },
                         {
                             "code": 101,
-                            "indent": 2,
+                            "indent": 3,
                             "parameters": [
                                 "",
                                 0,
@@ -14352,7 +14452,7 @@
                         },
                         {
                             "code": 401,
-                            "indent": 2,
+                            "indent": 3,
                             "parameters": [
                                 "\\n< Serena >The brothel where that person is..."
                             ]
@@ -14366,14 +14466,14 @@
                         },
                         {
                             "code": 117,
-                            "indent": 2,
+                            "indent": 3,
                             "parameters": [
                                 6
                             ]
                         },
                         {
                             "code": 101,
-                            "indent": 2,
+                            "indent": 3,
                             "parameters": [
                                 "",
                                 0,
@@ -14383,7 +14483,7 @@
                         },
                         {
                             "code": 401,
-                            "indent": 2,
+                            "indent": 3,
                             "parameters": [
                                 "\\n< Deacon >Haa...\nSo, you've completely become that person's bitch, huh?"
                             ]
@@ -14404,7 +14504,7 @@
                         },
                         {
                             "code": 101,
-                            "indent": 2,
+                            "indent": 3,
                             "parameters": [
                                 "",
                                 0,
@@ -14414,7 +14514,7 @@
                         },
                         {
                             "code": 401,
-                            "indent": 2,
+                            "indent": 3,
                             "parameters": [
                                 "\\n< Deacon >That bastard has a ridiculously big dick, doesn't he?\nI wonder how you can handle that guy with your body."
                             ]
@@ -14432,6 +14532,202 @@
                             "parameters": [
                                 ""
                             ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 3,
+                            "parameters": []
+                        },
+                        {
+                            "code": 411,
+                            "indent": 2,
+                            "parameters": []
+                        },
+                        {
+                            "code": 117,
+                            "indent": 3,
+                            "parameters": [
+                                23
+                            ]
+                        },
+                        {
+                            "code": 117,
+                            "indent": 3,
+                            "parameters": [
+                                65
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 3,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 3,
+                            "parameters": [
+                                "あぁ。…とはいえ常時ではない。"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 3,
+                            "parameters": [
+                                "基本的にはあちらを優先しろという事だった。"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 3,
+                            "parameters": [
+                                "\\n<セレナ>"
+                            ]
+                        },
+                        {
+                            "code": 117,
+                            "indent": 3,
+                            "parameters": [
+                                6
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 3,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 3,
+                            "parameters": [
+                                "あちら？"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 3,
+                            "parameters": [
+                                "\\n<ディーコン>"
+                            ]
+                        },
+                        {
+                            "code": 117,
+                            "indent": 3,
+                            "parameters": [
+                                65
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 3,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 3,
+                            "parameters": [
+                                "奴のいるほうの娼館だ……。"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 3,
+                            "parameters": [
+                                "\\n<セレナ>"
+                            ]
+                        },
+                        {
+                            "code": 117,
+                            "indent": 3,
+                            "parameters": [
+                                6
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 3,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 3,
+                            "parameters": [
+                                "はぁ……。てぇ事は、お前。"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 3,
+                            "parameters": [
+                                "すっかりあいつのメスになったわけか？"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 3,
+                            "parameters": [
+                                "\\n<ディーコン>"
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 3,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 3,
+                            "parameters": [
+                                "あの野郎滅茶苦茶なデカチンだそうじゃねえか。"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 3,
+                            "parameters": [
+                                "その体でよく相手が務まるもんだ。"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 3,
+                            "parameters": [
+                                "\\n<ディーコン>"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 3,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 2,
+                            "parameters": []
                         },
                         {
                             "code": 111,
@@ -24151,8 +24447,17 @@
                             ]
                         },
                         {
-                            "code": 101,
+                            "code": 111,
                             "indent": 0,
+                            "parameters": [
+                                0,
+                                1126,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
                             "parameters": [
                                 "",
                                 0,
@@ -24162,7 +24467,79 @@
                         },
                         {
                             "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "そっちじゃねえ。"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "仕事する気ならまず俺に話しかけろ。"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "\\n<ディーコン>"
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "もうマダムがいた時とは違うんだよ。"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "何もかもな。"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "\\n<ディーコン>"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 411,
                             "indent": 0,
+                            "parameters": []
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
                             "parameters": [
                                 "\\n< Deacon >Hey, outsiders are not allowed to enter without permission."
                             ]
@@ -24173,6 +24550,16 @@
                             "parameters": [
                                 ""
                             ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
                         },
                         {
                             "code": 205,
