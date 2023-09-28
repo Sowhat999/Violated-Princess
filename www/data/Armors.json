@@ -56,9 +56,9 @@
     },
     {
         "id": 3,
-        "atypeId": 1,
-        "description": "",
-        "etypeId": 2,
+        "atypeId": 7,
+        "description": "少女を守護する聖獣の加護。\n力でこれを打ち破る事は難しいだろう。",
+        "etypeId": 3,
         "traits": [
             {
                 "code": 22,
@@ -66,20 +66,20 @@
                 "value": 0
             }
         ],
-        "iconIndex": 186,
-        "name": "",
+        "iconIndex": 160,
+        "name": "ユニコーンの加護",
         "note": "",
         "params": [
             0,
             0,
-            0,
-            1,
-            0,
-            0,
+            500,
+            500,
+            500,
+            500,
             0,
             0
         ],
-        "price": 300
+        "price": 1
     },
     {
         "id": 4,

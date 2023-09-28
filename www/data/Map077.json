@@ -5330,17 +5330,366 @@
                             "code": 111,
                             "indent": 0,
                             "parameters": [
-                                6,
-                                -1,
+                                0,
+                                1138,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 111,
+                            "indent": 1,
+                            "parameters": [
+                                1,
+                                111,
+                                0,
+                                30,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 117,
+                            "indent": 2,
+                            "parameters": [
+                                2
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 2,
+                            "parameters": [
+                                105,
+                                105,
+                                0,
+                                0,
+                                7
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 2,
+                            "parameters": [
+                                106,
+                                106,
+                                0,
+                                0,
+                                7
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 2,
+                            "parameters": [
+                                107,
+                                107,
+                                0,
+                                0,
+                                11
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 2,
+                            "parameters": [
+                                108,
+                                108,
+                                0,
+                                0,
                                 2
                             ]
                         },
                         {
                             "code": 117,
+                            "indent": 2,
+                            "parameters": [
+                                23
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 2,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "\\n<セレナ>あわわわ！？"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "こ、こんな格好で外に出られるわけないだろうが！"
+                            ]
+                        },
+                        {
+                            "code": 205,
+                            "indent": 2,
+                            "parameters": [
+                                -1,
+                                {
+                                    "list": [
+                                        {
+                                            "code": 4,
+                                            "indent": null
+                                        },
+                                        {
+                                            "code": 0
+                                        }
+                                    ],
+                                    "repeat": false,
+                                    "skippable": false,
+                                    "wait": true
+                                }
+                            ]
+                        },
+                        {
+                            "code": 505,
+                            "indent": 2,
+                            "parameters": [
+                                {
+                                    "code": 4,
+                                    "indent": null
+                                }
+                            ]
+                        },
+                        {
+                            "code": 117,
+                            "indent": 2,
+                            "parameters": [
+                                7
+                            ]
+                        },
+                        {
+                            "code": 119,
+                            "indent": 2,
+                            "parameters": [
+                                "終了"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": []
+                        },
+                        {
+                            "code": 411,
                             "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 117,
+                            "indent": 2,
                             "parameters": [
                                 2
                             ]
+                        },
+                        {
+                            "code": 111,
+                            "indent": 2,
+                            "parameters": [
+                                1,
+                                111,
+                                0,
+                                20,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 3,
+                            "parameters": [
+                                108,
+                                108,
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 117,
+                            "indent": 3,
+                            "parameters": [
+                                65
+                            ]
+                        },
+                        {
+                            "code": 117,
+                            "indent": 3,
+                            "parameters": [
+                                23
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 3,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 3,
+                            "parameters": [
+                                "…こんな恰好で人前に…。"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 3,
+                            "parameters": [
+                                "うぅ……。"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 3,
+                            "parameters": [
+                                "\\n<セレナ>"
+                            ]
+                        },
+                        {
+                            "code": 117,
+                            "indent": 3,
+                            "parameters": [
+                                7
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 3,
+                            "parameters": []
+                        },
+                        {
+                            "code": 411,
+                            "indent": 2,
+                            "parameters": []
+                        },
+                        {
+                            "code": 117,
+                            "indent": 3,
+                            "parameters": [
+                                2
+                            ]
+                        },
+                        {
+                            "code": 111,
+                            "indent": 3,
+                            "parameters": [
+                                1,
+                                125,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 117,
+                            "indent": 4,
+                            "parameters": [
+                                62
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 4,
+                            "parameters": [
+                                108,
+                                108,
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 4,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 4,
+                            "parameters": [
+                                "……うぅ"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 4,
+                            "parameters": [
+                                "\\n<セレナ>"
+                            ]
+                        },
+                        {
+                            "code": 117,
+                            "indent": 4,
+                            "parameters": [
+                                7
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 4,
+                            "parameters": []
+                        },
+                        {
+                            "code": 411,
+                            "indent": 3,
+                            "parameters": []
+                        },
+                        {
+                            "code": 0,
+                            "indent": 4,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 3,
+                            "parameters": []
+                        },
+                        {
+                            "code": 0,
+                            "indent": 3,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 2,
+                            "parameters": []
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 411,
+                            "indent": 0,
+                            "parameters": []
                         },
                         {
                             "code": 111,
@@ -5351,6 +5700,13 @@
                                 0,
                                 20,
                                 1
+                            ]
+                        },
+                        {
+                            "code": 117,
+                            "indent": 2,
+                            "parameters": [
+                                2
                             ]
                         },
                         {
@@ -5453,6 +5809,13 @@
                             ]
                         },
                         {
+                            "code": 117,
+                            "indent": 2,
+                            "parameters": [
+                                7
+                            ]
+                        },
+                        {
                             "code": 119,
                             "indent": 2,
                             "parameters": [
@@ -5478,6 +5841,13 @@
                                 0,
                                 10,
                                 1
+                            ]
+                        },
+                        {
+                            "code": 117,
+                            "indent": 3,
+                            "parameters": [
+                                2
                             ]
                         },
                         {
@@ -5536,6 +5906,13 @@
                             ]
                         },
                         {
+                            "code": 117,
+                            "indent": 3,
+                            "parameters": [
+                                7
+                            ]
+                        },
+                        {
                             "code": 119,
                             "indent": 3,
                             "parameters": [
@@ -5550,6 +5927,138 @@
                         {
                             "code": 411,
                             "indent": 2,
+                            "parameters": []
+                        },
+                        {
+                            "code": 111,
+                            "indent": 3,
+                            "parameters": [
+                                1,
+                                125,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 117,
+                            "indent": 4,
+                            "parameters": [
+                                2
+                            ]
+                        },
+                        {
+                            "code": 117,
+                            "indent": 4,
+                            "parameters": [
+                                61
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 4,
+                            "parameters": [
+                                108,
+                                108,
+                                0,
+                                0,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 4,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 4,
+                            "parameters": [
+                                "…下着ぐらい着よう。"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 4,
+                            "parameters": [
+                                "獣でもあるまいし。"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 4,
+                            "parameters": [
+                                "\\n<セレナ>"
+                            ]
+                        },
+                        {
+                            "code": 205,
+                            "indent": 4,
+                            "parameters": [
+                                -1,
+                                {
+                                    "list": [
+                                        {
+                                            "code": 4,
+                                            "indent": null
+                                        },
+                                        {
+                                            "code": 0
+                                        }
+                                    ],
+                                    "repeat": false,
+                                    "skippable": false,
+                                    "wait": true
+                                }
+                            ]
+                        },
+                        {
+                            "code": 505,
+                            "indent": 4,
+                            "parameters": [
+                                {
+                                    "code": 4,
+                                    "indent": null
+                                }
+                            ]
+                        },
+                        {
+                            "code": 117,
+                            "indent": 4,
+                            "parameters": [
+                                7
+                            ]
+                        },
+                        {
+                            "code": 119,
+                            "indent": 4,
+                            "parameters": [
+                                "終了"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 4,
+                            "parameters": []
+                        },
+                        {
+                            "code": 411,
+                            "indent": 3,
+                            "parameters": []
+                        },
+                        {
+                            "code": 0,
+                            "indent": 4,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 3,
                             "parameters": []
                         },
                         {
@@ -8054,6 +8563,15 @@
                             ]
                         },
                         {
+                            "code": 121,
+                            "indent": 0,
+                            "parameters": [
+                                51,
+                                51,
+                                1
+                            ]
+                        },
+                        {
                             "code": 201,
                             "indent": 0,
                             "parameters": [
@@ -8497,7 +9015,898 @@
             "x": 10,
             "y": 6
         },
-        null,
+        {
+            "id": 10,
+            "name": "着替え",
+            "note": "",
+            "pages": [
+                {
+                    "conditions": {
+                        "actorId": 1,
+                        "actorValid": false,
+                        "itemId": 1,
+                        "itemValid": false,
+                        "selfSwitchCh": "A",
+                        "selfSwitchValid": false,
+                        "switch1Id": 1,
+                        "switch1Valid": false,
+                        "switch2Id": 1,
+                        "switch2Valid": false,
+                        "variableId": 1,
+                        "variableValid": false,
+                        "variableValue": 0
+                    },
+                    "directionFix": true,
+                    "image": {
+                        "tileId": 0,
+                        "characterName": "!Flame",
+                        "direction": 8,
+                        "pattern": 0,
+                        "characterIndex": 7
+                    },
+                    "list": [
+                        {
+                            "code": 117,
+                            "indent": 0,
+                            "parameters": [
+                                2
+                            ]
+                        },
+                        {
+                            "code": 118,
+                            "indent": 0,
+                            "parameters": [
+                                "戻る"
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 0,
+                            "parameters": [
+                                109,
+                                109,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 117,
+                            "indent": 0,
+                            "parameters": [
+                                21
+                            ]
+                        },
+                        {
+                            "code": 102,
+                            "indent": 0,
+                            "parameters": [
+                                [
+                                    "髪型を変える",
+                                    "着替える",
+                                    "下着の確認en(v[123]>=1)",
+                                    "やめる"
+                                ],
+                                3,
+                                -1,
+                                1,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 402,
+                            "indent": 0,
+                            "parameters": [
+                                0,
+                                "髪型を変える"
+                            ]
+                        },
+                        {
+                            "code": 111,
+                            "indent": 1,
+                            "parameters": [
+                                1,
+                                104,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 250,
+                            "indent": 2,
+                            "parameters": [
+                                {
+                                    "name": "衣擦れ３",
+                                    "volume": 90,
+                                    "pitch": 100,
+                                    "pan": 0
+                                }
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 2,
+                            "parameters": [
+                                104,
+                                104,
+                                0,
+                                0,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 2,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "今日は下ろしておくか。"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "\\n<セレナ>"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": []
+                        },
+                        {
+                            "code": 411,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 122,
+                            "indent": 2,
+                            "parameters": [
+                                104,
+                                104,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 250,
+                            "indent": 2,
+                            "parameters": [
+                                {
+                                    "name": "衣擦れ２",
+                                    "volume": 90,
+                                    "pitch": 100,
+                                    "pan": 0
+                                }
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 2,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "これでよし。"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "\\n<セレナ>"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 402,
+                            "indent": 0,
+                            "parameters": [
+                                1,
+                                "着替える"
+                            ]
+                        },
+                        {
+                            "code": 117,
+                            "indent": 1,
+                            "parameters": [
+                                365
+                            ]
+                        },
+                        {
+                            "code": 117,
+                            "indent": 1,
+                            "parameters": [
+                                351
+                            ]
+                        },
+                        {
+                            "code": 117,
+                            "indent": 1,
+                            "parameters": [
+                                350
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 402,
+                            "indent": 0,
+                            "parameters": [
+                                2,
+                                "下着の確認en(v[123]>=1)"
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                221,
+                                221,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 117,
+                            "indent": 1,
+                            "parameters": [
+                                44
+                            ]
+                        },
+                        {
+                            "code": 250,
+                            "indent": 1,
+                            "parameters": [
+                                {
+                                    "name": "衣擦れ３",
+                                    "volume": 90,
+                                    "pitch": 150,
+                                    "pan": 0
+                                }
+                            ]
+                        },
+                        {
+                            "code": 111,
+                            "indent": 1,
+                            "parameters": [
+                                0,
+                                1138,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 111,
+                            "indent": 2,
+                            "parameters": [
+                                1,
+                                125,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 3,
+                            "parameters": [
+                                108,
+                                108,
+                                0,
+                                0,
+                                3
+                            ]
+                        },
+                        {
+                            "code": 117,
+                            "indent": 3,
+                            "parameters": [
+                                64
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 3,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 3,
+                            "parameters": [
+                                "うう、お股の辺りがすーすーする。"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 3,
+                            "parameters": [
+                                "こんな格好で外を歩かねばならないなんて…。"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 3,
+                            "parameters": [
+                                "\\n<セレナ>"
+                            ]
+                        },
+                        {
+                            "code": 117,
+                            "indent": 3,
+                            "parameters": [
+                                70
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 3,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 3,
+                            "parameters": [
+                                "でも、そうしないとまた酷い事を…。"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 3,
+                            "parameters": [
+                                "…嫌だ。恥ずかしい…こんなの嫌ぁ…。"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 3,
+                            "parameters": [
+                                "\\n<セレナ>"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 3,
+                            "parameters": []
+                        },
+                        {
+                            "code": 411,
+                            "indent": 2,
+                            "parameters": []
+                        },
+                        {
+                            "code": 122,
+                            "indent": 3,
+                            "parameters": [
+                                108,
+                                108,
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 117,
+                            "indent": 3,
+                            "parameters": [
+                                65
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 3,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 3,
+                            "parameters": [
+                                "…パンツをはいていても大丈夫だろうか。バレたら、また"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 3,
+                            "parameters": [
+                                "市警の奴らに酷い目に……。"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 3,
+                            "parameters": [
+                                "\\n<セレナ>"
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 3,
+                            "parameters": [
+                                108,
+                                108,
+                                0,
+                                0,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 117,
+                            "indent": 3,
+                            "parameters": [
+                                55
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 3,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 3,
+                            "parameters": [
+                                "大丈夫…バレなければ大丈夫だ。あいつらには近づかない"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 3,
+                            "parameters": [
+                                "様にしよう…。"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 3,
+                            "parameters": [
+                                "\\n<セレナ>"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 3,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 2,
+                            "parameters": []
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": []
+                        },
+                        {
+                            "code": 411,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 111,
+                            "indent": 2,
+                            "parameters": [
+                                1,
+                                125,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 3,
+                            "parameters": [
+                                108,
+                                108,
+                                0,
+                                0,
+                                3
+                            ]
+                        },
+                        {
+                            "code": 117,
+                            "indent": 3,
+                            "parameters": [
+                                72
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 3,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 3,
+                            "parameters": [
+                                "な、なんでパンツをはいていないのだ！"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 3,
+                            "parameters": [
+                                "こんな恥ずかしい状態で外を出るなんてありえないぞ！"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 3,
+                            "parameters": [
+                                "\\n<セレナ>"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 3,
+                            "parameters": []
+                        },
+                        {
+                            "code": 411,
+                            "indent": 2,
+                            "parameters": []
+                        },
+                        {
+                            "code": 122,
+                            "indent": 3,
+                            "parameters": [
+                                108,
+                                108,
+                                0,
+                                0,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 117,
+                            "indent": 3,
+                            "parameters": [
+                                55
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 3,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 3,
+                            "parameters": [
+                                "…大丈夫だな。特に破れていたりする様子はない。"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 3,
+                            "parameters": [
+                                "\\n<セレナ>"
+                            ]
+                        },
+                        {
+                            "code": 111,
+                            "indent": 3,
+                            "parameters": [
+                                0,
+                                22,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 117,
+                            "indent": 4,
+                            "parameters": [
+                                59
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 4,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 4,
+                            "parameters": [
+                                "こんなはしたない恰好、家の者に見られたら怒られてしまう"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 4,
+                            "parameters": [
+                                "な。……いや、今の私にはそんな価値すらないのかもしれな"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 4,
+                            "parameters": [
+                                "い…。"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 4,
+                            "parameters": [
+                                "\\n<セレナ>"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 4,
+                            "parameters": []
+                        },
+                        {
+                            "code": 411,
+                            "indent": 3,
+                            "parameters": []
+                        },
+                        {
+                            "code": 117,
+                            "indent": 4,
+                            "parameters": [
+                                52
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 4,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 4,
+                            "parameters": [
+                                "こんなはしたない恰好、家の者に見られたら怒られてしまう"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 4,
+                            "parameters": [
+                                "な。私も少悪い子になってしまったという事なのだろうか？"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 4,
+                            "parameters": [
+                                "\\n<セレナ>"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 4,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 3,
+                            "parameters": []
+                        },
+                        {
+                            "code": 0,
+                            "indent": 3,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 2,
+                            "parameters": []
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 119,
+                            "indent": 1,
+                            "parameters": [
+                                "戻る"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 402,
+                            "indent": 0,
+                            "parameters": [
+                                3,
+                                "やめる"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 404,
+                            "indent": 0,
+                            "parameters": []
+                        },
+                        {
+                            "code": 117,
+                            "indent": 0,
+                            "parameters": [
+                                151
+                            ]
+                        },
+                        {
+                            "code": 117,
+                            "indent": 0,
+                            "parameters": [
+                                7
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": []
+                        }
+                    ],
+                    "moveFrequency": 3,
+                    "moveRoute": {
+                        "list": [
+                            {
+                                "code": 0,
+                                "parameters": []
+                            }
+                        ],
+                        "repeat": true,
+                        "skippable": false,
+                        "wait": false
+                    },
+                    "moveSpeed": 3,
+                    "moveType": 0,
+                    "priorityType": 1,
+                    "stepAnime": true,
+                    "through": false,
+                    "trigger": 0,
+                    "walkAnime": false
+                },
+                {
+                    "conditions": {
+                        "actorId": 1,
+                        "actorValid": false,
+                        "itemId": 1,
+                        "itemValid": false,
+                        "selfSwitchCh": "A",
+                        "selfSwitchValid": false,
+                        "switch1Id": 37,
+                        "switch1Valid": true,
+                        "switch2Id": 1,
+                        "switch2Valid": false,
+                        "variableId": 1,
+                        "variableValid": false,
+                        "variableValue": 0
+                    },
+                    "directionFix": false,
+                    "image": {
+                        "characterIndex": 0,
+                        "characterName": "",
+                        "direction": 2,
+                        "pattern": 0,
+                        "tileId": 0
+                    },
+                    "list": [
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": []
+                        }
+                    ],
+                    "moveFrequency": 3,
+                    "moveRoute": {
+                        "list": [
+                            {
+                                "code": 0,
+                                "parameters": []
+                            }
+                        ],
+                        "repeat": true,
+                        "skippable": false,
+                        "wait": false
+                    },
+                    "moveSpeed": 3,
+                    "moveType": 0,
+                    "priorityType": 0,
+                    "stepAnime": false,
+                    "through": false,
+                    "trigger": 0,
+                    "walkAnime": true
+                }
+            ],
+            "x": 8,
+            "y": 4
+        },
         {
             "id": 11,
             "name": "セレナ睡眠姦",
@@ -33558,6 +34967,36 @@
                             ]
                         },
                         {
+                            "code": 111,
+                            "indent": 0,
+                            "parameters": [
+                                0,
+                                1138,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                125,
+                                125,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
+                        },
+                        {
                             "code": 117,
                             "indent": 0,
                             "parameters": [
@@ -47149,7 +48588,7 @@
                     "walkAnime": true
                 }
             ],
-            "x": 8,
+            "x": 12,
             "y": 4
         }
     ]

@@ -2804,11 +2804,30 @@
                             "parameters": []
                         },
                         {
-                            "code": 356,
+                            "code": 111,
                             "indent": 0,
+                            "parameters": [
+                                0,
+                                1300,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 356,
+                            "indent": 1,
                             "parameters": [
                                 "回想セーブ ローパー敗北　１"
                             ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
                         },
                         {
                             "code": 101,
@@ -18465,11 +18484,30 @@
                             ]
                         },
                         {
-                            "code": 356,
+                            "code": 111,
                             "indent": 0,
+                            "parameters": [
+                                0,
+                                1300,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 356,
+                            "indent": 1,
                             "parameters": [
                                 "回想セーブ 出産　ローパー洞窟で"
                             ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
                         },
                         {
                             "code": 122,
@@ -40716,6 +40754,32 @@
                             ]
                         },
                         {
+                            "code": 111,
+                            "indent": 1,
+                            "parameters": [
+                                0,
+                                1300,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 2,
+                            "parameters": [
+                                "Scene_Recollection.prototype.rngd_exit_scene();"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
                             "code": 119,
                             "indent": 1,
                             "parameters": [
@@ -41670,6 +41734,32 @@
                             ]
                         },
                         {
+                            "code": 111,
+                            "indent": 3,
+                            "parameters": [
+                                0,
+                                1300,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 4,
+                            "parameters": [
+                                "Scene_Recollection.prototype.rngd_exit_scene();"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 4,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 3,
+                            "parameters": []
+                        },
+                        {
                             "code": 0,
                             "indent": 3,
                             "parameters": []
@@ -42153,6 +42243,32 @@
                             "parameters": [
                                 "TEマップイベント呼び出し ローパーの苗床　凌辱 1"
                             ]
+                        },
+                        {
+                            "code": 111,
+                            "indent": 2,
+                            "parameters": [
+                                0,
+                                1300,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 3,
+                            "parameters": [
+                                "Scene_Recollection.prototype.rngd_exit_scene();"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 3,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 2,
+                            "parameters": []
                         },
                         {
                             "code": 0,
@@ -58933,6 +59049,17 @@
                             ]
                         },
                         {
+                            "code": 122,
+                            "indent": 0,
+                            "parameters": [
+                                2330,
+                                2330,
+                                0,
+                                0,
+                                20
+                            ]
+                        },
+                        {
                             "code": 117,
                             "indent": 0,
                             "parameters": [
@@ -59283,11 +59410,30 @@
                             "parameters": []
                         },
                         {
-                            "code": 356,
+                            "code": 111,
                             "indent": 0,
+                            "parameters": [
+                                0,
+                                1300,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 356,
+                            "indent": 1,
                             "parameters": [
                                 "回想セーブ ローパーバッドエンド"
                             ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
                         },
                         {
                             "code": 205,
@@ -59645,7 +59791,7 @@
                                     ],
                                     "repeat": false,
                                     "skippable": false,
-                                    "wait": false
+                                    "wait": true
                                 }
                             ]
                         },
@@ -62156,7 +62302,7 @@
                                     ],
                                     "repeat": false,
                                     "skippable": false,
-                                    "wait": false
+                                    "wait": true
                                 }
                             ]
                         },
@@ -62393,6 +62539,37 @@
                             "code": 205,
                             "indent": 0,
                             "parameters": [
+                                40,
+                                {
+                                    "list": [
+                                        {
+                                            "code": 18,
+                                            "indent": null
+                                        },
+                                        {
+                                            "code": 0
+                                        }
+                                    ],
+                                    "repeat": false,
+                                    "skippable": false,
+                                    "wait": false
+                                }
+                            ]
+                        },
+                        {
+                            "code": 505,
+                            "indent": 0,
+                            "parameters": [
+                                {
+                                    "code": 18,
+                                    "indent": null
+                                }
+                            ]
+                        },
+                        {
+                            "code": 205,
+                            "indent": 0,
+                            "parameters": [
                                 41,
                                 {
                                     "list": [
@@ -62422,7 +62599,7 @@
                                     ],
                                     "repeat": false,
                                     "skippable": false,
-                                    "wait": false
+                                    "wait": true
                                 }
                             ]
                         },
@@ -62472,37 +62649,6 @@
                             "parameters": [
                                 {
                                     "code": 17,
-                                    "indent": null
-                                }
-                            ]
-                        },
-                        {
-                            "code": 205,
-                            "indent": 0,
-                            "parameters": [
-                                40,
-                                {
-                                    "list": [
-                                        {
-                                            "code": 18,
-                                            "indent": null
-                                        },
-                                        {
-                                            "code": 0
-                                        }
-                                    ],
-                                    "repeat": false,
-                                    "skippable": false,
-                                    "wait": false
-                                }
-                            ]
-                        },
-                        {
-                            "code": 505,
-                            "indent": 0,
-                            "parameters": [
-                                {
-                                    "code": 18,
                                     "indent": null
                                 }
                             ]
@@ -62647,6 +62793,39 @@
                                 120,
                                 true
                             ]
+                        },
+                        {
+                            "code": 111,
+                            "indent": 0,
+                            "parameters": [
+                                0,
+                                1300,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 246,
+                            "indent": 1,
+                            "parameters": [
+                                1
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 1,
+                            "parameters": [
+                                "Scene_Recollection.prototype.rngd_exit_scene();"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
                         },
                         {
                             "code": 221,

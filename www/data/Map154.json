@@ -4341,6 +4341,15 @@
                             ]
                         },
                         {
+                            "code": 121,
+                            "indent": 0,
+                            "parameters": [
+                                1409,
+                                1409,
+                                0
+                            ]
+                        },
+                        {
                             "code": 242,
                             "indent": 0,
                             "parameters": [
@@ -4805,11 +4814,30 @@
                             ]
                         },
                         {
-                            "code": 356,
+                            "code": 111,
                             "indent": 0,
+                            "parameters": [
+                                0,
+                                1300,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 356,
+                            "indent": 1,
                             "parameters": [
                                 "回想セーブ 市警隊敗北"
                             ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
                         },
                         {
                             "code": 111,
@@ -8681,6 +8709,32 @@
                         },
                         {
                             "code": 221,
+                            "indent": 0,
+                            "parameters": []
+                        },
+                        {
+                            "code": 111,
+                            "indent": 0,
+                            "parameters": [
+                                0,
+                                1300,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 1,
+                            "parameters": [
+                                "Scene_Recollection.prototype.rngd_exit_scene();"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
                             "indent": 0,
                             "parameters": []
                         },

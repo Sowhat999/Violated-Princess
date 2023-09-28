@@ -3666,6 +3666,15 @@
                     },
                     "list": [
                         {
+                            "code": 121,
+                            "indent": 0,
+                            "parameters": [
+                                1361,
+                                1361,
+                                0
+                            ]
+                        },
+                        {
                             "code": 122,
                             "indent": 0,
                             "parameters": [
@@ -3822,6 +3831,32 @@
                             "indent": 1,
                             "parameters": [
                                 "終了"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
+                        },
+                        {
+                            "code": 111,
+                            "indent": 0,
+                            "parameters": [
+                                0,
+                                1300,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 1,
+                            "parameters": [
+                                "Scene_Recollection.prototype.rngd_exit_scene();"
                             ]
                         },
                         {
@@ -4176,11 +4211,30 @@
                             ]
                         },
                         {
-                            "code": 356,
+                            "code": 111,
                             "indent": 1,
+                            "parameters": [
+                                0,
+                                1300,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 356,
+                            "indent": 2,
                             "parameters": [
                                 "回想セーブ 貴族令嬢排泄凌辱　１"
                             ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 1,
+                            "parameters": []
                         },
                         {
                             "code": 205,
@@ -11493,11 +11547,30 @@
                             ]
                         },
                         {
-                            "code": 356,
+                            "code": 111,
                             "indent": 1,
+                            "parameters": [
+                                0,
+                                1300,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 356,
+                            "indent": 2,
                             "parameters": [
                                 "回想セーブ 貴族令嬢排泄凌辱　２"
                             ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 1,
+                            "parameters": []
                         },
                         {
                             "code": 117,

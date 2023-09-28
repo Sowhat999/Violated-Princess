@@ -5674,7 +5674,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "道具屋はギルドから左下。"
+                                "肉屋はギルドから右下。"
                             ]
                         },
                         {
@@ -23038,6 +23038,20 @@
                             ]
                         },
                         {
+                            "code": 117,
+                            "indent": 2,
+                            "parameters": [
+                                19
+                            ]
+                        },
+                        {
+                            "code": 119,
+                            "indent": 2,
+                            "parameters": [
+                                "イベント用措置"
+                            ]
+                        },
+                        {
                             "code": 0,
                             "indent": 2,
                             "parameters": []
@@ -23109,19 +23123,26 @@
                             "parameters": []
                         },
                         {
-                            "code": 121,
-                            "indent": 0,
-                            "parameters": [
-                                221,
-                                221,
-                                1
-                            ]
-                        },
-                        {
                             "code": 117,
                             "indent": 0,
                             "parameters": [
                                 19
+                            ]
+                        },
+                        {
+                            "code": 121,
+                            "indent": 0,
+                            "parameters": [
+                                51,
+                                51,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 118,
+                            "indent": 0,
+                            "parameters": [
+                                "イベント用措置"
                             ]
                         },
                         {
@@ -60253,7 +60274,7 @@
                             "code": 355,
                             "indent": 1,
                             "parameters": [
-                                "CommonPopupManager.showInfo({},'100Ｓ手に入れた。',null)"
+                                "CommonPopupManager.showInfo({},'200Ｓ手に入れた。',null)"
                             ]
                         },
                         {
@@ -60338,7 +60359,7 @@
                             "code": 355,
                             "indent": 1,
                             "parameters": [
-                                "CommonPopupManager.showInfo({},'100Ｓ手に入れた。',null)"
+                                "CommonPopupManager.showInfo({},'200Ｓ手に入れた。',null)"
                             ]
                         },
                         {
@@ -78531,6 +78552,15 @@
                             "indent": 1,
                             "parameters": [
                                 19
+                            ]
+                        },
+                        {
+                            "code": 121,
+                            "indent": 1,
+                            "parameters": [
+                                51,
+                                51,
+                                1
                             ]
                         },
                         {
