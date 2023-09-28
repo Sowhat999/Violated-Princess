@@ -745,7 +745,7 @@ var list =text.match(/\\n\<(.*)\>/g||/\\nc\<(.*)\>/g||/\\nr\<(.*)\>/g);
 //なお文中で指定されてる場合はそちらを優先。
 //#nameTag
 if(!list &&_count==0 &&sNameSet.length>0){
-this._texts[0]="\\n<"+sNameSet+">"+this._texts[0];
+this._texts[0]="\\n< "+sNameSet+" >"+this._texts[0];
 }//!list
 
 //

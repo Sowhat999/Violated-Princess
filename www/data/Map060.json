@@ -9040,8 +9040,8 @@
                             "indent": 1,
                             "parameters": [
                                 [
-                                    "I want you to take my child.",
-                                    "Nothing in particular."
+                                    "I want you to take my child",
+                                    "Nothing in particular"
                                 ],
                                 1,
                                 -1,
@@ -9078,7 +9078,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\n< Serena >I know, it's hard for you. I might be able to help you if you give me some money, it will cost you 1000s, is that OK?"
+                                "\\n< Serena >I know, it's hard for you. I might be able to help you if\nyou give me some money, it will cost you 1000s, is that OK?"
                             ]
                         },
                         {
@@ -9125,7 +9125,7 @@
                             "code": 401,
                             "indent": 3,
                             "parameters": [
-                                "\\n< Serena >...I'm sorry. But I have to protect them. Without money, I can't help you."
+                                "\\n< Serena >...I'm sorry. But I have to protect them. Without money, I\ncan't help you."
                             ]
                         },
                         {
@@ -9893,12 +9893,12 @@
                             "indent": 3,
                             "parameters": [
                                 [
-                                    "Gekran's child供if(v[1745])",
+                                    "Gekran's childif(v[1745])",
                                     "Marcel's childif(v[1746])",
                                     "Tim's childif(v[1747])",
                                     "Ganuron childif(v[1748])",
                                     "Verdun's childif(v[1749])",
-                                    "Maxis's child.if(v[1750])"
+                                    "Maxis's childif(v[1750])"
                                 ],
                                 -1,
                                 -1,
@@ -10537,7 +10537,7 @@
                             "indent": 3,
                             "parameters": [
                                 [
-                                "unknown father childif(v[1769])"
+                                    "unknown father childif(v[1769])"
                                 ],
                                 -1,
                                 -1,
@@ -11437,8 +11437,8 @@
                             "indent": 2,
                             "parameters": [
                                 [
-                                    "I want to take my child back.",
-                                    "I have other business."
+                                    "I want to take my child back",
+                                    "I have other business"
                                 ],
                                 -2,
                                 -1,
@@ -12297,12 +12297,12 @@
                             "indent": 4,
                             "parameters": [
                                 [
-                                    "Gekran's child供if(v[1745])",
+                                    "Gekran's childif(v[1745])",
                                     "Marcel's childif(v[1746])",
                                     "Tim's childif(v[1747])",
                                     "Ganuron childif(v[1748])",
                                     "Verdun's childif(v[1749])",
-                                    "Maxis's child.if(v[1750])"
+                                    "Maxis's childif(v[1750])"
                                 ],
                                 -1,
                                 -1,
@@ -13369,7 +13369,7 @@
                             "code": 401,
                             "indent": 5,
                             "parameters": [
-                                "\\n< Cecilia >Goblin children, huh... And they're heavy, even for a redneck."
+                                "\\n< Cecilia >Goblin children, huh... And they're heavy, even for a\nredneck."
                             ]
                         },
                         {
@@ -25858,7 +25858,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n< Cecilia >I don't care, it's fine...! That's what you're being thinking... now."
+                                "\\n< Cecilia >I don't care, it's fine...! That's what you're being\nthinking... now."
                             ]
                         },
                         {
