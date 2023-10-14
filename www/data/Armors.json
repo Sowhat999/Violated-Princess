@@ -30,7 +30,7 @@
     {
         "id": 2,
         "atypeId": 2,
-        "description": "A magical book in which information about monsters is\nautomatically recorded. It contains basic information about monsters.",
+        "description": "A magical book in which information about monsters is\nautomatically recorded. It contains basic information about\nmonsters.",
         "etypeId": 2,
         "traits": [
             {
@@ -57,7 +57,7 @@
     {
         "id": 3,
         "atypeId": 7,
-        "description": "少女を守護する聖獣の加護。\n力でこれを打ち破る事は難しいだろう。",
+        "description": "The divine protection of the sacred beast that protects the\ngirl. It would be difficult to overcome this with force.",
         "etypeId": 3,
         "traits": [
             {
@@ -67,7 +67,7 @@
             }
         ],
         "iconIndex": 160,
-        "name": "ユニコーンの加護",
+        "name": "Unicorn's Blessing",
         "note": "",
         "params": [
             0,
