@@ -252,7 +252,7 @@
     },
     {
         "id": 9,
-        "animationId": 0,
+        "animationId": 42,
         "consumable": true,
         "damage": {
             "critical": false,
@@ -261,15 +261,28 @@
             "type": 0,
             "variance": 20
         },
-        "description": "",
-        "effects": [],
+        "description": "HP、MPを半分まで回復する\nアペイロンの失敗作。失敗作とはいえその効果は絶大",
+        "effects": [
+            {
+                "code": 11,
+                "dataId": 0,
+                "value1": 0.5,
+                "value2": 0
+            },
+            {
+                "code": 12,
+                "dataId": 0,
+                "value1": 0.5,
+                "value2": 0
+            }
+        ],
         "hitType": 0,
-        "iconIndex": 0,
+        "iconIndex": 178,
         "itypeId": 1,
-        "name": "",
+        "name": "アペイロン？",
         "note": "",
         "occasion": 0,
-        "price": 0,
+        "price": 10000,
         "repeats": 1,
         "scope": 7,
         "speed": 0,
@@ -2057,7 +2070,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "セレナがアルベールとの間に作った赤子。\n乳を飲んでいる間は大人しい。",
+        "description": "セレナがサミュエルとの間に作った赤子。\n乳を飲んでいる間は大人しい。",
         "effects": [],
         "hitType": 0,
         "iconIndex": 12,
@@ -2109,7 +2122,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "セレナがアルベールとの間に作った赤子。\n乳を飲んでいる間は大人しい。",
+        "description": "セレナマチアスとの間に作った赤子。\n乳を飲んでいる間は大人しい。",
         "effects": [],
         "hitType": 0,
         "iconIndex": 12,
@@ -2135,7 +2148,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "セレナがアルベールとの間に作った赤子。\n乳を飲んでいる間は大人しい。",
+        "description": "セレナがマルセルとの間に作った赤子。\n乳を飲んでいる間は大人しい。",
         "effects": [],
         "hitType": 0,
         "iconIndex": 12,

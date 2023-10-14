@@ -727,7 +727,12 @@ Game_System.prototype.countChild = function (taneoyaId) {
             var _this = _super.call(this) || this;
             var offsetX = 60;
             var max = centerLineInfo.maxY() + 6;
-            _this.bitmap = new Bitmap(160, max + 20);
+
+            // bitmapの最大サイズ超え
+            let margin = 20;
+            max = Math.min(max, 16384 - margin);
+
+            _this.bitmap = new Bitmap(120, max + margin);
             _this.drawLineVertial(offsetX + 0, 0, max);
             _this.drawLineVertial(offsetX + 3, 0, max);
             var yList = centerLineInfo.leftYList();
