@@ -5327,8 +5327,24 @@
                     },
                     "list": [
                         {
+                            "code": 117,
+                            "indent": 0,
+                            "parameters": [
+                                2
+                            ]
+                        },
+                        {
                             "code": 111,
                             "indent": 0,
+                            "parameters": [
+                                6,
+                                -1,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 111,
+                            "indent": 1,
                             "parameters": [
                                 0,
                                 1138,
@@ -5337,7 +5353,7 @@
                         },
                         {
                             "code": 111,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 1,
                                 111,
@@ -5347,15 +5363,8 @@
                             ]
                         },
                         {
-                            "code": 117,
-                            "indent": 2,
-                            "parameters": [
-                                2
-                            ]
-                        },
-                        {
                             "code": 122,
-                            "indent": 2,
+                            "indent": 3,
                             "parameters": [
                                 105,
                                 105,
@@ -5366,7 +5375,7 @@
                         },
                         {
                             "code": 122,
-                            "indent": 2,
+                            "indent": 3,
                             "parameters": [
                                 106,
                                 106,
@@ -5377,7 +5386,7 @@
                         },
                         {
                             "code": 122,
-                            "indent": 2,
+                            "indent": 3,
                             "parameters": [
                                 107,
                                 107,
@@ -5388,7 +5397,7 @@
                         },
                         {
                             "code": 122,
-                            "indent": 2,
+                            "indent": 3,
                             "parameters": [
                                 108,
                                 108,
@@ -5399,14 +5408,14 @@
                         },
                         {
                             "code": 117,
-                            "indent": 2,
+                            "indent": 3,
                             "parameters": [
                                 23
                             ]
                         },
                         {
                             "code": 101,
-                            "indent": 2,
+                            "indent": 3,
                             "parameters": [
                                 "",
                                 0,
@@ -5416,21 +5425,21 @@
                         },
                         {
                             "code": 401,
-                            "indent": 2,
+                            "indent": 3,
                             "parameters": [
                                 "\\n< Serena >Ahh! Th-there's no way I can go outside dressed\nlike this!"
                             ]
                         },
                         {
-                            "code": 0,
-                            "indent": 2,
+                            "code": 401,
+                            "indent": 3,
                             "parameters": [
                                 ""
                             ]
                         },
                         {
                             "code": 205,
-                            "indent": 2,
+                            "indent": 3,
                             "parameters": [
                                 -1,
                                 {
@@ -5451,7 +5460,7 @@
                         },
                         {
                             "code": 505,
-                            "indent": 2,
+                            "indent": 3,
                             "parameters": [
                                 {
                                     "code": 4,
@@ -5460,39 +5469,25 @@
                             ]
                         },
                         {
-                            "code": 117,
-                            "indent": 2,
-                            "parameters": [
-                                7
-                            ]
-                        },
-                        {
                             "code": 119,
-                            "indent": 2,
+                            "indent": 3,
                             "parameters": [
                                 "終了"
                             ]
                         },
                         {
                             "code": 0,
-                            "indent": 2,
+                            "indent": 3,
                             "parameters": []
                         },
                         {
                             "code": 411,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": []
                         },
                         {
-                            "code": 117,
-                            "indent": 2,
-                            "parameters": [
-                                2
-                            ]
-                        },
-                        {
                             "code": 111,
-                            "indent": 2,
+                            "indent": 3,
                             "parameters": [
                                 1,
                                 111,
@@ -5503,7 +5498,7 @@
                         },
                         {
                             "code": 122,
-                            "indent": 3,
+                            "indent": 4,
                             "parameters": [
                                 108,
                                 108,
@@ -5514,21 +5509,21 @@
                         },
                         {
                             "code": 117,
-                            "indent": 3,
+                            "indent": 4,
                             "parameters": [
                                 65
                             ]
                         },
                         {
                             "code": 117,
-                            "indent": 3,
+                            "indent": 4,
                             "parameters": [
                                 23
                             ]
                         },
                         {
                             "code": 101,
-                            "indent": 3,
+                            "indent": 4,
                             "parameters": [
                                 "",
                                 0,
@@ -5538,52 +5533,38 @@
                         },
                         {
                             "code": 401,
-                            "indent": 3,
+                            "indent": 4,
                             "parameters": [
                                 "\\n< Serena >...Dressed like this in front of people... Ugh..."
                             ]
                         },
                         {
-                            "code": 0,
-                            "indent": 3,
+                            "code": 401,
+                            "indent": 4,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 4,
                             "parameters": [
                                 ""
                             ]
                         },
                         {
                             "code": 0,
-                            "indent": 3,
-                            "parameters": [
-                                ""
-                            ]
-                        },
-                        {
-                            "code": 117,
-                            "indent": 3,
-                            "parameters": [
-                                7
-                            ]
-                        },
-                        {
-                            "code": 0,
-                            "indent": 3,
+                            "indent": 4,
                             "parameters": []
                         },
                         {
                             "code": 411,
-                            "indent": 2,
+                            "indent": 3,
                             "parameters": []
                         },
                         {
-                            "code": 117,
-                            "indent": 3,
-                            "parameters": [
-                                2
-                            ]
-                        },
-                        {
                             "code": 111,
-                            "indent": 3,
+                            "indent": 4,
                             "parameters": [
                                 1,
                                 125,
@@ -5594,14 +5575,14 @@
                         },
                         {
                             "code": 117,
-                            "indent": 4,
+                            "indent": 5,
                             "parameters": [
                                 62
                             ]
                         },
                         {
                             "code": 122,
-                            "indent": 4,
+                            "indent": 5,
                             "parameters": [
                                 108,
                                 108,
@@ -5612,7 +5593,7 @@
                         },
                         {
                             "code": 101,
-                            "indent": 4,
+                            "indent": 5,
                             "parameters": [
                                 "",
                                 0,
@@ -5622,33 +5603,36 @@
                         },
                         {
                             "code": 401,
-                            "indent": 4,
+                            "indent": 5,
                             "parameters": [
                                 "\\n< Serena >......Ugh."
                             ]
                         },
                         {
-                            "code": 0,
-                            "indent": 4,
+                            "code": 401,
+                            "indent": 5,
                             "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 117,
-                            "indent": 4,
-                            "parameters": [
-                                7
-                            ]
-                        },
-                        {
                             "code": 0,
-                            "indent": 4,
+                            "indent": 5,
                             "parameters": []
                         },
                         {
                             "code": 411,
-                            "indent": 3,
+                            "indent": 4,
+                            "parameters": []
+                        },
+                        {
+                            "code": 0,
+                            "indent": 5,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 4,
                             "parameters": []
                         },
                         {
@@ -5677,23 +5661,13 @@
                             "parameters": []
                         },
                         {
-                            "code": 412,
-                            "indent": 1,
-                            "parameters": []
-                        },
-                        {
-                            "code": 0,
-                            "indent": 1,
-                            "parameters": []
-                        },
-                        {
                             "code": 411,
-                            "indent": 0,
+                            "indent": 1,
                             "parameters": []
                         },
                         {
                             "code": 111,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": [
                                 1,
                                 111,
@@ -5703,15 +5677,8 @@
                             ]
                         },
                         {
-                            "code": 117,
-                            "indent": 2,
-                            "parameters": [
-                                2
-                            ]
-                        },
-                        {
                             "code": 122,
-                            "indent": 2,
+                            "indent": 3,
                             "parameters": [
                                 105,
                                 105,
@@ -5722,7 +5689,7 @@
                         },
                         {
                             "code": 122,
-                            "indent": 2,
+                            "indent": 3,
                             "parameters": [
                                 106,
                                 106,
@@ -5733,7 +5700,7 @@
                         },
                         {
                             "code": 122,
-                            "indent": 2,
+                            "indent": 3,
                             "parameters": [
                                 107,
                                 107,
@@ -5744,7 +5711,7 @@
                         },
                         {
                             "code": 122,
-                            "indent": 2,
+                            "indent": 3,
                             "parameters": [
                                 108,
                                 108,
@@ -5755,7 +5722,7 @@
                         },
                         {
                             "code": 101,
-                            "indent": 2,
+                            "indent": 3,
                             "parameters": [
                                 "",
                                 0,
@@ -5765,21 +5732,21 @@
                         },
                         {
                             "code": 401,
-                            "indent": 2,
+                            "indent": 3,
                             "parameters": [
                                 "\\n< Serena >Ahh! Th-there's no way I can go outside dressed\nlike this!"
                             ]
                         },
                         {
-                            "code": 0,
-                            "indent": 2,
+                            "code": 401,
+                            "indent": 3,
                             "parameters": [
                                 ""
                             ]
                         },
                         {
                             "code": 205,
-                            "indent": 2,
+                            "indent": 3,
                             "parameters": [
                                 -1,
                                 {
@@ -5800,7 +5767,7 @@
                         },
                         {
                             "code": 505,
-                            "indent": 2,
+                            "indent": 3,
                             "parameters": [
                                 {
                                     "code": 4,
@@ -5809,32 +5776,25 @@
                             ]
                         },
                         {
-                            "code": 117,
-                            "indent": 2,
-                            "parameters": [
-                                7
-                            ]
-                        },
-                        {
                             "code": 119,
-                            "indent": 2,
+                            "indent": 3,
                             "parameters": [
                                 "終了"
                             ]
                         },
                         {
                             "code": 0,
-                            "indent": 2,
+                            "indent": 3,
                             "parameters": []
                         },
                         {
                             "code": 411,
-                            "indent": 1,
+                            "indent": 2,
                             "parameters": []
                         },
                         {
                             "code": 111,
-                            "indent": 2,
+                            "indent": 3,
                             "parameters": [
                                 1,
                                 111,
@@ -5844,15 +5804,8 @@
                             ]
                         },
                         {
-                            "code": 117,
-                            "indent": 3,
-                            "parameters": [
-                                2
-                            ]
-                        },
-                        {
                             "code": 101,
-                            "indent": 3,
+                            "indent": 4,
                             "parameters": [
                                 "",
                                 0,
@@ -5862,21 +5815,21 @@
                         },
                         {
                             "code": 401,
-                            "indent": 3,
+                            "indent": 4,
                             "parameters": [
                                 "\\n< Serena >Isn't it a bit too revealing? I can't go out in\npublic dressed like this."
                             ]
                         },
                         {
-                            "code": 0,
-                            "indent": 3,
+                            "code": 401,
+                            "indent": 4,
                             "parameters": [
                                 ""
                             ]
                         },
                         {
                             "code": 205,
-                            "indent": 3,
+                            "indent": 4,
                             "parameters": [
                                 -1,
                                 {
@@ -5897,7 +5850,7 @@
                         },
                         {
                             "code": 505,
-                            "indent": 3,
+                            "indent": 4,
                             "parameters": [
                                 {
                                     "code": 4,
@@ -5906,32 +5859,25 @@
                             ]
                         },
                         {
-                            "code": 117,
-                            "indent": 3,
-                            "parameters": [
-                                7
-                            ]
-                        },
-                        {
                             "code": 119,
-                            "indent": 3,
+                            "indent": 4,
                             "parameters": [
                                 "終了"
                             ]
                         },
                         {
                             "code": 0,
-                            "indent": 3,
+                            "indent": 4,
                             "parameters": []
                         },
                         {
                             "code": 411,
-                            "indent": 2,
+                            "indent": 3,
                             "parameters": []
                         },
                         {
                             "code": 111,
-                            "indent": 3,
+                            "indent": 4,
                             "parameters": [
                                 1,
                                 125,
@@ -5942,21 +5888,14 @@
                         },
                         {
                             "code": 117,
-                            "indent": 4,
-                            "parameters": [
-                                2
-                            ]
-                        },
-                        {
-                            "code": 117,
-                            "indent": 4,
+                            "indent": 5,
                             "parameters": [
                                 61
                             ]
                         },
                         {
                             "code": 122,
-                            "indent": 4,
+                            "indent": 5,
                             "parameters": [
                                 108,
                                 108,
@@ -5967,7 +5906,7 @@
                         },
                         {
                             "code": 101,
-                            "indent": 4,
+                            "indent": 5,
                             "parameters": [
                                 "",
                                 0,
@@ -5977,28 +5916,28 @@
                         },
                         {
                             "code": 401,
-                            "indent": 4,
+                            "indent": 5,
                             "parameters": [
                                 "\\n< Serena >...I should at least wear underwear. I'm not an\nanimal."
                             ]
                         },
                         {
-                            "code": 0,
-                            "indent": 4,
+                            "code": 401,
+                            "indent": 5,
                             "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 0,
-                            "indent": 4,
+                            "code": 401,
+                            "indent": 5,
                             "parameters": [
                                 ""
                             ]
                         },
                         {
                             "code": 205,
-                            "indent": 4,
+                            "indent": 5,
                             "parameters": [
                                 -1,
                                 {
@@ -6019,7 +5958,7 @@
                         },
                         {
                             "code": 505,
-                            "indent": 4,
+                            "indent": 5,
                             "parameters": [
                                 {
                                     "code": 4,
@@ -6028,27 +5967,30 @@
                             ]
                         },
                         {
-                            "code": 117,
-                            "indent": 4,
-                            "parameters": [
-                                7
-                            ]
-                        },
-                        {
                             "code": 119,
-                            "indent": 4,
+                            "indent": 5,
                             "parameters": [
                                 "終了"
                             ]
                         },
                         {
                             "code": 0,
-                            "indent": 4,
+                            "indent": 5,
                             "parameters": []
                         },
                         {
                             "code": 411,
-                            "indent": 3,
+                            "indent": 4,
+                            "parameters": []
+                        },
+                        {
+                            "code": 0,
+                            "indent": 5,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 4,
                             "parameters": []
                         },
                         {
@@ -6090,13 +6032,6 @@
                             "code": 412,
                             "indent": 0,
                             "parameters": []
-                        },
-                        {
-                            "code": 117,
-                            "indent": 0,
-                            "parameters": [
-                                135
-                            ]
                         },
                         {
                             "code": 111,
@@ -6108,6 +6043,13 @@
                             ]
                         },
                         {
+                            "code": 117,
+                            "indent": 1,
+                            "parameters": [
+                                135
+                            ]
+                        },
+                        {
                             "code": 111,
                             "indent": 1,
                             "parameters": [
@@ -6115,7 +6057,7 @@
                                 2383,
                                 0,
                                 1,
-                                0
+                                2
                             ]
                         },
                         {
@@ -6220,6 +6162,78 @@
                             "parameters": []
                         },
                         {
+                            "code": 411,
+                            "indent": 0,
+                            "parameters": []
+                        },
+                        {
+                            "code": 117,
+                            "indent": 1,
+                            "parameters": [
+                                55
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "お金も払ってないの個室を利用する事はできない。"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "\\n<セレナ>"
+                            ]
+                        },
+                        {
+                            "code": 205,
+                            "indent": 1,
+                            "parameters": [
+                                -1,
+                                {
+                                    "list": [
+                                        {
+                                            "code": 1,
+                                            "indent": null
+                                        },
+                                        {
+                                            "code": 0
+                                        }
+                                    ],
+                                    "repeat": false,
+                                    "skippable": false,
+                                    "wait": true
+                                }
+                            ]
+                        },
+                        {
+                            "code": 505,
+                            "indent": 1,
+                            "parameters": [
+                                {
+                                    "code": 1,
+                                    "indent": null
+                                }
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
                             "code": 412,
                             "indent": 0,
                             "parameters": []
@@ -6236,6 +6250,13 @@
                             "indent": 0,
                             "parameters": [
                                 7
+                            ]
+                        },
+                        {
+                            "code": 117,
+                            "indent": 0,
+                            "parameters": [
+                                151
                             ]
                         },
                         {

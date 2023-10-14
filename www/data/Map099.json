@@ -293,9 +293,9 @@
         8050,
         7680,
         7664,
-        7664,
-        7666,
-        7700,
+        7668,
+        7694,
+        7709,
         6568,
         6568,
         6572,
@@ -329,9 +329,9 @@
         8056,
         7680,
         7664,
-        7664,
-        7664,
         7688,
+        8050,
+        8054,
         2850,
         2836,
         2836,
@@ -365,9 +365,9 @@
         2861,
         7680,
         7664,
-        7668,
-        7692,
-        7702,
+        7688,
+        8056,
+        8060,
         2832,
         2816,
         2816,
@@ -3354,8 +3354,8 @@
         0,
         0,
         0,
-        0,
-        0,
+        202,
+        202,
         101,
         99,
         0,
@@ -6384,126 +6384,8 @@
             "x": 22,
             "y": 0
         },
-        {
-            "id": 4,
-            "name": "",
-            "note": "<TE:オークA[対象者]>",
-            "pages": [
-                {
-                    "conditions": {
-                        "actorId": 1,
-                        "actorValid": false,
-                        "itemId": 1,
-                        "itemValid": false,
-                        "selfSwitchCh": "A",
-                        "selfSwitchValid": false,
-                        "switch1Id": 1,
-                        "switch1Valid": false,
-                        "switch2Id": 1,
-                        "switch2Valid": false,
-                        "variableId": 1,
-                        "variableValid": false,
-                        "variableValue": 0
-                    },
-                    "directionFix": false,
-                    "image": {
-                        "tileId": 0,
-                        "characterName": "エネミー BT_オーク01-1",
-                        "direction": 2,
-                        "pattern": 0,
-                        "characterIndex": 0
-                    },
-                    "list": [
-                        {
-                            "code": 0,
-                            "indent": 0,
-                            "parameters": []
-                        }
-                    ],
-                    "moveFrequency": 3,
-                    "moveRoute": {
-                        "list": [
-                            {
-                                "code": 0,
-                                "parameters": []
-                            }
-                        ],
-                        "repeat": true,
-                        "skippable": false,
-                        "wait": false
-                    },
-                    "moveSpeed": 3,
-                    "moveType": 1,
-                    "priorityType": 0,
-                    "stepAnime": false,
-                    "through": false,
-                    "trigger": 0,
-                    "walkAnime": true
-                }
-            ],
-            "x": 3,
-            "y": 15
-        },
-        {
-            "id": 5,
-            "name": "",
-            "note": "<TE:オークB[対象者]>",
-            "pages": [
-                {
-                    "conditions": {
-                        "actorId": 1,
-                        "actorValid": false,
-                        "itemId": 1,
-                        "itemValid": false,
-                        "selfSwitchCh": "A",
-                        "selfSwitchValid": false,
-                        "switch1Id": 1,
-                        "switch1Valid": false,
-                        "switch2Id": 1,
-                        "switch2Valid": false,
-                        "variableId": 1,
-                        "variableValid": false,
-                        "variableValue": 0
-                    },
-                    "directionFix": false,
-                    "image": {
-                        "tileId": 0,
-                        "characterName": "エネミー BT_オーク01-1",
-                        "direction": 2,
-                        "pattern": 0,
-                        "characterIndex": 0
-                    },
-                    "list": [
-                        {
-                            "code": 0,
-                            "indent": 0,
-                            "parameters": []
-                        }
-                    ],
-                    "moveFrequency": 3,
-                    "moveRoute": {
-                        "list": [
-                            {
-                                "code": 0,
-                                "parameters": []
-                            }
-                        ],
-                        "repeat": true,
-                        "skippable": false,
-                        "wait": false
-                    },
-                    "moveSpeed": 3,
-                    "moveType": 1,
-                    "priorityType": 0,
-                    "stepAnime": false,
-                    "through": false,
-                    "trigger": 0,
-                    "walkAnime": true
-                }
-            ],
-            "x": 4,
-            "y": 15
-        },
+        null,
+        null,
         {
             "id": 6,
             "name": "オーク　敗北イベント",
