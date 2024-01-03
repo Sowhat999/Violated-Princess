@@ -1,4 +1,4 @@
-﻿{
+{
     "airship": {
         "bgm": {
             "name": "Ship3",
@@ -124,7 +124,7 @@
         "Accessory",
         "Accessory"
     ],
-    "gameTitle": "vh移植",
+    "gameTitle": "Visual Novel Port",
     "gameoverMe": {
         "name": "Gameover1",
         "pan": 0,
@@ -2396,7 +2396,7 @@
             "criticalToActor": "A painful blow!!",
             "criticalToEnemy": "An excellent hit!!",
             "debuffAdd": "%1's %2 went down!",
-            "defeat": "%1 was defeated.",
+            "defeat": "%1 was defeated",
             "emerge": "%1 emerged!",
             "enemyDamage": "Did %2 damage to %1!",
             "enemyDrain": "Stole %3 of %1's %2!",

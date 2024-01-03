@@ -235,7 +235,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "An item requested for procurement by Guesclin. It\nemits a strange magical power.",
+        "description": "An item requested for procurement by Guesclin. It emits a\nstrange magical power.",
         "effects": [],
         "hitType": 0,
         "iconIndex": 146,
@@ -261,7 +261,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "HP、MPを半分まで回復する\nアペイロンの失敗作。失敗作とはいえその効果は絶大",
+        "description": "Restores HP and MP to half. A failed creation of Apeiron.\nDespite being a failure, its effect is tremendous.",
         "effects": [
             {
                 "code": 11,
@@ -279,7 +279,7 @@
         "hitType": 0,
         "iconIndex": 178,
         "itypeId": 1,
-        "name": "アペイロン？",
+        "name": "Apeiron?",
         "note": "",
         "occasion": 0,
         "price": 10000,
@@ -456,7 +456,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "A maid-like waitress uniform with a cute fluttering design \nthat makes me worry about the short length of the skirt.",
+        "description": "A maid-like waitress uniform with a cute fluttering design\nthat makes me worry about the short length of the skirt.",
         "effects": [],
         "hitType": 0,
         "iconIndex": 154,
@@ -482,7 +482,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "A luxury item worth an entire year's living expense\nfor common people.",
+        "description": "A luxury item worth an entire year's living expense for\ncommon people.",
         "effects": [],
         "hitType": 0,
         "iconIndex": 154,
@@ -508,7 +508,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "A simple bra made without hesitation using a high-\nquality material, silk.",
+        "description": "A simple bra made without hesitation using a high- quality\nmaterial, silk.",
         "effects": [],
         "hitType": 0,
         "iconIndex": 154,
@@ -619,7 +619,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "A card on which the adventurer's history is engraved.\nIt is sometimes used as an identification card.",
+        "description": "A card on which the adventurer's history is engraved. It is\nsometimes used as an identification card.",
         "effects": [
             {
                 "code": 44,
@@ -652,7 +652,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "The Guildmaster gave me an abortion pill to pass on\nto Erika, but...",
+        "description": "The Guildmaster gave me an abortion pill to pass on to\nErika, but...",
         "effects": [
             {
                 "code": 44,
@@ -685,7 +685,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "A baked confection made by kneading wheat and\nmilk and sweetened with a slightly sweet tree sap.",
+        "description": "A baked confection made by kneading wheat and milk and\nsweetened with a slightly sweet tree sap.",
         "effects": [
             {
                 "code": 11,
@@ -744,7 +744,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "A delivery to midwife Katherine. No idea what\npurpose this serves...",
+        "description": "A delivery to midwife Katherine. No idea what purpose this\nserves...",
         "effects": [],
         "hitType": 0,
         "iconIndex": 291,
@@ -822,7 +822,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "It allows for prostitution and guarantees\nthe health condition of the prostitutes.",
+        "description": "It allows for prostitution and guarantees the health\ncondition of the prostitutes.",
         "effects": [],
         "hitType": 0,
         "iconIndex": 188,
@@ -1030,7 +1030,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "A goblin child entrusted to me by adventurer Shirley.\nIt wriggles eerily in my arms.",
+        "description": "A goblin child entrusted to me by adventurer Shirley. It\nwriggles eerily in my arms.",
         "effects": [],
         "hitType": 0,
         "iconIndex": 13,
@@ -1160,7 +1160,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "The origin is unknown, but it can serve as a\nsubstitute for breast milk.",
+        "description": "The origin is unknown, but it can serve as a substitute for\nbreast milk.",
         "effects": [],
         "hitType": 0,
         "iconIndex": 228,
@@ -1186,7 +1186,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "For pregnant women to extract excess breast milk\non their own. It eases some of the tension in the breasts.",
+        "description": "For pregnant women to extract excess breast milk on their\nown. It eases some of the tension in the breasts.",
         "effects": [],
         "hitType": 0,
         "iconIndex": 227,
@@ -1394,7 +1394,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "A goblin infant born from Serena. It is an ugly\ncreature with no typical cuteness seen in infants.",
+        "description": "A goblin infant born from Serena. It is an ugly creature\nwith no typical cuteness seen in infants.",
         "effects": [],
         "hitType": 0,
         "iconIndex": 13,
@@ -1420,7 +1420,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "The orc baby born from Serena. Its sturdy and muscular\nbody is so heavy that one cannot hold it for long.",
+        "description": "The orc baby born from Serena. Its sturdy and muscular body\nis so heavy that one cannot hold it for long.",
         "effects": [],
         "hitType": 0,
         "iconIndex": 13,
@@ -1446,7 +1446,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "A young Warg pup born of Serena. Its growth is fast,\nand it could walk anywhere if left on the floor.",
+        "description": "A young Warg pup born of Serena. Its growth is fast, and it\ncould walk anywhere if left on the floor.",
         "effects": [],
         "hitType": 0,
         "iconIndex": 13,
@@ -1472,7 +1472,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "A pigman baby born from Serena. Its flabby skin\nelicits a physiological aversion from the mother.",
+        "description": "A pigman baby born from Serena. Its flabby skin elicits a\nphysiological aversion from the mother.",
         "effects": [],
         "hitType": 0,
         "iconIndex": 13,
@@ -1498,7 +1498,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "The foal of Stallion born to Serena. Ferocious.\nPlunder is a more fitting term than nursing.",
+        "description": "The foal of Stallion born to Serena. Ferocious. Plunder is a\nmore fitting term than nursing.",
         "effects": [],
         "hitType": 0,
         "iconIndex": 13,
@@ -1524,7 +1524,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "A slime larva came out of Serena. He can't communicate,\nand it is not even clear if it's sleeping or not.",
+        "description": "A slime larva came out of Serena. He can't communicate, and\nit is not even clear if it's sleeping or not.",
         "effects": [],
         "hitType": 0,
         "iconIndex": 13,
@@ -1550,7 +1550,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "A baby Loper born from Serena. It sometimes seems to\ntry to coil around here.",
+        "description": "A baby Loper born from Serena. It sometimes seems to try to\ncoil around here.",
         "effects": [],
         "hitType": 0,
         "iconIndex": 13,
@@ -1680,7 +1680,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "A child born to Serena with an unknown father. They\nare currently sleeping innocently...",
+        "description": "A child born to Serena with an unknown father. They are\ncurrently sleeping innocently...",
         "effects": [],
         "hitType": 0,
         "iconIndex": 12,
@@ -1810,7 +1810,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "A baby born between Serena and John. Every time she\nholds the baby, unpleasant memories cross her mind.",
+        "description": "A baby born between Serena and John. Every time she holds\nthe baby, unpleasant memories cross her mind.",
         "effects": [],
         "hitType": 0,
         "iconIndex": 12,
@@ -1940,7 +1940,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "The baby that Serena had with Guy. The smell of prison\nrises up in her nose.",
+        "description": "The baby that Serena had with Guy. The smell of prison rises\nup in her nose.",
         "effects": [],
         "hitType": 0,
         "iconIndex": 12,
@@ -2018,7 +2018,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "A child born between Serena and the owner of the cheap\ninn, Vincent.\nSerena has no memory of it and is terrified.",
+        "description": "A child born between Serena and the owner of the cheap inn,\nVincent. Serena has no memory of it and is terrified.",
         "effects": [],
         "hitType": 0,
         "iconIndex": 12,
@@ -2044,7 +2044,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "The baby that Serena had with Albel.\nIt is quiet while drinking milk.",
+        "description": "The baby that Serena had with Albel. It is quiet while\ndrinking milk.",
         "effects": [],
         "hitType": 0,
         "iconIndex": 12,
@@ -2096,7 +2096,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "Serena's child born between her and the owner of the\nweapon shop, Denis. She does not feel as if she\nis the parent and this child",
+        "description": "Serena's child born between her and the owner of the weapon\nshop, Denis. She does not feel as if she is the parent and\nthis child",
         "effects": [],
         "hitType": 0,
         "iconIndex": 12,
@@ -2174,7 +2174,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "A child born between Serena and the brothel's\nmanager, Deacon. He is very familiar with\nSerena and it is very creepy.",
+        "description": "A child born between Serena and the brothel's manager,\nDeacon. He is very familiar with Serena and it is very\ncreepy.",
         "effects": [],
         "hitType": 0,
         "iconIndex": 12,
@@ -2226,7 +2226,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "A baby born between Serena and the chief of the city\npolice, Desmoulins.\nI just can't help but think it's cute.",
+        "description": "A baby born between Serena and the chief of the city police,\nDesmoulins. I just can't help but think it's cute.",
         "effects": [],
         "hitType": 0,
         "iconIndex": 12,
@@ -2252,7 +2252,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "The child born between Serena and town doctor\nRodríguez. She hopes that this baby will a\nleast grow up to be a decent child.",
+        "description": "The child born between Serena and town doctor Rodríguez. She\nhopes that this baby will a least grow up to be a decent\nchild.",
         "effects": [],
         "hitType": 0,
         "iconIndex": 12,
@@ -2382,7 +2382,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "The child Serena had with Guesclin. Thinking about\nthis child makes my head feel fuzzy.",
+        "description": "The child Serena had with Guesclin. Thinking about this\nchild makes my head feel fuzzy.",
         "effects": [],
         "hitType": 0,
         "iconIndex": 12,
@@ -2434,7 +2434,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "A child born from Serena and Ganelon. A proof of\nhumiliation, violence, and submission.\nI just can't help it, I can't love it.",
+        "description": "A child born from Serena and Ganelon. A proof of\nhumiliation, violence, and submission. I just can't help it,\nI can't love it.",
         "effects": [],
         "hitType": 0,
         "iconIndex": 12,
@@ -2460,7 +2460,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "A baby born between Serena and Bardon. Although the\nchild was not desired, Serena wishes for it to be happy.",
+        "description": "A baby born between Serena and Bardon. Although the child\nwas not desired, Serena wishes for it to be happy.",
         "effects": [],
         "hitType": 0,
         "iconIndex": 12,
@@ -2668,7 +2668,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "A child born between Serena and someone from the city\npolice. Because he hid is face, the parent of this child is unknown.",
+        "description": "A child born between Serena and someone from the city\npolice. Because he hid is face, the parent of this child is\nunknown.",
         "effects": [],
         "hitType": 0,
         "iconIndex": 12,
@@ -2694,7 +2694,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "The child that Serena had with her guildmates. No,\nthey're not my friends. Those who did such a thing.",
+        "description": "The child that Serena had with her guildmates. No, they're\nnot my friends. Those who did such a thing.",
         "effects": [],
         "hitType": 0,
         "iconIndex": 12,
@@ -2720,7 +2720,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "A child Serena had with a thug. She was raped and\nforcibly impregnated.\nThere is no way I could ever love them.",
+        "description": "A child Serena had with a thug. She was raped and forcibly\nimpregnated. There is no way I could ever love them.",
         "effects": [],
         "hitType": 0,
         "iconIndex": 12,
@@ -2746,7 +2746,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "The baby Serena had with a thug. The vulgar laughs of\nthe men still echo in my ears.",
+        "description": "The baby Serena had with a thug. The vulgar laughs of the\nmen still echo in my ears.",
         "effects": [],
         "hitType": 0,
         "iconIndex": 12,
@@ -2798,7 +2798,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "A child born to Serena and a homeless person. He\nhas slow reactions and a vacant look in his eyes.",
+        "description": "A child born to Serena and a homeless person. He has slow\nreactions and a vacant look in his eyes.",
         "effects": [],
         "hitType": 0,
         "iconIndex": 12,
@@ -2824,7 +2824,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "The child Serena had with a customer at her work.\nHis name is unknown. I feel very miserable.",
+        "description": "The child Serena had with a customer at her work. His name\nis unknown. I feel very miserable.",
         "effects": [],
         "hitType": 0,
         "iconIndex": 12,
@@ -2876,7 +2876,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "A child born between Serena and the prisoners.\nHellish days. It is still within her hands.",
+        "description": "A child born between Serena and the prisoners. Hellish days.\nIt is still within her hands.",
         "effects": [],
         "hitType": 0,
         "iconIndex": 12,
@@ -2902,7 +2902,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "A child born from the union of Serena and Stallion.\nThat man must be laughing.",
+        "description": "A child born from the union of Serena and Stallion. That man\nmust be laughing.",
         "effects": [],
         "hitType": 0,
         "iconIndex": 12,
@@ -2928,7 +2928,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "A baby born between Serena and Ganelon's son. Will\nthis child also grow up to harm someone? Like I did.",
+        "description": "A baby born between Serena and Ganelon's son. Will this\nchild also grow up to harm someone? Like I did.",
         "effects": [],
         "hitType": 0,
         "iconIndex": 12,
@@ -2954,7 +2954,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "A child born between Serena and her own goblin son.\nA twofold abomination should never be allowed to exist.",
+        "description": "A child born between Serena and her own goblin son. A\ntwofold abomination should never be allowed to exist.",
         "effects": [],
         "hitType": 0,
         "iconIndex": 13,
@@ -3032,7 +3032,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "A child born between Serena and her swine-man\n son. Is there any crime as horrifying as this?",
+        "description": "A child born between Serena and her swine-man  son. Is there\nany crime as horrifying as this?",
         "effects": [],
         "hitType": 0,
         "iconIndex": 13,
@@ -3058,7 +3058,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "A child created by Serena and her son Stallion.\nIts huge penis is standing erect. Pure terror.",
+        "description": "A child created by Serena and her son Stallion. Its huge\npenis is standing erect. Pure terror.",
         "effects": [],
         "hitType": 0,
         "iconIndex": 13,
@@ -3084,7 +3084,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "The child that Serena bore from her own son Roper.\nIt has been almost attacked several times. At this rate...",
+        "description": "The child that Serena bore from her own son Roper. It has\nbeen almost attacked several times. At this rate...",
         "effects": [],
         "hitType": 0,
         "iconIndex": 13,
@@ -4237,7 +4237,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "A medicine that can somewhat restore the condition of\nthe vagina.",
+        "description": "A medicine that can somewhat restore the condition of the\nvagina.",
         "effects": [
             {
                 "code": 44,
@@ -4270,7 +4270,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "A medicine that can somewhat restore the condition of\nthe buttocks.",
+        "description": "A medicine that can somewhat restore the condition of the\nbuttocks.",
         "effects": [
             {
                 "code": 44,
@@ -4303,7 +4303,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "A medicine if consumed, will cause a person to\nbecome in a state able to have multiple pregnancies.",
+        "description": "A medicine if consumed, will cause a person to become in a\nstate able to have multiple pregnancies.",
         "effects": [
             {
                 "code": 44,
@@ -4336,7 +4336,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "Drinking it will make you become pregnant with just\none vaginal ejaculation for the rest of the day.",
+        "description": "Drinking it will make you become pregnant with just one\nvaginal ejaculation for the rest of the day.",
         "effects": [
             {
                 "code": 44,
@@ -4402,7 +4402,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "Medicine that restores one's innate characteristics\nback to their original state.",
+        "description": "Medicine that restores one's innate characteristics back to\ntheir original state.",
         "effects": [
             {
                 "code": 44,
