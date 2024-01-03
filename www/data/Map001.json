@@ -14499,7 +14499,1592 @@
             "x": 8,
             "y": 5
         },
-        null,
+        {
+            "id": 5,
+            "name": "テンプレ",
+            "note": "",
+            "pages": [
+                {
+                    "conditions": {
+                        "actorId": 1,
+                        "actorValid": false,
+                        "itemId": 1,
+                        "itemValid": false,
+                        "selfSwitchCh": "A",
+                        "selfSwitchValid": false,
+                        "switch1Id": 1,
+                        "switch1Valid": false,
+                        "switch2Id": 1,
+                        "switch2Valid": false,
+                        "variableId": 1,
+                        "variableValid": false,
+                        "variableValue": 0
+                    },
+                    "directionFix": false,
+                    "image": {
+                        "tileId": 0,
+                        "characterName": "!テンプレイベント用チップ",
+                        "direction": 2,
+                        "pattern": 1,
+                        "characterIndex": 0
+                    },
+                    "list": [
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"エロ：粘液・注ぐ 05\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Absorb1\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Absorb2\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Applause1\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Applause2\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Attack1\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Attack2\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Attack3\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Battle1\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Battle2\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Battle3\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Bell1\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Bell2\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Bell3\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Blow1\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Blow2\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Blow3\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Book1\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Book2\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Break\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Buzzer1\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Buzzer2\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Cancel1\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Cancel2\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Cat\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Chest1\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Chest2\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Close1\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Close2\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Close3\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Coin\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Collapse1\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Collapse2\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Collapse3\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Collapse4\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Computer\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Cow\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Crash\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Crossbow\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Crow\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Cursor1\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Cursor2\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Damage1\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Damage2\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Damage3\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Damage4\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Damage5\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Darkness1\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Darkness2\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Darkness3\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Darkness4\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Darkness5\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Decision1\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Decision2\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Devil1\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Devil2\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Disappointment\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Dive\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Dog\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Door1\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Door2\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Door3\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Door4\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Down1\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Down2\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Earth1\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Earth2\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Earth3\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Earth4\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Earth5\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Electrocardiogram\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Equip1\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Equip2\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Evasion1\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Evasion2\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Explosion1\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Explosion2\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Fall\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Fire1\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Fire2\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Fire3\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Flash1\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Flash2\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Frog\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Growl\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Gun1\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Gun2\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Hammer\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Heal1\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Heal2\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Heal3\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Horn\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Horse\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Ice1\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Ice2\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Ice3\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Ice4\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Ice5\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Item1\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Item2\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Item3\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Jump1\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Jump2\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Key\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Knock\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Laser1\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Laser2\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Laugh\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Launch\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Leakage\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Liquid\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Load\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Machine\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Magic1\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Magic2\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Magic3\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Magic4\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Miss\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Monster1\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Monster2\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Monster3\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Monster4\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Monster5\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Move1\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Move2\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Move3\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Move4\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Move5\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Neon\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Noise\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Open1\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Open2\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Open3\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Open4\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Open5\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Paralyze1\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Paralyze2\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Paralyze3\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Parry\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Phone\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Poison\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Pollen\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Powerup\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Push\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Raise1\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Raise2\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Recovery\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Reflection\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Run\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Saint1\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Saint2\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Saint3\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Saint4\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Saint5\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Sand\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Save\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Scream\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Sheep\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Shop1\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Shop2\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Shot1\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Shot2\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Shot3\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Silence\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Siren\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Skill1\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Skill2\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Skill3\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Slash1\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Slash2\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Slash3\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Slash4\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Slash5\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Sleep\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Sound1\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Sound2\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Sound3\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Splash\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Stare\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Starlight\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Switch1\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Switch2\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Switch3\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Sword1\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Sword2\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Sword3\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Sword4\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Sword5\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Teleport\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Thunder1\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Thunder2\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Thunder3\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Thunder4\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Thunder5\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Thunder6\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Thunder7\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Thunder8\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Thunder9\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Thunder10\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Transceiver\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Twine\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Up1\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Up2\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Up3\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Up4\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Water1\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Water2\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Water3\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Water4\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Water5\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Wind1\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Wind2\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Wind3\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Wind4\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Wind5\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Wind6\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Wind7\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 355,
+                            "indent": 0,
+                            "parameters": [
+                                "AudioManager.playSe({\"name\":\"Wolf\",\"volume\":100,\"pitch\":100,\"pan\":0})"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": []
+                        }
+                    ],
+                    "moveFrequency": 3,
+                    "moveRoute": {
+                        "list": [
+                            {
+                                "code": 0,
+                                "parameters": []
+                            }
+                        ],
+                        "repeat": true,
+                        "skippable": false,
+                        "wait": false
+                    },
+                    "moveSpeed": 3,
+                    "moveType": 0,
+                    "priorityType": 1,
+                    "stepAnime": false,
+                    "through": false,
+                    "trigger": 0,
+                    "walkAnime": true
+                }
+            ],
+            "x": 6,
+            "y": 5
+        },
         null,
         {
             "id": 7,
@@ -15002,367 +16587,93 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "出産赤子数",
-                                    "出産膣",
-                                    "服装",
-                                    "腕",
-                                    "生き物",
-                                    "性器ダメージ"
+                                    "立ち絵差分を見る",
+                                    "精液",
+                                    "服装のダメージ",
+                                    "妊娠値操作",
+                                    "性器ダメージ",
+                                    "やめる"
                                 ],
-                                1,
-                                0,
-                                1,
-                                0
-                            ]
-                        },
-                        {
-                            "code": 402,
-                            "indent": 0,
-                            "parameters": [
-                                0,
-                                "出産赤子数"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 1,
-                            "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "０１　人間０１　０２　人間０２　０３　オーク"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "０４　ゴブリン　０５　スライム　０６　ピッグマン"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "０７　ワーグ"
-                            ]
-                        },
-                        {
-                            "code": 103,
-                            "indent": 1,
-                            "parameters": [
-                                238,
-                                1
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 1,
-                            "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "０～２"
-                            ]
-                        },
-                        {
-                            "code": 103,
-                            "indent": 1,
-                            "parameters": [
-                                234,
-                                1
-                            ]
-                        },
-                        {
-                            "code": 0,
-                            "indent": 1,
-                            "parameters": []
-                        },
-                        {
-                            "code": 402,
-                            "indent": 0,
-                            "parameters": [
-                                1,
-                                "出産膣"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 1,
-                            "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "０１　人間０１　０２　人間０２　０３　オーク"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "０４　ゴブリン　０５　スライム　０６　ピッグマン"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "０７　ワーグ"
-                            ]
-                        },
-                        {
-                            "code": 103,
-                            "indent": 1,
-                            "parameters": [
-                                238,
-                                1
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 1,
-                            "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "０～８"
-                            ]
-                        },
-                        {
-                            "code": 103,
-                            "indent": 1,
-                            "parameters": [
-                                239,
-                                1
-                            ]
-                        },
-                        {
-                            "code": 0,
-                            "indent": 1,
-                            "parameters": []
-                        },
-                        {
-                            "code": 402,
-                            "indent": 0,
-                            "parameters": [
-                                2,
-                                "服装"
-                            ]
-                        },
-                        {
-                            "code": 102,
-                            "indent": 1,
-                            "parameters": [
-                                [
-                                    "ネグリジェ、ボディスーツ",
-                                    "アファービレ状態",
-                                    "全脱ぎ"
-                                ],
-                                1,
-                                0,
-                                2,
-                                0
-                            ]
-                        },
-                        {
-                            "code": 402,
-                            "indent": 1,
-                            "parameters": [
-                                0,
-                                "ネグリジェ、ボディスーツ"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 2,
-                            "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "なし０　ボディスーツ１　ネグリジェ２"
-                            ]
-                        },
-                        {
-                            "code": 103,
-                            "indent": 2,
-                            "parameters": [
-                                123,
-                                1
-                            ]
-                        },
-                        {
-                            "code": 0,
-                            "indent": 2,
-                            "parameters": []
-                        },
-                        {
-                            "code": 402,
-                            "indent": 1,
-                            "parameters": [
-                                1,
-                                "アファービレ状態"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 2,
-                            "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "なし０　通常シークレフ１　子宮アーマーパージ２"
-                            ]
-                        },
-                        {
-                            "code": 103,
-                            "indent": 2,
-                            "parameters": [
-                                122,
-                                1
-                            ]
-                        },
-                        {
-                            "code": 0,
-                            "indent": 2,
-                            "parameters": []
-                        },
-                        {
-                            "code": 402,
-                            "indent": 1,
-                            "parameters": [
-                                2,
-                                "全脱ぎ"
-                            ]
-                        },
-                        {
-                            "code": 117,
-                            "indent": 2,
-                            "parameters": [
-                                352
-                            ]
-                        },
-                        {
-                            "code": 0,
-                            "indent": 2,
-                            "parameters": []
-                        },
-                        {
-                            "code": 404,
-                            "indent": 1,
-                            "parameters": []
-                        },
-                        {
-                            "code": 0,
-                            "indent": 1,
-                            "parameters": []
-                        },
-                        {
-                            "code": 402,
-                            "indent": 0,
-                            "parameters": [
-                                3,
-                                "腕"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 1,
-                            "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "通常０　目擦り１"
-                            ]
-                        },
-                        {
-                            "code": 103,
-                            "indent": 1,
-                            "parameters": [
-                                223,
-                                1
-                            ]
-                        },
-                        {
-                            "code": 0,
-                            "indent": 1,
-                            "parameters": []
-                        },
-                        {
-                            "code": 402,
-                            "indent": 0,
-                            "parameters": [
-                                4,
-                                "生き物"
-                            ]
-                        },
-                        {
-                            "code": 103,
-                            "indent": 1,
-                            "parameters": [
-                                236,
-                                1
-                            ]
-                        },
-                        {
-                            "code": 0,
-                            "indent": 1,
-                            "parameters": []
-                        },
-                        {
-                            "code": 402,
-                            "indent": 0,
-                            "parameters": [
                                 5,
-                                "性器ダメージ"
+                                -1,
+                                2,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 402,
+                            "indent": 0,
+                            "parameters": [
+                                0,
+                                "立ち絵差分を見る"
+                            ]
+                        },
+                        {
+                            "code": 121,
+                            "indent": 1,
+                            "parameters": [
+                                1000,
+                                1000,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 112,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 230,
+                            "indent": 2,
+                            "parameters": [
+                                60
+                            ]
+                        },
+                        {
+                            "code": 111,
+                            "indent": 2,
+                            "parameters": [
+                                0,
+                                1000,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 113,
+                            "indent": 3,
+                            "parameters": []
+                        },
+                        {
+                            "code": 0,
+                            "indent": 3,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 2,
+                            "parameters": []
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": []
+                        },
+                        {
+                            "code": 413,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 402,
+                            "indent": 0,
+                            "parameters": [
+                                1,
+                                "精液"
                             ]
                         },
                         {
@@ -15370,8 +16681,11 @@
                             "indent": 1,
                             "parameters": [
                                 [
-                                    "膣",
-                                    "アナル",
+                                    "膣精液",
+                                    "頭精液",
+                                    "体精液",
+                                    "アナル精液",
+                                    "綺麗にする",
                                     "やめる"
                                 ],
                                 1,
@@ -15385,43 +16699,18 @@
                             "indent": 1,
                             "parameters": [
                                 0,
-                                "膣"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 2,
-                            "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "膣ダメージ"
-                            ]
-                        },
-                        {
-                            "code": 103,
-                            "indent": 2,
-                            "parameters": [
-                                1035,
-                                4
+                                "膣精液"
                             ]
                         },
                         {
                             "code": 122,
                             "indent": 2,
                             "parameters": [
-                                1036,
-                                1036,
-                                0,
+                                1024,
+                                1024,
                                 1,
-                                1035
+                                0,
+                                1
                             ]
                         },
                         {
@@ -15434,43 +16723,18 @@
                             "indent": 1,
                             "parameters": [
                                 1,
-                                "アナル"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 2,
-                            "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "アナルダメージ"
-                            ]
-                        },
-                        {
-                            "code": 103,
-                            "indent": 2,
-                            "parameters": [
-                                1041,
-                                4
+                                "頭精液"
                             ]
                         },
                         {
                             "code": 122,
                             "indent": 2,
                             "parameters": [
-                                1042,
-                                1042,
-                                0,
+                                1022,
+                                1022,
                                 1,
-                                1041
+                                0,
+                                1
                             ]
                         },
                         {
@@ -15483,6 +16747,78 @@
                             "indent": 1,
                             "parameters": [
                                 2,
+                                "体精液"
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 2,
+                            "parameters": [
+                                1023,
+                                1023,
+                                1,
+                                0,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": []
+                        },
+                        {
+                            "code": 402,
+                            "indent": 1,
+                            "parameters": [
+                                3,
+                                "アナル精液"
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 2,
+                            "parameters": [
+                                1025,
+                                1025,
+                                1,
+                                0,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": []
+                        },
+                        {
+                            "code": 402,
+                            "indent": 1,
+                            "parameters": [
+                                4,
+                                "綺麗にする"
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 2,
+                            "parameters": [
+                                1022,
+                                1026,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": []
+                        },
+                        {
+                            "code": 402,
+                            "indent": 1,
+                            "parameters": [
+                                5,
                                 "やめる"
                             ]
                         },
@@ -15502,33 +16838,10 @@
                             "parameters": []
                         },
                         {
-                            "code": 404,
-                            "indent": 0,
-                            "parameters": []
-                        },
-                        {
-                            "code": 102,
-                            "indent": 0,
-                            "parameters": [
-                                [
-                                    "服装のダメージ",
-                                    "精液",
-                                    "差分を見る",
-                                    "妊娠値操作",
-                                    "ピアス、刺青",
-                                    "やめる"
-                                ],
-                                5,
-                                0,
-                                2,
-                                0
-                            ]
-                        },
-                        {
                             "code": 402,
                             "indent": 0,
                             "parameters": [
-                                0,
+                                2,
                                 "服装のダメージ"
                             ]
                         },
@@ -15694,253 +17007,6 @@
                         },
                         {
                             "code": 404,
-                            "indent": 1,
-                            "parameters": []
-                        },
-                        {
-                            "code": 0,
-                            "indent": 1,
-                            "parameters": []
-                        },
-                        {
-                            "code": 402,
-                            "indent": 0,
-                            "parameters": [
-                                1,
-                                "精液"
-                            ]
-                        },
-                        {
-                            "code": 102,
-                            "indent": 1,
-                            "parameters": [
-                                [
-                                    "膣精液",
-                                    "頭精液",
-                                    "体精液",
-                                    "アナル精液",
-                                    "綺麗にする",
-                                    "やめる"
-                                ],
-                                1,
-                                0,
-                                2,
-                                0
-                            ]
-                        },
-                        {
-                            "code": 402,
-                            "indent": 1,
-                            "parameters": [
-                                0,
-                                "膣精液"
-                            ]
-                        },
-                        {
-                            "code": 103,
-                            "indent": 2,
-                            "parameters": [
-                                1024,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 0,
-                            "indent": 2,
-                            "parameters": []
-                        },
-                        {
-                            "code": 402,
-                            "indent": 1,
-                            "parameters": [
-                                1,
-                                "頭精液"
-                            ]
-                        },
-                        {
-                            "code": 103,
-                            "indent": 2,
-                            "parameters": [
-                                1022,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 0,
-                            "indent": 2,
-                            "parameters": []
-                        },
-                        {
-                            "code": 402,
-                            "indent": 1,
-                            "parameters": [
-                                2,
-                                "体精液"
-                            ]
-                        },
-                        {
-                            "code": 103,
-                            "indent": 2,
-                            "parameters": [
-                                1023,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 0,
-                            "indent": 2,
-                            "parameters": []
-                        },
-                        {
-                            "code": 402,
-                            "indent": 1,
-                            "parameters": [
-                                3,
-                                "アナル精液"
-                            ]
-                        },
-                        {
-                            "code": 103,
-                            "indent": 2,
-                            "parameters": [
-                                1025,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 0,
-                            "indent": 2,
-                            "parameters": []
-                        },
-                        {
-                            "code": 402,
-                            "indent": 1,
-                            "parameters": [
-                                4,
-                                "綺麗にする"
-                            ]
-                        },
-                        {
-                            "code": 122,
-                            "indent": 2,
-                            "parameters": [
-                                1023,
-                                1023,
-                                0,
-                                0,
-                                0
-                            ]
-                        },
-                        {
-                            "code": 122,
-                            "indent": 2,
-                            "parameters": [
-                                1022,
-                                1022,
-                                0,
-                                0,
-                                0
-                            ]
-                        },
-                        {
-                            "code": 122,
-                            "indent": 2,
-                            "parameters": [
-                                1024,
-                                1024,
-                                0,
-                                0,
-                                0
-                            ]
-                        },
-                        {
-                            "code": 0,
-                            "indent": 2,
-                            "parameters": []
-                        },
-                        {
-                            "code": 402,
-                            "indent": 1,
-                            "parameters": [
-                                5,
-                                "やめる"
-                            ]
-                        },
-                        {
-                            "code": 0,
-                            "indent": 2,
-                            "parameters": []
-                        },
-                        {
-                            "code": 404,
-                            "indent": 1,
-                            "parameters": []
-                        },
-                        {
-                            "code": 0,
-                            "indent": 1,
-                            "parameters": []
-                        },
-                        {
-                            "code": 402,
-                            "indent": 0,
-                            "parameters": [
-                                2,
-                                "差分を見る"
-                            ]
-                        },
-                        {
-                            "code": 121,
-                            "indent": 1,
-                            "parameters": [
-                                1000,
-                                1000,
-                                0
-                            ]
-                        },
-                        {
-                            "code": 112,
-                            "indent": 1,
-                            "parameters": []
-                        },
-                        {
-                            "code": 230,
-                            "indent": 2,
-                            "parameters": [
-                                60
-                            ]
-                        },
-                        {
-                            "code": 111,
-                            "indent": 2,
-                            "parameters": [
-                                0,
-                                1000,
-                                1
-                            ]
-                        },
-                        {
-                            "code": 113,
-                            "indent": 3,
-                            "parameters": []
-                        },
-                        {
-                            "code": 0,
-                            "indent": 3,
-                            "parameters": []
-                        },
-                        {
-                            "code": 412,
-                            "indent": 2,
-                            "parameters": []
-                        },
-                        {
-                            "code": 0,
-                            "indent": 2,
-                            "parameters": []
-                        },
-                        {
-                            "code": 413,
                             "indent": 1,
                             "parameters": []
                         },
@@ -16252,24 +17318,139 @@
                             "indent": 0,
                             "parameters": [
                                 4,
-                                "ピアス、刺青"
+                                "性器ダメージ"
+                            ]
+                        },
+                        {
+                            "code": 102,
+                            "indent": 1,
+                            "parameters": [
+                                [
+                                    "膣",
+                                    "アナル",
+                                    "やめる"
+                                ],
+                                1,
+                                0,
+                                2,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 402,
+                            "indent": 1,
+                            "parameters": [
+                                0,
+                                "膣"
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 2,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "膣ダメージ"
                             ]
                         },
                         {
                             "code": 103,
+                            "indent": 2,
+                            "parameters": [
+                                1035,
+                                4
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 2,
+                            "parameters": [
+                                1036,
+                                1036,
+                                0,
+                                1,
+                                1035
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": []
+                        },
+                        {
+                            "code": 402,
                             "indent": 1,
                             "parameters": [
-                                251,
-                                1
+                                1,
+                                "アナル"
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 2,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "アナルダメージ"
                             ]
                         },
                         {
                             "code": 103,
+                            "indent": 2,
+                            "parameters": [
+                                1041,
+                                4
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 2,
+                            "parameters": [
+                                1042,
+                                1042,
+                                0,
+                                1,
+                                1041
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": []
+                        },
+                        {
+                            "code": 402,
                             "indent": 1,
                             "parameters": [
-                                252,
-                                1
+                                2,
+                                "やめる"
                             ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": []
+                        },
+                        {
+                            "code": 404,
+                            "indent": 1,
+                            "parameters": []
                         },
                         {
                             "code": 0,
@@ -16328,8 +17509,8 @@
                     "walkAnime": true
                 }
             ],
-            "x": 16,
-            "y": 6
+            "x": 9,
+            "y": 5
         },
         {
             "id": 24,
